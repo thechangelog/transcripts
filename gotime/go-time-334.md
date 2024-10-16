@@ -28,7 +28,7 @@ Okay, here's your top 5 most popular opinions shared on GoTime in 2022. Number 5
 
 **Natalie Pistunovich**: Maybe you have an agreement that you should update at the end of every day, every week, every other day, I don't know... If you don't have such an agreement, you should set that up. If the team is not happy with this agreement, you need to find something else, but just around like opening your inbox to ten of those messages is just like "I'm gonna close the computer. Bye."
 
-**Jerod Santo:** \[00:07:50.17\] A whopping 92% of pollsters agreed with Natalie. Give us a break, managers. The cake will be baked when the cake is done baking, am I right?
+**Jerod Santo:** \[07:50\] A whopping 92% of pollsters agreed with Natalie. Give us a break, managers. The cake will be baked when the cake is done baking, am I right?
 
 Number four. On episode number 257, Nishant Roy joined Johnny and Jon to discuss how Pinterest delivers software at scale, and his unpopular opinion was that non-typed languages can be dangerous.
 
@@ -48,7 +48,7 @@ Well, we are actually getting less controversial from here... Number three. The 
 
 And roadmaps are supposed to take those two edges of the Why and the How, and bring them in the middle, which also is the house of When. So when we're trying to drop on development teams when things are done, we're limiting how things are done.
 
-**Jerod Santo:** \[00:12:00.13\] 95% of people who took the survey agree with her. Hmm... Too many manager questions, saying no to roadmaps...
+**Jerod Santo:** \[12:00\] 95% of people who took the survey agree with her. Hmm... Too many manager questions, saying no to roadmaps...
 
 I'm sensing a theme here. Number two. Here's Mark Sandstrom on episode number 218 called "Going with GraphQL."
 
@@ -66,7 +66,7 @@ I'm sensing a theme here. Number two. Here's Mark Sandstrom on episode number 21
 
 Another unpopular opinion I have, which you can add to the list, is that I'm not really a big fan of Apple. Like, not at all. I don't like their ecosystem. And I'm not going to get into this, but one of the things I don't like is that people have to pay 40 bucks for new chargers, and they change chargers every time they release a new product. And I'm very happy that this is going to cut off this revenue stream for them, because I think this should have never existed in the first place.
 
-**Break:** \[00:15:45.21\]
+**Break:** \[15:45\]
 
 **Jerod Santo:** We now come to the good stuff. Your actually unpopular opinion makers of 2022, starting with number five. This opinion was unpopular with 73% of Gophers. Michael Matloob thinks they should bring back the try proposal.
 
@@ -98,7 +98,7 @@ Also, it's not -- I'm not gonna say that I love it, right? That Windows is great
 
 **Johnny Boursiquot:** Right. You just send an email. Yeah, I don't think that's gonna be unpopular at all. \[laughter\] A lot of meetings could have been an email.
 
-**Mihalis Tsoukalos:** \[00:21:59.22\] And the second one is that C is the best programming language ever.
+**Mihalis Tsoukalos:** \[21:59\] And the second one is that C is the best programming language ever.
 
 **Johnny Boursiquot:** Ooh...!
 
@@ -154,7 +154,7 @@ And now the moment we've all been waiting for... The most unpopular opinion shar
 
 **Jeff Hernandez:** So I've been racking my brain with this ever since I agreed to be on Go Time, so I don't think I have anything Earth-shattering like Jon's previous unpopular opinion... But what I came up with is I do not like any type of yogurt. I feel like that's a very popular snack that people like to eat. I just do not like yogurt at all. I have a story actually about that...
 
-\[00:26:13.26\] So I bought Greek yogurt as a substitute for sour cream, because I heard that's like a good, healthy substitute... And it was my first time actually trying it. I opened up the container and it just smelled really funky. I told my college roommate at the time, "Did this go bad?" And he came over and smelled it, and he's like "No, that's just how it smells." I'm like, "Oh... Definitely not for me then."
+\[26:13\] So I bought Greek yogurt as a substitute for sour cream, because I heard that's like a good, healthy substitute... And it was my first time actually trying it. I opened up the container and it just smelled really funky. I told my college roommate at the time, "Did this go bad?" And he came over and smelled it, and he's like "No, that's just how it smells." I'm like, "Oh... Definitely not for me then."
 
 **Angelica Hill:** \[laughs\] Wait, are we talking just like plain, or are we talking like mixed in with some granola and fruit?
 
@@ -176,7 +176,7 @@ And now the moment we've all been waiting for... The most unpopular opinion shar
 
 **Adam Stacoviak:** You've won a lifetime of yogurt...! That's right, we'll fill your fridge with every type of creamy yogurt for years to come, ensuring you never run out of your favorite snack. \[unintelligible 00:27:42.08\] prohibited or restricted by law. No cash value. Taxes and delivery fees may apply. Not an actual prize.
 
-**Break:** \[00:27:50.09\]
+**Break:** \[27:50\]
 
 **Jerod Santo:** Since I have you here and since I spent way too much time reviewing way too many opinions from what feels like forever ago, here's a few bonus opinions for you. These weren't necessarily popular or unpopular. They're just some that I really enjoyed for a second time while reviewing these. First up, Matt Ryer's passionate take on shower gel.
 
@@ -220,7 +220,7 @@ And now the moment we've all been waiting for... The most unpopular opinion shar
 
 **Jerod Santo:** Matt's take on shower gel was unpopular with 62% of us, including me. I have no problem with shower gel. I do enjoy a nice bar of Irish spring, though. Product placement? No. TMI? Probs. Okay, next up, a bonus opinion from Johnny Boursiquot. I like this one because - well, I like this one.
 
-**Johnny Boursiquot:** \[00:33:14.16\] I've always ended up regretting using a boolean to keep track of data, when I could use a timestamp.
+**Johnny Boursiquot:** \[33:14\] I've always ended up regretting using a boolean to keep track of data, when I could use a timestamp.
 
 **Mat Ryer:** A timestamp?
 
