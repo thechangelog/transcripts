@@ -12,7 +12,7 @@
 
 **Adam Stacoviak:** Yeah. Have you seen the movie Revenant?
 
-**Spoiler alert:** \[00:06:03.05\]
+**Spoiler alert:** \[06:03\]
 
 **Jerod Santo:** No, but I know -- doesn't he get eaten by a bear?
 
@@ -82,7 +82,7 @@
 
 **Johnny Boursiquot:** Oh.
 
-**Adam Stacoviak:** \[00:09:49.08\] Yeah. Always the big smile, always welcoming to people, always kind, you know... And I think those are some traits we admire to have in life.
+**Adam Stacoviak:** \[09:49\] Yeah. Always the big smile, always welcoming to people, always kind, you know... And I think those are some traits we admire to have in life.
 
 **Johnny Boursiquot:** Thank you. I appreciate that. It's not always easy to be all those things, but that's what makes it rewarding, right?
 
@@ -134,7 +134,7 @@ So find the joy, the glass half full versus half empty in life. I don't know tha
 
 **Johnny Boursiquot:** So there was like "Well, there can be only three." It is a nice, conversational magic number... Especially if you're going to have a guest, now you already have four. Four with a guest is like -- that's just like too many cooks. And a lot of it was because Eric and Brian were the original team. And yeah, we're just like "Well..."
 
-**Adam Stacoviak:** \[00:14:07.09\] I would say our invitation to Go was --
+**Adam Stacoviak:** \[14:07\] I would say our invitation to Go was --
 
 **Jerod Santo:** Yeah, it was Brian.
 
@@ -158,7 +158,7 @@ Now, if there's scenarios where there clearly need to be -- I will close the doo
 
 **Jerod Santo:** Well, thankfully, that bridge wasn't burned... And I think the original trio that was Brian, Carlisia and Eric did almost 100, high 80s, low 90s episodes. And then we put it on hiatus for a while, and when it came time to reboot Go Time... Which - we weren't sure if we'd ever reboot Go Time. It was out there for probably about a year, maybe 18 months of no production.
 
-\[00:17:53.11\] But when we decided to get a team together and give it a second shot - which we did the exact same thing with JS Party, by the way. I'm not sure if it's making the same mistake twice, or was it even a mistake? I don't even think it was necessarily a mistake, just the way the history went.
+\[17:53\] But when we decided to get a team together and give it a second shot - which we did the exact same thing with JS Party, by the way. I'm not sure if it's making the same mistake twice, or was it even a mistake? I don't even think it was necessarily a mistake, just the way the history went.
 
 There's Johnny, like right there on our short list of "Well, we need some more people." And because you didn't burn the bridge, and we still had fond feelings for you, it just didn't work out the first time, it was an obvious choice the second time around.
 
@@ -188,7 +188,7 @@ think it's fine. I think that's totally legit for a Go Time conversation, becaus
 
 **Adam Stacoviak:** I think you hit the nail on the head with the word facet there. I think that's what it is, is like perspectives and facets within an ecosystem. It doesn't have to be "Oh, what is the latest feature that's being scrutinized?", which there's some in the Go world... What's the latest feature? What's the latest release? How does that work? I think it's more about the culture of being a developer that I think shows are more interesting around. I know that you're steeped in this cloud-native go world where that is very much the way things are... However, I also want to know why you think the way you think, or how you react to a certain piece of news that affects every developer, to some degree, shape or form.
 
-\[00:22:09.07\] I will say, however, I am totally unschooled on Founder Mode. I have purposely not -- I've heard of it, I know it's out there, I can assume what it means, but I have not read the essay. I have not even read Bryan Cantrill's response to it, and other people kind of like jumping on the bandwagon of it and how great it is... I've only been on the peripheral to know it exists; I do not know the details of the essay, and I have not begun to listen to this episode either to hear y'all's perspective. So just to put my card out there, I am non-steeped in Founder Mode.
+\[22:09\] I will say, however, I am totally unschooled on Founder Mode. I have purposely not -- I've heard of it, I know it's out there, I can assume what it means, but I have not read the essay. I have not even read Bryan Cantrill's response to it, and other people kind of like jumping on the bandwagon of it and how great it is... I've only been on the peripheral to know it exists; I do not know the details of the essay, and I have not begun to listen to this episode either to hear y'all's perspective. So just to put my card out there, I am non-steeped in Founder Mode.
 
 **Jerod Santo:** Okay. Are you hoping that we steep you, or are you hoping that we move on? What are you trying to do here?
 
@@ -214,7 +214,7 @@ think it's fine. I think that's totally legit for a Go Time conversation, becaus
 
 Again, he was speaking to startups and scale-ups, companies that are not sort of huge, massive sort of empires... Because those companies, once you get that big, there's naturally going to be multiple layers of management. I don't know if you can even avoid that. That's just what happens, the more people you have in an organization. But if you are a startup or a scale-up, perhaps sort of push back against that tide of all those layers, because you're going to be more effective, and you're going to be delivering stuff.
 
-\[00:25:49.13\] So to me, I'm like "Okay, if I'm just a cog in a machine, I'm just low on the totem pole..." I'm not a founder. The founder's saying "Hey, let's push, let's go. Let's get in there and deliver things. Let's work on things." That passion, that energy. If I'm just getting a paycheck every couple of weeks from you, I'm putting in my 40 hours or whatever... Should I care? Because it's your company. Unless I'm getting some equity or stock or something from doing more than you're paying me for. Like, how should I view founder mode? If I'm a software engineer writing Go code, how should I -- and you come at me with "Founder mode." Should I care? Is it relevant to me?
+\[25:49\] So to me, I'm like "Okay, if I'm just a cog in a machine, I'm just low on the totem pole..." I'm not a founder. The founder's saying "Hey, let's push, let's go. Let's get in there and deliver things. Let's work on things." That passion, that energy. If I'm just getting a paycheck every couple of weeks from you, I'm putting in my 40 hours or whatever... Should I care? Because it's your company. Unless I'm getting some equity or stock or something from doing more than you're paying me for. Like, how should I view founder mode? If I'm a software engineer writing Go code, how should I -- and you come at me with "Founder mode." Should I care? Is it relevant to me?
 
 The way I understood this is like, okay, I understand the spirit of the essay, but how do I make it applicable? How do I take the good parts, so to speak, and make them applicable to what I do on a day to day basis, if I'm not a founder? And that's what our discussion focused on.
 
@@ -236,13 +236,13 @@ The way I understood this is like, okay, I understand the spirit of the essay, b
 
 While they might position your layoff or your firing as a performance thing, we all know that's not always true. We know at the end of the day, companies, especially publicly-traded companies, they don't have your best interests at heart. They have the shareholders' best interests at heart. That is priority one, the shareholder. So you as an employee, you are means to that end. So the more you understand that reality, the more you can calibrate your relationship with an employer, or whatever you're involved in. So that doesn't mean, however, that you stop caring about your craft, what you do, the professionalism that you bring to your work, the passion that you bring to your work. That is a personal thing. No company is ever gonna be able to take my level of interest, of passion, of wanting to do the right thing. No company holds sway over that. If you hire me for a job, I'm gonna do that job, because I'm a professional. That's what I do. You pay me, exchange services... I give you what you're looking for, and you pay me in exchange for my time. So that's a very professional thing. And I see clearly the nature of that relationship.
 
-\[00:30:11.24\] The problem comes when you start adding things around it to make me feel a particular way about your company. You don't need all that flowery stuff. I will do the job. So I think in this day and age, I think for me, I took founder mode to mean "Okay, care about what you do, at the deepest level." If you stop caring about maintaining code for your company, or if you think your co-workers are annoying, for whatever reason, or you stop loving going to work, and stop loving that job, then maybe move on. Maybe your time there is over. But don't sort of lower yourself to the point where you're just doing a crappy job because you don't like where you are. Just move somewhere else and be your best self, right?
+\[30:11\] The problem comes when you start adding things around it to make me feel a particular way about your company. You don't need all that flowery stuff. I will do the job. So I think in this day and age, I think for me, I took founder mode to mean "Okay, care about what you do, at the deepest level." If you stop caring about maintaining code for your company, or if you think your co-workers are annoying, for whatever reason, or you stop loving going to work, and stop loving that job, then maybe move on. Maybe your time there is over. But don't sort of lower yourself to the point where you're just doing a crappy job because you don't like where you are. Just move somewhere else and be your best self, right?
 
 **Adam Stacoviak:** Gotcha. I did some googling while you were talking there, just briefly... I actually kind of enjoy this about Google now, where you can just sort of treat it like a prompt... So I just said "Summarize Founder Mode." So rather than going to ChatGPT or some paid product, I'm just like "Okay, let me just throw this into Google." And it's or the most part on par. They summarized it by saying that founder mode is a way of running a company that involves direct involvement and oversight, or "micromanagement". And it says "Great founders have hired executives and it's not worked", and this is summarized from Sam's newsletter on Substack. This part of it, at least, is in summary that "Great founders have hired great executives, and it's not worked. Instead the thing that works is "Founder Mode", which is direct involvement and oversight of what would typically be called micromanagement."
 
 And then the lens for this mode is towards startups and scale-ups. So likely the founders should be directly involved in raising new funds, or directing the product, or micromanaging to some degree this user experience or this developer experience, which has become all the rage the last several years... It's like "We are DX-focused. We're developer experience-focused", and not our friends over at GetDX.com focus. A different kind of developer experience, but similar or cut from similar cloth.
 
-**Break**: \[00:32:23.03\]
+**Break**: \[32:23\]
 
 **Adam Stacoviak:** A while back I wrote this, because I felt this -- it wasn't called Founder Mode at that time, but what I was experiencing and why I wrote this was a result of Founder Mode, now that I have retrospect, and that's why I pulled this up. So a while back on my blog - which I do not write too often; I'll link it up in our show notes - is I wrote a post called "I'm a cog." And this is in light of reading Lynchpin from Seth Godin, and then In light of being pressured into this Founder Mode world, where I've got skills, abilities, growth opportunities, but the organization was very - hearing this, and hearing you, it was Founder Mode. And we were a startup; we were a scale-up, and so it makes sense why this pressure was there.
 
@@ -264,7 +264,7 @@ So to strive for being a linchpin was almost like striving for perfection. Perfe
 
 **Johnny Boursiquot:** So let's carry that thought. Let's pull on that thread a little bit. If it meant you get laid off, or fired, or whatever, whatever term they want to put around it, in order for the whole to keep moving forward, do you also happily accept that?
 
-**Adam Stacoviak:** \[00:37:43.04\] Oh, man... How many times have I been laid off? Maybe once. I think maybe. I haven't ever really been fired. To answer that question... I would not be happy about being let go, for sure. Let go, laid off, I don't care how you term, it's never a positive thing. But if my experience there was positive, if the founder or founders treated me with respect, and I was removed from my position in a way I think was kind, and my team still had care for me... Like, when I left Pure Charity, the thing I did prior to - and Jerod was like "Dude, you should do this full-time", and in 2015 I finally listened to Jerod and my wife and I left Pure Charity... And I wrote this post when I was at Pure Charity, and so the Founder Mode was applied to me there, that was later on penned by Paul Graham...
+**Adam Stacoviak:** \[37:43\] Oh, man... How many times have I been laid off? Maybe once. I think maybe. I haven't ever really been fired. To answer that question... I would not be happy about being let go, for sure. Let go, laid off, I don't care how you term, it's never a positive thing. But if my experience there was positive, if the founder or founders treated me with respect, and I was removed from my position in a way I think was kind, and my team still had care for me... Like, when I left Pure Charity, the thing I did prior to - and Jerod was like "Dude, you should do this full-time", and in 2015 I finally listened to Jerod and my wife and I left Pure Charity... And I wrote this post when I was at Pure Charity, and so the Founder Mode was applied to me there, that was later on penned by Paul Graham...
 
 I think that if I'm treated well and I'm removed from a position in order for it to move along, I think I'd be okay with that. I would not be happy about being let go. But if I was treated with respect and let go properly... But I think if I was let go improperly, or not treated with respect or kindness on the way out, by my team or the founders, then yeah, I'd have a personal problem with that and not be okay with it. But if the mission continues, having been an entrepreneur and a runner or a leader, I've had to share some bad news, as you know, Johnny. We shared that early on. And so I think that I have both sides of those coins in my brain when I share my sentiment back to you, to respond to that question. So then no, I would not be okay with it. But if it was done well, and with respect, and kindness, then I would be okay with it. And I would find a way to move on to the next thing.
 
@@ -318,7 +318,7 @@ I think in a place like Pure Charity, Adam, you were very aligned. And there are
 
 **Johnny Boursiquot:** No, no, you can chime in, Adam. But what I will say is that --
 
-**Adam Stacoviak:** \[00:42:06.14\] I'll wait. I'll be patient.
+**Adam Stacoviak:** \[42:06\] I'll wait. I'll be patient.
 
 **Johnny Boursiquot:** So in my 26-year career I've been laid off twice. And I've worked at very large companies, I've worked at very small companies. So I've lived enough life as a professional to have seen all manner of ways layoffs are done well, or people are treated fairly, or unfairly, kindly, unkindly... So I've been exposed enough to that. So from that standpoint, I speak from a position of privilege, because I've experienced all these facets. The one thing I think is consistently, that -- it wasn't always like this when I was younger, and more foolish, and more sort of hot-blooded... If somebody said "Hey, you're not doing a good job, or we have to lay you off, or we have to fire you because of reason X, Y, and Z", and I have been fired once... The initial reaction is always visceral. No matter how stoic you are, or try to be... Because it's disappointing. Especially if you know you've been doing a good job. To be told -- it's like a rejection. Nobody loves rejection.
 
@@ -338,7 +338,7 @@ I believe there's an ancient Chinese proverb or something basically that says --
 
 And through conversation, you come to learn that the way that this person is able to sort of stabilize themselves, so that eventually, when the teapot does indeed get broken - maybe it's the child that knocks it over accidentally, or whatever it is... The teapot is now broken. This beautiful, very enjoyable thing is now no more. That person is now "Huh. Okay." Because it was already broken in their mind, so they didn't lose, and their world wasn't shattered along with that teapot, because they didn't invest so much of themselves into it.
 
-\[00:45:55.07\] So I have to go into these things saying "Hey, it's already broken. I'm here to do as best that I can do for as long as I can do, but if this thing were to be taken away from me, tomorrow, next week, next year, that's okay, too."
+\[45:55\] So I have to go into these things saying "Hey, it's already broken. I'm here to do as best that I can do for as long as I can do, but if this thing were to be taken away from me, tomorrow, next week, next year, that's okay, too."
 
 **Jerod Santo:** That's all fair and good. I didn't say I am indispensable. I said I want to be that. And so I don't think it's egotistical to desire to be that, and to be more than a cog. Fully knowing that at the end of the day maybe I'm still just a cog, and it's already broken. That's all well and good.
 
@@ -370,7 +370,7 @@ And through conversation, you come to learn that the way that this person is abl
 
 **Jerod Santo:** Yeah, and I guess I don't need the other people noticing it aspect of what you're talking about. I don't derive my self-worth from that. And so I think if I was laid off in that circumstance, if I was indispensable, and they didn't know I was, then I would be like "This is a huge mistake they're making." And I would like for that to be true. Like, then they go ahead and lay me off... I'm sure, Johnny, you've left huge holes in whatever organizations you got laid off from. And they probably didn't realize what a big mistake that was. And I think maybe even though you are a cog, in some sense you are an indispensable cog, and that organization will never be the same without you. That's what I strive for, is like "Yeah, they're gonna really regret this one." Not that they have to recognize me as the guy who fixes all the things and all that. That's not where I derive my self-worth. But my desire is to be as great a teammate as I can be.
 
-**Adam Stacoviak:** \[00:50:28.11\] Can I speak for you for a second, Jerod, having been --
+**Adam Stacoviak:** \[50:28\] Can I speak for you for a second, Jerod, having been --
 
 **Jerod Santo:** For me? Am I not doing a good job?
 
@@ -386,7 +386,7 @@ Maybe I couldn't make it in a large org, it's quite possible. I don't have the b
 
 **Johnny Boursiquot:** Interestingly enough, something you said earlier brought back a fond memory... One of the positions in the past that I got laid off from -- actually, no, that one was... I can call it a firing. It wasn't a "Oh, we're making cuts because finances" or whatever, what you typically hear these days. It was "We were expecting something else, but we got something different." Which I'm like completely fine with. What happened though, I think maybe six months later, or less than a year later -- to piggyback on what Adam was saying about never burning bridges... Like, we parted ways very amicably. That was not resentful, we did the thing, we sat down from across from each other, looked each other in the eye and said "Hey, I was expecting this. I didn't get that." And I was like "Okay. I completely understand." We remained friends... And this was back in Boston. So we remained friends, and everything. And six months later, or however long, we actually go and have lunch together. We sit down, I'm gonna say "Hey, how's the business? How are things going?" Whatever it is. And literally, again, the same experience, sitting from across the table, it's like "Yeah, we made a mistake in letting you go." So when I heard that --
 
-**Jerod Santo:** \[00:53:59.28\] Bam.
+**Jerod Santo:** \[53:59\] Bam.
 
 **Johnny Boursiquot:** When I heard that, I was like "Holy smokes!" Internally, I'm like jumping for joy. I'm like "I knew it. I knew it. I knew it."
 
@@ -430,7 +430,7 @@ Maybe I couldn't make it in a large org, it's quite possible. I don't have the b
 
 **Adam Stacoviak:** It is a good show.
 
-**Break**: \[00:56:31.24\]
+**Break**: \[56:31\]
 
 **Jerod Santo:** Speaking of Silicon Valley, Johnny, what's going on in Silicon Valley with these fake job postings? I mean, you've been onto this for a little while, because I've heard you talking about it on GoTime, and then I covered it in news this week, because there was an \[unintelligible 01:01:05.17\] speaking at Paul Graham. There was an Ask HN, which was posted seven days ago. "Who is pretending to be hiring?" And it turns out there's people out there with jobs that are not real jobs...? I mean, what's going on, man?
 
