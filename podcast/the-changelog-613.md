@@ -56,7 +56,7 @@ And as the program surface starts to increase, and with that configuration you s
 
 **Matt Rickard:** But as you're going from configuration files, you start to need a little bit more extensibility in terms of templating, and I think templating is something that we're all unfortunately accustomed to a little bit too much... So that's kind of one wheel on the configuration heptagon, a configuration. And then from templating, you go to kind of a DSL, a domain-specific language, and that allows you to have a little more type safety and a little more domain-specific reusable modules... I'm sure some of us have used Puppet in the DevOps world, or there's tons of other DSLs out there... But eventually, these DSLs become a little too inflexible.
 
-\[00:12:17.05\] Maybe the requirements change, the domain changes, and then we go back to Bash. So that's kind of like this never-ending cycle of configuration that I've seen. And I saw this a lot in Kubernetes. There was a lot of Bash in Kubernetes, and a lot of configuration...
+\[12:17\] Maybe the requirements change, the domain changes, and then we go back to Bash. So that's kind of like this never-ending cycle of configuration that I've seen. And I saw this a lot in Kubernetes. There was a lot of Bash in Kubernetes, and a lot of configuration...
 
 **Jerod Santo:** Yeah.
 
@@ -76,7 +76,7 @@ But what I've heard pointed out is that progress often looks like a circle when 
 
 **Matt Rickard:** Yeah, yeah. I think that's a great point, and I think we're seeing that play out in the data stack a bit, with a lot of old ideas and tooling around data warehouses... And now that we have cloud data warehouses, you have Snowflake, BigQuery, Redshift etc. we're bringing back a lot of those old ideas, things like OLAP cubes, there's analogues to that now... And it seems kind of like more of the same, but it's really different once you start to look under the surface.
 
-**Jerod Santo:** \[00:16:06.15\] Well, another lesson here is one that we touched on with the Prag Prog fellas themselves around DRY. This is always controversial, DRY... And it's because we all think about it a little bit differently, or I think that we all misunderstand what their point was. They did point out on that episode when we had their 20th anniversary show that one of the most misunderstood points in the Prag Prog book is the chapter on DRY. So they tried to rewrite it. I haven't read the rewrite very closely to know if they accomplished clarifying that, but you have a point here... One of your reflections says "Know when to break the rules. For rules like "Don't repeat yourself" sometimes a little repetition is better than a bit of dependency." And you link to another blog post of yours called "DRY considered harmful." Do you wanna unpack that one for us?
+**Jerod Santo:** \[16:06\] Well, another lesson here is one that we touched on with the Prag Prog fellas themselves around DRY. This is always controversial, DRY... And it's because we all think about it a little bit differently, or I think that we all misunderstand what their point was. They did point out on that episode when we had their 20th anniversary show that one of the most misunderstood points in the Prag Prog book is the chapter on DRY. So they tried to rewrite it. I haven't read the rewrite very closely to know if they accomplished clarifying that, but you have a point here... One of your reflections says "Know when to break the rules. For rules like "Don't repeat yourself" sometimes a little repetition is better than a bit of dependency." And you link to another blog post of yours called "DRY considered harmful." Do you wanna unpack that one for us?
 
 **Matt Rickard:** Yeah... I mean, the DRY considered harmful - maybe that's...
 
@@ -96,7 +96,7 @@ But what I've heard pointed out is that progress often looks like a circle when 
 
 **Jerod Santo:** Well, it's worth pointing out what the rule really was, or is, that they point out in the Pragmatic Programmer book... And the repetition is not about code. That's where we all get it wrong. Anytime you're repeating code it's bad, so don't repeat yourself. So let's create a function, name it etc. Abstract a function. What they were talking about is knowledge in your system. Every piece of knowledge in your system should live in one place and one place only. But because the acronym was DRY, and it's such a catchy thing, and it's easy to remember "Don't repeat yourself", as soon as you start repeating something, you just immediately apply it, right?
 
-**Adam Stacoviak:** \[00:20:04.12\] Yeah.
+**Adam Stacoviak:** \[20:04\] Yeah.
 
 **Jerod Santo:** But that's not the point. It's not about the code that you write. Now, some code does represent knowledge, so it does overlap. These things are not completely black and white, but... That was what they were trying to say. Maybe they say it much better in the 20th anniversary edition. But that's why we all get it wrong. I don't know, Matt - has anything helped you... I mean, you're writing this as a reflection, so you've obviously thought about it... Do you just tread more softly? I have introduced the rule of three for myself, which I think I got from Jeff Atwood's Coding Horror blog, where he's like "You have to use something three times before you'll generalize it", because I have found that it's usually that third use that points out how bad my abstraction is... But I've also found out sometimes it's like the sixth or seventh use, so it doesn't always help... But it does help me slow down a little bit. Maybe just like, bite the bullet one more time. What have you found?
 
@@ -120,7 +120,7 @@ First of all, tell us what -- when you have that and it's not a doc string, what
 
 **Jerod Santo:** Okay.
 
-**Matt Rickard:** \[00:24:06.20\] And I wrote this more as kind of like -- you know, it should be maybe a yellow flag, maybe not so much a red flag, in terms of when you see this happening... I went into the Linux Kernel documentation and I think they described it very well. They say you should never really try to explain how your code works in a comment. It's much better to write the code so that the working is obvious. And you want your comments to tell what your code does, not necessarily how. And I think that's kind of the right way to go.
+**Matt Rickard:** \[24:06\] And I wrote this more as kind of like -- you know, it should be maybe a yellow flag, maybe not so much a red flag, in terms of when you see this happening... I went into the Linux Kernel documentation and I think they described it very well. They say you should never really try to explain how your code works in a comment. It's much better to write the code so that the working is obvious. And you want your comments to tell what your code does, not necessarily how. And I think that's kind of the right way to go.
 
 When you're really trying to explain exactly how your code works, then maybe you should refactor it, and maybe that's a sign that other people are really gonna have a tough time understanding what's going on, even with the comment.
 
@@ -138,7 +138,7 @@ But yeah, I think the what and the why's, those should be in-line comments. Not 
 
 **Matt Rickard:** Yeah, definitely personal experience here... When I was working on minikube, a lot of the complexities around spinning up a single-node Kubernetes distribution on your laptop - so not only are you one layer deep with containers, you're also another layer deep with the fact that it has to run in a virtual machine on your laptop... So that's Widows, that's macOS... We optionally spin up a VM on Linux... But I've found myself working with some pretty undocumented virtualization libraries on macOS, and I was trying to think "Hm, maybe this is not the most maintainable way forward." So I think that's one piece of personal experience where when it was ugly, it was maybe not the right way to go.
 
-**Break:** \[00:27:46.00\]
+**Break:** \[27:46\]
 
 **Jerod Santo:** So anytime you reflect on 10,000 hours of programming, surely Stack Overflow comes into those reflections... And it turns out it did, because one of your findings or one of the things that you believe now, after all this time, is that browsing the source is almost always faster than finding an answer on Stack Overflow. Now, I kind of agree with you, but I also kind of disagree, so I'd love to have you elaborate a little bit on this one.
 
@@ -166,7 +166,7 @@ FFmpeg - I give it praise often. It's one of the most robust tools I've ever see
 
 **Matt Rickard:** For me, I think it makes the most sense to look at the source code when you're taking a dependency on a library... I think that's the most obvious one for me, just because you're not accessing an API on HTTP, you're not accessing an RPC, you're actually taking a dependency on some code... And sure, there might be a documented way that, you know, these functions are public, and these are the ones you can use... But for the most part, I think once you're at the code level, you should stay at the code level. If you're at the binary level, if you're at the CLI level - yeah, I think it makes a lot of sense to look up "How do I cut this clip to 30 seconds?" That makes sense, right?
 
-**Jerod Santo:** \[00:38:19.25\] Right.
+**Jerod Santo:** \[38:19\] Right.
 
 **Matt Rickard:** You might not even look at the man pages for FFmpeg...
 
@@ -198,7 +198,7 @@ Now, when it comes to learning, you have another one here... Only learn from the
 
 I look at a lot of the code that I've published as open source, and I really hope that no one's reading that... Just because it's kind of half-complete sometimes, it's maybe not using best practices, I'm doing workarounds... And when someone else builds on that foundation in a similar way, I think that doesn't work out too well.
 
-\[00:41:59.14\] So even though there's a lot of terrible code in Kubernetes, and I wrote a lot of it, there's a lot of great examples of what an API should look like, API versioning, API machinery... And I think those are the examples that you should be looking at, depending on what you're building.
+\[41:59\] So even though there's a lot of terrible code in Kubernetes, and I wrote a lot of it, there's a lot of great examples of what an API should look like, API versioning, API machinery... And I think those are the examples that you should be looking at, depending on what you're building.
 
 **Adam Stacoviak:** I actually learned a similar lesson to this from a fellow named Brian Tracy, but it was more in the sales vein, and more of a self-development vein than it was simply programming... But the analogy is very similar. Basically, if you want to be good at something, or excel in some way at something, look at who's already doing it really well, and emulate them.
 
@@ -238,7 +238,7 @@ That being said, you say like, you know, go ahead and use... And the corollary i
 
 So I think maybe just don't be afraid to take dependencies. Know what you're getting into, to some degree. A lot of the others rules are around not tangling your dependency tree, not taking dependencies on super-tiny libraries... But for the most part, I think you have to use other people's code, because that's the only way to continue building exciting things.
 
-**Jerod Santo:** \[00:46:18.23\] I have a half-written blog post about the continuum between dependency hell and not-invented-here syndrome... And how that we all live somewhere along this spectrum. I think that your appetite changes over the course of a career. I know that when I was first getting started, I used almost exclusively other people's code... Because I wasn't very good at writing code, so I couldn't really accomplish very much on my own.
+**Jerod Santo:** \[46:18\] I have a half-written blog post about the continuum between dependency hell and not-invented-here syndrome... And how that we all live somewhere along this spectrum. I think that your appetite changes over the course of a career. I know that when I was first getting started, I used almost exclusively other people's code... Because I wasn't very good at writing code, so I couldn't really accomplish very much on my own.
 
 Easy example - maybe you're using Ruby on Rails and you're like "I want to do authentication", and it's like, "I don't know how to do authentication." And then - this was years ago - you would find the Devise library and you would use that code, and all of a sudden, I could do authentication. It gave me powers I didn't previously have. Fast-forward 5-10 years, I could now write that from scratch very easily, because I've now seen how it works, I've used it, I've got opinions on it, I've implemented it myself a few times... Not the entire Devise library, but authentication.
 
@@ -256,7 +256,7 @@ If you're working on a startup, I think it makes sense to outsource as much of t
 
 Now, on the other side, a community can move away from you and your project. All of a sudden, they're adding things that you don't want or need, and you disagree with, and too bad the community all thinks this is good, but hey, I don't need SMS-based 2-factor auth.... And now you're just adding lines of code to my project when I upgrade, and I don't care. Not in Devise's case; it's pluggable. It was pretty good software, it still is probably... But you know what I'm saying - a piece of software, a dependency can start off like completely fitting you, and then a few years later it's like "This thing's heading another direction that I don't like." And then it's time to jump ship, or find another alternative, or start writing it yourself. There's a lot to think about these things.
 
-**Matt Rickard:** \[00:50:20.13\] I think it goes back to your earlier point about the cycle of bundling and unbundling as these libraries just grow to accomplish all use cases, as your API needs are much smaller. Maybe it makes sense to break out and roll your own, to actually reduce that API surface... And it ends up being actually a more stable and maintainable piece of code.
+**Matt Rickard:** \[50:20\] I think it goes back to your earlier point about the cycle of bundling and unbundling as these libraries just grow to accomplish all use cases, as your API needs are much smaller. Maybe it makes sense to break out and roll your own, to actually reduce that API surface... And it ends up being actually a more stable and maintainable piece of code.
 
 **Jerod Santo:** We had a show on JS Party with Ahmad Nassri, who was npm's CTO for a while, he also started Kong, or he was involved in Kong... He's been around the block, he's seen a lot of things, and he takes a very hardline stance that you should only write code that only you can write, or you and your team. Only write the code that makes you unique and different, and you have the special skillset. Everything else, you shouldn't be writing. Him and I actually go back and forth in that episode; maybe we'll link up to it, because it's an interesting conversation. But I thought, "Wow, here's a real context-independent--" Right? I agree with you, I think context does matter. But he's saying, "Nah... Pretty much, if it's not unique to you, you're wasting your time and your cycles. You should be outsourcing that and you should only write the code that makes you, your company, your org, whatever, unique and different, or adds something to the world, versus reinventing."
 
@@ -282,7 +282,7 @@ Now, on the other side, a community can move away from you and your project. All
 
 **Matt Rickard:** Yeah, so it's basically just like an actual quantitative measure of how many independent paths exist in your source code... So think of control structures, so like if else statements, how many nested if else statements are there, how many nested for loops are there... It's something that a lot of static code analyzer tools can tell you. It's not always maybe apples to apples in terms of "Oh, this project has this super-high cyclomatic complexity, and that means it's a bad project." I think you really need to look at it at a relative term... But it's something good to track with your project, and I know there's a bunch of tools for Go that do this, just to know if you're introducing some really gnarly control flow in terms of super-nested if statements, super-nested for loops etc... Because the cyclomatic complexity, while it is kind of relatively good or bad, it does correspond to the number of test cases you need to cover your code, if you think about it that way.
 
-**Break:** \[00:54:04.15\]
+**Break:** \[54:04\]
 
 **Jerod Santo:** So Matt, number 15, which says "Most code out there is terrible" was a corollary to number 14, which said "Use other people's code religiously." I think a corollary - if I know what a corollary is, and maybe I don't - to "Most code out there is terrible" is number 3, "Delete as much code as you can." Does that sound right?
 
