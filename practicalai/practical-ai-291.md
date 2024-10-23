@@ -28,7 +28,7 @@ And so when I went to my brain trust and was like "Look, I'm having a hard time 
 
 And so we spent that entire afternoon just rewriting all my pipelines in Prefect, and that's really what kind of -- you know, you speak about sort of Broccoli AI... That is what turned a very well-meaning, well-designed consumer AI app into something that, from an engineering perspective, was durable and resilient. I don't want to presume that everybody knows what workflow orchestration is. It was a thing that -- I didn't really know what it was until I needed it.
 
-**Chris Benson:** \[00:08:12.09\] I think we need a definition from you, actually.
+**Chris Benson:** \[08:12\] I think we need a definition from you, actually.
 
 **Adam Azzam:** I like to think about workflow orchestration as if you tell us what to run, where to run it, when to run it, and what to do when it fails, Prefect makes it extremely easy to author those rules on your typical script that you've got running locally.
 
@@ -46,7 +46,7 @@ If you want to run it every third Thursday when there's a full moon, we make it 
 
 I would say that from the actual workflow side, infrastructure aside, is that when you're orchestrating say LLMs in particular, they can fail for a whole host of reasons. At the time, when you didn't really have good structured outputs - I'll say what that means, which was... You know, at the time, if I had tens of thousands of job posts that I was trying to extract information from, even though they were just one single blob of unstructured text, you would say "Here's the JSON blob that I expect out of this. I expect keys that tell me what the title is, what the location is, the salary..." And so I would take a document and try and ask OpenAI and say "Look, here's the schema that I expect out of this. Can you extract this information?" and it would fail for a whole host of reasons.
 
-\[00:12:07.08\] One, the API for OpenAI was brittle at the time. So it would fail because the resource was unavailable. And then sometimes it would fail because the information wasn't available in the actual document I was trying to extract from it. Then you would have all sorts of parsing issues where what it was returning to you wasn't valid JSON.
+\[12:07\] One, the API for OpenAI was brittle at the time. So it would fail because the resource was unavailable. And then sometimes it would fail because the information wasn't available in the actual document I was trying to extract from it. Then you would have all sorts of parsing issues where what it was returning to you wasn't valid JSON.
 
 So there was this whole host of cascading errors of either the actual resource was down, there was problems with the infrastructure I was working with, the data quality was bad, the generation from the LLM was bad, or there were like syncing issues at the end when I wanted to go put that into a data warehouse at the end of it. And so we saw so many different cascading layers of failure that it wasn't going to come up every single time, you wanted to react to them differently, and you wanted to be able to express those contingencies in code.
 
@@ -60,7 +60,7 @@ And when things are linearly ordered, nice and serialized - maybe that's not tha
 
 **Adam Azzam:** If I return back to -- I gave like five or six theses of things where I was encountering failure a lot... And I think that some of those things are sources of failure that many folks are familiar with. I'm calling out to an external service, and the service is flaky, and it's bad... That's existed forever. As long as people are building data pipelines, upstream sources being flaky - that makes sense. Hitting deterministic errors of like - I'm ingesting data, but somebody added a new field, or they removed a field, and I'm dependent on that, and now my pipelines broken. Or I'm scraping something, and target.com, instead of labeling the name of their product with a div whose name or ID is this, they've changed it to that, and now all of my data is corrupted, because I couldn't detect that in real time.
 
-\[00:16:12.02\] And then the last piece is the loading part, where you've gotten, you've cleaned all your data, and now you want to go put it in a persistent place where you can go query, or do analytics on. So that's like classical stuff. The extraction, calling out to an external service, the transformation that you're doing deterministically in the loading. So the sort of ETL business of all of that. That's like a persistent problem that exists far before Gen AI, or ML workflows... And that's sort of what's been category-defining for workflow orchestration. That's like the single case that people usually break in an orchestrator for is when they're doing ETL type jobs.
+\[16:12\] And then the last piece is the loading part, where you've gotten, you've cleaned all your data, and now you want to go put it in a persistent place where you can go query, or do analytics on. So that's like classical stuff. The extraction, calling out to an external service, the transformation that you're doing deterministically in the loading. So the sort of ETL business of all of that. That's like a persistent problem that exists far before Gen AI, or ML workflows... And that's sort of what's been category-defining for workflow orchestration. That's like the single case that people usually break in an orchestrator for is when they're doing ETL type jobs.
 
 I would say that what's unique these days is that since workflows in LLM land are now more dynamic, so you really can't plot out every single thing that's going to happen from the start, they are now basically -- we're dealing in English now, or you may not know the full space of their responses at the beginning of a workflow. So I think that LLMs introduce a dynamism component that's hard to reason about, and has kind of escaped classical workflow orchestration.
 
@@ -72,7 +72,7 @@ But with agentic workflows, what I mean by that - those are things that operate 
 
 And so I would say that those last three pieces around parsing, around not knowing your your full decision space at the beginning, and then how that feeds into now having to hand off some bits of orchestration to the LLM to create its own tasks that you now have to execute, I think that's what makes the new generation of orchestration a much harder and a much more interesting problem.
 
-**Break**: \[00:20:44.08\]
+**Break**: \[20:44\]
 
 **Chris Benson:** So going back -- that was a great explanation there before the break. And earlier I was driving you back to the pain, and you've kind of carried us forward... So now I want to dive into kind of how you get it all fixed. Wondering if you can start introducing us to Prefect Core, and talk about the open source aspect of it, and how it's fixing, and then we'll continue from there later. But I'd really love that -- give me an intro to it now.
 
@@ -98,7 +98,7 @@ I would say that the other piece around Prefect, the other two core value propos
 
 And the last piece is around observability. We haven't talked about it, but observability is really this pair that comes with orchestration where if orchestration is really the practice of like "Crap, how do I get this stuff to actually run, and how to react to it when it fails?", there are some times when it just cascades and fails all the way down. And no matter how much you account for everything, everything goes wrong, and you need to be able to see what went wrong, so that you can replan. You're not going to be able to handle the entire universe's amount of complexity ahead of time, so when it does fail, you need to be able to learn from those mistakes as a human being, and actually write in the logic to handle that for next time.
 
-\[00:28:17.18\] So observability is really this element of "This thing failed. How do I provide the breadcrumbs to figure out why it failed? Which data provider was the one that caused me to fail? Was it a parsing error? How often am I seeing that parsing error?" If it's Open AI's fault, now there's a bridge between observability and orchestration. "If Open AI has failed more than 80% of my requests in the last 10 minutes, now I'm gonna switch to Anthropic", and we make it easy to switch those two things out for each other.
+\[28:17\] So observability is really this element of "This thing failed. How do I provide the breadcrumbs to figure out why it failed? Which data provider was the one that caused me to fail? Was it a parsing error? How often am I seeing that parsing error?" If it's Open AI's fault, now there's a bridge between observability and orchestration. "If Open AI has failed more than 80% of my requests in the last 10 minutes, now I'm gonna switch to Anthropic", and we make it easy to switch those two things out for each other.
 
 And so I would say that between just adding your most native retry caching transactions, making it dead simple to submit to infrastructure, and then the last piece around really having a clear understanding of how things are working, and importantly how to figure out when they fail - those are really the core value-adds of Prefect.
 
@@ -112,7 +112,7 @@ So part of my follow-up on that, just to kind of really hone in practically, to 
 
 **Adam Azzam:** So you had said "Talk to me the experience of taking my Python code and converting it to a Prefect workflow." For folks that are listening, it's as simple as from Prefect import flow, and then @flow on top of your function. That's all the work it takes to take a Python function and give it superpowers, basically. To add all the stuff that we've talked about. And that doesn't take away any sort of attributes of that function. If I take my Hello World or my ETL flow that runs locally and I start adding Prefect things on top of it, it still runs locally. And so it's not like -- we don't sort of require additional infrastructure just to have your stuff run. We detect whether or not you're running it locally or not. And if you're running it locally, we execute it as if it's regular Python functions.
 
-\[00:32:03.29\] Now, there's kind of two stories of "Well, this thing is working on my machine. How do I get it to run somewhere else?" We have two ways of doing this - and I'm sorry for the vocab lesson - which is let's say that... What's the crawl/walk/run for anybody trying to get something to run remotely? It's you start off on your machine, and then it's like "Well, I'm gonna go get a server somewhere, and I'm just -- if I can close my laptop and go to bed and this thing is still running on my server, that is what counts for me as running it remotely." That's the next step in the hierarchy of needs.
+\[32:03\] Now, there's kind of two stories of "Well, this thing is working on my machine. How do I get it to run somewhere else?" We have two ways of doing this - and I'm sorry for the vocab lesson - which is let's say that... What's the crawl/walk/run for anybody trying to get something to run remotely? It's you start off on your machine, and then it's like "Well, I'm gonna go get a server somewhere, and I'm just -- if I can close my laptop and go to bed and this thing is still running on my server, that is what counts for me as running it remotely." That's the next step in the hierarchy of needs.
 
 So for that, if it can run locally on your server - you go to EC2, you SSH in, you've got your console, you pull your GitHub repo, you pip-install your requirements... You're still able to execute that flow on your machine, and now if you execute that function and you hit say like .serve, now in the same way that you would start a fast API application, it is now running, you can specify a schedule that it runs on... It exposes an HTTP endpoint that you can call out to if you want to invoke it on demand, and it listens to events.
 
@@ -136,7 +136,7 @@ And so if you're the type of person that treats your workflows as cattle and not
 
 If you're on Prefect cloud, which has a very generous free tier you can run a business on, we do AI summaries of the errors... And so we will summarize like "Look, these workflows are failing for these reasons in natural language", so that you don't have to dig through a 10,000-line stack trace just to find out that you had an out of memory error.
 
-**Break**: \[00:37:17.06\]
+**Break**: \[37:17\]
 
 **Chris Benson:** So Adam, I want to ask you a question. I understand that you have a friend named Marvin. I'm wondering if you can tell me a bit about Marvin.
 
@@ -162,7 +162,7 @@ The last piece is Marvin is our opinionated LLM framework. So Marvin is an incre
 
 Prefect is obsessed with giving people access to sort of the complexity of the world, without having to face it themselves. They can opt into it whenever they want, but you shouldn't have to have like a CS degree just to get a script running on another machine. And similarly, you shouldn't have to import 1,000 agents and 1,000 different data loaders, and you shouldn't have to learn a new common expression language just to get LLMs to do the work that you want... And so Marvin is like "You've got a Pydantic model? Guess what? You decorate this thing, and now this thing that was responsible for validation can now - you put a document into it, and now it can extract data from it." You've got a typical Python enum, you decorate this thing, and now you've got a classifier. You've got a function, you write in a doc string that says "Here's what this function supposed to do", now you can get strongly-typed outputs, because we're just reading from the function signature, its return annotation, and we're basically trying to figure out how to make writing LLM workflows feel very Pythonic and very ergonomic. And it's been a blast to build, and it's just welcomed so many AI engineers into basically our ecosystem, who saw a really sane way of writing Pythonic LLM workflows that they just didn't have in any alternatives.
 
-**Daniel Whitenack:** \[00:44:28.06\] And I guess if we take that maybe a small step beyond, I know that you also have ControlFlow?
+**Daniel Whitenack:** \[44:28\] And I guess if we take that maybe a small step beyond, I know that you also have ControlFlow?
 
 **Adam Azzam:** Yes.
 
@@ -174,7 +174,7 @@ So LLM workflows are really like "How do I take traditional workflows that exist
 
 Now, there was a paper that came out from from AlphaCodium a few months ago that was basically like "Look, if you want to, say, build your own automated software engineer, there is only so far you can get with, say, a deterministic LLM workflow that's built on top of GPT 3.5."
 
-\[00:47:56.22\] They were able to show that even though it's all just kind of like function calling under a big while loop, they were able to show that if you adopt this paradigm where you start turning over some of the planning logic to the LLM itself, now it's able to outperform the top of the line frontier models on specific tasks.
+\[47:56\] They were able to show that even though it's all just kind of like function calling under a big while loop, they were able to show that if you adopt this paradigm where you start turning over some of the planning logic to the LLM itself, now it's able to outperform the top of the line frontier models on specific tasks.
 
 So for things where the decision space is very large, like "What piece of code do I want to run next?", stuff where the information space is very large, I've got a giant codebase to reason about, agentic workflows really tend to thrive... Because if the decision space isn't known to you at the very beginning, agents are able to discover that dynamically, create and refine on a plan that you as a human, you would take a lot of ifs to get to the same style of performance.
 
@@ -188,7 +188,7 @@ And so this is built on Prefect 3, which means that you have an orchestration li
 
 So it's really how do you give agents durability and resiliency? Because those are often the biggest reasons that they fail. And so that's how we distinguish between them. But I realize I'm monologuing a little bit, so I'll turn it back over to you, Daniel, if there's some stuff that you want to double-click on.
 
-**Chris Benson:** \[00:51:47.15\] It's all good, I'll jump in. We've covered some ground here, and I appreciate that very much. With Prefect Core, and kind of producing the open source that you're building around, you guys have the managed workflow orchestration platform that is Prefect Cloud... We've talked about ControlFlow, we've talked about Marvin... That's a lot.
+**Chris Benson:** \[51:47\] It's all good, I'll jump in. We've covered some ground here, and I appreciate that very much. With Prefect Core, and kind of producing the open source that you're building around, you guys have the managed workflow orchestration platform that is Prefect Cloud... We've talked about ControlFlow, we've talked about Marvin... That's a lot.
 
 What are you thinking about next, as you're looking in the months and the next few years to come? You've accomplished so much, but as you look at what you think this space is going to turn into, because it's evolving so fast, do a little bit of crystal ball gazing for us... Right or wrong, tell us what you think the future is going to hold, and how you'd like to play into that.
 
