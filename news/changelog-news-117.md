@@ -60,7 +60,7 @@ Kyle's statement was [analyzed & addressed by gasche](https://lobste.rs/s/31eacf
 
 Joaquim Rocha:
 
-> Fork maintenance — keeping your changes in sync with the latest updates from the original project — can quickly become a mess. Trust me. Over the years, my work did sometimes involve maintaining forks of various open-source projects. That’s not the case with my job now, but when a colleague reached out for help with a fork that hadn’t been rebased in ages, it got me thinking that the steps I follow might be useful for other developers too. Hence this article.
+> Fork maintenance — keeping your changes in sync with the latest updates from the original project — can quickly become a mess. Trust me. Over the years, my work did sometimes involve maintaining forks of various open source projects. That’s not the case with my job now, but when a colleague reached out for help with a fork that hadn’t been rebased in ages, it got me thinking that the steps I follow might be useful for other developers too. Hence this article.
 
 This is an excellent guide for what can be a tricky (a.k.a. frustrating) task. Before Joaquim gets into the rebasing/merging section, he kicks off with some great day-to-day development tips, such as:
 
