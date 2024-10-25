@@ -149,7 +149,7 @@ So it's been a very kind of consistent team. It's just like "Yeah, what small im
 
 **Tom Wilkie:** So Mitch, you're the director of product management for Grafana... Did I get that right?
 
-**Mitchel Seaman:** \[00:05:53.25\] Yeah, exactly. I was going to mention, Torkel was my first manager. I feel like that was the only unwelcome interruption in your career that's otherwise just doing great frontend development. You got out of that job pretty quick.
+**Mitchel Seaman:** \[05:53\] Yeah, exactly. I was going to mention, Torkel was my first manager. I feel like that was the only unwelcome interruption in your career that's otherwise just doing great frontend development. You got out of that job pretty quick.
 
 But yeah, I was one of the first couple of PMs that joined. I joined just after Richard Lam, who reported to you at first, right, Tom?
 
@@ -176,7 +176,7 @@ And then the big thing which happened, which we're constantly working on, but it
 
 So even if you're an experienced PromQL user, you can actually get a lot of mileage out of this UI as a way to troubleshoot, and find what actual kind of pod is causing a spike in a heavily aggregated graph. So my proof of concept started by doing that, by doing this kind of automatic group by. So having a single Prometheus graph, that is heavily aggregated; just one time series. And then I added a way to group it by one dimension, I started with one dimension, and had that split out into separate graphs.
 
-\[00:10:00.29\] And then I added being able to look at it from all possible dimensions at once. So you get a latency short, group by data center, by namespace, by job, by maybe URL endpoint etc. So you can actually see what part of those dimensions is contributing to a spike.
+\[10:00\] And then I added being able to look at it from all possible dimensions at once. So you get a latency short, group by data center, by namespace, by job, by maybe URL endpoint etc. So you can actually see what part of those dimensions is contributing to a spike.
 
 **Tom Wilkie:** I can vividly remember when you were working on this, because you were sitting next to me in London at the time.. And you were so excited about it, and I was so -- I remember day one when you showed me it, and we had a bit of a chat about it... And then day two, you came back and you're like "Well, I did all these things." And day three, even more. I just remember how cool that was.
 
@@ -199,7 +199,7 @@ So even if you're an experienced PromQL user, you can actually get a lot of mile
 
 And it just worked out really well. It's just the same idea transposed. And that one did win the hackathon. And then again, a team was -- there was already a team that jumped on this, and just did a fantastic job to get it out for public preview at OpsCon, which was -- yeah.
 
-**Tom Wilkie:** \[00:14:02.04\] Because we launched it at OpsCon, which was what?
+**Tom Wilkie:** \[14:02\] Because we launched it at OpsCon, which was what?
 
 **Torkel Ödegaard:** I think we launched it at GrafanaCon.
 
@@ -239,7 +239,7 @@ So one of the things that we're looking at in the future is "Can we do a dynamic
 
 **Mitchel Seaman:** Yeah, definitely. Or even some of the features. Torkel, I remember the colored dots at the top of the screen, that basically follow from one step to the next in an exploration process... I think a lot of people saw that right away and saw value in it, but they said "This shouldn't be isolated to this one experience or this one data source." So now people are experimenting with things like "Oh, what about like a follow me feature or enhancement to Grafana Incident, that lets users keep track of where they've been, so they can go back?"
 
-**Torkel Ödegaard:** \[00:18:11.13\] So before we move on, the thing that I just want to highlight about the Logs app... It kind of blew me away as well in what they managed to do in this hackathon project and in the weeks running up to GrafanaCon. I'm a big fan of Loki, but I've always struggled remembering the query syntax, even after working on the Loki query builder. You can do so much with it. The options are so vast, and it takes a long time to really troubleshoot using Loki, creating different queries, and just having that all done for you, detecting patterns, doing the group bys... It's just bridging such a huge gap in both learnings, but also time, and actually kind of - yeah, doing that manually.
+**Torkel Ödegaard:** \[18:11\] So before we move on, the thing that I just want to highlight about the Logs app... It kind of blew me away as well in what they managed to do in this hackathon project and in the weeks running up to GrafanaCon. I'm a big fan of Loki, but I've always struggled remembering the query syntax, even after working on the Loki query builder. You can do so much with it. The options are so vast, and it takes a long time to really troubleshoot using Loki, creating different queries, and just having that all done for you, detecting patterns, doing the group bys... It's just bridging such a huge gap in both learnings, but also time, and actually kind of - yeah, doing that manually.
 
 **Mat Ryer:** Yeah. That's what's so great about it. And I think other improvements, too. Mitch, you mentioned also improvements to managing Grafana itself. Tell us a bit more about that.
 
@@ -255,7 +255,7 @@ For example, every data source that you configure - and there could be hundreds 
 
 The other thing is, well, if you're on, say, a private network, or even like -- I was running Grafana in the demo on my local compute... I was querying a Prometheus that doesn't have access to the internet, or it's not accessible from the internet. So we had to invent a feature, a PDC that allows Grafana to establish an SSH tunnel to that local network, from an agent that you run on your own network... And so we wanted this migration tool to also work with PDC.
 
-**Tom Wilkie:** \[00:22:06.07\] What does PDC stand for?
+**Tom Wilkie:** \[22:06\] What does PDC stand for?
 
 **Mitchel Seaman:** Private Data Source Connect.
 
@@ -295,7 +295,7 @@ So the team, since the Grafana 11 release, has been adding functionality to fold
 
 **Torkel Ödegaard:** Yeah. That's something that we always do. We add some new options to visualizations... I'm always hesitant to sort of -- like, every new feature to visualization needs to really prove itself. I can come in quite late in some PRs and say "But is this really needed?" Because one thing that ever from the start of Grafana I've been so worried about feature creep. It's so easy to just say "Oh, a customer or a couple of users want the feature, so let's build it." But if you say yes to everything - yeah, it turns out like a mess. And Grafana already has so many features, already has so many options in panel edit, for visualizations especially.
 
-\[00:26:00.13\] So yeah, it's always a hard thing to know which new option. Especially if it's a UI option, I get really kind of "Yeah, is it really needed?" But many times the answer is yes, because it solves a very broad problem that many users and customers have.
+\[26:00\] So yeah, it's always a hard thing to know which new option. Especially if it's a UI option, I get really kind of "Yeah, is it really needed?" But many times the answer is yes, because it solves a very broad problem that many users and customers have.
 
 But yeah, so I think the Canvas panel has a new button feature; you can sort of add buttons and actions, which is really cool. The XY chart, kind of GA... This is a really flexible kind of charting/graphing panel that is much more kind of flexible in what types of data you visualize. It's not just time series. You can have anything on the X and Y axis, and it's kind of geared towards non-time series graphs.
 
@@ -321,7 +321,7 @@ And I think also a lot internally. We are super-heavy users of Grafana, and thro
 
 And then cloud migration was another one. We're hearing about this from a lot of customers who want to migrate to cloud, but it turns out, especially in the early iterations, it's a really useful tool for even a hobbyist who just wants to migrate over into the free tier of Grafana, and stay there forever, but just have a public instance they don't have to manage.
 
-**Torkel Ödegaard:** \[00:30:24.17\] Just on that point, Tom, the customers asking for features... That's usually how some changes go. Like, there's a PR up, someone on the database team maybe added a new option for something, and I come in, "This is stupid. Why are we building this?!" \[laughter\]
+**Torkel Ödegaard:** \[30:24\] Just on that point, Tom, the customers asking for features... That's usually how some changes go. Like, there's a PR up, someone on the database team maybe added a new option for something, and I come in, "This is stupid. Why are we building this?!" \[laughter\]
 
 **Tom Wilkie:** "Because sp and so and so asked for it", yeah.
 
@@ -345,7 +345,7 @@ So there are a lot of really improved tools, but I think that's sort of the part
 
 **Torkel Ödegaard:** Well, the biggest thing is really how we ship software now to cloud. And sort of do that regularly, every week, every day almost, depending on what change -- and have that be the way we build software... Like, okay, this has to work on cloud first. And then do monthly - or I'm not sure how often we do the open source release.
 
-**Mitchel Seaman:** \[00:34:05.14\] Yeah, every two months we do a minor release that introduces new features, and then in the intervening months we do a scheduled patch release that's just bug fixes.
+**Mitchel Seaman:** \[34:05\] Yeah, every two months we do a minor release that introduces new features, and then in the intervening months we do a scheduled patch release that's just bug fixes.
 
 **Tom Wilkie:** And this means the quality of the software we're releasing, the open source software - it means it's been tested with our cloud users beforehand, right? So it's meant we're starting to move quicker, it's meant we're releasing higher-quality software... And as an engineer at Grafana Labs, you can discover issues with new features that you've built significantly quicker than waiting for a release and waiting for someone to upgrade, and then use the feature, and then report a bug... Now we find out about it in cloud.
 
@@ -373,7 +373,7 @@ So there are a lot of really improved tools, but I think that's sort of the part
 
 **Tom Wilkie:** Or maybe you've named the bug. Maybe it's your pet bug. Maybe you look forward to greeting that bug every morning. I have a spider in my house called Fred.
 
-**Torkel Ödegaard:** \[00:38:00.18\] That's actually a problem now, when we are working on this kind of new dashboard architecture, and Scenes, and replacing the old dashboard architecture is that sort of -- we're getting a lot of sort of complaints... Not a lot, but some, where we have some changed behavior due to bugs in the old architecture, that people have sort of grown accustomed to and now expect to be a correct behavior. But yeah.
+**Torkel Ödegaard:** \[38:00\] That's actually a problem now, when we are working on this kind of new dashboard architecture, and Scenes, and replacing the old dashboard architecture is that sort of -- we're getting a lot of sort of complaints... Not a lot, but some, where we have some changed behavior due to bugs in the old architecture, that people have sort of grown accustomed to and now expect to be a correct behavior. But yeah.
 
 **Tom Wilkie:** Actually, I can remember when we switched the feature flag on in our staging environment for the new Scenes architecture, and I remember about an hour later we switched it off again... And then a few days later, we turned it on after we'd fixed -- and it went through that cycle for a good number of weeks until it finally stuck. But that's the benefit of feature flags, is they're very easy to turn on and off. You don't have to rebuild the software, you don't have to do a massive redeploy... It's much more lightweight, and de-risks the whole process.
 
@@ -403,7 +403,7 @@ But yeah, so this journey is now finally at an end. We're still kind of toying w
 
 And we don't have a real visibility into what plugins people use, but this is one way to find out specifically what plugins people are using, especially those that used Angular. So it was like a big effort of reaching out to every developer of every plugin that included Angular code, and getting their kind of collaboration. There was actually a lot of interesting care and feeding. In fact, you were asking where the ideas come from... We added a lot of features to panels like time series, for example, or our new mapping panel, the world map panel, to replace the old Angular panels that we had before. Like, really getting to parity, and bringing plugins up to date.
 
-**Tom Wilkie:** \[00:42:16.20\] I like that you mentioned the world map there, because I was always wondering, do we have like a Moon map and a Mars map panel as well, or...?
+**Tom Wilkie:** \[42:16\] I like that you mentioned the world map there, because I was always wondering, do we have like a Moon map and a Mars map panel as well, or...?
 
 **Mitchel Seaman:** I bet you could put those in. This is the most customizable map tool I've ever seen. Like, you can draw shapes on the map... I actually wouldn't be surprised.
 
@@ -443,7 +443,7 @@ And we don't have a real visibility into what plugins people use, but this is on
 
 So that's kind of what the new scenes architecture does, is like get completely rid of that and now makes it more easy to add more dynamic features. And one of the things that excites me there is making it easier to build more dynamic layouts of panels, maybe tabbed layouts, and more flexible positioning of panels that could make defining dashboards as code easier. So you don't have to position every panel individually, and having it more be sort of an open - like, "Yup, as long as this panel is 300 pixels high and 400 pixels wide, I'm happy." And then the layout system will kind of position panels depending on your screen size, and take advantage of more height if that's available, or squeeze them if there's lots of panels you want to show. So it makes it a lot easier to do conditional panels, and more dynamic features like adding a Group By, which will add more panels depending on how many dimensions there are, say. So exploring the things that new layouts will enable makes me excited.
 
-**Mitchel Seaman:** \[00:45:06.09\] For sure. We're talking a lot internally about making Grafana easy to operate and extend in cloud, which of course means nice things, like speed and reliability in the codebase, but also, there are some cool opportunities that come out of it, like the ability to search for any resource in Grafana by a lot more attributes; so making search faster, more powerful, and a little bit more accessible.
+**Mitchel Seaman:** \[45:06\] For sure. We're talking a lot internally about making Grafana easy to operate and extend in cloud, which of course means nice things, like speed and reliability in the codebase, but also, there are some cool opportunities that come out of it, like the ability to search for any resource in Grafana by a lot more attributes; so making search faster, more powerful, and a little bit more accessible.
 
 And then I think a lot -- I sort of wake up in the morning thinking about how to help users who have more scale, and users who have less patience than what Grafana supports today. So being able to sort of pave the paths in our product, sensible defaults, avoiding that empty screen, better guidance... Basically, moving advanced features into advanced mode.
 
@@ -471,7 +471,7 @@ Yeah, up next, we got some nice ones: Greylog, Google and Amazon managed Prometh
 
 **Mat Ryer:** Meet Mitch there. No, but really, how do you discover what data sources are available?
 
-**Mitchel Seaman:** It's on GitHub in the Grafana org. So yeah, GitHub.com, or Grafana projects, and there's a view. Maybe we can put it in the show notes.
+**Mitchel Seaman:** It's on GitHub in the Grafana org. So yeah, github.com, or Grafana projects, and there's a view. Maybe we can put it in the show notes.
 
 **Mat Ryer:** Let's put it in the show notes. I was about to say that, Mitch. Beat me to it.
 
