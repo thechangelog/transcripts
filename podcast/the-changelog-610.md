@@ -28,7 +28,7 @@ And yeah, at this point with Deno 2, it's pretty great. You can basically drop i
 
 **Ryan Dahl:** Yeah, a very difficult decision to be made after wringing our hands over long periods of time. Yeah, I mean, the original idea with the Deno module system is "Let's follow the ESM spec exactly. Let's follow exactly what browsers do." And browsers allow you to have HTTPS imports in there, and local imports, and "Can we actually build an entire module system on top of that?" The answer is yes, you can, and it works pretty nice it's pretty great, especially for single file scripts and kind of small little programs; you can just kind of drop in some imports in there and get off to the races pretty quickly.
 
-It gets problematic as you kind of scale up in complexity, and in particular when you need to interoperate with different systems, when you need to pull in the AWS SDK. There's just some things that you are not going to rewrite... And I think we've found a middle ground here with npm specifiers, where we're still staying true to the ESM spec, these are still URLs, URIs, in that like it's \[unintelligible 00:10:45.14\] Yet, in order to pull in npm packages, it's much more complicated than the HTTP specifiers.
+It gets problematic as you kind of scale up in complexity, and in particular when you need to interoperate with different systems, when you need to pull in the AWS SDK. There's just some things that you are not going to rewrite... And I think we've found a middle ground here with npm specifiers, where we're still staying true to the ESM spec, these are still URLs, URIs, in that like it's npm:express. Yet, in order to pull in npm packages, it's much more complicated than the HTTP specifiers.
 
 I mean, the beauty of the original Deno vision was "Oh, this dead simple resolution scheme that really makes it easy to interoperate if people implemented this. It makes it very easy to interoperate with stuff." And yeah, frankly, the reality is that works to some scale, but we're interested in making software for lots of people... And I'm not satisfied working on a runtime that 500 people can use for small scripts. I really want to make software for millions of people. And server-side JavaScript is truly millions of people, and in order to allow those people to really level up JavaScript, I'm pretty convinced that you need to be able to pull in npm modules, and understand package JSON, and implement the Node built-in modules in order to make any progress. Otherwise, you just face this boil the ocean problem.
 
@@ -132,7 +132,7 @@ Auto-generated documentation... Why does JavaScript not have auto-generated docu
 
 \[39:56\] We don't force you to do all this rigmarole up front, because sometimes you just want to publish something and you don't want to do too much. But you kind of get this signal about what sort of best practices are people following. Are they adding doc strings to all of their exported modules? Do they have a readme? Do they have a license file? This sort of thing. It's generally much more searchable, you can search through symbols... It allows you to pull in TypeScript types nicely... If those packages are written in TypeScript, there's not a definitively typed thing that you also need to know about... Yeah, it's generally a good experience.
 
-But yeah, I would say the real 10x behavior is when you publish. Then it's like "Oh my God, I can't believe it's so simple." \[unintelligible 00:40:44.22\] I recognize how terrible npm publishing actually is.
+But yeah, I would say the real 10x behavior is when you publish. Then it's like "Oh my God, I can't believe it's so simple." Right, you know rather, now I recognize how terrible npm publishing actually is.
 
 **Jerod Santo:** That's awesome. And JSR modules don't lock you into Deno. You can use it in Node, you can use it in other things... Right?
 
@@ -208,7 +208,7 @@ But yeah, I would say the real 10x behavior is when you publish. Then it's like 
 
 **Jerod Santo:** Oh, no, auto-updating Homebrew. Stop, stop, stop...! \[laughs\]
 
-**Ryan Dahl:** \[unintelligible 00:44:19.01\]
+**Ryan Dahl:** womp womp
 
 **Jerod Santo:** Yeah, exactly. Hold on. Let me go this direction. I've got a bunch of Node tasks running... Apparently, Adobe Creative Cloud is running Node... Maybe it just happened to be a match. This is getting nasty... Let's try it this way. Can I do deno run server.js? Is deno run a thing?
 
@@ -216,7 +216,7 @@ But yeah, I would say the real 10x behavior is when you publish. Then it's like 
 
 **Jerod Santo:** Yeah, let's just try that, because then we're guaranteed to use Deno, right?
 
-**Ryan Dahl:** You might have to give it a -a, or \[unintelligible 00:44:44.11\]
+**Ryan Dahl:** You might have to give it -a, or --allow-net, or something.
 
 **Jerod Santo:** Right. Should I allow -- I'm going to say "allow all", because I'm living dangerously. I'm allowing sys, I'm allowing read, I'm allowing write, I'm allowing run, I'm allowing net... Yeah. Hey, it is serving on port 3000... It works. Congrats.
 
@@ -262,7 +262,7 @@ You mentioned serverless computing... I think last time you were on the show, wh
 
 **Ryan Dahl:** Yeah. So just for clarity, in the Deno open source project, the Deno KV APIs are backed by SQLite, and you can kind of run a single instance and kind of have that same functionality. In Deno Deploy, our commercial platform, when you run these edge functions that are running across the world, the Deno KV APIs are backed by FoundationDB. It's like kind of this big distributed database that's pretty sweet. The Deno KV APIs are not stabilized in Deno 2. They continue to be experimental, in part because this is kind of an experimental business effort, and we're not quite sure if we want to go further down this route.
 
-I actually want to decouple the KV APIs from the Deno runtime itself, and have them be a module that you pull in. You should be able to pull in a JSR \[unintelligible 00:54:18.13\] and just have -- there's no real reason that it needs to be built directly into the runtime. That's just -- yeah, for ease of implementation, essentially.
+I actually want to decouple the KV APIs from the Deno runtime itself, and have them be a module that you pull in. You should be able to pull in a JSR @deno/kv and just have -- there's no real reason that it needs to be built directly into the runtime. That's just -- yeah, for ease of implementation, essentially.
 
 **Jerod Santo:** Sure.
 
