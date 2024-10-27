@@ -48,7 +48,7 @@ And then a buddy of mine harangued me into a different one, which is a chamber o
 
 **Zac Smith:** Yeah, it's pretty obvious.
 
-**Adam Stacoviak:** \[00:07:54.28\] Right. And you're letting people down...
+**Adam Stacoviak:** \[07:54\] Right. And you're letting people down...
 
 **Adam Stacoviak:** Were you a fan of the -- I know it's not the same instrument, but were you a fan of the movie Whiplash? Did you see the movie?
 
@@ -94,7 +94,7 @@ And then a buddy of mine harangued me into a different one, which is a chamber o
 
 **Zac Smith:** But you did great. \[laughter\]
 
-**Adam Stacoviak:** \[00:11:53.06\] Yeah, that's something I've learned as well as a coach, coaching young children coming up playing basketball... I coached basketball and baseball. And as a driven, ambitious athlete that I once was, used to like just a guy yelling in your face when you mess up... I just figured that's what everybody's okay with, and it works all the time. But there's a lot of situations where -- maybe not sandwich method, but people don't realize that when you constantly criticize, it's not because you don't think they're good, it's because that's what you think they're there for, is for you to tell them the things that they could improve... And every once in a while, you've got to focus on something they're doing right. Especially with young people, they struggle with that. But I've never thrown a chair at anybody. I don't know, Zac, did you ever have a chair thrown at you from a conductor? I mean, that seems like it's over the top.
+**Adam Stacoviak:** \[11:53\] Yeah, that's something I've learned as well as a coach, coaching young children coming up playing basketball... I coached basketball and baseball. And as a driven, ambitious athlete that I once was, used to like just a guy yelling in your face when you mess up... I just figured that's what everybody's okay with, and it works all the time. But there's a lot of situations where -- maybe not sandwich method, but people don't realize that when you constantly criticize, it's not because you don't think they're good, it's because that's what you think they're there for, is for you to tell them the things that they could improve... And every once in a while, you've got to focus on something they're doing right. Especially with young people, they struggle with that. But I've never thrown a chair at anybody. I don't know, Zac, did you ever have a chair thrown at you from a conductor? I mean, that seems like it's over the top.
 
 **Zac Smith:** I had a baton thrown at me. How about that?
 
@@ -138,7 +138,7 @@ And the last time I talked to you, you were really on this new trajectory with E
 
 **Adam Stacoviak:** What happened with that acquisition, with your role there? Did you enjoy it? What made you take a step away? Because you're no longer there. That was 2023. A year ago, I think, roughly, you stepped away from that role. Catch us up and let's go from there.
 
-**Zac Smith:** \[00:16:05.05\] Yeah, man. Well, let's see... '21, man - that was just the end of the mask-wearing COVID times, I think. I think we were just getting out of our little cages at the time.
+**Zac Smith:** \[16:05\] Yeah, man. Well, let's see... '21, man - that was just the end of the mask-wearing COVID times, I think. I think we were just getting out of our little cages at the time.
 
 **Adam Stacoviak:** Peeking out like the groundhog; we were peeking out.
 
@@ -154,7 +154,7 @@ And then you also get a little bit of a different lens on the world. Running the
 
 But then, after three years, which was, I would say, a very measured process that we had with Equinix, they wanted to acquire the business to help make their platform, which is hundreds of data centers all around the world, more digital. And so the first two or three years were about kind of working through at the pace to integrate some of those capabilities from the packet acquisition into that broader company. But we always knew that there would be kind of an integration process, and then, for me, after three years, it was the right time to go and, I would say, use my skills elsewhere... Primarily because that kind of integrate and scale function as a leader is not actually my best quality. I'm more of a driver and creator, rather than a kind of a manager, a process person.
 
-\[00:20:26.24\] So for me, that was a good transition. I think it was right for the company as well. I was a little bit more mentally prepared than my first startup - in 2012 I sold, with Raj. That was really emotional, because he was like your baby... And you're like "Don't touch my baby." But I was much more mentally prepared going into the transaction with Equinix around "This is your company now" and "How can we make it work for you, and how can it last well beyond me?", which is the point. And so it was easier to step away when the time was right. I still had a lot of relationships and touch with the customers, that I obviously miss, but it was the right time, and it was a good, healthy transition, I think, for all parties.
+\[20:26\] So for me, that was a good transition. I think it was right for the company as well. I was a little bit more mentally prepared than my first startup - in 2012 I sold, with Raj. That was really emotional, because he was like your baby... And you're like "Don't touch my baby." But I was much more mentally prepared going into the transaction with Equinix around "This is your company now" and "How can we make it work for you, and how can it last well beyond me?", which is the point. And so it was easier to step away when the time was right. I still had a lot of relationships and touch with the customers, that I obviously miss, but it was the right time, and it was a good, healthy transition, I think, for all parties.
 
 **Adam Stacoviak:** I think it's so cool to build something as a startup that is attractive enough not just to be acquired, but to be a hopefully integral function of scale for an already decade successful global leader. You know what I mean? How badass is that?
 
@@ -168,7 +168,7 @@ Then kind of like below it you have the stuff that's like starting to work. And 
 
 What I realized is that the zone up on the right hand side where it's winning, it's that way because it actually figures out what works; for example, with Equinix, interconnected co-location works. They dominate the market, they've been doing that for a while, everybody knows that that's what they do... And they then build processes that keep that market leading around it. And so internally at the company - and I'm sure that this is at other market-leading companies like say Google, right now with their ad business - there's a very protectionist approach. Like, don't distract from winning at the thing that is working. Like, don't get us off track, because we're nailing it every quarter, customers love it, we're dominating the market... Keep doing that. But what that can do is that can obviously take something that looks not working yet, e.g. incubation, or some sort of innovation, and kill it. Because it's a distraction to the market-leading component of the business.
 
-\[00:23:55.02\] And so that was definitely one of the challenges we had at Equinix, was they were trying to figure out how this 20 years of market leadership they had around a single thing - well, what happens to the next thing? What do they say about -- there's this funny phrase, it's like "I went broke slowly, and then all at once." It's like, it's it was working, and I was the number one until -- I mean, look at Intel right now. Until I wasn't.
+\[23:55\] And so that was definitely one of the challenges we had at Equinix, was they were trying to figure out how this 20 years of market leadership they had around a single thing - well, what happens to the next thing? What do they say about -- there's this funny phrase, it's like "I went broke slowly, and then all at once." It's like, it's it was working, and I was the number one until -- I mean, look at Intel right now. Until I wasn't.
 
 I think that there was a good self-awareness at Equinix, like "Hey, how are we going to upgrade our products and our experiences for the next thing?" And so acquisition is part of that. And I think startups play a great role, because there is no past. All they have is future. So there is no zone that is swapping away innovation. Everybody's like "All ideas are good, because we need to figure out how to survive, or make the next wave."
 
@@ -198,7 +198,7 @@ And so I think that's super-interesting that companies who have figured out how 
 
 So I've got to imagine this innovation mind you have, this vision, find it, achieve it, do it - not integrate it, because that's not really where you thrive... And then being blessed with this world of Equinix, where you have global access to AMD, NVIDIA, Intel... All the major players. A whole different conversation than you had before. What was the secrets? What did you learn? What can you share with us that we would never know, that only you would know? That's not part of your NDA.
 
-**Zac Smith:** \[00:27:06.01\] Yeah, exactly. \[laughter\] Well, I mean, I think what I learned -- I'd always respected Intel as a company. But what I learned working with them pretty closely was how hard of a task they had ahead of them. I mean, first off, we think market leading for 10 or 15 years in something... They've been market leading for 40 years. It's really, really hard when you used to own 90% of the market, to change anything. And I think that that has to be appreciated. Because I didn't appreciate how complicated cultural changes when it starts to go off track, or when you forgot or couldn't figure out how to innovate the next thing, because you were so busy making all the money, and winning all the market. Because why would you do anything else than x86 great data center CPUs and desktop CPUs, because it's working?
+**Zac Smith:** \[27:06\] Yeah, exactly. \[laughter\] Well, I mean, I think what I learned -- I'd always respected Intel as a company. But what I learned working with them pretty closely was how hard of a task they had ahead of them. I mean, first off, we think market leading for 10 or 15 years in something... They've been market leading for 40 years. It's really, really hard when you used to own 90% of the market, to change anything. And I think that that has to be appreciated. Because I didn't appreciate how complicated cultural changes when it starts to go off track, or when you forgot or couldn't figure out how to innovate the next thing, because you were so busy making all the money, and winning all the market. Because why would you do anything else than x86 great data center CPUs and desktop CPUs, because it's working?
 
 And so that's what I kind of appreciated out of that. I would say that I was surprised... I did find that all the chip companies really struggled... It's kind of like blindingly obvious, and at the same time not in the realm of possibility that the chip companies all needed some sort of recurring or subscription revenue. They have huge, huge, increasing investment cycles around CapEx, whether that's designing their technology, or that's producing it with Intel and their fab... But they have these huge things where they go and then they just sell the chip one time. And increasingly, they're competing against, I believe, their biggest customers, hyperscale clouds, which are also making their own chips. But they have a nice, juicy, recurring revenue model. So they get to make money on those chips every day, or for years and years and years.
 
@@ -216,7 +216,7 @@ And it's kind of what customers wanted too, because customers kept expressing "H
 
 But just to go back to as a service, I think it's even more basic than that. And I'm like, just think of Apple, who I think just has a masterclass in this. They used to sell you phones, but now I just go on this upgrade cycle all the time... And they take back the physical device from me, and finance it on their Apple card, or whatever... All I know is every 18 months to two years, it's super, super-easy for me to get a new phone, and the other one goes back into the back of the store on roller skates, or like the Apple \[unintelligible 00:31:55.07\] comes out and brings me the new one... And that's for a physical device I hold in my hand all day long. The access of like most data center equipment is much easier, because most people never touch it. They never see it. It just goes into a big data center, in one of like 40 markets around the world, which means we know exactly where it lands, nobody really touches it except for service providers...
 
-\[00:32:21.00\] And so I think there's a real opportunity to kind of do an upgrade cycle or a kind of circular model where it's like instead of buying computers with an Intel chip in it, you buy a subscription to Intel technology that allows you to have always access to the latest stuff. And that could be in your data center or somebody else's data center. I think that that's -- one part is financing and service model, and the other part is where does it sit? But these things aren't going into random places. They're going into pretty well-known places.
+\[32:21\] And so I think there's a real opportunity to kind of do an upgrade cycle or a kind of circular model where it's like instead of buying computers with an Intel chip in it, you buy a subscription to Intel technology that allows you to have always access to the latest stuff. And that could be in your data center or somebody else's data center. I think that that's -- one part is financing and service model, and the other part is where does it sit? But these things aren't going into random places. They're going into pretty well-known places.
 
 **Adam Stacoviak:** Was that as a concept was difficult to sell? Or was it like the actual "How would we get there, because we are this behemoth that's doing this other thing and we're in the performance zone?"
 
@@ -242,7 +242,7 @@ So we need to do something at real scale. Oh, but we can't get behind something 
 
 **Adam Stacoviak:** Mm-hm.
 
-**Break**: \[00:35:37.17\]
+**Break**: \[35:37\]
 
 **Adam Stacoviak:** So are you saying that NVIDIA and these players that are providing these expensive AI GPUs, things like this - this new tech, I suppose is probably the easier way to say it - should learn from the Apple model of this "Every 18 months there's a recycling of tech. I'm getting the latest/ greatest. The older version of it is cycling out, and I can rely on the best being available to me." And the company, like NVIDIA, can lean back on this predictability of a sales cycle, essentially. So as they have CapEx and innovation, this new thing they're working so hard on has a place to go.
 
@@ -280,7 +280,7 @@ So we need to do something at real scale. Oh, but we can't get behind something 
 
 **Adam Stacoviak:** Right.
 
-**Zac Smith:** \[00:44:23.07\] Yeah. It's a great question, because if they've got a trade-in program, they'll take your old Mac book. It's like no real difference. But you're right from a conceptual standpoint. I don't think about it, and I think most consumers don't think in the same way. I think this is the power of reframing. Like, why do you go to the grocery store and it's "Same grade formula, just a new box." Right? And it's like "Wow, it's purple now. It must be different", while they're telling you it's exactly the same. There must be some science behind consumer branding and marketing, where - the phone was just a different model. We were used to it being an upgrade. We were used to "Oh--" But our desktops - no, we put that there and stuck there, and we did it and we bought it and we owned it... And I don't know, maybe there was this because phones came through carrier...
+**Zac Smith:** \[44:23\] Yeah. It's a great question, because if they've got a trade-in program, they'll take your old Mac book. It's like no real difference. But you're right from a conceptual standpoint. I don't think about it, and I think most consumers don't think in the same way. I think this is the power of reframing. Like, why do you go to the grocery store and it's "Same grade formula, just a new box." Right? And it's like "Wow, it's purple now. It must be different", while they're telling you it's exactly the same. There must be some science behind consumer branding and marketing, where - the phone was just a different model. We were used to it being an upgrade. We were used to "Oh--" But our desktops - no, we put that there and stuck there, and we did it and we bought it and we owned it... And I don't know, maybe there was this because phones came through carrier...
 
 **Adam Stacoviak:** That's what I think it is.
 
@@ -308,7 +308,7 @@ So I think that it's very -- it can translate, but you have to rebrand it in som
 
 **Zac Smith:** Right.
 
-**Adam Stacoviak:** \[00:47:43.28\] And so I may not be personally, but I can appreciate it being available, because there's people who really -- every time there's the newest version of it, whatever the major advancement of it is, and it might be every two years, they're the ones buying it. But similar to the way you buy a car, or a large liability that seems like an investment, which is what a machine -- this computer is an investment, because it makes you make money... But it's still a liability in the fact that it goes down in terms of its cost or its value to someone else.
+**Adam Stacoviak:** \[47:43\] And so I may not be personally, but I can appreciate it being available, because there's people who really -- every time there's the newest version of it, whatever the major advancement of it is, and it might be every two years, they're the ones buying it. But similar to the way you buy a car, or a large liability that seems like an investment, which is what a machine -- this computer is an investment, because it makes you make money... But it's still a liability in the fact that it goes down in terms of its cost or its value to someone else.
 
 **Zac Smith:** Yeah, it's depreciating.
 
@@ -322,7 +322,7 @@ That's one thing you notice being in a data center company, is just the amount o
 
 **Zac Smith:** Circular, yeah.
 
-**Adam Stacoviak:** \[00:51:59.26\] Circular, there you go. Simple. And I think you mentioned what Kyle Weans talked about with me on a podcast... Do you know Kyle Weans, by any chance? Does the name ring a bell?
+**Adam Stacoviak:** \[51:59\] Circular, there you go. Simple. And I think you mentioned what Kyle Weans talked about with me on a podcast... Do you know Kyle Weans, by any chance? Does the name ring a bell?
 
 **Zac Smith:** I don't.
 
@@ -352,7 +352,7 @@ And so I would see circular in computers would be where there would be a benefit
 
 **Zac Smith:** Landfills, and scrap, and in not great ways; in very destructive ways, which is really unfortunate considering - my understanding is like 70% or so of the carbon impact... I heard this from the -- there was a company several years ago built around taking OCP gear, and giving it a second life. Dean Nelson has done a bunch of this within the Infrastructure Masons, just taking hyperscale equipment and trying to give it two or three more years' worth of life after that; an upgrade cycle. But my understanding was something like 70% of the carbon impact of a computer over its entire life is making the computer. 20% is running it the whole time, and 10% is what they can recycle from it, is the energy impact. So that to me says "Wow, the best thing you could possibly do is not make another computer." At least 80% of it, you don't have to make new parts on.
 
-\[00:56:22.01\] And so yeah, I think that there's an alignment issue and an opportunity where the industry would want that to be more circular, where in data centers we would have collection points, where Intel, NVIDIA or Dell or HP wanted their things back, so that they could upgrade them and change the parts and do the things more. Or even better, you would design the data center differently so that it was upgradable by default. It would make multi-generation systems, instead of buy a new kit and build a new kit. What Brian's doing at Oxide is super-cool...
+\[56:22\] And so yeah, I think that there's an alignment issue and an opportunity where the industry would want that to be more circular, where in data centers we would have collection points, where Intel, NVIDIA or Dell or HP wanted their things back, so that they could upgrade them and change the parts and do the things more. Or even better, you would design the data center differently so that it was upgradable by default. It would make multi-generation systems, instead of buy a new kit and build a new kit. What Brian's doing at Oxide is super-cool...
 
 **Adam Stacoviak:** You like that? Okay.
 
