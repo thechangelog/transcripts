@@ -28,7 +28,7 @@ But very much, I think, feature for feature, it's gonna feel the most like VS Co
 
 **Kevin Ball:** Nice. What's the plugin story for Zed?
 
-**Jerod Santo:** \[00:08:04.15\] Well, now we're gonna get into Jerod's toolbox... And I am not really a plugin guy. So there are plugins, I have a few, I installed some stuff... It's fledgling, I would say. It's nowhere near what VS Code has. So if you are a plugin person, nowhere near what Vim has, or NeoVim, just because it's a pretty new editor, and a pretty new community, and they've been building the extensibility story after they built a few of their other stories up. So it's like bare bones in there, and a lot of first party stuff. So they're trying to batteries-include that sucker. So a lot of it, I just don't care about; it's built in. But if you are heavy into plugins and extensibility -- like, snippet support just landed recently, which was holding me off for a long time, because I do have some snippets that I use commonly, and I just couldn't even use them in Zed... That's there now. So like it's getting there, but yeah, plugins are probably the current thing that's limping along in that ecosystem, just because it's a pretty new editor.
+**Jerod Santo:** \[08:04\] Well, now we're gonna get into Jerod's toolbox... And I am not really a plugin guy. So there are plugins, I have a few, I installed some stuff... It's fledgling, I would say. It's nowhere near what VS Code has. So if you are a plugin person, nowhere near what Vim has, or NeoVim, just because it's a pretty new editor, and a pretty new community, and they've been building the extensibility story after they built a few of their other stories up. So it's like bare bones in there, and a lot of first party stuff. So they're trying to batteries-include that sucker. So a lot of it, I just don't care about; it's built in. But if you are heavy into plugins and extensibility -- like, snippet support just landed recently, which was holding me off for a long time, because I do have some snippets that I use commonly, and I just couldn't even use them in Zed... That's there now. So like it's getting there, but yeah, plugins are probably the current thing that's limping along in that ecosystem, just because it's a pretty new editor.
 
 **Kevin Ball:** And I see on their blog, their latest blog post is "Introducing Zed AI." Are you using the LLM-based coding tools inside of Zed?
 
@@ -56,7 +56,7 @@ I'm a long-time Tmux user, and I use Tmux mostly via a configurator tool called 
 
 **Jerod Santo:** Yeah, most of my configs are kind of set in stone, because I'm just like set in my ways... So I don't really need to -- I'll add a new function into my BashRC, or whatever it's called, ZSHRC at this point, once a year; I'll add a new function and be like "Oh, that's a nice quality of life improvement." But I've got so much built up over the years that I don't think about it as much anymore.
 
-\[00:11:57.06\] However, Smug is a Tmux configurator... So there's also Tmux Sessions, which is a plugin for Tmux that does a similar thing, and there's an old Ruby gem called Tmuxinator, which is where I got started. And it's basically like "Define your Tmux sessions in a YAML file or in a list of YAMLs", and you can start up Tmux with all your settings into a project, bam. And then you can suspend it, restart it, et cetera, et cetera. And so Smug is now basically a rewrite of Tmuxinator in Go, which means universal.
+\[11:57\] However, Smug is a Tmux configurator... So there's also Tmux Sessions, which is a plugin for Tmux that does a similar thing, and there's an old Ruby gem called Tmuxinator, which is where I got started. And it's basically like "Define your Tmux sessions in a YAML file or in a list of YAMLs", and you can start up Tmux with all your settings into a project, bam. And then you can suspend it, restart it, et cetera, et cetera. And so Smug is now basically a rewrite of Tmuxinator in Go, which means universal.
 
 **Kevin Ball:** It's actually fast?
 
@@ -86,7 +86,7 @@ I'm a long-time Tmux user, and I use Tmux mostly via a configurator tool called 
 
 **Jerod Santo:** Yeah. So Changelog.com is all Elixir. So it's using the Phoenix framework. I've been maintaining that codebase and advancing it since 2016, which is probably the longest single codebase of my career. As a contractor, I've worked on projects and then moved on, or - I think I've maintained something for a few years... I did have long-term customers, so maybe like three or four or five years would be like the longest I worked on a single codebase... But I've been on this one since 2016, so that's coming up on eight years, I guess... And it's all Elixir in the backend, and HTML-oriented. I'm very much an HTML-oriented web developer, with JavaScript sprinkles...
 
-\[00:16:03.07\] And that's the way I like it, and that's the way I've written it, and that works just fine for me. There's no SPA framework in the frontend of Changelog.com. And that's languages. Now that's for, I guess, product. That'd be a product, right?
+\[16:03\] And that's the way I like it, and that's the way I've written it, and that works just fine for me. There's no SPA framework in the frontend of Changelog.com. And that's languages. Now that's for, I guess, product. That'd be a product, right?
 
 For one-offs and scripts, I still usually just start with Bash, and then go immediately to Ruby, as soon as I'm outside of Bash. I just can't get more expressive. You can do a lot in Elixir, and I have like two Elixir scripts I wrote, and I'm like "There's just more ceremony here." And Ruby, for text manipulation, and looping, and command line stuff, and shelling out and getting a result, and then... I know I've spent time with sed and awk, and I can do all those things, but Ruby for me is just way faster to get that stuff done.
 
@@ -118,7 +118,7 @@ And so you install it, it runs in the background, and it takes over certain keys
 
 When you do that in classic terminal, it'll just like do it right there where you are, and when you do that with Atuin, it will bring up kind of a reverse chronological list... Not reverse chronological; reverse last in/first out list, your most recent used, going upward, that match the current search. And because of that, it moves your search down to the bottom of the screen. And so it literally just moves it from where it was, to the bottom, and that just took me maybe a couple of days to -- it bugged me for a day or two, because I'm used to it just being... I'm staring at it, and now it moves it down to the bottom. Other than that, which is a tiny thing, it's a drop-in replacement, and it's better in every conceivable way. So I just installed it and run it and haven't looked back.
 
-\[00:20:17.11\] So try that one out, and maybe if you do have any issues that it changes -- because those of us with longstanding habits, it doesn't take much to be like "This ruined my life in one minor, nitpicky way", and that's sometimes enough friction to be like not worth it for us... So I'd be interested to hear your results... But man, I installed it and have not looked back.
+\[20:17\] So try that one out, and maybe if you do have any issues that it changes -- because those of us with longstanding habits, it doesn't take much to be like "This ruined my life in one minor, nitpicky way", and that's sometimes enough friction to be like not worth it for us... So I'd be interested to hear your results... But man, I installed it and have not looked back.
 
 **Kevin Ball:** Alright. Well, I just installed it. I'll let you know.
 
@@ -134,15 +134,15 @@ When you do that in classic terminal, it'll just like do it right there where yo
 
 There are competitors to that, which are also good... So lots of cool tools in the podcasting space. And then we take the recorded stuff and we do all our editing in Adobe Audition. Now, there's a lot of tooling around that now that didn't exist before as well, around editing specifically, whether it's Descript and the ability to read the transcript, delete words out of the transcript and it edits the audio, which is just a really cool idea... But for us, we've been doing it this way for so long that we just prefer kind of the power and control that we have in Audition, that you give up when you use some of these online tools for editing. So everything goes into Audition, all of our files are synced via Dropbox... So we don't think about Dropbox very often, but it's just a core piece of our business, 100%. Long-time users of that.
 
-And then everything else in terms of publishing is all just self-built. So I built an open-source web app, the one I mentioned, that does everything from like we have an mp3 file, to completely published, syndicated, promoted, blah, blah, blah, blah, it's all just coded up. So a custom tool.
+And then everything else in terms of publishing is all just self-built. So I built an open source web app, the one I mentioned, that does everything from like we have an mp3 file, to completely published, syndicated, promoted, blah, blah, blah, blah, it's all just coded up. So a custom tool.
 
 **Kevin Ball:** Gotta love those custom tools.
 
-**Jerod Santo:** Oh, yeah. Well, the nice thing about them is that they're custom. \[laughs\] So it's both a gift and a curse, right? So we can do whatever our hearts imagine. And we've done some really cool stuff. Our transcripts get synchronized over to GitHub, and they're open-source on GitHub, and so you can actually help improve them there... And then if you improve them there, they get synchronized back, they get sucked back into our database. Stuff like that. We do a lot with chapters and with mp3 metadata that you couldn't do elsewhere... So we've been able to really customize it to be exactly the way we want.
+**Jerod Santo:** Oh, yeah. Well, the nice thing about them is that they're custom. \[laughs\] So it's both a gift and a curse, right? So we can do whatever our hearts imagine. And we've done some really cool stuff. Our transcripts get synchronized over to GitHub, and they're open source on GitHub, and so you can actually help improve them there... And then if you improve them there, they get synchronized back, they get sucked back into our database. Stuff like that. We do a lot with chapters and with mp3 metadata that you couldn't do elsewhere... So we've been able to really customize it to be exactly the way we want.
 
 And then the curse is, if we want something new, we've gotta build it. You have to build it all, you know? If it's broken, I've gotta fix it. If we want it, we've gotta build it. And so it's that onstanding gift and curse of custom software. It's really paid dividends, though. We were on WordPress back in the day... And look at us now. I mean, we could have been a WP Engine customer. We would be so mad right now.
 
-**Kevin Ball:** \[00:24:13.13\] Oh, man. Well, and you clearly have not fallen into the common developer challenge of rewriting the platform more often than you publish.
+**Kevin Ball:** \[24:13\] Oh, man. Well, and you clearly have not fallen into the common developer challenge of rewriting the platform more often than you publish.
 
 **Jerod Santo:** No. We couldn't do that because we publish five or six times a week. I'm not that fast of a coder. But we definitely thought about doing some rewrites. And of course, when you built something eight years ago, it has its warts. The technologies that you pick are no longer best in breed... I actually think I picked a pretty good tech for this, but... I'm actually very pleasantly surprised that I don't have any sort of itch. I think there was once when like "Should we go JAMstack with this?" Because it's so static content; a lot of it's static content. And so pre-built HTML makes a lot of sense.
 
@@ -170,7 +170,7 @@ And then one thing that we really want to do, and we have taken steps towards wi
 
 **Jerod Santo:** Right. Yeah, exactly. I did build custom feeds this year, which was something that our subscribers have asked for for a very long time. One small wrinkle in our membership is, for instance, if you're just a JS Party listener and you want to support JS Party, you sign up for Changelog++, it feels good, you support us... But because of the way Supercast works, they can only take one of our feeds and turn that into the private feeds for everybody.
 
-\[00:27:54.15\] And so we have a Master feed of our Plus Plus content that we send to Supercast. And so all of a sudden now, you have to get all of our episodes, instead of just JS Party. Which is - you know, people understand. I'm like "Sorry, that's just the way it works. Please just delete the ones you don't like." Or if you can find a podcast app that provides filters inside the app - which there are real nerdy podcast apps where you're like "I want to subscribe to this feed, but only if this string matches", or whatever... Please do that instead.
+\[27:54\] And so we have a Master feed of our Plus Plus content that we send to Supercast. And so all of a sudden now, you have to get all of our episodes, instead of just JS Party. Which is - you know, people understand. I'm like "Sorry, that's just the way it works. Please just delete the ones you don't like." Or if you can find a podcast app that provides filters inside the app - which there are real nerdy podcast apps where you're like "I want to subscribe to this feed, but only if this string matches", or whatever... Please do that instead.
 
 And so that was a bummer, because we say "It's better", but when you sign up and you're like "This is actually worse than what I was doing before", besides the bonus content and the ad-free... So now that I've built custom feeds, it's solved that problem. You can go in and create a custom JS Party only feed, and subscribe to that. And I thought I had to bring everything first party to get that done, and then I realized "Why?" Just build the custom feeds feature, and let -- all I needed on our app was to know if you're a Plus Plus member. And because Supercast uses Stripe, it's our Stripe account, I can just hit the Stripe API, figure it all out.
 
@@ -184,7 +184,7 @@ And so I'm kind of sidestepping, which has been really nice, because it lets me 
 
 **Jerod Santo:** Yeah, a hundred percent. And you have to decide, just like anything else, "Do we build or buy", you know? And there's a lot of off the shelf tools. There are way more now than there were in 2016 and 2015, when we made this choice... Where it's like "Would I build a custom platform today?" Probably not. It would depend on what exactly we're trying to build. But we do some partner broadcasts... So we produce Grafana's Big Tent. And for them, we're just like "Go sign up for Transistor." It's a great service. Fireside was another good one that just got acquired by John Nunemaker, who's a friend of ours... And so that one's gonna be getting better. But there's options, and most people do not need what we built back then. But now that we have it, we use it to make our business better.
 
-**Break**: \[00:30:37.14\]
+**Break**: \[30:37\]
 
 **Kevin Ball:** Let's talk a little bit about the business... Because I would bet there's a fair number of people here who want to run their own business in some form or another. Maybe it's just a freelance business, right? Getting out from under people's thumbs... What are the tools you use to run the business? What did you use back when you were contracting? What would you lean on if somebody's in that -- or what's in that side of your tool chest?
 
@@ -212,7 +212,7 @@ Dropbox is a big one, as I already mentioned. We use that for all of our file sh
 
 And then there's so -- I mean, to I guess Silicon Valley and the greater tech industry's credit, there's a lot of good services you can build your business on nowadays, to where it's not that hard to get started. It's really not. You have a plethora of choices, there's competition, prices aren't too bad... You can start a small business relatively easy and cheap using internet-based tools.
 
-**Kevin Ball:** \[00:36:18.11\] Yeah, it's shockingly easy. I feel like the core problem is figuring out what is something you can sell that people wanna buy.
+**Kevin Ball:** \[36:18\] Yeah, it's shockingly easy. I feel like the core problem is figuring out what is something you can sell that people wanna buy.
 
 **Jerod Santo:** \[laughs\] Yeah, that's still the really hard part, isn't it?
 
@@ -246,7 +246,7 @@ And then there's so -- I mean, to I guess Silicon Valley and the greater tech in
 
 **Kevin Ball:** I mean, WordPress is theoretically GPL.
 
-**Jerod Santo:** It is GPL, right? So now it's just trademark and services. I don't know... It's getting murky, for sure. But as a Pocket Cast user, it's just cool that it's open source. You can watch them build it. You're not necessarily -- I wouldn't go any further than that myself, but it's just cool that it's out there. And what's interesting was that it wasn't open source. Matt Mullenweg buys it via Automattic, and he open-sources the thing. So the guy used to have a lot of street cred with me. That's why I'm very confused at this point. Because I thought that was very cool.
+**Jerod Santo:** It is GPL, right? So now it's just trademark and services. I don't know... It's getting murky, for sure. But as a Pocket Cast user, it's just cool that it's open source. You can watch them build it. You're not necessarily -- I wouldn't go any further than that myself, but it's just cool that it's out there. And what's interesting was that it wasn't open source. Matt Mullenweg buys it via Automattic, and he open sources the thing. So the guy used to have a lot of street cred with me. That's why I'm very confused at this point. Because I thought that was very cool.
 
 **Kevin Ball:** Maybe he went on one of those ayahuasca trips that has everybody freaking out.
 
@@ -256,7 +256,7 @@ So the podcasting community is trying to innovate and change and make podcasting
 
 **Kevin Ball:** I've just been on Apple Podcasts by default, right? I've been there for so long. Why not? But alright, I'm inspired. I'm going to pull my phone out and install Overcast.
 
-**Jerod Santo:** \[00:39:54.10\] Okay, cool. If you're listening to this on Spotify, there's better worlds out there, I'll tell you. There's podcast apps that support chapters in such a way that as a podcaster, I can name a chapter, I can add a link so that when you're looking at that chapter, you can click on the name of the chapter, and follow the link to the thing that we're talking about. So if we're discussing an article that we just read, I can put the link to the article in there, and you can click on it and read it while we talk about it. And I can attach imagery. So while that chapter is active, it takes over your cover art for the podcast that you're listening to. And so I can reference a diagram, or a meme, and put that meme in your podcast app while we talk about it. Spotify won't let you do that. So if you want better...
+**Jerod Santo:** \[39:54\] Okay, cool. If you're listening to this on Spotify, there's better worlds out there, I'll tell you. There's podcast apps that support chapters in such a way that as a podcaster, I can name a chapter, I can add a link so that when you're looking at that chapter, you can click on the name of the chapter, and follow the link to the thing that we're talking about. So if we're discussing an article that we just read, I can put the link to the article in there, and you can click on it and read it while we talk about it. And I can attach imagery. So while that chapter is active, it takes over your cover art for the podcast that you're listening to. And so I can reference a diagram, or a meme, and put that meme in your podcast app while we talk about it. Spotify won't let you do that. So if you want better...
 
 **Kevin Ball:** Better memes...
 
@@ -288,7 +288,7 @@ I don't have a favorite frontend framework, because I just don't use them. There
 
 **Kevin Ball:** That's not much.
 
-**Jerod Santo:** \[00:43:48.01\] \[laughs\] I don't want much. I want my webpages to load as fast as possible, to as many people as possible in constrained devices... And if I can get away with it, I would use zero. Not because I don't like it, because I think that that's ultimately a more rock-solid and fast experience for most people. So I sprinkle it on, in the form of, I guess, 64 kilobytes.
+**Jerod Santo:** \[43:48\] \[laughs\] I don't want much. I want my webpages to load as fast as possible, to as many people as possible in constrained devices... And if I can get away with it, I would use zero. Not because I don't like it, because I think that that's ultimately a more rock-solid and fast experience for most people. So I sprinkle it on, in the form of, I guess, 64 kilobytes.
 
 **Kevin Ball:** I think maybe more for the player. I'm trying to figure out... That looks like that's loaded separately.
 
@@ -330,7 +330,7 @@ I don't have a favorite frontend framework, because I just don't use them. There
 
 **Jerod Santo:** It's so fun, too. My wife absolutely loves that feature. In fact, she's on the free plan, I'm on the paid plan for ChatGPT... And so she gets like three a day, two or three a day... And so she'll prompt like two or three and then she'll be like "Can you paste this prompt into your phone and send me the picture? Because I want a fifth, sixth and seventh attempt at this image." The maddening part about those image generators is they just can't spell right. Have you noticed this?
 
-**Kevin Ball:** \[00:47:55.08\] \[laugh\] Yup.
+**Kevin Ball:** \[47:55\] \[laugh\] Yup.
 
 **Jerod Santo:** Because they're not actually spelling words.
 
@@ -350,7 +350,7 @@ Now, Zed may be doing something similar... It's pretty clear that that's a need,
 
 **Jerod Santo:** Yeah, they're pretty good at just being a chatbot, and doing what ChatGPT basically does... But yeah, turning it into an overall wrapped product has always been where open source tends to lose. I did download Cursor... It just bugs me that -- I understand why they're like "We need to just be our own editor." To me, as a product person, I totally 100% get that. And I think if they continue to do what they're doing, they'll get it to where it's good enough. And it is a VS Code fork, so it's not like it's completely foreign to anybody... But it's just a crappier editor. I mean, it is. And so I don't wanna switch all my things in order to go get that experience. However, I did have a memory leak in a Node app that I built, and I didn't put any work into this memory leak; I just knew it was a Chromium thing... Like Puppeteer... Eventually, Chromium is just leaking memory and it would crash my app server, right? And it just started crashing. It would crash like once a week at first, and then it started crashing like once every couple of days, running as a server on Fly... And I would just get sick of the crash reports. Crashing is no big deal, honestly, because it just reboots the thing and it comes back up again... Anyways. I was like "I don't really wanna deal with this memory issue problem. I'm not freeing something here or there... I'm calling const when I should call letter..." I don't know what I'm doing, I realized, and that's \[unintelligible 00:51:36.29\] But I just gave my file -- it's just like, server.js, I just took my Node app and I just put it into Cursor, and I just said "I've got this memory problem." And it's like, "I'm gonna rewrite this for you." And then I was like "Yeah, that looks like it might fix the problem." Pasted it in, haven't had an app crash since. So... Super-successful with that project, but I just didn't like --
 
-**Kevin Ball:** \[00:52:00.23\] It's not -- yeah, well, and I have a similar problem, right? So I use the Vim bindings, because - of course... And it's slow. It's just slow. And the undo, the implementation or the interaction of the undo with the AI completes is broken. It's totally borked. So if I'm editing something where I'm just like "I wanna go in, I know the change I wanna make, and I'm gonna make it", it will still open up new Vim in a terminal. That said, for larger-scale transformations...
+**Kevin Ball:** \[52:00\] It's not -- yeah, well, and I have a similar problem, right? So I use the Vim bindings, because - of course... And it's slow. It's just slow. And the undo, the implementation or the interaction of the undo with the AI completes is broken. It's totally borked. So if I'm editing something where I'm just like "I wanna go in, I know the change I wanna make, and I'm gonna make it", it will still open up new Vim in a terminal. That said, for larger-scale transformations...
 
 **Jerod Santo:** Worth it.
 
