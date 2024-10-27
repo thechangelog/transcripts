@@ -8,7 +8,7 @@
 
 **Jerod Santo:** Welcome to the club.
 
-**Erez Zukerman:** Yeah. If you give me a task, I will spend an obscene amount of time trying to figure out "Okay, what is the best way to do this?" It would have taken me an hour, but no, I'll spend the 10 hours like "What's like the best...?" And years ago, I was a writer. I used to write for PC World, I used to write and edit for \[unintelligible 00:04:34.17\] which was another tech blog... And that's a lot of typing, it's a lot of writing. And that kind of got me into a rabbit hole of "How can I do this better? This feels weird." Even before that, my very first keyboard was an ergonomic keyboard. It was the Microsoft Natural 4000, way back when. So I kind of had it in the back of my mind that it can be better. Like, I don't have to use a laptop keyboard. I don't have to use like a crappy, mushy keyboard. And then basically I switched to a better keyboard layout. So I was still using the same hardware, but the keys were arranged differently. That's a layout called Colemak. And if you're listening to this and you're feeling uncomfortable typing, that would be the first thing I would suggest. Don't even buy anything. Just switch to a better keyboard layout, with a keyboard you already have.
+**Erez Zukerman:** Yeah. If you give me a task, I will spend an obscene amount of time trying to figure out "Okay, what is the best way to do this?" It would have taken me an hour, but no, I'll spend the 10 hours like "What's like the best...?" And years ago, I was a writer. I used to write for PC World, I used to write and edit for MakeUseOf which was another tech blog... And that's a lot of typing, it's a lot of writing. And that kind of got me into a rabbit hole of "How can I do this better? This feels weird." Even before that, my very first keyboard was an ergonomic keyboard. It was the Microsoft Natural 4000, way back when. So I kind of had it in the back of my mind that it can be better. Like, I don't have to use a laptop keyboard. I don't have to use like a crappy, mushy keyboard. And then basically I switched to a better keyboard layout. So I was still using the same hardware, but the keys were arranged differently. That's a layout called Colemak. And if you're listening to this and you're feeling uncomfortable typing, that would be the first thing I would suggest. Don't even buy anything. Just switch to a better keyboard layout, with a keyboard you already have.
 
 And Colemak was interesting because there's this graduated system of learning it. I was getting paid by the word. I was writing for a living. So it was kind of scary to switch to a different keyboard layout, because at the time - this was years and years ago - there wasn't really great dictation software, or anything like that. So if I can't type, I can't write, I can't pay the bills.
 
@@ -16,7 +16,7 @@ So I transitioned over to Colemak using this graduated system called Tarmak, whe
 
 **Jerod Santo:** The rabbit hole is deep.
 
-**Erez Zukerman:** Yeah. I was comfortable using Colemak, but I was like "Man, I'm sure there's better stuff out there." So I got this wonderful keyboard that's made to this day, this was the Kinesis Advantage. And that's a keyboard that's like a -- it's like one massive thing, and your hands are slightly separated, and there's these \[unintelligible 00:06:42.09\] that your fingers sink into. It's very cool. And I got it blank. You could get it with no, nothing on the key caps, because by that time the key caps would have been wrong for me... So I got it with nothing. And my wife loved that, because I was relearning to type, yet again, and like completely... But within a couple of weeks I was able to type pretty well on this blank keyboard.
+**Erez Zukerman:** Yeah. I was comfortable using Colemak, but I was like "Man, I'm sure there's better stuff out there." So I got this wonderful keyboard that's made to this day, this was the Kinesis Advantage. And that's a keyboard that's like a -- it's like one massive thing, and your hands are slightly separated, and there's these bowls that your fingers sink into. It's very cool. And I got it blank. You could get it with no, nothing on the key caps, because by that time the key caps would have been wrong for me... So I got it with nothing. And my wife loved that, because I was relearning to type, yet again, and like completely... But within a couple of weeks I was able to type pretty well on this blank keyboard.
 
 And then I loved the hardware, it was lovely for me, but I wanted it to do more. I was like "Man why does one key do only one thing?" I mean, what if I hold it down? What if I tap it twice? What if -- you know, all those things. And then I kind of got into the possibilities of what's possible, what's out there in terms of smarter keyboards... And I found the ErgoDox. And this was an open source design by Dominique Pouchain, a Quebecois... And at the time you could buy it as a box of parts from Massdrop, before they were called Drop.com. You would pay hundreds of dollars and wait a couple months and get a box of parts, including surface mount diodes, which are these teeny-tiny grain of rice things you have to put on a circuit board at exactly the right place and the right orientation, and solder down, again and again, because there's many of these...
 
@@ -58,19 +58,19 @@ We ran the campaign for two months. We raised 80,000 US, which was what we neede
 
 \[12:19\] It always gets me when I see ergonomic keyboards that work one way. So I know it's probably ergonomic or comfortable for hopefully the person who designed it. I guess it works for them. But maybe my hands are a different size, or maybe some of my fingers are more or less nimble than others. So there's the whole question of "Once you plug the keyboard in, can you customize it?" Can you adapt it so that it works for you? And before, with these keyboards - and with some of these keyboards to this day - you go to the source code. There is a beautiful piece of code called QMK, stands for Quantum Mechanical Keyboard, and that's a spinoff of TMK, which is an even earlier mechanical keyboard firmware... But QMK is very, very powerful. It lets you do many, many things with your keyboard. You can have layers, you can have one key that you can tap, and hold, or tap-tap, or like a whole bunch of -- like a combo, where you mash six keys at the same time and you get something on your screen. All sorts of stuff. But --
 
-**Adam Stacoviak:** My password matching certain keys for a \[unintelligible 00:13:27.13\] \[laughter\]
+**Adam Stacoviak:** My password, matching certain keys, for a length of time \[laughter\]
 
 **Erez Zukerman:** Exactly.
 
 **Jerod Santo:** There you go.
 
-**Adam Stacoviak:** It's like, \[unintelligible 00:13:30.04\] it can actually bypass the biometric. Because if you've got this crazy keyboard anyways... I'm thinking like Mission Impossible, when they break into the person's --
+**Adam Stacoviak:** It's like, don't need to actually type something in, or it can actually bypass the biometric. Because if you've got this crazy keyboard anyways... I'm thinking like Mission Impossible, when they break into the person's --
 
 **Jerod Santo:** Yeah, go all in.
 
 **Adam Stacoviak:** Yeah, they get into the henchman's layer, and they go and they access the keyboard, and it's like "I can't even operate this thing, because it's this Tarmak thing, or this Colemak thing..." \[laughter\]
 
-**Erez Zukerman:** We were talking to a user in New York the other day and he was showing his keyboard, and he got all blanks. And he says "Yeah, when I ordered from you, it was all printed keycaps. But that was too friendly to people who \[unintelligible 00:14:04.11\] me. So I swapped out the keycaps for blanks, and now nobody can use it." It's a feature.
+**Erez Zukerman:** We were talking to a user in New York the other day and he was showing his keyboard, and he got all blanks. And he says "Yeah, when I ordered from you, it was all printed keycaps. But that was too friendly to people who weren't me. So I swapped out the keycaps for blanks, and now nobody can use it." It's a feature.
 
 **Adam Stacoviak:** Yeah. Memory-only.
 
@@ -150,7 +150,7 @@ For example, I don't like reaching for the Shift key. So my Shift key is the sam
 
 **Jerod Santo:** Yeah. Just the one key change, that I still use to this day on a regular MacBook, just took that problem completely away. It took me a long time to land on that, and there was pain in the interim. But when I realized - and now I'm also stealing our listeners' ability to understand, because I'm showing you with my hand... I just did this over and over again, which I'm like tweaking to the left to hit Control. I was getting to that control spot.
 
-**Erez Zukerman:** \[unintelligible 00:20:45.17\]
+**Erez Zukerman:** Emacs pinky type of thing
 
 **Jerod Santo:** Yeah, exactly. And so if I just moved that to Caps Lock and never had to move there again - the problem went away. So I understand 100% the power of just being able to change a few keyboards around and completely change your life in a small enough way that matters.
 
@@ -220,7 +220,7 @@ I want to go back to what you mentioned about -- unless, Adam, on the split stuf
 
 Of course, as long as I'm in business, I also sell replacement parts, but many of these are non-proprietary. You can just get them anywhere; key switches and whatnot. It's a mechanical keyboard, so it has moving parts. And the number one moving part is of course the key switch. So the key switch should be hot-swappable. You should be able to just pull it out like you pull out a tooth, and stick a new one in. Because that part will break over time.
 
-We were, by the way, one of the first hot-swap keyboards in the world. Nowadays, it's kind of a common feature, but if you dig through the internet archive, you'll see us as one of the very first to get there. So it's a lot around repairability. Or if you take the firmware, for example - again, QMK. QMK is open source and is not -- ZSA sponsors QMK development. We're one of the few companies that actively pay for a developer to work on QMK. But we don't own the codebase, and we don't control it. Which means if ZSA were ever to go out of business, the firmware is still there. You can totally \[unintelligible 00:35:36.03\] Like, imagine if Sonos went out of business. I've got Sonos speakers... Imagine if Sonos tomorrow packs up and that's it.
+We were, by the way, one of the first hot-swap keyboards in the world. Nowadays, it's kind of a common feature, but if you dig through the internet archive, you'll see us as one of the very first to get there. So it's a lot around repairability. Or if you take the firmware, for example - again, QMK. QMK is open source and is not -- ZSA sponsors QMK development. We're one of the few companies that actively pay for a developer to work on QMK. But we don't own the codebase, and we don't control it. Which means if ZSA were ever to go out of business, the firmware is still there. You can totally flash it. Like, imagine if Sonos went out of business. I've got Sonos speakers... Imagine if Sonos tomorrow packs up and that's it.
 
 **Adam Stacoviak:** Preach.
 
@@ -304,7 +304,7 @@ And when we made it into the ErgoDox EZ, obviously we modified it, we redesigned
 
 We looked at a laptop and we thought, "What if there was a keyboard that really went with it? A keyboard that you could lean up, you could tent it against the sides of the laptop." We don't show an image like that on the site, but it's very possible with a Voyager, and it's something that people do. And you just kind of set both halves of the keyboard, each half kind of so that it's half on the laptop, and mostly on the desk. We even have rubberized sides to support that, so it doesn't slide on you. These are secrets. These are not things you necessarily see on the website. We don't highlight them. But we did a lot of work for those rubberized sides. The shell is a double-shot shell. The shell of the Voyager is made from a mix of ABS and silicon, that we inject very precisely for those legs.
 
-And we had this idea... And then these very thin key switches called chock switches started appearing, made by \[unintelligible 00:52:18.18\] And for a long time, I was a little bit on the fence, because it is a proprietary part. If you look at the Moonlander and the ErgoDox, we use Cherry-style switches, and the patent on those expired, which means they're going to be around for a long, long time, because anybody can make them, and many companies do. So when the time came to make the Voyager, we really wanted an ultra, ultra thin board, still with like a steel backplate, something that's very rigid, but very thin. So we opted for those switches, and we opted for an even more minimal layout, like fewer keys. And yeah, and that's where we are today.
+And we had this idea... And then these very thin key switches called choc switches started appearing, made by Kailh. And for a long time, I was a little bit on the fence, because it is a proprietary part. If you look at the Moonlander and the ErgoDox, we use Cherry-style switches, and the patent on those expired, which means they're going to be around for a long, long time, because anybody can make them, and many companies do. So when the time came to make the Voyager, we really wanted an ultra, ultra thin board, still with like a steel backplate, something that's very rigid, but very thin. So we opted for those switches, and we opted for an even more minimal layout, like fewer keys. And yeah, and that's where we are today.
 
 **Jerod Santo:** Love it. It makes a lot of sense in that context. When I just land on the website, I kind of get the paradox of choice of like "These all look good. How am I going to pick the one that's not right for me?" You know that problem?
 
@@ -482,7 +482,7 @@ Fun fact, by the way. In Hebrew, my first language, warranty and responsibility 
 
 **Adam Stacoviak:** And what's the Hebrew word? Can you say it?
 
-**Erez Zukerman:** \[unintelligible 01:19:56.16\]
+**Erez Zukerman:** achrayut
 
 **Adam Stacoviak:** Okay.
 
