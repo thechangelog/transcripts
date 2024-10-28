@@ -110,11 +110,11 @@ But yeah I think for me a lot of this was just I didn't know anything about the 
 
 **Jimmy Miller:** Yeah.
 
-**Jerod Santo:** And you would rip them to a disk, to the CD, which is was \[unintelligible 00:22:11.01\] you pretty much have one shot at it, right?
+**Jerod Santo:** And you would rip them to a disk, to the CD, which is was a one -- well maybe you had rewritable ones -- but you pretty much have one shot at it, right?
 
 **Jimmy Miller:** Oh yeah, I didn't have readable/writable. I luckily had gotten some -- yeah, write once...
 
-**Jerod Santo:** And you \[unintelligible 00:22:20.18\] that sucker over to your machine.
+**Jerod Santo:** And you sneakernet that sucker over to your machine.
 
 **Jimmy Miller:** Yup.
 
@@ -364,7 +364,7 @@ And yeah, he was the most prolific programmer I have ever seen. The sheer amount
 
 **Jerod Santo:** Maybe that's how the legend continues. You can't have a trail; no paper trails. "Yeah, I wrote this in a day."
 
-**Jimmy Miller:** Yeah, maybe he just anticipates needs way in advance. Or like puts his code through some obfuscation every single time so it looks like it's slightly different... I don't know what it was. But yeah, his code was -- it was a trip to try to understand, though. There was never a consistent pattern to the craziness. It was like he just woke up every day and thought, "What new, weird programming pattern can I abuse here to write this application?" Services that were pure functions, that like I literally do not understand why they existed... Clients that were just like these super-thick clients that -- like I mentioned in the article, completely empty classes. Classes -- I did not exaggerate in the article. They were empty classes. They had a class definition, method definitions, but there was no code in any of the methods. And it was all to like build up a structure, and the hierarchy would go like 10 layers deep of inheritance... And there was \[unintelligible 00:52:57.27\] structure that then would become a pipe-delimited string sent over a socket.
+**Jimmy Miller:** Yeah, maybe he just anticipates needs way in advance. Or like puts his code through some obfuscation every single time so it looks like it's slightly different... I don't know what it was. But yeah, his code was -- it was a trip to try to understand, though. There was never a consistent pattern to the craziness. It was like he just woke up every day and thought, "What new, weird programming pattern can I abuse here to write this application?" Services that were pure functions, that like I literally do not understand why they existed... Clients that were just like these super-thick clients that -- like I mentioned in the article, completely empty classes. Classes -- I did not exaggerate in the article. They were empty classes. They had a class definition, method definitions, but there was no code in any of the methods. And it was all to like build up a structure, and the hierarchy would go like 10 layers deep of inheritance... And there was all to build up structure that then would become a pipe-delimited string sent over a socket.
 
 **Jerod Santo:** What...?
 
@@ -378,7 +378,7 @@ But I actually debugged that bug for a year. It manifested itself as like 15 dif
 
 **Jerod Santo:** I was gonna say, it's convenient sometimes to have a Guilfoyle. You know, it's like a Patsy. When something's wrong, you've got someone to place the blame on, because he's been prolific and he's done all these things, and he's not around, so surely "Gosh, Guilfoyle. What's wrong with you?" But no, this was a third party system.
 
-**Adam Stacoviak:** What about ops in this case? Like, you're talking about the codebase, but somebody's got to keep that database up, and it seems like it's getting hit in like wild ways. Like, this chain function, for example - it's probably got the database spinning; the disks are spinning. And I'm assuming that's the \[unintelligible 00:54:56.24\] of hard drives.
+**Adam Stacoviak:** What about ops in this case? Like, you're talking about the codebase, but somebody's got to keep that database up, and it seems like it's getting hit in like wild ways. Like, this chain function, for example - it's probably got the database spinning; the disks are spinning. And I'm assuming that's the data hard drives.
 
 **Jimmy Miller:** Yeah, so the database was definitely -- we had quite a few DBAs. The DBA to programmer ratio was pretty high. And we had some very beefy machines running this SQL server setup.
 
@@ -456,7 +456,7 @@ Once a codebase dies, you can create a new theory about the codebase, but it's i
 
 **Adam Stacoviak:** Probably not.
 
-**Jimmy Miller:** The codebase might literally be dead now. Merchants might be gone. Merchants 3, if they ever got to that point, might not have any more data \[unintelligible 01:11:24.02\] I don't know.
+**Jimmy Miller:** The codebase might literally be dead now. Merchants might be gone. Merchants 3, if they ever got to that point, might not have any more data in it, I don't know.
 
 **Adam Stacoviak:** Yeah. I do like the way that you compliment it, though. You talk about the beautiful mess, that section there, where you talk about -- which is kind of what you're talking about here... There were no overarching design systems to work in. There was a lot of freedom. There was no documented design system... You mentioned that any concerns of code duplication were out the window... You can sort of carve out your own little section, because trying to fix the big mess was impossible, so you just gave up and just worked in your own little world of insanity, as you say here. I think that's kind of cool, that somehow, someway, in this mess, you've found beauty to enjoy.
 
