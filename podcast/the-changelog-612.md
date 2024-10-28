@@ -28,7 +28,7 @@ So we did that, and then worked there for seven years, and then perfectly had a 
 
 And so yeah, we had my daughter, and then two days later they were like "There's rumors about the Microsoft stuff", and then like three days after that it was announced. And then basically I went on leave, and then my last day of leave I had a Friday... GitHub and Microsoft closed the acquisition, and that Monday was my first day back, the one after that. And I was like "Sorry, I'm out." So it just timing-wise worked out. They asked me, I was like "I was totally planning on coming back." I was, I had no intentions, because I'm like "You never know what's gonna happen with deals." I'm not gonna quit in the middle of leave, and have a deal not go through, or things like that.
 
-\[08:00\] But yeah, so we were 45 through 50, early, acquired kind of like a strike team, and then we all went our separate ways and worked on different things... But I think it worked out well for both sides. And so that's kind of like the very fast-forwarded version of it. And then done Box Out, kind of the last -- Box Out \[unintelligible 00:08:15.14\] the last four or five years since then. So 2018 -- yeah, that would have been right at the end of 2018 when I moved on to that.
+\[08:00\] But yeah, so we were 45 through 50, early, acquired kind of like a strike team, and then we all went our separate ways and worked on different things... But I think it worked out well for both sides. And so that's kind of like the very fast-forwarded version of it. And then done Box Out, kind of the last -- Box Out Sports the last four or five years since then. So 2018 -- yeah, that would have been right at the end of 2018 when I moved on to that.
 
 **Adam Stacoviak:** Fantastic. You saved the audience - let's see... An hour, ish, I want to say, of their life... Unless they want to go 79 minutes of having to go listen to Founders Talk. 79.
 
@@ -36,7 +36,7 @@ And so yeah, we had my daughter, and then two days later they were like "There's
 
 **John Nunemaker:** Yeah, I did. I piped it through before. I just had a gut feeling. I was like "Add some mumbles and some uhms to make it look real." That was in the prompts, so...
 
-**Jerod Santo:** Yeah \[unintelligible 00:08:46.11\] that was accurate already; the number three, right?
+**Jerod Santo:** Yeah did it add any hernia did or that was accurate already; the number three, right?
 
 **John Nunemaker:** \[laughs\] Three was correct, yeah. I was not hallucinating, unfortunately.
 
@@ -118,13 +118,13 @@ So that's kind of my theory. And even after announcing Fireside and being at Rai
 
 **Jerod Santo:** Just ownership.
 
-**John Nunemaker:** Yeah. I sold it to my friend, and so he's been running it... And then every so often I come in and I help on it... Because it gets a lot of traffic, and a lot of scale, so not just anyone can work on it. People can work on it and build things, but eventually it's going to struggle. I've got a lot of experience from GitHub, words of friends, things like that in the past, of large scale Rails apps... And so I'm able to come in a week or two and kind of fix things up. And I was like "Why don't we just come up with something -- you can pay me if you want, or maybe we can just hammer out some kind of equity thing."
+**John Nunemaker:** Yeah. I sold it to my friend, and so he's been running it... And then every so often I come in and I help on it... Because it gets a lot of traffic, and a lot of scale, so not just anyone can work on it. People can work on it and build things, but eventually it's going to struggle. I've got a lot of experience from GitHub, Words with Friends, things like that in the past, of large scale Rails apps... And so I'm able to come in a week or two and kind of fix things up. And I was like "Why don't we just come up with something -- you can pay me if you want, or maybe we can just hammer out some kind of equity thing."
 
 \[16:03\] And then Fireside dropped in, and we're like "Okay, let's figure out Fireside first." And he is also in on Fireside, he's one of the people that joined on that, and he'll be doing the marketing and stuff. And so that's where it was kind of like "Okay, let's figure this one out first, and then we'll figure out the other one after that."
 
 **Jerod Santo:** You built Words with Friends, is that what you said? The backend, or something?
 
-**John Nunemaker:** I helped scale it. So when I started, it was maybe - I don't remember, like 60k, 70k requests a minute, and it was going down every night... And then I had some friends who were working on it, one friend in particular, \[unintelligible 00:16:35.25\] Jesse Newland, and he was like "I think, Nunes can help us", and so I was like "Sure, I'll try." And it was the first and only time in my life I think I've had imposter syndrome, where I was like "I don't think I can actually help you", but I was like "Let's try it."
+**John Nunemaker:** I helped scale it. So when I started, it was maybe - I don't remember, like 60k, 70k requests a minute, and it was going down every night... And then I had some friends who were working on it, one friend in particular, Jesse Newland, and he was like "I think, Nunes can help us", and so I was like "Sure, I'll try." And it was the first and only time in my life I think I've had imposter syndrome, where I was like "I don't think I can actually help you", but I was like "Let's try it."
 
 And between the two of us, we were able to help get it a ways, and I brought on some other friends who are much smarter than me... That was really my value in that.
 
@@ -312,7 +312,7 @@ But I don't feel like there's any fancy formula. I don't feel like -- probably o
 
 So I would say like in that 1 to 5 million range, your multiples can go up a little bit. And then if you get in the 5 to 20 million range, or the 20+, you can get into 10x really easily, and higher multiples. If you asked ChatGPT, that's probably what it would say. It's something like those ranges, two to four. So like two if it's not growing, four if it is growing when it's under a million, and then one to five - there's some multiples in there. And probably people would argue with some of those, but that's a general thing that I've seen.
 
-**Adam Stacoviak:** I think multiples are always challenging, because it's like - you could sit there and split hairs over multiples; one, two, three... And then especially when somebody built this thing and it's their labor of love, and it's been this thing they care for and they've got friends on the inside... It's like "Well, now \[unintelligible 00:41:38.23\] now you're offending me on my work. You're not valuing what I've done." But that's good that you were able to come to terms fairly quickly, at least based on this text thread that you briefly shared on the acquiring Fireside blog post...
+**Adam Stacoviak:** I think multiples are always challenging, because it's like - you could sit there and split hairs over multiples; one, two, three... And then especially when somebody built this thing and it's their labor of love, and it's been this thing they care for and they've got friends on the inside... It's like "Well, now you're, not just offending me on my multiple, now you're offending me on my work. You're not valuing what I've done." But that's good that you were able to come to terms fairly quickly, at least based on this text thread that you briefly shared on the acquiring Fireside blog post...
 
 **John Nunemaker:** Oh, yeah.
 
@@ -592,7 +592,7 @@ So there's definitely parts that in bits that we share, and stuff like that, and
 
 **John Nunemaker:** Yeah, that'd be fine.
 
-**Jerod Santo:** I'm not sure \[unintelligible 01:20:38.05\] still building Sinatra things. I don't know.
+**Jerod Santo:** I'm not sure if they're still building Sinatra things. I don't know.
 
 **John Nunemaker:** They're not. No.
 
@@ -640,7 +640,7 @@ The group, the six, each have a share in each of the companies they acquire. One
 
 **John Nunemaker:** Oh, awesome.
 
-**Jerod Santo:** \[unintelligible 01:28:23.06\] listening. I don't know if that's a good idea or not, but it's not something that I had ever heard, so... Certainly interesting.
+**Jerod Santo:** I'm sitting here listening. I don't know if that's a good idea or not, but it's not something that I had ever heard, so... Certainly interesting.
 
 **John Nunemaker:** Yeah. I think there's a lot of ways to get capital. And it doesn't hurt -- I mean, I've got the GitHub founders, other people in my phone... I mean, I could text them. But I don't need to.
 
@@ -648,7 +648,7 @@ The group, the six, each have a share in each of the companies they acquire. One
 
 **John Nunemaker:** I don't know. And even just for the reason that the -- again, I don't want to keep going back to the other guy, but it's fresh in my brain because I just listened to it, and it was like "Yes, I like what you're doing. I'm headed to the ER, because my neck hurts, because I've been nodding my head profusely", but I'm like "I like this."
 
-**Jerod Santo:** \[unintelligible 01:29:04.02\] hernia again.
+**Jerod Santo:** Get another hernia again.
 
 **John Nunemaker:** Exactly. Pop another hernia... But I like that idea of like not running it like a fund, because a fund has to receive the capital, and then deploy the capital. And so you're kind of under constraints, because you've got to deploy the capital in a certain amount of time. But that means you're going to maybe have to deploy the capital into a deal that you're like not super-excited about, because it's like "Well, it's time." Otherwise the fund's going to run out, et cetera. Whereas this model is like, look, we get people to commit, but then they don't have to give their capital up until the deal's actually here.
 
