@@ -34,7 +34,7 @@ Why Ghosttty? Mitchell felt that existing terminal emulators "pushed an unnecess
 
 And since Mitchell previously built a publicly-traded company around his open source work, this note on finances is worth highlighting as well:
 
-> Ghostty is a passion project for me and I have no plans to pursue any sort of commercialization of the project. As stated in the first paragraph, Ghostty will be released as an open-source project under the MIT license.
+> Ghostty is a passion project for me and I have no plans to pursue any sort of commercialization of the project. As stated in the first paragraph, Ghostty will be released as an open source project under the MIT license.
 
 **Break:**
 
