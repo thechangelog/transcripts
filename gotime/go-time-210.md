@@ -208,7 +208,7 @@ So the question of governance comes down to "What are the problems we're trying 
 
 **Mat Ryer:** Okay, so we've got a fun question coming, and we're gonna do a quick roundtable. You're just gonna say your name, and then just tell me what IDE you use day-to-day, generally. Sameer, what is your IDE?
 
-**Sameer Ajmani:** Google Docs and Gmail. \[laughter\] No, in the rare times that I code, it's VS Code, because I wanna use the team as developing. VS-code id pluggin go please. But it's rare that I get to code. It's sad.
+**Sameer Ajmani:** Google Docs and Gmail. \[laughter\] No, in the rare times that I code, it's VS Code, because I wanna use the team as developing. VS-code id pluggin go please (gopls). But it's rare that I get to code. It's sad.
 
 **Mat Ryer:** Yeah. I should just say, this question came in from BillyDroptables. Billy wants to know what everyone's IDE is. Cameron, do you use an IDE?
 
