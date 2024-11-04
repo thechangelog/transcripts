@@ -66,9 +66,9 @@ With this win, you are now free to hack your ice cream machine!
 
 It's now time for Sponsored News!
 
-[Join the Open Source Pledge](https://opensourcepledge.com/?utm_source=changelog&utm_medium=newsletter&utm_campaign=changelog-news)
+[Join the Open Source Pledge](https://open sourcepledge.com/?utm_source=changelog&utm_medium=newsletter&utm_campaign=changelog-news)
 
-David Cramer and the team at Sentry have launched [Open Source Pledge](https://opensourcepledge.com/?utm_source=changelog&utm_medium=newsletter&utm_campaign=changelog-news) to raise awareness and call for teams and orgs to support the open source they're using.
+David Cramer and the team at Sentry have launched [Open Source Pledge](https://open sourcepledge.com/?utm_source=changelog&utm_medium=newsletter&utm_campaign=changelog-news) to raise awareness and call for teams and orgs to support the open source they're using.
 
 > We don't think it’s the only solution, nor do we think it’s the only way to give back, but we do believe giving cash money to maintainers is an appropriate way to show your thanks, to recognize their hard work, the value they create for you. Maybe, just maybe, we’ll do our small part in encouraging the maintainers to keep putting up with us in the enormous ecosystem we rely on.
 
@@ -77,7 +77,7 @@ After reading David's post, you may have two questions about this pledge:
 1. What does it take to join the Pledge?
 2. What’s the ROI your company gets from joining?
 
-If so, [head to opensourcepledge.com](https://opensourcepledge.com/?utm_source=changelog&utm_medium=newsletter&utm_campaign=changelog-news) to learn all about it! And thanks again to Sentry for sponsoring Changelog News.
+If so, [head to open sourcepledge.com](https://open sourcepledge.com/?utm_source=changelog&utm_medium=newsletter&utm_campaign=changelog-news) to learn all about it! And thanks again to Sentry for sponsoring Changelog News.
 
 **Break:**
 
