@@ -44,7 +44,7 @@ If you're interested in submitting a CFP, I'm actually doing a livestream with t
 
 **Autumn Nash:** There's a kids track too, and it's one of the most -- it's also one of the most diverse speaking... Like, there's so many women, there's so many people from all over different companies, big companies, small companies... And the amount that you learn about what big companies and different people contribute to open source... I did not know that Meta and so many people committed so much to open source until going and listening to them talk. And the talks are about things, but a very -- they're not trying to sell you things, because it's not a big conference. So they're like very real life.
 
-**Justin Garrison:** \[00:07:59.03\] It's not company-sponsored, it's not \[unintelligible 00:08:00.03\]
+**Justin Garrison:** \[07:59\] It's not company-sponsored, it's not \[unintelligible 00:08:00.03\]
 
 **Autumn Nash:** Yeah. The talks are so good. I was sitting there and people were walking around with their babies, and I was like "This is awesome." I met women founders with their babies in their hands, and I was like "This is my people. I love it."
 
@@ -86,7 +86,7 @@ If you're interested in submitting a CFP, I'm actually doing a livestream with t
 
 **Pete Naylor:** Yeah, so like I said, back in 1873... I was actually -- so I grew up in a little mining town in the middle of nowhere in, Australia... And I went off to Brisbane to go to university, and I ended up studying -- I had this opportunity to do a dual degree, because I had gone to Japan as an exchange student, just got back, and had to figure out what course I was going to take. And they offered me this dual degree where I could do mechanical engineering and Japanese language.
 
-\[00:12:00.13\] So I went for it, and I really liked a lot of it, but I kind of didn't really like the university experience. It kind of felt like -- the whole time I was like "I want to get out there and actually have a career and make some money." Which - now I look back and I think "I should have kind of enjoyed that. Why didn't I get it?" Because I had all these friends that traveled the world, and worked running lifts at ski areas, and they just hop back and forth from the Northern hemisphere to the Southern hemisphere. I didn't really do that. \[unintelligible 00:12:27.08\]
+\[12:00\] So I went for it, and I really liked a lot of it, but I kind of didn't really like the university experience. It kind of felt like -- the whole time I was like "I want to get out there and actually have a career and make some money." Which - now I look back and I think "I should have kind of enjoyed that. Why didn't I get it?" Because I had all these friends that traveled the world, and worked running lifts at ski areas, and they just hop back and forth from the Northern hemisphere to the Southern hemisphere. I didn't really do that. \[unintelligible 00:12:27.08\]
 
 But while I was at university, we had these CAD/CAM systems that were on some microsystems boxes, and things like that. So I kind of started getting into computing already, and I like BBS'es, and getting this open source software, and stuff... But when I got to university and I got introduced to some of these Unix operating systems and some of the really nice hardware, and then the Internet... Like, the Internet was super, super-early stage at this point. It was like early '90s. Now you know how old I really am.
 
@@ -110,7 +110,7 @@ And of course, I spent a lot of nights staying up very late, trying to figure ou
 
 So off I went, and I discovered that I kind of liked it a lot. And so I packed up my stuff, I went to the US, I stayed there, and I ended up starting a little business where I was providing dial-up internet service in this little tiny rural community. So I was building all of these services, and helping people get online... And I was reminded of something... Just the other day I was talking to someone about whether you're screen-sharing something. I think I was on a call or something, and I thought people were seeing what I was seeing on my screen and I'd forgotten to share... But I always remember, people at that point were trying to dial in. They'd have trouble or something, and they'd call, and they'd want help, and I was trying to do support. And they would get frustrated with me, because it was like "What? You can't see what's on my screen?" And I'm like "Nope. You're not connected, for one thing."
 
-\[00:16:22.06\] But yeah, so I stayed in the US and I just got more and more involved in that. All of the Internet stuff kind of consolidated. There was a lot of smaller companies, a lot of ISPs that were out there, and the big companies were kind of sucking all of that up... And I actually -- the company that we had our uplink through, they had an open position for a systems admin. And I thought, "Well, I'll go work for them." And that company was called Northwest Net. They actually spun out of the University of Washington, because it was becoming clear that companies like Boeing and Microsoft and everybody were wanting to connect to this thing and make use of it... And the university couldn't do it as a nonprofit. So they kind of spun it out, and many, many really, really cool people there. A very foundational time for me. There were people there that I worked with that wrote the RFCs for DNS, and these kinds of things. Super-cool time.
+\[16:22\] But yeah, so I stayed in the US and I just got more and more involved in that. All of the Internet stuff kind of consolidated. There was a lot of smaller companies, a lot of ISPs that were out there, and the big companies were kind of sucking all of that up... And I actually -- the company that we had our uplink through, they had an open position for a systems admin. And I thought, "Well, I'll go work for them." And that company was called Northwest Net. They actually spun out of the University of Washington, because it was becoming clear that companies like Boeing and Microsoft and everybody were wanting to connect to this thing and make use of it... And the university couldn't do it as a nonprofit. So they kind of spun it out, and many, many really, really cool people there. A very foundational time for me. There were people there that I worked with that wrote the RFCs for DNS, and these kinds of things. Super-cool time.
 
 **Autumn Nash:** So when you came to the US, did you come to Washington and you've been in Washington the whole time?
 
@@ -138,7 +138,7 @@ So he talked me into learning to dive, and getting involved there... And then th
 
 **Justin Garrison:** I don't deserve my naps. It's true.
 
-**Autumn Nash:** \[00:20:20.22\] You take naps because you refuse to drink coffee. What is wrong with you?
+**Autumn Nash:** \[20:20\] You take naps because you refuse to drink coffee. What is wrong with you?
 
 **Pete Naylor:** Yeah, I don't know what it is about me... I always feel like life is short. When I was a kid I actually lost an older sister, and I think maybe that's part of what makes me think you don't get that many chances... And I want to fit in like as much variety and meaningful things in my life.
 
@@ -154,7 +154,7 @@ So he talked me into learning to dive, and getting involved there... And then th
 
 **Pete Naylor:** Yeah. A lot of TARS. Yeah. Unpackaging things, running the builds, make files... Yeah.
 
-**Break**: \[00:21:47.02\]
+**Break**: \[21:47\]
 
 **Autumn Nash:** How'd you get into like Dynamo, and like all the different NoSQL, and all that? Because Pete's really, like really, really good with all of that. But Pete has got that -- Pete won't bullsh\*\* you. You know what I mean? A lot of people will be like "I sell this thing, and I'm just going to say it is the best thing ever." Pete will keep it real.
 
@@ -184,7 +184,7 @@ But yeah, I started in that role, and it was a very small team of us that did gr
 
 **Pete Naylor:** Kind of overwhelming to work with them and support them. But it was also really cool. They were really pushing a lot of the AWS services harder than most of the customers. So we got to be involved in things where - you know, there were some sharp edges in DynamoDB, for example. And when we could go and describe "This is not working for our customer", it really improved all of those products.
 
-\[00:28:15.02\] So it was it was cool to be a part of, but very, very stressful, intense. None of the tooling that was there, that all of the other teams used to support their customers, none of them would work for us. They just, they didn't scale. They would fall over. So yeah, I worked on that... So to your point about Amazon using AWS, I think a lot of people when they think about Amazon, it's like "Oh, they were born in the cloud." Right?
+\[28:15\] So it was it was cool to be a part of, but very, very stressful, intense. None of the tooling that was there, that all of the other teams used to support their customers, none of them would work for us. They just, they didn't scale. They would fall over. So yeah, I worked on that... So to your point about Amazon using AWS, I think a lot of people when they think about Amazon, it's like "Oh, they were born in the cloud." Right?
 
 **Justin Garrison:** No.
 
@@ -202,7 +202,7 @@ So there was a lot of stuff... It was done by tiers, so anything that was really
 
 I think the DynamoDB thing really spoke to me most, because of that whole change to the completely serverless model, and the scale. It's super-cool. I got to go in and do things like sit in the war rooms for Prime Day, and help all of those teams trying to plan for scaling... And I think a lot of those teams didn't see the picture of what happened over those two or three years. It's like, they very quickly came to take DynamoDB for granted. But for me, I watched it end to end and I was like "There's this thing where people are spending six months a year trying to plan and scale and be ready for these events." And now, a couple of years later - yes, it was painful. It was hard to get there. But now it's literally like dial it up and dial it back down.
 
-**Justin Garrison:** \[00:32:04.16\] Yeah.
+**Justin Garrison:** \[32:04\] Yeah.
 
 **Pete Naylor:** And so I got to see like how much time that gave back to them. It was pretty cool.
 
@@ -232,7 +232,7 @@ So I went and basically worked with all of these other really big companies. We'
 
 So I did that for a few years. I had a lot of really great experience there, too. And then eventually, the product management team - because I worked so closely with all of the engineers on DynamoDB, and some of the product managers, and I really got to loving some of those folks. Some amazing, amazing engineers within the DynamoDB team, and...
 
-\[00:35:51.27\] It's big numbers. It's super-cool. I still can't really share any of this kind of thing, but if people could hear the number of nodes and the number of servers and things that are behind DynamoDB... It's just absolutely astounding. It's an incredible service.
+\[35:51\] It's big numbers. It's super-cool. I still can't really share any of this kind of thing, but if people could hear the number of nodes and the number of servers and things that are behind DynamoDB... It's just absolutely astounding. It's an incredible service.
 
 **Autumn Nash:** They created real magic in real time. That's technological magic right there.
 
@@ -260,7 +260,7 @@ So I did that for a few years. I had a lot of really great experience there, too
 
 **Pete Naylor:** I mean, maybe it's helped me a little bit to kind of be patient with people. When you're working with people, you're in a team, it's stressful, and it's very easy to forget that everybody has their own problems they're working through. If you're a firefighter, for example, it's a huge honor that in their worst possible moments, people let you just walk right into their house. It really means a lot to be able to have that kind of thing. So maybe seeing people and understanding that people are actually all the same... You look at people and you think "Well, they're a God, right? You can't just talk to them." But every one of those people has the same basic stuff. Everybody's going to go through some rough times, and everybody needs a hand up.
 
-**Autumn Nash:** \[00:40:14.08\] Dude, I have the best Pete story ever. So I was going through A/B's, which is like this thing where you get -- it's like the worst SA call you can have, but they test you to make sure you survive it, you know... And I went through a bunch, and we had this one like super-fancy principal, fancy person, that like put me through one for his test, and he made me cry. It was horrible. I wanted to give up. I was like "This is horrible. I'm not good at it." And my next person was Pete. And I show up to this meeting in tears, I'm ready to quit my job... It was horrible. And Pete was the sweetest, kindest person and he was like "It's okay. Let's just walk through some of your slides." And he gave me all this advice, advice I still use in public speaking when I give talks today. And he's like "We'll schedule another one for next week", and I was just sitting there like "I'm horrible at this. I give up", and like just a puddle. And he was -- he was there with his dog... It was the sweetest thing ever. It's so sweet.
+**Autumn Nash:** \[40:14\] Dude, I have the best Pete story ever. So I was going through A/B's, which is like this thing where you get -- it's like the worst SA call you can have, but they test you to make sure you survive it, you know... And I went through a bunch, and we had this one like super-fancy principal, fancy person, that like put me through one for his test, and he made me cry. It was horrible. I wanted to give up. I was like "This is horrible. I'm not good at it." And my next person was Pete. And I show up to this meeting in tears, I'm ready to quit my job... It was horrible. And Pete was the sweetest, kindest person and he was like "It's okay. Let's just walk through some of your slides." And he gave me all this advice, advice I still use in public speaking when I give talks today. And he's like "We'll schedule another one for next week", and I was just sitting there like "I'm horrible at this. I give up", and like just a puddle. And he was -- he was there with his dog... It was the sweetest thing ever. It's so sweet.
 
 I think that you bring so much technological like know-how, and like just experience... Like, you watched the like Internet like born, and you saw it from like where it started to where we are now... But you also bring so much like empathy to tech. And I think that makes you much more different than most people with that same technological --
 
@@ -272,7 +272,7 @@ I think that you bring so much technological like know-how, and like just experi
 
 **Autumn Nash:** It was so intimidating being with people that were like -- they've been doing something for like 20 to 40 years, and you're like the new kid... And it was so nice to have like kind people.
 
-**Break**: \[00:43:04.10\]
+**Break**: \[43:04\]
 
 **Autumn Nash:** What are you doing now? Tell us about your new company and what you're doing.
 
@@ -288,7 +288,7 @@ Yeah, the company I'm at now has been around a really long time, and actually pa
 
 **Pete Naylor:** And this is another little shift that I know is going to be interesting for Justin, because I've seen some of the things that he's been posting, and... You know, when I was an SA, while I saw what really worked super-well for Amazon and for a lot of other bigger companies or whatever, there was always this push to say "Well, it's all about being on the cloud, and you only need one cloud", and all of those kinds of things. And in some ways it was easy to believe. But over time, I just realized that no, there are like different scenarios, different companies... Certain products that when you scale to a certain point, then maybe it's something you consider running yourself... There is this whole other reality around needing to still run things on prem. People need databases on submarines. They're not connected. You need to run truly air-gapped. So there's very real use cases and reasons, I think, to still be able to run where you want to... And I just think having flexibility around that is great.
 
-\[00:49:53.10\] So a lot of the stuff that we're working on at the moment is trying to give people flexibility around where you actually want to run this stuff, and have a nice experience that's easy everywhere. One of the things that I saw at AWS was - there was DynamoDB, there was Aurora, and some of these things... But over the years, the number of these purpose-built databases just kept growing and growing, and it got more and more difficult to try and tease them apart and explain to people which you should choose.
+\[49:53\] So a lot of the stuff that we're working on at the moment is trying to give people flexibility around where you actually want to run this stuff, and have a nice experience that's easy everywhere. One of the things that I saw at AWS was - there was DynamoDB, there was Aurora, and some of these things... But over the years, the number of these purpose-built databases just kept growing and growing, and it got more and more difficult to try and tease them apart and explain to people which you should choose.
 
 **Justin Garrison:** You've been in technology long enough to see those pendulum swing of just "Oh, everything should be single-purpose and finely-tuned to this use case", and then swinging back to "Actually, those can all just be plugins, the general purpose thing over here." And like that keeps going back and forth, even with databases, it happens with web servers... It happens even with the cloud and data centers. Right? It's "Oh, we need this one thing" and "Now we need multiple." And then we go back and forth every time.
 
@@ -308,7 +308,7 @@ Even the whole NoSQL thing. I think there's incredible value in what DynamoDB ha
 
 **Pete Naylor:** You can say, "Well, this is NoSQL", but there's like -- I don't know how many different variations on that. And they're all very, very different. So I'd rather just say database. And by the way, it has these properties that maybe can solve your problem.
 
-**Justin Garrison:** \[00:54:09.24\] I think your point also on like compatibility, API compatibility, with "Oh yeah, we're wire-compatible with that other database" causes so much extra confusion. Because you're like "Oh, should I use it like that other database?" And like "Actually, no. Not at all. But you can send us the same data." That causes so much more just forks of "What are you actually good for?"
+**Justin Garrison:** \[54:09\] I think your point also on like compatibility, API compatibility, with "Oh yeah, we're wire-compatible with that other database" causes so much extra confusion. Because you're like "Oh, should I use it like that other database?" And like "Actually, no. Not at all. But you can send us the same data." That causes so much more just forks of "What are you actually good for?"
 
 **Pete Naylor:** And is it ever really wire-compatible? Is it ever truly all the way there? It's never going to be.
 
@@ -352,7 +352,7 @@ Even the whole NoSQL thing. I think there's incredible value in what DynamoDB ha
 
 **Pete Naylor:** And I think that's the thing with relational databases, right? They're really, really cool, they're very powerful, very flexible... And I think it allows developers, people who maybe haven't really thought through exactly what it means to have those asset properties - not all of them really want to dig into that in detail... But it gives them this opportunity to make assumptions that kind of feel intuitive, and allows them to move forward more quickly.
 
-\[00:57:54.06\] You could also take a relational database, and many of them now - there's a lot of different extensions for Postgres - and you could shard that out, and kind of build your own DynamoDB, in a way. Once again, there's no absolutes in any of this stuff... And for me, rather than getting wound around like new terms or new things that people want to sail off on, I'd rather just come back to "What's the real problem we're trying to solve here?" Because so many of the fundamentals - like, the more I learned about databases, the more I realized they're all the same. It's all about the storage. The storage and the indexes. And I don't like that it's spun out into a bazillion different options. I think I'd rather make it easier for developers to use one interface.
+\[57:54\] You could also take a relational database, and many of them now - there's a lot of different extensions for Postgres - and you could shard that out, and kind of build your own DynamoDB, in a way. Once again, there's no absolutes in any of this stuff... And for me, rather than getting wound around like new terms or new things that people want to sail off on, I'd rather just come back to "What's the real problem we're trying to solve here?" Because so many of the fundamentals - like, the more I learned about databases, the more I realized they're all the same. It's all about the storage. The storage and the indexes. And I don't like that it's spun out into a bazillion different options. I think I'd rather make it easier for developers to use one interface.
 
 **Justin Garrison:** SQLite.
 
