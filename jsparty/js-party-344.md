@@ -94,7 +94,7 @@
 
 **Jerod Santo:** This is your answer.
 
-**Amy Dutton:** \[00:07:53.04\] Nice. Oh, man. If it's TypeScript, JavaScript, then I would pick Remix. I love their data loader pattern, I like having a very distinct place to load actions, define form actions, and then display the content. Nested pages is wonderful. They're doing some stuff right now with the router which I'm really excited about, because of React Router 7... If I did pick non-JavaScript, I would say Laravel. I've just heard several people say "We want the Laravel framework for JavaScript", so I've been trying to figure out "Okay, what does that mean? What does Laravel have that we don't feel like we have in the JavaScript ecosystem?"
+**Amy Dutton:** \[07:53\] Nice. Oh, man. If it's TypeScript, JavaScript, then I would pick Remix. I love their data loader pattern, I like having a very distinct place to load actions, define form actions, and then display the content. Nested pages is wonderful. They're doing some stuff right now with the router which I'm really excited about, because of React Router 7... If I did pick non-JavaScript, I would say Laravel. I've just heard several people say "We want the Laravel framework for JavaScript", so I've been trying to figure out "Okay, what does that mean? What does Laravel have that we don't feel like we have in the JavaScript ecosystem?"
 
 So I've been pretty impressed with what they have, and I think that if we really want that, we could have it, but the question is, do we really want it? Because we also like our composability.
 
@@ -184,7 +184,7 @@ So I've been pretty impressed with what they have, and I think that if we really
 
 **Kevin Ball:** I can't wait to find out what else I've written down. \[laughter\]
 
-**Amy Dutton:** \[00:12:12.06\] Overrated technology... That's a good question. Ooh, I'm not sure. It's definitely not TypeScript.
+**Amy Dutton:** \[12:12\] Overrated technology... That's a good question. Ooh, I'm not sure. It's definitely not TypeScript.
 
 **Nick Nisi:** Yes...!
 
@@ -272,7 +272,7 @@ So I've been pretty impressed with what they have, and I think that if we really
 
 **Jerod Santo:** Family is more important. I'm going to go out on a limb and say family is more important than Unstable Unicorns.
 
-**Amy Dutton:** \[00:16:16.11\] Yeah. We've also done Moose Master. Have you played that one? That one's kind of ridiculous. You have to do dumb stuff like you can't use a person's first name, or...
+**Amy Dutton:** \[16:16\] Yeah. We've also done Moose Master. Have you played that one? That one's kind of ridiculous. You have to do dumb stuff like you can't use a person's first name, or...
 
 **Jerod Santo:** Oh, yeah.
 
@@ -358,7 +358,7 @@ So Downtown Nashville, they had to open up the dam, which flooded 2nd Avenue, an
 
 **Amy Dutton:** Now, this one might be a little bit more interesting... Now that I'm like talking, I'm thinking of other Nashville things. There is an old church in downtown Nashville called the Ryman. That's a famous concert venue. It is beautiful inside. And if you ever do visit Nashville, you can go visit it, and do the touristy thing.
 
-\[00:20:05.19\] They'll give you some country music history. But across the street, there's some fantastic eating places. I can't remember what it's called, but it's like a food hall, a cafeteria, and they have some of the most famous Nashville places, like local stuff inside; they have little pop-ups, stores, and things like that. So if you want to get a taste of Nashville, that's right there, too.
+\[20:05\] They'll give you some country music history. But across the street, there's some fantastic eating places. I can't remember what it's called, but it's like a food hall, a cafeteria, and they have some of the most famous Nashville places, like local stuff inside; they have little pop-ups, stores, and things like that. So if you want to get a taste of Nashville, that's right there, too.
 
 **Jerod Santo:** Very cool. I definitely did not know that. I've been in Nashville exactly one time, and I really enjoyed it. Kball, let's go to you.
 
@@ -472,7 +472,7 @@ So Downtown Nashville, they had to open up the dam, which flooded 2nd Avenue, an
 
 **Jerod Santo:** I would never write such a thing.
 
-**Amy Dutton:** \[00:23:57.09\] I think my favorite developers right now are the ones that give back and turn around and educate other people. They share the things that they've learned. So I have a lot of admiration for Wes and Scott and Kent, just because I've learned a lot from them over the years, and I just appreciate -- I've never met Wes. I've talked to Scott, but Kent in real life is just one of the kindest people. So I think if you can help bring other people along, just kind of that idea of rising tide lifts all boats - I really just appreciate his attitude.
+**Amy Dutton:** \[23:57\] I think my favorite developers right now are the ones that give back and turn around and educate other people. They share the things that they've learned. So I have a lot of admiration for Wes and Scott and Kent, just because I've learned a lot from them over the years, and I just appreciate -- I've never met Wes. I've talked to Scott, but Kent in real life is just one of the kindest people. So I think if you can help bring other people along, just kind of that idea of rising tide lifts all boats - I really just appreciate his attitude.
 
 **Jerod Santo:** Very cool. Well said. You have made it to the end of your 20 questions, because we've asked you 10 of them.
 
@@ -484,7 +484,7 @@ So Downtown Nashville, they had to open up the dam, which flooded 2nd Avenue, an
 
 **Jerod Santo:** Our listener could not see the many looks on Nick's face while he was trying to think of something... But I did. And I'm very happy.
 
-**Break**: \[00:25:05.03\]
+**Break**: \[25:05\]
 
 **Jerod Santo:** Alright, let's move on now to a little bit of news. What's going on in the web dev world. We are talking today about Svelte, because Svelte 5 is alive. This was released October 22nd. Svelte 5, "Our biggest release yet." When I say "our", I'm quoting the author of the post. I had nothing to do with it. After almost 18 months of development, comprising thousands of commits from dozens of contributors, Svelte 5 is finally stable.
 
@@ -526,7 +526,7 @@ Now, I think in the Qwik world, you do that with arbitrary functions. With Svelt
 
 They are moving -- I like the fact they're moving to this more granular reactivity. It feels like everybody's moving to signals as the way to do that. That's just sort of become the primitive that people are saying "Oh, this is the way to get high-performance reactivity. We're going to go to signals." So they're clearly adopting that.
 
-\[00:32:06.04\] I'm a little torn on the "We're building it into the language and we're going to keep extending the set of keywords that are magical." I feel like that overall is not my favorite trend. I think it's nice to have a small language surface area and then be extending things, but if you are having the compiler do magical things in some ways, you're already doing that anyway, so you may as well just kind of be explicit about it and say "Hey, okay, these things - they exist. They're magical. Go."
+\[32:06\] I'm a little torn on the "We're building it into the language and we're going to keep extending the set of keywords that are magical." I feel like that overall is not my favorite trend. I think it's nice to have a small language surface area and then be extending things, but if you are having the compiler do magical things in some ways, you're already doing that anyway, so you may as well just kind of be explicit about it and say "Hey, okay, these things - they exist. They're magical. Go."
 
 **Amy Dutton:** At first glance, I am not crazy about the new syntax, just because I like the old setup. It just seemed more logical and easy to explain to somebody new. It was like if you want to use state, then you just say let instead of const. And if you want to change the state, then you just change it as if you're changing a variable; or if it's a prop, you just stick export on front of it. It just seemed like that's logical and how JavaScript should work. I mean, it is kind of, but just we've abstracted those things with different frameworks. But I've also heard people that have dug into it say "I really like it once I start working with it." So I'm trying to keep an open mind, knowing that I haven't built a large-scale project with it yet.
 
@@ -552,7 +552,7 @@ The one other big change they talked about, that I think is interesting, especia
 
 **Amy Dutton:** I think I also remember seeing that they changed how you can build a component. So you can have multiple components in a single file. Before you had to have one component to one file, and now you can do multiple things. So that might help with file control.
 
-**Jerod Santo:** \[00:35:54.09\] In addition to this, they have completely rebuilt Svelte.dev, and they have a shiny new CLI called SV. So that's cool. You have to watch an announcement video to learn about the CLI, and the announcement video is four hours long. So I do not know about the CLI. Oh, it deep-links you... But it scared me away, so I did not check out the CLI. Nick, you've been awfully quiet over there, in React land... What do you think about Svelte 5, man?
+**Jerod Santo:** \[35:54\] In addition to this, they have completely rebuilt Svelte.dev, and they have a shiny new CLI called SV. So that's cool. You have to watch an announcement video to learn about the CLI, and the announcement video is four hours long. So I do not know about the CLI. Oh, it deep-links you... But it scared me away, so I did not check out the CLI. Nick, you've been awfully quiet over there, in React land... What do you think about Svelte 5, man?
 
 **Nick Nisi:** It looks interesting. I honestly like the less magic aspect of that syntax, maybe... But I haven't really used Svelte 4 or 5, so I need to. But it looks interesting. I'm curious, does that only exist in -- because Svelte created their own file. Like a .svelte file. Does it only exist in there?
 
@@ -610,7 +610,7 @@ The one other big change they talked about, that I think is interesting, especia
 
 **Jerod Santo:** Ah... Amy, do you know of ZURB Foundation?
 
-**Amy Dutton:** \[00:40:00.26\] Oh, yeah. I used it all the time. I loved it.
+**Amy Dutton:** \[40:00\] Oh, yeah. I used it all the time. I loved it.
 
 **Jerod Santo:** I did as well.
 
@@ -634,7 +634,7 @@ The one other big change they talked about, that I think is interesting, especia
 
 And so I was an employee there for a while, I led later versions of the project... I can't claim any of the original stuff, but I led some later versions. And when business got rough, ZURB Foundation got de-emphasized and booted. And I think there's another company now that has absorbed it, largely because it ties into some of their products, and they're doing things with it. But the development has been very push-pull, and now it's way behind the times, and Tailwind and everything has taken way over. But yeah, it's really hard for a for-profit company to consistently invest in open source.
 
-**Break**: \[00:41:54.25\]
+**Break**: \[41:54\]
 
 **Amy Dutton:** So this is going back to hot and spicy... What do you think about Vercel? Because that's basically what Next and Svelte are, is open source products to promote their hosting services.
 
@@ -662,7 +662,7 @@ I mean, WordPress has been a shining star in both open source and in venture, or
 
 **Jerod Santo:** Sure.
 
-**Amy Dutton:** \[00:50:10.16\] And so you can have developers that say, "No, I don't agree with how WordPress is doing stuff. I'm going to take a philosophical stance and say no, I'm not going to use WordPress." But then you have people that are like "I just need to get something up and running fast, and WordPress is the best and cheapest, and the option I'm going to run with."
+**Amy Dutton:** \[50:10\] And so you can have developers that say, "No, I don't agree with how WordPress is doing stuff. I'm going to take a philosophical stance and say no, I'm not going to use WordPress." But then you have people that are like "I just need to get something up and running fast, and WordPress is the best and cheapest, and the option I'm going to run with."
 
 **Jerod Santo:** Right.
 
@@ -722,7 +722,7 @@ And so that's the really frustrating bit, is like all these people who are compl
 
 **Nick Nisi:** It'd be like everybody tested, and then it worked, and then we'd go plug it in again and totally didn't work... And it was just like a roll of the dice.
 
-**Jerod Santo:** \[00:54:10.26\] Did it become actually funny because it happened to everybody kind of a thing? Did you turn it into a gag?
+**Jerod Santo:** \[54:10\] Did it become actually funny because it happened to everybody kind of a thing? Did you turn it into a gag?
 
 **Nick Nisi:** They actually had a fantastic format where after the speaker would end, I would come on stage and I would walk them over to a table on one end of the stage. And then I would distract everyone by asking them questions that were submitted through a tool, and get their responses.
 
