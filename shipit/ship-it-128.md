@@ -66,7 +66,7 @@
 
 **Austin Parker:** Great. Thank you, educational system.
 
-**Autumn Nash:** \[00:08:04.03\] I've banned them to Epic, but they even watch YouTubes, and PE, and different Doug and all these different questions things, which \[unintelligible 00:08:11.14\] school that they're educational... But I'm "If you can't find it on epic or PBS, you're out of luck." They learned how to Google, though, and ask Alexa how to do stuff, and they've found out so many ways around system child locks that at this point they should hire my four year old to work for the damn NSA. He figured out PlayStation's entire child lock thing... And he can't play Plants vs. Zombies, and he can't play regular games, but he's figured out how to redownload Fortnite six times. Who made it?
+**Autumn Nash:** \[08:04\] I've banned them to Epic, but they even watch YouTubes, and PE, and different Doug and all these different questions things, which \[unintelligible 00:08:11.14\] school that they're educational... But I'm "If you can't find it on epic or PBS, you're out of luck." They learned how to Google, though, and ask Alexa how to do stuff, and they've found out so many ways around system child locks that at this point they should hire my four year old to work for the damn NSA. He figured out PlayStation's entire child lock thing... And he can't play Plants vs. Zombies, and he can't play regular games, but he's figured out how to redownload Fortnite six times. Who made it?
 
 **Austin Parker:** The amazing thing about children is the level of motivation for highly specific tasks...
 
@@ -120,7 +120,7 @@
 
 **Austin Parker:** A podcast of eight year olds talking about Minecraft mods would probably be utterly fascinating.
 
-**Autumn Nash:** \[00:12:08.20\] It would also get our kids off our backs. At one point, when we all worked at the same company, we were "Okay, if we get one Minecraft server, we can get through the summer." Why didn't you make the server, Justin?
+**Autumn Nash:** \[12:08\] It would also get our kids off our backs. At one point, when we all worked at the same company, we were "Okay, if we get one Minecraft server, we can get through the summer." Why didn't you make the server, Justin?
 
 **Justin Garrison:** Because Logan doesn't care anymore. He just went and bought one on a friend's server.
 
@@ -162,7 +162,7 @@
 
 **Autumn Nash:** You are the automation. Also, it would be my kid that says "We should automate taking out the trash." It's like, I broke you.
 
-**Break**: \[00:14:11.03\]
+**Break**: \[14:11\]
 
 **Justin Garrison:** Autumn, this is our 30th show, which is awesome.
 
@@ -188,7 +188,7 @@
 
 **Autumn Nash:** I know...! Bad decisions were made. This was not thought out.
 
-**Austin Parker:** \[00:15:55.15\] But it reminds me of all those times you see people on Twitter, or whatever... It's like "Oh, we both work in software, and so we have a Asana or a Jira for our household." I'm just like "Who hurt you?"
+**Austin Parker:** \[15:55\] But it reminds me of all those times you see people on Twitter, or whatever... It's like "Oh, we both work in software, and so we have a Asana or a Jira for our household." I'm just like "Who hurt you?"
 
 **Autumn Nash:** Okay, don't get me wrong, at one point I did make my kid write a one-pager on why he wanted a bearded dragon... And then I was like "Oh, we've gone too far."
 
@@ -262,7 +262,7 @@
 
 **Justin Garrison:** I did. The steering wheel was on the right side, we were driving on the right side... It had a stick, it was manual, so I had to shift with my left hand for the first time... And I did okay. I think I got my first speeding ticket. I saw a flash of light as I was going off to return. I'm still waiting for it to come.
 
-**Autumn Nash:** \[00:20:07.08\] It's like, "Wait, how are we not sure?"
+**Autumn Nash:** \[20:07\] It's like, "Wait, how are we not sure?"
 
 **Justin Garrison:** Yeah. They have a lot of automated speeding ticket cameras throughout.
 
@@ -292,7 +292,7 @@
 
 **Austin Parker:** What else is the Internet for...?
 
-**Break**: \[00:21:16.24\]
+**Break**: \[21:16\]
 
 **Justin Garrison:** Austin, I think we started this conversation on BlueSky as you were ranting about security...
 
@@ -312,7 +312,7 @@ And it's not just security. It happens in observability. It happens in CI/CD. It
 
 **Justin Garrison:** What the ideal world would look if we could implement this thing.
 
-**Autumn Nash:** \[00:28:03.13\] Yes. It's almost doing it in a world that doesn't actually exist, and I'm like "Can we get something that's a little bit more reality-based, so that way we can actually follow those rules?"
+**Autumn Nash:** \[28:03\] Yes. It's almost doing it in a world that doesn't actually exist, and I'm like "Can we get something that's a little bit more reality-based, so that way we can actually follow those rules?"
 
 **Austin Parker:** I mean, a lot of it is just intro to physics stuff. When you think -- go back to high school or college, and you think about physics education, where it's like, okay, assume a frictionless plane, and then do this math, or this formula. But it's like, okay, but in the real world I can't assume that. And the reason that we say "Assume we're frictionless", when we're teaching people, when we're educating, I think a lot of times we do we want to take that complexity, or we want to take these extrinsic forces and sort of say "Okay, set that aside for a moment." And the hope is that by taking that part away, by taking all that complexity away, we can get at what's really important, like calculating velocity, or these other really core foundational concepts.
 
@@ -330,7 +330,7 @@ But then we go into the software world and we start out by assuming everything m
 
 **Justin Garrison:** Especially docs. They make so many assumptions about -- they all have to focus on an individual, because there's one person reading the docs... And I had this problem over and over again at Amazon, where all of our docs were like "You should be able to go do this thing and deploy it to Kubernetes." And I'm like "Wait a minute... This works for me at Amazon, because I'm an admin on this AWS account." Go to any other company of someone trying to do this and they're gonna have to go email four people to get access to do that thing that you just told them "Oh, this will be easy." Like "This is one step." I'm like "No, no, no." Let's break this up into "I have your admin account credentials and you have this amount of access to a cluster. Now go follow your docs and tell me where it's going to fall apart", because you have to switch back and forth to an organization complexity of like now there's four teams.
 
-\[00:32:12.09\] One manages the database, one manages network, one manages the cluster, one's AWS account. Now how are you doing this? None of that practice works anymore, and that's exactly also what you're talking about. Now I have to make a friend over on that other team and say "Hey, can you do this for me? I'm not gonna file a ticket. I'm not gonna go through all the steps.
+\[32:12\] One manages the database, one manages network, one manages the cluster, one's AWS account. Now how are you doing this? None of that practice works anymore, and that's exactly also what you're talking about. Now I have to make a friend over on that other team and say "Hey, can you do this for me? I'm not gonna file a ticket. I'm not gonna go through all the steps.
 
 I just need to get this done."
 
@@ -352,7 +352,7 @@ And in a lot of ways, I think that the legacy of sort of the cloud transformatio
 
 **Autumn Nash:** Which is so weird, because as a solutions architect, we would talk to companies, but there were a lot of big companies that you couldn't -- the two teams could not talk to each other. They couldn't know that they were both using the same database, or different databases... And I'm just like, so you will pay enterprise support money to get advice when you could just talk to each other within your own teams...
 
-**Justin Garrison:** \[00:36:06.05\] Oh yeah, no, absolutely. Consultants make so much money just because they can transcend the borders of the teams.
+**Justin Garrison:** \[36:06\] Oh yeah, no, absolutely. Consultants make so much money just because they can transcend the borders of the teams.
 
 **Autumn Nash:** Yes. It baffles me. I think abstraction and complexity are all part of the game, and sometimes they can make things better, but it's wild how we are creating our own abstraction and loss of context. Even some ways that we use automation is loss of context, you know what I mean? There's so many ways that we're losing context with abstraction, automation, and just stupid rules that we've put in place. And it's wild, because humans made this worse, for other humans, intentionally. I don't understand.
 
@@ -368,7 +368,7 @@ But process is so hard to change. This is a heavily regulated company. Changing 
 
 **Justin Garrison:** Yeah. Well, but people are trying to buy DevOps, right?
 
-**Austin Parker:** \[00:39:53.24\] They are. They would love to buy DevOps.
+**Austin Parker:** \[39:53\] They are. They would love to buy DevOps.
 
 **Justin Garrison:** How do you then lead them into "OpenTelemetry is going to solve a problem for you"?
 
@@ -380,11 +380,11 @@ Because if everyone just gets to go and do it on their own, if everyone's creati
 
 **Austin Parker:** Yeah. I do think there's a couple of important differences in how Otel kind of approaches this. One is we have this idea of telemetry being kind of sparse, right? And being highly contextual. So what I mean by that is we don't want to necessarily emit a bunch of telemetry about the same thing that means that it's completely identical to each other. We want telemetry to layer on top of itself, and when we turn it from these three pillars - people might have heard of the idea of traces, metrics, logs, the three pillars of observability. The Otel concept is more like "What if all this telemetry was just kind of this one interlinked braid, where it was all self-referential, where my metrics refer to my traces, which refer to my logs, which refer back to my metrics, and I can have this kind of shared context value at a technical level that helps me associate all these different things?"
 
-\[00:44:06.21\] And then also, going a step further, of saying "Okay, there's that core base level of telemetry that all my stuff should emit. But then I do need ways to process it. I do need ways to transform it for different use cases. Maybe some of it needs to go into different -- a security team wants something different than an app dev wants, which is something different than a front end dev wants, which is something different than a DevOps team wants, whatever. That data needs to go to different places. That data might need to be transformed in certain ways as it goes to those different places." But as long as we're all working off the same base level, and if we're able to separate those concerns, or we'll say "The telemetry is down here, and then these kind of telemetry pipelines are one step above it", then it becomes much easier to kind of satisfy everyone's needs while not fundamentally changing the nature of what we're doing.
+\[44:06\] And then also, going a step further, of saying "Okay, there's that core base level of telemetry that all my stuff should emit. But then I do need ways to process it. I do need ways to transform it for different use cases. Maybe some of it needs to go into different -- a security team wants something different than an app dev wants, which is something different than a front end dev wants, which is something different than a DevOps team wants, whatever. That data needs to go to different places. That data might need to be transformed in certain ways as it goes to those different places." But as long as we're all working off the same base level, and if we're able to separate those concerns, or we'll say "The telemetry is down here, and then these kind of telemetry pipelines are one step above it", then it becomes much easier to kind of satisfy everyone's needs while not fundamentally changing the nature of what we're doing.
 
 An important part of OTEL is the idea that we support lossless transformation. So when you create a metric in OpenTelemetry, you can actually translate that metric into other forms. So you can change from a delta, you can change how it's aggregated, or how it's displayed, using views, using other kind of techniques... And that is not a lossy transformation. You can actually work that backwards, depending on how you have your stuff set up.
 
-**Break**: \[00:45:25.10\]
+**Break**: \[45:25\]
 
 **Justin Garrison:** When I think of Elasticsearch, and it was like "Oh, I can make metrics from all of these logs that I'm gathering, and I can then roll those up into a metric", and I'm going the opposite direction where I'm taking this really verbose, low-level thing into like "I want a number now", Otel's not doing that, right?
 
@@ -400,7 +400,7 @@ So when I think about what is the future looking like for Otel, it actually does
 
 Now, most of the time, over a majority of time, no system is in a "Everything is perfect" or "Everything is broken" state. You're always in the middle, especially in a distributed system or a decentralized system. Some services will respond more slowly than others. Errors will just happen. These are things that we have to program around. We have to code defensively, and have backoffs, and retries, and pressure relief valves etc. So what is the right amount of data? It kind of depends on a lot of factors that have less to do with the data and more to do with "What do you care about and prioritize as an engineering team? What are the things that you are optimizing towards?"
 
-\[00:52:18.26\] If you've read Charity and Liz's book on observability engineering, it talks a lot about measuring things from the perspective of the customer. Who is your user? It's their experience you should care about. And I really that framing, because why else are you building software, if not for people?
+\[52:18\] If you've read Charity and Liz's book on observability engineering, it talks a lot about measuring things from the perspective of the customer. Who is your user? It's their experience you should care about. And I really that framing, because why else are you building software, if not for people?
 
 **Autumn Nash:** I think people really forget that. We get into into building the cool thing, or building something different, or what we want, and not thinking about who your actual audience and customer is.
 
@@ -424,7 +424,7 @@ I know there are Otel agents or things that emit data from a system level. Is th
 
 **Justin Garrison:** \[unintelligible 00:55:38.19\] Just get it and send it all over, right?
 
-**Austin Parker:** \[00:55:43.01\] Right. It's very customizable. One thing that we can do is that we can try really hard to associate -- in a collector we can actually associate those particular application-level metrics and logs and traces with system-level data as well. So either directly, if we have a context value in both places, like a trace ID or something, then you can associate that way. But we also have ways to kind of associate this concept called a resource. So in Otel you have these special attributes that are called resource attributes, and they identify unique sources. So what you can do is you have -- imagine I have a Kubernetes cluster, or just a fleet of EC2 VMs, and I've got a hundred instances of my application running. By looking at those resources and kind of aggregating across resource, I can see "Okay, yes, there was this problem in the app, and I see which node it came from, which pod it came from", and then I can also see "Okay, what were the system metrics and logs and so on and so forth from that resource?" And then if I have tooling for it that can kind of give me a unified view of this, then I can really easily pivot between those two things.
+**Austin Parker:** \[55:43\] Right. It's very customizable. One thing that we can do is that we can try really hard to associate -- in a collector we can actually associate those particular application-level metrics and logs and traces with system-level data as well. So either directly, if we have a context value in both places, like a trace ID or something, then you can associate that way. But we also have ways to kind of associate this concept called a resource. So in Otel you have these special attributes that are called resource attributes, and they identify unique sources. So what you can do is you have -- imagine I have a Kubernetes cluster, or just a fleet of EC2 VMs, and I've got a hundred instances of my application running. By looking at those resources and kind of aggregating across resource, I can see "Okay, yes, there was this problem in the app, and I see which node it came from, which pod it came from", and then I can also see "Okay, what were the system metrics and logs and so on and so forth from that resource?" And then if I have tooling for it that can kind of give me a unified view of this, then I can really easily pivot between those two things.
 
 Again, this is something that the tools need to kind of support. You have to have an experience for this, either in a tool you've built yourself or something you've kind of stitched together. We do provide the raw data, but it's up to consumers to kind of figure out how to take that raw data and to get it into a usable form, or do analysis with it. I shouldn't say usable form.
 
