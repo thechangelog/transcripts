@@ -14,9 +14,9 @@ All threaded up? Ok, let's get into this week's news.
 
 IronCalc is an MIT-licensed, work-in-progress spreadsheet engine, written in Rust, but usable from a variety of programming languages like Python, JavaScript (wasm), nodejs and possibly R, Julia or Go. Here's why they're building it:
 
-> For over 40 years, spreadsheets have been integral to countless applications. Despite numerous proprietary and open-source options, finding a universally accessible, reliable, and high-quality engine remains a challenge. Many existing solutions are expensive, require accounts, or suffer from performance and stability issues.
+> For over 40 years, spreadsheets have been integral to countless applications. Despite numerous proprietary and open source options, finding a universally accessible, reliable, and high-quality engine remains a challenge. Many existing solutions are expensive, require accounts, or suffer from performance and stability issues.
 >
-> **Our Mission**: To fill the gaps left by the industry and empower every user with a robust, open-source spreadsheet engine that caters to diverse needs.
+> **Our Mission**: To fill the gaps left by the industry and empower every user with a robust, open source spreadsheet engine that caters to diverse needs.
 
 Their ambition extends beyond code, too. They want to drive the spreadsheet industry forward through R&D, community building & a knowledge base. Cool stuff!
 
