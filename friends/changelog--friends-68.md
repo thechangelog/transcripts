@@ -92,7 +92,7 @@
 
 **Robbie Wagner:** I'm just going to pass them down.
 
-**Jerod Santo:** \[00:07:53.14\] So when you think about drinks.com... D-R-I-N-K-S. That is a six-letter domain. That was probably hundreds of thousands of dollars. It made me think of X.com, which probably cost in the millions.
+**Jerod Santo:** \[07:53\] So when you think about drinks.com... D-R-I-N-K-S. That is a six-letter domain. That was probably hundreds of thousands of dollars. It made me think of X.com, which probably cost in the millions.
 
 **Adam Stacoviak:** a billion.
 
@@ -194,7 +194,7 @@
 
 **Chuck Carpenter:** Yes. I would say that the Chianti -- I almost said Cunti... \[laughter\] Which is so close to the other version that -- can we say that on this show?
 
-**Robbie Wagner:** \[00:12:03.21\] Well, I mean, it is \[unintelligible 00:12:04.02\] How is it on the \*bleep\* scale for you? \[laughter\]
+**Robbie Wagner:** \[12:03\] Well, I mean, it is \[unintelligible 00:12:04.02\] How is it on the \*bleep\* scale for you? \[laughter\]
 
 **Adam Stacoviak:** I would say, on the Chianti side -- I am not a Chianti kind of guy. I'm more of a red blend, a very simple wine drinker... I like blends a lot. I like Texas blends a lot. I like California blends a lot, I like a Malbec. ..That's my style. It goes well with steak, it goes well with... Solo, by itself... It's generally not very expensive... So I would say because of the reasons I don't really care for Chianti - this is dry - I would say it's low on my list. I would never buy this again, or drink it.
 
@@ -306,7 +306,7 @@
 
 **Chuck Carpenter:** Well, they're not red. I was just like "We can't get red cups." I was like "Come on. We're classier than that. We're better than that. We deserve that." Yeah, there's a podcast over there, too. There's a number of them... Here at All Things Open.
 
-**Jerod Santo:** \[00:16:02.07\] This is podcast alley.
+**Jerod Santo:** \[16:02\] This is podcast alley.
 
 **Robbie Wagner:** Yeah. Some here, some down there, some up there...
 
@@ -350,7 +350,7 @@ Where I thought you were going to go with that - maybe you're headed there - is 
 
 **Robbie Wagner:** Yeah, is open source, not from learning the skill perspective, but just like from my GitHub screen, and like I'm trying to build my brand - is doing open source really helpful for that?
 
-**Adam Stacoviak:** \[00:19:46.04\] I think it goes back to my original answer with the other one - if you're trying to be more out there and more of a well-known person, famous or infamous, then I think having a flashy GitHub profile, that shows off the things you care about, is going to be very helpful. Whether it's for making friends, whether it's making new network connections that lead to job opportunities, or a co-founder, or whatever it might be, then yeah. But if you want to be a developer who's behind the scenes, not necessary. I mean, you may have a profile, but you may not care if it's fleshed out in terms of, "Hey, this is Adam Stacoviak and what he cares about."
+**Adam Stacoviak:** \[19:46\] I think it goes back to my original answer with the other one - if you're trying to be more out there and more of a well-known person, famous or infamous, then I think having a flashy GitHub profile, that shows off the things you care about, is going to be very helpful. Whether it's for making friends, whether it's making new network connections that lead to job opportunities, or a co-founder, or whatever it might be, then yeah. But if you want to be a developer who's behind the scenes, not necessary. I mean, you may have a profile, but you may not care if it's fleshed out in terms of, "Hey, this is Adam Stacoviak and what he cares about."
 
 Go look at my GitHub profile. It's basically abandoned. I mean, I don't do a lot of open source besides our own contributions, and that's limited. I did do a lot of stuff in open source, but I've not done a lot in terms of code contributions.
 
@@ -368,7 +368,7 @@ Because an architect doesn't have to prove themselves in an interview. They have
 
 How best to gain reputation I think is completely subjective and contextual, and I don't know if I can give a blanket answer. But Adam might be able to. How do you do it, Adam? \[laughter\] Tell us.
 
-**Chuck Carpenter:** \[00:24:07.02\] I never heard of him until today, so I don't think he's doing a good job.
+**Chuck Carpenter:** \[24:07\] I never heard of him until today, so I don't think he's doing a good job.
 
 **Jerod Santo:** Right. Have you seen his GitHub? \[laughter\]
 
@@ -380,7 +380,7 @@ How best to gain reputation I think is completely subjective and contextual, and
 
 I think your analogy of the architect not being scrutinized - I'm paraphrasing, but at the same time, that person contributed in some way, shape, or form to several buildings, using your example. So those buildings are their portfolio. In some way, shape, or form, you've got to show off what you say you're able to do, and prove you can do that, enough so to gain the trust, to get the opportunity, and then deliver it. And reputation is formed by doing that again and again and again, until you are popular enough that you have a reputation to precede you.
 
-**Break**: \[00:25:30.25\]
+**Break**: \[25:30\]
 
 **Robbie Wagner:** Do you think our industry would benefit from like a national organization of certification, rather than the subjectivity from company to company then? For lack of a better term, say there's a national union of web developers, or developers; programmers, whatever you want to call it. And the standards aren't just determined by Amazon and their processes. And Oracle, and their things, and so on and so forth. Like independent organizations. Do you think a centralized one would be a way to kind of solve that? Because I've proven it in the way we all agree.
 
@@ -422,7 +422,7 @@ So that's where I'm coming from, is that if you can produce, if you can do, if y
 
 **Chuck Carpenter:** Yeah, it's software, and anybody potentially can do that. And I agree with that, in the sense that the gatekeepers in comparison to the lawyer, doctor and all that other stuff - now, obviously, we're not saving lives, so... No humans are harmed by this, so of course we don't need those kind of gates per se. So it's a great counterpoint, I think, to that thing. But yeah, like Robbie and Jerod alluded to, or just straight up said...
 
-\[00:34:24.27\] Now, the interviews, which are separate from all of that altogether, and where there are books and certifications to learn how to interview at Google, or some \*bleep\* like that... And I say that because we have -- the badges.
+\[34:24\] Now, the interviews, which are separate from all of that altogether, and where there are books and certifications to learn how to interview at Google, or some \*bleep\* like that... And I say that because we have -- the badges.
 
 **Adam Stacoviak:** The lanyard.
 
@@ -464,7 +464,7 @@ So that's where I'm coming from, is that if you can produce, if you can do, if y
 
 **Jerod Santo:** This is the one where any measure that becomes known ceases to be a good measure. And so companies realize "Well, we're going to look better to VCs if we're hiring. And so we can't actually hire, or maybe we have one position, but we'll put out eight, and we'll just be very picky." And meanwhile, all of us are out there applying like plebs, and their jobs aren't even real.
 
-**Robbie Wagner:** \[00:38:20.25\] Yeah, that's annoying.
+**Robbie Wagner:** \[38:20\] Yeah, that's annoying.
 
 **Adam Stacoviak:** Wasting our time.
 
@@ -536,7 +536,7 @@ So that's where I'm coming from, is that if you can produce, if you can do, if y
 
 **Jerod Santo:** "Is there more of this...?" Yeah. He really likes it. \[unintelligible 00:42:05.10\]
 
-**Robbie Wagner:** \[00:42:15.22\] Jerod does not like this one, by the way.
+**Robbie Wagner:** \[42:15\] Jerod does not like this one, by the way.
 
 **Adam Stacoviak:** I'll give you that \[unintelligible 00:42:15.21\]
 
@@ -586,7 +586,7 @@ Companies, especially the larger the company gets, they are -- they're planning 
 
 **Jerod Santo:** "Only on a podcast would I do that."
 
-**Adam Stacoviak:** \[00:45:48.25\] Right. In the places where I'm known to share my opinions, I would share those opinions. Am I going to go out of my way to write a blog post about X, Y and Z doing X? No, because that's not my medium. But if they were on a podcast with us, I'm like, "It sounds like that job's fake. And I've got friends who applied." Then I'd be like "That doesn't sound legitimate. Is that real?" I would totally ask them that.
+**Adam Stacoviak:** \[45:48\] Right. In the places where I'm known to share my opinions, I would share those opinions. Am I going to go out of my way to write a blog post about X, Y and Z doing X? No, because that's not my medium. But if they were on a podcast with us, I'm like, "It sounds like that job's fake. And I've got friends who applied." Then I'd be like "That doesn't sound legitimate. Is that real?" I would totally ask them that.
 
 **Robbie Wagner:** Yeah.
 
@@ -682,7 +682,7 @@ Companies, especially the larger the company gets, they are -- they're planning 
 
 **Jerod Santo:** Just a dream.
 
-**Adam Stacoviak:** \[00:50:07.09\] So Richard Hendricks struggled the entire time. It's the entire story arc of the whole show, if you haven't watched it before. And there were a couple of times he even referenced Abe Lincoln, and Habeas Corpus. A very particular episode where they were planting Pi-holes or something like that in the HooliCon conference so they can gain users. And that was a "by any means necessary" thing. And it's wild. Like, you watch that show... So I mean, like, that stuff happens. I'm not sure if it happens that dramatically in the world. That was so cool. They ended up getting a lot of users, phones caught on fire and blew up... They ended up getting all these users... And then ultimately, other things happened which led to the story arc of Pied Piper. But you see that. You see these folks struggle with integrity. And I think that show is a great example of playing out someone who really desires to be towing that line of integrity. And you see him struggle. You see it in the character, and you ultimately see it in the story arc of the entire show and the product, Pied Piper, and the team. That's an example of the struggle. I think it's satire, obviously, but it's very real as well.
+**Adam Stacoviak:** \[50:07\] So Richard Hendricks struggled the entire time. It's the entire story arc of the whole show, if you haven't watched it before. And there were a couple of times he even referenced Abe Lincoln, and Habeas Corpus. A very particular episode where they were planting Pi-holes or something like that in the HooliCon conference so they can gain users. And that was a "by any means necessary" thing. And it's wild. Like, you watch that show... So I mean, like, that stuff happens. I'm not sure if it happens that dramatically in the world. That was so cool. They ended up getting a lot of users, phones caught on fire and blew up... They ended up getting all these users... And then ultimately, other things happened which led to the story arc of Pied Piper. But you see that. You see these folks struggle with integrity. And I think that show is a great example of playing out someone who really desires to be towing that line of integrity. And you see him struggle. You see it in the character, and you ultimately see it in the story arc of the entire show and the product, Pied Piper, and the team. That's an example of the struggle. I think it's satire, obviously, but it's very real as well.
 
 **Chuck Carpenter:** I think it's such a stretch from reality. I think it applies the most on like the extreme ends of the spectrum. Like, they're a startup, they had to do some things to not be not in existence anymore. Then the other side of things, you're like a huge FAANG company -- or sorry, \[unintelligible 00:51:41.24\]
 
@@ -738,7 +738,7 @@ Companies, especially the larger the company gets, they are -- they're planning 
 
 **Robbie Wagner:** Can you tell us what it's about?
 
-**Adam Stacoviak:** \[00:54:09.25\] That is such a phenomenal, yet very, very disgusting show.
+**Adam Stacoviak:** \[54:09\] That is such a phenomenal, yet very, very disgusting show.
 
 **Chuck Carpenter:** Absolutely.
 
@@ -826,7 +826,7 @@ Companies, especially the larger the company gets, they are -- they're planning 
 
 **Jerod Santo:** A lot of whatnot.
 
-**Break**: \[00:56:37.11\]
+**Break**: \[56:37\]
 
 **Adam Stacoviak:** Who was upset about the state of frontend? I mean, basically just utterly disgusted with it.
 
