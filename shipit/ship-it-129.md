@@ -102,7 +102,7 @@ And there's been a lot of -- I love getting all the cool people we get to talk t
 
 **Autumn Nash:** Yes, for a four-year-old. For one kid. And I was like "Who can afford this?" And they were like, "That's my mortgage." And I'm like "I wish that was my mortgage..." You know what I mean? So it just shows you - same job, same state. You know what I mean? It's just wild. The difference between -- he can pay for daycare... It was the most expensive daycare. He could have paid for the daycare and his mortgage for the price of what I'm just paying for a mortgage, and I'm supposed to pay for the daycare on top of it. You know what I mean? That's wild.
 
-**Justin Garrison:** \[00:12:14.23\] It is. You're not getting better service, you're not getting anything that's different from --
+**Justin Garrison:** \[12:14\] It is. You're not getting better service, you're not getting anything that's different from --
 
 **Autumn Nash:** Nobody even likes going to daycare. Your kid's going to scream the whole time, they're going to get sick and not go half of the... You know what I mean? You're doing --
 
@@ -178,7 +178,7 @@ And there's been a lot of -- I love getting all the cool people we get to talk t
 
 **Autumn Nash:** Oh no, forever. Like, I just, I watched it, and my mouth was on the ground. I was like, somebody came up with the idea. They scripted this, saw the end project and they still did it. Like, it wasn't a small project.
 
-**Justin Garrison:** \[00:16:22.20\] There were a lot of chances to say no.
+**Justin Garrison:** \[16:22\] There were a lot of chances to say no.
 
 **Autumn Nash:** There were so many chances to be like "This is a horrible idea. We should not do this." And they still did it. Like, wow.
 
@@ -202,7 +202,7 @@ And there's been a lot of -- I love getting all the cool people we get to talk t
 
 **Justin Garrison:** I mean, the article I thought was really good, that he laid out like seven main things that he found that people were leaving big tech for... And in many cases, he's specifically calling out people that went to small companies or startups, or starting their own startups... I was one of those people that in January, I left Amazon. I went to a startup, this was my first startup I've ever been to. It's really different. It's like, I've only ever worked in really old companies or really large companies. And being at a startup is so different. And for me, not in a burnout, sort of like "I work too much" way, because I've always had those boundaries that I feel like I'm pretty good at... And the company has been good at supporting me in those things. Like, I've never been happier in my career than the past 10 months.
 
-**Autumn Nash:** \[00:19:55.25\] It is good to say that you are coming from a place of privilege, because you have had such a successful career. But.
+**Autumn Nash:** \[19:55\] It is good to say that you are coming from a place of privilege, because you have had such a successful career. But.
 
 **Justin Garrison:** Yes, absolutely.
 
@@ -240,7 +240,7 @@ And there's been a lot of -- I love getting all the cool people we get to talk t
 
 **Autumn Nash:** But they're not buying it. Look at what you just said. The stock --
 
-**Justin Garrison:** \[00:23:53.03\] No, they're buying startups, right? A lot of the new innovation from any big tech that I've seen in, I don't know, at least the last 10 years has been from acquisitions, acquihires, right? They're like "Oh, this startup had a cool thing. We bought them. And now we own that thing." And that's literally the goal for most of the startups too, right? Because the startups are like "Great. I was a founder. You just bought me for a hundred million dollars. Cool. I can retire after I get this comp payout in four years."
+**Justin Garrison:** \[23:53\] No, they're buying startups, right? A lot of the new innovation from any big tech that I've seen in, I don't know, at least the last 10 years has been from acquisitions, acquihires, right? They're like "Oh, this startup had a cool thing. We bought them. And now we own that thing." And that's literally the goal for most of the startups too, right? Because the startups are like "Great. I was a founder. You just bought me for a hundred million dollars. Cool. I can retire after I get this comp payout in four years."
 
 **Autumn Nash:** But we also don't have 0% interest rates anymore though.
 
@@ -276,7 +276,7 @@ There's so many lawsuits right now, like smaller companies going after them, and
 
 **Justin Garrison:** Share one of your articles. We've already been going for like almost 30 minutes and we've done an article and a half.
 
-**Autumn Nash:** \[00:27:47.17\] All my articles kind of relate, because I'm getting ready for GitHub Universe, which will happen before this comes out... But I was just doing some research on different -- just kind of trying to learn what we're seeing from AI models so far. Liike, what is it looking at as far as bias, because my talk is about empowering women in data to try to combat AI bias, and basically trying to create a better future for AI, because of having more diversity.
+**Autumn Nash:** \[27:47\] All my articles kind of relate, because I'm getting ready for GitHub Universe, which will happen before this comes out... But I was just doing some research on different -- just kind of trying to learn what we're seeing from AI models so far. Liike, what is it looking at as far as bias, because my talk is about empowering women in data to try to combat AI bias, and basically trying to create a better future for AI, because of having more diversity.
 
 **Justin Garrison:** Now, what do you mean by empowering women?
 
@@ -300,7 +300,7 @@ There is a Nobel prize economist who had said that the greatest indication of ho
 
 So this just kind of goes to the fact of how are we empowering women and making sure that not only are they getting into tech, but they're staying in tech, and that we're making a conducive environment because what prices are we going to pay?
 
-**Break**: \[00:31:47.25\]
+**Break**: \[31:47\]
 
 **Autumn Nash:** There's an article called "The urgent need for bias mitigation in large language models", and it compares the different large language models. So it's comparing Claude, Open AI, which is GPT, and just comparing each version of it, and then showing the bias, and kind of talking about what biases were found as far as health, race, gender, and religion. And just, it gets into a lot of the data, and if you put bad in, you get bad out, right? But because the models are also learning, and they're making these connections based off the data, the bias will also grow, right? Because it's making these connections --
 
@@ -340,7 +340,7 @@ But my two other articles kind of go with that. There's one about the Palo Alto 
 
 **Autumn Nash:** Yes. But when it comes to the fact that we are doing things that we know are disproportionately hurting certain groups of people... Like, people of color are already disproportionately affected by false acquisitions and not having the same socioeconomic background to be able to defend themselves in court... And the fact that police reports are so important to what happens in court, and like your sentencing, and the fact that this is now becoming so widely used, it's really scary because of the biases we're already finding... And these reports are going to be taken as, you know, as the source of truth. And then what? And then that kind of goes back also --
 
-**Justin Garrison:** \[00:40:16.11\] Because people make assumptions about that as data. They're like "This was data. This isn't bias. It's just data." I'm like "No, no, no. That's not how this works."
+**Justin Garrison:** \[40:16\] Because people make assumptions about that as data. They're like "This was data. This isn't bias. It's just data." I'm like "No, no, no. That's not how this works."
 
 **Autumn Nash:** That's like the Wells Fargo algorithm. Were they trying to be harmful? No. But - what's the saying with the causation? You can have data and it could be honest data, but why is the data that way? So it got to a point where it wasn't lending money -- the algorithm was not recommending people of color and women, and people of different backgrounds to be recommended for loans, for mortgages. And it was because people of color were at average making less when the data was trained. So they were making less and they had more credit issues or different things. But it was judging an entire group of people off of that data. Was that data taken in correctly? Maybe. But why is that bias there? Is it because more people of color were facing other socioeconomic issues?
 
@@ -360,7 +360,7 @@ What's your next link?
 
 The quote in here -- again, I haven't read this white paper yet, so I don't really want to talk about it in depth... But the quote was "LLMs cannot perform genuine logical reasoning. They replicate reasoning steps from their training data."
 
-**Autumn Nash:** \[00:44:09.03\] This is the part that I'm still trying to learn about, which is really confusing to me, because they're math, right? The majority of LLMs is a lot of math behind the scenes.
+**Autumn Nash:** \[44:09\] This is the part that I'm still trying to learn about, which is really confusing to me, because they're math, right? The majority of LLMs is a lot of math behind the scenes.
 
 **Justin Garrison:** Well, it's math for the fact that it tokenizes everything. It makes everything math, because computers only do math. It doesn't know a word, it knows ASCII characters. So it turns everything into numbers, so that it can do math, because otherwise computers can't do anything.
 
@@ -394,7 +394,7 @@ I wanted to reshare the white paper from that protocol on Blue Sky, because I di
 
 **Justin Garrison:** Yeah. Welcome to DevRel.
 
-**Autumn Nash:** \[00:48:02.07\] But it makes me feel bad. So I had got another Twitter because we were going to do a startup thing at one point, and I had got another Twitter to just lock the name down. And the unhinged right wing stuff that this Twitter who doesn't follow anything...
+**Autumn Nash:** \[48:02\] But it makes me feel bad. So I had got another Twitter because we were going to do a startup thing at one point, and I had got another Twitter to just lock the name down. And the unhinged right wing stuff that this Twitter who doesn't follow anything...
 
 **Justin Garrison:** Oh, yeah.
 
@@ -430,9 +430,9 @@ And even like -- again, Blue Sky, everyone's like "Oh, there's so much art", and
 
 **Justin Garrison:** Yeah. Custom feeds is another one, where it's like, you can add labels to all this stuff. I have a labeler I subscribed to for pronouns. Fantastic. You don't even have to say it in your profile or anything, but it adds a little, like, "What is this person's pronouns" directly under their name, which is just part of the labeler. And I'm like, "Cool. I don't have to do any of that work. They don't have to tell me. They don't have to put it--" So like, it just picks it up from their posts of what their pronouns are. I'm like, that's really cool.
 
-**Autumn Nash:** I love that I can have a different feed for each person in my personality. Like, I have books guy, then I have like a techs guy, then I have like for databases, dev ops. It's just... Everybody's compartmentalized into where I want it.
+**Autumn Nash:** I love that I can have a different feed for each person in my personality. Like, I have books guy, then I have like a techs guy, then I have like for databases, DevOps. It's just... Everybody's compartmentalized into where I want it.
 
-**Justin Garrison:** \[00:52:19.17\] Speaking of which, if people are getting started and want to join, I have a couple starter packs. I have one for cloud-native people, and I have one for All Things Open speakers, which I was like "Oh, how does this work for conferences?" Autumn, you started a couple, right?
+**Justin Garrison:** \[52:19\] Speaking of which, if people are getting started and want to join, I have a couple starter packs. I have one for cloud-native people, and I have one for All Things Open speakers, which I was like "Oh, how does this work for conferences?" Autumn, you started a couple, right?
 
 **Autumn Nash:** I've got Linux and GitHub universe. And then there's a database one named ran by someone named, I think, Josh. There's a couple of cool ones.
 
@@ -462,7 +462,7 @@ But the balance of like, one of them we don't know if it'll have money to keep t
 
 **Justin Garrison:** Except for when news media calls me...
 
-**Autumn Nash:** \[00:56:09.10\] You're ridiculous. You knew what you were doing when you wrote that, okay? The whole time I was like, "Oh gosh, Justin..." I was having anxiety for you. Then I was like -- but yeah, I think it's good to have those separations, because it keeps your voice honest. And I think it keeps you being able to like be your true self in a blog. Like, all the blogs I've written are still on my computer, and one day I'll release them...
+**Autumn Nash:** \[56:09\] You're ridiculous. You knew what you were doing when you wrote that, okay? The whole time I was like, "Oh gosh, Justin..." I was having anxiety for you. Then I was like -- but yeah, I think it's good to have those separations, because it keeps your voice honest. And I think it keeps you being able to like be your true self in a blog. Like, all the blogs I've written are still on my computer, and one day I'll release them...
 
 **Justin Garrison:** That's a lot of people, yeah.
 
@@ -498,7 +498,7 @@ But the balance of like, one of them we don't know if it'll have money to keep t
 
 **Justin Garrison:** And his goal here is it's a native terminal, right? Because there's a lot of them that are like, if we want to make it pretty, we have to do something exotic and new, and it looks foreign.
 
-**Autumn Nash:** \[00:59:56.06\] And then it ends up biting you in the butt later, because it's so different that when you're following a tutorial something is now different for your terminal, so it doesn't fit here. You know what I mean? This just won't make it --
+**Autumn Nash:** \[59:56\] And then it ends up biting you in the butt later, because it's so different that when you're following a tutorial something is now different for your terminal, so it doesn't fit here. You know what I mean? This just won't make it --
 
 **Justin Garrison:** Yeah. And a lot of the integrations into the operating system don't work.
 
