@@ -98,7 +98,7 @@
 
 **Carl George:** Same.
 
-**Adam Stacoviak:** \[00:07:54.17\] But that's not why we're here. Let's talk about the confusion, I suppose, around Red Hat Enterprise Linux, the history of CentOS, to some degree, and really, the state of open source Enterprise Linux.
+**Adam Stacoviak:** \[07:54\] But that's not why we're here. Let's talk about the confusion, I suppose, around Red Hat Enterprise Linux, the history of CentOS, to some degree, and really, the state of open source Enterprise Linux.
 
 **Carl George:** Sure.
 
@@ -144,15 +144,15 @@ There are some people that -- there's one guy I know at work that says that "If 
 
 **Adam Stacoviak:** So you've been there for a while.
 
-**Carl George:** A good bit of nuance to that is that, yeah, I've only been there since 2019. Relatively short. I've been in the CentOS and Fedora and Apple communities before that. I got hired out of those communities to do it full-time at Red Hat, which is another huge value that they do, is employing people in open-source projects to keep making open source. There was a whole track yesterday here at the conference about open source sustainability, and sustainability versus freedom and choice, and open source purists, and things like that.
+**Carl George:** A good bit of nuance to that is that, yeah, I've only been there since 2019. Relatively short. I've been in the CentOS and Fedora and Apple communities before that. I got hired out of those communities to do it full-time at Red Hat, which is another huge value that they do, is employing people in open source projects to keep making open source. There was a whole track yesterday here at the conference about open source sustainability, and sustainability versus freedom and choice, and open source purists, and things like that.
 
-\[00:11:53.06\] And yeah, a lot of people - their dream is to get paid to work in open-source. I feel great. I've achieved that dream. Other people aren't as lucky, or they get it like... I know my last employer had a thing where it was like "Well, you can do open source part-time, and then this much time you have to do these things inside the company." You have a lot of that. And I know a lot of companies, their OSPO offices, open source programs office, or equivalent name, they struggle around "How do we get our engineers to be better open source citizens? They're consuming all this open source. How do we turn them from just consumers into making sure the things we depend on continue to exist long-term?" Which is a theme that I'd like to segue off of into CentOS.
+\[11:53\] And yeah, a lot of people - their dream is to get paid to work in open source. I feel great. I've achieved that dream. Other people aren't as lucky, or they get it like... I know my last employer had a thing where it was like "Well, you can do open source part-time, and then this much time you have to do these things inside the company." You have a lot of that. And I know a lot of companies, their OSPO offices, open source programs office, or equivalent name, they struggle around "How do we get our engineers to be better open source citizens? They're consuming all this open source. How do we turn them from just consumers into making sure the things we depend on continue to exist long-term?" Which is a theme that I'd like to segue off of into CentOS.
 
 **Adam Stacoviak:** Yeah, let's go back to that. We've set the premise that you're a credible person to talk to...
 
 **Carl George:** According to some...
 
-**Adam Stacoviak:** You're not selling anything, you're not marketing... Not that they're bad people, but we don't want to be marketed to. We want to hear from an engineer, from the inside. So lay out CentOS. It's not dead, it's still there. How that relates to RHEL, how that relates to Fedora, and the whole life cycle of how you get to these packages that people can rebuild off of, and this sort of conundrum of the open-source enterprise Linux we live in.
+**Adam Stacoviak:** You're not selling anything, you're not marketing... Not that they're bad people, but we don't want to be marketed to. We want to hear from an engineer, from the inside. So lay out CentOS. It's not dead, it's still there. How that relates to RHEL, how that relates to Fedora, and the whole life cycle of how you get to these packages that people can rebuild off of, and this sort of conundrum of the open source enterprise Linux we live in.
 
 **Carl George:** So, big question, right? I started going on a little bit, I started talking about how I wish I had a diagram of Fedora branching, and from Rawhide into its releases... Every three years or so we'll take one of those Fedora releases and we'll branch it again and start building the next major version of RHEL. That starts as CentOS Stream, but before we've announced it; it's still very early. We're still forming pre-alpha days. We're putting all this stuff together. And then at a certain point, they have enough of the changes that they want to go into the next major version of RHEL. Like "We want this version of Apache, this version of OpenSSL." Maybe it's the same ones at the exact time they branched. Maybe they go one forward, one back, maybe they add a few other features, build a few things differently... But that is the process of turning the Fedora, fast-moving, innovative project into the enterprise product, and that happens through CentOS.
 
@@ -166,7 +166,7 @@ And what's different from the past, when CentOS originally started, was that you
 
 **Carl George:** There is also another program, Developer Subscription for Teams, that'll give you -- I don't remember the exact number. It's high. It's in the thousands, of free RHEL instances in your non-production environments, if you're paying for RHEL in production. And then there's also programs for giving open source projects free RHEL, there's programs for giving educational institutions free, or heavily discounted RHEL... There's tons of ways to get RHEL without paying for it. But there are definitely scenarios where Red Hat once thinks that "Yes, this person should pay for RHEL." And a lot of those people are the ones that they use CentOS, rather than just "I want an operating system", they wanted just to get RHEL without paying for it, or get a discount on their RHEL. They'd use 10% of their fleet on RHEL, and then the rest on CentOS to cut costs.
 
-\[00:16:06.19\] That was never a good fit for it, because of small, subtle differences in the engineering and how it's built. One of those is that Red Hat Enterprise Linux actually has overlapping minor versions. You can stay on, say, 9.0 after 9.1 and 9.2 come out, still get security updates, and some third parties only certify on specific minor versions.
+\[16:06\] That was never a good fit for it, because of small, subtle differences in the engineering and how it's built. One of those is that Red Hat Enterprise Linux actually has overlapping minor versions. You can stay on, say, 9.0 after 9.1 and 9.2 come out, still get security updates, and some third parties only certify on specific minor versions.
 
 So if you've got third-party vendor software that hard requires 9.2, using anything that's on one of the other rebuilds that's on 9.4, or on CentOS Stream that basically has 9.6 content right now, it's a little bit ahead on minor versions, then if a vendor requires 9.0 strictly, then it might not work. But Red Hat will sell you 9.0, still with security updates. 9.2 might be a better example, because it doesn't last forever. You can't stay there forever. It's just an extension. But those overlapping things are things that community projects have never had. CentOS never had them. And the new RHEL rebuilds that are trying to claim that they're the new CentOS, they don't have them either. They also have corporate sponsors that sell those extensions. They're trying to make their buck too, which is understandable. We're all trying to make money in open source... But the big value prop that I talked about with Red Hat, with the ecosystem stuff is not that you'll just go use this and it's a cheaper price than RHEL, it's that you can go to the people creating this software. A lot of times they're maintaining it in RHEL, they're maintaining it in CentOS, and oftentimes they're maintaining it in Fedora, too. Not always, but there's a huge participation from Red Hat in Fedora, all the way. It is separate from Red Hat, but we're very involved at every step of the process.
 
@@ -208,7 +208,7 @@ So you can make a feature request and say "I wish this software did this thing."
 
 **Carl George:** Nobody's told me I can't say that. But that kind of drove it. Basically, Red Hat was like "We want this project to keep existing", and so they made job offers to all of the developers. Most of them took it. A few of them turned it down. And then they basically came into Red Hat, partially. They were still kind of kept off to the side. They're like "Well, you're still kind of duplicating this product, but we want you to keep going and exist." And so they kind of sat in that limbo for a while, where they weren't growing, they weren't getting people resources, but they had the resources they need to focus their full-time on it, get a paycheck, and keep the project going.
 
-\[00:20:01.26\] That was a little bit of an infusion, but we still had this problem around this whole bug-for-bug thing, and also being a duplicate of the product. There would never be a business incentive to put the same engineering resources into your products and this project that is trying to match it as close as possible. That would never make sense. No business person would agree to that. But because of all the nuance around how it was being used as a development platform... But we also saw the pain points of it being a development platform that lagged behind the thing it was trying to match, right? CentOS would typically lag about a month behind on the minor versions. Like, RHEL 7.6 would come out, and then CentOS 7.6 would be -- it'd be 7.5 for a while, they'd finish the rebuild and publish it, and about a month later you'd get it. So those rebuild gaps were real painful for the developers trying to use it as a platform to build on.
+\[20:01\] That was a little bit of an infusion, but we still had this problem around this whole bug-for-bug thing, and also being a duplicate of the product. There would never be a business incentive to put the same engineering resources into your products and this project that is trying to match it as close as possible. That would never make sense. No business person would agree to that. But because of all the nuance around how it was being used as a development platform... But we also saw the pain points of it being a development platform that lagged behind the thing it was trying to match, right? CentOS would typically lag about a month behind on the minor versions. Like, RHEL 7.6 would come out, and then CentOS 7.6 would be -- it'd be 7.5 for a while, they'd finish the rebuild and publish it, and about a month later you'd get it. So those rebuild gaps were real painful for the developers trying to use it as a platform to build on.
 
 **Adam Stacoviak:** Because at that time, CentOS was behind RHEL, and the transition that a lot of people got upset about was they were using CentOS as this open source RHEL-like operating system in production, which was the bigger backlash. And then Red Hat's move was to push CentOS in front of RHEL, let it be CentOS Stream...
 
@@ -230,7 +230,7 @@ What I think should have happened, the way it should have gone down was we just 
 
 So that's one of the things that irks me when people say "This isn't the same CentOS." I'm like "No, but yes, it is." It's the same people, it's the same project. CentOS isn't dead. Technically, CentOS is the project. CentOS Linux and CentOS Stream were the distributions. But thankfully, we don't have that double thing anymore. We onboarded all the RHEL people, and it's just CentOS Stream. And I think -- my personal opinion is that we should one day just drop the stream and just say "Yeah, this is just CentOS. Most people just call it CentOS. Let's avoid the confusion. We should have never had the overlap. It should have just been a clean break at a new major version, and leave all the old major versions on the old model." But that's not the way the transition happened.
 
-**Adam Stacoviak:** \[00:24:05.24\] Yeah. Clean breaks are good.
+**Adam Stacoviak:** \[24:05\] Yeah. Clean breaks are good.
 
 **Carl George:** It was a poorly executed transition, in my opinion. Some of it predated me, some of it I was front row and center, and doing what I could...
 
@@ -292,7 +292,7 @@ RHEL, the contribution path into RHEL is through CentOS, because functionally, t
 
 **Carl George:** Ubuntu's model is that they are giving their product away for free, which - there are pros and cons to that, and I'm not gonna... I don't want to criticize another company's business model. I wish them all luck. I've got friends that work in Ubuntu and work for Canonical, or ex-Canonical... But it gets back to that problem. You can have all of the market share you want by giving away your product for free, and it's hugely successful and popular... But then - I know that my Canonical friends have told me before that Ubuntu's biggest challenger was always free Ubuntu. Like, everyone that's getting it for free because they can, and the conversion rate of people that are should be paying for it to help sustain the engineering of that product is a vanishingly small number. And it's an extremely hard sell to say "Here's why you should pay us" when you can just get the product for free.
 
-**Adam Stacoviak:** \[00:28:04.12\] Right. And I'm not arguing that point.
+**Adam Stacoviak:** \[28:04\] Right. And I'm not arguing that point.
 
 **Carl George:** So Red Hat tries to take a different stance.
 
@@ -348,7 +348,7 @@ RHEL, the contribution path into RHEL is through CentOS, because functionally, t
 
 **Carl George:** Yeah. And that conflation is a sticking point for a lot of people.
 
-**Adam Stacoviak:** \[00:31:54.29\] And CentOS used to give it - I'm quoting, "used to give it" - prior to being acquired by Red Hat. Now it's upstream from RHEL in terms of a visual diagram. It was acquired as an open source, acquired by. Now it is where the active development happens, which ultimately lands in RHEL the product. And so the angst there is the folks want what is enterprise-grade Linux, RHEL. You're considered the standard, the gold standard of enterprise-grade Linux. They want it for free. That's the angst.
+**Adam Stacoviak:** \[31:54\] And CentOS used to give it - I'm quoting, "used to give it" - prior to being acquired by Red Hat. Now it's upstream from RHEL in terms of a visual diagram. It was acquired as an open source, acquired by. Now it is where the active development happens, which ultimately lands in RHEL the product. And so the angst there is the folks want what is enterprise-grade Linux, RHEL. You're considered the standard, the gold standard of enterprise-grade Linux. They want it for free. That's the angst.
 
 **Carl George:** What I realized around that angst is that we made all those changes and some of it predates me, some of it was right around when I was getting hired... But what I learned about the CentOS community was they're basically two different personas, and it kind of splits evenly in the lifecycle. There were the people using CentOS in the first five years of the lifecycle. New version will come out, they'll say "Yes, I want these new features, I want these new capabilities, and I'm also frustrated." Those happened to be the same people that were frustrated that they couldn't contribute to it and make changes to it. Then there were people kind of using it in the last five years, instead of using RHEL. For them, it was just the free, unbranded RHEL, they were never going to contribute, they don't care about being able to contribute. They just want to get the product for free, and they want it to be maintained for as long as possible.
 
@@ -380,7 +380,7 @@ But like you said, a lot of those people that are going to different alternative
 
 **Jerod Santo:** Juicy.
 
-**Carl George:** \[00:35:58.22\] So the major version right now of RHEL is 9. Everyone knows that. Same for all these RHEL-likes, and CentOS stream, which is still RHEL-like. It's all major version 9. Everyone can count and knows that the next number after that is 10.
+**Carl George:** \[35:58\] So the major version right now of RHEL is 9. Everyone knows that. Same for all these RHEL-likes, and CentOS stream, which is still RHEL-like. It's all major version 9. Everyone can count and knows that the next number after that is 10.
 
 **Adam Stacoviak:** Is it 10?
 
@@ -422,7 +422,7 @@ So we've got those things coming up... And timeline-wise, you can look at it as 
 
 **Adam Stacoviak:** What exactly is extra in the extra?
 
-**Carl George:** \[00:40:00.07\] Okay... That is just the mentality of it, of - it's only packages that you can't get in the base operating system. So I kind of mentioned that there's like 60-something thousand packages in Fedora, and only about 10% of those go into CentOS, and then eventually go into RHEL. Everything else in Fedora that isn't that 10% is eligible to go into EPEL. So I can say I maintain the CADI web server. I maintain that package in Fedora, and I also maintain it in EPEL branches. Up to date, I haven't seen anyone say "We need to put CADI into RHEL." We have customers asking for CADI. Maybe that changes in the future. But for now, I maintain it in Fedora and I put it in the EPEL branches for each release. EPEL 7, EPEL 8, EPEL 9, and EPEL 10 now. Put it in there, so people can use it on that RHEL release or that CentOS release, or any of the other RHEL-like things that are out there. They use it there, but it's not a RHEL package. It's not maintained by Red Hat, and you can't file a support case for it. So that's what the extra in the name is for. It's only additional things.
+**Carl George:** \[40:00\] Okay... That is just the mentality of it, of - it's only packages that you can't get in the base operating system. So I kind of mentioned that there's like 60-something thousand packages in Fedora, and only about 10% of those go into CentOS, and then eventually go into RHEL. Everything else in Fedora that isn't that 10% is eligible to go into EPEL. So I can say I maintain the CADI web server. I maintain that package in Fedora, and I also maintain it in EPEL branches. Up to date, I haven't seen anyone say "We need to put CADI into RHEL." We have customers asking for CADI. Maybe that changes in the future. But for now, I maintain it in Fedora and I put it in the EPEL branches for each release. EPEL 7, EPEL 8, EPEL 9, and EPEL 10 now. Put it in there, so people can use it on that RHEL release or that CentOS release, or any of the other RHEL-like things that are out there. They use it there, but it's not a RHEL package. It's not maintained by Red Hat, and you can't file a support case for it. So that's what the extra in the name is for. It's only additional things.
 
 If, for example, CADI, if Red Hat decided to add that into RHEL, into the product, it would then become ineligible for EPEL, and we'd retire it from there, and instead of getting it from the community repo, you'd get it from the main repos.
 
@@ -462,7 +462,7 @@ If, for example, CADI, if Red Hat decided to add that into RHEL, into the produc
 
 **Carl George:** Thanks for having me on.
 
-**Break**: \[00:42:42.29\]
+**Break**: \[42:42\]
 
 **Jerod Santo:** Max Howell, creator of Homebrew, creator of Tea Protocol... Did I cover all the gamut, or is there more?
 
@@ -504,7 +504,7 @@ So our system - yeah, it changes the economics of open source. That was one of m
 
 Open source is really weird. There's no real thing that's like it elsewhere in the world, so it was necessary to build something new, that used economics in a new fashion. So that's what we've built.
 
-\[00:52:07.04\] We have an on-chain oracle called Chai, that computes the impact of all the open source projects, all 10.5 million of them, using package manager data and dependency data to calculate that. The higher your impact, the higher your rewards. Every 24 hours we just give you free Tea token. And then we have -- with the 1.7 million people who signed up, only a third of them are developers. Two-thirds of them are people that maybe didn't even know about open source before. Once they heard the story of how everything they've used on the internet for the last 30 years is built on top of this open source, they understood that there's a huge amount of untapped value there, that they want to participate in. So they're the input for the monetary parts that allow the open source to be remunerated.
+\[52:07\] We have an on-chain oracle called Chai, that computes the impact of all the open source projects, all 10.5 million of them, using package manager data and dependency data to calculate that. The higher your impact, the higher your rewards. Every 24 hours we just give you free Tea token. And then we have -- with the 1.7 million people who signed up, only a third of them are developers. Two-thirds of them are people that maybe didn't even know about open source before. Once they heard the story of how everything they've used on the internet for the last 30 years is built on top of this open source, they understood that there's a huge amount of untapped value there, that they want to participate in. So they're the input for the monetary parts that allow the open source to be remunerated.
 
 And I've had loads of tokenomics experts looking at it over the last three years... You have to calculate the sell and the buy pressure correctly in order to make it so the token price stabilizes at something, which then makes it so the open source maintainers can sell their token, and use it to fund the development.
 
@@ -518,7 +518,7 @@ And I've had loads of tokenomics experts looking at it over the last three years
 
 **Jerod Santo:** Yeah, there's been some spammers spamming...
 
-**Max Howell:** Yeah. We incentivize people to try and break Tea Rank or Chai... And they've found a way to do it by creating more than 200,000 packages on Npm. We're glad they've found a way to break it, because that meant we could fix it, and that's what the testnet is for. But yeah. I don't feel good about it, but... When you're building new things, there's always unanticipated consequences to that. A lot of people think I should have seen this coming... I kind of agree with them. I should have seen it coming. But when you're building stuff, you only have so much time.
+**Max Howell:** Yeah. We incentivize people to try and break Tea Rank or Chai... And they've found a way to do it by creating more than 200,000 packages on npm. We're glad they've found a way to break it, because that meant we could fix it, and that's what the testnet is for. But yeah. I don't feel good about it, but... When you're building new things, there's always unanticipated consequences to that. A lot of people think I should have seen this coming... I kind of agree with them. I should have seen it coming. But when you're building stuff, you only have so much time.
 
 **Jerod Santo:** Yeah. I mean, sometimes you're learning as you go. I remember that happening -- I don't remember what my comment was at the time, but once I saw it, I was like "Yeah, this seems like a natural progression." Live and learn, right? Live and learn. And it was still early, so that's good.
 
@@ -530,7 +530,7 @@ And I've had loads of tokenomics experts looking at it over the last three years
 
 **Max Howell:** Well, the main purpose of T, at least what I wanted to accomplish when I came up with the idea, was to use cryptocurrency to fix what we call the Nebraska problem after that famous XKCD comic. You know, the \[unintelligible 00:55:46.21\] representing all of open source, as it's stacked on top of each other... And those little projects near the bottom that are fragile, because the people who maintain them don't have the time or the incentive to do so, and yet it's holding up so much critical infrastructure.
 
-\[00:56:04.06\] So yeah, it's a cryptocurrency project that uses a unique tokenomics model in order to give open source developers token rewards on a 24-hour basis. And a lot of the other pieces of it are designed to attract the interest of typical crypto investors, or just like normal developers who want to show real support for their open source projects. A key differentiator between us and most ways of supporting open source is that there is no donations in our system. You can buy a token and then stake it against projects, so both you and the project is gaining from this. There's no gift. It's more like an investment.
+\[56:04\] So yeah, it's a cryptocurrency project that uses a unique tokenomics model in order to give open source developers token rewards on a 24-hour basis. And a lot of the other pieces of it are designed to attract the interest of typical crypto investors, or just like normal developers who want to show real support for their open source projects. A key differentiator between us and most ways of supporting open source is that there is no donations in our system. You can buy a token and then stake it against projects, so both you and the project is gaining from this. There's no gift. It's more like an investment.
 
 **Jerod Santo:** So what would... So say there's a piece of software that's signed up for the Tea Protocol, and so I can use Tea to execute it, right? Am I then required to also buy into the... Like, to give back value? Or is it still I can just use that without doing it if I want to? Like, it'll lock you in?
 
@@ -548,7 +548,7 @@ And I've had loads of tokenomics experts looking at it over the last three years
 
 **Max Howell:** You can stake against specific packages.
 
-**Jerod Santo:** So let's say I know my buddy Adam is about to release a new Npm package, a JavaScript thing. It's going to take the world by storm... I could stake his package when it first comes out, and as that package gains in usage, I would benefit from that? Is that how it works?
+**Jerod Santo:** So let's say I know my buddy Adam is about to release a new npm package, a JavaScript thing. It's going to take the world by storm... I could stake his package when it first comes out, and as that package gains in usage, I would benefit from that? Is that how it works?
 
 **Max Howell:** Not exactly, currently. This is an idea we're playing with. You should be rewarded for seeing up and coming open source, right? That's fun.
 
@@ -560,7 +560,7 @@ And I've had loads of tokenomics experts looking at it over the last three years
 
 **Max Howell:** So you do have to convince other projects you're worthy, and that's exactly how open source already works. You release something new, it takes time for the community to trust that your package is worthy, and use it. So we don't fix the initial uptake problem, but that's the case as it is right now.
 
-**Jerod Santo:** \[00:59:59.09\] Gotcha.
+**Jerod Santo:** \[59:59\] Gotcha.
 
 **Adam Stacoviak:** What is the idea of staking? I understand it in crypto as normal, but if I bought in and I staked against a project, what does that do for it?
 
@@ -643,7 +643,7 @@ One easy way to do it is like "Here's a list of people. Split it equally." A muc
 
 **Adam Stacoviak:** Sometimes it's easy to squash that to some degree with the why. Like "Why did you do this?" It's one thing to have a capitalistic intent, either personally because you're creating a company around this with venture capital and incentives, and then to enable open source developers to get paid. So there's lots of reasons why, I'm sure, but what is your personal reason why? Why did you do this?
 
-**Max Howell:** So yeah, we're going to be quite transparent; as transparent as possible. We're going to be open-sourcing most of the -- probably all of it by the end of the year, actually; even the website. Who cares...? But my personal reason for doing this was because three years ago I was in between full-time work, trying to work on open source once again, and I looked to see if anyone had come up with something that could pay me to work on it full-time for this time.
+**Max Howell:** So yeah, we're going to be quite transparent; as transparent as possible. We're going to be open sourcing most of the -- probably all of it by the end of the year, actually; even the website. Who cares...? But my personal reason for doing this was because three years ago I was in between full-time work, trying to work on open source once again, and I looked to see if anyone had come up with something that could pay me to work on it full-time for this time.
 
 I've tried things in the past like Patreon, and spent half my time marketing myself rather than writing code when I was trying to get that Patreon working... And there wasn't anything new. Everything treats open source like all it is is charity. All you can expect is a cup of coffee and five bucks. So I decided that maybe it had to be me who fixed this problem, and I went down the rabbit hole finding new ideas; trying to find new ideas about it. And it was like a moment of inspiration one evening... I'd had some weed, and I realized that --
 
@@ -775,7 +775,7 @@ He can stick against it if he wants to, which increases my yield, increases his 
 
 **Jerod Santo:** Yeah.
 
-**Max Howell:** Once Chai is open-sourced, which - spoiler alert, I'm doing that during my keynote in an hour...
+**Max Howell:** Once Chai is open sourced, which - spoiler alert, I'm doing that during my keynote in an hour...
 
 **Jerod Santo:** Nice.
 
@@ -1126,13 +1126,13 @@ Thanks Dev is my main vendor for that, and they... Yeah, they're helping us out 
 
 **Chad Whitacre:** We have it. We built that out.
 
-**Adam Stacoviak:** OpenSourcePledge.com.
+**Adam Stacoviak:** Open SourcePledge.com.
 
 **Chad Whitacre:** Vlad, one of the folks working on it, built that out, on the website.
 
 **Jerod Santo:** I see.
 
-**Chad Whitacre:** So if you're at a company that wants to join the Pledge, then you go to OpenSourcePledge.com. You'll see a Join button there. OpenSourcePledge.com/join. We'll walk you through the steps, including... Yeah, we'll build that JSON for you. We'll give you a gift of a JSON file.
+**Chad Whitacre:** So if you're at a company that wants to join the Pledge, then you go to Open SourcePledge.com. You'll see a Join button there. Open SourcePledge.com/join. We'll walk you through the steps, including... Yeah, we'll build that JSON for you. We'll give you a gift of a JSON file.
 
 **Jerod Santo:** They gift you a JSON. But what do I do with that?
 
@@ -1190,7 +1190,7 @@ If it's a year from now, and we've got -- I mean, 100 companies maybe, 200 compa
 
 **Jerod Santo:** Alright. Thanks, Chad.
 
-**Adam Stacoviak:** OpenSourcePledge.com. Go there now.
+**Adam Stacoviak:** Open SourcePledge.com. Go there now.
 
 **Chad Whitacre:** Yeah. And look for that badge.
 
