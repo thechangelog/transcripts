@@ -120,7 +120,7 @@
 
 **Jerod Santo:** How many times have we heard something like that? Like, that story, in a different space, is the beginning for so many people. It's really rinse and repeat in your little niche, and there's not guaranteed success, but if you do it long enough... I mean, you're going to bring so much value to so many people.
 
-**Alex Kretzschmar:** \[00:08:06.22\] I hope so. I mean, sometimes I wonder who's actually listening after a while...
+**Alex Kretzschmar:** \[08:06\] I hope so. I mean, sometimes I wonder who's actually listening after a while...
 
 **Jerod Santo:** Sure.
 
@@ -238,7 +238,7 @@
 
 **Adam Stacoviak:** Have you played Geometry Dash yet?
 
-**Jerod Santo:** \[00:11:48.27\] Oh, yeah. I played Geometry Dash way back in the day. I mean, I've moved on from it, because I was kind of addicted to it.
+**Jerod Santo:** \[11:48\] Oh, yeah. I played Geometry Dash way back in the day. I mean, I've moved on from it, because I was kind of addicted to it.
 
 **Alex Kretzschmar:** Do you ever move on from it, really?
 
@@ -356,7 +356,7 @@ What else would you not host? You obviously host your data, right? Like, you hos
 
 **Jerod Santo:** Does it snapshot, too?
 
-**Alex Kretzschmar:** \[00:16:31.05\] Yeah. ZFS is cool like that. So like copy on write, all that kind of stuff. It will only sync the blocks that have changed, or the delta. So...
+**Alex Kretzschmar:** \[16:31\] Yeah. ZFS is cool like that. So like copy on write, all that kind of stuff. It will only sync the blocks that have changed, or the delta. So...
 
 **Adam Stacoviak:** Yeah. Send Receive is pretty cool...
 
@@ -444,7 +444,7 @@ What else would you not host? You obviously host your data, right? Like, you hos
 
 **Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** \[00:20:00.16\] I still think it's cool tech. I remember the bad old days of Hamachi VPN, I think it was called... Which was, I think, open source, but it was definitely free. It was my closest analog to Tailscale, before Tailscale. And it was cool, because you could do a lot of the same stuff... And that's pre-WireGuard even. I'm not sure how it worked. I know it was a VPN, but... You know, we had NAS'es in different people's houses... And we were sharing backups with each other. Like, I backup your stuff, you backup mine. I did all that stuff the hard way, probably 15 years ago. And so now...
+**Jerod Santo:** \[20:00\] I still think it's cool tech. I remember the bad old days of Hamachi VPN, I think it was called... Which was, I think, open source, but it was definitely free. It was my closest analog to Tailscale, before Tailscale. And it was cool, because you could do a lot of the same stuff... And that's pre-WireGuard even. I'm not sure how it worked. I know it was a VPN, but... You know, we had NAS'es in different people's houses... And we were sharing backups with each other. Like, I backup your stuff, you backup mine. I did all that stuff the hard way, probably 15 years ago. And so now...
 
 **Alex Kretzschmar:** You're just not interested now.
 
@@ -492,7 +492,7 @@ What else would you not host? You obviously host your data, right? Like, you hos
 
 **Jerod Santo:** Totally.
 
-**Alex Kretzschmar:** \[00:24:14.01\] Where you think "I need this massive garage."
+**Alex Kretzschmar:** \[24:14\] Where you think "I need this massive garage."
 
 **Adam Stacoviak:** What's the latest planer?
 
@@ -554,7 +554,7 @@ What else would you not host? You obviously host your data, right? Like, you hos
 
 **Alex Kretzschmar:** It creates an anonymous Google search profile for every query you make. So there's no tracking cookies. I mean, they know your IP address that it's originating from, but beyond that it's a brand new empty search profile every single time. There's no ads, there's no tracking, there's no spyware... All of that stuff. And it presents the results -- do you remember how Google used to look 10 years ago?
 
-**Jerod Santo:** \[00:28:02.04\] Yeah.
+**Jerod Santo:** \[28:02\] Yeah.
 
 **Alex Kretzschmar:** And now it's got this AI nonsense at the top, and pictures, and... I've trained myself to scroll to about a third of the way down the page before anything interesting actually happens. With Searxng, it's right there at the top. Every time.
 
@@ -648,7 +648,7 @@ And it can self-host it, and I connect to my instance, through Tailscale, of cou
 
 **Adam Stacoviak:** Yeah, I remember that. Yes.
 
-\[00:32:09.02\]
+\[32:09\]
 
 *"But you know what? This one. This one right here. This was my dream. My wish. And it didn't come true. So I'm taking it back. I'm taking them all back.*
 
@@ -664,7 +664,7 @@ And it can self-host it, and I connect to my instance, through Tailscale, of cou
 
 **Alex Kretzschmar:** Thank you.
 
-**Break:** \[00:32:30.05\]
+**Break:** \[32:30\]
 
 **Adam Stacoviak:** Isra. Isra, Isra...
 
@@ -836,7 +836,7 @@ And it can self-host it, and I connect to my instance, through Tailscale, of cou
 
 **Israa Taha:** Oh, okay...
 
-**Jerod Santo:** \[00:42:07.19\] And so Barcamp became an un-conference, where anybody can come. You don't have to be a friend of O'Reilly. You can be anybody. And because it was an un-conference, there was no pre-planned schedule. So you show up on a Saturday morning, for instance, everybody gets together, and there's whiteboards, or even just construction paper, and there's a schedule, like "Here's slots." And you just show up -- a lot like lightning talks. You just show up and sign up for a slot. And then you're putting together the conference as it's going.
+**Jerod Santo:** \[42:07\] And so Barcamp became an un-conference, where anybody can come. You don't have to be a friend of O'Reilly. You can be anybody. And because it was an un-conference, there was no pre-planned schedule. So you show up on a Saturday morning, for instance, everybody gets together, and there's whiteboards, or even just construction paper, and there's a schedule, like "Here's slots." And you just show up -- a lot like lightning talks. You just show up and sign up for a slot. And then you're putting together the conference as it's going.
 
 **Israa Taha:** Yup.
 
@@ -964,7 +964,7 @@ Community. Clips. Gear. That's good. That's good advertising.
 
 **Adam Stacoviak:** See? But you would want to...
 
-**Jerod Santo:** \[00:46:11.10\] You might show up and find out.
+**Jerod Santo:** \[46:11\] You might show up and find out.
 
 **Adam Stacoviak:** ...because you know about Wi-Fi's generally, right?
 
@@ -1044,7 +1044,7 @@ Community. Clips. Gear. That's good. That's good advertising.
 
 **Israa Taha:** So you kind of have to keep up with documentation, you kind of have to try it out for yourself and play around with it... But yeah, that's kind of been one of my biggest struggles, is where do I find those resources when I have questions on "How do I do this?" or "This isn't quite working the way that I expect it to. Where do I go?" And so Twitter... Infinite Red also has a Slack community of a lot of React Native developers... So if you have questions, a lot of times you can go into their Slack, ask a question, and somebody will be able to either answer, or point you in the right direction to figure out where to go from there.
 
-**Jerod Santo:** \[00:50:18.17\] Nice.
+**Jerod Santo:** \[50:18\] Nice.
 
 **Adam Stacoviak:** What are you doing? You said learn by doing. So what are you doing?
 
@@ -1092,7 +1092,7 @@ Most of my logging and debugging in React Native is console logs, and I'm sure a
 
 **Jerod Santo:** It's fun. You just talk to each other.
 
-**Break**: \[00:52:49.04\]
+**Break**: \[52:49\]
 
 **Jerod Santo:** Well, we're here with Avi Fernando.
 
