@@ -74,7 +74,7 @@ I started learning how to code, I started making some projects and all the good 
 
 And over time, people in those communities James Q. Quick, one prime example - they started seeing how I was progressing. And so a lot of the peers started becoming recommenders. And over time - and this is kind of why I say communities are so great... You have the same people kind of returning. And so when they see you progress over month one, month six, month nine, and they start seeing you grow and your technical skillset growing, they're going to be more excited to recommend you for stuff.
 
-\[00:07:55.04\] And so that was like my pivotal moment to start getting more connections, and conversations... And then from there, I started building my own group, and I built a group that was tremendous in the Memphis area called GDG Memphis... From there, I was helping groups in North Carolina, I was helping groups in California, and I was even helping groups in the Florida area, trying to build up events... Because a lot of them kept saying "We can't really tap into the community." You make a few adjustments here and there and next thing they're starting to not just get people coming to an event, but returning to an event. And to me, I think that's the biggest tell. It's already a battle to get them to come there. But if you're not getting them to come back and have a good time, there's a big disconnect.
+\[07:55\] And so that was like my pivotal moment to start getting more connections, and conversations... And then from there, I started building my own group, and I built a group that was tremendous in the Memphis area called GDG Memphis... From there, I was helping groups in North Carolina, I was helping groups in California, and I was even helping groups in the Florida area, trying to build up events... Because a lot of them kept saying "We can't really tap into the community." You make a few adjustments here and there and next thing they're starting to not just get people coming to an event, but returning to an event. And to me, I think that's the biggest tell. It's already a battle to get them to come there. But if you're not getting them to come back and have a good time, there's a big disconnect.
 
 And so from there, I started helping people, I helped out a group in Saudi Arabia, I helped out groups in Ireland... I literally helped out a Mongo group in Ireland, so that was pretty cool... And then over time it just kind of grew to where -- I think I've helped groups in like nine countries. And so they've all just kind of blossomed and grown.
 
@@ -100,7 +100,7 @@ And so from there, I started helping people, I helped out a group in Saudi Arabi
 
 **Danny Thompson:** There's a couple things that I notice... These common denominators with groups. One of the biggest ones I feel is that meetups traditionally, they try to have the subject matter of the meetup be the core reason why someone is coming to that event. And so if they do another meetup and that subject matter doesn't necessarily apply to that person, what ends up happening? They don't go. For me, I feel like that's the opposite of the approach that we should be utilizing and taking. The purpose should be "I'm going to where my community is." Simple as that. My community's meeting this Thursday, I'm gonna go hang out in my community. Oh, we're also talking about a tech topic? That's cool, too. And so for me, my meetups never start with us talking about a tech topic. That's the thing that we're doing together. It's not the reason why I'm showing up. So I'll do tech topics on Java, and I'll have JavaScript developers show up. I'll have a topic on Android development. I'll have non-mobile developers show up because they feel like "Well, my community's coming there."
 
-\[00:12:00.06\] The other day I gave a meetup with two days notice. We still had 70 people show up. Why? We're not a tech town, but they know their community's coming there. So they realize that a tech topic will be talked about, but they're more so there for everyone else that they're going to be interacting with. And so that's the forefront of the message that I try to go with.
+\[12:00\] The other day I gave a meetup with two days notice. We still had 70 people show up. Why? We're not a tech town, but they know their community's coming there. So they realize that a tech topic will be talked about, but they're more so there for everyone else that they're going to be interacting with. And so that's the forefront of the message that I try to go with.
 
 The other thing I'll say is a lot of meetup organizers, whether they realize it or not, they're really great at punishing their guests.
 
@@ -112,7 +112,7 @@ The other thing I'll say is a lot of meetup organizers, whether they realize it 
 
 **Danny Thompson:** But that's what they do. So I'm punished for coming on time. Why is my time not valued? Why is the person who's late valued more in this scenario than me, that showed up on time? And so what ends up happening? Well, I'm not going to show up to there at 6:30; they're not going to get started at 6:30. I'll be there at seven. And then finally it gets to the point where it's like "Am I really going to go there for the 45 minutes? I'll just stay home. Netflix is better. I don't have to deal with traffic." So if you punish your guests, they're less likely to return.
 
-**Break**: \[00:12:52.18\]
+**Break**: \[12:52\]
 
 **Adam Stacoviak:** Is there a structure or a format you use then to make it not about the topic that evening? Because I mean, obviously you're probably there to talk about specific frontend things, potentially, as a community. There's an underlying fabric that makes the reason to go there. But ultimately you're "Well, I like Danny, so I'm going to go back and see Danny. I like Sue" or "I like..." whomever else is going to go there. So you go because of the people, but how do you structure the night? What's the way you do it?
 
@@ -142,7 +142,7 @@ But the other thing is I'll do interactive things. We have what I call a pair-pr
 
 **Jerod Santo:** Sure.
 
-**Danny Thompson:** \[00:19:44.20\] Maybe even if you're establishing, you're just not having like a high-paying job, it's still hard to go to conferences regularly. So what I've done is this thing that I call A Night Of. And we'll have seven or eight speakers, and it's just completely free, no one spends a dollar, and we just have people come learn. So a night of JavaScript, a night of React, a night of Java, a night of mobile development. And it's just eight speakers speaking on that theme. And so now, of course, obviously, it's interactive, and you're getting a lot of value out of it, but I'm also very big believer in value for time, and your reward for said time.
+**Danny Thompson:** \[19:44\] Maybe even if you're establishing, you're just not having like a high-paying job, it's still hard to go to conferences regularly. So what I've done is this thing that I call A Night Of. And we'll have seven or eight speakers, and it's just completely free, no one spends a dollar, and we just have people come learn. So a night of JavaScript, a night of React, a night of Java, a night of mobile development. And it's just eight speakers speaking on that theme. And so now, of course, obviously, it's interactive, and you're getting a lot of value out of it, but I'm also very big believer in value for time, and your reward for said time.
 
 So if you're coming and it's one talk, you're probably gonna get a lot out of it. But if you have eight speakers, and two of them talk about something you didn't even think about, that's a brand new peak in interest; you've got a lot of reward for your time.
 
@@ -180,7 +180,7 @@ I help out on occasion with a group in California, I help out on occasion with a
 
 **Danny Thompson:** Yeah. We'll do some meetups that we call Code Togethers, which is no topic, 100% casual. You come in, you can show projects that you've been working on or whatever, or talk about what you've been doing at work... Just talking with other devs. And then we have meetups that have a talk that we're going to do, a workshop, something along those lines.
 
-**Adam Stacoviak:** \[00:23:55.12\] I like that, because it's like "Well, I can go this time and it's just me pairing up with a couple people." Or "I'm learning, because I'm looking over so and so's, Nick's shoulder. He's vimming with NeoVim, and TypeScripting. I want to learn", you know?
+**Adam Stacoviak:** \[23:55\] I like that, because it's like "Well, I can go this time and it's just me pairing up with a couple people." Or "I'm learning, because I'm looking over so and so's, Nick's shoulder. He's vimming with NeoVim, and TypeScripting. I want to learn", you know?
 
 **Danny Thompson:** You know, I didn't even think about this... But THAT Conference, the thing that I found interesting here was this whole open spaces concept. But at our Code Togethers, that's what's happening. People get in these little silos and they're talking about what they are interested in. And so it's almost like that, now that I think -- I've never even put that together, but that's kind of what that code-together is. You have people just form up at tables and they're talking about stuff that they're learning and doing, and they get to share.
 
@@ -218,9 +218,9 @@ I'm more focused now. Truth be told, I know that there's going to be a day that 
 
 **Adam Stacoviak:** This might backtrack a little bit, but somebody asked "What's the group in North Carolina? I can't see the name."
 
-**Danny Thompson:** \[00:28:08.10\] If you tweet at me, I'll go ahead -- because I know who this person is. If you tweet at me, I'll go ahead and give you all the link details and whatnot for that group. I think they're local in that area, that's why.
+**Danny Thompson:** \[28:08\] If you tweet at me, I'll go ahead -- because I know who this person is. If you tweet at me, I'll go ahead and give you all the link details and whatnot for that group. I think they're local in that area, that's why.
 
-**Break**: \[00:28:19.14\]
+**Break**: \[28:19\]
 
 **Jerod Santo:** Let's go back to the beginning, because you wanted to create this awesome website, right? ...and you went to freeCodeCamp and you got started. What was slightly before that? Was there -- how did you know? Did you just google how to code? How did you know about freeCodeCamp? Why'd you want to build this website? Like, what was a spark for you and the starting point?
 
@@ -228,7 +228,7 @@ I'm more focused now. Truth be told, I know that there's going to be a day that 
 
 And one day I'm at the hot box, the deli box, where we put the chicken in, I got some out the fryer and I'm stacking it in... And next to the register was a TV. Basically, if there's a line of customers, they can watch the TV for a few minutes, so they don't feel, I guess, the pressure of the line. And I hear this interview going on. And this interview -- this rapper invested several million dollars into a tech company. And I was like "This is kind of weird..." So I walked around the hot box, I'm staring at this interview... And obviously, the interviewer asked him "Why did you invest this money?" and he said "I'm learning how to code." This literally melted my mind in that moment, because I'm like staring at the TV... My perception at that time was if you knew how to code, it was because you were literally a rocket scientist. You were a PhD holder. You were on that level of accolade. I couldn't fathom someone from my kind of background ever writing code.
 
-\[00:32:12.22\] And so I'm just staring and I'm looking at this, and I walk back behind that box, and I don't even know what's upside down anymore... I'm just so confused. I'm just thinking about this, I'm thinking about this. "If he can learn how to code, so can I, right?" But then I'm like "I need reasoning." I started coming up with reasoning. Like, why don't I know more about my laptop? Why is the extent of my knowledge opening up youtube.com and watching cat videos? Because that's literally what I was doing. \[laughter\]
+\[32:12\] And so I'm just staring and I'm looking at this, and I walk back behind that box, and I don't even know what's upside down anymore... I'm just so confused. I'm just thinking about this, I'm thinking about this. "If he can learn how to code, so can I, right?" But then I'm like "I need reasoning." I started coming up with reasoning. Like, why don't I know more about my laptop? Why is the extent of my knowledge opening up youtube.com and watching cat videos? Because that's literally what I was doing. \[laughter\]
 
 **Jerod Santo:** At least you had good taste.
 
@@ -250,7 +250,7 @@ And so now I'm like -- anytime you see these TikToks of these rich investors, li
 
 The thing for me - I never knew this path was allowed. Once I figured it out, I'm like "Oh, this is it." But now I start running my mouth because I don't know who needs to hear this. And it doesn't necessarily mean that tech has to be the thing for you, but it would be amazing for you to find out what that thing can be, and start putting that effort in that right situation.
 
-**Jerod Santo:** \[00:36:14.29\] And what's next for you? Where are you going from here?
+**Jerod Santo:** \[36:14\] And what's next for you? Where are you going from here?
 
 **Danny Thompson:** So we've just released one course. The course was testing a theory as far as an educational method of teaching. And so now, my idea is I have a similar method that I want to utilize for technical content in courses. And so that's going to be the forefront. A lot more technical courses are going to be coming out using said theory. I have an idea for a technical course that, I'll be honest, I've never seen done. And I think this is going to help more junior developers than ever be job-ready, with actual job-ready skills, instead of maybe trying to manufacture confidence in an area where they may be lacking it. And so I think that's going to go a long way. Really, really excited about that one.
 
@@ -290,7 +290,7 @@ And so oftentimes I'll see people where they'll have a post where it's like "I w
 
 The other thing a lot of developers make the mistake on, honestly, is lack of consistency within that niche. Going back to the overall theme of consistency - how many developers do you know will talk about development topics, and next thing you know they're talking about cars, they're talking about sports, they're talking about other interests. And the problem is, for me following you, I didn't sign up for that. I signed up because I saw that great tweet on TypeScript implementation. Well, when I see this other stuff, I may give you the benefit of the doubt for a little while, but it was super-easy for me to find that Follow button, and it's super-easy to find that Unfollow button as well. So if you incentivize them to go find it, they will.
 
-**Jerod Santo:** \[00:40:07.24\] Mm-hm. Give the people what they came for.
+**Jerod Santo:** \[40:07\] Mm-hm. Give the people what they came for.
 
 **Danny Thompson:** I mean, simple as that. If I signed up for tech stuff from you because you have great tech stuff, don't dilute it with the other things, especially if you're in the building stage... Because they don't know who you are yet. You need that relationship built over time for them to be like "I know what Adam's about. I know his quirkiness. I know his tongue in cheek humor. Boom. When he hits me with that, I'm ready for it." But if it's my first interaction with you and you hit me with that right away, it's very low on the likelihood that I'll stick around for it.
 
