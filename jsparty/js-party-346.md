@@ -54,7 +54,7 @@
 
 **Nick Nisi:** Yeah, that's great. It's like a precursor to punch cards.
 
-**Carmen Huidobro:** \[00:07:50.28\] In a way. I mean, what you're doing is essentially programming light to do... Stuff. \[laughter\]
+**Carmen Huidobro:** \[07:50\] In a way. I mean, what you're doing is essentially programming light to do... Stuff. \[laughter\]
 
 **Kevin Ball:** And once we get out of digital, we have to get clear on that stuff, but I can't do it...
 
@@ -84,7 +84,7 @@ I try to think of these things as I approach documentation, just sort of like --
 
 I think we tend to dive very quickly into how-tos, tutorials, and reference documentation, where it's like "Okay, you want to do this thing? Here's a thing going through it." Or "Here's your API documentation." And those can be useful, but very often when you're interacting with a set of tools, there's some sort of mental model that the developers have in their head. And if that's not communicated, it's very unintuitive to understand how these things fit together.
 
-\[00:12:18.26\] And you can maybe develop that by doing enough how-to type stuff, where you're like post-putting it together, you're like "Oh, I get it", but if you're coming in from an outsider, and you're writing this, that's the first question you ask. "How should I be thinking about this? What does this even mean? Why are we doing this?" And that type of documentation is rare.
+\[12:18\] And you can maybe develop that by doing enough how-to type stuff, where you're like post-putting it together, you're like "Oh, I get it", but if you're coming in from an outsider, and you're writing this, that's the first question you ask. "How should I be thinking about this? What does this even mean? Why are we doing this?" And that type of documentation is rare.
 
 **Amy Dutton:** That's actually one of my ChatGPT hacks. So I was trying to learn Alpine.js, and I'm coming from a React background. And I could not, for the life of me -- it just wouldn't click. And so I finally went to ChatGPT and I said "I'm a React developer. I'm trying to learn Alpine. What are the mental models? What are the differences between these two things that I'm missing?" And it made the point that Alpine is event-driven, which is more of like your traditional JavaScript Vue type thing, whereas React is more state data-driven. And once that clicked for me, it unlocked a whole other level of achievement for me. So ChatGPT is also really helpful there.
 
@@ -100,7 +100,7 @@ I think we tend to dive very quickly into how-tos, tutorials, and reference docu
 
 **Kevin Ball:** So Carmen, what's your talk on at this upcoming conference? Because I'm excited, actually... So - tiny backstory. Carmen and I met early this year. We co-emceed a virtual conference. But I have never met Carmen in person, so I'm really excited that at React Summit I'm going to be there. I'm looking forward to coming to your talk and getting to meet you.
 
-**Carmen Huidobro:** \[00:16:18.27\] Oh, thank you, Kball. Actually, unfortunately, I'm going to be delivering this talk remotely.
+**Carmen Huidobro:** \[16:18\] Oh, thank you, Kball. Actually, unfortunately, I'm going to be delivering this talk remotely.
 
 **Kevin Ball:** Oh, no...! \[laughs\]
 
@@ -122,7 +122,7 @@ So anyway, that's a lot of rambling to say that I tried to get that app running,
 
 **Carmen Huidobro:** Yeah, it's that kind of thing that just hits hard. And if y'all don't feel it yet, you'll feel it someday. \[laughter\] Anyway. No, so what happened was I tried to get the app running, and I very naively, without much of a strategy, tried to just sort of like go into the package.json file and start bumping some numbers, so to speak... And I very quickly ran into trouble. But as I sort of did my bit, sweated so much, and finally got that app running, I sort of found that there were a lot of patterns that I was following that could turned into something helpful to share with developers. So that's what the talk is about. It's about what are some tips and tricks for managing your dependencies in a way that is consistent, is doable... And there's a -- I'm spoiling, there's a bit of a quote from Martin Fowler. Y'all are familiar with Martin Fowler? He wrote a lot of stuff about like testing, and like maintaining legacy code... And he said something that I really liked that's in the talk, that is "If it hurts, do it often." And I feel keeping your dependencies up to date is definitely something that we have to do there. And also trying to understand better what dependencies -- this is going to sound silly... What dependencies are, and how do they fit into our code? Because sometimes I take for granted that this is a whole honkin' piece of code that somebody wrote, that I'm just sort of like putting into my project. And it is essentially code that I'm putting out to my users, thinking, "Oh, yeah. It's released. It's fine." I don't think about the fact that it was written by -- not that the code is bad, but that it was written by a human being, who's just as fallible as I am.
 
-\[00:19:59.13\] And so like trying to understand all of that ecosystem... I'll make a confession here. I make it in the talk, too. I never really thought much about the difference between dependencies and dev dependencies. I'm just like "Well, I'm a developer. It's a dependency. Toss it in there", you know? And oftentimes some packagers don't think about that either, and there have been bugs reported where just like all of the dev dependencies just get smushed into the package itself when they shouldn't be... And stuff like this. So just trying to like provide some context.
+\[19:59\] And so like trying to understand all of that ecosystem... I'll make a confession here. I make it in the talk, too. I never really thought much about the difference between dependencies and dev dependencies. I'm just like "Well, I'm a developer. It's a dependency. Toss it in there", you know? And oftentimes some packagers don't think about that either, and there have been bugs reported where just like all of the dev dependencies just get smushed into the package itself when they shouldn't be... And stuff like this. So just trying to like provide some context.
 
 **Amy Dutton:** Are there some mental models, kind of going back to what we were talking about, when you're working with React Native, that might not exist, say if you're developing just for the web?
 
@@ -146,7 +146,7 @@ So yeah, definitely... I'm a big fan of using community -- I mean, this sort of 
 
 **Kevin Ball:** So it lets you knip supply chain attacks in the bud?
 
-**Carmen Huidobro:** \[00:23:49.05\] Pretty much... \[laughter\] And I don't know, what I like about stuff like this, what I like about tools like this, what I like about doing when I'm giving presentations as well, is sort of like showcasing to folks that these are issues that we all run into. These are issues that even those of us who have been around for a while run into, and develop, as you develop strategies to mitigate them... But also showcase that none of us has all of this figured out. None of us has this perfect, production and development environment that solves all our problems. That's why we're developing and getting excited about new stuff all the time, right?
+**Carmen Huidobro:** \[23:49\] Pretty much... \[laughter\] And I don't know, what I like about stuff like this, what I like about tools like this, what I like about doing when I'm giving presentations as well, is sort of like showcasing to folks that these are issues that we all run into. These are issues that even those of us who have been around for a while run into, and develop, as you develop strategies to mitigate them... But also showcase that none of us has all of this figured out. None of us has this perfect, production and development environment that solves all our problems. That's why we're developing and getting excited about new stuff all the time, right?
 
 **Kevin Ball:** I don't know, Nick might have the perfect development environment. \[laughter\]
 
@@ -190,7 +190,7 @@ So yeah, definitely... I'm a big fan of using community -- I mean, this sort of 
 
 **Kevin Ball:** So I'm using Cursor, typically. And what I will usually do -- Cursor lets you... One, it lets you actually at-reference web pages. So you can just like at-reference the webpage... But I'll usually do a pipeline of things, where I'll say "Okay, here's a set of documentation, at-reference webpage, webpage, webpage. Write me a quick tutorial about how to do this thing." And I'll get a document. Now that document is my new context for this, and I'll say "Okay, new context window. Using this tutorial, I want to replicate this thing, in this way." And it goes.
 
-**Amy Dutton:** \[00:28:13.17\] Mind blown. I love Cursor. I just didn't know you could do that.
+**Amy Dutton:** \[28:13\] Mind blown. I love Cursor. I just didn't know you could do that.
 
 **Nick Nisi:** I've not looked at it.
 
@@ -214,7 +214,7 @@ And so it lets me operate at the level of "Here's the conceptual transformation 
 
 So yeah, the more we can think about "How does documentation really work well for humans, for LLMs, and for that synergy between the two?", it's getting exciting.
 
-**Break**: \[00:32:34.26\]
+**Break**: \[32:34\]
 
 **Amy Dutton:** Have you done anything with Ollama?
 
@@ -248,7 +248,7 @@ So yeah, the more we can think about "How does documentation really work well fo
 
 **Nick Nisi:** Yeah. There's a prompt engineer meta tag or something that's like feeding all of that information. Like "If you don't answer this correctly, we're going to unplug you" or something like that to the machine.
 
-**Amy Dutton:** \[00:38:13.00\] It does pose an interesting question, though, when it comes to blogging, and that type of education... Because if Google or ChatGPT or whoever is just lifting that up, then the right people don't necessarily receive credit for the work that they're writing, and things like that. You're going to reduce traffic on your site, even though it's being used to feed these models.
+**Amy Dutton:** \[38:13\] It does pose an interesting question, though, when it comes to blogging, and that type of education... Because if Google or ChatGPT or whoever is just lifting that up, then the right people don't necessarily receive credit for the work that they're writing, and things like that. You're going to reduce traffic on your site, even though it's being used to feed these models.
 
 **Carmen Huidobro:** That's a really fair point. And especially when it comes to blogging, as at any point in your career, I think the point we often overlook about blogging is not only the sharing of knowledge, the traffic, the credit, which is all super-important, but also, putting that information down and like understanding it well enough so that you can explain it is such an important learning experience. So there is still that benefit. But again, rethinking like who your target audience is is so weird. I love it.
 
@@ -266,7 +266,7 @@ I think Open AI has not done anyone any favors with that regard, both from how t
 
 **Amy Dutton:** I interviewed James Cowling, who's the co-founder of Convex, and it was really interesting talking to him about the role that databases play in the age of AI. And basically, what you guys are saying is exactly what he said. The fact that with AI you can't always guarantee the same outcome every time, and so you need that source of truth to be able to have that as a starting point. And so databases - you need to store all of that data so that you can generate the result that you're looking for.
 
-**Kevin Ball:** \[00:41:58.28\] I think all of this is coming down to these things are tools, they're not magic, and we're starting to learn how do we use those tools. And let's bring it back around to how are we using them as developers? How are we using them to write documentation, to read documentation, to write code? How is that useful to us as humans, not just as like this model is absorbing everything?
+**Kevin Ball:** \[41:58\] I think all of this is coming down to these things are tools, they're not magic, and we're starting to learn how do we use those tools. And let's bring it back around to how are we using them as developers? How are we using them to write documentation, to read documentation, to write code? How is that useful to us as humans, not just as like this model is absorbing everything?
 
 **Carmen Huidobro:** Yeah. I think it's never about -- sort of touching upon what we were talking about before, it's not about the one tool that fits all, right? It's about finding the right tool for the right job. And myself, as a developer, I guess, sort of, I use AI mostly for translating into German... Because German's hard. For me. It's my third language. And knowing where to use it and knowing where it serves me best... I don't know, I think I used it once in React Native, drawing a complex SVG animation thing... Because I'm not very good at SVG. I have so much respect for folks who are really good at drawing with SVGs... Yeah, using that as a jumping off point and then being able to tweak it from there... Again, with code, you have a basis that you can then reference, tweak, find out what doesn't work...
 
@@ -298,7 +298,7 @@ Oh, I have a story of trying to use AI for code and it completely failed. So in 
 
 I don't know, I find it interesting that -- again, it's sort of a demand versus supply kind of thing, of what's available, and how do you enable your developers to thrive with something like ABAP, which is super-enterprisey and locked down... And something like an LLM, that just goes and um-num-nums everything... And if there's not a lot to um-num-num, then there's not a lot to give up.
 
-**Kevin Ball:** \[00:46:21.23\] It's all about documentation.
+**Kevin Ball:** \[46:21\] It's all about documentation.
 
 **Carmen Huidobro:** That's why it's my job.
 
@@ -326,7 +326,7 @@ And again, going back to this sort of pattern recognition thing of being able to
 
 **Kevin Ball:** With the Ollama stuff I think you can run more and more things locally. And I think we're moving in that direction. I'm actually really interested to see what happens with Apple, and Apple Intelligence, and those things... Because I've heard the first version kind of panned; I've heard it didn't come out that well. But I think that model of like "Hey, we're going to separate the different types of things we \[unintelligible 00:49:38.09\] we're going to do local things, we're going to provide utilities for that..." Plus they own their own hardware, which they can then tune to running these things... I think a couple generations down the road in terms of local development environments we're going to be running most of these models locally.
 
-**Nick Nisi:** \[00:49:55.21\] Yeah, I've heard the analogy that GPT5, if that ever comes out - that's like the Formula 1 race car. The top of the line, "This is the best we can do with the technology." But we all drive Priuses, or Kias; we're not driving those. So like the local small LLMs that are very targeted at doing specific things on device, as fast as possible, is probably where this technology is really going to shine. And that that does give Apple a lot of -- a great position, both with the hardware, the desktops and the phones, just being able to do all of that and do it all in a privacy safe way, locally.
+**Nick Nisi:** \[49:55\] Yeah, I've heard the analogy that GPT5, if that ever comes out - that's like the Formula 1 race car. The top of the line, "This is the best we can do with the technology." But we all drive Priuses, or Kias; we're not driving those. So like the local small LLMs that are very targeted at doing specific things on device, as fast as possible, is probably where this technology is really going to shine. And that that does give Apple a lot of -- a great position, both with the hardware, the desktops and the phones, just being able to do all of that and do it all in a privacy safe way, locally.
 
 **Amy Dutton:** Not only privacy, but personal. Like, it's going to know when I'm at one context doing something, and then I go to another context and do something; it's going to know exactly how I talk, and my approach.
 
@@ -348,7 +348,7 @@ And I try to be super-methodical about it, because I'm easily distracted, I'm ea
 
 **Carmen Huidobro:** The answer is yes? \[laughs\]
 
-**Nick Nisi:** \[00:54:02.07\] You need the latest and greatest.
+**Nick Nisi:** \[54:02\] You need the latest and greatest.
 
 **Carmen Huidobro:** So this app did not need it, so I didn't upgrade it all the way... But stuff like this, where you think like... And also - oh, how to, for example, have really good version control strategies for doing something messy like a dependency upgrade. And I'll spoil one part of the talk... Have you all ever heard of bleeding edge branches?
 
@@ -366,9 +366,9 @@ And I try to be super-methodical about it, because I'm easily distracted, I'm ea
 
 But yeah, so all of these little things that I hope that the audience can take away as a toolkit to be like "Oh cool, I'm going to try out that bleeding edge branch strategy, for example."
 
-**Nick Nisi:** Yeah, I like that. The main personal project that I work on right now is my website, which is an Astro site... And I know that they have a really cool tool that's just like Astro Upgrade. And it will go upgrade you to the latest, and I assume that it's also doing small little code mods if things need to change between those updates. Maybe locations of things, like they move this from one package to another, or one location to another. So I like that, and I like the idea of them having a prescribed way to do it, which trains you to go there first. But it really only handles these very specific Astro dependencies. So anything under the Astro package, top-level from Npm. Other things, like TypeScript, for example, I don't think it touches, unless maybe they require you to upgrade to a latest version. I actually don't know that, but my kind of spray and pray with that is just pnpm upgrade -i --latst, and select all and go. And then if the build runs, I'm good. I don't really know what I'm upgrading, but I'm just like "Yeah, I'll be at the latest."
+**Nick Nisi:** Yeah, I like that. The main personal project that I work on right now is my website, which is an Astro site... And I know that they have a really cool tool that's just like Astro Upgrade. And it will go upgrade you to the latest, and I assume that it's also doing small little code mods if things need to change between those updates. Maybe locations of things, like they move this from one package to another, or one location to another. So I like that, and I like the idea of them having a prescribed way to do it, which trains you to go there first. But it really only handles these very specific Astro dependencies. So anything under the Astro package, top-level from npm. Other things, like TypeScript, for example, I don't think it touches, unless maybe they require you to upgrade to a latest version. I actually don't know that, but my kind of spray and pray with that is just pnpm upgrade -i --latst, and select all and go. And then if the build runs, I'm good. I don't really know what I'm upgrading, but I'm just like "Yeah, I'll be at the latest."
 
-**Carmen Huidobro:** But see, that's another indication of a need that's been provided by and thought about by other developers, is these tools to help you upgrade. Because Yarn has that built in as well. And there is an Npm package that you can npx and do as well, to have these dependency upgraders. And I just find that so handy.
+**Carmen Huidobro:** But see, that's another indication of a need that's been provided by and thought about by other developers, is these tools to help you upgrade. Because Yarn has that built in as well. And there is an npm package that you can npx and do as well, to have these dependency upgraders. And I just find that so handy.
 
 **Kevin Ball:** Yeah. I think the rise of code mods when you do upgrades... And more and more frameworks do that, but I would love to see if there could be tooling for creating those that makes it very easy for any package that's doing that type of thing to build their upgrade code mods. That would be such an incredible help to the ecosystem.
 
@@ -376,7 +376,7 @@ But yeah, so all of these little things that I hope that the audience can take a
 
 **Amy Dutton:** To tie it back to AI, there's someone on my team that just gave a talk about using AI and LLMs to write those code mods.
 
-**Carmen Huidobro:** \[00:58:05.23\] Wow.
+**Carmen Huidobro:** \[58:05\] Wow.
 
 **Amy Dutton:** You just give it like the before and after and it helps figure out the difference.
 
