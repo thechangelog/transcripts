@@ -110,7 +110,7 @@ We've got shirts, we've got stickers, and we're doing a year-end sale. So they a
 
 **Adam Stacoviak:** How long did it take you?
 
-**Jerod Santo:** \[00:08:14.08\] \[laughs\] Honestly, seven minutes for the initial implementation, and then probably 20 minutes of tweaking things around, and then probably another 10 minutes to make sure it looked good on phones. And so I would say somewhere in the range of 30 to 45 minutes...
+**Jerod Santo:** \[08:14\] \[laughs\] Honestly, seven minutes for the initial implementation, and then probably 20 minutes of tweaking things around, and then probably another 10 minutes to make sure it looked good on phones. And so I would say somewhere in the range of 30 to 45 minutes...
 
 **Adam Stacoviak:** End to end.
 
@@ -206,7 +206,7 @@ We've got shirts, we've got stickers, and we're doing a year-end sale. So they a
 
 **Jerod Santo:** It was DDoSed, right? It was taken offline. They got DDoSed by some sort of hacking crew. Who attacks the Wayback Machine? It's like, this is a cultural touchstone of the world. And they're going to take it offline? Like, what, who, why, when, where and how? But yeah, I think it's back now.
 
-**Adam Stacoviak:** \[00:12:14.07\] Officially closing the loop. "Support your favorite podcast by repping the merch." That's what it said.
+**Adam Stacoviak:** \[12:14\] Officially closing the loop. "Support your favorite podcast by repping the merch." That's what it said.
 
 **Jerod Santo:** Which wasn't bad, but it was up there for three years.
 
@@ -258,7 +258,7 @@ The first one, the command is called security. Did you know about this? There's 
 
 **Jerod Santo:** Right. So Caffeine is, like you said, a menu bar utility. That is a third-party thing written, where somebody puts this little coffee cup in your menu bar. I think it's free and open source. I know it's free. I'm not sure if it's open source. And you click on it. And when it's on, your screen will never turn off. I think it will also never go to screensaver mode, but it certainly won't dim. None of the power saving features. Like, it's caffeinated. And of course, the cup of Joe, you know, fills up when it's on. And you click it off - it just on/off toggle. And that's what you're referring to with Caffeine.
 
-**Adam Stacoviak:** \[00:16:21.07\] Right.
+**Adam Stacoviak:** \[16:21\] Right.
 
 **Jerod Santo:** Caffeinate is a command line utility. This is a built-in, which does the same thing. And so there you go. Caffeinate, if you just want to make sure your screen doesn't turn off for a while. Maybe you're giving a presentation, maybe you're -- I don't know what you're up to. But if you're up to something, type Caffeinate. That's a cool one. I did not know about that one either. Did you know about Network Quality?
 
@@ -358,7 +358,7 @@ But what's the name of camel case when the first letter is not cameled? There's 
 
 **Adam Stacoviak:** Do you have Wi-Fi as well, when you have wired in? When you are wired, I should say. Do you also run Wi-Fi?
 
-**Jerod Santo:** \[00:20:05.02\] Hard to answer, because I'm pretty much never wired in. When I do, I'll turn my Wi-Fi off, because I just want to make sure that sucker's using the wire.
+**Jerod Santo:** \[20:05\] Hard to answer, because I'm pretty much never wired in. When I do, I'll turn my Wi-Fi off, because I just want to make sure that sucker's using the wire.
 
 **Adam Stacoviak:** Okay, let me run this test one more time then.
 
@@ -386,7 +386,7 @@ Alright, so shout-out to Wei Yan and these useful built-in utilities post. Links
 
 **Adam Stacoviak:** What is next on the list? I kind of want to talk about this slow death of a hyperlink. I feel like this is an attack on the Internet... It's been happening for a while. It's not that big of a topic, but it's intriguing to me. The fact that - you know, Instagram has done this for a while, where you can't link out to something. It's like "Hey, we're not going to allow the links to live", and that's not cool.
 
-**Jerod Santo:** \[00:23:54.02\] Yeah. Well, Instagram was born that way. So at least they're consistent, where they even from day one... Like, "link in bio" is very much an Instagram statement, because that's the only place you are allowed to put a link. So at least they're consistently anti web... Whereas now we're getting a lot of previously pro web websites that are wanting you to stay in their silo.
+**Jerod Santo:** \[23:54\] Yeah. Well, Instagram was born that way. So at least they're consistent, where they even from day one... Like, "link in bio" is very much an Instagram statement, because that's the only place you are allowed to put a link. So at least they're consistently anti web... Whereas now we're getting a lot of previously pro web websites that are wanting you to stay in their silo.
 
 I think this article that we covered in Changelog News was coming from a journalism-focused perspective, but it was speaking specifically about LinkedIn, X, whose algorithm was open source at some point, and you can clearly see that if you put a link into a post on X, that it will deprioritize that in the algorithm. And how the same thing is going on at LinkedIn, it seems like increasingly so. Facebook as well has turned their tide away from outbound links, and deprioritizing posts that include them.
 
@@ -442,7 +442,7 @@ Now, what can we do? I think we build things that don't do that. Just to be corn
 
 **Jerod Santo:** Anyways, and the whale doesn't even know we're here. They're like "Ah, I didn't realize I had barnacles."
 
-**Adam Stacoviak:** \[00:28:13.11\] Oh, my gosh... What are you doing here, barnacle? I would say, to close this loop though, we experienced this personally, directly...
+**Adam Stacoviak:** \[28:13\] Oh, my gosh... What are you doing here, barnacle? I would say, to close this loop though, we experienced this personally, directly...
 
 **Jerod Santo:** For sure.
 
@@ -456,7 +456,7 @@ Now, what can we do? I think we build things that don't do that. Just to be corn
 
 **Adam Stacoviak:** While you're here, y'all, go to changelog.com, and there you go.
 
-**Break**: \[00:29:23.08\]
+**Break**: \[29:23\]
 
 **Jerod Santo:** Alright, next up - "The GitHub plugin my co-workers asked me not to write." The GitHub plugin. \[unintelligible 00:34:46.06\] wrote a GitHub plugin to calculate the bus factor or truck factor on GitHub repositories. Of course, we all know what a bus factor is. This is the minimum number of team members you can have on a project who can disappear before the thing becomes not driven anymore. It stalls out, or it fails, or it dies. And so the worst bus factor you could possibly have is one, and the best bus factor you could possibly have is infinity, I guess. I don't know. One is bad. More than one is generally better.
 
@@ -472,7 +472,7 @@ Currently, Shea found a Truck Factor of 12. 12 people on the Linux kernel, down 
 
 I'm not sure why there's a discrepancy between the two. This is a developer's blog post that I'm mining for this information. But yeah, so we have now this tool. I assume you can go take it and run it against other repositories. I would think, depending on the repository, it may or may not be accurate. Because if you have -- probably the smaller the project, the harder it is to know that number for sure. But maybe you can know that number just by looking at the list of contributors in that case. But for large projects with thousands of contributors, you can actually understand how many of these are key in order to keep that sucker running. And it turns out, over time, it appears the Linux Kernel in particular has been going down, down, down. What are your thoughts on this, Adam?
 
-**Adam Stacoviak:** \[00:38:10.10\] I'm looking at different angles... I also went to M. Clare's blog. She has a parallel - to use a pun - I'll bring up in a second. Not relevant in the moment, but it will be relevant here in just a second, I promise...
+**Adam Stacoviak:** \[38:10\] I'm looking at different angles... I also went to M. Clare's blog. She has a parallel - to use a pun - I'll bring up in a second. Not relevant in the moment, but it will be relevant here in just a second, I promise...
 
 **Jerod Santo:** Stay tuned.
 
@@ -510,7 +510,7 @@ And so she mentioned when cloning the repos that it was very resource intensive 
 
 **Jerod Santo:** That's cool. That is the coolest part for me. It reminds me of Abi Noda's subsection of our show with him, where he talked about measuring developer productivity... And I mentioned how hard it is to actually compare it with technical data, because you have quantitative measures, with money, and it's just easy... And I kind of get fatalistic, I guess, with certain things that are hard to measure. I'm just like "Ah, we can't measure that. Let's move on." I think it's cool that people take the time and the effort, and do the research, and the novel ideas, and figuring out how to actually measure something... Which seems immeasurable, but really that just means it's not easy to measure. And so that doesn't mean it's actually immeasurable, but most of the time you have to measure something that's proximate to it in order to find this measure.
 
-\[00:41:56.15\] So I think it's just cool. I didn't think about ever being able to quantify bus factor in terms of it being proven out, like "This project has a bus factor of X. And we know that's true-ish, because we've done this novel approach."
+\[41:56\] So I think it's just cool. I didn't think about ever being able to quantify bus factor in terms of it being proven out, like "This project has a bus factor of X. And we know that's true-ish, because we've done this novel approach."
 
 **Adam Stacoviak:** I think what it does let you do though, in terms -- let's forget the list of people you can fire aspect of this, and think of it more in terms of "How in trouble is your project?" How many open source projects out there could leverage this to its better advantage, its greater advantage? Because in the intro of the paper it says "A systems truck factor, tf, is defined", as you said before, Jerod, "as the number of people on your team that have to be hit by a truck or quit before the project is in serious trouble." And that is not a good thing for the project, obviously.
 
@@ -550,7 +550,7 @@ So if you have people who quit because of just natural attrition, maybe you've g
 
 **Jerod Santo:** The TCL mob. So that's a competing language, right? TCL. So they're making up this hypothetical in which people from the TCL language community, the mob, somehow came and killed Guido van Rossum. That's kind of funny, but also even more morbid... Surmising there'd be some sort of like inner language rivalry so harsh that they would execute a man.
 
-**Adam Stacoviak:** \[00:46:25.04\] Wow...
+**Adam Stacoviak:** \[46:25\] Wow...
 
 **Jerod Santo:** Who wrote this paper...?
 
@@ -618,7 +618,7 @@ It was a very -- yeah, we're in the weeds here on this, but my thoughts on it - 
 
 **Adam Stacoviak:** Now that I think about it, Knives Out -- they both had great cast though, but I think Knives Out had a more classically good cast. Like, it had a lot of actors that are not in their 20s or 30s. Like, 40s, 50s, 60s kind of actors and actresses.
 
-**Jerod Santo:** \[00:49:42.06\] Yeah. So to close the loop on Elon Musk, I was right that everybody compared it to Elon Musk, people, especially because that came out right around the time that he bought Twitter. And there are dozens of articles comparing it, calling it a veiled dig at Elon Musk, because of the eccentric billionaire who is a major part of the story. However, Ryan Johnson says that that comparison was accidental, and merely coincident. He was not thinking about Elon Musk when he wrote it...But you be the judge, I suppose.
+**Jerod Santo:** \[49:42\] Yeah. So to close the loop on Elon Musk, I was right that everybody compared it to Elon Musk, people, especially because that came out right around the time that he bought Twitter. And there are dozens of articles comparing it, calling it a veiled dig at Elon Musk, because of the eccentric billionaire who is a major part of the story. However, Ryan Johnson says that that comparison was accidental, and merely coincident. He was not thinking about Elon Musk when he wrote it...But you be the judge, I suppose.
 
 **Adam Stacoviak:** Well, social media was involved, right? And putting someone on -- well, I guess it was YouTube, or a version of YouTube. I can't recall if it was like literally YouTube or not. But social media for sure.
 
@@ -662,9 +662,9 @@ It was a very -- yeah, we're in the weeds here on this, but my thoughts on it - 
 
 **Adam Stacoviak:** Yeah. It might as well be abandoned. There's nothing new here, and a new thing, so what's the point of the new...?
 
-**Jerod Santo:** \[00:53:37.07\] Yes. So that's the story. And the reason was because they did not think they could take Arc to mass adoption, to the masses. And their goal is to make a browser for the masses. I'm somewhat reminded of Ryan Dahl with Deno, because I had Ryan Dahl on the show, I don't know, a couple months ago, around the Deno 2 launch. And we talked about how he's very much had to be pragmatic with his choices with Deno... Whereas when he started it, as the big rewrite, the second effort, after having made all these regrets with Node.js, he was going to do things differently, and better, and he took a very pure approach at first to Deno, in order to eschew backwards compat, and to leave Node.js behind. But he said he wasn't happy building a runtime for a small group of people. He wanted to build something for the masses, and he realizes that he will not get mass adoption unless he goes back on some of those ideals and compromises.
+**Jerod Santo:** \[53:37\] Yes. So that's the story. And the reason was because they did not think they could take Arc to mass adoption, to the masses. And their goal is to make a browser for the masses. I'm somewhat reminded of Ryan Dahl with Deno, because I had Ryan Dahl on the show, I don't know, a couple months ago, around the Deno 2 launch. And we talked about how he's very much had to be pragmatic with his choices with Deno... Whereas when he started it, as the big rewrite, the second effort, after having made all these regrets with Node.js, he was going to do things differently, and better, and he took a very pure approach at first to Deno, in order to eschew backwards compat, and to leave Node.js behind. But he said he wasn't happy building a runtime for a small group of people. He wanted to build something for the masses, and he realizes that he will not get mass adoption unless he goes back on some of those ideals and compromises.
 
-Point in case is the eventual adoption of the Npm ecosystem, and all the work they had to do inside Deno in order to make Npm support happen. Ryan was very torn about that. He did not want to do it, but he just had to, he felt like, in order to meet people where they are and to build software for everybody. And that's kind of what Arc is trying to do, right? They're trying to create a browser for everybody, and they just feel like the current one they built was too power user-focused, it was too esoteric, and too many knobs and switches and things you had to relearn... I was somewhat turned off because of how different it was for me. And they're "It's never going to get there."
+Point in case is the eventual adoption of the npm ecosystem, and all the work they had to do inside Deno in order to make npm support happen. Ryan was very torn about that. He did not want to do it, but he just had to, he felt like, in order to meet people where they are and to build software for everybody. And that's kind of what Arc is trying to do, right? They're trying to create a browser for everybody, and they just feel like the current one they built was too power user-focused, it was too esoteric, and too many knobs and switches and things you had to relearn... I was somewhat turned off because of how different it was for me. And they're "It's never going to get there."
 
 Now, Ryan's taking Deno and changing it, and he thinks it can get there. And time will tell... But with Arc, they're just like "Nah, this browser is never going to get there. We're going to start with a new one", which is totally cool. They can go ahead and do that. I'm just not going to try it. I'm out. There's enough browsers out there. I don't need to use one by somebody who's going to rug pull me again.
 
@@ -682,13 +682,13 @@ That seems kind of niche, but I like the idea, I suppose, of more smarts in the 
 
 **Jerod Santo:** You aspire to be a power user.
 
-**Adam Stacoviak:** \[00:57:48.05\] I'm an aspiring power user... And I really tried Arc, in earnest, several times, and I was just like "I just can't get used to this experience." I liked other aspects about it... But to my point though, and to their point, is I like the idea of something that builds on top of, where the browser is more of a platform, in terms of on top of the web. I like the idea of like automating some things, but how does that actually translate? I don't know. We'll see.
+**Adam Stacoviak:** \[57:48\] I'm an aspiring power user... And I really tried Arc, in earnest, several times, and I was just like "I just can't get used to this experience." I liked other aspects about it... But to my point though, and to their point, is I like the idea of something that builds on top of, where the browser is more of a platform, in terms of on top of the web. I like the idea of like automating some things, but how does that actually translate? I don't know. We'll see.
 
 So Josh Miller is the CEO of the Browser Company. And I've DM'd, I believe, on Twitter/X, and I'm sure that we emailed trying to coordinate. So Josh, if you're listening to this, or somebody who knows you - let this be an open invite to dig in. Let's talk about it. Let's go deep on what happened with Arc, what lessons did you learn, how are you reformulating your idea and plan... Because it is a 2025 plan. It's early 2025. So this is not Ladybird's 2026 beta. This is -- it says "The new browser is expected to launch at the beginning of next year, but it's not set in stone, and may be pushed further into 2025." But their plan is soon, and they've been working on this other thing in parallel. So... Come on here, Josh. Let's talk.
 
 **Jerod Santo:** Yeah, 100%.
 
-**Break**: \[00:59:09.25\]
+**Break**: \[59:09\]
 
 **Adam Stacoviak:** Are you on, officially, Blue Sky?
 
