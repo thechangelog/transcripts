@@ -56,7 +56,7 @@ If this is attractive to you, now is a good time to star the repo for later or h
 
 April King opens this deep-dive with an all-too-familiar phrase...
 
-> I had been more than content to ignore the vagaries of how cookies function until the end of time, except that one day I stumbled across this innocuous piece of Javascript
+> I had been more than content to ignore the vagaries of how cookies function until the end of time, except that one day I stumbled across this innocuous piece of JavaScript
 
 You probably want the meat of her post, too, but I'll jump to the end for the *why this matters* part:
 
