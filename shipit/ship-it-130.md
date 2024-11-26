@@ -76,7 +76,7 @@
 
 **Justin Garrison:** You're over there with like a blow dryer, trying to melt it into some sort of like figure... Anyway, sorry. That's not what we're here to talk. Preston Doster is on the call. You are an infrastructure architect at Twilio, which is not at all what we want to talk about.
 
-**Preston Doster:** \[00:08:02.29\] No, not today.
+**Preston Doster:** \[08:02\] No, not today.
 
 **Autumn Nash:** I have questions, though. What does Twilio do?
 
@@ -140,7 +140,7 @@ And so I was always like "Oh, I want RCS." Like, I just want like straight -- no
 
 **Preston Doster:** But yeah, Kris had started Hachyderm literally running it out of her basement. There was an old Dell PowerEdge named Alice that got us through like the first days of Hachyderm. And then we realized with that really big wave from Twitter I think we went from something like 500 people to - I think we had a peak of like thirty six thousand over the course of like a handful of weeks. So you know, ridiculous growth. Which kind of prompted us to say "Hey, we've actually got to get out of the basement and build some proper infrastructure." So like I said, I crossed paths with Kris, and she was like "Hey, do you want to come help out?" And the rest is kind of history.
 
-\[00:11:53.00\] So it's been fun writing the growth waves, especially using purely open source software, purely decentralized software like Mastodon is... And yeah, just really learning it, and how it scales, and building our infra and tuning it to serve the folks that are on it today.
+\[11:53\] So it's been fun writing the growth waves, especially using purely open source software, purely decentralized software like Mastodon is... And yeah, just really learning it, and how it scales, and building our infra and tuning it to serve the folks that are on it today.
 
 **Autumn Nash:** She was so cool, watching her do like the different -- she would do kind of like... I don't know if it would be an AMA, but she would talk about the different infrastructure and how she was building it, and all that. That was the coolest part about Mastodon; just the different ways that she would be so open and talk about the different servers that she was using, and... She would talk about how she's going to like do maintenance, or... You know, all that cool stuff. And it was really cool that she would --
 
@@ -164,7 +164,7 @@ So lots of Sidekiq. So a good amount of our time and energy, and some of the ser
 
 **Justin Garrison:** And I think that, at least from my understanding, that's like the core differences to me between something like Mastodon and something like Blue Sky, where all of the heavylifting of how the world is interacting is on individual Mastodon instances, where every single one of them... I like a post, I send an update, I do something - that needs to go tell all of my anyone I follow on different servers, and then I need to hear from all of those other people on all the different servers. So like on a single server, it seems like it's pretty constrained. Like, if everyone only followed people on Hachyderm, you're probably fine. Like, you're not doing a lot of network traffic... I can do internal processes, and do that stuff. But once you start having dozens of other servers, or lots of people following other people on other instances, that seems to cause a lot of extra stress on your instance.
 
-**Preston Doster:** \[00:16:03.19\] Absolutely. Yeah. Yeah. Yeah. Federations work is fun, because - yeah, as you can imagine, as that social graph grows, you've got to interact with increasingly more and more and points around the world. We've got some folks who have some really large followings, and what's fun is sometimes that causes spikes. You can go look at Grafana, you can go look at our \[unintelligible 00:16:26.05\] and see where certain events are happening just because there's so much of that kind of chat and back and forth happening.
+**Preston Doster:** \[16:03\] Absolutely. Yeah. Yeah. Yeah. Federations work is fun, because - yeah, as you can imagine, as that social graph grows, you've got to interact with increasingly more and more and points around the world. We've got some folks who have some really large followings, and what's fun is sometimes that causes spikes. You can go look at Grafana, you can go look at our \[unintelligible 00:16:26.05\] and see where certain events are happening just because there's so much of that kind of chat and back and forth happening.
 
 **Justin Garrison:** I remember a long time ago Twitter had -- they said they had a whole dedicated server rack for Justin Bieber.
 
@@ -204,7 +204,7 @@ So lots of Sidekiq. So a good amount of our time and energy, and some of the ser
 
 **Preston Doster:** So actually, when we did the move from Alice, from the basement, into kind of our current architecture, we implemented it then. And actually, a big part of it was a lot of the traffic involved Mastodon is media files. So images, movies, audio, whatever. And the stress that it put on just like the core server, even with caching, to provide that better experience... We were like "Okay, we've got to do CDN. We have to have something that's closer to our folks." And it's distributing that cash to take the load off the core server. So that was already in the architecture there.
 
-**Justin Garrison:** \[00:19:52.19\] If I remember correctly, when it was on Alice, the limiting -- there was NFS for that storage, right?
+**Justin Garrison:** \[19:52\] If I remember correctly, when it was on Alice, the limiting -- there was NFS for that storage, right?
 
 **Preston Doster:** Oh, yes. Yeah.
 
@@ -264,7 +264,7 @@ So lots of Sidekiq. So a good amount of our time and energy, and some of the ser
 
 **Preston Doster:** Exactly. So there's effectively one application that we're hosting. We said "Hey, we're going to go multi-cloud, so in the event that we have an issue with one of them, we can easily flip that piece that's being hosted there elsewhere.
 
-**Break**: \[00:24:12.26\]
+**Break**: \[24:12\]
 
 **Justin Garrison:** How big is the team that manages Hachyderm?
 
@@ -306,7 +306,7 @@ And yeah, maybe an upgrade takes -- again, without a database migration, maybe a
 
 **Preston Doster:** We actually don't. So the way that we've got it set up right now is we've got Uptime Robot that will kind of do our synthetic checks to our public-facing properties. That will alert into Discord. We've got folks kind of around the world, and we've got an infra channel. If somebody sees something, they will go do something. So nothing as fancy as actually getting paged.
 
-**Justin Garrison:** \[00:32:13.23\] I'm on the infrastructure team for Southern California Linux Expo, and we have a Slack channel that has a Pager -- not PagerDuty. Data Dog that's like "Hey, guess what? The site's down." Someone's like "Oh, I'm on. I'll check it."
+**Justin Garrison:** \[32:13\] I'm on the infrastructure team for Southern California Linux Expo, and we have a Slack channel that has a Pager -- not PagerDuty. Data Dog that's like "Hey, guess what? The site's down." Someone's like "Oh, I'm on. I'll check it."
 
 **Preston Doster:** Yeah, absolutely. And then, to kind of continue the observability stack again, another mini project coming up here in a second... So we've got Grafana. There's a public side of Grafana. So if you actually want to look at our public dashboards, you can just go to grafana.hachyderm.io. You can see the public dashboard that kind of has like the key vitals. Not quite at the level of like SLO, more like an SLI. We're looking at very specific health attributes of the different services that we provide.
 
@@ -340,7 +340,7 @@ Again, less from like a scaling perspective, because Postgres does a freaking aw
 
 **Autumn Nash:** How many backups do you have currently?
 
-**Preston Doster:** \[00:36:07.05\] So right now we do a weekly full backup. I think we're keeping those for -- I'll have to go double-check how long we're keeping the full backup for three weeks at a time, 21 days. And then we do a daily incremental diff. So we're actually in a pretty good position from a backup perspective.
+**Preston Doster:** \[36:07\] So right now we do a weekly full backup. I think we're keeping those for -- I'll have to go double-check how long we're keeping the full backup for three weeks at a time, 21 days. And then we do a daily incremental diff. So we're actually in a pretty good position from a backup perspective.
 
 **Autumn Nash:** That is actually really good, especially for how small your team is and the money you're spending per month.
 
@@ -388,7 +388,7 @@ Again, less from like a scaling perspective, because Postgres does a freaking aw
 
 **Justin Garrison:** Yeah. You mentioned Hazel, and we're going to have her on the show in a couple of weeks... But she and I were talking about just like the progression of database infrastructure, and I thought one of the most fascinating things was when it was running off of Alice, one of the things that Kris kept getting calls from her ISP... Like, you're doing a lot of traffic. You need to get you need to get a business plan, right? So that was part of the motivator of like "We actually -- we can't run this big social network from someone's house."
 
-**Preston Doster:** \[00:40:08.18\] Yeah, exactly. That was a big part of it. Transferring it to like a foundation -- again, \[unintelligible 00:40:12.03\] basement was a big part of it as well... And then also starting to even think about things like data residency, and just thinking about the different legal jurisdictions that we operate in, where we have folks who have data... And it was like "Okay, hey, we're going to move to the EU very specifically, as a very specific choice, and Germany as a very specific choice", because of the protections offered there, and the strength of those laws.
+**Preston Doster:** \[40:08\] Yeah, exactly. That was a big part of it. Transferring it to like a foundation -- again, \[unintelligible 00:40:12.03\] basement was a big part of it as well... And then also starting to even think about things like data residency, and just thinking about the different legal jurisdictions that we operate in, where we have folks who have data... And it was like "Okay, hey, we're going to move to the EU very specifically, as a very specific choice, and Germany as a very specific choice", because of the protections offered there, and the strength of those laws.
 
 **Autumn Nash:** I remember she posted a picture of Alice in her basement, and it was so cool... You almost forget how much servers do for social media, because just everything lives in your phone and in the cloud, and to see a physical server and everybody like being connected on it... It was so cool.
 
@@ -438,7 +438,7 @@ Which is super-cool from like an approachability, a low barrier to entry perspec
 
 **Autumn Nash:** Sometimes it is, when it's on social media...
 
-**Preston Doster:** \[00:43:45.29\] But it could be. People could put interesting PII out there. But it's information that is very personal to the people who are posting it. Again, the intent was for us to be in a place where we could feel safe that maybe the prevailing government or whatever wouldn't show up and be like "Yo, Hachyderm, you're hosting this type of content. We're going to shut you down."
+**Preston Doster:** \[43:45\] But it could be. People could put interesting PII out there. But it's information that is very personal to the people who are posting it. Again, the intent was for us to be in a place where we could feel safe that maybe the prevailing government or whatever wouldn't show up and be like "Yo, Hachyderm, you're hosting this type of content. We're going to shut you down."
 
 **Justin Garrison:** Mastodon instances have gone down for that. That's not even like a theoretical "Oh, no, this maybe is happening." It was fascinated talking to Hazel about it. One of the reasons that it's under Nivenly as a foundation is to protect the people that are doing the work. Because it's like "Oh, you're the web admin on this thing? You're coming to court."
 
@@ -456,7 +456,7 @@ Which is super-cool from like an approachability, a low barrier to entry perspec
 
 **Preston Doster:** Yeah, absolutely. I mean the intent was -- it started in Kris's basement. The intent is for this to be a thing that's around for a really long time. And again, that's where the technical architecture, the legal architecture, even though we're not lawyers... We spent that energy putting all that thought in there because we wanted to be around, in five, ten, however many years.
 
-**Break**: \[00:46:07.02\]
+**Break**: \[46:07\]
 
 **Justin Garrison:** How do you go about -- because Mastodon also caches from other servers. Like, I follow something from another server, and then I'm just going to get random content from that other server, even if I'm not following the person. And again, it's not even just your users. Like, your users, you could kick out. Like, someone keeps posting something that's illegal, you're like "Actually, you can't do that here. Go somewhere else", and you can just ban them, basically. But other people posting things on other servers - you can't ban the person over there. Is the only recourse to block all access to that other server?
 
@@ -474,7 +474,7 @@ And honestly, as much as we're talking about the infra here, to me the real magi
 
 **Preston Doster:** Yeah, totally. So I think this is a big evolution point for Mastodon, and potentially the Fediverse as a whole, is actually figuring that out. So there are a number of services or organizations that do provide things like that, where you can say "Okay, I want to subscribe into a defederation list." And again, this is actually a really big, active debate that's going on in the community right now, is "Should they be allow lists? Should they be deny lists that you're subscribing to? How do the subscriptions work, both on a technical or a social level?"
 
-\[00:51:49.19\] So yes, you can... And again, depending on how your moderators like to run your servers, some people do, some people don't. And right now it's not something that's built into the core -- subscribing to a defederation list is something that's built into Mastodon core right now.
+\[51:49\] So yes, you can... And again, depending on how your moderators like to run your servers, some people do, some people don't. And right now it's not something that's built into the core -- subscribing to a defederation list is something that's built into Mastodon core right now.
 
 **Justin Garrison:** Not ActivityPub.
 
@@ -514,7 +514,7 @@ And honestly, as much as we're talking about the infra here, to me the real magi
 
 **Preston Doster:** Yeah. So depending on the scope that you're looking at... So normally, when you log into the Mastodon you, you're seeing your feed. It's like "Okay, who are the people and hashtags that I'm looking to, or I'm listening to, or I'm watching?" You can actually change scopes to look at "What is happening in the Fediverse?" for all the things that your servers relay to. So in that case, they could push a post. They could have a user, quote-unquote user, that could push a post, that's an ad. It happens to come from threads.net. And it shows up in kind of that global Fediverse view. So that could be one way.
 
-**Justin Garrison:** \[00:56:13.29\] You just have to trust them at that point too, because they could say "This post has a million likes", and you have no way to verify or do anything around "Oh, yeah, obviously, that's the most popular thing in the world right now. We should show it to more people."
+**Justin Garrison:** \[56:13\] You just have to trust them at that point too, because they could say "This post has a million likes", and you have no way to verify or do anything around "Oh, yeah, obviously, that's the most popular thing in the world right now. We should show it to more people."
 
 **Preston Doster:** Yeah. And with the way that Mastodon works right now, there is no algorithm, in the sense that things aren't weighted... There are things like trending hashtags that might show, but in terms of like your feed and your posts, it's linear. It's like first in, first out. But yeah, if they say it has a billion likes, that's what the ActivityPub message said, so it must. Right?
 
