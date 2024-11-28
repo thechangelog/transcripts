@@ -16,7 +16,7 @@ Number four, coming from that exact same episode, Chris James - not to be confus
 
 **Chris James:** So imagine you start a new project with a half a dozen developers, and the first thing you do is you write 10 Go interfaces describing the lumps of code that you think you're going to need to solve this problem. And then you divide them up between everyone, and say, "Go implement those interfaces, and we'll stick everything together in a few weeks time." You'd probably rightly question my judgment with this approach, because surely this is premature abstraction. How do I know that the design is correct? How do we know these interfaces are what we need? And is it not risky for us to work so independently at first? Are we not going to integration hell? And yet, there are loads of teams out there who will start a project with microservices. And that is just like what I've just described, but it's even worse, because there's a distributed system on top of all of these assumptions that you're making.
 
-\[00:07:48.27\] So whatever mistakes you've made in your design are so much harder to fix than if it was just in a single codebase. And my unpopular opinion - maybe it's not unpopular, I don't know, but I believe in the vast majority of cases rather than starting a project by drawing on a whiteboard 100 microservices, just start with a monolith. Start with like one codebase. Because if you make mistakes in your assumptions, it's so much easier to fix within a single codebase than if you've just scattered it into a million services. And if you can write a good monolith, then you'll be able to break it out into separate distributed services when you actually need to distribute this work.
+\[07:48\] So whatever mistakes you've made in your design are so much harder to fix than if it was just in a single codebase. And my unpopular opinion - maybe it's not unpopular, I don't know, but I believe in the vast majority of cases rather than starting a project by drawing on a whiteboard 100 microservices, just start with a monolith. Start with like one codebase. Because if you make mistakes in your assumptions, it's so much easier to fix within a single codebase than if you've just scattered it into a million services. And if you can write a good monolith, then you'll be able to break it out into separate distributed services when you actually need to distribute this work.
 
 And I guess my second unpopular opinion on top of it, which is kind of the same, is if you can't write a good monolith, you're going to write a dreadful microservices architecture.
 
@@ -62,7 +62,7 @@ Let's move now to the number three most popular unpopular opinion, which is that
 
 Let's move now to number two and number one. Yes, we had a two-way tie for first place, which is really last place. Isn't it? Both Ole Bulbuk and Johnny Boursiquot managed to score perfect one hundreds on agreement to their allegedly unpopular opinions. We'll give Johnny number one honors, because his poll received more votes. So here's number two. On Go Time 264, "Long-term code maintenance", Ole Bulbuk boldly declared that he believes more than 90% of business software is legacy software.
 
-**Ole Bulbuk:** \[00:12:23.27\] I would estimate that in business software at least, more than 90% is legacy, and there is almost no greenfield.
+**Ole Bulbuk:** \[12:23\] I would estimate that in business software at least, more than 90% is legacy, and there is almost no greenfield.
 
 **Natalie Pistunovich:** So your unpopular opinion is that this greenfield is not a thing, almost ever.
 
@@ -90,7 +90,7 @@ Let's move now to number two and number one. Yes, we had a two-way tie for first
 
 **Angelica Hill:** Oh, my gosh... I would say, on the workshop topic, in my order - and I have ranked all the moments at GopherCon in order... I obviously had Kaylyn and me lightning talks, RainGo Alliance... My second-best moment was walking into Johnny's workshop... Because it was packed, everyone was so engaged... I saw smiles, I saw interaction between individuals...
 
-\[00:15:59.29\] Sometimes you walk into a workshop - no, I'm not referencing anyone specific, before you start grilling me - and it's a little bit dry, it's a little bit... Like, the atmosphere is not there. It doesn't feel like it's an exciting environment of learning. Whereas in Johnny's workshop, I walked in, and - Johnny's amazing, always going to be amazing... But like, the number of people in combination with Johnny's ability to really bring everyone along for the ride and make everyone in the room feel included, feel supported, is a skill that just needs to be upped in a public forum like a podcast.
+\[15:59\] Sometimes you walk into a workshop - no, I'm not referencing anyone specific, before you start grilling me - and it's a little bit dry, it's a little bit... Like, the atmosphere is not there. It doesn't feel like it's an exciting environment of learning. Whereas in Johnny's workshop, I walked in, and - Johnny's amazing, always going to be amazing... But like, the number of people in combination with Johnny's ability to really bring everyone along for the ride and make everyone in the room feel included, feel supported, is a skill that just needs to be upped in a public forum like a podcast.
 
 So if you ever have a chance to go to one of Johnny's workshops, please jump at that opportunity. I've said this about seven times, and I feel like I'm gonna say it every time I have the opportunity - the reason I am in Go is because I went to a workshop that Johnny was running. That is THE primary reason, and the only reason that I was like "Oh, this Go thing, I love it." So Johnny, you can thank \[unintelligible 01:04:30.07\] that was the reason I am in the Go community. So...
 
@@ -100,11 +100,11 @@ So if you ever have a chance to go to one of Johnny's workshops, please jump at 
 
 **Johnny Boursiquot:** My job is done. My job is done.
 
-**Break:** \[00:17:03.02\]
+**Break:** \[17:03\]
 
 **Jerod Santo:** Okay, now to the good stuff. But first, play that funky jingle, Mat boy.
 
-**Jingle:** \[00:19:26.25\]
+**Jingle:** \[19:26\]
 
 **Jerod Santo:** Here's your top five actually unpopular opinion makers of 2023, starting with number five. It's Natalie Pistunovich, with an interesting take on the usefulness of kitchens.
 
@@ -164,7 +164,7 @@ Okay. Next up, number four is Ian Lopshire saying "Sorry, Chrome and Firefox." H
 
 We move now to number three... This one was unpopular with 89 percent of respondents.
 
-**Andy Walker:** \[00:24:11.18\] "Syntax highlighting sucks, and we shouldn't use it." That's my unpopular opinion. Now, I will be much more clear than that. I will say that I don't believe that you should have no kind of like indication of things. I mean, if I share, does it come up in the recording? Oh, no, okay. I won't do that. Maybe we can post a picture of it, like what I do... I have just basically black and white, and some bold and some metallics here and there. But for the most part, none. So yeah. And I feel like it has made me -- I think maybe I read some like wonky think piece on it about six or seven years ago, and then I just gave it a try... And I actually do think it has made me a better programmer.
+**Andy Walker:** \[24:11\] "Syntax highlighting sucks, and we shouldn't use it." That's my unpopular opinion. Now, I will be much more clear than that. I will say that I don't believe that you should have no kind of like indication of things. I mean, if I share, does it come up in the recording? Oh, no, okay. I won't do that. Maybe we can post a picture of it, like what I do... I have just basically black and white, and some bold and some metallics here and there. But for the most part, none. So yeah. And I feel like it has made me -- I think maybe I read some like wonky think piece on it about six or seven years ago, and then I just gave it a try... And I actually do think it has made me a better programmer.
 
 **Jerod Santo:** That was Andy Walker on episode 276, "Hallway conf, a new style of conference." Yeah, that is a legitimately unpopular opinion, and I can't even understand why you'd hold it, let alone tell other people you do. Good on you, Andy.
 
@@ -192,7 +192,7 @@ Okay, without further ado, here is your number one most unpopular opinion shared
 
 **Kaylyn Gibilterra:** Don't @ me. But I would probably -- I would discuss it.
 
-**Kris Brandow:** \[00:27:57.25\] Spicy. I guess it depends on which TikTok you're on...
+**Kris Brandow:** \[27:57\] Spicy. I guess it depends on which TikTok you're on...
 
 **Kaylyn Gibilterra:** Yes, it does...
 
@@ -204,7 +204,7 @@ Okay, without further ado, here is your number one most unpopular opinion shared
 
 **Adam Stacoviak:** You've won a lifetime of yogurt. That's right, we'll fill your fridge with every type of creamy yogurt for years to come, ensuring you never run out of your favorite snack. \[unintelligible 00:28:40.14\] or restricted by law. No cash value. Taxes and delivery fees may apply. Not an actual prize.
 
-**Break:** \[00:28:48.19\]
+**Break:** \[28:48\]
 
 **Jerod Santo:** Since I have you here and since I spent way too much time reviewing way too many opinions from what feels like forever ago, here's a few bonus opinions for you. These weren't necessarily popular or unpopular. They are just ones I enjoyed stumbling across as I went through them all.
 
