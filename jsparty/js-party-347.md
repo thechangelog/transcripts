@@ -48,7 +48,7 @@ Now, I think some of these are good for pretty much any application, and I think
 
 **Jerod Santo:** Oh, okay. Cool.
 
-**Matteo Collina:** \[00:08:04.08\] Some of them are -- so there's a thing to say. Some of them are -- like, the principle might be generic, but a lot of the content within the section is Node-specific. So while the principle might be generic, the content in there has Node-specific examples on how to implement that principle in Node.js. So they were worth mentioning anyhow.
+**Matteo Collina:** \[08:04\] Some of them are -- so there's a thing to say. Some of them are -- like, the principle might be generic, but a lot of the content within the section is Node-specific. So while the principle might be generic, the content in there has Node-specific examples on how to implement that principle in Node.js. So they were worth mentioning anyhow.
 
 **Jerod Santo:** So let's start with the ones that I think are the most generic, and we can dive into all the noding details. And those are the ones like "Avoid dependency creep." This is number five, for you all. And certainly that to me is like a universal thing for all software development. Avoid dependency creep. Say more, Natalia. Do you agree? Do you disagree? What do you think about this particular pillar of Node.js apps?
 
@@ -58,7 +58,7 @@ Yeah, and that's something that we need to keep under control. And that's what w
 
 **Jerod Santo:** Yeah. And I've spoken with hundreds and thousands of devs, and we all kind of agree on this. And yet we all find ourselves still with unwieldy dependencies. So Matteo, maybe the question becomes, like, how? Like, we agree that we should, but how do you actually decide how do you do that?
 
-**Matteo Collina:** That is true. There is a very important thing to say... The JavaScript community and Npm have solved a problem that plagued the industry for decades. "How to reuse software at scale?" And this is -- but whenever there is a big problem to solve, you need to say "Okay, be careful what you wish for." And now we have Node modules full of modules that maybe we use, maybe we don't, maybe we can get without. And there are a few things to say... A lot of the time, some of the modules might not be necessary anymore, because we have been adding APIs to Node.js Core for a long time. And also, the web has been adding APIs itself. And therefore, let me make a very clear example.
+**Matteo Collina:** That is true. There is a very important thing to say... The JavaScript community and npm have solved a problem that plagued the industry for decades. "How to reuse software at scale?" And this is -- but whenever there is a big problem to solve, you need to say "Okay, be careful what you wish for." And now we have Node modules full of modules that maybe we use, maybe we don't, maybe we can get without. And there are a few things to say... A lot of the time, some of the modules might not be necessary anymore, because we have been adding APIs to Node.js Core for a long time. And also, the web has been adding APIs itself. And therefore, let me make a very clear example.
 
 Fetch is a fantastic spec, is a fantastic API. Everybody loves Fetch. But whenever I open an enterprise codebase, most of the time I see Axios. I'm pointing at an example -- and I love Axios. I like Axios. I'm just saying.
 
@@ -70,11 +70,11 @@ Fetch is a fantastic spec, is a fantastic API. Everybody loves Fetch. But whenev
 
 **Matteo Collina:** And it's been deprecated for five years. Five years this thing's been deprecated, and it's still being downloaded 17 million times per week. This is the problem, that you need to keep those APIs condensed, and try to reuse them. But being smart in what you \[unintelligible 00:12:02.08\] what you do today, versus what you do in two years. Things change, and you need to keep your codebase liquid in that sense. You can't put things in stone. And a lot of teams put things in stone, and say "This is our kit, and we decided it three years ago." But you don't need this anymore, "We decided it three years ago, and the staff engineer said so."
 
-**Jerod Santo:** \[00:12:24.19\] Right.
+**Jerod Santo:** \[12:24\] Right.
 
 **Natalia Venditto:** Yeah. And this is why we're big proponents of the web platform... Because first of all, go and check what's there. That's future-proof. And then go and find it somewhere else when that's not supported natively.
 
-**Jerod Santo:** Are there heuristics or best practices that you can give regarding dependency selection, or that choice to go search NPM, versus just coding something? Is there a certain size or a difficulty level of a feature where you say "You know what? Grab a dependency." Fastify, for instance. Matteo, you're not going to say "I should go roll all my own routing, and HTTP stuff." You're saying "Probably grab Fastify", most likely.
+**Jerod Santo:** Are there heuristics or best practices that you can give regarding dependency selection, or that choice to go search npm, versus just coding something? Is there a certain size or a difficulty level of a feature where you say "You know what? Grab a dependency." Fastify, for instance. Matteo, you're not going to say "I should go roll all my own routing, and HTTP stuff." You're saying "Probably grab Fastify", most likely.
 
 **Matteo Collina:** But you probably should. It's a lot of fun. \[laughter\]
 
@@ -84,7 +84,7 @@ Fetch is a fantastic spec, is a fantastic API. Everybody loves Fetch. But whenev
 
 **Jerod Santo:** Yeah. So that moment, that threshold, how do I decide "Yeah, I'm going to grab something", versus "I should just build this"?
 
-**Matteo Collina:** I tend to not rewrite code. So if I find something that meets my standard, I'll use it. I use it from Npm. The question is my standard is usually pretty high, and therefore -- whenever I use something, my question is "Okay, if I adopt this, will I be able to maintain this thing?" And this is the question that everybody needs to ask when they adopt a piece of software, especially a company. If the thing is small, the answer is always yes. If the thing is big, then you need to ask, "Okay, I cannot maintain this. If I don't maintain this, then who can? And how can I get them access?" And then it gets to "Who do I need to pay?", essentially, as a company. And this is important - company versus individual developers is a different mindset. You need to reason about this long-term stability of your project. So if there is a problem and you don't know how to solve or what to do...
+**Matteo Collina:** I tend to not rewrite code. So if I find something that meets my standard, I'll use it. I use it from npm. The question is my standard is usually pretty high, and therefore -- whenever I use something, my question is "Okay, if I adopt this, will I be able to maintain this thing?" And this is the question that everybody needs to ask when they adopt a piece of software, especially a company. If the thing is small, the answer is always yes. If the thing is big, then you need to ask, "Okay, I cannot maintain this. If I don't maintain this, then who can? And how can I get them access?" And then it gets to "Who do I need to pay?", essentially, as a company. And this is important - company versus individual developers is a different mindset. You need to reason about this long-term stability of your project. So if there is a problem and you don't know how to solve or what to do...
 
 I've recently been very, very -- I am in a fork frenzy. A lot of the time I like a module, but maybe I don't necessarily agree on some of the choices of the maintainers, and I just say \*bleep\* it. Fix it, make it my own, and that's it.
 
@@ -96,7 +96,7 @@ I've recently been very, very -- I am in a fork frenzy. A lot of the time I like
 
 **Natalia Venditto:** In enterprise specifically, I think that one of the suggestions or things we would like to encourage stakeholders to do is to get more people involved in open source. Because you cannot understand the risks of using code that you are not involved with. So if you're using XYZ, or you decide you're going to be using XYZ module, go and investigate about it, get involved; understand the activity in that repo, and understand the security concerns that people may have brought forward for certain choices, design choices, architecture choices... And that's one way of de-risking. And the other one is making sure that you understand that codebase that you're integrating. Because you are going to have to debug it, you're going to have to maybe make the decision of patching something on your end. And if you have to do that, you probably want to contribute back upstream, right? So everybody benefits from whatever you have solved, whatever problems you have solved.
 
-\[00:16:22.11\] But yes, definitely, getting to know the code that you're going to use is a -- and then keeping an eye, again, on the ecosystem at large, because whatever vulnerability you're going to have in a dependency, it might be a vector to access other parts of your application.
+\[16:22\] But yes, definitely, getting to know the code that you're going to use is a -- and then keeping an eye, again, on the ecosystem at large, because whatever vulnerability you're going to have in a dependency, it might be a vector to access other parts of your application.
 
 **Matteo Collina:** Let me make a very simple example here. As all of you know, Express has been rebooted; the project had a change in leadership. And one of the things that the new leadership did as soon as it got on the driving seat was to publish a flurry of CVEs. Now, a lot of people have known of those CVEs or those vulnerabilities for a long time... And what was the problem? Well, because the project was not in a good position. So this is one of the important things to look at. Is the project well maintained? \[unintelligible 00:17:23.05\] Tools can help you a lot tools. I'm talking about tools, but tools is the minimum. You need to go do more than the tools. Tools help, but tools help after the problem happened. Tools are like "Bam!" And this is the famous meme of the duct tape.
 
@@ -106,7 +106,7 @@ I've recently been very, very -- I am in a fork frenzy. A lot of the time I like
 
 **Jerod Santo:** Yeah, to add to Natalia's statement around getting to know the code, and to de-risk, get to know the maintainers - get to know the team behind the thing. Hop in their issues and say hi, or just read about the reasons for their motivations, who they are, why they built it... Some people will just put their intentions, "I plan on maintaining this for the next 10 years", or "This was me scratching my own itch. It's free for you to use, but I'm done with it." Those kinds of things are very useful to know in order to de-risk. So get to know the code, but also get to know the team or the individual. You don't have to have be on a nickname basis with them, like Matteo and I are, for instance, my Fastify maintainer. But I know the team behind Fastify, and that gives me confidence in the project.
 
-**Break**: \[00:18:45.23\]
+**Break**: \[18:45\]
 
 **Jerod Santo:** Another good pillar of many applications... Number seven, "Avoid global variables, configs or singletons." Now, this was yelled at me very loud by my university professors, and I didn't really know why, but they're like "Globals are evil. Globals are evil." And I was like "Okay, I won't use them." And here we are, years and years and years later, and y'all are saying, "Don't use globals, or avoid them." Why, why, why, why, why? They're so handy. They're so useful. They're so easy. Who wants to take that one?
 
@@ -132,7 +132,7 @@ This comes from the history of JavaScript. In the browser, we can use globals. O
 
 **Jerod Santo:** Yeah. Well, Matteo said something very interesting, which is I think how we get into this mess... Is that what works in the small does not work in the large. And what he said was "a thousand iterations later", or something like that, where it's like, when you started, it made sense in that small little "This is just a single file. I'm just running a little Node server. I'll have a global for my database. It'll be fine." And it is fine at that scale of code.
 
-\[00:26:16.09\] And then we take that and we just like one by one add to it, add to it, and we kind of grow these organic applications out of a single file... And a thousand iterations later you have a huge mess on your hands, and you did not think about the structure ahead of time when it was small, and it comes back to bite you. And of course, blame the runtime is what Matteo said, but... I mean, it happens a lot. It happens a lot. And so how do we avoid it? Well, you have to kind of know what your app is going to turn into eventually, and maybe add some structure up top, or just avoid them altogether, or set NODE\_ENV=production at all times. This is what this document says, Matteo. Why?
+\[26:16\] And then we take that and we just like one by one add to it, add to it, and we kind of grow these organic applications out of a single file... And a thousand iterations later you have a huge mess on your hands, and you did not think about the structure ahead of time when it was small, and it comes back to bite you. And of course, blame the runtime is what Matteo said, but... I mean, it happens a lot. It happens a lot. And so how do we avoid it? Well, you have to kind of know what your app is going to turn into eventually, and maybe add some structure up top, or just avoid them altogether, or set NODE\_ENV=production at all times. This is what this document says, Matteo. Why?
 
 **Matteo Collina:** Well, the NODE\_ENV=production is one of the biggest example of this pattern failing spectacularly. Some time ago, a long time ago, a friend of mine, Tim Caswell, decided to add the NODE\_ENV environment variable to a library called Connect. I don't know if you were doing JavaScript when doing Node with Connect.
 
@@ -168,7 +168,7 @@ You would put yourself into big trouble. There's a lot of people using it, by th
 
 **Jerod Santo:** I've actually fallen into that exact trap, where I had a staging environment, but I had to set the environment to production in staging in order to get it to look like production. I can't set it to staging, because things don't work. So I can feel what you're saying. I've felt it, and I agree with it.
 
-\[00:29:59.05\] Singletons - same story, different thing. So pretty much the same. I think we can skip that one. Let's move on entirely, lest we don't get to all nine, and I become a liar. Number eight, "Handle errors and provide meaningful logs." This just sounds like "Breathe, eat food, put one foot in front of the other..." But sometimes we have to state the obvious, and oftentimes as devs we're in a hurry. We have things to do, features to ship, and we have a propensity, I'll admit it, to be a little bit lazy sometimes. And that error is not going to happen very often... What's the big deal? Natalia, do you want to kick off on this topic? "Handle errors and provide meaningful logs."
+\[29:59\] Singletons - same story, different thing. So pretty much the same. I think we can skip that one. Let's move on entirely, lest we don't get to all nine, and I become a liar. Number eight, "Handle errors and provide meaningful logs." This just sounds like "Breathe, eat food, put one foot in front of the other..." But sometimes we have to state the obvious, and oftentimes as devs we're in a hurry. We have things to do, features to ship, and we have a propensity, I'll admit it, to be a little bit lazy sometimes. And that error is not going to happen very often... What's the big deal? Natalia, do you want to kick off on this topic? "Handle errors and provide meaningful logs."
 
 **Natalia Venditto:** Even if the error happens once, that's it, right?
 
@@ -212,7 +212,7 @@ You would put yourself into big trouble. There's a lot of people using it, by th
 
 **Matteo Collina:** There is a module linked. So read the document. I wrote a module, but there are a few that are identical. If you use the module, then you're good. But there is a few edge cases that you need to keep into your head when doing these things, and played well with, I don't know, with Kubernetes and a lot of the other ecosystems like that.
 
-**Jerod Santo:** \[00:34:09.14\] Alright. So the moral of the story here is npm install Close with Grace. Is that the module you're talking about? Close with Grace?
+**Jerod Santo:** \[34:09\] Alright. So the moral of the story here is npm install Close with Grace. Is that the module you're talking about? Close with Grace?
 
 **Matteo Collina:** Yeah. That's the one that I wrote. Yeah.
 
@@ -274,7 +274,7 @@ You would put yourself into big trouble. There's a lot of people using it, by th
 
 **Matteo Collina:** To be honest, it's on my to-do list to play with that. I am more of an OpenAPI fan generically, mostly because it comes \[unintelligible 00:37:40.02\] JSON schema, and it's all integrated well and nice... I also really like GraphQL too, depending on what we need to do as part of an application, and what the use case is. So there are certain things that are better spec'd as GraphQL. If you don't know how the data will be queried, probably GraphQL is the right choice...
 
-\[00:38:04.05\] If you have a variety of different clients, and teams are disconnected with each other. Otherwise OpenAPI is actually pretty good. So it depends on the company, on the use case, it depends on the business... There's no one-size-fits-all in that discussion. Just use something.
+\[38:04\] If you have a variety of different clients, and teams are disconnected with each other. Otherwise OpenAPI is actually pretty good. So it depends on the company, on the use case, it depends on the business... There's no one-size-fits-all in that discussion. Just use something.
 
 At some point I was chatting, and every single time, because of the process that they had and the boilerplate that they needed to do, they needed to add one more API call from the consumer front, from a company I was consulting with. It took them four hours.
 
@@ -288,7 +288,7 @@ At some point I was chatting, and every single time, because of the process that
 
 Well, let's go faster. Now, we've reached the end. There's one more generic one, but I'm going to save it for the very last, because we don't want our listeners to fall asleep on us talking about testing, and stuff.
 
-**Break**: \[00:40:24.00\]
+**Break**: \[40:24\]
 
 **Jerod Santo:** Let's go back now to what I'll call the Node-specific ones, although maybe not necessarily Node-specific, but more Node-specific. Back at the top, number one, "Do not block the event loop." Of course, other things have event loops, but Node certainly does as well... Yeah, this seems like a good one to put in number one. So who wants to kick off on this topic?
 
@@ -322,7 +322,7 @@ Well, let's go faster. Now, we've reached the end. There's one more generic one,
 
 **Matteo Collina:** We are moving essentially to pillar number two, which is a good segue. "Monitor Node-specific metrics and act on them." The biggest number -- like, very often I'm still called to "Can you do a consulting for me? My node.js process keeps crashing" or "I'm having poor performance", or whatever. Well, what are you using to monitor and evaluate the performance of your system? "Well, I'm using generic metrics provided by Kubernetes." Well, you're trying to make choices of your road with a blindfold. So what do you expect? You crash. You try to drive with a blindfold. You're looking at the wrong things. You're literally not watching what you need to be watching.
 
-\[00:46:24.13\] And that's essentially what this principle is about. Specifically, with the event loop. If you have a Node.js application in production, you need to know the health of your event loop, and act on it. If you don't act on it, you're screwed. You have no traffic, and you have no users. And if you have no traffic and no users...
+\[46:24\] And that's essentially what this principle is about. Specifically, with the event loop. If you have a Node.js application in production, you need to know the health of your event loop, and act on it. If you don't act on it, you're screwed. You have no traffic, and you have no users. And if you have no traffic and no users...
 
 **Natalia Venditto:** Nothing happens.
 
@@ -360,7 +360,7 @@ PacMan." Yeah, Natalia. It eats all of it. But then it manages it -- we've seen 
 
 Alright, let's move on to pillar number three. "Use Node LTS, long-term support, versions in production." This one seems to me as the most enterprisy of them all. But Natalia has got the face palm going, so I'm thinking people should just do this and --
 
-**Natalia Venditto:** \[00:50:15.02\] Yeah, I have seen so many instances of - you know, you're analyzing an app that is not working, and then you go and check what version of Node they're using it. Of course, 15, 17, 19... But why?
+**Natalia Venditto:** \[50:15\] Yeah, I have seen so many instances of - you know, you're analyzing an app that is not working, and then you go and check what version of Node they're using it. Of course, 15, 17, 19... But why?
 
 **Jerod Santo:** "But why...?" Well, I can answer that. Because that new one had something fancy in it that I wanted to use, right?
 
@@ -446,7 +446,7 @@ Alright, let's move on to pillar number three. "Use Node LTS, long-term support,
 
 **Natalia Venditto:** No, no, but I am JavaScript. I own a JavaScript site.
 
-**Jerod Santo:** \[00:54:02.19\] Oh, you are? Alright. Well, we have three JavaScript users here. I'm also not on team TypeScript, but mostly because my co-host, who's not here, Nick Nisi, is the biggest TypeScript fanboy you could possibly imagine. And so we can't have that much agreement on the pod, so I just refuse to use it for that principled stance, pretty much only. And the fact that I don't like ceremony. And like I said earlier, I'm kind of an indie dev, so I don't need all of the hunky-dory team-oriented things, you know? Which leads us to our last pillar, which is also generic, but I left it for last, because it's like eating your broccoli. Although, general tip on broccoli, if you don't like it, actually eat it first, because when it's cold, it's even worse. When it's warm, at least... So here we are. "Automate testing, code review, and conformance." Oh, that's three pieces of broccoli. Why? Why do I have to do it? Can't we just skip that one, Matteo? Test in production.
+**Jerod Santo:** \[54:02\] Oh, you are? Alright. Well, we have three JavaScript users here. I'm also not on team TypeScript, but mostly because my co-host, who's not here, Nick Nisi, is the biggest TypeScript fanboy you could possibly imagine. And so we can't have that much agreement on the pod, so I just refuse to use it for that principled stance, pretty much only. And the fact that I don't like ceremony. And like I said earlier, I'm kind of an indie dev, so I don't need all of the hunky-dory team-oriented things, you know? Which leads us to our last pillar, which is also generic, but I left it for last, because it's like eating your broccoli. Although, general tip on broccoli, if you don't like it, actually eat it first, because when it's cold, it's even worse. When it's warm, at least... So here we are. "Automate testing, code review, and conformance." Oh, that's three pieces of broccoli. Why? Why do I have to do it? Can't we just skip that one, Matteo? Test in production.
 
 **Matteo Collina:** YOLO.
 
@@ -488,7 +488,7 @@ Alright, let's move on to pillar number three. "Use Node LTS, long-term support,
 
 **Jerod Santo:** Right.
 
-**Matteo Collina:** \[00:58:03.19\] On TypeScript, I want to be provocative... I really like -- I came to enjoy the experience of writing TypeScript when working with a team and building an application. I absolutely think that the authorship story, from a maintainer perspective, or somebody that's maintaining a lot of modules on Npm - it's so much better with JavaScript and writing the types manually, that it's just like "Okay, I'm probably not doing that." Like, the authorship story - it's so hard. It makes maintaining this thing so much harder.
+**Matteo Collina:** \[58:03\] On TypeScript, I want to be provocative... I really like -- I came to enjoy the experience of writing TypeScript when working with a team and building an application. I absolutely think that the authorship story, from a maintainer perspective, or somebody that's maintaining a lot of modules on npm - it's so much better with JavaScript and writing the types manually, that it's just like "Okay, I'm probably not doing that." Like, the authorship story - it's so hard. It makes maintaining this thing so much harder.
 
 I can maintain a lot of the modules I maintain because I just pull JavaScript that's super-easy to maintain; not a lot of tool chain. But yeah, that's probably my -- if I wanted to put it as an advice... So TypeScript requires a lot of tooling around it to make it usable. And that's -- it gives you a lot of benefits. So that's true. But if a maintainer with very little time, optimizing for time consumed, is very often...
 
