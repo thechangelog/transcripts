@@ -94,7 +94,7 @@
 
 **Jerod Santo:** I think I have some DEF fluid in my ear.
 
-**Adam Stacoviak:** Hello? DEF? Are you making fun of \[00:03:32.15\] on this podcast?
+**Adam Stacoviak:** Hello? DEF? Are you making fun of \[03:32\] on this podcast?
 
 **Jerod Santo:** No, I'm making fun of you.
 
