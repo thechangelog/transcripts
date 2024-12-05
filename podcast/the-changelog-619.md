@@ -506,7 +506,7 @@ So I think archiving is fundamentally limited in that societally, at the human s
 
 **Jerod Santo:** \[01:22:01.21\] I was going to bring up the nonprofit. So you actually went ahead and went through the time and effort to get that done. So that's a step.
 
-**Nick Sweeting:** I'm not my own nonprofit. I'm a fiscally-sponsored project through the excellent \[unintelligible 01:22:11.20\]
+**Nick Sweeting:** I'm not my own nonprofit. I'm a fiscally-sponsored project through the excellent Hack Club Bank, yeah.
 
 **Jerod Santo:** I see. So you took a shortcut.
 
