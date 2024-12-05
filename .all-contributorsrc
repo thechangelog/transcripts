@@ -2591,6 +2591,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "garyhtou",
+      "name": "Gary Tou",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20099646?v=4",
+      "profile": "https://garytou.com",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
