@@ -2600,6 +2600,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "pirate",
+      "name": "Nick Sweeting",
+      "avatar_url": "https://avatars.githubusercontent.com/u/511499?v=4",
+      "profile": "https://sweeting.me",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
