@@ -405,6 +405,9 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/chengehe"><img src="https://avatars.githubusercontent.com/u/170175068?v=4?s=100" width="100px;" alt="chengehe"/><br /><sub><b>chengehe</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=chengehe" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://garytou.com"><img src="https://avatars.githubusercontent.com/u/20099646?v=4?s=100" width="100px;" alt="Gary Tou"/><br /><sub><b>Gary Tou</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=garyhtou" title="Documentation">📖</a></td>
     </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://sweeting.me"><img src="https://avatars.githubusercontent.com/u/511499?v=4?s=100" width="100px;" alt="Nick Sweeting"/><br /><sub><b>Nick Sweeting</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=pirate" title="Documentation">📖</a></td>
+    </tr>
   </tbody>
 </table>
 
