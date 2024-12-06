@@ -250,7 +250,7 @@ For my big, massive archives that I keep, I use ZFS, that has built-in compressi
 
 **Adam Stacoviak:** That's a lot.
 
-**Nick Sweeting:** The PyPy installs are sitting at around 70,000 a month, and the Google Chrome extension only has about 2,000 users. A lot of those are automated. People have scripts that auto-update their Docker container, or auto-update their pip packages... But I think it's in the tens of thousands. Exact numbers, I don't know. When people open GitHub issues, that's a pretty strong indicator that they care enough to say something. And there's thousands of GitHub issues and hundreds of contributors. And a few granted donations; not enough to make it a sustainable business model, but enough that I can't ignore it. Lots of attention whenever stuff goes on Hacker News... So I know people care about the issues, and I know that people are using it, but I refuse to add analytics, so... Hard to say.
+**Nick Sweeting:** The PyPI installs are sitting at around 70,000 a month, and the Google Chrome extension only has about 2,000 users. A lot of those are automated. People have scripts that auto-update their Docker container, or auto-update their pip packages... But I think it's in the tens of thousands. Exact numbers, I don't know. When people open GitHub issues, that's a pretty strong indicator that they care enough to say something. And there's thousands of GitHub issues and hundreds of contributors. And a few donations; not enough to make it a sustainable business model, but enough that I can't ignore it. Lots of attention whenever stuff goes on Hacker News... So I know people care about the issues, and I know that people are using it, but I refuse to add analytics, so... Hard to say.
 
 **Jerod Santo:** You're one of us. You are one of us. So how does it get into your credentialed stuff? Do you have to be using Google Chrome? Is that the extension? Is that what that does? Or is it grabbing cookies out of your cookie jar? How does it do it?
 
@@ -514,7 +514,7 @@ So I think archiving is fundamentally limited in that societally, at the human s
 
 **Jerod Santo:** So did that provide you some leniency? Because you mentioned you're trying to decide should you go nonprofit, should you go profit? Do you have leniency because you didn't -- it's like a proxy that you can change later? How does that work?
 
-**Nick Sweeting:** Yeah. So no matter what, I'm going to have to be both. There has to be a nonprofit component, there has to be a for-profit component. It's going to be a sort of peer corporate structure relationship, similar to any company that does massive content re-hosting, like Archive.org, like OpenAI, like Mozilla, like Maps... Basically, you have a nonprofit and you have LLC's underneath it that do anything relating to money. The content is only ever hosted by the nonprofit, which is not earning revenue for it, but you can sell software that people use, that contributes to that pool of content.
+**Nick Sweeting:** Yeah. So no matter what, I'm going to have to be both. There has to be a nonprofit component, there has to be a for-profit component. It's going to be a sort of peer corporate structure relationship, similar to any company that does massive content re-hosting, like Archive.org, like OpenAI, like Mozilla, like MAPS... Basically, you have a nonprofit and you have LLC's underneath it that do anything relating to money. The content is only ever hosted by the nonprofit, which is not earning revenue for it, but you can sell software that people use, that contributes to that pool of content.
 
 And so the financial motivation to -- basically, the financial motivations are kept separate. You're not incentivized to profit off of the copyrighted material, which I think is important... Because as this eventually grows beyond just me, I don't want to have sort of corporate structuring that is pushing it in the direction of destroying copyright.
 
@@ -552,7 +552,9 @@ So yeah, I would say those are the things. Things that point to those principles
 
 **Nick Sweeting:** Cooking is actually a shockingly popular answer to that question. A lot of people, myself included increasingly, as I'm starting the beginnings of a family...
 
-**Adam Stacoviak:** I'm winning you over, right? You're wanting take on my -- we can share a box, so to speak. Yeah, my wife would love basically photos, some news, and a lot of cooking recipes preserved. And also some personal work portfolio is important to journalists, especially -- I think a lot of people that do writing for a living see a lot of their content sort of disappear when the publishers go bankrupt... So that's a common answer I get. Yeah, everyone has a really unique and interesting answer usually to that question of what do they want to save.
+**Adam Stacoviak:** I'm winning you over, right? You're wanting take on my -- we can share a box, so to speak. Yeah, my wife would love basically photos, some news, and a lot of cooking recipes preserved. And also some personal work portfolio is important to journalists, especially -- 
+
+**Nick Sweeting:** I think a lot of people that do writing for a living see a lot of their content sort of disappear when the publishers go bankrupt... So that's a common answer I get. Yeah, everyone has a really unique and interesting answer usually to that question of what do they want to save.
 
 And then the alternate version, if you don't mind me asking one more follow up, is - now take away the 100 URL requirement, but now pretend you can't save any individual piece of content, but your kids will get a model trained on everything that you save, with no limit. You could feed this model 20 terabytes of training data. What do you limit it to now? What do you want the model to have, and what don't you?
 
@@ -624,6 +626,6 @@ And then the alternate version, if you don't mind me asking one more follow up, 
 
 **Jerod Santo:** Nice.
 
-**Nick Sweeting:** And I know him from Reeker Center in New York. But yeah, I think either he or someone right after him in the same conversation thread, we were brainstorming name ideas...
+**Nick Sweeting:** And I know him from Recurse Center in New York. But yeah, I think either he or someone right after him in the same conversation thread, we were brainstorming name ideas...
 
 **Jerod Santo:** It's funny that you offer that, Adam, replacing the box with machine, because as you were describing some of the - what I would say like brand hurdles of us understanding like the current value of something like this, I thought maybe the word 'archive' was the one...
