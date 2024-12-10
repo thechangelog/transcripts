@@ -38,7 +38,7 @@ And so they had Active Directory, and if you've ever worked with Active Director
 
 So we came in and said, "Alright, we can link these things together in a secure way." At the time, we were doing everything via LDAP virtual directory. So if you've ever worked with an LDAP directory, you take a proxy that knows LDAP on the front... Think of like an HTTP proxy, but for LDAP. So it talks LDAP on the front, and then it talks whatever you need on the back, and creates this big, virtual tree. So we created this environment where it was this big virtual tree of all these different infrastructures... And then we were working with - at the time, I think it was SharePoint 2011... And so we had to integrate that in, which was a whole kind of fun.
 
-\[00:08:04.29\] And we got it all working beautifully, and so they're like "Yes, this is great. We want to move forward." And then I learned about government procurement. So it took us almost two years to get the procurement group, and we finally got it up and running...
+\[08:04\] And we got it all working beautifully, and so they're like "Yes, this is great. We want to move forward." And then I learned about government procurement. So it took us almost two years to get the procurement group, and we finally got it up and running...
 
 **Justin Garrison:** For them just to be able to say "Yes, we want to pay for this, and you can go ahead."
 
@@ -51,7 +51,7 @@ Now. at the time - this is before we were an open source company, or had any ope
 
 And I'm sitting there in the data center, deploying it, and then they moved us to another data center, and then finally, when we went live, they ended up putting us in a third data center. And so we finally go live, and ironically -- so I was telling you about this big network, right? Our first app that we went live with didn't run on that network. It was hosted on the commercial internet. So yeah, we were like "Okay, you know what? Whatever. A customer's a customer. We don't care. It's an app."
 
-\[00:11:56.26\] And so we went live with it in July, 2013, and it was one of these things where the people who started using it were like "What do you mean I don't need another password?" It didn't compute with users. SSO wasn't a big thing at this point. This is when we were competing with -- at the time it was Netegrity, and then they were bought by CA, Oracle Access Manager, ForgeRock... A lot of these legacy identity names. And so SSO was still not something that was super-common.
+\[11:56\] And so we went live with it in July, 2013, and it was one of these things where the people who started using it were like "What do you mean I don't need another password?" It didn't compute with users. SSO wasn't a big thing at this point. This is when we were competing with -- at the time it was Netegrity, and then they were bought by CA, Oracle Access Manager, ForgeRock... A lot of these legacy identity names. And so SSO was still not something that was super-common.
 
 **Justin Garrison:** And in this case, your app that you put on the network, people are coming to use it, you have this LDAP proxy, and that proxy is going to each group's own Active Directory service. So it's like the user just exists, and they just need the full username @ whatever domain, with their password, and they don't need to sign up again. So you're just proxying all those back to whichever LDAP. You're a proxy, you're a router at that point. You're like "Oh yeah, you go over here. We'll figure out if that is the right password, with the hash, and then we'll send it back and say yes or no."
 
@@ -71,7 +71,7 @@ And I'm sitting there in the data center, deploying it, and then they moved us t
 
 And so we slowly migrated. We went from an all Windows infrastructure besides our Linux VMs, to then our portal moved from .NET and that fugly interface to a nice bootstrap-based Java interface... And then we eventually got rid of AD, and we moved up to Azure, and we went from being just like these virtual appliances that we installed in ISOs, to running on - I call them faux containers, where I had Ansible playbooks that would deploy everything... We would deploy it all from scratch. I could point it at an empty Ubuntu server and the whole thing would be running. And as that was happening, we got rid of the virtual directory.
 
-\[00:15:57.11\] So as ADFS, Active Directory Federation Services became more common among the jurisdictions, we were getting rid of the virtual directory components, which really made things nice... And then when we moved to Azure, we did something really cool, where we took over all monitoring, and we stopped playing this "Okay, well, there's an ops team, and a dev team..." Like, "No, we're just going to own everything. This is our problem now."
+\[15:57\] So as ADFS, Active Directory Federation Services became more common among the jurisdictions, we were getting rid of the virtual directory components, which really made things nice... And then when we moved to Azure, we did something really cool, where we took over all monitoring, and we stopped playing this "Okay, well, there's an ops team, and a dev team..." Like, "No, we're just going to own everything. This is our problem now."
 
 And so we were able to build out a Prometheus infrastructure that I now knew when there was a problem before my customers did. And we were running those synthetic transactions, and we had a dashboard, and we had alerts, and it was tracking things. And that was the first time -- so that was about 2019, and that was like the first time where I felt like "Wow, I really know what this infrastructure is doing." And it was all automated. It was amazing. It was beautiful.
 
@@ -99,7 +99,7 @@ And so we were able to build out a Prometheus infrastructure that I now knew whe
 
 **Marc Boorshtein:** Well, and that was one of the things that was so difficult about this. So bringing it back to public safety, all of the public safety people that we work with, if it's something that is really life or death, they have manual fallbacks, and they're trained that if the technology doesn't work, don't \*bleep\* with it. Just fall back to the manuals. Because people die.
 
-\[00:20:03.15\] So our feedback -- like, you would think we would know immediately that "Oh, we can't get into the thing." Well, no. They just switched over to the manual, and then \*bleep\* to the CIO at the weekly meeting a week later. So we don't actually find out there was a problem sometimes until like a week after it happened, or two weeks after it happened.
+\[20:03\] So our feedback -- like, you would think we would know immediately that "Oh, we can't get into the thing." Well, no. They just switched over to the manual, and then \*bleep\* to the CIO at the weekly meeting a week later. So we don't actually find out there was a problem sometimes until like a week after it happened, or two weeks after it happened.
 
 **Justin Garrison:** Yeah. They worked around the issue. They needed to get something done, and they're like "I don't have time for this. Someone is in danger", right?
 
@@ -125,7 +125,7 @@ And then because we deal with the feds, federal standards for security -- I alwa
 
 **Marc Boorshtein:** Well, perfect example. So CJIS, the Criminal Justice Information System - this is the IT security standard that the FBI puts out. So if you're going to work with their systems, you have to comply with this set of features. So here in the DC region you get arrested, your picture goes into a database, and we provide the security for that database. Well, one of the things that CJIS says is that you can't have access out to public networks from the workstation that you're working on to do this, because they don't want you exfiltrating these photos to somebody, right? That makes a lot of sense... Except - remember how I said every jurisdiction uses Microsoft? Well, starting in 2020, that became Azure, and Azure AD, and Entra.
 
-\[00:24:07.17\] So instead of us handing you off to the ADFS running inside of the corporate network, we started handing everybody off to Entra, and Azure AD. So Azure AD is now rebranded Entra, if anybody is listening and hasn't caught the new documentation.
+\[24:07\] So instead of us handing you off to the ADFS running inside of the corporate network, we started handing everybody off to Entra, and Azure AD. So Azure AD is now rebranded Entra, if anybody is listening and hasn't caught the new documentation.
 
 **Justin Garrison:** I was not up to date on that, thank you.
 
@@ -145,7 +145,7 @@ And then because we deal with the feds, federal standards for security -- I alwa
 
 And so that's been a big part of our fight, when we work with the Feds especially... We had one federal agency - that'll go unnamed - that they were originally going to integrate us as an identity provider to make it easier for the localities to access their systems. So we have federal users that access locality systems. But because we already have all the localities integrated, this one group wanted to go the other way. And they're like "Are you guys level four certified?" "No, not at all." The cost to do that is through the roof. And they're like "Yeah, no, we're not going to do it. We're just going to hand out usernames and passwords." And it's like, "But there's no MFA there." "Yeah, but your compliance is going to be too much of a pain for us to deal with, so we would just rather do it with usernames and passwords." And we're just like "Really? This is what you want?" They're like "Yeah." "Okay..." So it happens all the time, and it's painful to watch.
 
-**Break**: \[00:27:22.17\]
+**Break**: \[27:22\]
 
 **Justin Garrison:** Going back to the infrastructure you're setting up, because basically, you stopped selling most of it like 2019, or whatever. You had all this automated and you were starting to go into like this open source. But previously, you were setting up a lot of stuff there, it's all AD integration, it's adding more replications, it's giving people the identity on this network for first responders... What happened after that? What changed, or what are you doing since then?
 
@@ -159,7 +159,7 @@ So that happened. The other thing that happened was Kubernetes. We had tried to 
 
 **Justin Garrison:** The data center contract?
 
-**Marc Boorshtein:** \[00:32:03.10\] The data center. Yeah. The data center contract with the county had expired. So we kind of did a lift and shift, where we got everything into Azure, where it was still running on VMs. And then at that point, when we were on Azure, it was like "Okay, well, we can Kubernetes now." So we got started with Kubernetes, and we did our first rev on Kubernetes, and moving to Kubernetes was so much harder than we thought it was going to be... Which no one has ever said before.
+**Marc Boorshtein:** \[32:03\] The data center. Yeah. The data center contract with the county had expired. So we kind of did a lift and shift, where we got everything into Azure, where it was still running on VMs. And then at that point, when we were on Azure, it was like "Okay, well, we can Kubernetes now." So we got started with Kubernetes, and we did our first rev on Kubernetes, and moving to Kubernetes was so much harder than we thought it was going to be... Which no one has ever said before.
 
 **Justin Garrison:** This is still Windows and .NET, or...?
 
@@ -187,7 +187,7 @@ Then when we were happy with everything, we just had a simple script that would 
 
 **Justin Garrison:** I think it's something custom, but I never actually looked into it, so I was kind of curious if you know.
 
-**Marc Boorshtein:** \[00:36:17.05\] Yeah...
+**Marc Boorshtein:** \[36:17\] Yeah...
 
 **Justin Garrison:** The second question there is the move here from -- we have this push-based pipeline, to a pull-based controller, right? A GitOps controller versus... You could still store manifests in Git, in Azure DevOps, you could still do a lot of the same things, but the push versus pull is a difference. Why did you feel like you had to move to that? What was the leading thing? Like, this is going to be a bunch of work, it's going to change how we do things... What were the benefits you projected that you were going to get out of it?
 
@@ -203,7 +203,7 @@ So that was the main driver to say "You know what? We're going to move from ever
 
 **Justin Garrison:** But GitOps isn't a requirement, because you can have two DevOps in two different regions with a Git repo that pushes both places, right?
 
-**Marc Boorshtein:** \[00:40:01.10\] You could, but this is the way we wanted to do it. We wanted to be able to say "Here's our manifest", because if we need to rebuild this system quickly, we want to be able to say "Here are all the manifests. It's ready to go", without necessarily saying -- we're not using like a Terraform, or a Pulumi to build it out. We're relying on Kubernetes APIs. The manifests themselves are all fairly static. These are not -- the infrastructure to handle this is really not all that complicated. It's a web app, it has a database, it has a message bus... There are a couple of different apps that are integrated with it... But you've got a frontend app, you've got a backend app, you've got a few different APIs... We're relying on a combination of Azure's secret management, and the database and whatnot, but... It's not a stateless app, but it's a most -- like, the critical parts are fairly stateless. So GitOps was a good route for us to be able to go that way.
+**Marc Boorshtein:** \[40:01\] You could, but this is the way we wanted to do it. We wanted to be able to say "Here's our manifest", because if we need to rebuild this system quickly, we want to be able to say "Here are all the manifests. It's ready to go", without necessarily saying -- we're not using like a Terraform, or a Pulumi to build it out. We're relying on Kubernetes APIs. The manifests themselves are all fairly static. These are not -- the infrastructure to handle this is really not all that complicated. It's a web app, it has a database, it has a message bus... There are a couple of different apps that are integrated with it... But you've got a frontend app, you've got a backend app, you've got a few different APIs... We're relying on a combination of Azure's secret management, and the database and whatnot, but... It's not a stateless app, but it's a most -- like, the critical parts are fairly stateless. So GitOps was a good route for us to be able to go that way.
 
 **Justin Garrison:** Does Azure have the -- I literally do not know this. Do they have like a GovCloud sort of thing, like AWS does? Is that where you're running this?
 
@@ -239,7 +239,7 @@ So that was the main driver to say "You know what? We're going to move from ever
 
 No, the pain that we tend to have when it comes to Azure is they change stuff all the goddamn time, and they're constantly deprecating things. A template that I use to deploy an AKS cluster within a year is completely unusable. And they just have this tendency to make these breaking changes...
 
-\[00:44:08.29\] And it's not like Kubernetes itself that's the problem. It's like "Oh, well, we're changing the way we're doing log aggregation to this thing." And it's like "I just want to run a Kubernetes cluster. Can I just run a Kubernetes cluster? Is that okay?" And they're constantly making those small types of changes that just make automation difficult, it makes life infuriating...
+\[44:08\] And it's not like Kubernetes itself that's the problem. It's like "Oh, well, we're changing the way we're doing log aggregation to this thing." And it's like "I just want to run a Kubernetes cluster. Can I just run a Kubernetes cluster? Is that okay?" And they're constantly making those small types of changes that just make automation difficult, it makes life infuriating...
 
 I'm doing a talk next week in Salt Lake City, and I need a Kubernetes cluster. And I've got all these free Azure credits... I went to launch it, and I couldn't access my ingress controller. I couldn't access ingress NGINX. It wasn't a network policy. It was just, you know, KubeNet, so there was no policies to be had. It wasn't a networking issue from me to the IP address, the public IP... The health probes looked like they were working. I could not access it. I was like "What's going on here?" So I have found that Azure, when it works well, it works really well. I feel like they took the people from AWS that failed at interface design, and built their interface for Azure Cloud.
 
@@ -261,7 +261,7 @@ And I will say, I was not expecting that based on past experience, and they knoc
 
 **Marc Boorshtein:** I had none. "Y'all did a great job." And the only reason why we had downtime was my own stupidity. I made a mistake. Otherwise we would have had zero downtime. It was beautiful.
 
-**Break**: \[00:47:52.24\]
+**Break**: \[47:52\]
 
 **Justin Garrison:** How is -- the applications you're running... Because this is more than just identity now, right? Is this still focused on identity for those districts, for first responders, or is this beyond that?
 
@@ -293,7 +293,7 @@ And I will say, I was not expecting that based on past experience, and they knoc
 
 **Marc Boorshtein:** Right. And this is the second iteration. So they wanted to move to SharePoint Online. When you do SSO -- so Azure has this concept of B2B, company to company, doing some kind of SSO, and B2C, company to customer. Well, we're an SSO system, right? We're an identity aggregation system. So in theory, what we would want - excuse me, you go to SharePoint Online, and they bounce you over to us to authenticate, and then we route you over to the right thing. That's a problem on two layers. The first layer is if you're a tenant inside of Azure, they just go straight to you. So I put in my FairfaxCounty.gov email address, they just bypass our system. IAMS is what it's called. The National Capital Region IAMS program. Identity and Access Management. So that was the first issue, which wasn't that big of a deal, because we still had stuff to do with provisioning.
 
-\[00:54:08.20\] The second issue is the U.S. federal government. So I mentioned that we're running in a commercial tenant. So is the SharePoint. Feds do not run in commercial tenants, and you cannot invite a guest into your tenant if you're commercial.
+\[54:08\] The second issue is the U.S. federal government. So I mentioned that we're running in a commercial tenant. So is the SharePoint. Feds do not run in commercial tenants, and you cannot invite a guest into your tenant if you're commercial.
 
 That is government. So we had two issues that we had to deal with. One, we don't just maintain a broker with other identity systems, we also maintain what are called external accounts. So maybe you're a contractor, maybe you're working for an NGO, a non-governmental organization, but that works with governments, that you aren't part of our SSO party. So we maintain a credential for you. And so we have those credentials as well.
 
@@ -305,7 +305,7 @@ So we ended up going to AWS and saying "Okay, well, we'll forward everything to 
 
 **Justin Garrison:** Is this actually like a VM running an email server, or are you forwarding this to the -- because you need that trust, right? Email has this huge network of "What IP address am I receiving this on? Are you spam or not?" Because it just gets abused. It's just an open thing that's on the internet. And so someone signs up and they say "I'm a contractor. I don't have this account. I need to sign up, but I'm going to sign up under your domain. I'm still going to get the email forwarded to me through Amazon's service that goes back to my actual proper domain, but then when I sign in, I'm signing it under your subdomain, because that is what gets trusted here, of "Yes, I own that subdomain, even if the email comes back to me."
 
-**Marc Boorshtein:** \[00:57:56.08\] It's a bit of a Rube Goldberg. It works really well. Once we got the whole "Okay, we can't send the emails ourselves.
+**Marc Boorshtein:** \[57:56\] It's a bit of a Rube Goldberg. It works really well. Once we got the whole "Okay, we can't send the emails ourselves.
 
 We have to go through an SES-like service to send it out." And once we got that and all the headers and everything figured out, it works beautifully. But no, it's a container that runs in cluster. We've got everything locked down with network policies. And that particular container has no service account. So it's got no -- if that thing gets compromised, you can't get out of it. You can go out to the internet, but you can't hit the API server, you can't hit anything from inside those containers, and there's no identity. So even if you had access to the API server, there's nothing to abuse. There's no keys.
 
