@@ -78,7 +78,7 @@
 
 **Jerod Santo:** What would that number have to look like, Dave, for it to become like all of a sudden you start thinking "Maybe I could just write"?
 
-**Dave Rupert:** \[00:07:28.24\] Well, yeah, I think -- I've heard YouTubers or something, where it's something like the thousand marks, at 1000 subs or 10,000 subs, I think you're getting into the, like, "This is a chunk of change I can pay attention to, or have fun with." And then a hundred thousand subs you're in the "Quit my job territory", you know? And these are probably like, let's say like $5,000 increments, or something. Or $3,000 increments. But then when you get to the millions or whatever, then it's like "Yeah, I should quit my job", you know? I don't know, it's interesting. I'd kind of contemplated, like "What if I just gassed it? Just post, just doing it, every day. Boom, boom, boom, boom. Doing it."
+**Dave Rupert:** \[07:28\] Well, yeah, I think -- I've heard YouTubers or something, where it's something like the thousand marks, at 1000 subs or 10,000 subs, I think you're getting into the, like, "This is a chunk of change I can pay attention to, or have fun with." And then a hundred thousand subs you're in the "Quit my job territory", you know? And these are probably like, let's say like $5,000 increments, or something. Or $3,000 increments. But then when you get to the millions or whatever, then it's like "Yeah, I should quit my job", you know? I don't know, it's interesting. I'd kind of contemplated, like "What if I just gassed it? Just post, just doing it, every day. Boom, boom, boom, boom. Doing it."
 
 **Chris Coyier:** Really? This is a secret Dave dream/fantasy?
 
@@ -118,7 +118,7 @@ I thought it was cool. But then she was talking about just the curriculum as it 
 
 And the purpose of it was so fundamental of technology that it doesn't need to, and probably shouldn't change every single year. Because there's also human beings that need to teach it, and those human beings need a little time to get good at what they're saying... And if you change it every year, then they're just not getting there. That's part of it. And part of it is it doesn't even matter, because it's like the concepts of like whatever, an index on an SQL database is not changing that much. Anyway...
 
-**Jerod Santo:** \[00:12:08.14\] Right. Yeah, striking a balance is definitely important. And I don't think that you should just always teach the framework du jour. There's a certain point at which you look at a curriculum and you say, "This is 15 years out of date." But I don't think you have to be Next.js 11 in your college web dev course.
+**Jerod Santo:** \[12:08\] Right. Yeah, striking a balance is definitely important. And I don't think that you should just always teach the framework du jour. There's a certain point at which you look at a curriculum and you say, "This is 15 years out of date." But I don't think you have to be Next.js 11 in your college web dev course.
 
 **Chris Coyier:** I know. That's so old, Jerod. It's like 15 now, or something.
 
@@ -160,7 +160,7 @@ Not my favorite, because ergonomically it feels like antiquated, but it's totall
 
 **Chris Coyier:** I think we're committing like the baby sin though of being like "Next.js versus web components. Which to pick?" Which is not the dichotomy that should be painted... Because those things even can work in React, which I know is always caveated with the "React didn't like web components for a long time." It's still doable, and it's gotten a lot better in 18 and 19 and stuff... But also, React isn't the only framework in the world. They tend to work great with all kinds of other frameworks, too. So it's not a versus thing. In fact, I think it's almost problematic to think of it in that way, because it's like, web components has no story for routing, and state management, and all these things that are the reasons that you pick a framework, or some of the major reasons. And that they can work together.
 
-\[00:16:02.28\] Dave has convinced me. He talks about leaf nodes, about these little -- the smallest of the things; the ones that don't have a bunch of other children and stuff are great use cases for web components, and that can happily exist in your SvelteKit app. Your whole design system could be web components, whereas the website that you're producing can be in a Vue app, or whatever.
+\[16:02\] Dave has convinced me. He talks about leaf nodes, about these little -- the smallest of the things; the ones that don't have a bunch of other children and stuff are great use cases for web components, and that can happily exist in your SvelteKit app. Your whole design system could be web components, whereas the website that you're producing can be in a Vue app, or whatever.
 
 **Dave Rupert:** Yeah. It gives you a lot of freedom, is kind of the ultimate answer. I mean, you can generate your app with C++. I mean, anything that spits out HTML can generate web components. Eleventy, Astro are also good candidates, because they are pretty just HTML-forward in how you author and use them... You mentioned Ruby on Rails. Web components work great in Ruby on Rails. You just put them in there. If you've ever tried to staple Ruby and a React app together, if you've had that wonderful experience - it's not my favorite, but web components work pretty great in that context. And we're seeing a lot of sort of games just work on lower-end devices, less memory usage, things like that. So it's been kind of a boon for the work we're doing.
 
@@ -174,7 +174,7 @@ Not my favorite, because ergonomically it feels like antiquated, but it's totall
 
 **Adam Stacoviak:** I guess the question really is, Dave, how do you get to live in web component land? How do you get to have that choice to not bounce and dance around the frameworks, and you get to live in your own blessed land?
 
-**Dave Rupert:** \[00:19:38.17\] To be fair, I've come from a lot of like building my own CMSes, Ruby on Rails, CakePHP, things like that... A lot of dynamic stuff. And then I went into -- kind of bit by the static bug; a lot of Jekyll, Eleventy, Astro-y sort of work... Some clients wanted Webflow, and stuff like that. And then I did a startup, I wrote that in Vue... That was in Vue. In Vue 2. Nuxt.js. But we were unable to make the jump from two to three, because it was just like so much code and so much work for a small team. But for the last seven months I've been working at Microsoft, and their teams at Microsoft are kind of betting heavy on web components to solve some pretty - what would you say - necessary performance profiles.
+**Dave Rupert:** \[19:38\] To be fair, I've come from a lot of like building my own CMSes, Ruby on Rails, CakePHP, things like that... A lot of dynamic stuff. And then I went into -- kind of bit by the static bug; a lot of Jekyll, Eleventy, Astro-y sort of work... Some clients wanted Webflow, and stuff like that. And then I did a startup, I wrote that in Vue... That was in Vue. In Vue 2. Nuxt.js. But we were unable to make the jump from two to three, because it was just like so much code and so much work for a small team. But for the last seven months I've been working at Microsoft, and their teams at Microsoft are kind of betting heavy on web components to solve some pretty - what would you say - necessary performance profiles.
 
 If you think of Windows - full disclaimer, I don't speak for Microsoft. So there may be things I can say or can't say. I don't really know. But if you think of Microsoft, it's a company that makes an OS, right? It has a browser, but then they don't control the hardware of that OS. The OAM ultimately does. And you all have seen different devices that are good and bad, and your stereotypical Windows device is that Dell in your uncle's big wood cabinet, that also has a big CRT monitor in there, you know?
 
@@ -222,7 +222,7 @@ Now, of course, if we think about content site versus driving a business, or app
 
 **Dave Rupert:** Well, I think in the last year or so we've witnessed the completely self-inflicted implosion of an entire social network. Wouldn't it have been nice to have all your stuff on a website, as opposed to threads on popular social media site?
 
-**Jerod Santo:** \[00:24:18.12\] Sure.
+**Jerod Santo:** \[24:18\] Sure.
 
 **Dave Rupert:** So in my mind, a website has become more valuable in 2025 than years prior even.
 
@@ -248,29 +248,29 @@ It's actually mine."
 
 **Chris Coyier:** I suppose. Yeah.
 
-**Jerod Santo:** I mean, it is. Even back before Elon, Twitter could reassign a handle. And I remember them doing that. I mean, even if we go to Npm and the kik handle, that's what created the Leftpad debacle, was the author of the Leftpad Npm package also owned a package called kik. Remember that? And kik was a startup, and they contacted Npm and they said "We're a startup, and we want to publish a package called kik."
+**Jerod Santo:** I mean, it is. Even back before Elon, Twitter could reassign a handle. And I remember them doing that. I mean, even if we go to npm and the kik handle, that's what created the Leftpad debacle, was the author of the Leftpad npm package also owned a package called kik. Remember that? And kik was a startup, and they contacted npm and they said "We're a startup, and we want to publish a package called kik."
 
 **Adam Stacoviak:** It's true.
 
-**Jerod Santo:** "And this guy owns that." And Npm took it from him and gave it to the kik startup. And then the dude pulled all of his packages, including Leftpad.
+**Jerod Santo:** "And this guy owns that." And npm took it from him and gave it to the kik startup. And then the dude pulled all of his packages, including Leftpad.
 
 **Dave Rupert:** That's how that went down? I remember Leftpad, but I didn't remember that's how it went down.
 
 **Adam Stacoviak:** Yeah, he was upset that could happen.
 
-**Jerod Santo:** Yeah, he was pissed. But they were within their rights to do that, because every Npm handle's owned by Npm, and every Twitter handle's actually owned by Twitter, now Elon Musk.
+**Jerod Santo:** Yeah, he was pissed. But they were within their rights to do that, because every npm handle's owned by npm, and every Twitter handle's actually owned by Twitter, now Elon Musk.
 
 **Chris Coyier:** Right. It's their internal business decisions. There's no law.
 
 **Jerod Santo:** Yeah. Which sucks. And to Dave's point, you don't own that property, even though you're investing in it all these years. You don't own it.
 
-**Adam Stacoviak:** Here's one for you. GitHub.com/changelog. \[laughter\]
+**Adam Stacoviak:** Here's one for you. github.com/changelog. \[laughter\]
 
 **Chris Coyier:** Who's got it?
 
 **Jerod Santo:** Who's got it?
 
-**Adam Stacoviak:** Not us. So it 404s. It's protected. This is an example of it. We're just GitHub.com/thechangelog. We cannot be changelog, because they are probably using it internally. We've asked over the years. From the outside it's 404ing, so that just means that --
+**Adam Stacoviak:** Not us. So it 404s. It's protected. This is an example of it. We're just github.com/thechangelog. We cannot be changelog, because they are probably using it internally. We've asked over the years. From the outside it's 404ing, so that just means that --
 
 **Chris Coyier:** Yeah, "So what do you care?" Yeah.
 
@@ -306,7 +306,7 @@ It's actually mine."
 
 **Jerod Santo:** That's true.
 
-**Chris Coyier:** \[00:27:52.25\] We have a file in our in our app called username/blacklist.rb because, the signup process is still Rails; it's a little service we have... And every time we invent some new little thing we need, a new route of any kind, we have to remember to go into the username blacklist, and make sure that that route is not a taken username. Otherwise we risk somebody signing up for it or something, and having it conflict with the routing. It's such a silly little detail. And there has been a few cases where we had to kick somebody off a username. They had the username account, or something, and we need /account to do something... So we're like "Oh, sorry. You can't have that." I don't think anybody's ever cared. There's never been like a high profile case of it, but it is annoying.
+**Chris Coyier:** \[27:52\] We have a file in our in our app called username/blacklist.rb because, the signup process is still Rails; it's a little service we have... And every time we invent some new little thing we need, a new route of any kind, we have to remember to go into the username blacklist, and make sure that that route is not a taken username. Otherwise we risk somebody signing up for it or something, and having it conflict with the routing. It's such a silly little detail. And there has been a few cases where we had to kick somebody off a username. They had the username account, or something, and we need /account to do something... So we're like "Oh, sorry. You can't have that." I don't think anybody's ever cared. There's never been like a high profile case of it, but it is annoying.
 
 **Jerod Santo:** Right.
 
@@ -376,7 +376,7 @@ It's actually mine."
 
 **Chris Coyier:** That makes me so sad. Just yesterday, as I sat down, I saw a cool -- this is good content for a podcast anywhere. Look up Number Flow. It's a really cool component, and they make it for React, Vue and Svelte, even though it's a web component under the hood. It probably should offend Dave personally that they should just make the web component usable... But it's so beautiful. Like, just click those numbers. The shuffle button at the top of the number flow website is so beautiful, you know?
 
-**Jerod Santo:** \[00:32:14.17\] Oh, yeah. That's cool.
+**Jerod Santo:** \[32:14\] Oh, yeah. That's cool.
 
 **Chris Coyier:** And I was like "I'm going to show people this in a video." So I'll just record myself as a little video, and I'm gonna play with it, and I'm gonna show people how to use it on CodePen, too. So now I have this little video that I want to share on my social networks... And then I go to write a little tweet for it from the CodePen account. CodePen is still a little bit on Twitter. It's harder to stomach getting rid of that for business perspectives. It's easier personally... But I don't spend a lot of time there. But if I shoot a video like this, I still want to do a tweet for it. So I write out the tweet and I say "Oh look, this is a really classy web component." I put the video on there... And then I'm like "Oh, but it doesn't feel right to not put the link to the thing." I feel like it's too weird to -- like I'm just playing to the algorithm if I don't put the link, or I do this stupid little thing where you reply to it and then put the link in the reply... It just makes me vomit, for some reason. I hate it.
 
@@ -434,7 +434,7 @@ It's actually mine."
 
 **Jerod Santo:** You know? And now there's AI-generated show notes, and it starts to get where it's like "Oh, my goodness..."
 
-**Break**: \[00:35:58.02\]
+**Break**: \[35:58\]
 
 **Adam Stacoviak:** I understand the networks out there wanting to contain and subcontain, and deprioritize links... I understand where that thought process comes from. But at the same time - wow, what if you just play to the strength of the people, and the aggregators, as you said, Dave, or just people who are happy to share where things came from? A social network who embraces that, that embraces that... That's kind of Reddit, in a way. Reddit links to everything. You can go on there... And that's why Reddit kind of has stood the test of time. One, /u is great, and /r is great... But at the same time, you don't have these clashes, you have a lot of freedom in there... There's no - to my knowledge, no deprioritizing links out. It's kind of like part of the game. I will say that it's a challenging website to navigate sometimes. It's hard to understand where the content is...
 
@@ -472,7 +472,7 @@ It's actually mine."
 
 That brings me to CodePen 2.0, Chris. I mean... You're trying to probably bring some attention to that release, right?
 
-**Chris Coyier:** \[00:44:00.17\] Yeah... It's a little early, but it's about time. I've never been in this position in my career, I don't think, where I have to pick the moment which you've got to start the hype train, and that moment is like before it's fully shipped, you know? Like, I generally prefer to like get it ,done and then just tell people, and then they can use it. But I think that's probably not appropriate when you're trying to really build a bunch of enthusiasm, and stuff.
+**Chris Coyier:** \[44:00\] Yeah... It's a little early, but it's about time. I've never been in this position in my career, I don't think, where I have to pick the moment which you've got to start the hype train, and that moment is like before it's fully shipped, you know? Like, I generally prefer to like get it ,done and then just tell people, and then they can use it. But I think that's probably not appropriate when you're trying to really build a bunch of enthusiasm, and stuff.
 
 I think it's maybe just a smidge too early, but we're in alpha, and the alpha is in good shape as of recently. So if anybody listening really wants to check it out, and wants to check it out with me... Because that's how we're kind of defining alpha for us, is that we do little kind of guided tours. You're still using the website and stuff, but I kind of want to watch you do it and talk about it, and help find bugs and stuff...
 
@@ -530,11 +530,11 @@ As a developer, I kind of want to like push my cart through the aisles of techno
 
 So the idea is that -- I don't know, if you need to configure something like Astro or whatever to work with TypeScript, I don't think you need to. I think it does it. But that's just as an example. But you wouldn't if the code wasn't TypeScript by the time Astro got around to compiling it. Let's say it was already JavaScript; then it doesn't matter.
 
-\[00:47:59.13\] So it's like, what if we dealt with your SaaS first, and then it was CSS by the time that the next technology needed to touch it? Then you don't need to configure anything, because it's already been boiled down to its primitive. We think we can do that with all technology.
+\[47:59\] So it's like, what if we dealt with your SaaS first, and then it was CSS by the time that the next technology needed to touch it? Then you don't need to configure anything, because it's already been boiled down to its primitive. We think we can do that with all technology.
 
 **Jerod Santo:** All technologies. Could you use that compiler outside of CodePen context?
 
-**Chris Coyier:** Yeah, absolutely. It probably won't be open source on day one, but only for time constraint, not because we're trying to keep it as proprietary technology. I would love to ship it. I'd love to just have it be on Npm and you just grab it. And it kind of will need to be at some point.
+**Chris Coyier:** Yeah, absolutely. It probably won't be open source on day one, but only for time constraint, not because we're trying to keep it as proprietary technology. I would love to ship it. I'd love to just have it be on npm and you just grab it. And it kind of will need to be at some point.
 
 **Jerod Santo:** Yeah, I mean, that makes it way more valuable, I think, for both on and off CodePen.
 
@@ -642,7 +642,7 @@ So the idea is that -- I don't know, if you need to configure something like Ast
 
 **Jerod Santo:** That's cool.
 
-**Chris Coyier:** \[00:52:07.20\] But you can imagine, "Oh, we're going to have screens, floor to ceiling, and we'll have the creators of some of the most amazing visual stuff on CodePen coming to do it..." And we even had asked and had a bunch of yeses from those types of people, and they were going to build special exhibits for it, and that kind of thing... So sorry to those people. But I think we canceled it early enough that we didn't waste people's time too madly.
+**Chris Coyier:** \[52:07\] But you can imagine, "Oh, we're going to have screens, floor to ceiling, and we'll have the creators of some of the most amazing visual stuff on CodePen coming to do it..." And we even had asked and had a bunch of yeses from those types of people, and they were going to build special exhibits for it, and that kind of thing... So sorry to those people. But I think we canceled it early enough that we didn't waste people's time too madly.
 
 **Jerod Santo:** So - you're not having to reveal, obviously, if there's embarrassing or specific details that matter... But what made you finally pull the plug on that stuff? Because that's a hard thing to do, is actually just stop when you're so -- I mean, sunk cost fallacy is very strong. Was there a moment where you're like "You know what? We're not doing it."
 
@@ -692,7 +692,7 @@ So the idea is that -- I don't know, if you need to configure something like Ast
 
 **Jerod Santo:** It's water under the bridge.
 
-**Adam Stacoviak:** \[00:55:49.12\] I think it was actually their first time back post-pandemic, too. So they had like a lower key AV team, potentially... Not that they were not capable, it was just, everybody was sort of like getting back into a groove. And we were in a slot where it's not normally recorded.
+**Adam Stacoviak:** \[55:49\] I think it was actually their first time back post-pandemic, too. So they had like a lower key AV team, potentially... Not that they were not capable, it was just, everybody was sort of like getting back into a groove. And we were in a slot where it's not normally recorded.
 
 **Jerod Santo:** It was like an after party kind of slot.
 
@@ -774,7 +774,7 @@ So the idea is that -- I don't know, if you need to configure something like Ast
 
 **Jerod Santo:** It is hard. Yeah.
 
-**Chris Coyier:** \[00:59:51.10\] The title thing works. I hate to say it to all the dev rels out there, because - you know, God bless; you're doing good work. But when they send the dev rel to do it, it's like "Oh yeah, they're doing the thing that they're literally paid to do."
+**Chris Coyier:** \[59:51\] The title thing works. I hate to say it to all the dev rels out there, because - you know, God bless; you're doing good work. But when they send the dev rel to do it, it's like "Oh yeah, they're doing the thing that they're literally paid to do."
 
 Whereas if you get the CTO or the CEO, it's like "Oh, they really have made time specially to be here to do this. That is not their normal thing."
 
@@ -920,7 +920,7 @@ I work with the advertisers when we have one, which is not very much these days,
 
 **Chris Coyier:** Yeah, that's increasingly rare, isn't it?
 
-**Adam Stacoviak:** It is increasingly rare. But there's still some out there... I mean, recently the Departure Mono Font - they don't need a lot of extra fanfare, but I thought that was a really cool show to do... It was about a pixelized font, a pixel-based font, that was just super-cool, that I didn't really know of, just loosely before the show... And now I'm a huge fan of the Departure Mono Font, and all the work they put into it to open-source it as well. It was really cool.
+**Adam Stacoviak:** It is increasingly rare. But there's still some out there... I mean, recently the Departure Mono Font - they don't need a lot of extra fanfare, but I thought that was a really cool show to do... It was about a pixelized font, a pixel-based font, that was just super-cool, that I didn't really know of, just loosely before the show... And now I'm a huge fan of the Departure Mono Font, and all the work they put into it to open source it as well. It was really cool.
 
 **Chris Coyier:** That's a great. I think I've missed that one. I would love to watch that. Dave and I have had some good shows like that in the last year for sure, where like a tiny little spark turns into like "Let's just see if we can get them", you know? And we do, and...
 
