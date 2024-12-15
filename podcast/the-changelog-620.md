@@ -4,7 +4,7 @@
 
 **Jerod Santo:** So you've been up to some pretty cool stuff most recently on the GitHub Universe stage. You got to launch Hack Club High Seas on stage, at GitHub Universe.
 
-\[00:04:01.26\]
+\[04:01\]
 
 **Kyle:** And so we've decided to do more with Hack Club and invite all of you here, even if you're not a teen, to help us out. But there was one person who impressed me so much that I wanted them to join me on stage for the next announcement. So people of Universe, please, join me in welcoming one of Hack Club students, Acon.
 
@@ -30,7 +30,7 @@
 
 **Acon:** Yeah, so the way Apocalypse voting worked is that it was a pure vote hackathon. So in a lot of traditional hackathons you have a bunch of judges who are middle age, who you have to pitch in front of... At Hack Club and at Apocalypse the people who you want to appeal to are teenagers such as yourself. So we had people basically present their projects in the science fair demo style, and then at the end you're able to vote for your peers, and you're able to actually see all the projects that they made. Because oftentimes in other hackathons you're just not really able to do that. And I think that my favorite part of Apocalypse was actually just being able to see all of the projects laid out in a bunch of tables. That was such a cool part of it.
 
-**Jerod Santo:** \[00:07:45.25\] Well, I feel very seen, because as a middle aged man who has been asked to judge various hackathons and game jams, I oftentimes think I'm not probably the primary audience of this game, but here I am, trying to judge this game. And so what I do as a hack is I bring my kids into it, and I ask them what games they like. But pretty cool if you're having a hackathon for hack clubbers, for us, by us; have the have the youth judge the youth and decide on which ones are awesome. So how did you even find Hack Club in the first place?
+**Jerod Santo:** \[07:45\] Well, I feel very seen, because as a middle aged man who has been asked to judge various hackathons and game jams, I oftentimes think I'm not probably the primary audience of this game, but here I am, trying to judge this game. And so what I do as a hack is I bring my kids into it, and I ask them what games they like. But pretty cool if you're having a hackathon for hack clubbers, for us, by us; have the have the youth judge the youth and decide on which ones are awesome. So how did you even find Hack Club in the first place?
 
 **Acon:** Yeah, so actually I found out about Hack Club through the GitHub education newsletter... Which is really funny, actually, because I have since then -- at Hack Club I've written GitHub education newsletter takeover type things. But basically, Hack Club had this program called Sprigg that was going on - it's still going on, actually - where basically you're able to code a game and get a game console. And that was basically featured in the GitHub education newsletter. And I was interested enough to click on that, find out about Hack Club, and after that I joined the Slack.
 
@@ -50,7 +50,7 @@ So instead of laying all of our swag out in this one giant table and letting peo
 
 **Acon:** I mean, definitely. People were obsessed with the bottle caps. Before the hackathon, I thought nobody would be interested in this, or very few people would participate in it. But at the hackathon, the inflation, firstly, was crazy. So we had these giant plushies that we bought previously, that we were selling with bottle caps. Before, these plushies, at the very start of the hackathon, they went for eight bottle caps. But the thing about having a shop in a hackathon is that as an organizer you can say that things within that shop cost however much as you want it to cost... Because guess what? We live in an apocalypse. So...
 
-**Jerod Santo:** \[00:11:52.11\] \[laughs\] That's a really good point.
+**Jerod Santo:** \[11:52\] \[laughs\] That's a really good point.
 
 **Acon:** So during the middle-ish of the hackathon on the second night we held this giant auction. There were 30 people just lined up at a table. We had a stage, and everything. It was epic.
 
@@ -84,7 +84,7 @@ As for what we could have done better, I think one of the problems is that going
 
 But I think another thing I learned was just - I really need to actually price things better, because we had a bunch of hardware also for shop for bottle caps, and when you have a Raspberry Pi for 20 bottle caps, and you have a plushie for 10 bottle caps, and it's worth way less, people are going to go for the Raspberry Pi. Things could have been priced way better on that scale.
 
-**Jerod Santo:** \[00:15:35.14\] Yeah. One thing I've learned - I've seen this kind of gamification when it's based on completion. Like, do a thing to get a thing. And then, of course, you can trade that thing in for something else. It's like you said, sometimes it becomes more about the collecting of the item than it is about the actual engagement in the activity that you're trying to promote... And so what you want to promote as the main objective becomes just this thing you have to do in order to actually win the game. I've seen this at conferences. So at a lot of conferences they have all these vendor booths... And of course, the vendors are there to meet people and show off what they're up to, and stuff. So they want the attendees to come and talk to them. The attendees don't necessarily have a reason to talk to them except for swag... And so we've seen conference organizers try to gamify that scenario, where they create a sub game where you're collecting points, or you're trying to complete them all in order to get some sort of a prize... And that gets the individuals to go and have a reason to go talk to each vendor, because you have to complete them all in order to win the game. And as somebody who's been at these booths sometimes, the interactions are very - what's the word...? Shallow. Almost like "Yeah, yeah, yeah, I have to talk to you... Hey, can you scan my thing? Can I get that bottle cap? Can I get this completion marker?" You feel like you're incentivizing the interaction, but you end up actually just creating a weird, awkward scenario, wherein they don't really want the interaction, they want the end result.
+**Jerod Santo:** \[15:35\] Yeah. One thing I've learned - I've seen this kind of gamification when it's based on completion. Like, do a thing to get a thing. And then, of course, you can trade that thing in for something else. It's like you said, sometimes it becomes more about the collecting of the item than it is about the actual engagement in the activity that you're trying to promote... And so what you want to promote as the main objective becomes just this thing you have to do in order to actually win the game. I've seen this at conferences. So at a lot of conferences they have all these vendor booths... And of course, the vendors are there to meet people and show off what they're up to, and stuff. So they want the attendees to come and talk to them. The attendees don't necessarily have a reason to talk to them except for swag... And so we've seen conference organizers try to gamify that scenario, where they create a sub game where you're collecting points, or you're trying to complete them all in order to get some sort of a prize... And that gets the individuals to go and have a reason to go talk to each vendor, because you have to complete them all in order to win the game. And as somebody who's been at these booths sometimes, the interactions are very - what's the word...? Shallow. Almost like "Yeah, yeah, yeah, I have to talk to you... Hey, can you scan my thing? Can I get that bottle cap? Can I get this completion marker?" You feel like you're incentivizing the interaction, but you end up actually just creating a weird, awkward scenario, wherein they don't really want the interaction, they want the end result.
 
 I don't know if there's a workaround for that, but it's just kind of an unfortunate thing sometimes, where it's like, you don't want it to become the main thing. You want it to be the thing that incentivizes the main thing. And if you make it too cool, it's all people care about.
 
@@ -114,7 +114,7 @@ I don't know if there's a workaround for that, but it's just kind of an unfortun
 
 **Acon:** You haven't heard of Celeste?
 
-**Jerod Santo:** \[00:19:50.26\] No... You know, I'm old, so I don't know the cool, new stuff. I'm also a Nintendo generation, so I'm not -- Nintendo Switch. If it's on the Switch, I might play it. If my kids are playing it, I might play it. But otherwise I'm just -- I'm not gaming age anymore, unfortunately. So I haven't heard of Celeste, but I'm looking at the artwork of it now, and I agree with you, it's very beautiful.
+**Jerod Santo:** \[19:50\] No... You know, I'm old, so I don't know the cool, new stuff. I'm also a Nintendo generation, so I'm not -- Nintendo Switch. If it's on the Switch, I might play it. If my kids are playing it, I might play it. But otherwise I'm just -- I'm not gaming age anymore, unfortunately. So I haven't heard of Celeste, but I'm looking at the artwork of it now, and I agree with you, it's very beautiful.
 
 **Acon:** Celeste has an amazing plot, or everything. When I was younger, I also played a ton of Splatoon 2.
 
@@ -148,7 +148,7 @@ I actually really got into doing design and stuff in Figma, which is -- you've p
 
 **Acon:** I mean, it's pretty fun. I like being able to put the things that I create on a platform that's accessible to people outside of what's physically close to me. But also, on design and art itself, I do actually really enjoy vector art, and moving around points, and such... I find that when you do design things for web, things load much, much faster when it's vector, just because of the nature of it, versus raster art. So honestly, it's been pretty enjoyable.
 
-**Break**: \[00:23:17.21\]
+**Break**: \[23:17\]
 
 **Jerod Santo:** Tell me about Hack Club High Seas. "Build personal projects, get free stuff..." So, of course, there's our incentives; lots of cool giveaways. What's the big idea here? And maybe even some of the details.
 
@@ -182,7 +182,7 @@ And also, Hack Club has a variety of other programs you can participate in, that
 
 **Acon:** Yeah. So GitHub gave us a ton of money. Not sure if I'm allowed to disclose how much. Also, a ton of the prizes on the shop are actually sponsored by the companies themselves. For example, Framework just gave us a bunch of laptops. I think they also did that with Arcade, which is pretty cool. If you're a part of a company and you want to put a product into our shop, feel free to contact us. We're always looking for more cool stuff to give out to teenagers. But yeah.
 
-**Jerod Santo:** \[00:32:05.26\] I need to show this to some of my teenagers, because we have been playing this game called Nitro Type - by "we", I mean my sons have been... Which is basically a gamified typing website, like teach them to type... And the amount of engagement that sucker has drawn, especially out of my 10-year-old, is somewhat miraculous. If I show them - and they can't win anything with that. I think it's just you get points, and then you can build a team... It's like a racing-themed learn-how-to-type program. If you show them actual, real hardware that they can potentially win, such as a Bamboo A1 Mini or a Flipper Zero... I mean, I can imagine that this is the easiest sell in history to get people involved, isn't it?
+**Jerod Santo:** \[32:05\] I need to show this to some of my teenagers, because we have been playing this game called Nitro Type - by "we", I mean my sons have been... Which is basically a gamified typing website, like teach them to type... And the amount of engagement that sucker has drawn, especially out of my 10-year-old, is somewhat miraculous. If I show them - and they can't win anything with that. I think it's just you get points, and then you can build a team... It's like a racing-themed learn-how-to-type program. If you show them actual, real hardware that they can potentially win, such as a Bamboo A1 Mini or a Flipper Zero... I mean, I can imagine that this is the easiest sell in history to get people involved, isn't it?
 
 **Acon:** Yeah, definitely. If you're a teenager and you want awesome prizes...
 
@@ -208,7 +208,7 @@ And also, Hack Club has a variety of other programs you can participate in, that
 
 **Jerod Santo:** Now, imagine a 17-year-old Jerod; a little coder Jerod at 17... Which - when I was 17, I could code exactly zero things. In fact, I was so impressed by one of my high school friends who was in coding class - I didn't even know there was one - and he could change a sprite on a web page. It was a Secret of Mana sprite. I'm not sure if you know that video game. It's an old one, but a really good one.
 
-**Sound Sample:** \[00:35:09.14\]
+**Sound Sample:** \[35:09\]
 
 **Jerod Santo:** The main character would be Color. And in the game Secret of Mana, if you die, you turn into stone at some point. There's a spell cast, and you turn into stone. And he actually could change it to where he -- and I remember him being like "Dude, you've got to see this. Come look what I did." And he brought me over to the computer terminal. And it was GeoCities.... I'm just giving out nouns now for the old people to also remember the nostalgia... And if you hovered over that thing, it would turn from full-colored sprite to stone. And it was amazing. And I was so impressed. I'm like "This guy is a computer hacker." So that was me probably at 17. But imagine me at 17 with a little bit of coding skills. Maybe I've been hanging out in Hack Club for a little bit, maybe I've been doing some stuff... I can handle an on-hover event inside JavaScript... And I want a Framework laptop, gosh darn it. And I'm broke, because I'm 17. I've got a bunch of time, but not a lot of money. It says here that's going to cost me 4,980 doubloons. What's my straightest line between here and there? How do I get that many doubloons?
 
@@ -244,7 +244,7 @@ And also, Hack Club has a variety of other programs you can participate in, that
 
 **Jerod Santo:** Right. So he's kind of like Peter Pan when he has to leave Neverland and go back to the real world and be like "Okay, this thing has to actually ship, because GitHub gave us a bunch of money and we have to do the thing." So yeah, you've got to get stuff done, but it's still really cool stuff that y'all are working on.
 
-**Acon:** \[00:40:06.11\] Yeah. Zach is a very motivating person to be around.
+**Acon:** \[40:06\] Yeah. Zach is a very motivating person to be around.
 
 **Jerod Santo:** I bet. He's definitely inspired quite a movement here. Here's something that's really cool for our developer audience who's listening to this, is that there's special prizes. So of course, I pointed out the most expensive one, or what looks the most expensive, which would be the Framework laptop. Maybe the iPad's actually -- no, I mean, by doubloon count, it's about twice as much as an iPad. So there you go. There's the most expensive hardware. However, there's also special prizes, which - you can't buy this with money: access to really smart people.
 
@@ -262,7 +262,7 @@ So there's two special prizes, and if you're lucky enough to win, you can get a 
 
 **Jerod Santo:** Love it.
 
-**Break**: \[00:42:25.10\]
+**Break**: \[42:25\]
 
 **Jerod Santo:** So what's next for you, Acon, inside of Hack Club, or outside? What are you up to? What are you interested in? What are you working on?
 
