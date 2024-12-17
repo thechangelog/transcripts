@@ -78,7 +78,7 @@
 
 **Richard Hartmann:** No, you're right. One is additive manufacturing, and one is subtractive manufacturing, so it's literally coming from opposite ways... But the kind of thing at least I tend to do is roughly the same, which is basically useful stuff around the house, and you can use both for either. Or either for. You know what I mean.
 
-**Mat Ryer:** \[00:04:13.17\] That's the killer use case with me. The idea that you could have a -- you know, you need a spanner of a particular size, and then you would be able to just create what you need... That's like the Star Trek. That's the dream that I was sold when I watched Star Trek. And really, I do want that with food as well, ideally.
+**Mat Ryer:** \[04:13\] That's the killer use case with me. The idea that you could have a -- you know, you need a spanner of a particular size, and then you would be able to just create what you need... That's like the Star Trek. That's the dream that I was sold when I watched Star Trek. And really, I do want that with food as well, ideally.
 
 **Tom Wilkie:** Yeah. Except for creating the spanner takes three hours, and a year or two's worth of skills in CAD modeling.
 
@@ -106,7 +106,7 @@
 
 **Tom Wilkie:** Yeah, seriously. That was the whole RepRap thing. He printed the parts for me, and I beg, stole and borrow the components to put one together. It never really worked very well. I remember I bought one of Prusa's first products, which was a nozzle made out of peak. I've still got it somewhere. But that was so long ago. What's the story behind Prusa research? How long have they been around, and how did they come to be?
 
-**Pavel Strobl:** \[00:08:03.05\] Yeah. As you said, it started with Prusa Mendel. It's been 2012 by starting the company, but Prusa Mendel I think is 2009. And since then, Prusa developed multiple printers... i3 for yourself, Prusa Mini, Prusa XL, multi-tool, multi-material printers etc. But Prusa Research is not only about 3D printers, it's also about the software around, because even though you have amazing hardware, you have nothing without software. So amazing job that our developers did with the firmware, implemented the first input \[unintelligible 00:08:44.05\] without accelerometer. It's all calculated on the fly, but the values of the accelerometer are pre-calculated, and a lot of web services are online, like for example Prusa Hub or Knowledge Base, Prusa Shop, obviously... Printables, almost the biggest 3D model website that you you can find around. And there's a lot of stuff that isn't even seen, like Prusa support. That's probably the most interesting about us, because we have live support almost 24/7 for 3D printers. We have a Prusa forum, where you can ask; we have big community that we are grateful we have, and we are printing also the next 3D printers \[unintelligible 00:09:35.09\] because we can push forward because you are buying our printers, obviously.
+**Pavel Strobl:** \[08:03\] Yeah. As you said, it started with Prusa Mendel. It's been 2012 by starting the company, but Prusa Mendel I think is 2009. And since then, Prusa developed multiple printers... i3 for yourself, Prusa Mini, Prusa XL, multi-tool, multi-material printers etc. But Prusa Research is not only about 3D printers, it's also about the software around, because even though you have amazing hardware, you have nothing without software. So amazing job that our developers did with the firmware, implemented the first input \[unintelligible 00:08:44.05\] without accelerometer. It's all calculated on the fly, but the values of the accelerometer are pre-calculated, and a lot of web services are online, like for example Prusa Hub or Knowledge Base, Prusa Shop, obviously... Printables, almost the biggest 3D model website that you you can find around. And there's a lot of stuff that isn't even seen, like Prusa support. That's probably the most interesting about us, because we have live support almost 24/7 for 3D printers. We have a Prusa forum, where you can ask; we have big community that we are grateful we have, and we are printing also the next 3D printers \[unintelligible 00:09:35.09\] because we can push forward because you are buying our printers, obviously.
 
 **Tom Wilkie:** Oh, my pleasure. Yeah. No, I remember when Richie and I were first kind of exchanging notes on 3D printing, and Richie was very keen to get in touch with someone at Prusa Research and see if they were using Grafana. Richie, I can't remember the exact story. Did we see it in a video? How did we, how did we first get in touch with Pavel?
 
@@ -120,7 +120,7 @@
 
 **Pavel Strobl:** Yeah. Basically, yeah. Not only that, but everything you can imagine. A lot of plant pots, for some reason; for some reason there's a lot of them, because they are \[unintelligible 00:11:47.18\] And we have like seven printers in the office, two XLs, multiple MK4s, one Mini... And everybody just goes into the office, "Hey, can we borrow your printer?" "Yeah, yeah. Of course." And there's plant pots \[unintelligible 00:12:06.06\] around me, and tissue holders, or something like that. That's very popular. Everybody's printing that.
 
-**Tom Wilkie:** \[00:12:16.05\] And when you say your office, you literally just mean like your room in the complex, right?
+**Tom Wilkie:** \[12:16\] And when you say your office, you literally just mean like your room in the complex, right?
 
 **Pavel Strobl:** Yeah, yeah. At our department of \[unintelligible 00:12:23.06\] there's even a small SLA farm, a lot of printers in the other offices etc. You have always a place to print.
 
@@ -168,7 +168,7 @@ You can flash your firmware if you want to. And there were actually a few custom
 
 **Mat Ryer:** That's amazing.
 
-**Tom Wilkie:** \[00:16:16.20\] So it's one of the things I really like about Prusa Research, and one of the reasons why I have your printers, is because I know I can hack on them and modify them.
+**Tom Wilkie:** \[16:16\] So it's one of the things I really like about Prusa Research, and one of the reasons why I have your printers, is because I know I can hack on them and modify them.
 
 **Mat Ryer:** That's also crazy that you printed some of the 3D printer. That is a little bit baffling. That's a bit like how --
 
@@ -190,7 +190,7 @@ You can flash your firmware if you want to. And there were actually a few custom
 
 **Pavel Strobl:** Yeah. And most of them are MK4s. Then a few XLs for the details that are printable only on XL, because they are too big... And no Mini, because Mini doesn't make sense for us to have on the farm. However - yeah, thanks to the 3D printing farm, we actually increased the reliability of our printers, and we found out a few issues before the printers were released.
 
-\[00:19:56.06\] And as well with the input shaper, for example - it was tested at the farm as well, and we were actually able to get profiles for the printers optimized. And the farm is a crucial part of the company. Without the farm, we cannot produce any printer. And having a test environment like this is actually useful.
+\[19:56\] And as well with the input shaper, for example - it was tested at the farm as well, and we were actually able to get profiles for the printers optimized. And the farm is a crucial part of the company. Without the farm, we cannot produce any printer. And having a test environment like this is actually useful.
 
 **Tom Wilkie:** I really like drawing those parallels between two seemingly very unrelated activities and organizations. You do dogfooding like we do, you do open source for a lot of the same reasons we do, and your logos are black and orange.
 
@@ -216,7 +216,7 @@ For the web development, I knew that Datadog was used, but yeah, I joined Prusa 
 
 **Tom Wilkie:** No, that's super-cool. I do think, even if it's just to get Prusa Research using Prometheus for their printer development, we should add nanoseconds. I think that's a good enough reason for me.
 
-**Pavel Strobl:** \[00:24:05.29\] You can actually get metrics into Prometheus from the printers, thanks to Prusa Exporter that I wrote.
+**Pavel Strobl:** \[24:05\] You can actually get metrics into Prometheus from the printers, thanks to Prusa Exporter that I wrote.
 
 **Tom Wilkie:** Oh, did you write that? I didn't know you wrote that.
 
@@ -252,7 +252,7 @@ For the web development, I knew that Datadog was used, but yeah, I joined Prusa 
 
 **Pavel Strobl:** \[unintelligible 00:27:44.08\]
 
-**Tom Wilkie:** \[00:27:48.10\] Seriously, my dentist just down the road that I go to has a Prusa 3D printer in their shop. And if you do like an X-ray 3D scan of your mouth, they 3D print your dentures to fit. I don't think they're the final ones though. I think they send them away for the final ones. They're just for fit and finish, or something. I'm not sure. I have all my own teeth for now.
+**Tom Wilkie:** \[27:48\] Seriously, my dentist just down the road that I go to has a Prusa 3D printer in their shop. And if you do like an X-ray 3D scan of your mouth, they 3D print your dentures to fit. I don't think they're the final ones though. I think they send them away for the final ones. They're just for fit and finish, or something. I'm not sure. I have all my own teeth for now.
 
 **Pavel Strobl:** Yeah, yeah, yeah. \[unintelligible 00:28:06.12\] for temporary.
 
@@ -286,7 +286,7 @@ For the web development, I knew that Datadog was used, but yeah, I joined Prusa 
 
 **Tom Wilkie:** Were there any other kind of interesting use cases or things you've found?
 
-**Pavel Strobl:** \[00:32:11.17\] Yeah, for 3D printers it was probably the use of load cell data. Basically, if you have any 3D object in reality, you can use the load cell sensor on the nozzle to probe the model or anything you have on the printer to get the shape of the model in 3D space. It's not easy, obviously. You have to calculate a lot, and get the data from the printer... But yeah, you can actually get a 3D model from the load cell sensor. It's like a 3D scanner, and everyone -- not everyone, but a lot of people are asking when we are going to release a 3D scanner. Yeah, we already did. \[laughter\]
+**Pavel Strobl:** \[32:11\] Yeah, for 3D printers it was probably the use of load cell data. Basically, if you have any 3D object in reality, you can use the load cell sensor on the nozzle to probe the model or anything you have on the printer to get the shape of the model in 3D space. It's not easy, obviously. You have to calculate a lot, and get the data from the printer... But yeah, you can actually get a 3D model from the load cell sensor. It's like a 3D scanner, and everyone -- not everyone, but a lot of people are asking when we are going to release a 3D scanner. Yeah, we already did. \[laughter\]
 
 **Tom Wilkie:** I used my iPhone to 3D-scan a car recently, and it was quite difficult, quite painful. And so if you do happen to make a 3D scanner that can scan a car, I'll be the first in line to buy one.
 
@@ -306,7 +306,7 @@ For the web development, I knew that Datadog was used, but yeah, I joined Prusa 
 
 **Tom Wilkie:** No, that's very cool. I mean, so far you've mentioned Datadog, you mentioned Influx, now Thanos... I want to say, this is the Big Tent podcast, so we embrace all of the metrics backends. That's totally cool. But why are you moving off of Thanos to Mimir? What's motivating that move?
 
-**Pavel Strobl:** \[00:35:45.09\] For us, it's slow queries. We have over two years of data. Yeah, there's some discussions inside of the company if we need this amount of data... But yeah, there's two years of data. And if you query over 14 days, it takes a lot of time to get the data from Thanos. And yeah, that's basically the main reason. The store gateway is starting too slowly etc.
+**Pavel Strobl:** \[35:45\] For us, it's slow queries. We have over two years of data. Yeah, there's some discussions inside of the company if we need this amount of data... But yeah, there's two years of data. And if you query over 14 days, it takes a lot of time to get the data from Thanos. And yeah, that's basically the main reason. The store gateway is starting too slowly etc.
 
 **Tom Wilkie:** One of the things that we designed Mimir -- I mean, I wrote the early versions of Mimir before it was called Mimir, when it was called Cortex. But one of the things we designed it to do is lots of parallel queries, and really be able to scale in that dimension. And we did it for fun, and it turns out, at the time at least, it might not have been the thing people actually needed, because most people needed what you've just described, which is querying over months or years of data. But the thing I'm most excited about is we've finally found a use case for being able to handle high concurrent query load. And it's this new Explore Metrics. So in Grafana, the Explore Metrics, when you click on a metric, it's gonna go off and do a query for every single label behind that metric, to see which labels have kind of outliers in, and what the distributions are. And so just clicking on a metric issues like 15 queries instantaneously, and puts a lot of load on the Mimir cluster. But it's something Mimir handles very well. And it's really interesting, because we've had a lot of users tell that story where "Oh, I'm moving off of Thanos, because I started using the explore metrics and it was killing my cluster. And so I'm starting to move to Mimir, or to Grafana Cloud." We run our Grafana Cloud Mimirs with many, many replicas of the querier, to deal with this exact use case. So it kind of was a solution in search for a problem for a while, but we've found one, finally.
 
@@ -320,7 +320,7 @@ For the web development, I knew that Datadog was used, but yeah, I joined Prusa 
 
 **Mat Ryer:** Nice. Yeah, very cool. Can you beat Grot? By the way, be careful what internal jokes you do, because sometimes they do get out...
 
-**Richard Hartmann:** \[00:39:56.04\] You mean like a onesie?
+**Richard Hartmann:** \[39:56\] You mean like a onesie?
 
 **Tom Wilkie:** No, no, the Grot is -- so the thing I find amusing is the Americans don't get that. But Grot in British English is kind of dirty. Like, grotty means dirty, right?
 
