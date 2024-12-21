@@ -80,7 +80,7 @@ JS Party has a new show called Dysfunctional.fm. Nick, KBall, Amy... Go Time has
 
 **Jerod Santo:** It was just those two, yeah.
 
-**Adam Stacoviak:** \[00:07:48.00\] Just those two, for many years. And it's just a labor of love to produce these shows. It's a treadmill in the media world, and we've been doing this for 15 years... It's not like we've been doing this for a day. We've got some reps under our belt. We're swole, so to speak, in the podcast world... \[laughs\] It's funny to say it out loud... But we've been doing this for a while. And I think just having a chance to sort of pause for a moment and think about - okay, to produce a really good podcast, that has a video-first production workflow.... To do that even for this show, that produces three shows a week - we have no more bandwidth to do it. We would only be able to do that if we scale the team, or if we just didn't do it. And we haven't done it for many years.
+**Adam Stacoviak:** \[07:48\] Just those two, for many years. And it's just a labor of love to produce these shows. It's a treadmill in the media world, and we've been doing this for 15 years... It's not like we've been doing this for a day. We've got some reps under our belt. We're swole, so to speak, in the podcast world... \[laughs\] It's funny to say it out loud... But we've been doing this for a while. And I think just having a chance to sort of pause for a moment and think about - okay, to produce a really good podcast, that has a video-first production workflow.... To do that even for this show, that produces three shows a week - we have no more bandwidth to do it. We would only be able to do that if we scale the team, or if we just didn't do it. And we haven't done it for many years.
 
 You go on YouTube and you have clips only, which is great... But people have been asking us for years, "Can I get the full show on YouTube, the full video show?" And I think there's opportunity cost there, not doing it. We've missed out on audience growth, connection, more in-depth content etc. And the only way to get there really is to make a major change. That's what we did.
 
@@ -92,7 +92,7 @@ Now, there was another option... Like, we could grow our business, we could grow
 
 And so the other option is either stay at capacity, five shows a week... Technically it's like seven shows a week, because The Changelog is three episodes a week. And live that life, and make those shows; and we did that for a long time, and that was a totally legit route. Or double down on the main thing, let a few of the things that we love go, and see if their love returns to us tenfold. Now, that's just the corny saying about if you love something, let it go, right? Encourage the people who have been making those shows with us to make same, or similar, or new shows that we could support them. But independently, as their own thing, so they could have full ownership. They could have equity. And we can all podcast together, and work together, and collaborate.
 
-\[00:11:40.13\] And so I'm very excited about where it's going to go. Obviously, in the short term, it's on the bitter end of bittersweet, especially for me. I mean, speaking very personally, JS Party is like one of my favorite things. I've grown very fond of that podcast, and those people, and what we do together. And Go Time very similar. I'm not on Go Time on a regular basis. I do show up from time to time, but I'm a regular on JS Party. And so just emotionally, it's just a very hard thing to stop.
+\[11:40\] And so I'm very excited about where it's going to go. Obviously, in the short term, it's on the bitter end of bittersweet, especially for me. I mean, speaking very personally, JS Party is like one of my favorite things. I've grown very fond of that podcast, and those people, and what we do together. And Go Time very similar. I'm not on Go Time on a regular basis. I do show up from time to time, but I'm a regular on JS Party. And so just emotionally, it's just a very hard thing to stop.
 
 I'm very excited that Nick and Kball and Amy are going to continue podcasting together... And then I have a standing offer to join their show whenever I want and hang out. Because I just love the shows that we made together, and the times that we spent. So it's been a hard decision... It's been a long time coming for us. Obviously, we don't talk about our indecisions publicly.
 
@@ -136,7 +136,7 @@ And it's not like you're stopping everything, right? You're finding another home
 
 **Adam Stacoviak:** Yeah. You know, just to laser focus on one specific thing that I've personally had angst with is that we've had a great opportunity to help many brands reach developers over the years. Like, obviously, we're sponsored. Most podcasts are. Any podcast that's sustainable or being sustained is usually sponsored in some way, shape or form. You find any podcast out there. The biggest ones out there. Even Joe Rogan; he's sponsored. You know, we've had this ceiling of ability to help folks because we have limited shows. I really believe that Jerod and I are pretty good tastemakers, and I think the idea with CPU is pretty cool... And we want to help more of those brands reach more developers. And we had a ceiling. I would often tell folks - because I'm a big, big helper when I work with these different brands... And I know that I'm like "I can only help you this well with the shows I command under our belt." And I think that Jerod and I are two people, we have limited bandwidth, we add folks onto our team as necessary over the years to support us in producing podcasts... But at some point we had a limit. And now we have so much more opportunity to help more brands reach more developers through CPU.
 
-\[00:15:53.29\] So I think that's the coolest thing for me. I think being able to expand that to 10 or 15 podcasts with an index, with a single subscribe point for many really awesome developer podcasts that join this, I would say somewhat of a movement in a way... World-class developer podcasts... That's a cool thing, in my opinion. And we have this big vision that is literally at the spark of the moment at cpu.fm. And I have, and we have a big vision for it... And I think it'll be good for us, good for, like Jerod said, the awesome shows that will come from it... But I think more importantly, helping developer brands reach developers is really, really hard. The ones who have a good story - they're just so new. They need great awareness, but they're just so brand new in that story... They have almost nowhere to easily go to execute, to get the word out of who they are, what they do. And that self-serving way to me is one cool way that I see a much more bigger opportunity, for them and for us, and for the shows that get supported from it.
+\[15:53\] So I think that's the coolest thing for me. I think being able to expand that to 10 or 15 podcasts with an index, with a single subscribe point for many really awesome developer podcasts that join this, I would say somewhat of a movement in a way... World-class developer podcasts... That's a cool thing, in my opinion. And we have this big vision that is literally at the spark of the moment at cpu.fm. And I have, and we have a big vision for it... And I think it'll be good for us, good for, like Jerod said, the awesome shows that will come from it... But I think more importantly, helping developer brands reach developers is really, really hard. The ones who have a good story - they're just so new. They need great awareness, but they're just so brand new in that story... They have almost nowhere to easily go to execute, to get the word out of who they are, what they do. And that self-serving way to me is one cool way that I see a much more bigger opportunity, for them and for us, and for the shows that get supported from it.
 
 **Jerod Santo:** One other point I'd like to make on this, and then I'd love to get into your work, Gerhard, is that we have built out this portfolio of shows that we love, and listeners love, and hosts love... And it was all good. There was no real struggle, or there's no -- of course, there's the work of scheduling, and rescheduling, and sponsors, and this happens, and that happens, and we've got to get the thing out... That's all just work of producing podcasts. But I got to a point where we're doing these seven shows a week - and this is relevant to Kaizen - that I didn't have any bandwidth to actually experiment. And I was writing -- I almost said this the other day, Adam... We had Chris Coyier and Dave Rupert on the show last week, on Friends last week...
 
@@ -166,7 +166,7 @@ And you're right, it takes a certain amount of adulthood and strength of charact
 
 **Jerod Santo:** Oh, no.
 
-**Adam Stacoviak:** \[00:20:05.17\] Kaizen is now embedded into the Changelog podcast itself. Just to be super, super-clear, it was implicit. It will be more explicit here. There's nothing changing about Kaizen.
+**Adam Stacoviak:** \[20:05\] Kaizen is now embedded into the Changelog podcast itself. Just to be super, super-clear, it was implicit. It will be more explicit here. There's nothing changing about Kaizen.
 
 **Jerod Santo:** Right.
 
@@ -288,7 +288,7 @@ And you're right, it takes a certain amount of adulthood and strength of charact
 
 Or I could go downstream and like "Do I really need all that storage? Do I really need all the RAM?" And so that's where I just like close tab and move on for a little while. So no, I do not have a new Mac... But gosh, I want one.
 
-**Gerhard Lazu:** \[00:24:09.26\] Did you try to just contribute? Because that was the point. \[laughter\]
+**Gerhard Lazu:** \[24:09\] Did you try to just contribute? Because that was the point. \[laughter\]
 
 **Jerod Santo:** I'm already a contributor, Gerhard, so I didn't really have... I've used just, but I have not tried just contribute. So no, I failed you in that way.
 
@@ -368,7 +368,7 @@ What is this video? This video is the last conversation that we had with James a
 
 **Jerod Santo:** Oh.
 
-**Gerhard Lazu:** \[00:28:04.27\] It took me a while to edit the video... Did it load, by the way?
+**Gerhard Lazu:** \[28:04\] It took me a while to edit the video... Did it load, by the way?
 
 **Jerod Santo:** Yes, it loaded. I just had to pause it so I could listen to you talk.
 
@@ -416,9 +416,9 @@ But anyway, back to Kaizen. Back to the Kaizen 17. So we talked about the cpu.fm
 
 **Jerod Santo:** Right. So we'll just call it this CLI tool that you made the change easy, and now you're making the easy change... Callback to the previous episode, callback to, of course, Kent Beck's "First make the change easy. Warning, this may be hard. Then make the easy change." Classic quote from Kent Beck. Because this was like a pretty easy change for you, it looked like, in terms of this particular one. Now, you had some Neon things to do, but you can tell us about the details of how it worked... The PR itself seemed pretty straightforward and small, and then it worked, so that was my experience.
 
-**Gerhard Lazu:** \[00:32:06.12\] Very nice. I'm very glad that you experienced it that way. I'm curious, when Adam tries it out, how well this works for him.
+**Gerhard Lazu:** \[32:06\] Very nice. I'm very glad that you experienced it that way. I'm curious, when Adam tries it out, how well this works for him.
 
-The idea is that we wrap a bunch of commands that you would need to run locally. For example, installing the Neon CLI, so that you can control Neon. By the way, there's two. You can do it via Npm, or you can go and download the binary... The binary -- the version, it's a slightly different one; so there's some inconsistencies in the CLI binary from Neon. But this basically handles all of that.
+The idea is that we wrap a bunch of commands that you would need to run locally. For example, installing the Neon CLI, so that you can control Neon. By the way, there's two. You can do it via npm, or you can go and download the binary... The binary -- the version, it's a slightly different one; so there's some inconsistencies in the CLI binary from Neon. But this basically handles all of that.
 
 And what I thought would be easy -- I thought this change would be easy, but actually there were quite a few rabbit holes that I had to go down on. One, for example, was how to download it in a format which is compressed, because you don't want to download many gigabytes locally. So how do you compress it automatically? And then how do you handle extensions that exist on Neon? They're installed on Neon, but you don't have locally in your Postgres database. So there was that as well. So I had to uninstall an extension which was giving us metrics that you can do via SQL queries.
 
@@ -436,7 +436,7 @@ And so I script stuff all the time... This is basically taking a script of mine 
 
 **Gerhard Lazu:** Very nice. Oh, I'm so happy. I'm so happy. That's a huge score.
 
-**Break**: \[00:35:39.17\]
+**Break**: \[35:39\]
 
 **Gerhard Lazu:** The next one was enabling team members. The next pull request, pull request 534, was basically building on top of this, and it just enables team members to run dev with a Neon DB branch.
 
@@ -482,7 +482,7 @@ So this was a rework of what we had before. That's why it removed more lines tha
 
 Now, this command, when you're connected to a remote database, it can be slightly slower. So for me, for example, I preferred downloading all the data locally and having all of that locally, because it felt snappier. And even though the query planner - we warm up the query planner, so that things are cached, we do a couple of things like that, it still feels slower. It still is slower, because it has to do all those round trips, and they're all remote. They're all remote calls to this remote database.
 
-\[00:42:12.06\] So I think the choice is between paying the penalty once, five minutes, three minutes, depending on your internet connection to load all the data, and then you know you have the latest, or pay a little bit of penalty every time you load the page, because it may take, I don't know, a second slower sometimes, depending on how many queries you're running. So both options are there. Knowing Adam, I think he would prefer the second option, so that he's connected against a remote database, and I think you would prefer the first option. So we have a mix of both.
+\[42:12\] So I think the choice is between paying the penalty once, five minutes, three minutes, depending on your internet connection to load all the data, and then you know you have the latest, or pay a little bit of penalty every time you load the page, because it may take, I don't know, a second slower sometimes, depending on how many queries you're running. So both options are there. Knowing Adam, I think he would prefer the second option, so that he's connected against a remote database, and I think you would prefer the first option. So we have a mix of both.
 
 **Jerod Santo:** I think that's probably accurate.
 
@@ -526,7 +526,7 @@ But as a user, I kind of want the Slack world in a way where it's just like ever
 
 Whereas in Slack, that conversation would have just died, and got reborn, and the context of prior conversations isn't there. So you have this community, keep it together, long-run conversations that can be potentially months, maybe even years... And that's just not equally as possible in Slack. You can do it, it's just not present so easily in the UI. That's what I love about Zulip.
 
-**Gerhard Lazu:** \[00:45:59.11\] Yeah. It did take me a while to get used to the idea that everything is a thread...
+**Gerhard Lazu:** \[45:59\] Yeah. It did take me a while to get used to the idea that everything is a thread...
 
 **Adam Stacoviak:** Yeah.
 
@@ -558,7 +558,7 @@ But it's definitely better. It's better than Slack in many ways. And while we ar
 
 Our new episodes are still posting there. I haven't quite made that change yet. I figured we'd do some sort of more big announcement first, and like encourage people who are still in Slack one last time to come over to Zulip... But we do have a lot of team chats and private chats that are ongoing and used, that we haven't quite gotten cut over to. And some of them, like I said, are with folks from partner podcasts and stuff. I don't know. We haven't decided if we're going to actually like close the Slack. But we would like to.
 
-**Adam Stacoviak:** \[00:50:06.02\] Yes. It would be nice to just not have to have it as an option so that you miss conversations or have to track one more place. I think the sad part about our Slack is that it is a free Slack, and so that means after the rolling time schedule they have, conversations just go away. And that's not cool. I just really hope that Slack goes away for us. I love Slack. My real hope, I suppose, maybe if I rewinded prior to Zulip -- I have two hopes. I would love Slack to support communities better, and support non-enterprise, not so that they can... I think there's just so many people who have Slack embedded into their world. It's not going away. I'm part of other Slack. So Slack isn't going to go away for me. It might go away for Changelog, but it's not going to go away for me as an individual human being.
+**Adam Stacoviak:** \[50:06\] Yes. It would be nice to just not have to have it as an option so that you miss conversations or have to track one more place. I think the sad part about our Slack is that it is a free Slack, and so that means after the rolling time schedule they have, conversations just go away. And that's not cool. I just really hope that Slack goes away for us. I love Slack. My real hope, I suppose, maybe if I rewinded prior to Zulip -- I have two hopes. I would love Slack to support communities better, and support non-enterprise, not so that they can... I think there's just so many people who have Slack embedded into their world. It's not going away. I'm part of other Slack. So Slack isn't going to go away for me. It might go away for Changelog, but it's not going to go away for me as an individual human being.
 
 **Jerod Santo:** Yeah. Same. I would love it if Slack supported communities better. And that way, places like Changelog could have had some sort of relationship that didn't have to be free. We don't want to be freeloaders to Slack. We would love to pay, but we have 7,000 people in main at one point... Not all of them active, but if we had to pay for everybody in there... OMG. We would go broke, right? We can get it sponsored maybe, but then it's like "Well, does that really add value to a sponsor, to support that Slack channel?" Maybe. I mean, there might be ways we could do it, but it would be kind of maybe icky to enable that.
 
@@ -580,7 +580,7 @@ I don't know how to say that really in this podcast, but there's opportunity the
 
 Cool. Okay. Well, one thing which I also liked is how when you post an episode, there is a markdown for all the chapters. And that was Jerod's magic. So even though he didn't do a lot - which I think he did, by the way; he's just being modest - this was the one thing that he did. And I love that improvement.
 
-**Jerod Santo:** \[00:53:57.21\] Thank you. This was one of these moments where you're just like "It's markdown. That's easy. Markdown has tables.
+**Jerod Santo:** \[53:57\] Thank you. This was one of these moments where you're just like "It's markdown. That's easy. Markdown has tables.
 
 I wonder if they support tables. Yes, Zulip supports markdown tables. That's pretty easy. Why not add chapters?" And the cool thing about it was I had a little bit of concern that it would be too long if you do that. However, Zulip will take long messages and collapse them by default when you first look at the thread... And so if you don't want to look at the chapters, it doesn't bug you at all, if you want to get straight to the other people's conversation.
 
@@ -624,7 +624,7 @@ I thought about linking up each chapter directly to the start time over on the w
 
 **Jerod Santo:** Yeah. I mean, even just the way that we do a pre-roll ad in our podcast - we come up with like the intro, the voiceover, and then a pre-roll ad. And it's like, is a YouTube video with a pre-roll ad at the beginning going to get action over there? I don't think the people on YouTube want that. Do we just cut straight to the interview? So there's a lot of those kind of -- and then all of a sudden now you have basically two shows you're doing for the price of one. And so, yeah, we're still figuring all that out.
 
-**Adam Stacoviak:** \[00:57:59.06\] Yeah. Two cuts. It's like a director trying to do "Oh, here's the extended cut, and the theatrical, and the producer's version of it, all in the same release." It's like, no, that doesn't happen. The extended cut always comes later. It's usually like "Oh, that was much better." Or in the case of Ridley Scott, that was much worse, because he likes his original cuts better first...
+**Adam Stacoviak:** \[57:59\] Yeah. Two cuts. It's like a director trying to do "Oh, here's the extended cut, and the theatrical, and the producer's version of it, all in the same release." It's like, no, that doesn't happen. The extended cut always comes later. It's usually like "Oh, that was much better." Or in the case of Ridley Scott, that was much worse, because he likes his original cuts better first...
 
 **Jerod Santo:** Wow. \[laughs\] Sometimes the extended cuts are much worse, because it's the director being like entirely up their own butt with their love of their story. And it's like "No, the cut was really good, actually." Your editors are excellent. Other times the extended cut's awesome. So it is hit or miss, but...
 
@@ -796,7 +796,7 @@ Speaking of improvements, there's one more that I noticed, and I was so happy to
 
 **Adam Stacoviak:** "In a world..."
 
-**Jerod Santo:** In which -- ooh, Adam should tell us. He has the actual trailer voice... In which you can just run your own little CDN with a Varnish config deployed around the world on fly.io machines, and you don't need to have a CDN anymore, because you've built your own CDN, and it makes sense, and you can just open-source it and share it with the world, and everything's simple, and you've got 20 lines of Varnish... Maybe 50, maybe 100 lines, maybe 200. You'll have to update us on the lines of Varnish.
+**Jerod Santo:** In which -- ooh, Adam should tell us. He has the actual trailer voice... In which you can just run your own little CDN with a Varnish config deployed around the world on fly.io machines, and you don't need to have a CDN anymore, because you've built your own CDN, and it makes sense, and you can just open source it and share it with the world, and everything's simple, and you've got 20 lines of Varnish... Maybe 50, maybe 100 lines, maybe 200. You'll have to update us on the lines of Varnish.
 
 **Gerhard Lazu:** Still 60. We're still on 60. That has not changed.
 
