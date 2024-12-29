@@ -56,7 +56,7 @@
 
 **Angelica Hill:** I have been able to see kind of the growth a little bit, from like 2020 onwards... Because although we've had like a lovely band of co-hosts, I think it has evolved, even in the last few years, in terms of the kind of content we do. We started leaning into like series... I think we as hosts got more into a groove, and like what kind of episodes we like doing... We've got an amazing array of different guests... So although I didn't have the pleasure of listening to the older episodes when they came out, I have gone back since and listened to them, and they're brilliant... But I kind of like that Go Time throughout its life has gone through different phases of kind of tones, hosts, focuses, formats... I think it's what has enabled us to remain so relevant and interesting for so long. And I think that is honestly a big part of why having so many different hosts I think has been great, as we all bring our own little flavors, our little styles, what we like to think about. I think it's been brilliant. But obviously, I'm biased, because we're all sitting here now because we all think it's brilliant and great...
 
-**Jerod Santo:** \[00:08:31.11\] So maybe a little context for our listeners, if you're just getting caught up and you're like "What the -- what?! This is the last episode of Go Time?" Yes, it is. You are now caught up. This will be the finale of Go Time. 340 episodes. And this is not a cancellation or a failure of Go Time. Go Time has been very strong, I think, ever since we put it on reboot, and we've been putting out episodes pretty much every week for a long time, and we have a lot of listeners, a lot of loyal listeners, a lot of friends that we've made along the way, and a lot of people who are undoubtedly not happy about Go Time going away, because it's something that they love... And myself, and Adam, my partner in crime at Changelog, are well aware of that. I'm a podcast junkie. I've had my favorite show disappear. I know what that feels like. But this is not just a Go Time thing, this is actually a Changelog-wide decision that we made, to refocus on the main thing, which is the Changelog podcast. And we're actually stopping production of not just Go Time, but JS Party, and Ship It, and Practical AI... Everything that's not the Changelog. And the reasons for that - they are varied. But in brief, we've built out this portfolio of shows to a point where we're putting out seven episodes every single week. And we did that, to the best of our ability, for years now. And I think we did an alright job, but we got to the point where we couldn't really do anything else, because we had seven episodes to put out every single week... And the fact is that Adam and I want to spend time doing other things, experimenting, exploring... I want to write more code than I currently was writing... And so this was a decision that he and I made in order to help that become a reality.
+**Jerod Santo:** \[08:31\] So maybe a little context for our listeners, if you're just getting caught up and you're like "What the -- what?! This is the last episode of Go Time?" Yes, it is. You are now caught up. This will be the finale of Go Time. 340 episodes. And this is not a cancellation or a failure of Go Time. Go Time has been very strong, I think, ever since we put it on reboot, and we've been putting out episodes pretty much every week for a long time, and we have a lot of listeners, a lot of loyal listeners, a lot of friends that we've made along the way, and a lot of people who are undoubtedly not happy about Go Time going away, because it's something that they love... And myself, and Adam, my partner in crime at Changelog, are well aware of that. I'm a podcast junkie. I've had my favorite show disappear. I know what that feels like. But this is not just a Go Time thing, this is actually a Changelog-wide decision that we made, to refocus on the main thing, which is the Changelog podcast. And we're actually stopping production of not just Go Time, but JS Party, and Ship It, and Practical AI... Everything that's not the Changelog. And the reasons for that - they are varied. But in brief, we've built out this portfolio of shows to a point where we're putting out seven episodes every single week. And we did that, to the best of our ability, for years now. And I think we did an alright job, but we got to the point where we couldn't really do anything else, because we had seven episodes to put out every single week... And the fact is that Adam and I want to spend time doing other things, experimenting, exploring... I want to write more code than I currently was writing... And so this was a decision that he and I made in order to help that become a reality.
 
 So unfortunately, Go Time, along with our other pods, which we love, which is why we haven't done this - we finally did it - is going to be retired because of that. However, it's not all bad news, y'all, because the Go Time crew are not retiring from podcasting. Of course, Mat, Johnny, Angelica, Ian, Kris and Natalie are all welcome on Changelog & Friends. Mat might even be on the very first Changelog & Friends episode of the new year. And there's a brand new Go podcast in the works called Fallthrough, which I hear gophers love fallthroughs in their code... And so we're here to talk about that as well. But that's just a little bit of the why, and the context around what's happening. Mat, back to you.
 
@@ -64,7 +64,7 @@ So unfortunately, Go Time, along with our other pods, which we love, which is wh
 
 So I'm very grateful to you and everyone on the team, and all the co-hosts. The whole podcast, I think, was just something to be really proud of. So I'm very grateful for it, I'm really pleased it happened. And yeah, it's a bit sad that it's coming to an end, but it makes sense. And I'm excited to see what's next.
 
-**Johnny Boursiquot:** \[00:12:06.15\] Yeah. Hear, hear. For me personally, GoTime was definitely a way for me to dive deeper into the world of Go. It gave me an opportunity to share my passion for the language, for the community, and it was always amazing whenever I'd go to a Go conference, and people would come up and say "Hey, you're Johnny from Go Time, right?" I'm like "Yeah..." Or somebody would hear my voice... They would be having a conversation somewhere, they'd hear my voice, they'd turn around and be like "I know that voice. Where do I know your voice from?" I'm like "Do you happen to listen to a podcast on Go?" "Yeah, that's you!" It would be amazing to get those sort of interesting situations, where people would put a face and a name and everything else, and to kind of see the impact. You don't think about it. We get on these podcasts and do these recordings every week... And oftentimes we do them and we enjoy each other's company while we record, but we don't often think about sort of the downward impact of the people who then download it, and then listen to it... We don't think of how far that sort of reaches, that domino effect. And sort of seeing that and hearing about the impact of the show over the years... It's been an incredible journey, an amazing journey. And I personally thank the Changelog team for reaching out to me all those years ago and saying "Hey, we're putting together this podcast. Here's a capacity in which you can contribute."
+**Johnny Boursiquot:** \[12:06\] Yeah. Hear, hear. For me personally, GoTime was definitely a way for me to dive deeper into the world of Go. It gave me an opportunity to share my passion for the language, for the community, and it was always amazing whenever I'd go to a Go conference, and people would come up and say "Hey, you're Johnny from Go Time, right?" I'm like "Yeah..." Or somebody would hear my voice... They would be having a conversation somewhere, they'd hear my voice, they'd turn around and be like "I know that voice. Where do I know your voice from?" I'm like "Do you happen to listen to a podcast on Go?" "Yeah, that's you!" It would be amazing to get those sort of interesting situations, where people would put a face and a name and everything else, and to kind of see the impact. You don't think about it. We get on these podcasts and do these recordings every week... And oftentimes we do them and we enjoy each other's company while we record, but we don't often think about sort of the downward impact of the people who then download it, and then listen to it... We don't think of how far that sort of reaches, that domino effect. And sort of seeing that and hearing about the impact of the show over the years... It's been an incredible journey, an amazing journey. And I personally thank the Changelog team for reaching out to me all those years ago and saying "Hey, we're putting together this podcast. Here's a capacity in which you can contribute."
 
 And yeah, it's been one of those great things that I'm very proud of to have been able to be a part of. I'm definitely going to miss it... But everything comes to an end. So perhaps this particular door closes, but other things will open up. We already know that Fallthrough is spinning out of that; that's going to be fun and interesting, I'm sure, and new things are going to emerge out of that. So this ending, so to speak, is not happening on a sad note; I'm definitely happy about that. This is not because this show and others in the Changelog catalog were failures. I think Changelog has done such an amazing job of creating these communities around these shows, and by proxy, just furthering those communities and helping them sort of grow. So definitely lots of gratitude there to the Changelog. And Jerod, he was doing that production work even before he brought on Jason to help with that... Week after week, scheduling, and all the things that have happen behind the scenes, that people have no idea about. All that work, and all that labor... And I definitely think you and the rest of the Changelog team do deserve a bit of a break, and to try and find time to sort of explore and see what's next and what's new. But yeah, overall, I'm quite happy with what we accomplished together, for sure.
 
@@ -106,7 +106,7 @@ And yeah, it's been one of those great things that I'm very proud of to have bee
 
 **Mat Ryer:** Yeah, but still... Nice. They were Go programmers, so... You've got to have a certain level of intelligence.
 
-**Jerod Santo:** \[00:16:16.14\] Well, you also get to go out there at the GopherCon stage, and sing unpopular opinions with the crowd, didn't you? I mean, that had to be a moment for you, Mat...
+**Jerod Santo:** \[16:16\] Well, you also get to go out there at the GopherCon stage, and sing unpopular opinions with the crowd, didn't you? I mean, that had to be a moment for you, Mat...
 
 **Mat Ryer:** Oh, yeah. That's true. The live shows.
 
@@ -164,7 +164,7 @@ It was amazing. And unfortunately, we couldn't capture the audio that did it any
 
 **Mat Ryer:** Yeah. Okay... Cool.
 
-**Break**: \[00:20:09.16\]
+**Break**: \[20:09\]
 
 **Jerod Santo:** Well, we've been talking about our unpopular opinions category, but we haven't heard much from our unpopular opinion maestro... That's Kris, the king of unpop, with the longest of rants, and the most extemporaneous thoughts shared. Kris, say some words.
 
@@ -242,7 +242,7 @@ And then when we were talking about Go Time, and spinning off, I was like "Okay,
 
 **Angelica Hill:** No, I ironically have not been to GopherCon EU. But I hope to go at some point. Not yet, but I hope to. No, but I go to GopherCon, and all the other ones, the US-based ones. But I've heard great things...
 
-**Mat Ryer:** \[00:28:09.02\] Yeah, they're fun.
+**Mat Ryer:** \[28:09\] Yeah, they're fun.
 
 **Angelica Hill:** They are fun. And that's the other thing, is that a lot of the people -- these lovely hosts that you don't see before you attend a lot of these conferences. So if you're missing us, you can just go to conferences, and probably one or at least two of us might be there. So there's other ways to engage if you're missing us, or if you just want to hear our voices. Not that you would, but maybe you do.
 
@@ -284,7 +284,7 @@ And so personally I felt that, but also, I think that's the beauty of Go Time, a
 
 **Angelica Hill:** And it makes me really sad to think that that forum is going to go away, but then extremely hopeful, because we have Fallthrough, because we have this continuation, and because you have, you know, all of us lovely hosts who care deeply about these topics, but also care deeply about keeping that accessibility and that openness in the community, so we'll be able to push it on. But yeah, it's amazing.
 
-**Mat Ryer:** \[00:32:20.09\] Yeah. No, there's definitely something in that. I remember -- I mean, I think having different perspectives, I think that's in itself really useful, because you learn so much, and it's usually very surprising stuff. It was also nice for -- sometimes the experts didn't know the answer. And I think that was also quite nice for people to also witness. In fact, I heard people talk to me about this, that they heard -- we had somebody on that was an expert in something, and one of the questions, they were like "Oh, I have no idea. I'd have to go and dig in and find out." And they talked a bit about how they would find out. And that was actually really useful, because that's kind of the skill. It's not knowing all the things, it's really knowing how to figure out, how to find out those things.
+**Mat Ryer:** \[32:20\] Yeah. No, there's definitely something in that. I remember -- I mean, I think having different perspectives, I think that's in itself really useful, because you learn so much, and it's usually very surprising stuff. It was also nice for -- sometimes the experts didn't know the answer. And I think that was also quite nice for people to also witness. In fact, I heard people talk to me about this, that they heard -- we had somebody on that was an expert in something, and one of the questions, they were like "Oh, I have no idea. I'd have to go and dig in and find out." And they talked a bit about how they would find out. And that was actually really useful, because that's kind of the skill. It's not knowing all the things, it's really knowing how to figure out, how to find out those things.
 
 So yeah, it felt very authentic. It wasn't any show, or trying to really be bigger than we were, or be anything that we weren't. I felt like it was very authentic, and I think that really helped also. So yeah, it was good. It was good, wasn't it?
 
@@ -318,7 +318,7 @@ So yeah, it felt very authentic. It wasn't any show, or trying to really be bigg
 
 **Mat Ryer:** No, no, credit where it's due.
 
-**Mat Ryer:** \[00:36:06.12\] Well, I heard great things for that, from people at conferences, that came up and identified as neurodiverse, and said that was just a real big surprise, to just have that subject laid out and just discussed openly. So that really did resonate. You can tell the ones that do, because you will hear back, in-person, usually. Those people remember it, and it stays with them. So that's really nice to see. And I wasn't even part of that episode, but obviously, I took credit in the moment, because... Otherwise it's really awkward. Like, I'm saying, "Oh no, you've been really nice, but I reject that. It should go towards Angelica." I'm not going to do that, am I? I'm going to say "Thank you very much."
+**Mat Ryer:** \[36:06\] Well, I heard great things for that, from people at conferences, that came up and identified as neurodiverse, and said that was just a real big surprise, to just have that subject laid out and just discussed openly. So that really did resonate. You can tell the ones that do, because you will hear back, in-person, usually. Those people remember it, and it stays with them. So that's really nice to see. And I wasn't even part of that episode, but obviously, I took credit in the moment, because... Otherwise it's really awkward. Like, I'm saying, "Oh no, you've been really nice, but I reject that. It should go towards Angelica." I'm not going to do that, am I? I'm going to say "Thank you very much."
 
 **Jerod Santo:** Are you sure they weren't thanking you for not being on? They're like "We appreciate that one." \[laughs\]
 
@@ -396,7 +396,7 @@ So yeah, it felt very authentic. It wasn't any show, or trying to really be bigg
 
 **Mat Ryer:** This would kill in Central Park. Kris, back me up.
 
-**Kris Brandow:** \[00:40:11.02\] I mean, I don't think we should be talking about killing near Central Park right now, but...
+**Kris Brandow:** \[40:11\] I mean, I don't think we should be talking about killing near Central Park right now, but...
 
 **Mat Ryer:** Oh, yes.
 
@@ -480,7 +480,7 @@ So yeah, it felt very authentic. It wasn't any show, or trying to really be bigg
 
 **Angelica Hill:** I think there was a number of times where you had to like sandwich in positives after something like a little bit dodgy happened... I think that happened a lot, where individuals would say something about certain individuals in the community, and then you'd have to be like "Yeah, but they also are great at this. And I think that they're actually wonderful... And shout-out, actually, to them."
 
-**Kris Brandow:** \[00:44:26.10\] That feels targeted, Angelica.
+**Kris Brandow:** \[44:26\] That feels targeted, Angelica.
 
 **Jerod Santo:** Yeah, I think it might be going in a specific direction... Most of us are nice.
 
@@ -586,7 +586,7 @@ So yeah, it felt very authentic. It wasn't any show, or trying to really be bigg
 
 **Carlisia Thompson:** I'm sorry, have we met? \[laughter\]
 
-**Mat Ryer:** \[00:48:03.07\] Yeah, absolutely. And honestly --
+**Mat Ryer:** \[48:03\] Yeah, absolutely. And honestly --
 
 **Jerod Santo:** It was awesome.
 
@@ -722,7 +722,7 @@ So yeah, it felt very authentic. It wasn't any show, or trying to really be bigg
 
 **Mat Ryer:** And I said "No, no, there's no script." And they're like "What? This just happens?" So that was a big compliment. Quite a surprise as well. But yeah. So they were surprised by -- it feels very natural when you're actually... It's just like a Zoom call. You sat, chatting about something.
 
-**Jerod Santo:** \[00:52:09.22\] Exactly.
+**Jerod Santo:** \[52:09\] Exactly.
 
 **Mat Ryer:** And you quickly forget about the mics. You quickly forget you're on a podcast, don't you? So you end up just talking in a little group, basically. So that's the experience. And then when it comes out, people were very shocked by exactly that. The production value, just how good it sounds when it's in that context, how legit it sounds next to other podcasts... Yeah, people are very complimentary.
 
@@ -818,7 +818,7 @@ And I'm thrilled to be on it. I think, like you said, we had so many guests, we 
 
 **Kris Brandow:** The sirens I don't mind. What I do mind is people honking their horn for 90 seconds at 2 AM. Those people -- when congestion pricing finally was like "Yeah, we're doing it", I'm like "Good. It should be double." Because I'm tired of these people honking their horns at night. Just keep raising it until people stop honking their horns.
 
-**Mat Ryer:** \[00:56:08.08\] It should be an SLO for how much you're allowed to spend on your horn... You can spend it all in one go, but that's it. Then you have to shut up for the rest of the week.
+**Mat Ryer:** \[56:08\] It should be an SLO for how much you're allowed to spend on your horn... You can spend it all in one go, but that's it. Then you have to shut up for the rest of the week.
 
 **Angelica Hill:** You're done.
 
