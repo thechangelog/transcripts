@@ -42,7 +42,7 @@
 
 **Mitchell Hashimoto:** You know, I think that one thing I've always said about terminals is that I think if you compare them conceptually to a web browser, then it starts to make a lot more sense about why I care about terminals. And what I mean by that is the web browser has, for better or worse, just - I don't think it's controversial to say that it's won sort of the graphical interface ecosystem of the world. Like, if someone's building a graphical interface today, 9 out of 10 times, probably more than 9 out of 10 times, they're using a web technology, whether it's actually in the browser, or Electron, or whatever it is. And I think there's still a good place for text-based interfaces, and the terminal has always been the place for text-based interfaces.
 
-\[00:08:21.20\] And sometimes the terminal lives in a browser - you know, if you're using like a web-based text editor, and stuff. But I think that if you look at web browsers, they get hundreds - maybe like a couple hundred if you're being conservative - new features and innovations every year. And if you look at a terminal, they get - I don't know, you can't probably count on a couple of hands how many they get per year... And I just don't think it's a very exciting, innovative platform for developers. And I just sort of am wondering, what happens if you do make it exciting? Or does it become exciting? I don't know. And to me the worst case, if it doesn't become exciting, is - we still use terminals every day. So at the very least, I think you've built a better terminal. So yeah.
+\[08:21\] And sometimes the terminal lives in a browser - you know, if you're using like a web-based text editor, and stuff. But I think that if you look at web browsers, they get hundreds - maybe like a couple hundred if you're being conservative - new features and innovations every year. And if you look at a terminal, they get - I don't know, you can't probably count on a couple of hands how many they get per year... And I just don't think it's a very exciting, innovative platform for developers. And I just sort of am wondering, what happens if you do make it exciting? Or does it become exciting? I don't know. And to me the worst case, if it doesn't become exciting, is - we still use terminals every day. So at the very least, I think you've built a better terminal. So yeah.
 
 **Jerod Santo:** Well, two tools that I use every day as a working developer is a browser and a terminal.
 
@@ -60,7 +60,7 @@ Cross-platform, it works -- for the launch it'll work on Mac and Linux, and nati
 
 **Jerod Santo:** How do terminal folks define fast? Is it input lag? Is it --
 
-**Mitchell Hashimoto:** \[00:11:39.17\] That's a great question, because actually when people say this terminal or that terminal is fast or slow, it actually really frustrates me, because it's so complicated how you define that. Because fast doesn't mean anything if you just say fast, unless you're saying in every category possible, which no terminal is. And so yeah, there's a few ways people tend to define fast... One of the ways is simply how fast it could read files, how fast text can go through your terminal. Some people say that's a useless metric... I think it's super-important, because tailing logs or accidentally catting a file is stuff we do all the time.
+**Mitchell Hashimoto:** \[11:39\] That's a great question, because actually when people say this terminal or that terminal is fast or slow, it actually really frustrates me, because it's so complicated how you define that. Because fast doesn't mean anything if you just say fast, unless you're saying in every category possible, which no terminal is. And so yeah, there's a few ways people tend to define fast... One of the ways is simply how fast it could read files, how fast text can go through your terminal. Some people say that's a useless metric... I think it's super-important, because tailing logs or accidentally catting a file is stuff we do all the time.
 
 **Jerod Santo:** Oh, yeah.
 
@@ -82,7 +82,7 @@ I think that -- it's either number one or number two. I think Ghostty is the onl
 
 In terms of this platform, this TUI platform, are you thinking beyond version one is maybe more native ways to do TUIs kind of thing? What are your thoughts on beyond this realm?
 
-**Mitchell Hashimoto:** \[00:16:03.23\] Yeah, that's exactly right. That's the way I would look at it. The question I've asked people is when they're not using a terminal for something, especially if it's very terminal-esque... So for example, the people I like talking to the most right now are people that use something like MacVim or NeoVim in a separate, native application, or something like that. I usually ask them "Why aren't you using Vim in a terminal? They're so close, so why aren't you doing that?" And even going further than -- I will ask people that simply use VS Code or a total non-editor; I mean, anything... "What draws you to using a graphical interface over a terminal one?" and right now that answer is really easy, in a lot of cases. There's really obvious reasons why the terminal version is inferior, and my goal is to look into how to improve that.
+**Mitchell Hashimoto:** \[16:03\] Yeah, that's exactly right. That's the way I would look at it. The question I've asked people is when they're not using a terminal for something, especially if it's very terminal-esque... So for example, the people I like talking to the most right now are people that use something like MacVim or NeoVim in a separate, native application, or something like that. I usually ask them "Why aren't you using Vim in a terminal? They're so close, so why aren't you doing that?" And even going further than -- I will ask people that simply use VS Code or a total non-editor; I mean, anything... "What draws you to using a graphical interface over a terminal one?" and right now that answer is really easy, in a lot of cases. There's really obvious reasons why the terminal version is inferior, and my goal is to look into how to improve that.
 
 Concretely, for example, one of the things that people brought up with Vim is that in the terminal version you can't drag and drop things like images, or even things like files, to a certain extent. You can't just drag a file into Vim and have it open a new tab. Going a little bit further, if you right-click in Vim in the native app, you'll get a native context menu, and if you right-click in the terminal, you get this kind of funky block character drawn one, and that doesn't feel great. In the native Vim you could have native tabs. And so one of the things I'm actually looking into is how can you get a terminal program to be able to use native tab widgets, even though it's driven by one program, but it's showing up as multiple distinct tabs that you could pull out in separate windows, and stuff like that.
 
@@ -98,7 +98,7 @@ But TMUX is a weird thing, because -- I've been using it for years, but really i
 
 **Mitchell Hashimoto:** I think so. So there are terminal people out there that I don't need to shame, but they are sort of militant about disliking multiplexers. I'm not that person. If you want to use a terminal multiplexer in Ghostty, I want to make it work. However, I do think that terminal multiplexers make the terminal experience worse. But there's no better option right now, so it makes sense that you're using them.
 
-\[00:19:58.29\] So the reason I think a lot of people don't think about this is a terminal multiplexer is itself a full-fledged terminal, where its UI is just text that's going to another graphical terminal. Like, you're running multiple levels of terminals. And one of the first places that causes issues is there's features that Ghostty supports, that because something like TMUX doesn't support, you no longer get.
+\[19:58\] So the reason I think a lot of people don't think about this is a terminal multiplexer is itself a full-fledged terminal, where its UI is just text that's going to another graphical terminal. Like, you're running multiple levels of terminals. And one of the first places that causes issues is there's features that Ghostty supports, that because something like TMUX doesn't support, you no longer get.
 
 **Jerod Santo:** You lose it.
 
@@ -128,7 +128,7 @@ So I guess the point being is I'm trying to come at this multiplexer problem fro
 
 **Mitchell Hashimoto:** In my personal world it's not super-important, but in the world of software it's hugely important. And I could go back to Vagrant for this one... I mean, when I really focused in, I actually -- one thing I did probably the year after we talked back in 2013 is I bought a Windows PC, a ThinkPad, and I used Windows full-time for a year... And that was because I really wanted to empathize with what the problems were with Vagrant on Windows. I didn't want to just get it working in a couple hours, one evening, and go away. I really wanted to live in that ecosystem and understand.
 
-\[00:24:08.12\] And Windows got a lot better. I made installers, things like that... And the end result was that the Vagrant growth was absurdly huge, because the Windows software development ecosystem is extremely large, and they have a lot of paper cuts that they're dealing with. And so I think the same thing with terminals. I think that it's really important. It's hard enough for sort of me as an individual to do Linux and Mac sort of as a side project. Windows didn't make it for 1.0, but it's something I really want to do for future releases.
+\[24:08\] And Windows got a lot better. I made installers, things like that... And the end result was that the Vagrant growth was absurdly huge, because the Windows software development ecosystem is extremely large, and they have a lot of paper cuts that they're dealing with. And so I think the same thing with terminals. I think that it's really important. It's hard enough for sort of me as an individual to do Linux and Mac sort of as a side project. Windows didn't make it for 1.0, but it's something I really want to do for future releases.
 
 **Jerod Santo:** I ask that because invariably, somebody out there is thinking "He keeps saying cross-platform, but us Windows folks don't get any love." And so...
 
@@ -158,7 +158,7 @@ And so LibGhostty to me is like the actual impactful thing that's going to happe
 
 **Adam Stacoviak:** I'm glad it doesn't have to be a business. I was worried. I was like "What is the -- do you want to build another HashiCorp here?" But probably not with this... And to zoom out a little bit, I think it's kind of cool of you, I suppose, to -- some would say "Well, you don't have to do anything, Mitchell. You could just go and fly, as you do." You don't have to satiate any of these technical chops you have, or you want to play around in areas you've never had a chance to play around in... You could just simply just go and do something else. But instead, you're steeping yourself in an area where you really haven't had a chance to do so... And it will be impactful.
 
-\[00:28:09.22\] I think the Wikipedia of the future for you will be so cool, because you could have had "Just walk away, do your thing." Family, whatever. And congratulations on the recent addition to your family, of course, but...
+\[28:09\] I think the Wikipedia of the future for you will be so cool, because you could have had "Just walk away, do your thing." Family, whatever. And congratulations on the recent addition to your family, of course, but...
 
 **Mitchell Hashimoto:** Thanks.
 
@@ -166,7 +166,7 @@ And so LibGhostty to me is like the actual impactful thing that's going to happe
 
 **Mitchell Hashimoto:** Thanks. Yeah. Whatever people write on Wikipedia, if there's anything, then fine. But I think part of the way I've described Ghostty is this idea of technical philanthropy. And one of the things I know about myself is -- I just love programming, and I love building, and I knew that wasn't going to stop no matter how much career success I had, or things like that. And so my thinking was "If I'm going to spend time on the computer programming anyway, is there a way to make that time meaningful?" And I'm sure there's more directly meaningful ways that I could spend that time, but I felt that doing this broadly-used category of software for free, and trying to make it good, I guess - for a blunt term, just good - could be meaningful. So yeah, it's definitely a part-time thing. I don't spend 40 hours a week. I spend barely maybe 10 or 15 on this. And it's just the way I could have fun and pursue my passion, but still feel like I'm helping something.
 
-**Break**: \[00:29:35.26\]
+**Break**: \[29:35\]
 
 **Adam Stacoviak:** Who's the 'we' behind Ghostty? I know that you are the obviously the inceptor of it, but who else? There's a community, how have you leveled up, who's involved...? Roles, responsibilities? I have to say, I didn't get, or somehow missed the email that you invited me personally - and Jerod, I'm sure too - into this beta... I went into the Discord like any other community member...
 
@@ -194,7 +194,7 @@ And so LibGhostty to me is like the actual impactful thing that's going to happe
 
 **Mitchell Hashimoto:** There's a funny detail to that, I think... Is that I thought for sure when I started working on a terminal more seriously that very few people, first of all, would care. But of those very few that cared, I thought that demographically, it would skew to a more mature audience. But what I've discovered is that a lot more people care about the terminal than I expect, and predominantly of those people, it is young people. And when I say young people, I literally mean teenagers in school, a lot of teenagers in school, up to early 20s, early career type people. And because of that, there's some shenanigans, I will say, within the Discord.
 
-**Adam Stacoviak:** \[00:36:15.20\] Okay...
+**Adam Stacoviak:** \[36:15\] Okay...
 
 **Jerod Santo:** \[laughs\] Love it.
 
@@ -262,7 +262,7 @@ And so we've talked about "Can we set up, whether it's -- is it sponsorships? Is
 
 I think I got a little bit more serious probably a little over a year ago... Yeah.
 
-**Jerod Santo:** \[00:40:06.22\] Did you ever consider post-Hashi, like farming, or something? This is a cliché, but... Just not doing software for a while. Trying something completely different. I mean, we know you fly planes, but that's more of a hobby, right?
+**Jerod Santo:** \[40:06\] Did you ever consider post-Hashi, like farming, or something? This is a cliché, but... Just not doing software for a while. Trying something completely different. I mean, we know you fly planes, but that's more of a hobby, right?
 
 **Mitchell Hashimoto:** I do fly planes. I do. Yeah. That is a hobby. But I didn't get all pessimistic, like a lot of people get. I still love technology, and I think that technology is getting better, and I think that there's a lot that could be done with it still... So I knew that I was going to stick around and do something.
 
@@ -286,7 +286,7 @@ And so I think I did spend that time, but on the other side, I'm not someone tha
 
 **Mitchell Hashimoto:** Oh yeah. I mean, even when I was just doing Ghostty, literally at night after the baby slept, I was actually doing it -- I require a lot less sleep than my wife. I've always been like a six-hour-a-night kind of guy, and so I was actually -- when she was an infant and waking up in the middle of the night, I was just not going to sleep before she woke up that first time. I was like "I will just work, and then I will handle the baby, and feed her the bottle and put her back to sleep, and then I'll go to bed after that." That was sometimes midnight or something, and I would sometimes run into -- my wife, when she was awake, I'd run over to her and have my phone out, and I'd be like "Look at this, look at this." And she's like "Oh, do you have a cute video of our daughter?" And I'd show her the video and it would be like font rendering. \[laughter\] She was so disappointed.
 
-**Jerod Santo:** \[00:43:52.08\] I think if there was a nerd snipe bingo card, like if we were playing bingo for how you would nerd snipe somebody, and you had like "Prolific open source maintainer who builds unicorn business and retires, and then comes back to reinvent a terminal, and then chooses Zig as a programming language..." Those are all things where it's like -- I know why there's 25,000 people in that Discord. You have all of the different ingredients, which is really awesome... And that's just a way of setting up a question about Zig. Why did you go that route? Because that's an interesting choice, an interesting language, and a burgeoning one.
+**Jerod Santo:** \[43:52\] I think if there was a nerd snipe bingo card, like if we were playing bingo for how you would nerd snipe somebody, and you had like "Prolific open source maintainer who builds unicorn business and retires, and then comes back to reinvent a terminal, and then chooses Zig as a programming language..." Those are all things where it's like -- I know why there's 25,000 people in that Discord. You have all of the different ingredients, which is really awesome... And that's just a way of setting up a question about Zig. Why did you go that route? Because that's an interesting choice, an interesting language, and a burgeoning one.
 
 **Mitchell Hashimoto:** Yeah. You could find a tweet I did I think end of 2021, very early 2022, where I talked about how I was interested in Zig, but I had no time to use it... And it was always in the back of my mind of this interesting programming language. And I think, as important background to me - I was a professional, paid C programmer for a year or two of my life, somewhere between a year and two years of my life. And I like low-level system stuff. I actually like C, and so I wanted to -- HashiCorp was very close to getting all its software written in C, by the way. It was very close. It was between C and Go, and Go won, but it was very close to C. And I wanted to get back to systems programming, but I recognized the warts that C had, and I was looking for a better C... And Zig to me always felt like that. And years into using Zig, I feel the exact same way. I feel better about it. It brings me joy every day to write Zig... And so that's really it.
 
@@ -304,7 +304,7 @@ I hate to put it in that perspective, because I think engineers want some sort o
 
 **Mitchell Hashimoto:** I think so. I think so. And I think Andrew and people on the project would say the same thing. I mean, very directly, before the project I literally contributed to the compiler. So there's that very direct, personal relationship. But with the project -- I mean, Zig's such a new, burgeoning language that there aren't very many real world users. And I think having this real-world use case exposed a lot of - not just bugs, but ergonomic improvements and issues.
 
-\[00:48:01.09\] A couple of very big things that popped up really immediately was the need for package management, which is now sort of solved and within Zig. And beyond that, the need to enable system packagers, which are separate. One of the things I'm doing with Ghostty is I'm not doing any of the packaging. I'm going to release the source... I'm going to do the Mac app, because that's kind of -- you need to kind of pay, and sign in, blah, blah, blah. But all the Linux stuff, if you want to Ubuntu app package or RPM or Nix package - I'm not doing any of that. And that's pretty classic. Open source packagers are other people. But Zig is such a new thing that I knew that would be challenging for those people. And so Andrew did a really good job of listening to my feedback about other real world projects, and building in this system packaging mode and guidelines into Zig, where I feel pretty good about when we go public that we're going to be in a place where hopefully Ghostty pops into Debian repos and stuff pretty quickly. But that's, I think, a good example of how things go.
+\[48:01\] A couple of very big things that popped up really immediately was the need for package management, which is now sort of solved and within Zig. And beyond that, the need to enable system packagers, which are separate. One of the things I'm doing with Ghostty is I'm not doing any of the packaging. I'm going to release the source... I'm going to do the Mac app, because that's kind of -- you need to kind of pay, and sign in, blah, blah, blah. But all the Linux stuff, if you want to Ubuntu app package or RPM or Nix package - I'm not doing any of that. And that's pretty classic. Open source packagers are other people. But Zig is such a new thing that I knew that would be challenging for those people. And so Andrew did a really good job of listening to my feedback about other real world projects, and building in this system packaging mode and guidelines into Zig, where I feel pretty good about when we go public that we're going to be in a place where hopefully Ghostty pops into Debian repos and stuff pretty quickly. But that's, I think, a good example of how things go.
 
 And then just compiler stability. I mean, the Zig compiler moves super-fast, and I'll regularly just say Ghostty doesn't compile anymore, not because you made a breaking change, but because something's actually broken. And I believe they use Ghostty here and there as sort of a canary of whether the compiler is stable. Like, "Can Ghostty build and run?" If Ghostty can build and run, it's a pretty good sort of like big integration test for the whole compiler.
 
@@ -328,7 +328,7 @@ And even just today, just total coincidence today, I tweeted about a bug I found
 
 And so I think, in addition to sort of the core technical challenges of so many different phases of fonts, there's also like people that just come up and say "It doesn't look good. Nothing's wrong, it's just I don't like the way it looks." And then you kind of have to dig into why that is, and Ghostty provides a ton of knobs for those people to get fonts looking the way you want. And then our gold standard has basically been we want our fonts to look like Mac default. So like text edit, honestly, is our gold standard. The way text looks in text edit is the way it's going to look in Ghostty by default.
 
-\[00:52:09.03\] So yeah, that's been that... But I think also just finding all the layers I never thought about. I think the first one that shocked me, that I had never considered as an engineer, was "How do you pick a default font?" You have a monospace application; in a web browser, you say "Font family monospace", and the web browser picks it for you.
+\[52:09\] So yeah, that's been that... But I think also just finding all the layers I never thought about. I think the first one that shocked me, that I had never considered as an engineer, was "How do you pick a default font?" You have a monospace application; in a web browser, you say "Font family monospace", and the web browser picks it for you.
 
 **Jerod Santo:** Right. It's like a fallback.
 
@@ -386,7 +386,7 @@ And so that was the first thing where I was like "Why am I thinking about this?"
 
 **Adam Stacoviak:** Can't do that. No.
 
-**Jerod Santo:** \[00:56:15.22\] Totally.
+**Jerod Santo:** \[56:15\] Totally.
 
 **Adam Stacoviak:** It's ui-monospace is what you do in the cascade of the CSS font stack.
 
@@ -753,7 +753,7 @@ And it's just like some sort of education, and I'm hoping that there's terminal 
 
 **Mitchell Hashimoto:** Thanks.
 
-**Jerod Santo:** I appreciate all this, open-sourcing it... The technical philanthropy, reinventing an awesome terminal from the ground up...
+**Jerod Santo:** I appreciate all this, open sourcing it... The technical philanthropy, reinventing an awesome terminal from the ground up...
 
 **Mitchell Hashimoto:** I appreciate it.
 
