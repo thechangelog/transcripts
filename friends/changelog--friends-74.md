@@ -86,13 +86,13 @@
 
 **Adam Stacoviak:** Breakmaster Cylinder...
 
-**Jerod Santo:** \[00:08:01.16\] I was thanking BMC for making all these remixes, and telling him it makes this episode extra special for us and our listeners... And BMC said "I really like it. You've got a whole community thing going on", which is kind of how BMC types. And that's true. We have a cool community thing going on, and we appreciate that. It makes not just this episode awesome, but really what we do awesome. So thank you to everybody who called in.
+**Jerod Santo:** \[08:01\] I was thanking BMC for making all these remixes, and telling him it makes this episode extra special for us and our listeners... And BMC said "I really like it. You've got a whole community thing going on", which is kind of how BMC types. And that's true. We have a cool community thing going on, and we appreciate that. It makes not just this episode awesome, but really what we do awesome. So thank you to everybody who called in.
 
 We have 12 voicemails, same as last year, and we have one person who sent theirs in at the last minute. And if you listen to last year's, you already know who that person is. We'll save them to the end, because you know, they deserve it. So let's get straight into it.
 
 Our first caller in is A.J. Kerrigan.
 
-\[00:08:47.15\]
+\[08:47\]
 
 *Hi Adam, hi Jerod. It's a mother rando named A.J. Kerrigan. There was a bit of a theme to some of my favorite episodes this year. They talked about taking control of your own workspace, your tools, your environment, and thinking through what's important to you... And that could be starting at the hardware level, the lowest level. The interview with Kyle from iFixit, or with Erez from ZSA about customizable ergonomic keyboards... That's building a solid base. And then moving up the stack to the OS, the Linux distros episode with Jorge Castro on Ship It was another fantastic one.*
 
@@ -116,7 +116,7 @@ Our first caller in is A.J. Kerrigan.
 
 **Jerod Santo:** And BMC took that reference and ran with it. Here is AJ Kerrigan's BMC remix.
 
-\[00:10:59.27\]
+\[10:59\]
 
 **Adam Stacoviak:** So dope.
 
@@ -138,7 +138,7 @@ Our first caller in is A.J. Kerrigan.
 
 **Jerod Santo:** Yes. Alright, thanks, AJ. That is awesome. Next listener, somebody new... Lots of familiar voices and names, but we have a new listener here calling in. Erno - now, you mentioned the type form. I do ask for pronunciation help. And this fellow's name is, I believe, Erno, but his last name is Voutilainen, Voutilainen...? I don't know. I don't know how to say it. And under the pronunciation help, he wrote E, as in Enter, but I'm fine with any pronunciation. So he gave us help on the first name. Erno. But come on, man... I can't pronounce Voutilainen. Let's hear from Erno.
 
-\[00:13:17.20\]
+\[13:17\]
 
 *Dear Adam and Jerod... Greetings from all the way from Finland, the land of the happiest people on planet, as you might know... Just to clear the myth up front, I think the reason for our happiness is just the fact that everyone must be listening to the Changelog, obviously... Or maybe it's just me and I'm weird. But honestly and sincerely, I love what you do. I've been listening for a few years already, so I decided it's about time to give you a personal hello and some cheers. *
 
@@ -172,7 +172,7 @@ Our first caller in is A.J. Kerrigan.
 
 **Adam Stacoviak:** I would like to.
 
-\[00:16:48.13\]
+\[16:48\]
 
 **Jerod Santo:** It almost sounds like he's saying "For Lynda." For Lyn, for Lyn, for Lynda. That could be like a new Finland anthem. You know, like maybe if they need a new national anthem, we could submit that one, perhaps... I think a theme will hit this year with the remixes, at least, that I know that you don't know, because I've been listening to them as we go... I think BMC has some new toys.
 
@@ -208,7 +208,7 @@ Our first caller in is A.J. Kerrigan.
 
 **Jerod Santo:** Alright, listener voicemail number three... This is Don McKinnon.
 
-\[00:19:05.03\]
+\[19:05\]
 
 *Hey Jerod, Adam, and everyone at Changelog. My favorite episode of 2024 was the Changelog & Friends episode "From Chef to System Initiative." I've been following Adam Jacob on social media for a while, and he's always a great guest. So it was interesting to hear more about his career journey that led him to where he is now with his new company. And I did have to go back and watch "Any Given Sunday" after hearing that episode. I'd never seen it before.*
 
@@ -266,7 +266,7 @@ Our first caller in is A.J. Kerrigan.
 
 **Jerod Santo:** Alright, Don. BMC, hook him up.
 
-\[00:23:15.08\]
+\[23:15\]
 
 **Adam Stacoviak:** The goodness that Breakmaster Cylinder brings is just so good.
 
@@ -284,7 +284,7 @@ Our first caller in is A.J. Kerrigan.
 
 **Jerod Santo:** Alright, moving on to longtime listener, and I believe new Changelog++ member, if this is indeed the same... Andrew O'Brien.
 
-\[00:24:44.01\]
+\[24:44\]
 
 Hey, Jerod and Adam. Thanks for another year of great pod. Big thanks to Adam for giving me the *push I needed to finally rewatch and finish Silicon Valley. Also, an apology... I'm sorry for ruining the whole Antarctic data center joke in one of your fly.io ads. I asked follow-up questions, and then it went away, so I feel responsible.*
 
@@ -326,7 +326,7 @@ Hey, Jerod and Adam. Thanks for another year of great pod. Big thanks to Adam fo
 
 **Jerod Santo:** Great idea. Everybody who thinks of it thinks "Why not?" If you haven't thought of it, hopefully now you've thought of it. It's a win-win-win-win. I will shout-out to Andrew for what I think is a Royal Tenenbaums deepcut in the middle of one of his sentences. He says "My theory presupposes", which to me sounded very much like Owen Wilson on Royal Tenenbaums talking about "Custer dying--" I'm going from memory. It's like, everybody knows that Custer died at the Battle of Little Bighorn, something like that... But what my book presupposes is maybe he didn't, something like that.
 
-\[00:27:41.14\]
+\[27:41\]
 
 *Well, everyone knows Custer died at Little Bighorn. But this book presupposes is maybe he didn't.*
 
@@ -428,7 +428,7 @@ Hey, Jerod and Adam. Thanks for another year of great pod. Big thanks to Adam fo
 
 **Jerod Santo:** Alright, so anyways... We could have just created an entire tangent around something Andrew wasn't referring to. But if you were indeed referring to a quote from Royal Tenenbaums, reference acknowledged. Alright, here is Andrew's Breakmaster Cylinder remix.
 
-\[00:32:06.02\]
+\[32:06\]
 
 **Jerod Santo:** And you should.
 
@@ -496,11 +496,11 @@ Hey, Jerod and Adam. Thanks for another year of great pod. Big thanks to Adam fo
 
 **Adam Stacoviak:** No, I don't believe that happened at all. Let's hope not. We'll have to confirm. Silicon Valley...
 
-**Break:** \[00:34:21.08\]
+**Break:** \[34:21\]
 
 **Jerod Santo:** Alright. Next up, an old voice, Jarvis Yang. I think Jarvis calls in every year, and gives us shout-outs, but also gives other people shout-outs. And this is no different here. Jarvis is going to shout-out us, as well as somebody else. Here he is.
 
-\[00:37:47.25\]
+\[37:47\]
 
 *Nyob zoo, Changelog. That's hello in Hmong. As the year comes to a close, I wanted to give a big shout-out to both the Ship It podcast and Prime Digital Academy. When I started diving into DevOps, Ship It became my go-to resource. Gerhard, Adam and Jerod, you've all taught me so much and had a huge impact on my journey. Thank you for everything.*
 
@@ -534,7 +534,7 @@ Hey, Jerod and Adam. Thanks for another year of great pod. Big thanks to Adam fo
 
 **Jerod Santo:** Ruha?
 
-**Adam Stacoviak:** No, this is gonna be epic. This should be clipped. \[00:40:29.19\]
+**Adam Stacoviak:** No, this is gonna be epic. This should be clipped. \[40:29\]
 
 **Jerod Santo:** Wow.
 
@@ -566,7 +566,7 @@ Hey, Jerod and Adam. Thanks for another year of great pod. Big thanks to Adam fo
 
 **Jerod Santo:** Love it. Alright. Jarvis, remixed. Ooh-ha-ha.
 
-\[00:41:47.15\]
+\[41:47\]
 
 **Jerod Santo:** There you go.
 
@@ -586,7 +586,7 @@ Hey, Jerod and Adam. Thanks for another year of great pod. Big thanks to Adam fo
 
 **Jerod Santo:** Alright. We move onward and upward... Here's Brett Cannon.
 
-\[00:43:13.26\]
+\[43:13\]
 
 *Hi, Adam and Jerod. Congratulations again on another banger of a year for the Changelog. For my highlights of 2024, to kind of breakdown the themes... Probably the first theme was hardware. Episode 608 for interviews, with "Building customizable ergonomic keyboards" with Erez Zuckerman of ZSA. I thought that was really cool, to hear their ethos and approach to making keyboards that last, and can last for a long time.*
 
@@ -668,7 +668,7 @@ Not necessarily because it's more complicated or wrong or anything, but just dif
 
 **Jerod Santo:** Alright, good. Alright, here we go. Here's Brett's remix from this year.
 
-\[00:49:30.28\]
+\[49:30\]
 
 **Jerod Santo:** \[laughter\] Oh, man...
 
@@ -752,7 +752,7 @@ Not necessarily because it's more complicated or wrong or anything, but just dif
 
 **Jerod Santo:** Moving on to our next voicemail... This is Nabil Suleman.
 
-\[00:53:50.02\]
+\[53:50\]
 
 *Hello, Adam and Jerod. Congratulations on another great year. Really, so many of the episodes on the Changelog are amazing... But really, ones that have stuck out to me, especially just looking through the list of episodes this year, really anything with Kelsey Hightower or the Oxide folks have just been, you know, great episodes, and I've really enjoyed them. I also really liked the Moneyball episode. It was just a nice exploration of entrepreneurship and software that doesn't necessarily have to be like a rocket ship startup.*
 
@@ -814,7 +814,7 @@ Not necessarily because it's more complicated or wrong or anything, but just dif
 
 **Jerod Santo:** Okay, good. So do I. Here's Nabil's remix.
 
-\[00:57:21.02\]
+\[57:21\]
 
 **Adam Stacoviak:** It's got some Donkey Kong vibes.
 
@@ -872,7 +872,7 @@ Not necessarily because it's more complicated or wrong or anything, but just dif
 
 **Jerod Santo:** I'm currently playing the new Zelda, Echoes of Wisdom, where you get to play as Zelda herself. My little daughters love it, and we are playing it right now. It's a classic. Zelda... Exactly what you'd expect. So far we're about 45 minutes in, so I can't review it entirely, but so far so good. Who's this? It's our old friend, Lars Wickman.
 
-\[00:59:50.18\]
+\[59:50\]
 
 *Hi. This is Lars Wickman, long-time listener, occasional guest. I recently did my PocketCasts Wrapped type of deal, and three of my top four most frequently listened podcasts had the same theme, as in visual theme, as in dark with neon green colors. And to most people maybe Changelog does not have that. For Changelog++ members, it does. And of course, it's better.*
 
