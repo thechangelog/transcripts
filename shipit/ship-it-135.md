@@ -66,7 +66,7 @@
 
 **Autumn Nash:** Yes...! It's like our podcast baby, you know? We have to get it right. And I was like "What explains the pure, ridiculous, chaotic, but nerdy, and informative...?" And I feel like this is perfect. Like, it just matches us, and like the dad jokes and shade, and the like ridiculousness that I bring... You bring the dad jokes and shade, I bring the ridiculousness and slight shade.
 
-**Justin Garrison:** \[00:08:15.05\] Just a little bit. Yeah. So naming things is not hard. Naming things that are identifiable and mean the same thing to a lot of people is extremely difficult... Especially things that like we need to find websites and social media handles and what wasn't taken.
+**Justin Garrison:** \[08:15\] Just a little bit. Yeah. So naming things is not hard. Naming things that are identifiable and mean the same thing to a lot of people is extremely difficult... Especially things that like we need to find websites and social media handles and what wasn't taken.
 
 **Autumn Nash:** Well, not just that, but like trying to find something that relates to SRE, DevOps, but still engineering... I think it was -- I don't know; you would think that there's a lot of related names over platform engineering, SRE, DevOps, and a bunch of other things, but to just be like identifiable, but also development...
 
@@ -88,7 +88,7 @@ I think for Fork Around and Find Out we're going to do a similar thing. We're go
 
 Also, I think something that, if you feel like you've learned it, but I feel like the people are such an interesting -- I don't know if it's a side effect or whatever, but like, it's some of the most interesting people that do these types of jobs. And it matters a lot to the actual technical parts.
 
-\[00:12:08.16\] And I think it's really cool that we've been able to marry cool people, but also very technical. There were some shows that I was almost worried that we got too technical or in the weeds, and people still were really receptive, so that makes me really happy.
+\[12:08\] And I think it's really cool that we've been able to marry cool people, but also very technical. There were some shows that I was almost worried that we got too technical or in the weeds, and people still were really receptive, so that makes me really happy.
 
 **Justin Garrison:** Yeah, for sure. And actually, that's what we want to talk about today. We don't have a guest for today, we don't actually have news or a game... We wanted to do a little bit of a retro on Ship It for the last year... Because this is not only the last episode of the year, it's the last episode for whenever -- if Changelog ever starts it again, this is the last episode with myself and Autumn. And so Autumn, what was one of your favorite topics that we discussed?
 
@@ -110,7 +110,7 @@ I will say, my other favorite episodes were our retro episodes.
 
 I feel like a lot of times in history, just in general -- they say you need to know history to be able to make a good future. And that is so true in tech, because it's really hard to make things that are sustainable, and not just cool for a minute, you know? And even when things get really big and they are monsters, and they seem like nothing will ever take them down, and then you're just like "Well, these huge companies used to be like what everybody was betting on before the Google and the Amazon", you know?
 
-**Justin Garrison:** \[00:15:52.27\] Yeah. And some of that also gives me hope for what the future will look, where when we see the centralization of a lot of these things, the downfall of Twitter, and spinning out into new things, I'm like "Hey people can own some of this again." This doesn't mean -- like, just because Twitter was such a dominant force throughout the 20-teens, and part of the beginning of 2020s, doesn't mean it's going to live forever. And even now, looking forward to 2025, Google was declared a monopoly by the courts, and they're going to be broken up in some way, shape or form, whether that means Chrome, or advertising... But whatever that means, things change over time, and nothing is permanent. And just knowing how fast some of those things can change kind of gives me hope to say "Oh, it doesn't always have to be bad if we can work towards something that we think is better."
+**Justin Garrison:** \[15:52\] Yeah. And some of that also gives me hope for what the future will look, where when we see the centralization of a lot of these things, the downfall of Twitter, and spinning out into new things, I'm like "Hey people can own some of this again." This doesn't mean -- like, just because Twitter was such a dominant force throughout the 20-teens, and part of the beginning of 2020s, doesn't mean it's going to live forever. And even now, looking forward to 2025, Google was declared a monopoly by the courts, and they're going to be broken up in some way, shape or form, whether that means Chrome, or advertising... But whatever that means, things change over time, and nothing is permanent. And just knowing how fast some of those things can change kind of gives me hope to say "Oh, it doesn't always have to be bad if we can work towards something that we think is better."
 
 **Autumn Nash:** Which is odd, because stuff like that used to give me -- I won't say anxiety, but a little bit of... You know, you are betting on whatever company you work on as much as they're betting on you, you know? And it used to freak me out the way that tech would go through these cycles. But now it's like -- you know when they have a wildfire in California, and that's a bad thing, but it also is like a rebirth of the soil and kind of like what nature needs to do its thing? And tech has been so weird and sad lately... Like, it's like the sad place that I'm just like "It's almost like I can't wait for the wildfire to take out whatever sucks, and like the rebirth of the new startups, the new big companies, and what these new laws..." Because think about it, most of tech, the big booms of tech, they have not really had the laws and monopolies that you need to kind of -- like, a lot of our laws haven't been made for technology and the era that we live in. They're trying to get rid of TikTok and do all this when our senators don't even know what TikTok and an algorithm is, you know?
 
@@ -126,7 +126,7 @@ So we're kind of in this place where the first kind of boom was during like just
 
 So I think the first time with tech -- like, when we talked to people for the retro shows, it was something cool that they kind of stumbled on. They enjoyed it, and then it became this thing. When we talk even with Pete, about like getting into early internet and all these things, and it was a very like niche of things... But now there's no niche. Like, it is everything. Tech has encompassed everything. It's like the second revolution of tech. And at first it was like sad, and now it's kind of like hopeful, that maybe this means we get to go somewhere cool after all this...?
 
-**Justin Garrison:** \[00:20:07.29\] What was a topic or a guest or a show that we did that surprised you?
+**Justin Garrison:** \[20:07\] What was a topic or a guest or a show that we did that surprised you?
 
 **Autumn Nash:** Wait, you didn't say what your favorite episode was.
 
@@ -188,7 +188,7 @@ So I think the first time with tech -- like, when we talked to people for the re
 
 **Justin Garrison:** Luna... Yeah. There's Game Pass, there's Luna... Nvidia has one...
 
-**Autumn Nash:** \[00:24:03.22\] I'd also love to talk to someone from Minecraft, mostly because we'd get street cred with our children, but also because the amount of hours I've put into Minecraft... But also, it has three different platforms, if you think about it, right? So you've got multiple platforms; you've got the Java edition, you have the mobile edition, and then they got acquired and they've tried different ways to like try to like melt it all together. So I think that would be super-interesting.
+**Autumn Nash:** \[24:03\] I'd also love to talk to someone from Minecraft, mostly because we'd get street cred with our children, but also because the amount of hours I've put into Minecraft... But also, it has three different platforms, if you think about it, right? So you've got multiple platforms; you've got the Java edition, you have the mobile edition, and then they got acquired and they've tried different ways to like try to like melt it all together. So I think that would be super-interesting.
 
 **Justin Garrison:** There was a really good Changelog podcast interview with some of the folks that are on Minecraft, specifically in the -- it was the new add-ons, or mods, or whatever it was called, that work on Bedrock. That was a really fascinating episode.
 
@@ -196,7 +196,7 @@ So I think the first time with tech -- like, when we talked to people for the re
 
 **Justin Garrison:** Because -- yeah, that was probably over summer, I think... But I really enjoyed that one, just because of the difficulties of like "Yeah, this is a multi-platform thing, that we have to like take in basically user code", but it's like not any -- you can't do anything and everything. But I think the subset of JavaScript that they compile into the game to make it configurable, to let people do add-ons on Bedrock, on Java, on all that stuff... It was really cool.
 
-**Break**: \[00:25:08.20\]
+**Break**: \[25:08\]
 
 **Autumn Nash:** Okay, so what's your next question?
 
@@ -254,7 +254,7 @@ I think also, going back to the space episode, just learning about the constrain
 
 **Autumn Nash:** But she did all of those iterations. And like, she does that release by herself. And do you know how hard it is to release things? Oh, my goodness. Oh, and Veronica... Veronica is badass. I don't know if you can say that on like a podcast, but like, she just -- releasing Kubernetes and being on that whole team, and all the things she does, plus her day job... Fire.
 
-\[00:34:08.28\] Oh, Lily! Lily? Amazing. Me and Lily are besties. And did you know she does art, and she does like all of the amazing platform engineering? She's brilliant, dude. Brilliant. Like, brilliant on multiple levels. When she was on the show, I thought she was cool. And then I got to know her, and I was like "How can one person just possess all these skills in one body?" Like, fire. We've met the coolest people, and got to talk about the coolest things, and I'm just like "How do we even top this for a new show?"
+\[34:08\] Oh, Lily! Lily? Amazing. Me and Lily are besties. And did you know she does art, and she does like all of the amazing platform engineering? She's brilliant, dude. Brilliant. Like, brilliant on multiple levels. When she was on the show, I thought she was cool. And then I got to know her, and I was like "How can one person just possess all these skills in one body?" Like, fire. We've met the coolest people, and got to talk about the coolest things, and I'm just like "How do we even top this for a new show?"
 
 **Justin Garrison:** And that's one of the -- I'm very excited about just continuing on and expanding that a little bit, right? Anita from Meta, right? The millions of servers, talking about their -- like, they built this whole platform from scratch... I'm like, that is such a cool use case. But then also, there's a lot of companies and places and apps you've never heard of, that have interesting challenges, that have the constraints, as we mentioned before, like from space... The constraints are what make the problem interesting most of the time.
 
@@ -280,7 +280,7 @@ I think also, going back to the space episode, just learning about the constrain
 
 **Autumn Nash:** I really hope we do though, because I feel like -- when I started in tech, I was a military spouse and I had really young kids. And learning to build hackathons around how to making them accessible to other people... Like, our first hackathon -- we did some virtually, and had like a kind of code-along. And then our second hackathon was like -- we grew it and made it like a lot virtually, so that way it was like in-person at Microsoft, but we also had like a ton of people online, and like students, and everything... And I think that it's awesome to do in-person podcasts, because not only is it a different type of energy... I thought, for one, our in-person stuff was hilarious. And just getting to meet all these people... But like sometimes people don't have the same access to these things as we do. And sometimes people might not even know what Scale is.
 
-\[00:38:09.28\] I can't imagine going to half the conferences that you go to, and you've been in tech longer than me, and you go to places I don't go. And I'm always super-excited to hear where you're going next. And I think it's like sharing that experience until people get to the level where they're able to.
+\[38:09\] I can't imagine going to half the conferences that you go to, and you've been in tech longer than me, and you go to places I don't go. And I'm always super-excited to hear where you're going next. And I think it's like sharing that experience until people get to the level where they're able to.
 
 **Justin Garrison:** Yeah. And I think that a generation of people in tech now are new to tech in the last five to maybe 10 years... They missed out on meetups, and on just the things that I remember doing in the early 2000s where it's like "Oh, they have some free pizza, and someone's gonna talk about some technology, or an outage, or whatever." And those were the places that I met a lot of people. And I'm not necessarily close to the Los Angeles tech scene anymore, because I've been working remote for so long... But it was my way into a lot of places; my foot in the door, and just meeting a lot of people and knowing what they were doing was because I bumped into them at one of those meetups, and I'm just like "Oh, I'm gonna go, once a month or whatever, I'm just gonna go drive somewhere and find something." And now there's none of them. At least not where I am.
 
@@ -314,7 +314,7 @@ I think also, going back to the space episode, just learning about the constrain
 
 **Autumn Nash:** But not just that, but it was like a way to trick my very neurospicy brain into learning, but learning in a social manner. I learned so much about infrastructure, and coding, and technology, just because I was watching two really smart people have a conversation. It is like watching two engineers at work that are more senior than you have like a technical debate, but in your phone, and I can do that while my kids are playing. And I think that is just magical and beautiful, the fact that you have access to that knowledge. And I hope that's what we can share with people on Blue Sky, is like having cool conversations... Whether it be about technology or not, but just giving people access to people that they might not be able to talk to or have these conversations with.
 
-**Justin Garrison:** \[00:42:07.23\] And at the same time, hopefully owning and being responsible for some of that infrastructure, and -- like, the responsibility of like you can use Blue Sky, but also you can own your piece of it. I'm still running a PDS at home, I'm planning on moving my main account over the holiday break to my personal PDS, that's literally running at my house, and be able to migrate all of my data, and have it hosted there, and just see what that's like, and see the responsibility of it... And so far it's been running -- I still have some quirks and I need to figure out some things, but there's a lot of promise in some of these new technologies.
+**Justin Garrison:** \[42:07\] And at the same time, hopefully owning and being responsible for some of that infrastructure, and -- like, the responsibility of like you can use Blue Sky, but also you can own your piece of it. I'm still running a PDS at home, I'm planning on moving my main account over the holiday break to my personal PDS, that's literally running at my house, and be able to migrate all of my data, and have it hosted there, and just see what that's like, and see the responsibility of it... And so far it's been running -- I still have some quirks and I need to figure out some things, but there's a lot of promise in some of these new technologies.
 
 I actually just saw a podcast interview with -- what's his name? The person who started Black Sky. The Black Sky labeler, on Blue Sky, that -- I want to have them on the show. I was like, that's great, because I love seeing how you can run public software and infrastructure -- start as a hobby, as a public good, for a larger community, in a way that's not "Come join my Discord." It's a "Hey, we can all join this thing together, that you're already here. You're already active in this space. How would that look if you just got a new filter, or some way to peer inside that community a little easier?"
 
@@ -336,7 +336,7 @@ Some people in tech are very introverted. Maybe they don't want to have to go an
 
 **Justin Garrison:** So Autumn started... As the very end of the show. Autumn started -- you started your new job at Microsoft... And so I've sent her a...
 
-**Autumn Nash:** \[00:45:55.12\] Also, Justin is like the sweetest friend. He really is. I know we do a podcast together, but he's like my bestie that I harass all the time, and then he sends me like a bunch of homework... He is the sweetest, kindest friend.
+**Autumn Nash:** \[45:55\] Also, Justin is like the sweetest friend. He really is. I know we do a podcast together, but he's like my bestie that I harass all the time, and then he sends me like a bunch of homework... He is the sweetest, kindest friend.
 
 **Justin Garrison:** And I'm so glad that -- we never knew each other before this podcast.
 
@@ -418,7 +418,7 @@ Some people in tech are very introverted. Maybe they don't want to have to go an
 
 **Autumn Nash:** This is the most perfect, nerdy thing I have ever received in my entire life. Like, this is the most vintage... I just want you to know that I'm keeping this photo of Bill Gates looking like he is like a teen, like model, forever. Who does this? This is like the \[unintelligible 00:50:08.17\] album with computers.
 
-**Justin Garrison:** \[00:50:11.22\] There's also a copy of Windows 7 Ultimate signed by Steve Ballmer in there. So that was like the signature edition. Yeah, there you go. It's a signature edition of Windows 7 Ultimate.
+**Justin Garrison:** \[50:11\] There's also a copy of Windows 7 Ultimate signed by Steve Ballmer in there. So that was like the signature edition. Yeah, there you go. It's a signature edition of Windows 7 Ultimate.
 
 **Autumn Nash:** In the wrapper, though. In the wrapper.
 
