@@ -54,7 +54,7 @@
 
 **Elecia White:** There are. One is about how engineering is pretty cool, and how technology is interesting, and how you can make cool devices that interact with the world... And the other is about all the depressing stuff that happens in the world.
 
-**Adam Stacoviak:** \[00:08:10.19\] Well, that's a sad dichotomy.
+**Adam Stacoviak:** \[08:10\] Well, that's a sad dichotomy.
 
 **Elecia White:** I hope ours is the former.
 
@@ -90,7 +90,7 @@
 
 **Adam Stacoviak:** For sure.
 
-**Elecia White:** \[00:11:41.10\] BB-8 was one of my favorite ones when it first came out. Figuring out how to get its IMU data and maybe control it so that it did weird things... That was fun. So I don't do a lot of hacking and reverse-engineering, except for my own amusement. But the same tools are necessary. The way that I reverse-engineer a device is about basically debugging it without the code.
+**Elecia White:** \[11:41\] BB-8 was one of my favorite ones when it first came out. Figuring out how to get its IMU data and maybe control it so that it did weird things... That was fun. So I don't do a lot of hacking and reverse-engineering, except for my own amusement. But the same tools are necessary. The way that I reverse-engineer a device is about basically debugging it without the code.
 
 **Jerod Santo:** So what are some non-computers that you've programmed?
 
@@ -122,7 +122,7 @@ I've worked on DNA scanners, twice now, actually... Once pre 1995, '98... Well, 
 
 What else have I worked on...? I worked on inertial measurement units, which used to be the way, when I worked on them, that I would make anybody I was sitting next to in a plane just stop talking to me. "Oh yeah, I work on inertial measurement units." I could have said "I sell home insurance. Are you interested?" No, inertial measurement units was so good. People were just asleep by the end of the words.
 
-\[00:16:06.03\] But I didn't tell them what I was doing on this airplane... I was going to a racetrack, so that we could test them on high-speed vehicles, or airplanes, or any of the other places where inertial sensing becomes really interesting.
+\[16:06\] But I didn't tell them what I was doing on this airplane... I was going to a racetrack, so that we could test them on high-speed vehicles, or airplanes, or any of the other places where inertial sensing becomes really interesting.
 
 This was the day before Wiimotes. And so the whole idea of accelerometers and gyroscopes as being interfaces was very different then. Now you flip over your phone, it turns on. That's what you expect. But how does it even know? I think sensors are probably my favorite area of embedded systems right now.
 
@@ -144,7 +144,7 @@ So that's how I got into embedded, is I found out you can actually write softwar
 
 **Elecia White:** Teaching people - it's always amazing to get to see that moment, or to see part of it. I like mentoring folks, in hopes that I can be there when it hits.
 
-**Jerod Santo:** \[00:20:15.19\] On platforms like the web, it's so easy. You can get to that moment in minutes, because you can load up their favorite web page, and show them how to open up the dev tools, and change the background color, or something; or delete a line, and the title disappears. And you see that a-ha moment very quickly. And I know in embedded systems a lot of times now it's the blinking lights, right? It's the Arduino or whatever it is... And that moment of turning a light on, that's so cool.
+**Jerod Santo:** \[20:15\] On platforms like the web, it's so easy. You can get to that moment in minutes, because you can load up their favorite web page, and show them how to open up the dev tools, and change the background color, or something; or delete a line, and the title disappears. And you see that a-ha moment very quickly. And I know in embedded systems a lot of times now it's the blinking lights, right? It's the Arduino or whatever it is... And that moment of turning a light on, that's so cool.
 
 When you mentor, when you teach, what do you do? How do you get people to that moment? What do you show them? And how long does that take? Because it has historically been considerably more steps in embedded than on platforms like the web.
 
@@ -162,7 +162,7 @@ If anybody wants to try it today, we've said Arduino. Arduino is really great. I
 
 **Adam Stacoviak:** And I'm on the Wokwi for VS Code, and I'm like "Wow, this is so cool." I mean, you can do it in the web too, but a lot of people are really happy in VS Code. I'm not unhappy in VS Code. It's not my favorite, but it's certainly a quite usable code editor... And I think it's a great platform for a lot of people.
 
-\[00:24:09.03\] So the fact that you can have another tab next to your code in VS Code, and it's Wokwi, and you're kind of like programming in software what could be future hardware, and learning... That's so cool. I've personally been intimidated by, I suppose, hardware coding like this, or things that do stuff, that isn't software... Because I don't know how -- and I suppose everything's findoutable, right? The word 'findoutable'... But I just haven't found out or had the time to find out. So the burden and the hurdles to start in the way that I want to start seem so high. This Wokwi thing seems so cool. I feel like it might be a bit more accessible now.
+\[24:09\] So the fact that you can have another tab next to your code in VS Code, and it's Wokwi, and you're kind of like programming in software what could be future hardware, and learning... That's so cool. I've personally been intimidated by, I suppose, hardware coding like this, or things that do stuff, that isn't software... Because I don't know how -- and I suppose everything's findoutable, right? The word 'findoutable'... But I just haven't found out or had the time to find out. So the burden and the hurdles to start in the way that I want to start seem so high. This Wokwi thing seems so cool. I feel like it might be a bit more accessible now.
 
 **Elecia White:** It's a great system. Uri Shaked is the developer, and he's very responsive, and they've got a Discord... It's really fun. And we have an episode about it, if anybody wants to look up that.
 
@@ -182,11 +182,11 @@ On the other hand, Wokwi lets you do things like have a robot army that you cont
 
 **Jerod Santo:** \[laughs\] Right.
 
-**Elecia White:** \[00:27:50.20\] The real me has to admit that over-the-air updates are never going to be easy. Security is never going to be easy. Low battery... All these things where you have -- like in toys, where you have to shave off pennies, so you end up with a processor that should not be able to do this much, but you are packing in every piece of RAM, every cycle is spoken for... And that optimization... People bring me their Arduino projects and they say "It works. All the features work, most of the time." And I look at it and see all of the things that isn't going to work. Usually, there's like "I just want it to connect to the internet, so I can get the data back." It's like, okay, so you have to have a database for the data you want, the cloud data; the cloud data of interest. But you may also need to monitor the devices, to make sure that they check in. What if this is a medical device, and you need the user to be using it? So if they aren't using it, you need to know. And then what if it's had some faults? What is the failsafe? Can you actually hurt someone? What firmware version is it on? And these are all cloud problems, but these are cloud problems that have to be solved with the device. And as you scale from one or two or three devices in your house that you're playing with, that you're building, or even 10 devices in your tiny startup office, into thousands or millions... I worked at Fitbit, and this was a huge problem as they scaled - I mean, orders of magnitude. That database became bigger, and more people had to access it, and yet you don't want someone to know where President Obama is right now because he tends to wear a Fitbit watch. That's the sort of data you don't want to get out. And yet you still need to know if every device is up to date, and if their batteries are degrading more quickly, because on the new firmware...
+**Elecia White:** \[27:50\] The real me has to admit that over-the-air updates are never going to be easy. Security is never going to be easy. Low battery... All these things where you have -- like in toys, where you have to shave off pennies, so you end up with a processor that should not be able to do this much, but you are packing in every piece of RAM, every cycle is spoken for... And that optimization... People bring me their Arduino projects and they say "It works. All the features work, most of the time." And I look at it and see all of the things that isn't going to work. Usually, there's like "I just want it to connect to the internet, so I can get the data back." It's like, okay, so you have to have a database for the data you want, the cloud data; the cloud data of interest. But you may also need to monitor the devices, to make sure that they check in. What if this is a medical device, and you need the user to be using it? So if they aren't using it, you need to know. And then what if it's had some faults? What is the failsafe? Can you actually hurt someone? What firmware version is it on? And these are all cloud problems, but these are cloud problems that have to be solved with the device. And as you scale from one or two or three devices in your house that you're playing with, that you're building, or even 10 devices in your tiny startup office, into thousands or millions... I worked at Fitbit, and this was a huge problem as they scaled - I mean, orders of magnitude. That database became bigger, and more people had to access it, and yet you don't want someone to know where President Obama is right now because he tends to wear a Fitbit watch. That's the sort of data you don't want to get out. And yet you still need to know if every device is up to date, and if their batteries are degrading more quickly, because on the new firmware...
 
 Yeah, there's a lot. There really is a lot. It's not insurmountable, and there are companies all the time that are trying to make it simpler. Do they succeed? Some of them... Some of them succeed pretty well. But it's never... Sometimes they talk about it being Lego blocks. Like, I used to have to develop a lot more stuff, but now I get my drivers from whatever repository I'm working... I get them from the chip vendor, or from the RTOS vendor. I don't have to write drivers anymore. And other pieces of code, like IMUs - most of that code comes from somewhere else. I used to have to write it. I don't anymore. It's really nice. But there's still the shimming of it together to try to get it all to work together, given the time constraints, or whatever other limitation there is to the embedded system. I guess that's another way that I have defined embedded systems, is that they are purpose-built for what they do, and so they don't have a lot of extra resources. Whether it's needing to live underwater for five years on one battery, or whether it's needing to live in your pocket overnight, on one battery charge. They don't have extra stuff. And that causes a lot of problems when you need to do extra stuff.
 
-**Jerod Santo:** \[00:31:49.05\] Well, there's a sideways application of Parkinson's law here... Which, you know, Parkinson's law is the one that the scope of a project will expand to match the time allowed for the project. Something like this. That's a bad paraphrase. And I was just teaching my kids about budgeting this morning, and I was talking about how if you're not diligent, that your lifestyle will expand to match the size of your income, right? Sometimes beyond. It's just kind of a human nature thing... And I think our software expands to match the size of the hardware that it's running on. To use every last bit. And it has allowed for many of us, web developers like myself included, to be lazy, and do things the easy way, the fast way, the cheap way... But in that embedded world, where every resource counts and it's heavily constrained, you must have to know all of the optimizations, all the little tricks, the way to manage your memory so as not to bloat, or leak, or... Do you like -- I mean you must like that... I mean it's literally a constraint.
+**Jerod Santo:** \[31:49\] Well, there's a sideways application of Parkinson's law here... Which, you know, Parkinson's law is the one that the scope of a project will expand to match the time allowed for the project. Something like this. That's a bad paraphrase. And I was just teaching my kids about budgeting this morning, and I was talking about how if you're not diligent, that your lifestyle will expand to match the size of your income, right? Sometimes beyond. It's just kind of a human nature thing... And I think our software expands to match the size of the hardware that it's running on. To use every last bit. And it has allowed for many of us, web developers like myself included, to be lazy, and do things the easy way, the fast way, the cheap way... But in that embedded world, where every resource counts and it's heavily constrained, you must have to know all of the optimizations, all the little tricks, the way to manage your memory so as not to bloat, or leak, or... Do you like -- I mean you must like that... I mean it's literally a constraint.
 
 **Elecia White:** A puzzle.
 
@@ -208,7 +208,7 @@ Yeah, there's a lot. There really is a lot. It's not insurmountable, and there a
 
 **Elecia White:** It certainly did. \[laughter\] It was in the way of "How much software can I throw at a problem to make the hardware that is very bad better?" It turns out you can throw a lot of software at some bad hardware, and it still is bad hardware. But it can be really fun.
 
-**Break**: \[00:35:48.09\]
+**Break**: \[35:48\]
 
 **Adam Stacoviak:** I'm curious about the possibilities of embedded systems. Jerod, maybe your question regarding the chasm is "If I begin, how far is that dip, so to speak?" How far is it from beginner to potentially professional? How big is this embedded world? Is it an underserved world? Is there a lot of opportunity? Is there one place to go to learn? Is it all in university, or college? How do you get to be a pro? And if you do become a pro, or someone who's professional, earning their money and career via this route, is it big? Is it expansive? Is it growing?
 
@@ -230,7 +230,7 @@ Yeah, there's a lot. There really is a lot. It's not insurmountable, and there a
 
 Design patterns was one of those things that I really wanted to bring to embedded systems. And I feel like I have kind of talked about it for the last 20 years, about how important it is to not keep solving the problems in new ways, but to start solving the same problems in the same ways each time, so that we don't have to rewrite all the code.
 
-\[00:41:59.26\] And things like object-oriented programming... It's not new. And a lot of embedded people really understand it. And yet we mostly program in C still. I know the gasps, the horrifying screams... Yes, we still mostly program in C. But we don't usually program in an assembly anymore. We're making progress.
+\[41:59\] And things like object-oriented programming... It's not new. And a lot of embedded people really understand it. And yet we mostly program in C still. I know the gasps, the horrifying screams... Yes, we still mostly program in C. But we don't usually program in an assembly anymore. We're making progress.
 
 **Jerod Santo:** There you go.
 
@@ -250,7 +250,7 @@ When you are in a car and you're going around a cloverleaf, you're spinning and 
 
 **Jerod Santo:** Gotcha. And so the vendors of the device would provide a set of filters for you to use?
 
-**Elecia White:** \[00:45:58.07\] They would provide the algorithm, yeah. And they would provide the base code for how good each of their sensors are.
+**Elecia White:** \[45:58\] They would provide the algorithm, yeah. And they would provide the base code for how good each of their sensors are.
 
 **Jerod Santo:** Okay. Because they've done those tests and they understand the sensors and their error rates, and these other things.
 
@@ -300,7 +300,7 @@ Usually, when we talk about self-driving cars, the GPS has one set of errors, mo
 
 That's one of the problems with medical devices. When we talk about doing embedded systems in medical devices, it's usually there's some element of "Oh my goodness, there's so much documentation. There's so much documentation the FDA needs." And that's primarily to make us understand the ramifications of the points we're making. And the reason for that is because -- oh, I've started this in the wrong place. Okay, moving backwards. If you work on airplane stuff, there are different levels of concern. If you take down a small airplane, a Cessna, it may crash into something important, like a school. And so you have a certain amount of damage you can do with a small plane.
 
-**Jerod Santo:** \[00:50:23.26\] Sure.
+**Jerod Santo:** \[50:23\] Sure.
 
 **Elecia White:** You have a much bigger amount of damage you can do with a larger plane. Medical devices are a little confusing, because -- and safety critical devices, medical or vehicles, have a problem that you can have thousands of them in the field when they start to fail. And so your problem is not that you have hurt one person. Your problem is that your software has decided that the 29th of February is not a real day, and has gone nuts, and is now on its murdering spree. And that's what you need to avoid.
 
@@ -326,7 +326,7 @@ The error that happens spread across a fleet of cars all running the same softwa
 
 **Jerod Santo:** And you're 16?
 
-**Adam Stacoviak:** \[00:53:57.20\] And I can emp -- well, not even at any age, really. I mean, period. As even a good driver, I would say, a marginally good driver. I think I've had -- the most recent accident I had, which was like the one I didn't cause... The deer hit me. And this was like a year-ish ago.
+**Adam Stacoviak:** \[53:57\] And I can emp -- well, not even at any age, really. I mean, period. As even a good driver, I would say, a marginally good driver. I think I've had -- the most recent accident I had, which was like the one I didn't cause... The deer hit me. And this was like a year-ish ago.
 
 **Jerod Santo:** Well, some things can't be avoided.
 
@@ -362,7 +362,7 @@ The error that happens spread across a fleet of cars all running the same softwa
 
 **Elecia White:** I mean, if they had their own roads, it would be much simpler. Then it would be truly closed. And in the meantime, I think we can get closer on freeways more than anything. I mean, there have been a lot of -- most of the new cars now will have lane keeping, and keeping up with the person in front of you... All of the things that the initial full self-driving Tesla did, we can do now in my new Bolt. It is progressing, whether or not we call it self-drive, or if we just call it new safety features.
 
-**Jerod Santo:** \[00:58:15.25\] Yeah.
+**Jerod Santo:** \[58:15\] Yeah.
 
 **Elecia White:** I think it's getting there. And I like the idea of a closed system, but at some point you do go back to being a train.
 
