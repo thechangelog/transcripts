@@ -30,7 +30,7 @@
 
 **Adam Stacoviak:** And I was like "Man, I don't even own this film." So I bought it on BluRay, because it's not on 4k... And for whatever reason, whenever I go in to make MKV to rip it, it was naming all the files a dot. And so all the files it was ripping, each one of them was a dot, and it had an increment, but all the files were hidden. And I didn't notice it until I went back after it was done... And I was like "Where the heck is all the -- I see that it successfully ripped, but where's all the files?" And I'm like "Oh yeah, these are hidden files. Let me go and fix this." And there's like 25 of them in this directory. I'm not going to go one by one inside a terminal and rename these things. And I'm also not going to think about a script to automate renaming these things. So what did I do? I went to my good friend, ChatGPT, and I said -- I copied the directory and I said "I've got, on a Mac, I need to rename all these files so they're not hidden. Ideally, they'd be in sequential order of sorts." And it gave me a script. I put that script in, and boom, all my files were there. I mean, that is the beauty of this word calculator, Jerod. Like, I don't have to think about any of that stuff. Sure, I could have, it would have been a fun exercise, but it would had been a -- what do you call it? A squirrel, a yak to shave. I'd have been there for 20 minutes thinking about this, versus one. Not even one. Off to the races, Fight Club is renamed, and boom, it's on Plex, and I'm watching it, and I'm happy. That's the way life should be.
 
-**Jerod Santo:** \[00:08:05.05\] Mm-hm. I don't have any good ones. I just feel like all mine are boring, the way I use it. It's pretty much the new search engine in my life. I do still go to Google. And when I say Google, I mean DuckDuckGo. I only ever go to Google when I do the \#g in DuckDuckGo. And I've been that way for many years now. \#G means "Actually Google this", because DDG is failing me... Which I would say probably I hit that 5% of the time. But it doesn't matter anymore, because I rarely go to DuckDuckGo at all.
+**Jerod Santo:** \[08:05\] Mm-hm. I don't have any good ones. I just feel like all mine are boring, the way I use it. It's pretty much the new search engine in my life. I do still go to Google. And when I say Google, I mean DuckDuckGo. I only ever go to Google when I do the \#g in DuckDuckGo. And I've been that way for many years now. \#G means "Actually Google this", because DDG is failing me... Which I would say probably I hit that 5% of the time. But it doesn't matter anymore, because I rarely go to DuckDuckGo at all.
 
 And I don't think that we are unique in that way. I mean, I'm sure you're going to a GPT first most of the time, unless you're -- unless I'm just like "All I want to do is find the Wikipedia page." Then I'll go to the search bar in my browser.
 
@@ -84,7 +84,7 @@ And I don't think that we are unique in that way. I mean, I'm sure you're going 
 
 **Adam Stacoviak:** Wow.
 
-**Jerod Santo:** \[00:12:02.11\] I said, "What's the simplest web browser in terms of UI, something great for screenshots?" It gave me four sources, which is awesome. Like, right at the top, here's my sources. Clickable. Click out and go. It gave me the answer based on search results... Several browsers offer simplicity. It gives me a whole bunch of browsers, links, my old friend... I didn't want text-based; not that minimal. Screenshot-friendly. It gave me DuckDuckGo, one called Calibri, which had an account you have to create to get it, so I didn't do that one... \[unintelligible 00:12:35.01\] Didn't check that one out; scrolled past it, actually. And the first one I clicked on was like for Linux. And so then I just said "It must run on macOS as a followup." And it just said, "Well, for a minimalist browser that runs on macOS, I recommend Min Browser."
+**Jerod Santo:** \[12:02\] I said, "What's the simplest web browser in terms of UI, something great for screenshots?" It gave me four sources, which is awesome. Like, right at the top, here's my sources. Clickable. Click out and go. It gave me the answer based on search results... Several browsers offer simplicity. It gives me a whole bunch of browsers, links, my old friend... I didn't want text-based; not that minimal. Screenshot-friendly. It gave me DuckDuckGo, one called Calibri, which had an account you have to create to get it, so I didn't do that one... \[unintelligible 00:12:35.01\] Didn't check that one out; scrolled past it, actually. And the first one I clicked on was like for Linux. And so then I just said "It must run on macOS as a followup." And it just said, "Well, for a minimalist browser that runs on macOS, I recommend Min Browser."
 
 **Adam Stacoviak:** Sounds promising...
 
@@ -140,7 +140,7 @@ And I don't think that we are unique in that way. I mean, I'm sure you're going 
 
 **Adam Stacoviak:** As you were sharing your story too, I was logging into Perplexity, because I've had an account there, but I've not used it very frequently. And I was like "How do I get in here?" Because I don't have it saved in my 1Password. And so I'm like, I know I have these Google options, I would always use email, maybe I did... So then I had to go back to my email and search Perplexity. And sure enough, I use my email to get in. Long story short, I hate that. I hate not knowing how I got in somewhere. I almost never use SSO, almost never use Google or Facebook or whatever to log in, or GitHub even... If you force me to do that, I do not like it. Email is my friend, not the enemy being my friend.
 
-\[00:16:14.15\] Anyways. What I like about this is it says "What do you want to know now?" or "What do you want to know?" And it's got this question box. And then it's got - what? Recent scores, stocks, some news ticking... It's like a little news ticker... And it's got the weather for me nearby. So it's kind of like being the Yahoo of your. It's trying to be this potential homepage. Go here, let your day begin here, and boom. You've got this place to kind of go and hang out at, answer questions, get better results, and get your news and scores and stuff.
+\[16:14\] Anyways. What I like about this is it says "What do you want to know now?" or "What do you want to know?" And it's got this question box. And then it's got - what? Recent scores, stocks, some news ticking... It's like a little news ticker... And it's got the weather for me nearby. So it's kind of like being the Yahoo of your. It's trying to be this potential homepage. Go here, let your day begin here, and boom. You've got this place to kind of go and hang out at, answer questions, get better results, and get your news and scores and stuff.
 
 **Jerod Santo:** Yeah.
 
@@ -214,7 +214,7 @@ And I don't think that we are unique in that way. I mean, I'm sure you're going 
 
 **Adam Stacoviak:** Really good people. Usually pretty knowledgeable staff. Even if they're new, they're pretty knowledgeable. And so I benchmarked this advice from ChatGPT against the advice I would get from, you know, the real deal. The real deal Holyfield, as they would say. And pegged it on the Michelin Defender LX M/S, which means mostly super-awesome. I don't know. \[laughter\] So I went with a road-ish tire. The road-ish tire. Anyways... Great recommendation from LLMs, honestly, in my opinion.
 
-**Jerod Santo:** \[00:20:20.00\] Yeah. Well, that's a win. I think that one thing that we're both doing now, both with Perplexity, at least in the configuration that I just used it, off of the website, and with ChatGPT, in the configuration that you're using it, is that we are running remote LLMs. These are other people's robots. Are you down with OPR? Apparently we are. But NVIDIA wants us to perhaps have it all in our house, or in our office, with this new $3,000 personal AI supercomputer they call Digits. Did you see this news from last week, Adam?
+**Jerod Santo:** \[20:20\] Yeah. Well, that's a win. I think that one thing that we're both doing now, both with Perplexity, at least in the configuration that I just used it, off of the website, and with ChatGPT, in the configuration that you're using it, is that we are running remote LLMs. These are other people's robots. Are you down with OPR? Apparently we are. But NVIDIA wants us to perhaps have it all in our house, or in our office, with this new $3,000 personal AI supercomputer they call Digits. Did you see this news from last week, Adam?
 
 **Adam Stacoviak:** I was very excited about this news. I have not deeply investigated it, aside from its price tag and its potential availability, and the fact that anybody who is buying a Mac Mini is now reconsidering their purchase to consider this instead... Even though it's quite a bit more than a typical Mac Mini configuration.
 
@@ -252,7 +252,7 @@ This was a big deal. I mean, NVIDIA all of a sudden has become -- they need to p
 
 **Adam Stacoviak:** And I can't. So I end up running a Windows machine, which is not the worst ever, but it's not macOS. It's not that it's bad, or better, or good. It's just my preference. It's not about good, better, best. It's what I've been aware of, known of, etc. It's my platform of choice. So to go this route of NVIDIA GPUs - which is fun - I've got to now use, in my opinion, a subpar operating system comparative to what I'm used to. Not because it's worse or better, because I like it. I like MacOS better, just to be super-clear.
 
-**Jerod Santo:** \[00:24:13.05\] Sure.
+**Jerod Santo:** \[24:13\] Sure.
 
 **Adam Stacoviak:** But what it says here, though, is kind of cool. It's that each Project Digits system comes equipped with 128 gigs of unified coherent memory. What does that mean, unified coherent memory? Is that something new?
 
@@ -312,7 +312,7 @@ So this AI mainstream that we opened up with - you know, I want to run, which I 
 
 **Jerod Santo:** Okay, so they have made computers. And do people like those computers?
 
-**Adam Stacoviak:** \[00:27:50.13\] I think this is a newer thing, though. I think in the last year they've come out with a laptop and a desktop... Which to me -- and I'm not deep where I know all the things, but this is like entrance knowledge. Having built several different machines, the fun part is choosing components, obviously. And I feel like if NVIDIA is an amazing player in the marketplace, you want to choose their GPUs. If they're building laptops and desktops, maybe, potentially - I disagree to that. Just give them your stuff, man. Just let them track you...
+**Adam Stacoviak:** \[27:50\] I think this is a newer thing, though. I think in the last year they've come out with a laptop and a desktop... Which to me -- and I'm not deep where I know all the things, but this is like entrance knowledge. Having built several different machines, the fun part is choosing components, obviously. And I feel like if NVIDIA is an amazing player in the marketplace, you want to choose their GPUs. If they're building laptops and desktops, maybe, potentially - I disagree to that. Just give them your stuff, man. Just let them track you...
 
 **Jerod Santo:** Just accepted NVIDIA's cookies.
 
@@ -348,7 +348,7 @@ So this AI mainstream that we opened up with - you know, I want to run, which I 
 
 **Jerod Santo:** Yeah, for sure.
 
-**Break**: \[00:31:02.03\]
+**Break**: \[31:02\]
 
 **Adam Stacoviak:** This Digit though... So if you were to purchase it, what would make me think it's valuable is if this thing can be on my network and give me local LLM to my LAN, maybe I can assign a global domain name to it, and actually access it from external, I can tap into it from the API... Maybe I can attach a client to it that fetches via the API, and it's all local to me. Probably I don't have to do what you said before, which is other people's robots, OPR...
 
@@ -390,7 +390,7 @@ I'd like to own my own robot. And if Digit is the way to go, then it's... Three 
 
 **Adam Stacoviak:** It's new. So my personal usage has always been frustrated. At friends' houses, they've got it to do lights, and stuff like that... And I'm like -- okay, so in that example, which I haven't gotten there yet, I think that's cool. This goes back to the self-hosting. I would totally set up Home Assistant, configure Alexa to do these things... I think that's cool. That's a great usage of voice. It's simple. It's a simple interface to do things in your household.
 
-\[00:37:36.04\] I also like HomeKit. And so in my house, at least we have some automated blinds, or some -- they're on the network, it has a hub... How do I describe this? They're blinds that are electronic. They have a battery in them, so you can recharge them once per year, kind of thing. And it has a remote, and you can use the remote, obviously... But you can also just tell HomeKit, "Open all blinds", or "Close living room blinds." Or "Open living room blinds to 80%." It'll take even that kind of percentage number. And so HomeKit does a lot of that for me, so I haven't really leaned too far into Home Assistant...
+\[37:36\] I also like HomeKit. And so in my house, at least we have some automated blinds, or some -- they're on the network, it has a hub... How do I describe this? They're blinds that are electronic. They have a battery in them, so you can recharge them once per year, kind of thing. And it has a remote, and you can use the remote, obviously... But you can also just tell HomeKit, "Open all blinds", or "Close living room blinds." Or "Open living room blinds to 80%." It'll take even that kind of percentage number. And so HomeKit does a lot of that for me, so I haven't really leaned too far into Home Assistant...
 
 That being said, I'm not a super-insane self-hosting home automation person. I'm just a dip my toe in person, because I don't have enough time to go as deep as I want to. I really should carve out more time. But my issue with Alexa is that it's mostly frustrating. And the reason why I'm getting to this Alexa conversation is that - how would I want to leverage an LLM that I would host myself? Like OLAMA, or whatever. I would love to have some voice version of it, so I'm speaking to it, versus just having to type everything to it. Like, can I take this LLM and expand its usage? Alexa and Siri are the two good options for voice OS, and so I'm not sure that Siri is there yet. I wonder if Apple Intelligence will prohibit Siri from being more useful in those regards... Don't talk to me, Siri. Gosh, Siri's listening, on my phone right in front of me...
 
@@ -450,7 +450,7 @@ I mean, Apple Intelligence is probably the closest thing, and it just kind of su
 
 **Jerod Santo:** "Find the Apple Photos meme..."
 
-**Adam Stacoviak:** \[00:42:19.23\] For the recent update.
+**Adam Stacoviak:** \[42:19\] For the recent update.
 
 **Jerod Santo:** Is it literally about Friday? Should I put Friday in there?
 
@@ -532,7 +532,7 @@ And so I'm near and dear to the way Photos app delivers these memories to me... 
 
 **Jerod Santo:** Just throw it on the map for me.
 
-**Adam Stacoviak:** \[00:45:59.29\] I was on a trip recently for this \[unintelligible 00:46:00.10\] weekend, and I'm in like nowhereland in Texas, which - Texas is big, and sometimes you get out there and you're like "Where is the nearest gas station?" I didn't plan well enough. I'm in run out of gas situations in Texas. That is the truth; between Houston and Amarillo, you can run out of gas if you don't plan properly. Where's the next Buc-ee's? I'm heading this direction... Just ease my anxiety. "There's a Buc-ee's in 20 miles." Okay, great. I feel better. You know? Like, whatever it is. That's good intelligence.
+**Adam Stacoviak:** \[45:59\] I was on a trip recently for this \[unintelligible 00:46:00.10\] weekend, and I'm in like nowhereland in Texas, which - Texas is big, and sometimes you get out there and you're like "Where is the nearest gas station?" I didn't plan well enough. I'm in run out of gas situations in Texas. That is the truth; between Houston and Amarillo, you can run out of gas if you don't plan properly. Where's the next Buc-ee's? I'm heading this direction... Just ease my anxiety. "There's a Buc-ee's in 20 miles." Okay, great. I feel better. You know? Like, whatever it is. That's good intelligence.
 
 **Jerod Santo:** So this Chipotle example - your case is Buc-ee's - was exactly what happened to us on the way home from Florida... And we have CarPlay in our car, and so I have the maps through my phone, Apple Maps, showing us how to get home... And there's the UI where you can say Add Stop. And then you can pick from a list of pre-configured categories. You want to stop at gas stations, restaurants, breakfast, parks... Whatever. Or ask Siri. And so I'll say "Okay, ask Siri." "Where would you like to go?" And I said "Chipotle." And she said "There are nine Chipotles on your route. The first one is 17 minutes away. Do you want me to add it?" And do you know which direction the 17 minutes were?
 
@@ -574,7 +574,7 @@ And so I'm near and dear to the way Photos app delivers these memories to me... 
 
 **Adam Stacoviak:** And what I will say as we're driving into the driveway - "Open main garage." And so as I'm driving into the driveway, rather than push the button or find where the thing is at... We actually keep it hidden, because we don't want anybody to come and steal our stuff, and come into our house through our garage opener and they've got access. And so I'd say 98% of the time it works just fine. Every once in a while Siri's like "What'd you say?"
 
-**Jerod Santo:** \[00:49:57.03\] Especially when you have a kid talking while you're talking, or something; that's usually what happens.
+**Jerod Santo:** \[49:57\] Especially when you have a kid talking while you're talking, or something; that's usually what happens.
 
 **Adam Stacoviak:** Yeah. And what I've found though too, to go one second deeper on this, is that I didn't think that my inexpensive came-with-my-home garage door openers were connected. My neighbor who has the same one's like "Hey Adam, did you know that these things are already Wi-Fi enabled and they already connect?" I'm like "No, I had no idea." He's like "This is how you do it." This is like last -- literally last year at the same time. And sure enough, they're connected. They're genie models. Like, they're not -- they just came with the home; there's nothing special about them.
 
@@ -594,7 +594,7 @@ And so I'm near and dear to the way Photos app delivers these memories to me... 
 
 **Adam Stacoviak:** Yeah, it's good stuff.
 
-**Break**: \[00:52:20.02\]
+**Break**: \[52:20\]
 
 **Jerod Santo:** Alright, while we're talking warts, I thought this was a fun story, as I like to pick on...
 
@@ -622,7 +622,7 @@ How did he get out? Well, a Waymo customer support specialist called into the ca
 
 **Adam Stacoviak:** Yeah. I think the ending there was kind of cool, and he's like "Look, pull up the left corner of that map on the floor and you'll see a red button. Hit that button." It reminds me of the recent button conversation we obviously had with Rachel Plotnick, and the importance of literal buttons that can be pressed. And it was red.
 
-**Jerod Santo:** \[00:58:07.10\] You've got to have a red button somewhere.
+**Jerod Santo:** \[58:07\] You've got to have a red button somewhere.
 
 **Adam Stacoviak:** Something is going to happen with that. Yeah, we need escape hatches, that's for sure. I had no idea there was this button, or the app button to pull over... I have not been in a Waymo, so I think that's just fine, not having that knowledge just yet... But now that I do, I will be more confident going into a Waymo, because I know how to get out should I get stuck in a perpetual loop.
 
