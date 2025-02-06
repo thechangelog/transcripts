@@ -118,7 +118,7 @@ That's the quintessential pair, let's just say.
 
 **Mat Ryer:** Yeah.
 
-**Jerod Santo:** \[00:07:43.09\] Writing and \[unintelligible 00:07:44.05\] And he just thought that we would lose our brains. Like, we would stop being able to remember things. And I recall when programmable phones were picking up, and you no longer had to memorize people's phone numbers. And there were some folks who were kind of offended by that... Because there was a social dynamic to like whose numbers do you have memorized? It kind of shows who's important to you in your life. And there's certain people like, "I'm just going to remember your phone number." And 10 years later, they're all off that. They're all done. It's over with.
+**Jerod Santo:** \[07:43\] Writing and \[unintelligible 00:07:44.05\] And he just thought that we would lose our brains. Like, we would stop being able to remember things. And I recall when programmable phones were picking up, and you no longer had to memorize people's phone numbers. And there were some folks who were kind of offended by that... Because there was a social dynamic to like whose numbers do you have memorized? It kind of shows who's important to you in your life. And there's certain people like, "I'm just going to remember your phone number." And 10 years later, they're all off that. They're all done. It's over with.
 
 **Adam Stacoviak:** Yeah, it's gone. Purged.
 
@@ -208,7 +208,7 @@ Just a little one for me there...
 
 **Adam Stacoviak:** Destructiveware.
 
-**Jerod Santo:** \[00:12:09.22\] Yeah, it's kind of annoying.
+**Jerod Santo:** \[12:09\] Yeah, it's kind of annoying.
 
 **Adam Stacoviak:** You can use it, but it will destroy your work.
 
@@ -338,7 +338,7 @@ Just a little one for me there...
 
 **Adam Stacoviak:** I don't know about this, Mat...
 
-**Mat Ryer:** \[00:16:03.24\] Hex codes aren't the be all and end all of color, Jerod.
+**Mat Ryer:** \[16:03\] Hex codes aren't the be all and end all of color, Jerod.
 
 **Jerod Santo:** Well, for me, they kind of are. Oh, you're more of an HSL guy?
 
@@ -448,7 +448,7 @@ Just a little one for me there...
 
 **Jerod Santo:** But you don't notice it. Much like us. We're like turning around on this globe at like - how many miles per hour? But we have no idea.
 
-**Mat Ryer:** \[00:20:23.20\] Yeah.
+**Mat Ryer:** \[20:23\] Yeah.
 
 **Jerod Santo:** Seven. I think it was seven miles per hour we're traveling around the world.
 
@@ -532,7 +532,7 @@ Number two, "Developer fires entire team for AI, now ends up searching for engin
 
 **Mat Ryer:** That's a lie then. I vote that one as the lie.
 
-**Jerod Santo:** \[00:23:57.26\] \[laugh\] Finally, he gets one right. Okay, Adam, why don't you do your turn, and share with us some truths and lies?
+**Jerod Santo:** \[23:57\] \[laugh\] Finally, he gets one right. Okay, Adam, why don't you do your turn, and share with us some truths and lies?
 
 **Adam Stacoviak:** I'm bringing one close to home, really...
 
@@ -654,7 +654,7 @@ Number two, "Developer fires entire team for AI, now ends up searching for engin
 
 **Adam Stacoviak:** I'm screen-sharing with our friends here, Jerod and Mat... My friends, our friends...
 
-**Jerod Santo:** \[00:28:13.10\] Hello...
+**Jerod Santo:** \[28:13\] Hello...
 
 **Adam Stacoviak:** And on the left, you have the eight inch, in the middle you have the five and a quarter, I believe.
 
@@ -738,7 +738,7 @@ Number two, "Developer fires entire team for AI, now ends up searching for engin
 
 **Adam Stacoviak:** ...obscure tech headlines. These are clearly obscure tech headlines. And so I scoured the internet...
 
-**Jerod Santo:** \[00:31:49.25\] Oh, you're saying that was a headline from 2019.
+**Jerod Santo:** \[31:49\] Oh, you're saying that was a headline from 2019.
 
 **Adam Stacoviak:** Well, it doesn't matter when it came. No, they did this until 2019. It doesn't mean that they -- the news is new.
 
@@ -806,7 +806,7 @@ Number two, "Developer fires entire team for AI, now ends up searching for engin
 
 **Mat Ryer:** "You did it good..."
 
-**Break**: \[00:34:18.24\]
+**Break**: \[34:18\]
 
 **Adam Stacoviak:** Here's the thing... This cool, this other truth one, the slime mold, okay?
 
@@ -890,7 +890,7 @@ Number two, "Developer fires entire team for AI, now ends up searching for engin
 
 **Mat Ryer:** Well, they probably didn't think they were going to need it until recent events... And then they're like "You know what? We actually should make sure this stuff works."
 
-**Adam Stacoviak:** \[00:39:59.01\] Let's get 100 behind this. N + 100, you know?
+**Adam Stacoviak:** \[39:59\] Let's get 100 behind this. N + 100, you know?
 
 **Mat Ryer:** Yeah.
 
@@ -994,7 +994,7 @@ Three and a half inch introduced in 1980, started at 720K, double-sided high-den
 
 **Mat Ryer:** \[singing\] "I want my Raspberry Pi lies, baby, feed them to me. I want to think that they're making GPUs, and gonna sell themselves to China. Tell me where we're gonna be in a thousand years time... But tell me through Raspberry Pi lies..."
 
-**Adam Stacoviak:** \[00:44:21.20\] Well, they weren't really full-on lies. They were more like directions that I didn't flesh out. So I was thinking...
+**Adam Stacoviak:** \[44:21\] Well, they weren't really full-on lies. They were more like directions that I didn't flesh out. So I was thinking...
 
 **Mat Ryer:** "They're more like directions that I was fleshing out... So I was thinking..."
 
@@ -1086,7 +1086,7 @@ Three and a half inch introduced in 1980, started at 720K, double-sided high-den
 
 **Adam Stacoviak:** We should reach out to Loopback though, and Rogue Amoeba, to see if they want to sponsor the show...
 
-**Jerod Santo:** \[00:47:51.25\] They should. We should have an episode that's just white noise, until the check clears...
+**Jerod Santo:** \[47:51\] They should. We should have an episode that's just white noise, until the check clears...
 
 **Adam Stacoviak:** That's right.
 
@@ -1120,7 +1120,7 @@ Three and a half inch introduced in 1980, started at 720K, double-sided high-den
 
 **Adam Stacoviak:** Oh, man...
 
-**Break**: \[00:48:54.24\]
+**Break**: \[48:54\]
 
 **Jerod Santo:** One other thing we could talk about was - just to throw some flowers at Mat, in addition to your amazing piano skills... I hear you recently won an award yourself, didn't you?
 
@@ -1140,7 +1140,7 @@ Three and a half inch introduced in 1980, started at 720K, double-sided high-den
 
 **Mat Ryer:** I have ruined it. It is true.
 
-**Jerod Santo:** \[00:51:49.00\] Yeah, it's completely ruined. Go ahead, tell us the story.
+**Jerod Santo:** \[51:49\] Yeah, it's completely ruined. Go ahead, tell us the story.
 
 **Mat Ryer:** This was the OpenUK, which is an organization that works and celebrates open source software... And I think because of a little package I wrote with a friend of mine called Testify - you may have heard of it... Have you heard of it, Adam?
 
@@ -1256,7 +1256,7 @@ Three and a half inch introduced in 1980, started at 720K, double-sided high-den
 
 **Jerod Santo:** So we're very confused. Adam, are you confused?
 
-**Adam Stacoviak:** I'm also confused, about something else. So tell me if you know this URL... GitHub.com...
+**Adam Stacoviak:** I'm also confused, about something else. So tell me if you know this URL... github.com...
 
 **Jerod Santo:** I do.
 
@@ -1290,7 +1290,7 @@ Three and a half inch introduced in 1980, started at 720K, double-sided high-den
 
 **Mat Ryer:** Yeah. I think everyone gets that though. It wasn't like a race... But there you go. So yeah, it was the Open UK Honours, New Year's Honours list. And genuinely, it is quite nice to get that. Normally I don't win things like that, but... Quite honoured to get it, really.
 
-**Adam Stacoviak:** \[00:55:55.17\] What do you think is that stretchr.com, spelled this funny way? S-T-R-E-T-C-H-R.com. What do you think is there?
+**Adam Stacoviak:** \[55:55\] What do you think is that stretchr.com, spelled this funny way? S-T-R-E-T-C-H-R.com. What do you think is there?
 
 **Mat Ryer:** Well, I know that we let the domain expire, and someone else got it. So...
 
@@ -1356,7 +1356,7 @@ And that's not a spoiler, because that's like the start of the plot. So trailer 
 
 **Jerod Santo:** Well, I spelled it like Piccadillo Square -- or sorry, Circus. Or Circle. And that was wrong. But according to this website here called Wikiquote, it's spelled P-E-C-C-A-D-I-L-L-O-S.
 
-**Mat Ryer:** \[00:59:58.22\] But you sort of know what it means, even though it's not a word.
+**Mat Ryer:** \[59:58\] But you sort of know what it means, even though it's not a word.
 
 **Jerod Santo:** You totally know what it means. Actually, it is a word, I was probably just spelling it wrong. "A small sin or a fault, a slight trespass or offense. A petty crime, a trifling fault." So that's what I was talking about with Go. It was like this little sin of Go, shadowing variables and stuff...
 
@@ -1434,7 +1434,7 @@ And that's not a spoiler, because that's like the start of the plot. So trailer 
 
 **Jerod Santo:** Maybe...
 
-**Mat Ryer:** But thank you very much for this lovely medal. And I'd like to thank all my family as well... I'm holding it because it came with a ribbon, so I'm just holding it up. Yeah. And keep open-sourcing, everyone. Bye! That sort of thing.
+**Mat Ryer:** But thank you very much for this lovely medal. And I'd like to thank all my family as well... I'm holding it because it came with a ribbon, so I'm just holding it up. Yeah. And keep open sourcing, everyone. Bye! That sort of thing.
 
 **Jerod Santo:** \[laughs\] That sort of thing.
 
