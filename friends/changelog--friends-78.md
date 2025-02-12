@@ -70,7 +70,7 @@ And I learned about OAuth, and SAML, and OIDC, and JOTS... Basically alphabet so
 
 **Dan Moore:** Totally.
 
-**Jerod Santo:** \[00:07:41.16\] But then the thing is, there's this sprawling concern that happens over time with it, where just the simple case isn't sufficient over the course of time, and so all these other things come in: SSO, MFA, more alphabet soup... And now you find yourself kind of reinventing lots of little different wheels in order to stay in the build camp on that particular thing. And this is back in the developer zeitgeist right now, because there's been some conversations around magic links, one-time pass codes or passwords, pass keys... Are passwords dead? We've got excited about pass keys, Adam, you and I, last year, speaking with the 1Password folks... Is that right?
+**Jerod Santo:** \[07:41\] But then the thing is, there's this sprawling concern that happens over time with it, where just the simple case isn't sufficient over the course of time, and so all these other things come in: SSO, MFA, more alphabet soup... And now you find yourself kind of reinventing lots of little different wheels in order to stay in the build camp on that particular thing. And this is back in the developer zeitgeist right now, because there's been some conversations around magic links, one-time pass codes or passwords, pass keys... Are passwords dead? We've got excited about pass keys, Adam, you and I, last year, speaking with the 1Password folks... Is that right?
 
 **Adam Stacoviak:** It was.
 
@@ -114,7 +114,7 @@ I think other people were starting to realize this as well, that the forgot pass
 
 **Dan Moore:** So those link checkers aren't smart enough to do that yet... And so that kind of means that when the user clicks, they're opening a browser and that browser's able to do that post.
 
-**Jerod Santo:** \[00:12:00.16\] That's exactly how I handled it as well. I had, specifically, I think, Outlook, certain versions of Outlook, or maybe Live 365. It's a Microsoft product. It will pre-click on links for you in order to do malware checks, and blah, blah, blah, blah. And so they would use - just the git request would use that one-time password, and then you'd hit it yourself and it wouldn't work anymore, because it's been used. And I had enough people complain about that over the years. I mean, it's been nine years.
+**Jerod Santo:** \[12:00\] That's exactly how I handled it as well. I had, specifically, I think, Outlook, certain versions of Outlook, or maybe Live 365. It's a Microsoft product. It will pre-click on links for you in order to do malware checks, and blah, blah, blah, blah. And so they would use - just the git request would use that one-time password, and then you'd hit it yourself and it wouldn't work anymore, because it's been used. And I had enough people complain about that over the years. I mean, it's been nine years.
 
 So we don't have that many Outlook users, but enough where like I don't want anybody to have a bad experience. And so every time, I'm like -- for a while, I was like "Please don't use crap software." No offense to anybody who uses it, but to the software itself, it's just not good email software. But you can only say that a couple of times, and then like the sixth, seventh time I'm like "I've got to solve this problem. It can't be that hard." And so it's like "Well, I guess I just require JavaScript." I just change that till you land on the page, and then the page itself does the post, and that's what gets you in. And that solved it, but... Again, one of those little wrinkles that you don't think about until it's deployed out there and people start to complain.
 
@@ -150,7 +150,7 @@ So we don't have that many Outlook users, but enough where like I don't want any
 
 **Jerod Santo:** You can see it, but you can't control it.
 
-**Adam Stacoviak:** \[00:15:58.05\] It's overwhelming. All orgs, read/write... All this access... It feels very thick. Like Tailscale - I use Tailscale, and that uses GitHub for a good reason. I use GitHub as my -- I don't know what they call it, actually, what their terminology is, but... It's not built on my Google SSO, it's built on a GitHub SSO, so it's built on that auth... And I don't know how to describe it. The whole entire tailnet is built on my GitHub auth account, essentially.
+**Adam Stacoviak:** \[15:58\] It's overwhelming. All orgs, read/write... All this access... It feels very thick. Like Tailscale - I use Tailscale, and that uses GitHub for a good reason. I use GitHub as my -- I don't know what they call it, actually, what their terminology is, but... It's not built on my Google SSO, it's built on a GitHub SSO, so it's built on that auth... And I don't know how to describe it. The whole entire tailnet is built on my GitHub auth account, essentially.
 
 **Jerod Santo:** Right.
 
@@ -188,7 +188,7 @@ It's existing accesses, Read org and team membership, and Read org projects. So 
 
 **Dan Moore:** It's like yeah, how coarse-grained does GitHub allow permissions to be asked for, and then what permissions is Tailscale asking for. And my guess is this happened -- this is probably a little bit like the Magic Link experience that Jerod was talking about, where it started out and Tailscale asked for very small amounts of data, and then there was a use case. And then they needed to ask for a little bit more. And there was another use case and they needed to ask for a little bit more... And then they can't differentiate between whether you're doing the simple use case, where all they need is the email and password -- or not your password, sorry; just your email... Or the complicated one. That's my guess on what happened, based on kind of what I've seen over the years. It's best of intentions, but GitHub having coarse-grained permissions makes it really tough to ask for just what they need.
 
-**Jerod Santo:** \[00:19:40.06\] Right. And sometimes the other strategy - I can rationalize the other strategy, which is like, "I don't know, let's just ask for as much as we -- we might need it eventually anyways. Just ask for more. And that way we don't have to come back and re-ask later if we decide we need this thing..." And so, especially certain people who are data miners, they're like "We may need -- just collect all the data. We may need it in the future." That's easy to sell that in a meeting, I think.
+**Jerod Santo:** \[19:40\] Right. And sometimes the other strategy - I can rationalize the other strategy, which is like, "I don't know, let's just ask for as much as we -- we might need it eventually anyways. Just ask for more. And that way we don't have to come back and re-ask later if we decide we need this thing..." And so, especially certain people who are data miners, they're like "We may need -- just collect all the data. We may need it in the future." That's easy to sell that in a meeting, I think.
 
 **Dan Moore:** Totally.
 
@@ -218,7 +218,7 @@ And I have one that I've been using for years that I love, that is fantastic, bu
 
 **Dan Moore:** It's called a PasswordSafe. Mark Schn -- who's the Schneier guy? Bruce Schneier. He recommends it, and it's open source, and just kind of super-dumb... But it's not like integrated with any external systems. Because that's the other worry that I have with password managers like 1Password or LastPass; what we've seen is they are super-valuable targets, because they have everything.
 
-**Jerod Santo:** \[00:24:08.28\] For sure.
+**Jerod Santo:** \[24:08\] For sure.
 
 **Dan Moore:** I think you should always offer username and password as an option, because I think you're going to have some subset of people who are going to be more comfortable with that... But I don't think that it should be the only solution.
 
@@ -278,7 +278,7 @@ So I don't think they're going away, I think that there are great solutions that
 
 **Dan Moore:** Sure.
 
-**Adam Stacoviak:** \[00:28:15.21\] And now we've got different places you can get attacked. Thankfully, those players have done pretty well... I don't know. It just seems like now we've got such a complicated situation.
+**Adam Stacoviak:** \[28:15\] And now we've got different places you can get attacked. Thankfully, those players have done pretty well... I don't know. It just seems like now we've got such a complicated situation.
 
 **Jerod Santo:** We also end up in the same situation with 1Password and LastPass, where now these providers become huge targets.
 
@@ -298,7 +298,7 @@ Of course, they probably have their security teams staffed up, because if I can 
 
 **Dan Moore:** Fair enough.
 
-**Break**: \[00:31:13.27\]
+**Break**: \[31:13\]
 
 **Jerod Santo:** So let's go back to MagicLinks and talk about OTP, because this is kind of -- to me, it seems like maybe an evolution of MagicLinks and an improvement. So the idea here is that I'm still going to send you something that you can then confirm that you have, but instead of just making it a link, which in our case it's like a long... It's not like an md5sum, it's like a hash value that you would not be able to just rattle off; it's shorter, and time-based, and usually it's six numbers that are provided... And so the one-time passcode is sent to the email, or whatever way you can send them. I'm sure you can push notify it, or whatever. And there's a click provided, so you can still just click on it and just embed it in the URL in that case... Or you can just read these six characters and type it back out... And that really solves one particular bummer about MagicLinks, is the shareability aspect, and the switching contexts aspect, which a lot of people run into. It's like "Hey, I'm on my phone. I sent myself a MagicLink, and I don't have that email app on my phone." There's all these different weird things. Or it opens in an app-specific browser inside of my email client, and so it logs me in inside of Gmail app, but I go back to my other app and I'm not signed in... Well, with these one-time passcodes, you can solve that by just either copy-pasting the six digits, or just remembering them for 10 seconds and typing them on the other side. So that seems like a nice evolution.
 
@@ -320,7 +320,7 @@ I don't know... I always feel concerned about that. If I'm alone, it's just my p
 
 **Dan Moore:** Yeah, I mean, there's definitely -- there's a couple of kind of things to think about with passkeys. One is how you set them up, first of all. The registration process is a little bit weird, and can kind of differ... And depending on the passkey, it might be tied to a physical device, it might be tied to an account. If you're worried about people correlating things across like OAuth, or OIDC, the same thing is happening with passkeys that are shared. Or if it's device-specific, then now you're kind of tied to the device. And then kind of -- I think the user experience for actually logging in is pretty good. It does -- you don't have as much control as the thing that you're logging into; the app you're logging into doesn't have as much control over the look and feel, or the messaging, or anything like that... And that can be problematic, too.
 
-\[00:38:05.01\] But the beautiful thing about passkeys - they are locked down in two ways, right? They're locked down to the device or the system that holds the private key, that is actually kind of generating the challenge, and like solving the -- basically... I can walk through kind of how passkeys work if that'd be helpful... But anyway, there is a private key that is held someplace, and that is what's used to kind of authenticate you. And they're also locked down to the domain. They're associated to a domain, which is really, really great too, because it removes all kinds of phishing problems. Because you're trusting the computer to recognize the domain, rather than the user, looking at the UX or looking at the URL bar.
+\[38:05\] But the beautiful thing about passkeys - they are locked down in two ways, right? They're locked down to the device or the system that holds the private key, that is actually kind of generating the challenge, and like solving the -- basically... I can walk through kind of how passkeys work if that'd be helpful... But anyway, there is a private key that is held someplace, and that is what's used to kind of authenticate you. And they're also locked down to the domain. They're associated to a domain, which is really, really great too, because it removes all kinds of phishing problems. Because you're trusting the computer to recognize the domain, rather than the user, looking at the UX or looking at the URL bar.
 
 And computers are much better at comparing character by character, and making sure that things are all correct. So there's two kind of security benefits for passkeys, for sure.
 
@@ -338,7 +338,7 @@ Now, I do use 1Password though, to just identify my stack. So unlike Jerod - App
 
 And I don't think -- that's not his only reasoning for using it. I know Jerod well enough. He likes to keep his stack simple, and not have to have other extra services if he doesn't want to, kind of thing. And I think that's cool. That's how they use it, and that's cool.
 
-\[00:41:59.24\] I use 1Password for a lot more than passwords. I've got secure notes in there, I've got -- I mean, I don't want to tell everybody what is my attack vector. It's a lot, okay? It would be really bad. It would be really bad if 1Password was not a good long-term security solution and they were attacked on my behalf. I use it for more than passwords.
+\[41:59\] I use 1Password for a lot more than passwords. I've got secure notes in there, I've got -- I mean, I don't want to tell everybody what is my attack vector. It's a lot, okay? It would be really bad. It would be really bad if 1Password was not a good long-term security solution and they were attacked on my behalf. I use it for more than passwords.
 
 **Dan Moore:** So Adam, I'd love to probe that a little bit ,more because to me some of this just may be because of the growing pains of passkeys. Usernames and passwords have been around for a long, long time, and even now there's still some wrinkles -- sometimes people will ask for your username first, and that's so they can direct you to the right identity provider if you're...
 
@@ -360,7 +360,7 @@ I will say, to caveat all this, is just to give fodder for a conversation, becau
 
 **Dan Moore:** I did want to say, I don't think it's just for security. That's not the only reason that new orgs or that Passkeys are getting kind of pushed. I think it's also a user -- they've done studies that it just gets you into the app faster. There was something - I'll share the link, but this person referenced a Microsoft study that said that the average time to log in went from 69 seconds with username and password/MFA to eight seconds with passkeys. And so if you can get someone into Adobe quicker, especially someone who doesn't have your depth of experience, Adam, and doesn't really understand kind of the big thing, and they just want to get to Adobe, and you can decrease it by 10X, that's a big win for everybody.
 
-**Adam Stacoviak:** \[00:46:34.25\] I don't know, I feel like my email/password logins have been pretty fast. I will say that 2FA, MFA scenarios slow it down a little bit... Adding that into -- so one thing I like about 1Password is that it allows you to 2FA, OTP, MFA inside of your 1Password. So you can actually let 1Password do that coding, I suppose; getting those codes back and forth. And it automates it in its autofill process too, so it's pretty quick, to my knowledge. There's times when it's slower.
+**Adam Stacoviak:** \[46:34\] I don't know, I feel like my email/password logins have been pretty fast. I will say that 2FA, MFA scenarios slow it down a little bit... Adding that into -- so one thing I like about 1Password is that it allows you to 2FA, OTP, MFA inside of your 1Password. So you can actually let 1Password do that coding, I suppose; getting those codes back and forth. And it automates it in its autofill process too, so it's pretty quick, to my knowledge. There's times when it's slower.
 
 The other cool thing I like about that flow - not that it's better than Passkeys. I feel like you're going to always have every way to log in. That's why I feel like FusionAuth has such a long game here... Because, I mean, you're never not going to have one of these other scenarios. There probably isn't a silver bullet, because you always have all the ways, essentially.
 
@@ -378,7 +378,7 @@ But if you have a shared 1Password record, let's just say... So if you have a mu
 
 My hair is on fire", and zero is like "I trust. Everything's fine."
 
-**Adam Stacoviak:** \[00:50:05.13\] Well, okay... Now that you've said this - thank you very much - I guess my concern is elevated... And I think it goes back to the level of trust that I give to 1Password, or whatever supplants it in the future, if that's ever a case. I think it concerns me in this conversation that it's true that I have a large footprint, a large attack vector in one service. That being said, I've had many conversations with the people behind 1Password, and even a trusted security professional that's a close friend of ours love their protocols. I'm speaking of Feross, Jerod, back in the day when he was doing Wormhole and all that stuff, he was like really praising their security measures.
+**Adam Stacoviak:** \[50:05\] Well, okay... Now that you've said this - thank you very much - I guess my concern is elevated... And I think it goes back to the level of trust that I give to 1Password, or whatever supplants it in the future, if that's ever a case. I think it concerns me in this conversation that it's true that I have a large footprint, a large attack vector in one service. That being said, I've had many conversations with the people behind 1Password, and even a trusted security professional that's a close friend of ours love their protocols. I'm speaking of Feross, Jerod, back in the day when he was doing Wormhole and all that stuff, he was like really praising their security measures.
 
 That being said, obviously anything is attackable and you can get past it... So I think I've put a lot of faith in 1Password security measures, really, and I just hope that in the future my bet on that security measure remains valid and true. And if they ever get attacked ad nauseam, I guess I'm just screwed. I guess at that point -- I'm not that worried about it, honestly. So five, maybe. Five.
 
@@ -400,7 +400,7 @@ That being said, obviously anything is attackable and you can get past it... So 
 
 And again, you're just separating things out, and you're not -- you know, every step you take to do this makes things just a little bit harder for attackers. And so that's the whole goal. It's not to -- if there's a state level attacker out there, hi. Anyone who's listening from a state level actor. They can probably get access to my accounts, because they have those resources. But I'm just trying to make it difficult enough that normal attackers move on.
 
-**Jerod Santo:** \[00:53:59.23\] Yeah, that makes total sense. I think having multiple pieces of software... But unless you are an employer, that's really on the end user, isn't it? Like, if you're a bank... I guess if you do SMS, you're kind of forcing them into their SMS app, or something like that. Whereas with a passkey -- I mean, really, that might be a downfall of a password plus passkey MFA, because now they both can be stored in the exact same place. And if you have your OTP codes in there... Like, how could you as the bank, not with employees, but with end users, kind of guarantee them the best chance of having that segregation? Would it be SMS, which like you said, kind of has some problems with security?
+**Jerod Santo:** \[53:59\] Yeah, that makes total sense. I think having multiple pieces of software... But unless you are an employer, that's really on the end user, isn't it? Like, if you're a bank... I guess if you do SMS, you're kind of forcing them into their SMS app, or something like that. Whereas with a passkey -- I mean, really, that might be a downfall of a password plus passkey MFA, because now they both can be stored in the exact same place. And if you have your OTP codes in there... Like, how could you as the bank, not with employees, but with end users, kind of guarantee them the best chance of having that segregation? Would it be SMS, which like you said, kind of has some problems with security?
 
 **Dan Moore:** I mean, I assume SMS or email. Anything that's deliverable is probably going to be outside of your app. We talked about the tension around the friction around login method, and that same thing is true with MFA. So there's always a tension between making things as easy for Adam to log in as possible... Or Adam, to be honest with you, taking control of his own destiny and using tools out there like 1Password or Bitwardener etc.
 
@@ -420,11 +420,11 @@ But there's other scenarios where you try to redo your password or something lik
 
 **Dan Moore:** I mean, NIST actually recommend -- they have the latest digital identity guidelines, and they actually recommend that you don't enforce that complexity, because it's frustrating to end users, and they end up picking something that may not be that complex. Like, they'll just add like the one exclamation point at the end of a normal word, or something like that.
 
-**Jerod Santo:** \[00:57:57.17\] Yeah. I think minimum length is pretty much the only constraint you should have. Like, it can't be less than eight, or whatever it is. And then anything else, as long as you want, as crazy as you want... But we have to have a minimum amount.
+**Jerod Santo:** \[57:57\] Yeah. I think minimum length is pretty much the only constraint you should have. Like, it can't be less than eight, or whatever it is. And then anything else, as long as you want, as crazy as you want... But we have to have a minimum amount.
 
 **Dan Moore:** And check the corpus, right? There's a bunch of corpuses passwords out there, and check that it's not in there. And other than that, yeah, go crazy.
 
-**Break**: \[00:58:23.03\]
+**Break**: \[58:23\]
 
 **Adam Stacoviak:** So here's a -- I'm not sure this is a hot take, but I would say this is a take. Let's just say this is a lukewarm take. I feel like password managers, or some sort of password management - and maybe Apple solved this, to some degree - is the new SSL, in the fact that we had LetsEncrypt happen more than a decade ago, and now a large part of the internet is now encrypted because of all their efforts with LetsEncrypt.
 
