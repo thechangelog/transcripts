@@ -56,7 +56,7 @@ And so I went around to my neighbors and got people to sign papers... And everyo
 
 **Jerod Santo:** So I went knocking on doors and I'm like "Please vote yes on this initiative." And they're all like "Of course. Who doesn't want fiber to their house?" They're like "Of course." It was the easiest sell of all time. And so that's how it happened.
 
-**Adam Stacoviak:** \[00:08:10.24\] So 10 houses for your contract.
+**Adam Stacoviak:** \[08:10\] So 10 houses for your contract.
 
 **Jerod Santo:** Yup. I only got one no out of all the houses that I went to.
 
@@ -122,7 +122,7 @@ And so I went around to my neighbors and got people to sign papers... And everyo
 
 **Jerod Santo:** But I'm happy to hear that you like that. Do you now actually listen to podcasts while working or while coding? Because I can't do that. But a lot of people do.
 
-**Jimmy Miller:** \[00:11:47.16\] It depends. If it's actually something where I have to focus, no. If it's like I'm having at work to do some really tedious, boring, repetitive tasks that I don't want to do, and I'm fine with getting distracted and it taking 12 times longer, then absolutely. But yeah, if I'm trying to like really code, I cannot -- I've found myself like accidentally listening to a podcast and coding... I was just doing something else, and then I'd start coding something... And I'm like "Why am I so frustrated right now?" And it's because those two parts of my brain -- the linguistic part of my brain is like overloaded right now, it feels like. And so I have to have to turn off the podcast.
+**Jimmy Miller:** \[11:47\] It depends. If it's actually something where I have to focus, no. If it's like I'm having at work to do some really tedious, boring, repetitive tasks that I don't want to do, and I'm fine with getting distracted and it taking 12 times longer, then absolutely. But yeah, if I'm trying to like really code, I cannot -- I've found myself like accidentally listening to a podcast and coding... I was just doing something else, and then I'd start coding something... And I'm like "Why am I so frustrated right now?" And it's because those two parts of my brain -- the linguistic part of my brain is like overloaded right now, it feels like. And so I have to have to turn off the podcast.
 
 **Jerod Santo:** It's kind of like when you're reading a book and then you realize you haven't been paying attention for the last five minutes... Like, you're still reading it, but you haven't been actually with it... That's how I get when I'm trying to code and I'm listening to a podcast. I'm only going to be doing one of the two. I'm not going to be doing both of them.
 
@@ -174,7 +174,7 @@ And so I went around to my neighbors and got people to sign papers... And everyo
 
 **Jerod Santo:** Like, I have a blog post worth of ideas, but I have to turn it into a book length.
 
-**Jimmy Miller:** \[00:15:54.29\] I have bought some very awkward -- like, I didn't realize it, because I didn't look at the page count... I bought some "philosophy books" that were actually just papers, but they took it and put really big font size, and shoved it into a very small book... So like if you look at the paper, it's like a 25-page paper, and then it's like a hundred-page, but tiny book.
+**Jimmy Miller:** \[15:54\] I have bought some very awkward -- like, I didn't realize it, because I didn't look at the page count... I bought some "philosophy books" that were actually just papers, but they took it and put really big font size, and shoved it into a very small book... So like if you look at the paper, it's like a 25-page paper, and then it's like a hundred-page, but tiny book.
 
 **Jerod Santo:** Yeah. Double space...
 
@@ -206,7 +206,7 @@ I find the same thing is true -- if you compare like a well-produced solo YouTub
 
 But yeah, no, I'm excited about this blog post. I've had some good luck with people liking my blog posts lately. I spent a few years trying to write blog posts, and just like have no clue how to write at all, and like what my voice was, or any of that... And then just recently, each blog post I've written since the one you all invited me on, I've kind of felt it better. I'm finally starting to get there.
 
-**Jerod Santo:** \[00:19:51.12\] You're getting your voice and you're getting your groove.
+**Jerod Santo:** \[19:51\] You're getting your voice and you're getting your groove.
 
 **Jimmy Miller:** Yeah, which was nice.
 
@@ -232,7 +232,7 @@ But yeah, no, I'm excited about this blog post. I've had some good luck with peo
 
 And this is one of the things I often find, is -- I don't know, as much as we love to talk about programming, we don't like to reflect on our actual practice much. And I was trying to think, "Is there anything that corresponds to this? Have I read this anywhere?" And I tried to find something. I was like "Surely somebody has written about it." And I'm sure they have. But trying to find it was really -- I couldn't find anything quite like it. So I just thought "You know what, I need to write this down." And it was all done in one sitting, after listening to that lecture. It took me an hour or something to just write it down and put it out there... And so it was great to hear that people -- so the basics of it are really pretty simple. When you go to write code, you don't know what you're going to write yet. You discover what you're going to write in the process of coding.
 
-**Break**: \[00:23:28.00\]
+**Break**: \[23:28\]
 
 **Jimmy Miller:** You discover what you're going to write in the process of coding.
 
@@ -278,7 +278,7 @@ And so I think that people who don't discovery-code would probably say that -- I
 
 **Jimmy Miller:** Yeah, exactly.
 
-**Jerod Santo:** \[00:32:02.27\] That's really the key. You have to leave the hypothetical area/space and get into the real world as close - as we get digitally - to really know whether or not solution A, B, C or D is even viable. And you won't know that about any of those four until you've actually let the rubber hit the road and realize "Ah, you know what? I'm banging up against this. I didn't think I was going to be, but now I am." And the faster you can bang up against it, then you start searching for other things.
+**Jerod Santo:** \[32:02\] That's really the key. You have to leave the hypothetical area/space and get into the real world as close - as we get digitally - to really know whether or not solution A, B, C or D is even viable. And you won't know that about any of those four until you've actually let the rubber hit the road and realize "Ah, you know what? I'm banging up against this. I didn't think I was going to be, but now I am." And the faster you can bang up against it, then you start searching for other things.
 
 **Jimmy Miller:** Exactly. So it might seem like you're trying to skirt process... You're just being lazy. That'd be the accusation. Like, come on... Leslie Lamport, or Dykstra, these very rigorous "We've got to have formal methods, we've got to really think about this. We've got to prove things..." You know, I get that. I have that bent. I've played with making some alloy models, which is like TLA+ with a competitor, or whatever... I've liked some of this formalism --
 
@@ -296,7 +296,7 @@ So I guess to me it doesn't seem like flying by the seat of your pants describes
 
 I didn't even touch on it in the blog post, because it kind of just like went behind my head... But if you wanted to do a clean build on that legacy system - when I first joined it was like 10 minutes; I think it got down to like seven minutes, or something... And trying to do -- even though that's not like the 24 hours I've heard some horror stories of... You know, having 10 minutes every time you want to make a change to like go explore something is incredibly slow. And so what you end up having to do is try to plan all of this out ahead of time.
 
-\[00:36:05.28\] And one of the things I've found just to be -- if you're going to try to do discovery coding, you have to spend that time upfront, making tooling so that you can get a fast feedback cycle, and you can start discovering. And that just takes a lot of work to get to that point, especially if no one's focused on it.
+\[36:05\] And one of the things I've found just to be -- if you're going to try to do discovery coding, you have to spend that time upfront, making tooling so that you can get a fast feedback cycle, and you can start discovering. And that just takes a lot of work to get to that point, especially if no one's focused on it.
 
 **Jerod Santo:** So I do most of my discovery coding at a REPL, or try to. What would that look like, if it's not like an environment-ready loop that you can just program against?
 
@@ -326,7 +326,7 @@ I didn't even touch on it in the blog post, because it kind of just like went be
 
 **Jimmy Miller:** You can find -- I think for most systems you can find some little dynamic part of it.. You can find something where you can start messing with things. Even if it's just like you add a bunch of flags. Like, I remember in an early job there was this -- we went back and forth over and over again on this one form. It had like 70 different states, error states it could possibly be in based on like different combinations of stuff... And we kept having stories on like "Well, if it's this combination, the error message should be that. And if it's this combination, then the error message should be this." And over and over again.
 
-\[00:40:01.00\] So I just took that thing and configured it so you could like click on and off every single possible state, and see the error message right away, like a little dev UI for it... And just brought the person in office. -- so I just brought them over to my desk and was like "What do you want the error message to be right here?" And then clicked on the Next button. What about now? And just like walked through all of it.
+\[40:01\] So I just took that thing and configured it so you could like click on and off every single possible state, and see the error message right away, like a little dev UI for it... And just brought the person in office. -- so I just brought them over to my desk and was like "What do you want the error message to be right here?" And then clicked on the Next button. What about now? And just like walked through all of it.
 
 **Jerod Santo:** Nice.
 
@@ -380,7 +380,7 @@ And I'm really curious to go down this path, because he's got this plan... I'm a
 
 **Jerod Santo:** Yeah. Sometimes I think it's a good idea, but a lot of times I'm like "Here's why that's not good."
 
-**Adam Stacoviak:** \[00:44:09.05\] Yeah.
+**Adam Stacoviak:** \[44:09\] Yeah.
 
 **Jerod Santo:** Discovery.
 
@@ -422,7 +422,7 @@ But I do think that there's a lot that's good about that general advice. Like, o
 
 **Jerod Santo:** It's not the 4am coding flow state of his youth...
 
-**Jimmy Miller:** \[00:47:49.17\] I guess one of the things I always think about with flow state is like -- the things people always compare it to, and maybe I'm just misunderstanding it, is like when you're kind of grooving with music. I don't know if either of you play any instruments... But I play bass, and -- I haven't really played it in a while, but I play bass guitar and I played standup bass as well in orchestra... And in that, you're kind of captivated by the music. You're really not thinking about where you are, what you're doing, you're just kind of playing. And that is not a feeling I get much with coding.
+**Jimmy Miller:** \[47:49\] I guess one of the things I always think about with flow state is like -- the things people always compare it to, and maybe I'm just misunderstanding it, is like when you're kind of grooving with music. I don't know if either of you play any instruments... But I play bass, and -- I haven't really played it in a while, but I play bass guitar and I played standup bass as well in orchestra... And in that, you're kind of captivated by the music. You're really not thinking about where you are, what you're doing, you're just kind of playing. And that is not a feeling I get much with coding.
 
 **Adam Stacoviak:** Would you describe your feeling as effortless momentum?
 
@@ -470,7 +470,7 @@ Some of us, Jimmy, just focus on the easy stuff. You know, life's good. When you
 
 **Jerod Santo:** Versus top-down. How do you distinguish that as being different than this?
 
-**Jimmy Miller:** \[00:52:15.04\] Yeah. So the way I understand top-down design and bottom-up design is... Bottom-up is you're trying to build these kind of little Lego pieces, right? You're trying to get something that's interconnectable. You're not immediately solving some specific problem. Instead, you're making the building blocks to solve lots of problems.
+**Jimmy Miller:** \[52:15\] Yeah. So the way I understand top-down design and bottom-up design is... Bottom-up is you're trying to build these kind of little Lego pieces, right? You're trying to get something that's interconnectable. You're not immediately solving some specific problem. Instead, you're making the building blocks to solve lots of problems.
 
 Top-down is kind of the opposite. I think the classic top-down is like you start with your main method, you're like "I'm going to have this object, and it's going to have this method, and the method doesn't exist yet, so I put an empty method body. And then that method calls these methods.' And you kind of try to solve the problem, taking like, as you scope top-down, you scope in on the details, and you fill them out.
 
@@ -480,7 +480,7 @@ And what I wanted to emphasize with discovery coding is this kind of emptying of
 
 And so you approach it not with like "Hey, maybe if I tried this, it will work." Instead of approaching it like "Okay, given all this circumstance, all this problem that's going on, where can I first make a change in the system?" That's how I approach it. It's like, where can I poke at the system? Maybe it's just, I don't know how that subsystem works, and I know it's had lots of problems recently. Maybe I make a little debug interface that just like prints out the state every time it changes. And I start looking at that and I'm like "Oh wait, what's that? Why is the state changing this way?" And I'm like "Okay, well, how does it relate to that thing?" And you're just starting to connect dots, so that you can come up with "What am I going to do next?" And I think the result of that process might be a top-down approach, might be a bottom-up approach. It might be you go write a doc. But it's that process of discovery. That's why I liked discovery coding, because you are trying to learn something. You're not trying to do something.
 
-**Break**: \[00:55:47.28\]
+**Break**: \[55:47\]
 
 **Adam Stacoviak:** How do you get started then? You said it begins with some version of a tension. You have tension out there somewhere in the system. And so when you start your day as a discovery coder, are you just trying to learn how the system works, kind of thing? Or you're starting with that tension where you've got a sea or a slew of different problem sets that you're just trying to figure out why that's happening.
 
@@ -590,9 +590,9 @@ So much of the day job of programming is the unsatisfying parts of it. What I tr
 
 **Jimmy Miller:** Yeah, yeah, exactly.
 
-**Jerod Santo:** Just open-source your code of the world and somebody will find it for you.
+**Jerod Santo:** Just open source your code of the world and somebody will find it for you.
 
-**Jimmy Miller:** Uh-huh. That that's good advice. If you're in a company and you have a problem, just open-source all their code, and then someone...
+**Jimmy Miller:** Uh-huh. That that's good advice. If you're in a company and you have a problem, just open source all their code, and then someone...
 
 **Adam Stacoviak:** I know somebody who did that one time, and it did not end well.
 
@@ -602,7 +602,7 @@ So much of the day job of programming is the unsatisfying parts of it. What I tr
 
 **Jimmy Miller:** Okay, okay.
 
-**Adam Stacoviak:** Okay, I can tell you. I can tell you. Oh, my gosh... It's been so long since I thought about this, but this is one of those stories. I won't name names... Let's just call him Dinesh. It's Gilfoyle's sidekick. Dinesh got a side gig, too. And I'll say our main gig. Dinesh got this sketchy side gig where we were building out a system... And in our main thing, our consultancy, we were building out this template, let's just say. And we wanted to keep improving that. And that template was open source. But then in this side gig we were doing some things that would make the template we did in the open source better. So we wrote the code for them, but decided to move that code over to here. When I say "we", I mean Dinesh did this. I didn't know that. And we had a company together. And it turned into a legal situation. It was bad... And it was the one time I was fired because of somebody else's stupidity, basically. So Dinesh open-sourced somebody else's code.
+**Adam Stacoviak:** Okay, I can tell you. I can tell you. Oh, my gosh... It's been so long since I thought about this, but this is one of those stories. I won't name names... Let's just call him Dinesh. It's Gilfoyle's sidekick. Dinesh got a side gig, too. And I'll say our main gig. Dinesh got this sketchy side gig where we were building out a system... And in our main thing, our consultancy, we were building out this template, let's just say. And we wanted to keep improving that. And that template was open source. But then in this side gig we were doing some things that would make the template we did in the open source better. So we wrote the code for them, but decided to move that code over to here. When I say "we", I mean Dinesh did this. I didn't know that. And we had a company together. And it turned into a legal situation. It was bad... And it was the one time I was fired because of somebody else's stupidity, basically. So Dinesh open sourced somebody else's code.
 
 **Jimmy Miller:** Wow.
 
