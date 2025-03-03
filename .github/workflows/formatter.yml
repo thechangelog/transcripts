@@ -1,12 +1,11 @@
-# This workflow runs the `format` script on the codebase when 
+# This workflow runs the `format` script on the codebase when
 # code is pushed to master.
-
 
 name: Run Formatter on episode transcripts
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   workflow_dispatch: # create a button to run on demand
 jobs:
   run-formatter:
@@ -14,14 +13,14 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        
+
       - name: Use Node.js 14.x
         uses: actions/setup-node@v1
         with:
           node-version: 14.x
-    
+
       - name: Cache node modules
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         env:
           cache-name: cache-node-modules
         with:
@@ -31,14 +30,14 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
-            ${{ runner.os }}- 
-    
+            ${{ runner.os }}-
+
       - name: run npm install
         run: npm install
-        
+
       - name: run formatter
         run: npm run format
-      
+
       - name: Commit and push if it changed
         run: |-
           git config user.name "Logbot"
@@ -47,7 +46,7 @@ jobs:
           git commit -m "$(npm run commitMessage --silent)" || exit 0
           git push
 
-      ## Alternative to Automatic Push. 
+      ## Alternative to Automatic Push.
       ## Left here in case we ever want to go back to PR instead of push
       # - name: Create Pull Request
       #   uses: peter-evans/create-pull-request@v3
