@@ -18,7 +18,7 @@
 
 **Adam Stacoviak:** I mean, that's about as much as you can get -- you can short development to dev. Topics has got to be topics. "I've changed my mind on..." You can't lose that phrase. And then "after 10", which is the key numeral there of how many years...
 
-**Jerod Santo:** Right. This has become a pattern, hasn't it? Like, "Something I've learned after", and then it's like whatever many years it is. I feel like we've had a couple of people who've written successful posts like that, and then other people are like "Oh, I've also spent n years doing a thing", and...
+**Jerod Santo:** Right. This has become a pattern, hasn't it? Like, "Something I've learned after", and then it's like whatever many years it is. I feel like we've had a couple of people who've written successful posts like that, and then other people are like "Oh, I've also spent N years doing a thing", and...
 
 **Adam Stacoviak:** It's a good limiter. Yeah, you can sort and limit pretty easily, you know... Because if I've spent 10 years in the industry, I might be like "Okay, I'm inclined to read this, because I may have similar or the same takes." But if I've been in the industry two years, I'm like "Well, I don't have the depth, so that one's not for me. But maybe I'll watch it anyways. Maybe I'll check it out anyways", you know?
 
@@ -56,7 +56,7 @@ I think people who are fresh to topics can change their mind a lot, because they
 
 **Jerod Santo:** Nobody really knows what time it is, as the song goes. So I'm with you, maybe a couple of years behind... I graduated from college I think in '06... '05 or '06. It's always very fuzzy. And went straight into industry pretty much from there. But I was already doing stuff on the web in college. Prior to college, my computer use was basically Napster and video games...
 
-**Adam Stacoviak:** \[00:08:07.28\] Yeah, same.
+**Adam Stacoviak:** \[08:07\] Yeah, same.
 
 **Jerod Santo:** And Winamp, and stuff. It wasn't really productive creating things. I wouldn't say I was in the industry, but... Yeah, probably 20 years for me, since it is 2025... And have you changed your mind at all?
 
@@ -70,7 +70,7 @@ I think people who are fresh to topics can change their mind a lot, because they
 
 **Adam Stacoviak:** Keep it simple, scannable, digestible, 10 minutes or less... 30 minutes if you want to dig...
 
-**Jerod Santo:** "Things I've learned after n years", you know, make the topic too long, and then just list it up, and let the rest of us opine on it. So we're going to start with a few of those. Where should we go first? Here's one that I thought was interesting. REPLs - this is tying now back into our discovery coding conversation with Jimmy... Chris thinks REPLs are not useful design tools, though they are useful exploratory tools.
+**Jerod Santo:** "Things I've learned after N years", you know, make the topic too long, and then just list it up, and let the rest of us opine on it. So we're going to start with a few of those. Where should we go first? Here's one that I thought was interesting. REPLs - this is tying now back into our discovery coding conversation with Jimmy... Chris thinks REPLs are not useful design tools, though they are useful exploratory tools.
 
 **Adam Stacoviak:** That's a good one.
 
@@ -104,7 +104,7 @@ I think people who are fresh to topics can change their mind a lot, because they
 
 **Jerod Santo:** Leslie Lamport thinks coding is typing. He does not like typing. He likes to think outside of the code. I think it's more than just typing. I've picked a nit with him on that before... But he's way smarter than I am, so I'll let him have that one. But I think coding is murkier today than it ever has been. Like, what does it mean to actually do a thing? Because everything's changing underneath us.
 
-**Adam Stacoviak:** \[00:12:29.18\] Yeah. You really have to enjoy, I guess, typing characters into a machine. Right?
+**Adam Stacoviak:** \[12:29\] Yeah. You really have to enjoy, I guess, typing characters into a machine. Right?
 
 **Jerod Santo:** Yeah, totally.
 
@@ -158,7 +158,7 @@ I've got no problem with thinking before you act... I just think that we think b
 
 **Jerod Santo:** And you can step away way faster than I usually do. I probably waste hours by not stepping away quicker. But the thing is, when you get stuck, doesn't stepping away feel like you're just giving up? Like, it feels like you're admitting failure... And I don't want to be a failure. I want to succeed in life. And so I'm going to sit here and figure this out, dagnabbit. But then I do finally admit that I can't figure it out right now, and I step away, and I go take a shower, or I go work out, or I go ride a bike, or whatever it is... And then right there, when I wasn't thinking about it, pops in the actual other way I could do it, which is way similar and solves all my problems. That's a confounding part of the process.
 
-**Adam Stacoviak:** \[00:16:06.13\] I would even say an energy renewal too, because there's times you get fatigued. I wouldn't say necessarily physically, but maybe mentally. Maybe a little both. But you step away and you get that cold water in your face if you're gonna wash your face, kind of thing... "Girl, go wash your face", throwback to that good book title... Rachel Hollis... You know, go wash your face. Get refreshed. Maybe you come back with some new energy.
+**Adam Stacoviak:** \[16:06\] I would even say an energy renewal too, because there's times you get fatigued. I wouldn't say necessarily physically, but maybe mentally. Maybe a little both. But you step away and you get that cold water in your face if you're gonna wash your face, kind of thing... "Girl, go wash your face", throwback to that good book title... Rachel Hollis... You know, go wash your face. Get refreshed. Maybe you come back with some new energy.
 
 There's times I'm trying to do something, and I've got the willpower, I think I have the energy, I'm making progress, but it just feels like I'm just -- I'm walking through three feet of snow. It's not even mud. Imagine like having to lift your leg up three feet just to get your foot out of the hole, to go forward, to put it into a brand new hole.
 
@@ -192,7 +192,7 @@ There's times I'm trying to do something, and I've got the willpower, I think I 
 
 **Jerod Santo:** He was like "No. Because we refresh our brains. Because when we're playing ping pong, everything else in the world disappears for a few minutes, and all we're doing is just playing ping pong. And we can just put everything away, just for a few minutes, and then come back to it. And your brain is refreshed." And I was like "That's right. That's true." I've known that, but he said it to me and I was like "Hm! That's a great way of looking at it, because that's really what is happening." And so useful distractions, usually physical, sometimes mental, but just in a different area... Competition, wash your face, as you said... I have a dartboard over there, and don't really use it anymore, but when I used to get stuck, I'd just throw darts. That helps. Take a walk, take a shower...
 
-**Adam Stacoviak:** \[00:19:49.00\] That's so smart. I agree with that sentiment. It is like a different take on "Step away to get unstuck." But what you're focusing on is what the activity is when you're stepped away, you know? Because if you have to put blinders to everything else, you obviously have to focus - some would say laser-focus - and you can't think about that problem anymore. You literally have to put it down and put it away completely, to focus on the collaborative process of ping pong, or table tennis, or washing your face, or whatever the activity is that lets you kind of sort of put blinders on everything else, all the problems.
+**Adam Stacoviak:** \[19:49\] That's so smart. I agree with that sentiment. It is like a different take on "Step away to get unstuck." But what you're focusing on is what the activity is when you're stepped away, you know? Because if you have to put blinders to everything else, you obviously have to focus - some would say laser-focus - and you can't think about that problem anymore. You literally have to put it down and put it away completely, to focus on the collaborative process of ping pong, or table tennis, or washing your face, or whatever the activity is that lets you kind of sort of put blinders on everything else, all the problems.
 
 **Jerod Santo:** Yeah. And there's something like a childlike wonder that comes out during games of competition... It doesn't have to be competitive. Even I'm sure when you go mountain-biking where it's like you're just being free, and you're being a kid, and you're just doing something that has exhilaration, and it takes concentration... And if you don't pay attention, you're going to get hurt, so you'd better take it seriously. And so while you're taking it seriously, nothing else can really fill your mind. That's the hard part about actually stepping away to get unstuck, is you can step away, but you can't necessarily turn your brain off the problem, unless you force it out by doing something that requires your brain and your body lots of times... And then you're actually stepping away. And so I think it does force us to turn our brain off to the problem, which gives us that chance to refresh. So I'm a big fan of ping pong, or whatever your game of choice is. Foosball is a good one...
 
@@ -250,7 +250,7 @@ There's times I'm trying to do something, and I've got the willpower, I think I 
 
 **Adam Stacoviak:** I will agree that CSS has gotten easier. And I will say that it's become easier potentially because of LLMs. I think because -- you know, I'm not a daily driver on frontend building. I'm not building frontend sites every day, so I don't have the muscle memory every day of how I lay something out with CSS. Or like I did back in the day. Back in the day I really thought at one point, Jerod, that I could design and build an entire frontend without ever looking at the browser. That I could just write the code and then call it done at some point... You know, Command+R...
 
-**Jerod Santo:** \[00:24:11.06\] You were like Cypher, staring into the matrix.
+**Jerod Santo:** \[24:11\] You were like Cypher, staring into the matrix.
 
 **Adam Stacoviak:** Yeah, I really felt like that. And I don't think I've ever actually given myself the true try on that, but I think I may have done simple things like menus, and rough layouts. Not like a full-on design, but enough to be like --
 
@@ -280,7 +280,7 @@ I really like the dev tool's ability to like change the flow and the direction o
 
 **Adam Stacoviak:** That's right. There's a way. There's a way. Yeah, I think there's a lot of good stuff in there. That's why I was so -- in that conversation with Chris Coyier, I was so pro what CodePen could do... Because I feel like where else can you play with HTML and CSS in particular - and sure, you can sprinkle some JS in there if you want to... But primarily, it's HTML and CSS. Where else can you do that in a way where you can show it to other people, create little things, and show off than in CodePen, right? That is the coolest. Being able to riff like that, basically, and show off a little bit... That to me is super-cool. And I don't even know if they've -- I haven't played with it in a while, but I'm pretty sure they have Tailwind baked in. I don't know, I would imagine they would. Chris is smart... But being able to play with that kind of stuff in the browser, where you can show off to somebody and just let it be a toy, so to speak, or just a stab, or a spike, I think you've said before... That to me is kind of cool.
 
-\[00:28:09.11\] I also like a lot of those stuff around Tailwind and like you can define your colors, and stuff like that. That to me in your Tailwind config is like just the coolest. Being able to do all that like that, and you can define where -- you would have to do that in CSS before in like the root, with variables, or not at all, back before variables weren't even there... I think that's cool, that you can define all these color palettes and stuff like that... And it's built into the way Tailwind works at a structural level, not just classes and utilities and stuff like that. It's part of the overarching nicety framework that it brings. That to me - cool. But it's still hard.
+\[28:09\] I also like a lot of those stuff around Tailwind and like you can define your colors, and stuff like that. That to me in your Tailwind config is like just the coolest. Being able to do all that like that, and you can define where -- you would have to do that in CSS before in like the root, with variables, or not at all, back before variables weren't even there... I think that's cool, that you can define all these color palettes and stuff like that... And it's built into the way Tailwind works at a structural level, not just classes and utilities and stuff like that. It's part of the overarching nicety framework that it brings. That to me - cool. But it's still hard.
 
 **Jerod Santo:** Yeah.
 
@@ -322,7 +322,7 @@ As Kelsey Hightower said it - let's see if I can remember his saying... It was r
 
 **Jerod Santo:** Yeah, you do it right, you do it light. You just slow down, you go faster. It's the old tortoise and the hare. And so much of the tech industry is focused on raw and utter speed, and we end up foot gunning, as they say, shooting ourselves in the foot repeatedly, or shooting our teammates in the foot, or the future developer who's replacing us because I've spent my 12 months and I'm moving on... And we end up churning and burning a lot of our colleagues because we're so focused on speed. And if you would just slow down, and take the break, or write that additional test, or look at the source code, or don't abstract that method yet, or you know, insert your way of slowing down here, that those small decisions over time lead to faster. And I still believe that today. And I think I wrote that blog post like 15 years ago, so... Yeah, that's one.
 
-**Adam Stacoviak:** \[00:32:02.26\] Is that similar or the same as "Keep it simple"? Or is like "Keep it simple" in there, of slowing down?
+**Adam Stacoviak:** \[32:02\] Is that similar or the same as "Keep it simple"? Or is like "Keep it simple" in there, of slowing down?
 
 **Jerod Santo:** It's definitely not the same as keep it simple... It's in there.
 
@@ -364,7 +364,7 @@ And so there's definitely some slowdown to go faster in that, like "Slow down to
 
 **Jerod Santo:** So yeah, simplicity is really tough.
 
-**Adam Stacoviak:** \[00:35:50.27\] Slow down to go faster... Yeah, I never really understood that. It always seemed like, obviously, a conundrum of sorts, or a paradox, essentially... Like "What? No, that doesn't make sense..."
+**Adam Stacoviak:** \[35:50\] Slow down to go faster... Yeah, I never really understood that. It always seemed like, obviously, a conundrum of sorts, or a paradox, essentially... Like "What? No, that doesn't make sense..."
 
 **Jerod Santo:** Well, it goes back to one of your favorite sayings, "Slow and steady wins the race."
 
@@ -412,7 +412,7 @@ And so there's definitely some slowdown to go faster in that, like "Slow down to
 
 **Jerod Santo:** Yeah, we're already doing everything we can, so...
 
-**Break**: \[00:39:02.14\]
+**Break**: \[39:02\]
 
 **Jerod Santo:** What else? You got another one?
 
@@ -444,7 +444,7 @@ And so there's definitely some slowdown to go faster in that, like "Slow down to
 
 **Jerod Santo:** Let me hop in here, because you just said a key phrase that lines up with something I have changed my mind about...
 
-**Adam Stacoviak:** \[00:46:06.00\] Okay.
+**Adam Stacoviak:** \[46:06\] Okay.
 
 **Jerod Santo:** ...which now I believe, and I used to not believe. Software can't solve people problems. I used to think you could just throw software darn near anything. And I used to be like "Let's do this. I solve problems with software. I'm going to solve your problems with software."
 
@@ -476,7 +476,7 @@ And that's a people problem. You have to convince me, I guess, that it's worth i
 
 **Adam Stacoviak:** My resistance, I think, with things like Notion - this is not a Notion problem. This is not even their fault. My resistance is the lock-in that happens. And I'm thinking, "Okay, great. Let's create some workflows." And we do. And we start to collaborate. You and I even, just two people. And we start to use their commenting feature. And maybe they launch a real-time chat that sort of supplants some of the things we talk about in Zulip or DMs, and so now we've got two places we talk in real time... Well, now our productivity is reliant on that particular feature set, but then the overarching tool begins to maybe not be so good, or something else revolutionizes something. It's not even that it changed or got worse because they're poor developers or poor leaders, it's just that the puck moved, and that happens in tooling. That's my resistance. It's like "Gosh, man, I'm just tired of --" And maybe I'm just crying here, okay? I'm sorry if I'm crying here... 22 years deep, apparently, in this industry...
 
-**Jerod Santo:** \[00:50:14.10\] \[laughs\] It's time to cry.
+**Jerod Santo:** \[50:14\] \[laughs\] It's time to cry.
 
 **Adam Stacoviak:** You get some scars and some calluses. I am just tired of moving from tool to tool to tool over all these years. Now, I will agree - and by no means is this sponsored. They are a sponsor of ours, but this is my own true sentiment... I do think that right now Notion is one of the best places. It's on all the platforms, it's got some AI stuff in it... I've found that Notion AI pretty useful to summarize things, and help me find things in a massive workspace, or notes... Rather than search in this one weird way, I just go to Notion AI and just search for these things.
 
@@ -512,7 +512,7 @@ So I feel like they're onto something, and I really hope that they can kind of k
 
 **Jerod Santo:** That's right. That's right. And if you listen and you know Steph, and you can help Steph know that we'd like to have him on the show, please, hook us up... Because - very interesting person, lots of stuff I agree with. I'll link up in the show notes his post called "File over app." It's a philosophy.
 
-\[00:53:56.01\] He says, "If you want to create digital artifacts that last, they must be files you can control, in formats that are easy to retrieve and read, use tools that give you this freedom." I like that, and I like Obsidian for that reason... Because at the end of the day, it's just an awesome, I think, layer on top of files. And that gives us freedom and \[unintelligible 00:54:16.24\]
+\[53:56\] He says, "If you want to create digital artifacts that last, they must be files you can control, in formats that are easy to retrieve and read, use tools that give you this freedom." I like that, and I like Obsidian for that reason... Because at the end of the day, it's just an awesome, I think, layer on top of files. And that gives us freedom and \[unintelligible 00:54:16.24\]
 
 **Adam Stacoviak:** Yeah, that's why I love it so -- I mean, don't get me wrong, my recipes are still in Obsidian. All of my building an AI machine, creator PC, Ubuntu machine... All of my personal docs I've created to tell future Adam what old Adam learned is still, and will be in Obsidian. It's the things that I think - and so this "File over app" scenario, there's certain workflows that I can see how I could possibly use it in Obsidian, but it's a personal thing. I can't share that easily with a group and get them to just jump into a way. They have to have certain plugins, and community things, and maybe it's a -- something's going to be in the way in Obsidian, and it's going to go beyond file, because the problem set that I'm trying to communicate, the communication is beyond a simple file.
 
@@ -530,7 +530,7 @@ As a single person or an individual, with my own things, yeah, it works. And it'
 
 And I used to customize to the hilt. My dotfiles were pristine, and I checked them in, and I changed them, and I loved all that stuff. And I went searching for other people's themes, and I was like -- you know the people who have like a comment font, and then a code font, and then like dark mode, and light mode, and they can toggle it based on where they are in the world, or whatever it is... And they've just got all that stuff figured out. It's like, you don't need to do all that. You can just write code, and be happy.
 
-**Adam Stacoviak:** \[00:58:07.07\] Mm-hm.
+**Adam Stacoviak:** \[58:07\] Mm-hm.
 
 **Jerod Santo:** What do you think about that, Adam?
 
