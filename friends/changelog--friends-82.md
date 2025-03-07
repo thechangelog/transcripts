@@ -130,7 +130,7 @@ That we are alerted when the right things go down. So yeah.
 
 **Adam Stacoviak:** Before the race, the kid was playing PlayStation. It was actually PlayStation 1.
 
-**Movie extract:** \[00:08:09.29\]
+**Movie extract:** \[08:09\]
 
 **Adam Stacoviak:** In his car, in the console, prior to the race. And it was like a flex. It was like "Oh my gosh, I've got to trick out my car.
 
@@ -256,7 +256,7 @@ I have to have a PlayStation console in my dashboard."
 
 **Gerhard Lazu:** So let's talk about something that happened... Let's start with the low. Well, Changelog was down for four hours.
 
-**Jerod Santo:** \[00:12:08.16\] Oh, let's not talk about it...
+**Jerod Santo:** \[12:08\] Oh, let's not talk about it...
 
 **Gerhard Lazu:** Did anyone notice? Well, I'm really wondering, did you notice that Changelog was down?
 
@@ -296,7 +296,7 @@ So this is what happens when -- because we all depend on other systems, and othe
 
 **Gerhard Lazu:** Yeah. So that was not great... But I think one of the key takeaways for us is that in terms of how many requests didn't go through... So final impact - I posted, again, on the Fly community... So for the whole outage, actually, our SLI for successful HTTP requests - and that was like the last 24 hours - dropped to 97.40%. So well below three nines, even four nines... But it's still 97% of the requests were served. Most of them, they go to our object storage. All the MP3s, all the static assets, all of that...
 
-\[00:15:59.09\] The website itself - I mean, some of the pages, the most visited ones, they are being cached, and they were served from the CDN. Fastly in this case. So if you were not signed in, most likely you will not have noticed this. And I think for many people that consume the content through their podcast players, or from YouTube, wherever you get the Changelog content from, I don't think you will have noticed this. This was very specific to the app. And if you have, let us know.
+\[15:59\] The website itself - I mean, some of the pages, the most visited ones, they are being cached, and they were served from the CDN. Fastly in this case. So if you were not signed in, most likely you will not have noticed this. And I think for many people that consume the content through their podcast players, or from YouTube, wherever you get the Changelog content from, I don't think you will have noticed this. This was very specific to the app. And if you have, let us know.
 
 **Adam Stacoviak:** MP3s continue to serve, right?
 
@@ -356,7 +356,7 @@ So this is what happens when -- because we all depend on other systems, and othe
 
 **Jerod Santo:** It was not very hard, I don't remember. 51 additions and 18 subtractions, so that's a small feature... You know, just a little bit of code to go ahead and linkify those suckers. So for those who don't know what we're talking about, when a new episode is published, our system automatically notifies various social things, one of which is our awesome Zulip community. If you're not in there, what's wrong with you? Changelog.com/community Get yourself a Zulip. It's totally free, and you'll be able to chat about the shows after they come out.
 
-\[00:19:57.06\] And so every time a show comes out, it posts in there "Hey, new episode." It has the summary, the title and the link to listen to it, and we've also now embedded the chapters as markdown tables... And that was already there. That's not this feature. What I didn't do prior was I didn't linkify the actual chapter timestamps. So you can click on a timestamp and immediately start listening to it. And so that's what I added, was I made those timestamp links so you can click and listen from that spot... Which was requested by the both of you on the last Kaizen.
+\[19:57\] And so every time a show comes out, it posts in there "Hey, new episode." It has the summary, the title and the link to listen to it, and we've also now embedded the chapters as markdown tables... And that was already there. That's not this feature. What I didn't do prior was I didn't linkify the actual chapter timestamps. So you can click on a timestamp and immediately start listening to it. And so that's what I added, was I made those timestamp links so you can click and listen from that spot... Which was requested by the both of you on the last Kaizen.
 
 And so since we have a three-day turnaround between recording and shipping each episode, I actually shipped the feature out, I think, prior to that episode dropping.
 
@@ -442,7 +442,7 @@ And so since we have a three-day turnaround between recording and shipping each 
 
 **Jerod Santo:** That's amazing. You never realized it until you were 35?
 
-**Adam Stacoviak:** \[00:24:03.12\] I just didn't know there were two ways to say it. \[laughter\]
+**Adam Stacoviak:** \[24:03\] I just didn't know there were two ways to say it. \[laughter\]
 
 **Jerod Santo:** That's a blast...
 
@@ -486,7 +486,7 @@ And so since we have a three-day turnaround between recording and shipping each 
 
 **Jerod Santo:** Awesome.
 
-**Break**: \[00:25:41.18\]
+**Break**: \[25:41\]
 
 **Gerhard Lazu:** So yeah, so that was a good one. I enjoyed that it landed. We will talk about the YouTube videos, for sure, and that's going to come up... Or we can talk about it now, by the way, because really, that's for me -- that just like took the highlight in terms of features.
 
@@ -562,7 +562,7 @@ I just wanted to build something. So my motherboard is an Asus workstation-level
 
 **Gerhard Lazu:** Actually, in practice it's not as bad as you would think. I did the same, so I maxed out the NVMes on another machine, and because I maxed them out, I have like four or five... And because of that, my GPU - which is a 4080 - dropped to eight lanes. But that's enough. The drop in performance is so little, because I don't game on it heavily.
 
-**Adam Stacoviak:** \[00:32:00.10\] Yeah, it's so fast already. What you really want is the storage. You want the VRAM, not so much the speed necessarily. Unless you really are pushing the speed, and you're doing AI stuff and you've got a serious parameter, LLM sitting there or whatever, then maybe you want those tokens to be as fast as possible, because like that's the whole point.
+**Adam Stacoviak:** \[32:00\] Yeah, it's so fast already. What you really want is the storage. You want the VRAM, not so much the speed necessarily. Unless you really are pushing the speed, and you're doing AI stuff and you've got a serious parameter, LLM sitting there or whatever, then maybe you want those tokens to be as fast as possible, because like that's the whole point.
 
 **Gerhard Lazu:** The actual difference is more like a few percent. So if you go from 16 to 8, it's just a few percent.
 
@@ -584,7 +584,7 @@ But yeah, I played with it at first, I did some benchmark testing against it... 
 
 **Gerhard Lazu:** So when I started my adventure in GPUs - so I needed it to do the video editing properly... I went Linux first. I was saying, "You know what? I'm not going to go to Windows. What is the best Linux distribution that has good support for GPUs out of the box?" It just has the drivers pre-installed, and everything just works. And the tiling manager works as well, because that can be sometimes a pain.
 
-\[00:35:59.05\] PopOS was the one that kept coming up very high, and I said "Let's just try it." So I did, and I think I've been running it for two years, coming to two years... Coming to two years I've been running it. And before I had the Nix OS.
+\[35:59\] PopOS was the one that kept coming up very high, and I said "Let's just try it." So I did, and I think I've been running it for two years, coming to two years... Coming to two years I've been running it. And before I had the Nix OS.
 
 **Adam Stacoviak:** Of course you would.
 
@@ -614,7 +614,7 @@ I just think that somebody there is not empowered to fix it, or somebody doesn't
 
 **Gerhard Lazu:** ...another Linux distribution. I can recommend PopOS. They have a new graphical manager, I think Cosmic; that's new. It's not as stable, but I hear very good things about it. So they rewrote it, everything in Rust. Apparently it's amazing. I haven't tried it yet. I'm still like on the old one.
 
-**Adam Stacoviak:** \[00:40:02.17\] What are your thoughts on WSL2, and how it integrates? I haven't explored that deeply, but I have a lot of hope that there's cool integration. One thing I know I can do is I can SSH from one machine to another, rsync files from that via Ubuntu in WSL2 on Windows, and I can run Linuxy things, or if I have an operating system or whatever installed to WSL, a distro, I should say... What's your experience there with that?
+**Adam Stacoviak:** \[40:02\] What are your thoughts on WSL2, and how it integrates? I haven't explored that deeply, but I have a lot of hope that there's cool integration. One thing I know I can do is I can SSH from one machine to another, rsync files from that via Ubuntu in WSL2 on Windows, and I can run Linuxy things, or if I have an operating system or whatever installed to WSL, a distro, I should say... What's your experience there with that?
 
 **Gerhard Lazu:** I tried it. It's okay. I mean, it gives you a close enough Linux experience. It's much better than it used to be before. PowerShell - I just can't get along with it. I just wouldn't use it. Command Prompt - seriously. That was like 20 years ago.
 
@@ -648,7 +648,7 @@ So WSL2, I think it's a good feature, but Windows itself as an operating system,
 
 **Adam Stacoviak:** Your comparison though, the fans and the noise level... So the exploration for me is not "Okay, let me --" And I think for now I'm like "Yes, let's make this a creator PC of some sort. Let's explore this world." I don't know if I'll stay there forever, but I'm enjoying the exploration. I'm not enjoying it because it's Windows necessarily. It's enjoyable because it's new territory. It's newfound "How does this work? Does this fit for me? If it does, where does it fit?" I will 100% concur and agree that while this machine spins -- its fans just spin up opening applications. It doesn't need to, it's got this beefy CPU. So for whatever reason, the front three fans spin up for 10 seconds, just enough to hear it. And it goes back down, and it kind of cools off. Or if you ask a big question in Ollama, or whatever, it's obviously going to spin up for the duration of that question. So it's by design doing that.
 
-\[00:44:03.11\] Will the Mac world supersede this in a smaller, easier package, that's silent, and less power hungry? That's cool. What they're doing there is super-cool. But you can't build it yourself, and it's so sad.
+\[44:03\] Will the Mac world supersede this in a smaller, easier package, that's silent, and less power hungry? That's cool. What they're doing there is super-cool. But you can't build it yourself, and it's so sad.
 
 **Gerhard Lazu:** I know, I know.
 
@@ -668,7 +668,7 @@ So for them, I understand, because if you love something and it's changing, you 
 
 And for those who love video podcasts, or watching conversations on YouTube... Because is it a podcast, actually? I guess YouTube thinks it is. We're there now, and people are watching. We get 500 to 1,000 watches on a video. We hope to grow that. And no real complaints there, I don't think, besides your random YouTube troll, which we've had trolls our entire career, so we don't feed them or care about them very much. That's my initial thoughts. Adam, anything to add or subtract?
 
-**Adam Stacoviak:** \[00:48:16.11\] I ran into -- because I was actually talking to my son last night... I was like "Dude", because my son's nine, and I'm about to give him an Ubuntu desktop machine to play with. I'm going to start teaching him Linux. And I was like excited, because I had just SSH-ed -- literally maybe earlier that day, SSH-ed into this Windows machine. I was like "Success!" you know? And I was like referencing embedded systems, and why it's so cool, how Linux is so cool... And I'm like "Do you want to see something cool?" And I went to YouTube and I searched "embedded Changelog", and I just searched those two things and it came up with the embedded podcast we did, Jerod, that you're aware of.
+**Adam Stacoviak:** \[48:16\] I ran into -- because I was actually talking to my son last night... I was like "Dude", because my son's nine, and I'm about to give him an Ubuntu desktop machine to play with. I'm going to start teaching him Linux. And I was like excited, because I had just SSH-ed -- literally maybe earlier that day, SSH-ed into this Windows machine. I was like "Success!" you know? And I was like referencing embedded systems, and why it's so cool, how Linux is so cool... And I'm like "Do you want to see something cool?" And I went to YouTube and I searched "embedded Changelog", and I just searched those two things and it came up with the embedded podcast we did, Jerod, that you're aware of.
 
 And I go there and there's this comment that's like 500 words deep. And I'm like -- I had no idea, one, that this comment was here. And two, I was re-revelationed, I suppose, in terms of how cool this move is, is that we've got this new commentary level... And the person's "I like this podcast, I'd love to hear more", and they kind of go into all this stuff. Now, the person doesn't have a username, they don't have an avatar, so that's kind of sad... But, I'm still hopeful that there's more like that, that are thicker. Geez, y'all don't like that word.
 
@@ -680,7 +680,7 @@ I was pushing for this, because I was like "This is what we need to do. There's 
 
 **Gerhard Lazu:** Yeah. So YouTube - here to stay, a new way to interact, for sure... And more and more integrations in the websites. I quite like that. For example the Watch button, that was something which was one of the new things to drop on an episode... It's getting a bit crowded. Maybe this one... But it's there. You can click on it.
 
-**Jerod Santo:** \[00:51:56.25\] There it is. You can click on that and it'll pop in there, and just --
+**Jerod Santo:** \[51:56\] There it is. You can click on that and it'll pop in there, and just --
 
 **Gerhard Lazu:** Look at that. How amazing is that? Cool.
 
@@ -706,7 +706,7 @@ I was pushing for this, because I was like "This is what we need to do. There's 
 
 **Jerod Santo:** That's right. We're very committed.
 
-**Break**: \[00:52:57.19\]
+**Break**: \[52:57\]
 
 **Adam Stacoviak:** Now that we've got video-first going on, it's time to get CPU officially launched... Turn that frown upside down into a smile, and an index. Something that's cool.
 
@@ -752,13 +752,13 @@ I was pushing for this, because I was like "This is what we need to do. There's 
 
 **Gerhard Lazu:** Okay.
 
-**Jerod Santo:** Which will require user accounts, of course, but... Or would it? Maybe not. I don't know. I'll figure that out. But that's the plan. Pretty straightforward. Not much code. I don't see why we wouldn't open-source it. Unless I'm really bad at Ruby now. You know, it's been a long time and --
+**Jerod Santo:** Which will require user accounts, of course, but... Or would it? Maybe not. I don't know. I'll figure that out. But that's the plan. Pretty straightforward. Not much code. I don't see why we wouldn't open source it. Unless I'm really bad at Ruby now. You know, it's been a long time and --
 
 **Adam Stacoviak:** It's embarrassing.
 
 **Jerod Santo:** ...I'm embarrassed. Yeah.
 
-**Gerhard Lazu:** I think that's more of a reason to open-source it. You can ask for help. Contributions welcome.
+**Gerhard Lazu:** I think that's more of a reason to open source it. You can ask for help. Contributions welcome.
 
 **Jerod Santo:** I haven't typed Rails new since probably 2015. So I'm kind of excited to like just type Rails new and see what happens.
 
@@ -766,7 +766,7 @@ I was pushing for this, because I was like "This is what we need to do. There's 
 
 **Adam Stacoviak:** See, Gerhard's thinking; he's thinking about the content. That's what he's trying to ask you about, Jerod. He's like "How can we promote all these cool things?"
 
-**Gerhard Lazu:** \[00:57:53.17\] Yeah, that's what I'm thinking.
+**Gerhard Lazu:** \[57:53\] Yeah, that's what I'm thinking.
 
 **Jerod Santo:** Yeah, I mean, maybe record it. I don't know. I guess if you want that kind of content from me as I build out this new web app - which, honestly, is not a super-exciting web app... But still. Maybe I'll use Cursor the whole way, and then I'll just curse my way along, and then just rewrite it myself... If you want that, let us know in Zulip. Let us know in Zulip.
 
