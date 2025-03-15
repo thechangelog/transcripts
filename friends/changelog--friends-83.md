@@ -82,7 +82,7 @@ So our teams today are divided as thus. We have team zero - team subzero, techni
 
 **Adam Stacoviak:** We did win. Yes. Last minute, in clutch, unrecorded. We won't say anymore.
 
-**Jerod Santo:** \[00:07:42.01\] That's true. Well, let's see what happens. Let's see what happens. We have seven rounds of play. Each round we will have two people face off, and get a chance to guess first. Whoever gets the highest answer on the board gets to play that round. Their team then takes over, they get a guess until they have three strikes - that's three wrong guesses - at which point the other team can confer amongst themselves and steal that round's points by guessing one of the remaining answers that are on the board. Generally speaking, an answer only makes the board if it has five or more responses. There's a couple of rounds for which that's not true, but we'll address those as we get there. Any questions about how the game works before we dive into around one?
+**Jerod Santo:** \[07:42\] That's true. Well, let's see what happens. Let's see what happens. We have seven rounds of play. Each round we will have two people face off, and get a chance to guess first. Whoever gets the highest answer on the board gets to play that round. Their team then takes over, they get a guess until they have three strikes - that's three wrong guesses - at which point the other team can confer amongst themselves and steal that round's points by guessing one of the remaining answers that are on the board. Generally speaking, an answer only makes the board if it has five or more responses. There's a couple of rounds for which that's not true, but we'll address those as we get there. Any questions about how the game works before we dive into around one?
 
 **Amal Hussein:** So what's the genre, like, of questions here? Like, is this like existential questions about like life, or -- like, what's the genre? Like, how can I mentally prepare for what's ahead of me?
 
@@ -146,7 +146,7 @@ So our teams today are divided as thus. We have team zero - team subzero, techni
 
 **Jerod Santo:** Oh, gotcha. Basic minds think alike. Yeah. So that means Nick's team -- because he hit number one, Adam doesn't even get a chance to guess. Adam can just sit there and be remorseful. And team sub one gets to play this round. So Nick went first. You got the first item on the board. R2-D2, 22 points. There are six total, which means there's five left. We go now to Amal. What's the first robot that comes to your mind? You cannot say R2-D2.
 
-**Amal Hussein:** \[00:12:06.27\] Literally, I am predictable, and... Yeah, R2-D2 would have been my answer. The next thing that came to mind was Jibo, which I don't think anybody even remembers that thing existed. This is going to sound like a really silly answer, but Chatbot. Can I answer chatbot? ...even though that's not a specific bot, but it's a...
+**Amal Hussein:** \[12:06\] Literally, I am predictable, and... Yeah, R2-D2 would have been my answer. The next thing that came to mind was Jibo, which I don't think anybody even remembers that thing existed. This is going to sound like a really silly answer, but Chatbot. Can I answer chatbot? ...even though that's not a specific bot, but it's a...
 
 **Jerod Santo:** You certainly can. But did our listeners type into the text field "chatbot"? Let's see if it's on the board. \[fail alert\] Sorry, but that one is not a top six answer. That's one strike to your team. We go now to Kball.
 
@@ -254,7 +254,7 @@ So our teams today are divided as thus. We have team zero - team subzero, techni
 
 **Amal Hussein:** Right. Which is I think the best part. They're so spread.
 
-**Jerod Santo:** \[00:16:14.27\] They are, aren't they? It's interesting.
+**Jerod Santo:** \[16:14\] They are, aren't they? It's interesting.
 
 **Adam Stacoviak:** Well, good job, sub zero.
 
@@ -338,7 +338,7 @@ So our teams today are divided as thus. We have team zero - team subzero, techni
 
 **Jerod Santo:** Okay, so she thinks maybe JSON... Even though you don't think it's your favorite, maybe somebody does. Does anybody think it's their favorite? \[win alert\] Yes, they certainly do. And it is the number two answer, with 27 people love JSON.
 
-**Amal Hussein:** \[00:20:12.19\] Yeah. Yeah. I mean, nothing wrong with JSON, it's just not great for humans communicating, which is what for me would put it into a favorite. If it's just machines communicating, then... Yeah, all good.
+**Amal Hussein:** \[20:12\] Yeah. Yeah. I mean, nothing wrong with JSON, it's just not great for humans communicating, which is what for me would put it into a favorite. If it's just machines communicating, then... Yeah, all good.
 
 **Jerod Santo:** If it's just machines, you might as well be using a binary format, right, Kball? Kball, you're up now. You guys take the round.
 
@@ -424,7 +424,7 @@ Nick, what do you love?
 
 **Nick Nisi:** The Mongo people are just rolling in the grave right now...
 
-**Jerod Santo:** \[00:24:12.29\] Oh, gosh... And at number four, the other file format that people love is CSV. Eight people said CSV.
+**Jerod Santo:** \[24:12\] Oh, gosh... And at number four, the other file format that people love is CSV. Eight people said CSV.
 
 **Kevin Ball:** That's a choice...
 
@@ -470,7 +470,7 @@ Okay. After two rounds, team sub one is in the lead, almost doubling - no, more 
 
 **Amal Hussein:** Wow...
 
-**Jerod Santo:** \[00:28:09.18\] Because people aren't thinking about it. That's a \[unintelligible 00:28:11.12\]
+**Jerod Santo:** \[28:09\] Because people aren't thinking about it. That's a \[unintelligible 00:28:11.12\]
 
 **Nick Nisi:** Because they're being productive.
 
@@ -574,7 +574,7 @@ Okay. After two rounds, team sub one is in the lead, almost doubling - no, more 
 
 **Amal Hussein:** I also love it when websites just stick PDFs on the website, and it's like, you can't select text, there's no indexing or searching of the content... It's rough, rough times.
 
-**Jerod Santo:** \[00:31:57.28\] We were just talking a couple of weeks ago with Bert Hubert - I can't say his name appropriately - who makes a government tracking website in the Netherlands, and he was just doing the opposite of singing PDF's phrases. He was just saying how bad PDF is to work with. And a lot of governments, even with FOIA and whatever kind of stuff where the documents are supposed to be public, they just throw PDFs out because they know it's harder to work with. And it's like, at that point, I would love XML, even though I hate it, compared to PDF. So I'm actually surprised, but... XML is top of mind, I think, when you think of things you don't like.
+**Jerod Santo:** \[31:57\] We were just talking a couple of weeks ago with Bert Hubert - I can't say his name appropriately - who makes a government tracking website in the Netherlands, and he was just doing the opposite of singing PDF's phrases. He was just saying how bad PDF is to work with. And a lot of governments, even with FOIA and whatever kind of stuff where the documents are supposed to be public, they just throw PDFs out because they know it's harder to work with. And it's like, at that point, I would love XML, even though I hate it, compared to PDF. So I'm actually surprised, but... XML is top of mind, I think, when you think of things you don't like.
 
 **Amal Hussein:** Yeah. What we really need for like non-programmers is like Webflow... Something that can make something pretty and easy, but you get all the benefits of it being structured HTML. What it spits out, you know... But yeah.
 
@@ -596,7 +596,7 @@ Okay. After two rounds, team sub one is in the lead, almost doubling - no, more 
 
 **Jerod Santo:** They had strikes to spare. They had strikes to spare. Okay, we're gonna award -- this is 109 points now going over there to Team One. And after round three, it's starting to look like a wipeout. Team One has 195 and Team Zero has 42. There's lots of rounds left. We move now to round four.
 
-**Break**: \[00:34:04.09\]
+**Break**: \[34:04\]
 
 **Jerod Santo:** This is the inverted round. The inverted round works differently. There's no face-off. We just toggle back and forth between teams, with an opportunity to guess. The question that we asked our listener is "Name the first protocol that comes to your mind." However, in the inverted round you get more points for matching further down the board. So the number one answer is worth the least amount of points, and the number five answer is worth the most amount of points. Since he's been sitting quietly most of the game, we will let Adam go first.
 
@@ -746,7 +746,7 @@ Okay. After two rounds, team sub one is in the lead, almost doubling - no, more 
 
 **Jerod Santo:** Is that a weird way of asking if it's also a different thing? \[laughter\] I did not combine any protocols into a singular protocol.
 
-**Nick Nisi:** \[00:42:15.13\] Okay. HTTP.
+**Nick Nisi:** \[42:15\] Okay. HTTP.
 
 **Jerod Santo:** Okay, there's our number one, HTTP. \[win alert\] With an overwhelming 90 people saying HTTP, only worth five points. But hey, it's still five points. We go back to team zero and Amy.
 
@@ -836,7 +836,7 @@ This one's a little bit different. We asked our listeners to choose a number bet
 
 **Nick Nisi:** I'm going to say 19.
 
-**Jerod Santo:** \[00:46:00.05\] Show us 19. \[win alert\] There it is, 19. So 12 people chose 19 thinking that that number would be chosen the least. So team one gets to play another round. Amal, if our audience had to choose a number between 1 and 20, with a goal of choosing the number that they think the fewest other people will choose, which ones would be chosen the most?
+**Jerod Santo:** \[46:00\] Show us 19. \[win alert\] There it is, 19. So 12 people chose 19 thinking that that number would be chosen the least. So team one gets to play another round. Amal, if our audience had to choose a number between 1 and 20, with a goal of choosing the number that they think the fewest other people will choose, which ones would be chosen the most?
 
 **Amal Hussein:** Any other layers to this game? Any other inverted --
 
@@ -952,7 +952,7 @@ This one's a little bit different. We asked our listeners to choose a number bet
 
 **Adam Stacoviak:** We all know that. Yeah, I agree.
 
-**Nick Nisi:** \[00:50:05.12\] Yeah, it's the powerhouse of the cell. \[laughter\]
+**Nick Nisi:** \[50:05\] Yeah, it's the powerhouse of the cell. \[laughter\]
 
 **Jerod Santo:** Is that mitochondria.
 
@@ -1014,7 +1014,7 @@ Now, you know what was chosen the most, that they thought would be chosen the le
 
 **Christopher Hiller:** What do you think, Amy?
 
-**Amy Dutton:** \[00:54:03.04\] Your guess is as good as mine.
+**Amy Dutton:** \[54:03\] Your guess is as good as mine.
 
 **Christopher Hiller:** Okay, I think we're both -- yeah, just go ahead.
 
@@ -1050,7 +1050,7 @@ Now, you know what was chosen the most, that they thought would be chosen the le
 
 **Jerod Santo:** We could review the other ones that were chosen, but who cares? Let's move to round seven.
 
-**Break**: \[00:55:20.12\]
+**Break**: \[55:20\]
 
 **Jerod Santo:** Alright, it's time for another face-off. This goes Chris and Kball. We asked our audience, "What's the first programming-related movie that comes to your mind?" Sorry, Kball, I know you don't watch movies. I did not plan this. Chris can go first. Yes, Chris, a programming-related movie. There are five on the board, top five answers. What do you think?
 
