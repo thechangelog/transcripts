@@ -73,7 +73,7 @@ All of this let's you build faster and more creatively. Learn more about this fe
 
 **Jerod Santo:**
 
-[The pain that is Github Actions](https://www.feldera.com/blog/the-pain-that-is-github-actions)
+[The pain that is GitHub Actions](https://www.feldera.com/blog/the-pain-that-is-GitHub-actions)
 
 Gerd Zellweger had to redo their CI setup on GitHub Actions and shares a bunch of the pain points he hit along the way:
 
