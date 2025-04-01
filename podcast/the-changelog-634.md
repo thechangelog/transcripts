@@ -30,7 +30,7 @@ So in a lot of my work I'm trying to help folks, especially engineers, get out o
 
 **Jerod Santo:** Yeah.
 
-**Lara Hogan:** There's so much data that says that that's where we should be investing our energy when it comes to supporting other people as they grow... And that's also what we should be asking for when we're thinking about our own growth... Like, who are the people that know our work and might be able to vouch for us for the big, juicy leadership opportunities that, you know -- like, I wanna start public speaking, or I wanna write a company blog post, or I wanna open-source this project... Who are the people that can maybe vouch for me and help me put my name in the ring for those opportunities?
+**Lara Hogan:** There's so much data that says that that's where we should be investing our energy when it comes to supporting other people as they grow... And that's also what we should be asking for when we're thinking about our own growth... Like, who are the people that know our work and might be able to vouch for us for the big, juicy leadership opportunities that, you know -- like, I wanna start public speaking, or I wanna write a company blog post, or I wanna open source this project... Who are the people that can maybe vouch for me and help me put my name in the ring for those opportunities?
 
 **Adam Stacoviak:** Yeah. In some ways too it almost forces you to not be in your own way.
 
@@ -38,7 +38,7 @@ So in a lot of my work I'm trying to help folks, especially engineers, get out o
 
 **Adam Stacoviak:** Because so often do we just not nominate ourselves, because we're like "Oh, I'm sort of an impostor here, I'm not actually that good. I don't really do this well. Some people pay attention, but let's just face it, I'm not that good." And then somebody close to you nominates you or suggests you or sponsors you or advocates for you or refers you, however it is, and you almost feel like you have to do better because you love them, or you care for them, or you appreciate them, or whatever it is, their position in your life, and you're like "I have to live up to what they believe in for me", so it almost makes you do better even.
 
-**Lara Hogan:** \[00:08:13.13\] Absolutely. I have this sneaky trick question at the beginning of my workshop on mentoring, coaching and sponsoring... And my sneaky trick question is I have everybody who's in attendance share one thing that a manager has done for them that has skyrocketed their growth. And I don't tell anybody the difference between these three skills before we have this little intro... And everybody, nine times out of ten, they describe someone who's been a sponsor to them.
+**Lara Hogan:** \[08:13\] Absolutely. I have this sneaky trick question at the beginning of my workshop on mentoring, coaching and sponsoring... And my sneaky trick question is I have everybody who's in attendance share one thing that a manager has done for them that has skyrocketed their growth. And I don't tell anybody the difference between these three skills before we have this little intro... And everybody, nine times out of ten, they describe someone who's been a sponsor to them.
 
 And when I get to the sponsorship part of the workshop, I'm like "Guess what, everybody? Not one of you mentioned mentorship when you were describing something that a manager has done for you that has skyrocketed your growth." One person mentioned coaching, everybody else mentioned sponsorship.
 
@@ -70,7 +70,7 @@ So the drill sergeant says "Stacoviak! You're first squad leader now." Out of no
 
 Or, I talk about the person who was my manager - actually at the same company - when I was on deck to get a promotion to director. I was leading a web performance team, I was leading a product infrastructure group, and my director was in the meeting, vouching for me, and all the other directors in the meeting were saying "Yeah, but maybe she's not technical enough. Like, frontend... I don't know. She doesn't have enough background, she doesn't have other experience." And my director was like "You know, she wrote a book about web performance, right? I think we can say that she's tactical enough to have the job of a director, like you all." And that's sponsorship, too. That was behind closed doors. I didn't know about that till much later, but that's also -- sponsorship can be invisible to you also.
 
-**Adam Stacoviak:** \[00:12:00.10\] Yeah. The thing too with any sort of any opportunity - it comes with more connection.
+**Adam Stacoviak:** \[12:00\] Yeah. The thing too with any sort of any opportunity - it comes with more connection.
 
 **Lara Hogan:** Yes...
 
@@ -100,7 +100,7 @@ I started to realize, if I wanted to try to enact change within this staff engin
 
 **Adam Stacoviak:** You almost to some degree can be paralyzed by the ability, but I guess if you know you can help somebody, you know you can help somebody.
 
-**Lara Hogan:** \[00:16:03.04\] Right. There's a few there, of - what if this person fails at the thing that I'm sponsoring them for? And that's real, that's valid. There's always that risk. But then what I try to do is coach people through like "Okay, what happens? Let's play that out." Like, what's the worst possible scenario? And then what can we do to prevent that scenario from happening? What are the check-ins? What are the other forms of support that this person might need to be successful? How are we measuring success? How are we making sure that we are making this an accessible leadership opprotunity to those who don't already have the implicit power or privilege that we do?
+**Lara Hogan:** \[16:03\] Right. There's a few there, of - what if this person fails at the thing that I'm sponsoring them for? And that's real, that's valid. There's always that risk. But then what I try to do is coach people through like "Okay, what happens? Let's play that out." Like, what's the worst possible scenario? And then what can we do to prevent that scenario from happening? What are the check-ins? What are the other forms of support that this person might need to be successful? How are we measuring success? How are we making sure that we are making this an accessible leadership opprotunity to those who don't already have the implicit power or privilege that we do?
 
 There's a lot to unpack there, but it's a reasonable fear, and I want to make sure people understand that that's not an abnormal one, but it's totally surmountable.
 
@@ -130,7 +130,7 @@ There's a lot to unpack there, but it's a reasonable fear, and I want to make su
 
 **Adam Stacoviak:** Yeah, there is some risk there, but one thing I love particularly about Sid is that he seems to be the same person no matter where he's at. He seems to showcase the same values... And that could be a filter, I don't know, because I only really see him in, I suppose, professional spaces - and I've met him personally, too - but I've never observed him anywhere where it's like "Okay, this is a different Sid." Or "He's angry, so now he's this way." Or "There's pressure, so he acts this way." And he always seems to be the same kind of cool, calm, collected, calculated Sid that thinks, but then also has empathy and compassion in his words and responses, and also seems to be a good person to admit when he's wrong and willing to change. I think even witnessing that face-to-face in a shadow program is enough to change somebody.
 
-**Lara Hogan:** \[00:20:18.09\] Totally. I talk a lot about the idea of our default approach in a lot of my workshops and coaching sessions, just because we all do have a default approach to leadership... How it looks to other people, it's a default approach. But it's really important to switch it up when the context calls for it, so I'd be really curious - maybe it's a question I can ask him someday... It's like, "Okay, in what situations does that approach not work for you, or not work for your team? What are the opportunities that you have to switch it up based on what's needed?" It's hard.
+**Lara Hogan:** \[20:18\] Totally. I talk a lot about the idea of our default approach in a lot of my workshops and coaching sessions, just because we all do have a default approach to leadership... How it looks to other people, it's a default approach. But it's really important to switch it up when the context calls for it, so I'd be really curious - maybe it's a question I can ask him someday... It's like, "Okay, in what situations does that approach not work for you, or not work for your team? What are the opportunities that you have to switch it up based on what's needed?" It's hard.
 
 **Adam Stacoviak:** Yeah.
 
@@ -172,7 +172,7 @@ My default is actually on the empowerment end. In the absence of context, I will
 
 **Lara Hogan:** But that doesn't always work. Sometimes you need to be directive. Sometimes you need to mandate a desk move. Sometimes you need to tell someone what their job is. Sometimes you need to give feedback that's not coaching, but instead it's like "I need you to do this thing right now." That's directive. Again, some people default to the directive end of the spectrum. They're like "Okay, here's what I need. Here's how it's gonna happen. Here's how we're gonna move forward." But they don't leave lots of room for empowerment. They don't ask lots of questions. They don't find sponsorship opportunities. They don't ask people how they wanna grow.
 
-\[00:24:11.07\] So again, based on the circumstance, based on the situation, we all have a default, but that default won't be useful to us in all circumstances. Strong leaders and strong managers need to know when to switch up their approach based on the given circumstances. So I would argue that managers and leaders both have to do these things, and company-specific responsibilities really just change.
+\[24:11\] So again, based on the circumstance, based on the situation, we all have a default, but that default won't be useful to us in all circumstances. Strong leaders and strong managers need to know when to switch up their approach based on the given circumstances. So I would argue that managers and leaders both have to do these things, and company-specific responsibilities really just change.
 
 **Adam Stacoviak:** I like that you called it a spectrum, honestly, because I almost feel like you can take a test and see where you land on that...
 
@@ -210,7 +210,7 @@ My default is actually on the empowerment end. In the absence of context, I will
 
 **Lara Hogan:** Yes. You've gotta be honest about it. And also be honest about where that default is most successful. One of the circumstances - what's the environment in which your default way of operating works best? That way you can start to think about "Okay, now when are the times when I might need to switch it up? And how can I experiment with that to know when it's time for me to switch it up? How can I know when to do that, and that really effectively, too?" \[laughs\]
 
-Break: \[00:26:32.03\]
+Break: \[26:32\]
 
 **Adam Stacoviak:** So Lara, we mentioned your excerpt from your book, Resilient Management, on A List Apart. I love that. And that's kind of where I saw this framework... I guess - full disclosure, I haven't read your book in completion. I have listened to some of it, to give myself a little pat on the back, but... You laid out this framework quite well...
 
@@ -222,7 +222,7 @@ Break: \[00:26:32.03\]
 
 **Adam Stacoviak:** So with that aside, you mentioned how leaders, managers - they end up wearing these different hats, four different hats distinctly: mentoring, coaching, sponsoring and delivering feedback. Kind of go in to the details of what each of those mean, and we can sort of go from there.
 
-**Lara Hogan:** \[00:29:59.03\] Absolutely. So mentorship is all about sharing your perspective, sharing your advice, sharing what you've see work and not work, suggesting pitfalls that this person can avoid... It's all about sharing your own knowledge and handing it over to this person. So mentoring is really useful when someone's blocked and just needs a little bit of help getting unblocked, and it's also really useful for when someone's being onboarded to a new role, a new company, whatever. Those are really the only two use cases where mentoring is useful and powerful. The other three skills of coaching, sponsoring and feedback are the ones that I try to emphasize that anybody who's supporting other people should really focus on and hone their skills in.
+**Lara Hogan:** \[29:59\] Absolutely. So mentorship is all about sharing your perspective, sharing your advice, sharing what you've see work and not work, suggesting pitfalls that this person can avoid... It's all about sharing your own knowledge and handing it over to this person. So mentoring is really useful when someone's blocked and just needs a little bit of help getting unblocked, and it's also really useful for when someone's being onboarded to a new role, a new company, whatever. Those are really the only two use cases where mentoring is useful and powerful. The other three skills of coaching, sponsoring and feedback are the ones that I try to emphasize that anybody who's supporting other people should really focus on and hone their skills in.
 
 So coaching is all about asking lots of open questions and helping this person reflect, connect their own dots, develop their own brain wrinkles... So it has nothing to do with your own knowledge, which is very hard for many of us that have been taught that our knowledge is the value that we provide.
 
@@ -250,7 +250,7 @@ So in coaching mode, which is really, really hard to stay in - in coaching mode 
 
 My number one favorite open question to use is "What are you optimizing for?" Because in any different situation, everyone's optimizing for something different. But we never think about it. Whenever I ask someone -- let's say we're talking about a conflict that they're having, and they can't figure out how to move forward. I'm like, "Alright, so in this situation, with this relationship, what is it that you're optimizing for?" Usually, they'll sit back in their chair and be like "Huh..." And that's what I'm looking for as a coach. \[laughs\] I want that moment of \[unintelligible 00:34:06.28\] like "I'm stumped for a second. I need to actually sit down and process this." That's where the magic of coaching happens.
 
-**Adam Stacoviak:** \[00:34:14.16\] Yeah.
+**Adam Stacoviak:** \[34:14\] Yeah.
 
 **Jerod Santo:** I laugh, because this is Adam's favorite statement, isn't it? "What are you optimizing for?" He says it all the time.
 
@@ -298,7 +298,7 @@ I think a lot of that comes from me reading -- gosh, what is that book called? W
 
 So I think when I saw coaching, I was like "Is this really what coaching is?" But I wonder if that's just like the difference between business, or maybe adult-to-adult coaching, versus sports... And maybe there just aren't lines that we can draw between the two.
 
-**Lara Hogan:** \[00:37:47.20\] Totally. Yeah, I think that that's one of the challenges, is that the term "coach", in specific contexts, absolutely means a blend of all those three things. In sports... I think I might even call that out in the book specifically - if you have any sports background at all, you might think of coach as probably actually more of a mentor. Most people who I talk to, when they think about coaching, or being coached on a sports team, they talk about mentorship. But you're right, it's not just mentorship, it's not just giving advice.
+**Lara Hogan:** \[37:47\] Totally. Yeah, I think that that's one of the challenges, is that the term "coach", in specific contexts, absolutely means a blend of all those three things. In sports... I think I might even call that out in the book specifically - if you have any sports background at all, you might think of coach as probably actually more of a mentor. Most people who I talk to, when they think about coaching, or being coached on a sports team, they talk about mentorship. But you're right, it's not just mentorship, it's not just giving advice.
 
 **Jerod Santo:** A lot of feedback. You give a lot of feedback.
 
@@ -342,7 +342,7 @@ In the example of the person writing really terse emails, they probably care abo
 
 And then the final thing I like to do is close with an open coaching question. Again, we've been taught to make a request, like "Therefore, could you please send longer emails?" But if you have hit the nail on the head with the facts, they're on board, and you've also hit the nail on the head with what they care about, they're already thinking about what they wanna do next. You don't need to tell them. That's mentorship mode. It's just saying "Therefore, could you please..." And usually, we'll come up with as good of an idea as they will. So instead of making this a one-way feedback dump, ask an open question, which turns into a two-way dialogue, where you're brainstorming together about what we could do going forward, what this person needs... Again, "What are you optimizing for? When you write emails, what are you optimizing for?"
 
-**Adam Stacoviak:** \[00:42:03.28\] Absolutely, yeah.
+**Adam Stacoviak:** \[42:03\] Absolutely, yeah.
 
 **Lara Hogan:** Do any of the open coaching questions and see what that does for your feedback conversations, and hopefully you are lowering the chances of an amygdala hijack, of a fight-or-flight response happening in that feedback conversation.
 
@@ -396,7 +396,7 @@ Since she's worked at Etsy, she's done a number of incredible things, including 
 
 One of the things that she taught me very early on was this framework, this acronym she calls BICEPS. And BICEPS stands for the six core needs that humans have at work. And again, this is all neuroscience, but also anthropology, and a lot of the social sciences trying to study why do humans behave the way that they do, and what do we need -- what do our amygdalas try to secure and ensure for us to keep us safe at work? And it's things like a sense of belonging, a sense of community. If we feel othered or left behind, our amygdala considers that a threat. A sense of improvement and progress, a sense of choice, fairness, predictability, all of these things in the BICEPS core needs - it's all neuroscience-backed. Thanks to Paloma I have learned so much more about all of those surprising ways that humans behave and deal with each other at work.
 
-**Adam Stacoviak:** \[00:46:12.21\] Yeah. How about any particular books that you've read recently?
+**Adam Stacoviak:** \[46:12\] Yeah. How about any particular books that you've read recently?
 
 **Lara Hogan:** Absolutely.
 
@@ -434,7 +434,7 @@ One of the things that she taught me very early on was this framework, this acro
 
 **Lara Hogan:** Yeah. And that comes back to the BICEPS core needs list. The B stands for Belonging. We are a part of the community. We identify with this role model, we wanna support each other as the community of Texas... And Significance is the S. So in the hierarchy, we have a lot of pride in our land, in our state. Again, these two core needs - the book goes into this in so much detail, but those two core needs, again, our amygdala is working really hard to secure and to ensure for us... They're present, and it's a huge way to get people to listen, to get people to care... People have to be motivated to do something.
 
-Break: \[00:49:12.13\]
+Break: \[49:12\]
 
 **Jerod Santo:** So Lara, a lot of our audience are engineers, or were engineers and now are managers and leaders... And it's always a difficult thing deciding if that's a move for you. Once you've decided that it is, making the transition, like what does success look like in that case? You've done the transition a while ago, and now you're succeeding and teaching other people how to be managers and leaders... So advice for us and for our audience about how do you make a decision like that, and once you do, how do you navigate that successfully?
 
@@ -444,7 +444,7 @@ If you're optimizing for gaining more power, for example, and you're thinking ab
 
 If you're optimizing for making a new team charter, a new vision, giving the team purpose - maybe that's a possibility at your company. If you're optimizing for a change of pace, \[unintelligible 00:53:59.20\] and that could also breed additional questions.
 
-\[00:54:09.24\] So getting clear about what you're optimizing for will allow you to figure out whether or not you can have success in the other role, in either direction. People who skip this step have asked themselves "What am I optimizing for when I'm thinking about changing roles?" often change roles and then hate it... Because they find out that they can't achieve the thing that they were optimizing for, because they were working under a bunch of assumptions, or that's just not how it works, so the role doesn't have as much authority or power as they thought it would.
+\[54:09\] So getting clear about what you're optimizing for will allow you to figure out whether or not you can have success in the other role, in either direction. People who skip this step have asked themselves "What am I optimizing for when I'm thinking about changing roles?" often change roles and then hate it... Because they find out that they can't achieve the thing that they were optimizing for, because they were working under a bunch of assumptions, or that's just not how it works, so the role doesn't have as much authority or power as they thought it would.
 
 When I was experimenting with leadership and management and thinking about that, I just really wanted to support the people that I was working with day-to-day... I was working at a really small startup, and we were basically UI/UX frontend site performance developers, and we didn't have a manager that knew any of that stuff... Our manager really only knew Perl. And as much as we could spend all day talking about Perl, I really wanna be able to provide a little bit more structure, a little bit more career progression for folks that were experimenting at the time with CSS 2.0. "Oh, my goodness..." You know, thinking about those sorts of things...
 
@@ -470,7 +470,7 @@ In our case, for us running this business, Jerod and I - we have certain persona
 
 **Lara Hogan:** So in what way can I be a mentor, in what way can I be a tech lead...? Trying it on before you actually go in. So if folks are trying to figure out how they could try it on, definitely check out Camille Fournier's book, "The Manager's Path." It's great.
 
-**Adam Stacoviak:** \[00:57:58.16\] We're a fan of Camille, and she also wrote the intro to your book, the foreword for your book...
+**Adam Stacoviak:** \[57:58\] We're a fan of Camille, and she also wrote the intro to your book, the foreword for your book...
 
 **Lara Hogan:** She did.
 
