@@ -30,9 +30,9 @@ An enjoyable deep dive follows, but I believe the old adage explains this phenom
 
 Eduardo Bouças (who works at Netlify, a Vercel competitor, so keep that in mind):
 
-> There is nothing wrong with a company profiting from an open-source software it created, especially when that helps fund the development of the project. In fact, there are plenty of examples of that model working successfully in our industry.
+> There is nothing wrong with a company profiting from an open source software it created, especially when that helps fund the development of the project. In fact, there are plenty of examples of that model working successfully in our industry.
 >
-> But I think that can only work sustainably if the boundaries between the company and the open-source project are abundantly clear, with well-defined expectations between the maintainers, the hosting providers and the users about how and where each feature of the framework can be used.
+> But I think that can only work sustainably if the boundaries between the company and the open source project are abundantly clear, with well-defined expectations between the maintainers, the hosting providers and the users about how and where each feature of the framework can be used.
 >
 > I want to explain why I don't think this transparency exists today.
 >
