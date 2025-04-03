@@ -6,7 +6,7 @@
 
 **Amal Hussein:** But so happy to be back, and yeah, share what I've been up to, and all the new things that are happening in my life, and... Yeah, I think we're gonna dig into all the things.
 
-**Jerod Santo:** Yeah, absolutely. So we're recording on a Thursday morning, which is not our regular time... I'm drinking coffee, so forgive me if I'm not as sharp as you're used to when we chitchat around lunchtime or noon -- or 2 p.m, usually. See, I already misspoke, because I haven't had enough caffeine yet. But we're recording early on Thursday morning because you've been working this week and you've been having a huge feature you're trying to ship... We want to get into your journey... I don't even understand your journey as somebody who knows you pretty well, because you're at Npm, and then this happened, and was it Stripe, or Meta, or this and that, some other company for a while... And I don't even know where you work, yet...
+**Jerod Santo:** Yeah, absolutely. So we're recording on a Thursday morning, which is not our regular time... I'm drinking coffee, so forgive me if I'm not as sharp as you're used to when we chitchat around lunchtime or noon -- or 2 p.m, usually. See, I already misspoke, because I haven't had enough caffeine yet. But we're recording early on Thursday morning because you've been working this week and you've been having a huge feature you're trying to ship... We want to get into your journey... I don't even understand your journey as somebody who knows you pretty well, because you're at npm, and then this happened, and was it Stripe, or Meta, or this and that, some other company for a while... And I don't even know where you work, yet...
 
 **Amal Hussein:** Yeah, I don't even know where I work either. I don't either. \[laughs\]
 
@@ -30,7 +30,7 @@
 
 **Amal Hussein:** Yeah. And I tell this to my team... So we were kind of in this is interesting mode where we're working on this massive new integration, massive thing that just touches everything, front to back, right to left... So then we're in the 20 percent phase of this project, where you've done 80 percent of the work and you have 20 percent left. So then you're struck by the fact that 80 percent of the work is in the last 20... And then you're done with what you think is done, but then you have to still get it over the wire, which - then a new clock starts. And then you're in another 80/20.
 
-\[00:07:52.05\] So yeah, I think just shipping to production, shipping massive changes, specifically things that like go horizontal across multiple parts of your application, multiple projects, in our case... And so yeah, it's no small feat. So yeah, I miss the days when I was working purely on frontend, or something along those lines, where like it's "Oh, great..." I feel like the frontend community has the most enviable release process in many ways. It's just like the fastest, and then-then-then... But that's the benefit of just being on the top of the stack.
+\[07:52\] So yeah, I think just shipping to production, shipping massive changes, specifically things that like go horizontal across multiple parts of your application, multiple projects, in our case... And so yeah, it's no small feat. So yeah, I miss the days when I was working purely on frontend, or something along those lines, where like it's "Oh, great..." I feel like the frontend community has the most enviable release process in many ways. It's just like the fastest, and then-then-then... But that's the benefit of just being on the top of the stack.
 
 **Jerod Santo:** Right.
 
@@ -44,13 +44,13 @@
 
 **Amal Hussein:** They're living, breathing...
 
-**Jerod Santo:** Yeah, exactly. And then I invited you on JS Party back then, you had the Web Platform Podcast, but it was kind of on - not a hiatus, but you guys were struggling to ship, and I was like "Why don't you just come be a panelist?" And so you were panelist on JS Party for many years... And during that time, it was like Bocoup, and then it was Npm... Am I right?
+**Jerod Santo:** Yeah, exactly. And then I invited you on JS Party back then, you had the Web Platform Podcast, but it was kind of on - not a hiatus, but you guys were struggling to ship, and I was like "Why don't you just come be a panelist?" And so you were panelist on JS Party for many years... And during that time, it was like Bocoup, and then it was npm... Am I right?
 
 **Amal Hussein:** Mm-hm.
 
-**Jerod Santo:** And then Npm got acquired... Or you were already --
+**Jerod Santo:** And then npm got acquired... Or you were already --
 
-**Amal Hussein:** Yeah, Npm got acquired, and then shortly after they laid off majority of the company, but it sounds like three people... So I was part of that. And then --
+**Amal Hussein:** Yeah, npm got acquired, and then shortly after they laid off majority of the company, but it sounds like three people... So I was part of that. And then --
 
 **Jerod Santo:** Then what happened?
 
@@ -58,7 +58,7 @@
 
 **Jerod Santo:** Okay, I do remember this.
 
-**Amal Hussein:** \[00:11:59.14\] Yeah. It was like building Uber for ag. I was basically a principal engineer building like Uber for agriculture. It was actually a pretty rewarding time in my career, because I got to learn a lot about the challenges in the ag world, and digitizing it, and kind of bringing it into the 21st century. The company had everything going for it. Again, very high evaluation, attracted a lot of really top talent etc. And unfortunately, just kind of fell into that same pit, I think, with startups sometimes when they're doing too well, but then they get struck by bad product management, and like leadership decisions, and it just kind of... Yeah, I don't know what's going on now, but... It still exists, and it's still doing its thing, but I am no longer there, neither is many of the people that I worked with. A lot of people have exited, had a lot of layoffs... And then I ended up at Stripe after that. Stripe was pretty fun. I was a staff engineer, but it was just also -- the hustle culture and the stress of that job was just not really worth it for me. It's absolutely zero work/life balance. And at that point -- I'm just at a point in my career where I want to work hard, I do work hard, naturally... So you have a person like me, who's a hardworker, and then you add in the "Oh my God, people fake-collaborating, but competing" kind of culture... I hate to say this as well; I don't really talk about this publicly, but I definitely also experienced a fair level of toxicity from co-workers in that role... And so it was just -- yeah, it was just like "Okay, not worth it."
+**Amal Hussein:** \[11:59\] Yeah. It was like building Uber for ag. I was basically a principal engineer building like Uber for agriculture. It was actually a pretty rewarding time in my career, because I got to learn a lot about the challenges in the ag world, and digitizing it, and kind of bringing it into the 21st century. The company had everything going for it. Again, very high evaluation, attracted a lot of really top talent etc. And unfortunately, just kind of fell into that same pit, I think, with startups sometimes when they're doing too well, but then they get struck by bad product management, and like leadership decisions, and it just kind of... Yeah, I don't know what's going on now, but... It still exists, and it's still doing its thing, but I am no longer there, neither is many of the people that I worked with. A lot of people have exited, had a lot of layoffs... And then I ended up at Stripe after that. Stripe was pretty fun. I was a staff engineer, but it was just also -- the hustle culture and the stress of that job was just not really worth it for me. It's absolutely zero work/life balance. And at that point -- I'm just at a point in my career where I want to work hard, I do work hard, naturally... So you have a person like me, who's a hardworker, and then you add in the "Oh my God, people fake-collaborating, but competing" kind of culture... I hate to say this as well; I don't really talk about this publicly, but I definitely also experienced a fair level of toxicity from co-workers in that role... And so it was just -- yeah, it was just like "Okay, not worth it."
 
 **Jerod Santo:** No bueno.
 
@@ -78,7 +78,7 @@
 
 **Jerod Santo:** That's interesting, because GitHub was like that for a while, where they had this engineering -- not just engineering-led, but like engineers do what they want culture. And it was really cool and attracted great engineers at the start. And I remember Zach Holman, who's an early GitHubber, or who was on the conference scene, going around talking about this new style of company, which is like engineering-led, and you work on what you want to, and it's all the stuff that we want to hear. And that didn't scale. I mean, it's no surprise. But as GitHub grew, that just wasn't going to work anymore. And GitHub, to their credit - and Chris Wanstrath, and Tom Preston-Werner, and the other leaders inside GitHub that started it, they actually did grow up. I mean, they decided to make changes. And some of those changes were hard, and some were better than others, and mishandled... And of course, there were all kinds of issues along the way... But GitHub did grow up, and then it grew up so much that now it's like -- Microsoft bought it, and now it's like as grown up as you could possibly be, I think probably to its dismay at this point... But they had that to start, but then they actually, I think, realized it. Like "This is not going to last." And maybe it's interesting that -- at least when you were at Stripe, that culture had still existed there. And I'm wondering if it's them back...
 
-**Amal Hussein:** \[00:16:04.20\] Yeah. I think your hypothesis and your question comment at the end was very on point. I do think it is holding them back in many ways. And yeah, we haven't seen an IPO, for many reasons. When I was there, it was like "IPO in two months. Two months."
+**Amal Hussein:** \[16:04\] Yeah. I think your hypothesis and your question comment at the end was very on point. I do think it is holding them back in many ways. And yeah, we haven't seen an IPO, for many reasons. When I was there, it was like "IPO in two months. Two months."
 
 **Jerod Santo:** I'm pretty sure there's lots of people that would love to see that IPO happen.
 
@@ -116,7 +116,7 @@ But also, I think the flip side to that, Cisco is unfortunately -- just one of t
 
 **Jerod Santo:** It's just true. You're that kind of a presence, where it's like "Oh, Amal's here." We all know it, and we're happy... Some people probably not happy, especially if they're trying to guard that room... But yeah, I mean, you're definitely a disruptor. I think it is an overused word, but it's certainly fair, because you're going to make an impact, and that's powerful.
 
-**Amal Hussein:** \[00:20:12.18\] Yeah, yeah. Well, your words, and thank you, it's very kind feedback. So basically, that was just an interesting challenge. I was just getting things done, and ruffled feathers. And I was just really very proud of the impact that I made there, in the amount of time, and the change that I was able to kind of bring to my team and the work that we were doing... But just kind of like politics, politics, politics was the kind of downside there.
+**Amal Hussein:** \[20:12\] Yeah, yeah. Well, your words, and thank you, it's very kind feedback. So basically, that was just an interesting challenge. I was just getting things done, and ruffled feathers. And I was just really very proud of the impact that I made there, in the amount of time, and the change that I was able to kind of bring to my team and the work that we were doing... But just kind of like politics, politics, politics was the kind of downside there.
 
 Otherwise, just amazing people, really just impressively-run business. And I think the challenge there is just like - yeah, they're gonna need to change some of their internal cultures, I think, in order to really compete moving forward. Because you just can't -- that level of politicking and bureaucracy just cannot exist if you want to kind of compete in 2025. And what's interesting - when they want to move fast, they move fast. But then there's also just a lot of -- yeah, back channeling that happens. So yeah.
 
@@ -128,7 +128,7 @@ So it's like a silent sacking, where they're like "Find something to do." And "W
 
 **Amal Hussein:** Oh, yeah, yeah. That's the other. It's like "Let's do layoffs without having to pay out severance packages" strategy. But yeah, it obviously wasn't just me. It was many, many people. And the folks that were in my round, we were really just kind of high cost numbers in a spreadsheet. I was in the middle of delivering some very important work, and making some incredible progress... And whether it was my performance reviews, or just peer feedback, and all of that stuff... Cisco had this nice thing where people give each other money, like "Thank you for this thing. Here's $25 to go spend on some website." So I just literally had like thousands of dollars racked up from thank yous and praise... So all indicators were high performer, and--
 
-**Jerod Santo:** \[00:24:12.06\] Right. You were doing a good job.
+**Jerod Santo:** \[24:12\] Right. You were doing a good job.
 
 **Amal Hussein:** Yeah. And it was just cost-driven. And I would agree with the fact that yeah, this overall org was pretty bloated. They kind of hired aggressively. And again, I think part of that was driven by this culture of, again, castle building; castle guarding. Like "Whoa, I'm gonna make my reporting chain the biggest. I'm gonna hire people I don't need, so that I have authority."
 
@@ -136,7 +136,7 @@ So it's like a silent sacking, where they're like "Find something to do." And "W
 
 **Amal Hussein:** So yeah, it's just the one downside... But yeah, Cisco -- would I work there in the future, if that problem didn't exist and if I were guaranteed to...? Probably, yeah. But I don't want to, though, because now I'm so happy at work... I just want to like retire with this company. I don't want to do anything else, you know?
 
-**Break**: \[00:25:02.24\]
+**Break**: \[25:02\]
 
 **Jerod Santo:** So where are you working now? So this is your new thing. Is it startup? Is that what it is?
 
@@ -150,7 +150,7 @@ So it's like a silent sacking, where they're like "Find something to do." And "W
 
 **Amal Hussein:** We just closed series A, but we closed it late, because again, the company -- we have revenue coming in. There's just no desperate need to raise, if that makes sense. And so, yeah, the company is a few years old, but yeah, we're series A now... I'm like "Do I want to --" I have not publicly announced this at all.
 
-**Jerod Santo:** \[00:28:08.21\] Let's break some news here. I mean, it's not even on your LinkedIn, or what?
+**Jerod Santo:** \[28:08\] Let's break some news here. I mean, it's not even on your LinkedIn, or what?
 
 **Amal Hussein:** It's not anything. My 2025 goal is to use LinkedIn. As in I have a LinkedIn profile, I do not use it, because every time I log on, it feels like -- it's like corporate worship meets corporate Facebook.
 
@@ -210,7 +210,7 @@ So we have a zero knowledge, zero trust multi-tenancy platform, that has a contr
 
 **Jerod Santo:** Sure.
 
-**Amal Hussein:** \[00:32:00.02\] So you can integrate Excel. We pull data from Excel, then you can take those values using our digital IDE to then push them into another program. So you can pull values from Excel, push them into CAD, then take that CAD file, then push it to another program, run a simulation... So you can actually build this kind of CI/CD, what we call CC, which is continuous compliance kind of like workflow, making sure that while you're building this thing in the physical world, it's still complying to the metrics.
+**Amal Hussein:** \[32:00\] So you can integrate Excel. We pull data from Excel, then you can take those values using our digital IDE to then push them into another program. So you can pull values from Excel, push them into CAD, then take that CAD file, then push it to another program, run a simulation... So you can actually build this kind of CI/CD, what we call CC, which is continuous compliance kind of like workflow, making sure that while you're building this thing in the physical world, it's still complying to the metrics.
 
 So how do engineers that are working on a physical thing, basically, how do they collaborate? When they're making changes and they're tuning things, all this stuff is still like in bounds, it all still works together. And also, how do we give people on the team situational awareness? How do we share just pieces of our data with our vendors? So I have a third party vendor who's building the tires for this airplane - how do I just share the specs that they need? Right now, unfortunately, a lot of people -- there's emailing of things... There's no secure way for people to share these technical files and this technical data. And it also costs a lot of time when you don't have a way of digitally kind of certifying that something works.
 
@@ -248,7 +248,7 @@ So essentially, it's a digital engineering, digital threading platform, but the 
 
 **Jerod Santo:** Okay. So they work there, and they're like "Let's get Amal."
 
-**Amal Hussein:** \[00:36:02.00\] Yeah, some of my ex colleagues at Stripe work there. A few people, both in high leadership positions in engineering, both like VP of engineering, or distinguished engineer, and then another engineering leader kind of reached out and was like "Hey..." And some of these people are also people that I knew pre-Stripe, folks I've had longtime friendships with, like Maggie Johnson \[unintelligible 00:36:24.19\] being the -- I don't know if she's been on the pod before. And all of this kind of was a funny timing for me, which maybe I'll get into the funny timing story later... But it's been this refreshing experience of working with really smart people on a very hard problem. And it's not just folks from Stripe, it's folks from many companies that you recognize; a lot of companies that you know on a first name basis... But it's like everybody's favorite people from the jobs that they've worked at, so it feels like we've collected all these awesome people, and we are all working together.
+**Amal Hussein:** \[36:02\] Yeah, some of my ex colleagues at Stripe work there. A few people, both in high leadership positions in engineering, both like VP of engineering, or distinguished engineer, and then another engineering leader kind of reached out and was like "Hey..." And some of these people are also people that I knew pre-Stripe, folks I've had longtime friendships with, like Maggie Johnson \[unintelligible 00:36:24.19\] being the -- I don't know if she's been on the pod before. And all of this kind of was a funny timing for me, which maybe I'll get into the funny timing story later... But it's been this refreshing experience of working with really smart people on a very hard problem. And it's not just folks from Stripe, it's folks from many companies that you recognize; a lot of companies that you know on a first name basis... But it's like everybody's favorite people from the jobs that they've worked at, so it feels like we've collected all these awesome people, and we are all working together.
 
 And then we also have a lot of people that worked on really high-level stuff in the Air Force. And as you know, the military has been a source of a lot of big innovation, except for -- I think Gen AI is the one thing that they've missed, and I think through our platform hopefully we get to maybe help the government innovate on that, because there's a huge AI play for us as well.
 
@@ -284,7 +284,7 @@ But it's just been really nice working with innovators who have this background 
 
 **Jerod Santo:** \[unintelligible 00:40:00.27\]
 
-**Amal Hussein:** \[00:40:03.09\] All of the above. Yeah. Writing software, doing a lot of architecture and design... Not spending as much time as I want writing software, and that's always been a challenge when you're a lead, because you're in so many meetings... But very involved with the actual design and rollout of what we're doing day to day. And then - yeah, I basically lead an integrations platform. So we manage the interface for how things connect into our platform, which is -- and I've leveraged all my expertise, everything, my Npm background... What I've created is essentially something very similar to MCP, actually.
+**Amal Hussein:** \[40:03\] All of the above. Yeah. Writing software, doing a lot of architecture and design... Not spending as much time as I want writing software, and that's always been a challenge when you're a lead, because you're in so many meetings... But very involved with the actual design and rollout of what we're doing day to day. And then - yeah, I basically lead an integrations platform. So we manage the interface for how things connect into our platform, which is -- and I've leveraged all my expertise, everything, my npm background... What I've created is essentially something very similar to MCP, actually.
 
 **Jerod Santo:** Oh, model context protocol?
 
@@ -292,7 +292,7 @@ But it's just been really nice working with innovators who have this background 
 
 **Jerod Santo:** Well, that's an acronym that I know, but I don't know much else beyond the acronym. I know the acronym, and I know what they're trying to do. But I'm not sure -- I don't know the protocol at all. And very few of us probably do. It's pretty new stuff, so feel free to elaborate if you want to.
 
-**Amal Hussein:** Yeah, sure. So I mean, essentially, I run a team that -- one of the things that my team owns is agents. So we actually have agents that do the tasks, do the work, and we have a standard interface for how these third party integrations connect in. And that was kind of my first baby when I joined Istari, was like "Oh, we need a clean way of doing this integration." This is a third party integration, and so we kind of have something very similar to package managers. We have packages that can get installed, and how those things get managed, and published, and registered is borrowed a lot from my experience working at Npm.
+**Amal Hussein:** Yeah, sure. So I mean, essentially, I run a team that -- one of the things that my team owns is agents. So we actually have agents that do the tasks, do the work, and we have a standard interface for how these third party integrations connect in. And that was kind of my first baby when I joined Istari, was like "Oh, we need a clean way of doing this integration." This is a third party integration, and so we kind of have something very similar to package managers. We have packages that can get installed, and how those things get managed, and published, and registered is borrowed a lot from my experience working at npm.
 
 And what we've done is kind of created this standard way for any third party package, any third party tool to connect and integrate in with our agents, so that our agents can do the things that our users want to do on the other side. So we have functions that can be invoked, that users can invoke, and... Yeah, so I feel like I'm getting into the weeds, and this is where I'd want to have a screen, and pull up a demo...
 
@@ -330,7 +330,7 @@ And what we've done is kind of created this standard way for any third party pac
 
 **Jerod Santo:** \[laughs\]
 
-**Amal Hussein:** \[00:43:51.08\] But this is not just a purely SaaS problem. We can host it, and we do host it, but it's also -- you can run this fully on prem. So having to design under a lot of constraints where something should be able to be fully on prem, something should be able to be fully functional in an air-gapped environment... Imagine basically our software should be able to run --
+**Amal Hussein:** \[43:51\] But this is not just a purely SaaS problem. We can host it, and we do host it, but it's also -- you can run this fully on prem. So having to design under a lot of constraints where something should be able to be fully on prem, something should be able to be fully functional in an air-gapped environment... Imagine basically our software should be able to run --
 
 **Jerod Santo:** How do you connect threads together in an air-gapped environment? It doesn't make sense.
 
@@ -404,7 +404,7 @@ And what we've done is kind of created this standard way for any third party pac
 
 **Amal Hussein:** Right. And that's exactly why we have something called the control plane and the data plane, right? Our control plane doesn't speak to agents, agents speak to the control plane. So there's just a secure communication flow, and --
 
-**Jerod Santo:** \[00:48:08.02\] Like, it's one way.
+**Jerod Santo:** \[48:08\] Like, it's one way.
 
 **Amal Hussein:** Right. All the MTLS, and --
 
@@ -466,7 +466,7 @@ And what we've done is kind of created this standard way for any third party pac
 
 **Jerod Santo:** Take us on your journey.
 
-**Break**: \[00:51:14.12\]
+**Break**: \[51:14\]
 
 **Jerod Santo:** Take me on your journey.
 
@@ -494,7 +494,7 @@ And so I think where the agentic coding, where the AI is actually writing the co
 
 **Amal Hussein:** Right.
 
-**Jerod Santo:** \[00:57:59.20\] And we're okay with it spitting out boilerplate that we then agree to, and change, or whatever. But where the real gains can be had in productivity is "Can I have a fleet of little AI agents, and I send them off to do things, and they're better than me at it anyways, and they do the things, and they come back, and I'm done, or I'm moving on to my next thing?" Which some people think is happening, or will happen in the next 12 months.
+**Jerod Santo:** \[57:59\] And we're okay with it spitting out boilerplate that we then agree to, and change, or whatever. But where the real gains can be had in productivity is "Can I have a fleet of little AI agents, and I send them off to do things, and they're better than me at it anyways, and they do the things, and they come back, and I'm done, or I'm moving on to my next thing?" Which some people think is happening, or will happen in the next 12 months.
 
 I'm just not -- that's why I asked you, do you trust your agents? Because I'm just not so sure if and when that's going to be like human out of the loop... Because honestly, if -- I make fun of vibe coding all the time, mostly because I think it's a really fun term. I'm really glad it got coined, I've made a bunch of memes about it... But if vibe coding could actually be the future of coding, like if they could get that good, it's going to be dramatically different. It's going to be very exciting. It's going to be very scary for people who make their careers coding.
 
@@ -704,7 +704,7 @@ Maybe I'm conservative, but that's kind of where I stand. And it's very frustrat
 
 **Jerod Santo:** I was gonna say, I think stability at this point is probably attractive to you, because you've had a lot of jobs over a not very long time. I mean, you've moved a lot.
 
-**Amal Hussein:** Yeah. And moving is also -- that moving came from impatience on my part. Minus the Npm layoff, really, everything else was just like me being impatient and being like "Oh, I'm done. F this." You know what I mean?
+**Amal Hussein:** Yeah. And moving is also -- that moving came from impatience on my part. Minus the npm layoff, really, everything else was just like me being impatient and being like "Oh, I'm done. F this." You know what I mean?
 
 **Jerod Santo:** Right.
 
