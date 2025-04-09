@@ -80,7 +80,7 @@ But there's also an IP angle to this, copyright etc, stealing from artists... Th
 
 **Jerod Santo:** ...wearing a Callaway hat... Now, this is an HEIC file, because - I'm not sure why. Because that's what you gave me. And I'm not sure if ChatGPT is going to like it or not, but I'm going to ask it to transform you into something. Now, I'm going to step on Lego's copyright, I think - I don't know - and say "Turn him into a Lego character." And we'll get that going. Now, it is slower, but it's kind of cool how it does it. Now, this is not an ad, by the way. Maybe that'll be a conversation for later. \[unintelligible 00:08:30.02\]
 
-**Adam Stacoviak:** \[00:08:31.02\] Oooh, yeah. Ad or not.
+**Adam Stacoviak:** \[08:31\] Oooh, yeah. Ad or not.
 
 **Jerod Santo:** They should, but they don't. They have lots of dollars, I hear. But they've changed the way they do this to where now it's like this top to bottom phase-in kind of thing, where they're going pixel by pixel, left to right, top to bottom... Which is cool, because it kind of like -- I mean, this just takes a long time, but they are changing it, or they are demonstrating it in a way that you kind of like to watch along while it does its modifications... However, it's just getting started, so we're going to have to talk for a while. This is a large HEIC file. Let me tell you what else happened in the wake of this.
 
@@ -154,7 +154,7 @@ But there's also an IP angle to this, copyright etc, stealing from artists... Th
 
 **Adam Stacoviak:** Who else...? Elon Musk? Is he still famous?
 
-**Jerod Santo:** \[00:11:51.20\] Elon Musk, I'm sure... It happened to him... It happened to -- remember the girl in the foreground of the house that's burning down, and she's got that look on her face?
+**Jerod Santo:** \[11:51\] Elon Musk, I'm sure... It happened to him... It happened to -- remember the girl in the foreground of the house that's burning down, and she's got that look on her face?
 
 **Adam Stacoviak:** Oh, yeah...
 
@@ -258,7 +258,7 @@ So if you ever wanted to know who's that girl - no, Jerod, not your "Who's that 
 
 **Jerod Santo:** I want to show you how good this is. In the meantime, I do have a software development angle into this particular event. Here's my software development take. So -- gosh, this is really good. It's a step change from the previous version. In fact, people were comparing this to like the Apple emoji stuff, the Apple genmoji stuff, where it will generate you things... There's a great one as a comparison - maybe I can find it for the show notes - where it's like "Here's ChatGPT 4.0", whatever new stuff. "Make me a picture of the main Severance characters, the four main Severance people as Legos." And then the exact same prompt to Apple Intelligence, and it's like night and day. I mean, the OpenAI one is just so good.
 
-**Adam Stacoviak:** \[00:16:22.05\] It just smears their face with the ooze of goodness.
+**Adam Stacoviak:** \[16:22\] It just smears their face with the ooze of goodness.
 
 **Jerod Santo:** It is.
 
@@ -288,7 +288,7 @@ So -- I mean, kind of a cool app. Here's his background. "I'm a startup founder 
 
 **Jerod Santo:** It's on the public internet now, and it's gotten some attention. Are there any actual inputs besides search? How do you create a new recipe? You can sign in with Google, you can start cooking... But where is the third-party inputs? Because that's where rubber hits the road on the internet. It's like, once I have a Submit button somewhere. I don't see any of those. Maybe you have to sign in to do that. But how do you create your own recipes? So it's still basic in that way.
 
-**Adam Stacoviak:** \[00:20:10.12\] Do you think these images are AI-generated based on the recipe?
+**Adam Stacoviak:** \[20:10\] Do you think these images are AI-generated based on the recipe?
 
 **Jerod Santo:** I don't know. I mean, the first one looks like, because it's like a Wonder Woman picture...
 
@@ -318,7 +318,7 @@ Sometimes zero to one is not the hard part. It's maintaining one, and going to t
 
 I've got home automation around me. At some point, these things will have this -- it's already got it, but it's not accessible via this automation, I would say. That's where the AI comes in; it's more automation than it is generative. But this AI layer where you can begin to orchestrate your life. That's where I think the next frontier might be, and I think vibe-coding is one layer of this future AI layer we'll live in.
 
-**Break**: \[00:23:04.03\]
+**Break**: \[23:04\]
 
 **Jerod Santo:** I got ChatGPT to do the thing.
 
@@ -396,7 +396,7 @@ I've got home automation around me. At some point, these things will have this -
 
 **Adam Stacoviak:** Oh.
 
-**Jerod Santo:** \[00:28:20.27\] Now, this won't be that flattering, but it will be funny.
+**Jerod Santo:** \[28:20\] Now, this won't be that flattering, but it will be funny.
 
 **Adam Stacoviak:** Let's cut this, Jason. Let's cut this just in case he goes south here.
 
@@ -462,7 +462,7 @@ I've got home automation around me. At some point, these things will have this -
 
 **Jerod Santo:** It's got your eyes. I mean --
 
-**Adam Stacoviak:** \[00:32:10.19\] My tusks...
+**Adam Stacoviak:** \[32:10\] My tusks...
 
 **Jerod Santo:** The tusks are slightly longer. It does have your facial hair, so...
 
@@ -530,7 +530,7 @@ I've got home automation around me. At some point, these things will have this -
 
 **Jerod Santo:** Where are they now...? So I thought it'd be fun for us to just go through a few early episodes of the Changelog, and just figure out where are they now? What's up with the project? Is it still a thing? etc. Because so many things have come and gone, or changed form over the years. And the very first episode was about Haml, Sass and Compass. Where are they now? Where's Haml? Where's Sass? And where is Compass? Any thoughts?
 
-**Adam Stacoviak:** \[00:36:26.09\] Well, Haml is still there, apparently.
+**Adam Stacoviak:** \[36:26\] Well, Haml is still there, apparently.
 
 **Jerod Santo:** Haml still has a website. Haml is a templating language for Ruby. This is very much our Ruby roots coming out as we go back to our first episodes, because a lot of it's in the Ruby community. It's basically a way of --
 
@@ -566,7 +566,7 @@ I think largely, though, most of the features that I enjoyed in Sass now exist i
 
 **Adam Stacoviak:** Can't tell you the status of this, though. What does this mean? Because there was always the Scss and Sass world. And I think Sass, similar to Haml, just went away.
 
-**Jerod Santo:** Yeah. This is specifically the Sass library slash executables that I think were written in Ruby and then were eventually rewritten in JavaScript to be Npm installed, versus Rvm installed, or gem installed. And so yeah, I think all these are successful projects. They just, like you said, kind of got brought into the web platform in a certain way. Haml didn't, but Sass certainly did. Compass was even more specific, right? Compass was all about --
+**Jerod Santo:** Yeah. This is specifically the Sass library slash executables that I think were written in Ruby and then were eventually rewritten in JavaScript to be npm installed, versus Rvm installed, or gem installed. And so yeah, I think all these are successful projects. They just, like you said, kind of got brought into the web platform in a certain way. Haml didn't, but Sass certainly did. Compass was even more specific, right? Compass was all about --
 
 **Adam Stacoviak:** You know, it was hard to separate.
 
@@ -578,7 +578,7 @@ I think largely, though, most of the features that I enjoyed in Sass now exist i
 
 **Adam Stacoviak:** Abort. Abort. And we should probably remove that link from our stuff... Which reminds me, YouTube's been hitting us up with all kinds of takedowns because of some of our old links on old episodes now point to domains which have malware on them... Maybe we should do some sort of a link scanner that goes through and checks those links and changes them, and it goes to archive.org... I don't know. A lot of work. But when you maintain a website that points at things for 2009 until now, eventually some of those links are going to rot.
 
-**Adam Stacoviak:** \[00:40:25.29\] Oh, yeah. A lot of rot going on there.
+**Adam Stacoviak:** \[40:25\] Oh, yeah. A lot of rot going on there.
 
 **Jerod Santo:** So that's episode one. You know, a mixed bag. Episode two was the original Changelog Weekly, so that's not really even a...
 
@@ -674,7 +674,7 @@ I think largely, though, most of the features that I enjoyed in Sass now exist i
 
 **Jerod Santo:** I think there definitely could be. I'm not saying that there is. Haml obviously is going to be rendering user-generated content on some websites, as it's a templating engine that oftentimes will render something that somebody entered... So there could be an attack vector there if you could find some way of exploiting it. And then Underscore is going to be loading up in people's browsers, and you can obviously check in --
 
-**Adam Stacoviak:** \[00:44:19.19\] Do a lot there.
+**Adam Stacoviak:** \[44:19\] Do a lot there.
 
 **Jerod Santo:** You can do stuff there. Yeah. So I would say yes... But also mature software. Underscore has 30 open issues to this day. Most of them are probably people asking "Hey, is this going to...?"
 
@@ -700,7 +700,7 @@ I think largely, though, most of the features that I enjoyed in Sass now exist i
 
 **Adam Stacoviak:** What was TenGen? TenGen was the company Mongo came out of? My gestures in Safari don't work anymore, for some reason. My back swipes... Like, who would turn that off? Who would turn that off on me? You will land at MongoDB.com. If you are scared of NoSQL, run. Quickly.
 
-**Break**: \[00:45:24.15\]
+**Break**: \[45:24\]
 
 **Adam Stacoviak:** Yeah, my back swipe gestures are not working anymore in my system, for some reason. And I'm a little angry about it. I'm a little angry.
 
@@ -740,7 +740,7 @@ I think largely, though, most of the features that I enjoyed in Sass now exist i
 
 **Adam Stacoviak:** That's truth.
 
-**Jerod Santo:** \[00:51:50.11\] That's truth. I feel like we say that enough, and we -- I think Tim probably knows that. I don't think I was informing Tim of that. I just wanted to put that out there, just to make sure that that's like 100% clear... Because we've always been that way; if it's up to me, we'll always be that way. You can't just buy your way onto an interview with us. In fact, I've just turned down some people recently who were willing to pay some good money to just come on the show, and I was like "That's just not how we do our thing." So we've definitely lost money over the years doing that... But it allows us to just answer these questions with saying - if you're getting interviewed on our show, it's because we want to; it's not because you give us money. And that's just the way it is. So starting there, but then you expanded and said a lot more... So go ahead.
+**Jerod Santo:** \[51:50\] That's truth. I feel like we say that enough, and we -- I think Tim probably knows that. I don't think I was informing Tim of that. I just wanted to put that out there, just to make sure that that's like 100% clear... Because we've always been that way; if it's up to me, we'll always be that way. You can't just buy your way onto an interview with us. In fact, I've just turned down some people recently who were willing to pay some good money to just come on the show, and I was like "That's just not how we do our thing." So we've definitely lost money over the years doing that... But it allows us to just answer these questions with saying - if you're getting interviewed on our show, it's because we want to; it's not because you give us money. And that's just the way it is. So starting there, but then you expanded and said a lot more... So go ahead.
 
 **Adam Stacoviak:** Yeah. Well, I just think -- I mean, I don't know if you want to go into all these details. That's not what I'm trying to do here... Unless you are, and I can do that, but I don't think that's what we should do. I think it comes down to - what I stepped away and marinated with on this was that I think potentially... One, a couple of things have changed. Founders Talk isn't a show anymore, and so we've absorbed some of the things I did there, which was explore with a CEO, a CTO, a co-founder, their world. Their journey. Sometimes it's product, sometimes it's their journey... And so we've converted what was Founders Talk into an infrequent episode style for the Changelog.
 
@@ -764,7 +764,7 @@ So I think our ads have morphed into many interviews, which they very much have.
 
 **Jerod Santo:** And it's something that we want to address, and something that we struggle with... Because honestly, we only talk about cool stuff that we think is cool, but also, that does cross over into stuff that people are advertising. Because we are picky with who our sponsors are, and we do think their stuff is cool. And so I can see how that could become a gray area. That's why we say "This is not an ad, but..." and we start to talk, because it has to be clear that this is just my opinion, and this is actually somebody paying us to speak to you directly, through us.
 
-**Adam Stacoviak:** \[00:55:48.19\] Right. It is a real challenge, because I will often learn about a brand because they reached out to us. And one in particular - and I'm struggling with this; I want to get Scott Dietzen on the show... And it's Augment Code. I'm really interested in what they're doing. They're doing some cool stuff there. But I'm only learning about it because of how deep we go with our ad style. If I just took a script from them and read it, I wouldn't know anything like I do about Augment Code. I would just know the surface and what they tell me. I would not have done investigative journalism, and gone on the inside and looked at it, like "How can I expose these details to our world in fun ways?" Which is my approach, is I scan the entire vector of what they do, along with their help, go into the depths, talk to different people... And I kind of come out with what I think their story is to our world.
+**Adam Stacoviak:** \[55:48\] Right. It is a real challenge, because I will often learn about a brand because they reached out to us. And one in particular - and I'm struggling with this; I want to get Scott Dietzen on the show... And it's Augment Code. I'm really interested in what they're doing. They're doing some cool stuff there. But I'm only learning about it because of how deep we go with our ad style. If I just took a script from them and read it, I wouldn't know anything like I do about Augment Code. I would just know the surface and what they tell me. I would not have done investigative journalism, and gone on the inside and looked at it, like "How can I expose these details to our world in fun ways?" Which is my approach, is I scan the entire vector of what they do, along with their help, go into the depths, talk to different people... And I kind of come out with what I think their story is to our world.
 
 Sometimes I get an opportunity to go deeper, sometimes it's a little bit more shallow... But either way, it's the same approach, which is - not what are they saying, because obviously, what they're saying is not resonating or it's not doing so well... And if it is, we're going to repeat that. If it's doing well, we will repeat it. But in a lot of cases, I'm like diving in. But I'm struggling, because I want to get Augment Code on, I want to get Scott on... I've learned a lot of cool stuff about Retool that I'm in love with... They're doing some cool stuff... I want to get David Shu back on... But these are anchor sponsors of ours, you know? And so it's like, "Well, no, we're not having them on because they paid us, but we did learn about them because they paid us." We got curious and exposed to their world. And it's like, well, that's where the challenge is. Do we gatekeep them from appearing on the show because they've paid us in the past? Or they have an active campaign on a different thread?
 
