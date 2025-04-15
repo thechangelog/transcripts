@@ -2,7 +2,7 @@
 
 What up, nerds? I'm Jerod and this is Changelog News for the week of Monday, April 14th, 2025.
 
-Security researchers [have discovered](https://www.pillar.security/blog/new-vulnerability-in-github-copilot-and-cursor-how-hackers-can-weaponize-code-agents) a way hackers might weaponize GitHub Copilot and Cursor to insert malicious code that might bypass typical code reviews, calling it "virtually invisible to developers and security teams." So, your most trusted coding assistant could also be an unwitting accomplice to some particularly gnarly attacks. Is it time to update the old adage?
+Security researchers [have discovered](https://www.pillar.security/blog/new-vulnerability-in-GitHub-copilot-and-cursor-how-hackers-can-weaponize-code-agents) a way hackers might weaponize GitHub Copilot and Cursor to insert malicious code that might bypass typical code reviews, calling it "virtually invisible to developers and security teams." So, your most trusted coding assistant could also be an unwitting accomplice to some particularly gnarly attacks. Is it time to update the old adage?
 
 > "Keep your friends close, and your enemies closer, but your AIs *closest*."
 
