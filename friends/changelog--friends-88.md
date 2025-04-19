@@ -80,7 +80,7 @@
 
 **Richard Moot:** I think it was difficult to come around on it because -- so when I joined Square , I kind of dove straight into taking over content for the blog, and revamping how we were going to be writing content, switching from really short blog posts to longer form, in depth... Really trying to build some meat for developers to chew on when they're coming to learn about the platform. And then when we launched the YouTube channel, doing that zero to one, it was a lot of stuff that we had to learn in the process. And I think it just made us a little bit hesitant. We had a small team to figure out "How do we actually scale up a podcast?" And I guess at the time I probably should have just understood that I could have leaned on you all a little bit more, because that was actually essential to getting this up and running, was trying to just go with experts who can actually tell us what we should do, what we shouldn't do... Because when we were doing that for the YouTube channel, it was we were just flying blind. We did a lot of things wrong, but eventually got things right.
 
-\[00:07:29.07\] So I think that, and then the combination of that was trying to understand what is the overall story. I would admit I was a little bit hesitant to think that I could source all of the guests frequently enough to have a constant pipeline of episodes going out... So I think that's kind of what held me back. And looking back, it's like, I should have just started way earlier. I mean, I should have been thinking about blog content. The best time to start a blog is five years ago. The second best time is right now. And I think the same can be true of a podcast. Just start making the content. You're going to learn, you're going to find the right stories, you're going to find what works... And we're already seeing quite a few people inside the company, a few people outside the company who really what we already produced with some of these episodes.
+\[07:29\] So I think that, and then the combination of that was trying to understand what is the overall story. I would admit I was a little bit hesitant to think that I could source all of the guests frequently enough to have a constant pipeline of episodes going out... So I think that's kind of what held me back. And looking back, it's like, I should have just started way earlier. I mean, I should have been thinking about blog content. The best time to start a blog is five years ago. The second best time is right now. And I think the same can be true of a podcast. Just start making the content. You're going to learn, you're going to find the right stories, you're going to find what works... And we're already seeing quite a few people inside the company, a few people outside the company who really what we already produced with some of these episodes.
 
 **Adam Stacoviak:** Well, that's a vote of confidence, for sure. I think you're spot on with when should you start, because I feel -- you know, a lot of brands reach out to us because we have a great megaphone to developers across the globe. And for good reason, right? We come every week, every day bringing great content. We're in the trenches and we can help brands reach these developers in meaningful ways... But we can only go so far with that. And I think there's a story that brands have to tell. I think that's the thing that I recall most, is Square has a developer story you're not telling. And if I have to repeat that more than once, I'm "Richard, Square has a developer story you are not telling." And one of the many ways you could do it, obviously, is via a long form, authentic conversation, a.k.a. a podcast. So I was a big proponent of that.
 
@@ -110,7 +110,7 @@ And then we have our other brands, Tidal with streaming... And that's kind of fo
 
 **Adam Stacoviak:** How much can you share about that? I know some of this is BTS...
 
-**Richard Moot:** \[00:11:49.18\] "How can we get Richard potentially in trouble?"
+**Richard Moot:** \[11:49\] "How can we get Richard potentially in trouble?"
 
 **Jerod Santo:** Oh, no. I don't want to do that.
 
@@ -146,7 +146,7 @@ So I think that's kind of where we wanted to sort of get the foot in the door, o
 
 I'm actually quite happy with the Square Developer podcast. I know it's very on the nose, it's very straightforward... It is what it is, and I think that that works for developers. My original -- this is what I don't know if I would get in trouble for, but whatever... I originally wanted to call it Local Host, because we have a big push on trying to build local tools for sellers to be able to connect with cash users, to be able to give local offers... So that you can sort of see your coffee shop down the street - they have an offer in cash app that if you go over here and use cash, you can get 10% off your latte, or something. And I just love being able to tell these stories of like "This is the local host hangout to talk about sellers, and developers, and what people are building on Square." That did not fly well with -- I mean, once you get all the other folks involved who want to sort of put their little touch on it... It went through a very lengthy review process, trying to see "Is this going to conflict with some other copyright trademark?", whatever... And so eventually, we came all the way back down to the Square Developer podcast.
 
-**Jerod Santo:** \[00:16:11.19\] Gotcha.
+**Jerod Santo:** \[16:11\] Gotcha.
 
 **Adam Stacoviak:** Well, now I feel bad, because I feel like that was me. I pushed against that. Wasn't that me?
 
@@ -186,7 +186,7 @@ And I think for Square, if it's like Square has a developer podcast now - yeah, 
 
 **Adam Stacoviak:** I'm a big fan of content that you discover as an individual, and you get inspired by. So I just imagine someone who is building the beginnings of their business, and they're thinking "Gosh, taking payments is one thing." But then it's like, "Well, how can I dream about the future of this business? I have a background in software, I have a friend who's in software, and they want to be my co-founder..." However it plays out, I feel like someone in this world could discover the Square Developer Podcast and pick it up as a business owner and figure out how to dream with Square. That's what I always envisioned. Not just like "Let's just feed developers more developer content", but more like "How can we inspire new ways to think about the future of commerce leveraging Square?" And people discover that content and those who are doing it, and that's what the show kind of capitalizes on. I was dreaming for that kind of thing, not just "Let's nerd out." Which is always cool, but at the same time, "Let's nerd out and also bring somebody into the fold that may not have normally found this content, or saw how this franchise business is pretty scrappy with their tech, but really polished with Square."
 
-**Richard Moot:** \[00:20:16.29\] Yeah, I mean that's spot on. I mean, I couldn't have imagined what we would end up talking about on the podcast from the beginning to when I actually got to sit down and interview these folks. There's one that -- Rhea Lana is a great one. They were just like "Hey, this started out in a garage. I just wanted to be able to sell stuff," to expanding into 120 franchises. And it's just building on the scrappiest way possible, and they were able to build stuff completely on their own.
+**Richard Moot:** \[20:16\] Yeah, I mean that's spot on. I mean, I couldn't have imagined what we would end up talking about on the podcast from the beginning to when I actually got to sit down and interview these folks. There's one that -- Rhea Lana is a great one. They were just like "Hey, this started out in a garage. I just wanted to be able to sell stuff," to expanding into 120 franchises. And it's just building on the scrappiest way possible, and they were able to build stuff completely on their own.
 
 The other one that really impressed me -- I don't think the episode's come out yet, but it's this company called HeadPinz. They're a family entertainment center in Southwest Florida, and they only started using Square during COVID. They started using our Square online product to basically do curbside pickup, to be able to like "Hey, we need to be able to keep the lights on here. We're going to do curbside pickup. Nobody can come in here and do bowling, but we have food. And so we're going to be able to sell food through Square, using their online offering." From there, they just started using -- they found out that we had APIs, SDKs... They were like "Hey, we want to build this kiosk solution, so somebody can come in, buy arcade value, load it up on a card, and pay for it using a Square terminal." So they started just expanding and trying out all these different new things... And at the end of it now, they're just diehard Square users. And they say "Square is the source of truth. If we can't push the data back into Square in some way, we're just going to use a different product."
 
@@ -196,7 +196,7 @@ So getting to service these stories has been really great, because I'm talking t
 
 **Adam Stacoviak:** That HeadPinz story is a great example, because we edited all these shows, but I'm also mastering the shows, and I'm listening to them and I'm chaptering them, and I'm in these details... And I recall this part. I didn't listen to every episode end to end, but this HeadPinz one I was actually really impressed with. And I think it was closer to the end, if I recall correctly, they were saying something like "Once we realized how data flows through Square and how it works and all this stuff, essentially", I'm paraphrasing, of course, "then we're just thinking "How can we get all the data in there? If it can't go through Square , we don't want it." It was as if it was this layer that helped them ensure all the data was correct, could be accessible via an API etc. And it became where they wanted all the data to go through Square, and it was its source of truth. I was like "You can't get that kind of story just randomly talking to people." How do you expose those kinds of ideas and that truthfulness and that honesty with how they leverage a platform? You can't pay for that. So that's not something that you go and do a case study on, or something like that.
 
-\[00:24:19.22\] You get sort of these great customer stories that are inspirational and spark curiosity for others, and they're trapped in these weird, I don't know, content silos where it's like it's in this case study, but the case study didn't have any life. It's only this printed document, it's only via a PDF kind of thing, or this one single webpage, which almost nobody ever goes and reads... And you've got these great stories out there, and I'm like "Wow, this HeadPinz one was an example of what we dream for this conversation, for this podcast."
+\[24:19\] You get sort of these great customer stories that are inspirational and spark curiosity for others, and they're trapped in these weird, I don't know, content silos where it's like it's in this case study, but the case study didn't have any life. It's only this printed document, it's only via a PDF kind of thing, or this one single webpage, which almost nobody ever goes and reads... And you've got these great stories out there, and I'm like "Wow, this HeadPinz one was an example of what we dream for this conversation, for this podcast."
 
 **Richard Moot:** Yeah. And I would even add to that, there's -- it wouldn't work if I went out there and I told people "You should be using Square as your source of truth", because I feel anybody hearing that would be like "Yeah, of course you would say that. That kind of puts me into this position of now I'm just entirely reliant on Square." And there's probably instances where I wouldn't recommend that some people use Square as their single source of truth. But I would like for people to know that some people have done this, and it's been wildly successful for them. They have simplified all of their analytics, all of their understanding of how the business is being run... Their marketing department can now say "Hey, how do we get people to book racing while waiting for their bowling appointment, and doing more arcade? What kind of promos can we mix together?" They now have access to this full customer experience every time somebody sets foot inside of one of those HeadPinz locations.
 
@@ -210,7 +210,7 @@ So getting to service these stories has been really great, because I'm talking t
 
 **Adam Stacoviak:** "Me neither." \[laughs\] That's funny.
 
-**Break**: \[00:27:59.13\]
+**Break**: \[27:59\]
 
 **Adam Stacoviak:** Even the interviewing process is a journey to learn. Can you talk about becoming a host of a podcast, what it takes to before, during, and after?
 
@@ -232,7 +232,7 @@ But yeah, I've definitely found that -- what you said originally, it took me a w
 
 **Jerod Santo:** I mean, I've got text expander answers for that one... But it's always a nice way of saying no. \[laughs\] Some people just want an idea of where we're going to take it, and so I can provide a couple of like "Well, here's the things that I think are interesting... But I can't give you questions, because I haven't written any yet, nor will I have by the time the show starts. I'm going to go ahead and just think some thoughts", and then do what I think the best podcasters do, and I try to do, and Adam does as well, is listen. That's the key as a host, is to listen and react, versus "My next question is" and then read it off of the next card.
 
-**Adam Stacoviak:** \[00:34:12.00\] Yeah, that sounds \[unintelligible 00:34:12.04\]
+**Adam Stacoviak:** \[34:12\] Yeah, that sounds \[unintelligible 00:34:12.04\]
 
 **Jerod Santo:** It's like, no one wants to listen to that.
 
@@ -290,7 +290,7 @@ But yeah, I've definitely found that -- what you said originally, it took me a w
 
 **Adam Stacoviak:** Yeah.
 
-**Richard Moot:** \[00:37:48.09\] We had you come in to interview Jack, and have that whole conversation... It's one of our better performing things that's on our YouTube channel, just because everybody loves hearing from Jack.
+**Richard Moot:** \[37:48\] We had you come in to interview Jack, and have that whole conversation... It's one of our better performing things that's on our YouTube channel, just because everybody loves hearing from Jack.
 
 **Adam Stacoviak:** And me.
 
@@ -318,7 +318,7 @@ And I think when we saw how well that was received, even within Square, and from
 
 The other thing that I would just say - it's actually a lot easier than anybody might be making it out to be. You've just got to start, just sit down, have a conversation and record it. It might not be great the first time, but when you just sit down, you have the conversation, you record it, you can have a sense of what went well and what didn't go well... And it's weird that I'm saying this now, because we ran into this same exact thing when we launched our YouTube channel...
 
-\[00:42:05.16\] When we first recorded episodes of the YouTube \[channel\], we overproduced way too much, and we realized "Okay, we can throw out half of the work here." We were way overthinking it. And I think even before doing this podcast, we were way overthinking it. So the thing that I just can't help but continually think is "We should have just listened to Adam and trusted him more about it that - just start it. The format will start to make sense."
+\[42:05\] When we first recorded episodes of the YouTube \[channel\], we overproduced way too much, and we realized "Okay, we can throw out half of the work here." We were way overthinking it. And I think even before doing this podcast, we were way overthinking it. So the thing that I just can't help but continually think is "We should have just listened to Adam and trusted him more about it that - just start it. The format will start to make sense."
 
 And I think the only part that I think I still got hung up on was what the content is going to look like. And I think in retrospect, you just need to start inviting a few guests, and start recording... Because the content will start to make more sense as you start making it. Because you might think "Oh, this is what I want the content to be about." You start having the conversations and the interviews with people, and then you realize it keeps going in this other direction. And this other direction is actually not what I thought originally, but it's working.
 
@@ -338,7 +338,7 @@ I always think of this analogy a lot of the time; I've said it to my team... I d
 
 So you had this depth and background and ability to talk to people and share stories that I just was like "Man, you are an underutilized asset. They can do some cool stuff for Square. Let's make it happen." And so I had complete confidence in you from back, back in the day.
 
-**Richard Moot:** \[00:46:13.08\] Well, it's so very warm to hear that, because --
+**Richard Moot:** \[46:13\] Well, it's so very warm to hear that, because --
 
 **Adam Stacoviak:** It's so warm. I'm just like a blanket.
 
@@ -354,7 +354,7 @@ And so we've kind of formalized this into a company-wide group in terms of API d
 
 **Richard Moot:** And part of it is because the LLM clients need some way to know how to call tools. And so this is kind of trying to standardize what the tool calling is. So the way that I sort of describe MCP is it's like the SDK for robots. And so you have these well-formed ways of saying "Hey, this is how you call the payments endpoint", or "This is how you call the catalog endpoint." Because I've tried this before, you can sort of just hand an Open API spec to the LLM. Usually, it's too large or unwieldy for it to really kind of parse out the right things for the particular context... And so MCP kind of formalizes the way that you want the LLM to interact with your platform.
 
-**Jerod Santo:** \[00:50:08.07\] Okay.
+**Jerod Santo:** \[50:08\] Okay.
 
 **Richard Moot:** And it also is trying to formalize things beyond, say, just REST APIs. So I've seen some folks who actually just use it for tapping into snapping visual elements out of a computer, and sort of using that to interact -- I saw a demo of somebody actually having it work with an Android app, using some sort of indirect visual reasoning where it's basically taking a snapshot of the UI, and then figuring out where to "Oh, press this button", and then gives an instruction to press a different button. So it can go well beyond just traditional REST APIs.
 
@@ -374,7 +374,7 @@ And so we've kind of formalized this into a company-wide group in terms of API d
 
 **Richard Moot:** Sure. So at the base level, an MCP server will first sort of define all the available tools that you want to give to it. So in the case of say Square - I'll give an example - you might say "Oh, there's a catalog, a customer, a payment tool", and then it sort of describes how these can be used in different contexts. And so when you ask your LLM, "Hey, can you go build me a menu for a taqueria in my Square account?", it's going to go to the MCP server and say "List all the tools", and then figure out "Okay, of these tools, which one of these kind of matches with something that they're asking me?" And then it'll go call the tool, and then the tool will sort of give an additional description of what else can you do with this. And then it kind of figures out from there how to actually accomplish the task that you want.
 
-\[00:54:24.14\] So the thing that I always think about MCP servers is it's actually ridiculously simple in what they actually enable, because you're just sort of creating this tiny little abstraction layer of saying like "Oh, here's all the things that we're giving you access to."
+\[54:24\] So the thing that I always think about MCP servers is it's actually ridiculously simple in what they actually enable, because you're just sort of creating this tiny little abstraction layer of saying like "Oh, here's all the things that we're giving you access to."
 
 **Jerod Santo:** And it's all just JSON at the end of the day, or...? In terms of actual interchange formats, it's just typical stuff, there's no special sauce?
 
@@ -386,7 +386,7 @@ And so we've kind of formalized this into a company-wide group in terms of API d
 
 I've seen versions of this where people actually are just running a Docker container locally on your system, and that's actually what it's communicating with... And so I think Claude has its own standard config file... But for the Goose desktop client we have a way for you to just do a deep link URL. So you just click that button, and it immediately starts pre-configuring that into your desktop client and installs the extension for you.
 
-**Break**: \[00:56:44.02\]
+**Break**: \[56:44\]
 
 **Jerod Santo:** I'm thinking back to the early days of Web 2.0 and REST APIs - or let's just call them web APIs - and the spirit of innovation, discovery, and creativity with open... Not Open API the spec, but open web APIs, specifically around Twitter and Flickr, and FourSquare, and that group of social, cool tech companies. It was really the heyday for mashups, and trying new things...
 
@@ -450,7 +450,7 @@ I think that we've debated this inside, with a couple other engineers, in my com
 
 **Jerod Santo:** Well, that's why I was concerned... The providers may change their heart about the thing. Obviously, Richard, you are one, so that's why I was throwing it to you... Because the spirit of innovation and openness -- and Square obviously would be more useful if I could plug my agent into it and get information ad hoc, and have it do things for me without having to code it up myself etc. However, this leads to the client gets super-powers. And so whoever controls the client - and right now Open AI very much controls the client, because ChatGPT has hundreds of millions of users, and it's starting to become the Google of this era in terms of just the default choice... And then Square becomes this thing that plugs into ChatGPT and now Open AI holds your interface, and you're just commoditized... That's the concern, isn't it?
 
-**Richard Moot:** I mean, it is a concern, but I think we're seeing -- I mean, I want to believe always that open source will find a way to win. And I think the open-sourcing of models, the trying to incentivize folks to releasing the weights and their measurements... Sort of insisting on the transparency, so that we can have confidence... Because I think that's a precarious relationship to be managing, if you don't open up a little bit and build that transparency... Because I think that you can end up triggering a huge defensive move from everyone, where they go "Oh at first signal we realize they're exploiting our relationship or our data." Everyone's going to be "Alright, we're cutting off, we're pivoting over and we're going to either do it in house, or we're going to go pick a different provider. We're going to do it open source."
+**Richard Moot:** I mean, it is a concern, but I think we're seeing -- I mean, I want to believe always that open source will find a way to win. And I think the open sourcing of models, the trying to incentivize folks to releasing the weights and their measurements... Sort of insisting on the transparency, so that we can have confidence... Because I think that's a precarious relationship to be managing, if you don't open up a little bit and build that transparency... Because I think that you can end up triggering a huge defensive move from everyone, where they go "Oh at first signal we realize they're exploiting our relationship or our data." Everyone's going to be "Alright, we're cutting off, we're pivoting over and we're going to either do it in house, or we're going to go pick a different provider. We're going to do it open source."
 
 And so I think it's a tough thing to manage over time... I mean, one thing that is benefiting us all right now is at least there's a market of LLMs for you to be able to select from. Some work better in certain contexts... You know, ChatGPT is really great for sort of general purpose, Anthropic is really building stuff that's like super-awesome for developers... And we're just hoping that these open models can actually do more and more.
 
