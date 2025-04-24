@@ -78,7 +78,7 @@
 
 **Jerod Santo:** I remember when they first announced they were going to add all these vanity TLDs, all these new ones, and you could submit your ideas... And of course, I thought of all the other ones everybody else did... Like "Oh, .app's going to be huge. I should just go start that." And I was like "Why not? It's the internet. You don't need permission. I'm going to go figure out how to be like the .app TLD." It turns out you do need permission, and a lot of money.
 
-**Anthony Eden:** \[00:08:10.16\] Yes, you do. \[laughter\] Yes, absolutely.
+**Anthony Eden:** \[08:10\] Yes, you do. \[laughter\] Yes, absolutely.
 
 **Jerod Santo:** I got stopped real quick.
 
@@ -138,7 +138,7 @@
 
 **Adam Stacoviak:** Yeah. It was a good place to meet. I feel like I met a lot of people at Future of Web Apps, LeSS Conf, and just this era of when I met particular people. I think I met Chris Coyier for the first time at Less Conf. Yeah, a couple other folks, I'm sure, at that conference. David Hauser, founder of Grasshopper... A couple others. But anyways, I think for the same reason you're mentioning, Jerod, the simplicity, the feature I recall being the killer feature was when you started or had your DNS set up, you could do -- I don't even know what you call them, Anthony, so fill in the blanks here...
 
-**Anthony Eden:** \[00:12:26.20\] One-click services.
+**Anthony Eden:** \[12:26\] One-click services.
 
 **Adam Stacoviak:** Yes, one-click services.
 
@@ -166,7 +166,7 @@
 
 **Jerod Santo:** Dang...
 
-**Anthony Eden:** \[00:16:08.16\] So yeah, there's a lot of craziness out there. Not to mention highly regulated TLBs, things like .bank, .gov, .edu... These all require very specific sets -- they have very specific set of requirements that you have to follow. And it makes it challenging, for sure.
+**Anthony Eden:** \[16:08\] So yeah, there's a lot of craziness out there. Not to mention highly regulated TLBs, things like .bank, .gov, .edu... These all require very specific sets -- they have very specific set of requirements that you have to follow. And it makes it challenging, for sure.
 
 I think in many cases, though, we could support something, but nobody's ever asked. So that's one of the things we've been looking into recently. I'm kind of jumping forward to the present time a little, but we are taking an initiative to look at all the TLBs we don't support now, that we could support, and figure out what the investment is for each one of them, and then add those ones that are pretty straightforward, so that that way we're trying to move towards that goal of being able to support as many as possible without increasing the complexity too much.
 
@@ -208,7 +208,7 @@ Eventually, I just gave up on it. But yeah, there's some weird ones out there.
 
 Now, I look at it as -- we split our business almost evenly between the registrar, the DNS, so the operational DNS, and then we have little slivers of a couple other pieces of business, like the certificate side of business and email forwarding and things like that. But for the most part now - yes, I feel the domain registration part is mostly equal, with one notable glaring exception, which is our workflow doesn't look like any other registrar's workflow when you buy a domain, because you have to have an account first. And you have to have already put your credit card in. And most registrars are like "Here's a text field. Start typing, and we'll suggest things if what you want isn't available, and then we'll take you through that registration flow." And we flipped that and said "First, you have to have an account. You have to put your card on file. And then you can register as many domains as you want."
 
-**Adam Stacoviak:** \[00:19:52.16\] That's why I asked that question, because for as long as we've been a customer, we've never registered a domain through DNSimple. And I think it's for those reasons. It's because I think for a while they're super-fast domain search. I don't even remember what it's called. It was something super-fast...
+**Adam Stacoviak:** \[19:52\] That's why I asked that question, because for as long as we've been a customer, we've never registered a domain through DNSimple. And I think it's for those reasons. It's because I think for a while they're super-fast domain search. I don't even remember what it's called. It was something super-fast...
 
 **Anthony Eden:** Instant name search.
 
@@ -236,7 +236,7 @@ You know, at some point in the future we may have some flows and some workflows 
 
 **Jerod Santo:** So how do you find the right customers?
 
-**Anthony Eden:** \[00:24:04.03\] A lot of it's about messaging. Our messaging has changed over the years through many different iterations to kind of massage it towards a direction that will speak to a certain customer base. So in the very early days it was very minimalistic. It was very much engineer-focused. It looked good enough, but it was clear that "Oh, this is a tool that an engineer put together." And we focused on highlighting things like the API. And originally, we had like a command line interface, which when you think about it, it's just hilarious that, okay, why would you have a command line interface to register domains? But people really like -- the engineers really like the idea. And then as we grew, there were other things that we were interested in, other audiences beyond engineers that we were trying to get. We didn't want to lose that base, because they are our core base, but we wanted to expand for example, into engineers that are focusing on marketing. They're registering domains to put up marketing sites, and so they need things to be quick in a certain way.
+**Anthony Eden:** \[24:04\] A lot of it's about messaging. Our messaging has changed over the years through many different iterations to kind of massage it towards a direction that will speak to a certain customer base. So in the very early days it was very minimalistic. It was very much engineer-focused. It looked good enough, but it was clear that "Oh, this is a tool that an engineer put together." And we focused on highlighting things like the API. And originally, we had like a command line interface, which when you think about it, it's just hilarious that, okay, why would you have a command line interface to register domains? But people really like -- the engineers really like the idea. And then as we grew, there were other things that we were interested in, other audiences beyond engineers that we were trying to get. We didn't want to lose that base, because they are our core base, but we wanted to expand for example, into engineers that are focusing on marketing. They're registering domains to put up marketing sites, and so they need things to be quick in a certain way.
 
 They need URL forwarding with HTTPS termination because "Oh, Google now requires all URLs to have an HTTPS endpoint really, if they're going to be treated well."
 
@@ -276,7 +276,7 @@ At the end of the day though, I'm a nerd for DNS. I don't know what it is... I w
 
 **Anthony Eden:** One of the things that made the first round of new TLDs interesting was when you had competition for a top-level domain between multiple parties who wanted to register it, it went to auction. And when they bid on an auction, some of those auctions got very expensive. For example, I think we were talking earlier about .app. .app I believe ultimately sold for 10 million. Google had to pay 10 million for that one TLD. The interesting part about it is the 10 million got split up against the other people who were in the auction. So they actually made money just by being in the auction.
 
-**Jerod Santo:** \[00:28:07.02\] Who made money?
+**Jerod Santo:** \[28:07\] Who made money?
 
 **Anthony Eden:** The other ones who were submitting for it. I can't remember which other --
 
@@ -320,7 +320,7 @@ And so yeah, I think that was an example of something that I nerded out on, just
 
 On a technology point of view, I don't think there's been any major changes... If you look at the RFCs for DNS - there's actually a website out there. I can't recall off the top of my head what its name is, but I'm sure I could find it. And they collect together all of the RFCs, the requests for comments that underpin how DNS works. And that site list, if you go down -- it's continuously being updated, because every year there's new RFCs for domains. Sometimes they fix old stuff, sometimes they clarify it... Recently, you've had a new addition, which is the -- it's called \[unintelligible 00:31:54.07\] HTTPS.
 
-\[00:31:57.04\] This was an attempt to be able to do some routing things in the browser using DNS, at the apex. So being able to say "At the apex, we want to be able to terminate a name, with not an A record, but with something that actually points to another name." We solved that problem years ago with the alias record, but this is actually a protocol standard way of doing it.
+\[31:57\] This was an attempt to be able to do some routing things in the browser using DNS, at the apex. So being able to say "At the apex, we want to be able to terminate a name, with not an A record, but with something that actually points to another name." We solved that problem years ago with the alias record, but this is actually a protocol standard way of doing it.
 
 So I think things like that are what we see in the world of DNS, rather than big changes. Of course, you have people that have tried to do crypto names... That's been a thing that folks have tried. It's still being tried, by the way. I saw a new startup recently that got funded to try to do this again. It's really hard though to change something that's so foundational, and that works really, really well. I mean, when you look at it, DNS works fantastically well for what it needs to do.
 
@@ -348,7 +348,7 @@ So I think things like that are what we see in the world of DNS, rather than big
 
 **Anthony Eden:** I think so, yeah. I think that from a business perspective we have been able to stick to our core goals, because the industry as a whole has pretty much stayed very similar. Yes, there's been slow improvements, but it hasn't been any big changes.
 
-**Break**: \[00:33:49.23\]
+**Break**: \[33:49\]
 
 **Adam Stacoviak:** Do you try to grow a business like that? I mean, obviously you do, but you don't seem like you're -- and maybe I'm wrong and this is a wrong assumption to it... Because you want to stick to engineers and that flow, and you resisted seeming like a registrar, which to me seems like free marketing. It's like, okay, a lot of traffic coming here to just do domain lookups and they'll probably buy from us, and then buy the services. It feels like a great marketing arm you've never leveraged, really. So how do you look at growth when it comes to a company that's sort of just built on DNS, and provides a core service, and it keeps it simple? Have you grown a ton? How do you grow? What are your thoughts on that?
 
@@ -358,7 +358,7 @@ We have grown though, and we continue to grow. So the way we grow, for example, 
 
 And then we built other software. One of the things we launched a year and a half, two years ago was what we call our domain control plane. The idea was that if you have some domains that you're managing at, say, Route 53, or in Azure, you can actually connect from DNSimple to those services and see those domains and actually edit them and have bidirectional synchronization between DNSimple, Route 53, as your core DNS on-prem. And that's cool. Like, that's something we think that some of these folks that are running in legacy systems -- or the reality of running enterprises is that you don't have just one place where you put everything. You were talking about that earlier. Like, "How did we end up with four or five different registrars?" Well, that's just business, baby. You are gonna get spread out, because as your company grows, you're gonna have people off here doing something different than people off here, and their needs are gonna be different.
 
-\[00:40:05.09\] So yeah, that's how we've kind of facilitated the growth over the years. But we've never strived for massive, fast, rapid growth, because it just wasn't in what I wanted to do, it wasn't -- I had done a little bit of that in the previous startups. I worked for LivingSocial as well for a little while, so I saw the good and the bad of trying to do that.
+\[40:05\] So yeah, that's how we've kind of facilitated the growth over the years. But we've never strived for massive, fast, rapid growth, because it just wasn't in what I wanted to do, it wasn't -- I had done a little bit of that in the previous startups. I worked for LivingSocial as well for a little while, so I saw the good and the bad of trying to do that.
 
 **Adam Stacoviak:** Is that still a thing, LivingSocial?
 
@@ -392,7 +392,7 @@ And then we built other software. One of the things we launched a year and a hal
 
 What I really liked about it in the DNS side is that it has a particular syntax for basically converting binary data into internal data structures. They call it the -- I think it's the bit string syntax. And it's just so elegant. Like, you can literally write out a packet and have it deconstructed into variables just right there in one line. And I always thought that was such a beautiful -- including like the number of bits that's gonna come out in this particular section. I just always thought that's such an elegant and beautiful way to handle packets when you're dealing at the network level. And it makes a lot of sense. I mean, Erlang was created for telecom. It was created for telecom switches, so they needed to be able to pack and unpack things pretty quickly.
 
-**Jerod Santo:** \[00:44:17.19\] Have you looked into Elixir?
+**Jerod Santo:** \[44:17\] Have you looked into Elixir?
 
 **Anthony Eden:** I have now. We actually -- so I did a port of our Erlang name server from Erlang to Elixir, just for fun... And we had no intention of -- we weren't sure if we were gonna use it, but I wanted to see if it could be done. So I did a port of that and then made that open source as well. I've written a few little web doohickeys, nothing that ever saw the light of day in production in Elixir as well. We had some other team members who were big fans of it.
 
@@ -422,7 +422,7 @@ A lot of people really like it.
 
 And I do often really feel the pain when I go in. I'm like "Oh man this, it's boring to me now", because I've written so much of it. I guess the way I got around that though was just stopping to write code for a while. And then every time I write code, I'm like "Oh, this is so fun", until I get about five minutes in and it actually becomes hard. I'm like "Oh, this is hard." \[laughs\]
 
-**Jerod Santo:** \[00:47:55.12\] Yeah, I used to sit in code for six to eight hours a day, and now when I screen together a couple of hours, I'm exhausted. I'm like "Man, how do these kids do it nowadays?" Of course, the correct answer, Adam, is you don't choose. You just vibe-code now. You don't even have to choose.
+**Jerod Santo:** \[47:55\] Yeah, I used to sit in code for six to eight hours a day, and now when I screen together a couple of hours, I'm exhausted. I'm like "Man, how do these kids do it nowadays?" Of course, the correct answer, Adam, is you don't choose. You just vibe-code now. You don't even have to choose.
 
 **Adam Stacoviak:** That's right. I forgot.
 
@@ -484,7 +484,7 @@ And throughout my career, I've changed the way I think code should look, the way
 
 **Adam Stacoviak:** Well, so I think - Anthony, to peel back one layer, Jerod will have to live in a world soon where he manages a Phoenix application, which is Elixir, and then a Rails application, which is Ruby. And so that's obviously going to be different worlds, but similar worlds, where you have objects and you've got functions...
 
-**Jerod Santo:** \[00:52:11.16\] Oh, yeah. Yup.
+**Jerod Santo:** \[52:11\] Oh, yeah. Yup.
 
 **Adam Stacoviak:** And I suppose you have to be left brain and right brain to do that, because that's what's required.
 
@@ -506,7 +506,7 @@ And throughout my career, I've changed the way I think code should look, the way
 
 **Anthony Eden:** So that's good, from my point of view at least. It doesn't mean that I don't pay attention anytime that there's an incident. And we have very well-documented incident handling policies. We have one person from the engineering team, and it rotates around the whole engineering team, that's always on call. And then that person, if an incident starts occurring, they can basically -- we have instructions. We have an incident channel in Slack, fire up a Google Meet, get whoever's online right now, triage the incident. If you can't triage it, then let it ping up everybody, and all engineers who are available or who are woken up can come in and try to fix it.
 
-\[00:55:59.09\] We recently switched everything for deployment over to Nomad, which is HashiCorp's technology for deploying containers out, essentially, in a well-orchestrated fashion. We also finally bit the bullet last year and the year before and started containerizing everything, so now we have pretty much everything containerized as well.
+\[55:59\] We recently switched everything for deployment over to Nomad, which is HashiCorp's technology for deploying containers out, essentially, in a well-orchestrated fashion. We also finally bit the bullet last year and the year before and started containerizing everything, so now we have pretty much everything containerized as well.
 
 We deploy using ChatOps. So you can do all that type of stuff directly from within Slack. You can query our -- we have tools, for example, to determine if particular domains are being hit harder, or what have you, get stats on things... And you can do that from ChatOps as well.
 
