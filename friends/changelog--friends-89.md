@@ -146,7 +146,7 @@
 
 **Jerod Santo:** Not there. Yeah, Llama 4 was disappointing to folks. I didn't even try it, because I saw -- it was like, they dropped it on a Sunday or something, and it's "By the way, Llama 4. Go play with it." He's trying to be kind of cool. Zuck, always trying to be cooler than he is... And then the initial benchmarks - I think even the ones they published - were very impressive. And then people actually tried it, and it's "No, it's not better", or not as good as Gemini, or whatever the... Although I've found Gemini currently - this is Google's latest - to be disappointing. But I'm also disappointing, so you know... Who am I to judge...? \[laughter\]
 
-**Nick Nisi:** \[00:08:20.08\] I have not used Gemini even once. But I did download the app -- I just haven't signed into it. I downloaded the app on my phone. But I was interested in it because I heard their context window was way bigger. But I haven't tried it, because I can't figure out, am I using 2.5 Pro, or whatever they call it?
+**Nick Nisi:** \[08:20\] I have not used Gemini even once. But I did download the app -- I just haven't signed into it. I downloaded the app on my phone. But I was interested in it because I heard their context window was way bigger. But I haven't tried it, because I can't figure out, am I using 2.5 Pro, or whatever they call it?
 
 **Jerod Santo:** Right.
 
@@ -218,7 +218,7 @@
 
 **Nick Nisi:** Raycast is indispensable at this point. I love it.
 
-**Adam Stacoviak:** \[00:11:59.20\] I can't live without Raycast either. Okay, this is not a paid ad... Raycast for life, okay? Raycast for life.
+**Adam Stacoviak:** \[11:59\] I can't live without Raycast either. Okay, this is not a paid ad... Raycast for life, okay? Raycast for life.
 
 **Nick Nisi:** For sure.
 
@@ -332,7 +332,7 @@
 
 **Nick Nisi:** I get some benefit out of it, and it's real good... And I am not a person -- I would not say that I'm a day to day vibe-coder. Like, for one off things a digest script - yeah.
 
-**Jerod Santo:** \[00:16:14.12\] Now, are you just using the term vibe-code because it's fun? Or are you really referring to the practice of vibe-coding, in which you don't even look at the source code that's been produced?
+**Jerod Santo:** \[16:14\] Now, are you just using the term vibe-code because it's fun? Or are you really referring to the practice of vibe-coding, in which you don't even look at the source code that's been produced?
 
 **Nick Nisi:** That is what I'm saying. Yeah.
 
@@ -368,7 +368,7 @@
 
 **Jerod Santo:** \[laughs\] Yeah, exactly. It'll play along with all your stupid games, like I used to, on JS Party. Oh, funny...
 
-**Break**: \[00:18:45.03\]
+**Break**: \[18:45\]
 
 **Jerod Santo:** So how do you know? Do these various -- does Claude and ChatGPT - do they know about each other? Do you keep them completely separated? Is there any sort of weird, awkward relationship vibes going on? How do you know which one to turn to, and when?
 
@@ -426,7 +426,7 @@
 
 But then, you're managing those contexts, and that's where Raycast AI comes in for me. Because Raycast is -- I have it set to Option+Space, and that pops up in a little window, and that is reserved for the queries that are one-offs. Like, I'm having a conversation over here with Claude about this, I don't know, feature of Next.js. I'm talking to it about Next cookies. And I want to go deeper on Next cookies, but I don't want to screw up its context. So up pops a Raycast, and I have a discussion over there about Next cookies, and then I go back.
 
-**Jerod Santo:** \[00:26:25.23\] And what are they using? They're using Claude also, but it's a different session?
+**Jerod Santo:** \[26:25\] And what are they using? They're using Claude also, but it's a different session?
 
 **Nick Nisi:** They'll use whatever you want. But yes, I use Claude 3.7 mostly in there.
 
@@ -470,7 +470,7 @@ Once I have it generating code for me, I'm just -- I think maybe I'm just too co
 
 **Jerod Santo:** That feature inside of ChatGPT has been a little bit of an eye-opener for me, of like "We don't got long, man. We don't have very long." Because that was a huge improvement all of a sudden in the image generation land, where it's like "Why would I hire anybody almost ever? Almost ever, at this point. Whereas last year I was like "Yeah, this is not going to actually produce anything I can use." It's great for ideas and stuff, but then you've have to go hire someone to actually produce the final logo or whatever. And I just feel like that ship is sailing very quickly, and I don't see any reason why... Except for maybe just the intricacies of the software development platform, and all the different things that can go wrong, maybe, might just give us a longer hedge... And the subjectivity of creative work, versus the objectivity of "Does it work? Does it work?", that kind of thing. But I don't think we have too much longer left. Do you think, Nick?
 
-**Nick Nisi:** \[00:30:35.29\] I go back and forth, for sure.
+**Nick Nisi:** \[30:35\] I go back and forth, for sure.
 
 **Jerod Santo:** Yeah.
 
@@ -514,7 +514,7 @@ Once I have it generating code for me, I'm just -- I think maybe I'm just too co
 
 **Adam Stacoviak:** It was like a small bounce back. I was like "Whoa, hang on a second... Corona beer and coronavirus. Different things, okay?"
 
-**Jerod Santo:** \[00:33:50.13\] Right. If you don't want to get it, don't drink Corona. That would have been really bad for their branding, for like only three months or so, and then we moved on, called it all sorts of things...
+**Jerod Santo:** \[33:50\] Right. If you don't want to get it, don't drink Corona. That would have been really bad for their branding, for like only three months or so, and then we moved on, called it all sorts of things...
 
 **Adam Stacoviak:** I'm not sure if that says something good about humanity. Like, are we just that stupid?
 
@@ -636,7 +636,7 @@ Once I have it generating code for me, I'm just -- I think maybe I'm just too co
 
 **Adam Stacoviak:** Oh, gosh... You have this thing?
 
-**Nick Nisi:** \[00:38:07.17\] I do.
+**Nick Nisi:** \[38:07\] I do.
 
 **Jerod Santo:** What is that thing?
 
@@ -764,7 +764,7 @@ Once I have it generating code for me, I'm just -- I think maybe I'm just too co
 
 **Adam Stacoviak:** Gosh, Nick...
 
-**Jerod Santo:** \[00:41:56.13\] Oh, that's cool. I didn't have one of those. I did have a Game Genie, though. Did you guys have a Game Genie?
+**Jerod Santo:** \[41:56\] Oh, that's cool. I didn't have one of those. I did have a Game Genie, though. Did you guys have a Game Genie?
 
 **Nick Nisi:** No...
 
@@ -784,7 +784,7 @@ Once I have it generating code for me, I'm just -- I think maybe I'm just too co
 
 **Jerod Santo:** So Game Genie was cool. I don't know how it worked, or why it was a thing, or if the game companies were happy about it... I'm sure there's probably a YouTube history of Game Genie out there I should go watch. But it was a cool device.
 
-**Break**: \[00:43:07.05\]
+**Break**: \[43:07\]
 
 **Jerod Santo:** But this BUSY Bar does some cool stuff. So for instance, it's smart home-integrated. So anything that works with Apple, HomeKit or Google, whatever the competitor is called, you can connect everything up. And so this thing, this one button could -- like, you're busy, you're recording... Bam. Your whole house could respond. Pause the music that's playing out of your home device... What are they called? Your Alexa?
 
@@ -792,7 +792,7 @@ Once I have it generating code for me, I'm just -- I think maybe I'm just too co
 
 **Jerod Santo:** Yeah, HomePod. Thank you. Turn off all the lights in case it's one of those kind of shows... Lock the door, perhaps... Close the garage doors... Start your laundry... I don't know what else you want to do when the show goes on, but... Connect it all. Connect it all.
 
-**Nick Nisi:** \[00:46:11.25\] That's cool. I would really that if I had that button and I'd push it, and then in this ominous voice throughout my house, it just goes "Dad is busy...!" And it just plays that on repeat, over and over again.
+**Nick Nisi:** \[46:11\] That's cool. I would really that if I had that button and I'd push it, and then in this ominous voice throughout my house, it just goes "Dad is busy...!" And it just plays that on repeat, over and over again.
 
 **Jerod Santo:** Yes. Like an announcement. And it just plays it nonstop until you touch it again.
 
@@ -838,7 +838,7 @@ But a lot of people were confused about that announcement, apparently. They thou
 
 **Jerod Santo:** Yeah, well... And Edge -- that's the other thing with the C\#, is "Well, couldn't you just more easily work it into--" No, that wasn't the C\#. It was actually the Rust people saying, "If it was written in Rust instead, you could more easily get it into Chromium and Firefox than in Go." And then you could start to do what your ultimate goal is (isn't it, Nick?) is just to have TypeScript become the runtime of browsers...?
 
-**Nick Nisi:** \[00:50:04.08\] Yeah, I think we're getting there, potentially. I see signs of that with... There's obviously the types as comments thing, and that's what I'm talking about.
+**Nick Nisi:** \[50:04\] Yeah, I think we're getting there, potentially. I see signs of that with... There's obviously the types as comments thing, and that's what I'm talking about.
 
 **Jerod Santo:** Yeah, type annotations.
 
@@ -896,7 +896,7 @@ But a lot of people were confused about that announcement, apparently. They thou
 
 **Nick Nisi:** Yeah... There used to be. I think years ago, before 2018, 2017, somewhere around there, I interviewed someone from, I think, GitKraken. I think they were using Flow. But they eventually switched to TypeScript, too. But that was the only other company that I ever knew of that actually used Flow.
 
-**Jerod Santo:** \[00:53:59.08\] It's weird how somebody with the clout of Facebook engineering - which is what it used to be called back when these things came out - was so influential that they were able to get React highly adopted, and GraphQL highly adopted... Not quite as successfully, but still. But Flow just didn't quite catch on. Do you ever wonder why certain things do and other things don't?
+**Jerod Santo:** \[53:59\] It's weird how somebody with the clout of Facebook engineering - which is what it used to be called back when these things came out - was so influential that they were able to get React highly adopted, and GraphQL highly adopted... Not quite as successfully, but still. But Flow just didn't quite catch on. Do you ever wonder why certain things do and other things don't?
 
 **Nick Nisi:** I do wonder. I don't know why, but I wonder if that was just a fluke that React did catch on in the way that it did.
 
@@ -922,7 +922,7 @@ But a lot of people were confused about that announcement, apparently. They thou
 
 **Jerod Santo:** Mm-hm. Yeah, that whole messaging is just kind of a ball of wax that was very unattractive to me as a guy who's in the industry, but not in the daily mucky muck of the React ecosystem. I'm like "This just doesn't seem attractive, whatever's going on here." And I think a lot of people feel that way. It doesn't mean they're not using React... And React was a game-changer, and so I'm not here to poo-poo on it like I am TypeScript, by any means. And it's still a great choice, I think, as a standalone library... And I think that you can get React features in smaller ways, or different ways... But I think the RFC stuff has made it just too complicated, and the Next.js relationships made the whole thing muddy. Because now you're getting in bed not just with Meta, which already doesn't feel amazing, but now you're also in bed with Vercel... And I don't have anything personally against Vercel or anything like that, but some people do... \[laughs\] Some people are like "I don't know about this..."
 
-**Nick Nisi:** \[00:58:23.13\] Yeah. My recommendation, if anybody asks, which nobody ever does, but my recommendation is to go with Astro, until you're absolutely positive that Astro can't solve your problems.
+**Nick Nisi:** \[58:23\] Yeah. My recommendation, if anybody asks, which nobody ever does, but my recommendation is to go with Astro, until you're absolutely positive that Astro can't solve your problems.
 
 **Jerod Santo:** Okay. Why do you recommend that?
 
