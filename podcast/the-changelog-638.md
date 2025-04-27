@@ -46,7 +46,7 @@
 
 **Kendall Miller:** I mean, I could literally -- one of the companies that I'm working with right now, the founder built Nomad. And Nomad over Kubernetes - every company I've ever spoken to that used Nomad and used Kubernetes said Nomad is by far the better product. Like, night and day the better product. And I used to run a Kubernetes consulting shop, and helped, I think, the largest user of Nomad migrate to Kubernetes. And the reason they moved, they said "Nomad's better in every way. We hate that we have to do this. But when we get online and we google for "Has anybody ever run into XYZ edge case?", there's nobody out there who's ever seen it before. And we're the biggest company, running it at the biggest scale, and we're sick of that. We just want to go someplace that everybody knows."
 
-\[00:08:12.18\] And it's kind of the same reason everybody still uses WordPress. It's not that it's the best CMS, it's just that it has incredible market share. If you Google any problem, you're going to find a plugin that somebody has already written, that already solves your problem, because it's been around for forever and it's been wildly successful.
+\[08:12\] And it's kind of the same reason everybody still uses WordPress. It's not that it's the best CMS, it's just that it has incredible market share. If you Google any problem, you're going to find a plugin that somebody has already written, that already solves your problem, because it's been around for forever and it's been wildly successful.
 
 So yeah, it's not just positioning though. You can have fantastic positioning. It doesn't mean you're talking to the right people, it doesn't mean you're pavement pounding... And a lot of founders are like, they'll build something, they'll put it out there, and they wait. "Oh, nobody found it. Well, I could do some advertising, write a few more blog posts... Or I bet if I built this other feature, then they're gonna love it." I mean, it's just so much easier to build. And I know this; I run a couple of companies myself, and I would always rather just keep building, because it's more fun than go sell. It's hard to sell, especially early on, because you're like "Hey, I know you've never heard of us and we have no credibility, and you don't know anyone that can vouch for us, and also, our product's really good. We swear." Right? So... It's hard.
 
@@ -62,7 +62,7 @@ What makes a salesperson a salesperson is they've knocked on every door in the n
 
 So what do I do? Well, so you asked a couple of questions there. First of all, general advice - sell, sell, sell, sell, sell. Sell it before you build it. Also, build something much, much smaller than you think. Because a lot of companies go build a product this big. Huge. And then they find out after talking to everybody that the product should go this way, and 10% of it is relevant. And it's really hard to pivot when you've boiled the ocean already.
 
-\[00:11:50.15\] If you build a product, that really should be a feature, and you could build in a weekend, then when you go out and talk to the market and find out "Oh, actually, the interest is over in this direction" or "I need to build it that direction", it's not that stressful to pivot, it's not that hard. You can listen to the advice from customers and actually build a thing that they want.
+\[11:50\] If you build a product, that really should be a feature, and you could build in a weekend, then when you go out and talk to the market and find out "Oh, actually, the interest is over in this direction" or "I need to build it that direction", it's not that stressful to pivot, it's not that hard. You can listen to the advice from customers and actually build a thing that they want.
 
 My favorite companies are the companies that when I talk to technical people, they're like "Why does that even exist? I can build that in a weekend." Sure. You could build that in a weekend. You'd build it poorly, it would be not feature rich, and you wouldn't be able to sell it, because you have no design sense and you don't know who to talk to. Right? But if you build it in a weekend and then you add on, you can add on in the right direction without being stressed about it because you already boiled the ocean.
 
@@ -82,7 +82,7 @@ So either you can sell it for $500 a month, or $1,000 a month, or $10,000 a mont
 
 So when you're going to go compete with the world or build something new and interesting in the world -- I mean, there's a reason they call it an MVP. Viable is not "The smallest I'm capable of building" in minimum viable product. Viable is the smallest thing that I can get somebody to buy, is really how you should think about that. And buy at a reasonable price. But if somebody says "Hey, I really need XYZ problem solved", you say "Well, what's the first bit of that problem that I could solve for you today, and you'd sign on a dotted line because it would be valuable enough to move? And can I go build that in a weekend?" And a weekend is a little handwavy. Maybe it takes you a week. But if it takes you nine months, the chances are more likely than not you built the wrong thing.
 
-**Jerod Santo:** \[00:16:02.29\] Mm-hm. It seems to me obvious that there are unicorns out there, but most technical people do better if they're paired with somebody salesy, designy, extroverted, perhaps... Someone like yourself. Like, perhaps you and I could team up and build a good business, because I have builder chops and you have sales chops, and we jive etc. That combination is really hard to find. It might be easier to find a spouse at this point.
+**Jerod Santo:** \[16:02\] Mm-hm. It seems to me obvious that there are unicorns out there, but most technical people do better if they're paired with somebody salesy, designy, extroverted, perhaps... Someone like yourself. Like, perhaps you and I could team up and build a good business, because I have builder chops and you have sales chops, and we jive etc. That combination is really hard to find. It might be easier to find a spouse at this point.
 
 **Kendall Miller:** \[laughs\]
 
@@ -126,7 +126,7 @@ So when you're going to go compete with the world or build something new and int
 
 **Kendall Miller:** Yeah. He offered me more money than anybody else offered, and I took the job...
 
-**Jerod Santo:** \[00:20:07.06\] There you go.
+**Jerod Santo:** \[20:07\] There you go.
 
 **Kendall Miller:** Because nobody knew what to do with me. They're looking at my background in China going "What the heck is this?" So I did sales for them, we succeeded at sales, I hired a sales team, I hired a marketing team, I took over operations... I actually ended up taking over engineering when the CTO made an engineer cry... And then eventually took over the company and we sold the company. So it's that experience where I did literally everything at the company over the course of about eight years. That put me in a position where I could go out -- then I started meeting with other technical founders, I ended up on the board of another company in Denver, that has grown, been successful, had a big exit to PE about a year and a half ago... Ended up just advising a number of different places. And I say advising, it sounds like they're paying me in equity or cash money, and most of the time it was just me helping somebody out. "Hey, I've been there before. Let's talk about this." "Hey, I've got somebody to refer your way." "Hey, talk to this person, talk to that person."
 
@@ -146,7 +146,7 @@ So because I've referred a person over here, that director of engineering now ow
 
 Actually -- I mean, a good friend of mine in San Francisco, who got fired from a very big company... I don't actually think he got fired. I think he left. I don't know. I don't know what happened. Very large company. And he's one of these guys that's too big of a big cheese. Like VP at very large organization. And nobody in my network is the CEO of Microsoft, right? Like, I know a lot of people, but I don't know those people. So I only know one very large cloud company's execs, and I wrote to them and said "Hey, this person came available on the market. He's more expensive than almost any network that I know, so you're the only place I can refer them to." Well, they just hired him, I found out yesterday.
 
-\[00:24:08.04\] So now there's a C-level executive at one of the largest cloud companies in the world that doesn't -- I'm not saying owes me one, but will definitely pick up the phone when I call. And so those kinds of things just add up, and so what ends up happening is somebody pings me, has a question about "Hey, I'm building XYZ. Here's why it works. Here's why it doesn't. Can I get some feedback?" I look at it... 70% to 80% of the time I just s\*\*t all over their ideas. Sorry, I'm not supposed to curse here, because you're going to bleep them out. I say bad things all about -- you know, I shut them down. I tell them it's a terrible product.
+\[24:08\] So now there's a C-level executive at one of the largest cloud companies in the world that doesn't -- I'm not saying owes me one, but will definitely pick up the phone when I call. And so those kinds of things just add up, and so what ends up happening is somebody pings me, has a question about "Hey, I'm building XYZ. Here's why it works. Here's why it doesn't. Can I get some feedback?" I look at it... 70% to 80% of the time I just s\*\*t all over their ideas. Sorry, I'm not supposed to curse here, because you're going to bleep them out. I say bad things all about -- you know, I shut them down. I tell them it's a terrible product.
 
 **Jerod Santo:** \[unintelligible 00:24:41.01\] Be yourself.
 
@@ -188,7 +188,7 @@ But even then -- I mean, honestly, a huge percentage of what these guys are doin
 
 So what do I want to do? I mean, that's the messiest part. That's the hardest part for me every time, Jerod, is because what excites me is just solving business problems. I like getting in, finding out that there's things that are a mess, and just going and helping solve it. To give you an example, in the last two days I've written job descriptions, I've come up with prospecting lists, I've interviewed people for marketing roles, for operating roles, for sales roles... I'm interviewing for a CEO right now...
 
-\[00:28:10.17\] I touch every single part of the business, because I'm comfortable in almost all of it. I'm not going to go review a PR. That's the one spot that I'm probably not going to be useful... Although at a previous company that I was running I would about every year go issue a PR, just to scare all the engineers... You know, there's always something small, like a typo or something in documentation...
+\[28:10\] I touch every single part of the business, because I'm comfortable in almost all of it. I'm not going to go review a PR. That's the one spot that I'm probably not going to be useful... Although at a previous company that I was running I would about every year go issue a PR, just to scare all the engineers... You know, there's always something small, like a typo or something in documentation...
 
 **Jerod Santo:** So you have your spirits company, but I'm thinking why not apply your talents at something that you're building for yourself, or with somebody, versus helping other people? One of the things you do is building this spirits company?
 
@@ -202,7 +202,7 @@ So what do I want to do? I mean, that's the messiest part. That's the hardest pa
 
 **Kendall Miller:** I stick my fingers in a lot of pies, yes.
 
-**Break**: \[00:30:52.13\]
+**Break**: \[30:52\]
 
 **Jerod Santo:** So why the spirits pie, and...?
 
@@ -244,7 +244,7 @@ So what do I want to do? I mean, that's the messiest part. That's the hardest pa
 
 **Kendall Miller:** The whiskey is $125, and the gin is $95. So it's not cheap. It is a luxury item.
 
-**Jerod Santo:** \[00:36:10.15\] That is expensive.
+**Jerod Santo:** \[36:10\] That is expensive.
 
 **Kendall Miller:** It is a very, very good item. So let me be clear about a couple of things. One, I would have totally done this exact same thing with a terrible distillery, and a terrible end product, because I think the marketing has legs. We have a fantastic product, that I can't believe how good the product is. I actually think the gin is the best gin I've ever had, and I am a gin snob. And I don't feel like I can say that about my own gin, but it is so very good. And I can say it because I didn't make it. I had some input into the recipe, but that's all. And the whiskey is also very, very good. So it is a luxury product, and it costs a lot of money, and I'm selling it to a group of people who have a lot of disposable income, like to make jokes like this... My thought is not that Jerod will become a daily drinker of Generative A Rye; my thought is "Sometime in the next year Jerod is going to want to give a gift to somebody he knows in tech, and he's going to ship a bottle of Generative A Rye." Or director of engineering at XYZ company is going to buy his team all a bottle of whiskey for Christmas, and they're going to buy Generative A Rye. My goal is that.
 
@@ -300,7 +300,7 @@ I don't think anybody's going to buy a $95 bottle of gin, even though it's a ver
 
 **Jerod Santo:** Hm. That was a good year.
 
-**Kendall Miller:** \[00:40:07.22\] It was good year... And how much have you got to spend on this, Jerod? Are you hoping to spend $5 on a bottle of whiskey, are you hoping to spend a hundred dollars on a bottle of whiskey, or do you have $5,000 to spend on a bottle of whiskey? And there's something about that last number being so big it's outrageous, that almost everyone, almost every time, will go "Well, it's not $5,000. I was thinking more like 50." Okay, great. Now I've got a ballpark for what was in your head. So this method - you name a number, you name a number twice as big, 10 times as big... That last number has to be so outrageous that it makes them get mad. And then they'll almost always come back with what was in their head.
+**Kendall Miller:** \[40:07\] It was good year... And how much have you got to spend on this, Jerod? Are you hoping to spend $5 on a bottle of whiskey, are you hoping to spend a hundred dollars on a bottle of whiskey, or do you have $5,000 to spend on a bottle of whiskey? And there's something about that last number being so big it's outrageous, that almost everyone, almost every time, will go "Well, it's not $5,000. I was thinking more like 50." Okay, great. Now I've got a ballpark for what was in your head. So this method - you name a number, you name a number twice as big, 10 times as big... That last number has to be so outrageous that it makes them get mad. And then they'll almost always come back with what was in their head.
 
 **Jerod Santo:** Interesting.
 
@@ -330,7 +330,7 @@ I don't think anybody's going to buy a $95 bottle of gin, even though it's a ver
 
 **Kendall Miller:** So yeah, I'm currently working with this company Civo, which is interesting because Civo is a cloud company... I mean, think an AWS or at Google; they're Kubernetes-first. What makes them different is a couple of things. One, it's UK-based, which right now happens to be really good for business, for \#IDontKnow reasons... But the thing that's also interesting is they will ship you the whole software stack. So it'd be like if you used AWS for a few weeks and you're like "Hey guys, this is great. Can we have it?" And then AWS just shipped you AWS. So Civo will do that. You can buy the software stack.
 
-\[00:44:20.05\] They'll also ship you a hardware appliance where you can throw it in a rack. So what's interesting to me about that is the 10 years that I was in China, I basically missed the data center world... Because you know, in 2004, at that startup I mentioned, that built Twitter a little too early, we had some server rooms in the back that we would shut down a machine at a time and install the newest version, and then shut down the next one, and install the newer version... Or we'd put up a website that said "Down for scheduled maintenance." Remember those?
+\[44:20\] They'll also ship you a hardware appliance where you can throw it in a rack. So what's interesting to me about that is the 10 years that I was in China, I basically missed the data center world... Because you know, in 2004, at that startup I mentioned, that built Twitter a little too early, we had some server rooms in the back that we would shut down a machine at a time and install the newest version, and then shut down the next one, and install the newer version... Or we'd put up a website that said "Down for scheduled maintenance." Remember those?
 
 **Jerod Santo:** Mm-hm.
 
@@ -350,7 +350,7 @@ So that's the fun thing about infrastructure, is you're solving the problems tha
 
 And KubeCon in like 2015, 2016, 2017, whatever... 2015 might've been too early. Maybe I started in 2016. But early on, it was a whole bunch of nerds sitting around in a room feeling like we're changing the internet, and this is fun. Right? And I feel like that's the only place that that's also happening, is in AI. And AI is -- you know, inference servers, the way that we train them, the way that we run them, the way that we audit them, the way security looks in AI... It's a new kind of workload, that requires a different kind of interaction. It's not that different; it's just a workload at the end of the day, and you box it up in some kind of wrapper at the end of the day... But there's interesting problems, because the things that go in it don't come out in the same way. And the things that come out don't come from the same places. So auditing that, lifecycling that etc. is new, it's interesting, and the people who are working hard to solve those problems I think are having a lot of fun.
 
-**Jerod Santo:** \[00:48:17.11\] Yeah. It's definitely different enough that I think there's -- you know, there's an MLOps community, which is basically was DevOps, or whatever you want to call it, prior... Like, whatever operations looked like.
+**Jerod Santo:** \[48:17\] Yeah. It's definitely different enough that I think there's -- you know, there's an MLOps community, which is basically was DevOps, or whatever you want to call it, prior... Like, whatever operations looked like.
 
 **Kendall Miller:** Well, which was platform engineering prior, which was Linux sysadmin before, which was...
 
@@ -380,7 +380,7 @@ So there's a company, an old coworker of mine's, one of the early engineers, tha
 
 The next thing is when you're talking about even just self-hosting a model without a product like SurePath - and this is not an endorsement for SurePath. The guy that works there is a good friend of mine, I think very highly of him, and I hope they're making a kick-ass product. I've never used it, so I don't know, and I can't vouch for it. But the folks that are building something internal have to look at it, and how do you audit what the model's been trained on? How do you audit what the model's learned? How do you audit who's had access to that model? How do you audit if a malicious actor got in and started asking questions to that model? It's not that different from just looking at audit logs of a traditional server of any kind... But there ends up being some unique challenges there, and especially when you lifecycle those servers, those inference servers, and you have a new model on it, or you put in some new training data. "Who had access to the new training data? When did that training data go in? Now what did they have access to?" The problems actually get pretty interesting. And the rabbit hole goes deeper and deeper and deeper and deeper and deeper.
 
-**Jerod Santo:** \[00:52:39.03\] It seems like they snowball, and kind of fractal off even, to now you're multiplying problems against each other.
+**Jerod Santo:** \[52:39\] It seems like they snowball, and kind of fractal off even, to now you're multiplying problems against each other.
 
 **Kendall Miller:** Well, and when you're using AI to detect what you shouldn't be doing, or you should -- and that's the other thing that AI is really good at, is AI can watch you type a name in and go "Oh, that's a name." "Oh, you shouldn't' be saying that", so where does that model live? Who's hosting that one? Who's auditing that one? Yeah. I mean, it's --
 
@@ -408,7 +408,7 @@ The next thing is when you're talking about even just self-hosting a model witho
 
 **Kendall Miller:** \[laughs\] Well, what's interesting is -- so for internal things, I actually feel like ChatGPT has just recently... And I mostly use ChatGPT. I dabbled with Claude and a couple of the other things... At Civo, I use Civo's models, which are Llamas that we're hosting. But ChatGPT just in the last few months feels like it's crossed over from "Hey, I need an outline on XYZ problem. What should I think about that I haven't maybe thought about?" And it would give me one or two decent ideas, and the rest of it would kind of be fluff. And now it's so good at it that I'm regularly thinking "I'd be stupid not to use this." And so a lot of times I'll type up a few things, "Hey, here's the 10 things I'm thinking about as it relates to this problem. What am I missing?" And it will structure a few of the things that I put together into the same category and then give me new categories.. I have it set up to be extremely, obscenely brief, which is funny, because I'm being obscenely verbose on this podcast... But in life I value brevity a lot. And I have it set up to always prompt me with "Here's what you didn't ask, that you probably should have asked." So at the end of every single response, it says "You should ask this."
 
-**Jerod Santo:** \[00:56:30.17\] Okay...
+**Jerod Santo:** \[56:30\] Okay...
 
 **Kendall Miller:** And it surprises me how often it catches things that I didn't think. So to give you a concrete example - and the short answer is I'm using it all the time.
 
@@ -454,7 +454,7 @@ The next thing is when you're talking about even just self-hosting a model witho
 
 **Jerod Santo:** Okay. Take a moment and review... Maybe give me your bottom half. Don't give me any of the real good ones. Give me what ChatGPT would spit out.
 
-**Kendall Miller:** \[00:59:54.28\] I don't know if I can even pull it up real quick... Let's see.
+**Kendall Miller:** \[59:54\] I don't know if I can even pull it up real quick... Let's see.
 
 **Jerod Santo:** Because that's what I've found specifically with creative work, is that ChatGPT is so mid on everything that's supposed to be funny, or ironic, or tongue in cheek... It's like, no, dude... Like, the cheeseball factor is at 10, and they can't quite do anything funny. But boring prose is fine.
 
