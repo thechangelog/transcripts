@@ -46,7 +46,7 @@ To illustrate this point, Pete picks apart Gmail's AI assistant app and explains
 
 Well, this sounds incredibly cool:
 
-> Hyperwood is an open-source system for crafting furniture from simple wooden slats... Hyperwood empowers anyone — DIY enthusiasts, designers, interior architects, and small manufacturers — to build beautiful, robust furniture using minimal tools and locally sourced materials.
+> Hyperwood is an open source system for crafting furniture from simple wooden slats... Hyperwood empowers anyone — DIY enthusiasts, designers, interior architects, and small manufacturers — to build beautiful, robust furniture using minimal tools and locally sourced materials.
 
 The concept is intended for everyone, but the state of the project right now makes it more suitable for hackers like us. All you need to get started is a terminal, a chop saw, and some wood slats. There are two published designs so far: a bench and a trough. The trough 👇
 
