@@ -180,7 +180,7 @@
 
 **Adam Stacoviak:** Oh, my gosh... The sausage bit. The sausage bit. Well, if you're not tracking, you should go back in time and listen to past shows... We can't catch up, I'm sorry.
 
-**Jerod Santo:** \[00:08:18.12\] Yeah, that's just a callback that's just too deep in the stack...
+**Jerod Santo:** \[08:18\] Yeah, that's just a callback that's just too deep in the stack...
 
 **Adam Stacoviak:** It is a deep cut.
 
@@ -256,7 +256,7 @@
 
 **Jerod Santo:** Oh, yes. I'm sorry. That was a proper sidetracking. We sidetracked you... Back to Mat World. This is a world in which you decide, or -- what do you decide, Mat? What happens...
 
-**Mat Ryer:** \[00:12:09.07\] Yeah. So I'm going to take you to Mat World, and it's basically a place that I've just sort of designed. It's my planet. I get to choose what it's like there. There's going to be interesting places, there's going to be some interesting food and drink to explore... And then maybe a new gadget, a new rule for society... And then something that you would just -- you'd just like to be a little bit different. Maybe it's like this world, but you would like it to be slightly tweaked. What would you do?
+**Mat Ryer:** \[12:09\] Yeah. So I'm going to take you to Mat World, and it's basically a place that I've just sort of designed. It's my planet. I get to choose what it's like there. There's going to be interesting places, there's going to be some interesting food and drink to explore... And then maybe a new gadget, a new rule for society... And then something that you would just -- you'd just like to be a little bit different. Maybe it's like this world, but you would like it to be slightly tweaked. What would you do?
 
 **Jerod Santo:** Gotcha.
 
@@ -336,7 +336,7 @@
 
 **Jerod Santo:** Oh, it goes away.
 
-**Mat Ryer:** \[00:16:10.12\] Yeah... You forget it.
+**Mat Ryer:** \[16:10\] Yeah... You forget it.
 
 **Jerod Santo:** Not as cool now. Nowhere near as cool. So you just drink it for your morning like coding session, and you just like know the Stripe API inside out, for instance, if you're drinking Stripe's coffee.
 
@@ -446,7 +446,7 @@
 
 **Mat Ryer:** Well, I'd love to show you -- well, if you want to come into my house and have a sit down, notice that the sofa doesn't have any legs. It's just floating. You're welcome.
 
-**Jerod Santo:** \[00:20:01.14\] \[laughs\]
+**Jerod Santo:** \[20:01\] \[laughs\]
 
 **Mat Ryer:** No, don't be scared. It's perfectly fine. Sit on it. It moves a bit more than normal. But sit down. That's not even it.
 
@@ -554,7 +554,7 @@
 
 **Mat Ryer:** It's like teleporting. It's the closest we'll get. I fell asleep on a flight to the US once. I got on the plane, they messed around, tried to warn me about not to put someone else's mask on...
 
-**Jerod Santo:** \[00:24:05.11\] Yeah, you sort your own mask...
+**Jerod Santo:** \[24:05\] Yeah, you sort your own mask...
 
 **Mat Ryer:** Well, I wasn't even thinking of helping anyone else at all, so I don't know what they're playing at. And they're like "Oh, do you want this tiny little packet of peanuts?" "Yes, please." "Would you like some even smaller pretzels?" I've never seen a pretzel that small. Have you? Anyway, this is just in my head, but this happens. So I get on the plane, I fall asleep, I wake up in America. That's where you all live.
 
@@ -672,7 +672,7 @@ But it proves that you need it, first of all... Because it's easy to just imagin
 
 **Jerod Santo:** Mm-hm... Good.
 
-**Mat Ryer:** \[00:28:11.23\] I know what you're thinking, Jerod; you're thinking laws of physics are probably identical to Earth. Why would they be? This Mat World is different.
+**Mat Ryer:** \[28:11\] I know what you're thinking, Jerod; you're thinking laws of physics are probably identical to Earth. Why would they be? This Mat World is different.
 
 **Jerod Santo:** Okay...
 
@@ -738,7 +738,7 @@ But it proves that you need it, first of all... Because it's easy to just imagin
 
 **Jerod Santo:** You've got some crazy podcasts in Mat World...
 
-**Break**: \[00:30:10.11\]
+**Break**: \[30:10\]
 
 **Jerod Santo:** Alright, Adam, do you want to take us to Adam World?
 
@@ -872,7 +872,7 @@ But it proves that you need it, first of all... Because it's easy to just imagin
 
 **Adam Stacoviak:** Well, that would have never happened, okay? Because based on the new rule, new law, everything is nothing and nowhere, but also kind of everywhere.
 
-**Jerod Santo:** \[00:36:08.01\] I don't know what that means.
+**Jerod Santo:** \[36:08\] I don't know what that means.
 
 **Adam Stacoviak:** Well, everything is nothing, and it's nowhere, because it's just so small. But it's also kind of everywhere, because it's so small it can move so fast. So this problem Mat had with moving his data and all that disk space issue is that it just basically renders disk space obsolete, because it's infinite. It's just -- the thing that something becomes nothing, but also something and everywhere.
 
@@ -944,7 +944,7 @@ But it proves that you need it, first of all... Because it's easy to just imagin
 
 **Adam Stacoviak:** If you want everyone who wants to watch it, you can do so in peace and harmony. Now, there was this cult, this uprising trying to abolish and get rid of and erase Silicon Valley culture and everything that this TV show stands for. And people were trying. They were on eBay, and they were trying to get the TV show.
 
-**Mat Ryer:** \[00:39:51.14\] Trying to buy it?
+**Mat Ryer:** \[39:51\] Trying to buy it?
 
 **Jerod Santo:** Is that where it is?
 
@@ -1056,7 +1056,7 @@ But it proves that you need it, first of all... Because it's easy to just imagin
 
 **Mat Ryer:** Some grandmas are horrible.
 
-**Jerod Santo:** \[00:43:57.21\] Yeah. And you just want to leave them as they are, as they lay, or as they lie. Liars, they are. But for everybody else, there's the disincinerator.
+**Jerod Santo:** \[43:57\] Yeah. And you just want to leave them as they are, as they lay, or as they lie. Liars, they are. But for everybody else, there's the disincinerator.
 
 **Mat Ryer:** This is it, yeah.
 
@@ -1120,7 +1120,7 @@ But it proves that you need it, first of all... Because it's easy to just imagin
 
 **Jerod Santo:** I think we should.
 
-**Mat Ryer:** \[00:48:02.07\] Yeah.
+**Mat Ryer:** \[48:02\] Yeah.
 
 **Jerod Santo:** It's kind of like the Olympics, but higher stakes, and more categories.
 
@@ -1216,7 +1216,7 @@ But it proves that you need it, first of all... Because it's easy to just imagin
 
 **Jerod Santo:** So this is not a creative one, because I think a lot of people would like this... But it really is going to bring people into Jerod World. Because wouldn't it be amazing if the best things, that tasted the best to you, actually were the best for you? Wouldn't that just be epic?
 
-**Mat Ryer:** \[00:52:02.10\] Yeah, it would be epic. I think a lot of people would be happy with that, and I don't want to take anything away from them... But just for me, just only speaking just for me personally, I don't really like cakes, and that... And the stuff I like is good for you stuff. Like, I love avocado. Cucumber? Oh yes, please. Pickled. Hello?
+**Mat Ryer:** \[52:02\] Yeah, it would be epic. I think a lot of people would be happy with that, and I don't want to take anything away from them... But just for me, just only speaking just for me personally, I don't really like cakes, and that... And the stuff I like is good for you stuff. Like, I love avocado. Cucumber? Oh yes, please. Pickled. Hello?
 
 **Jerod Santo:** \[laughs\] Well, you must be pretty healthy then.
 
@@ -1342,7 +1342,7 @@ But it proves that you need it, first of all... Because it's easy to just imagin
 
 **Jerod Santo:** It's good for you. It's not a complicated algorithm. There's no holes in this algorithm. You can't poke a hole in it. Alright, so who's moving where? That's what we've gotta know. Who's moving where? Now, I kind of want this -- I think my world's the best, but I really do want Mat's all the rain at one moment thing. So I'm kind of on the fence there..
 
-**Adam Stacoviak:** \[00:56:18.21\] And you know you want people watching Silicon Valley in peace and harmony, man.
+**Adam Stacoviak:** \[56:18\] And you know you want people watching Silicon Valley in peace and harmony, man.
 
 **Jerod Santo:** \[laughs\] I'm not against that.
 
@@ -1356,7 +1356,7 @@ But it proves that you need it, first of all... Because it's easy to just imagin
 
 **Mat Ryer:** Right, let's do it. Let's go on a trip around this weird solar system.
 
-\[00:57:02.01\]
+\[57:02\]
 
 *Won't you come with me, please... On a big, big journey... We'ree gonna make sure you put your own mask on first, before you help anybody... You can sit on a floating sofa... You can ride a sleepy car... If you want to write docs, though - you're the only one who has to do it... Okay... Because all the rain falls in one go... Everybody wears pointy hats... And all the cars are pointy, and all the buildings are also pointy... Why? Why? Well, it's because because... Because of the rain...!*
 
