@@ -80,7 +80,7 @@
 
 **Zeno Rocha:** Yeah. Well, we had a lot of folks helping us, so I can definitely not take the credit... But I feel like what we really were trying to do is like "Man, there's so many competitors out there. We're not the first email API in the world... So how can we differentiate?" And branding was the thing that we were like "We've got to double down on branding." Otherwise... Yeah. Like, people need to go to the website and they need to see those cover posts and be like "Oh, okay. That's something that SendGrid wouldn't do, Mailgun wouldn't do", and so on.
 
-**Jerod Santo:** \[00:07:58.03\] Right. So the Resend design is really solid. I like it a lot. It's definitely of an era or an ilk. Like, it's very much in the Linear, kind of the -- is it \[unintelligible 00:08:10.08\] I don't know, whatever that toolkit is; I don't know the initials.
+**Jerod Santo:** \[07:58\] Right. So the Resend design is really solid. I like it a lot. It's definitely of an era or an ilk. Like, it's very much in the Linear, kind of the -- is it \[unintelligible 00:08:10.08\] I don't know, whatever that toolkit is; I don't know the initials.
 
 **Zeno Rocha:** Yeah...
 
@@ -98,7 +98,7 @@ So those were decisions that we made that were very intentional... And the cover
 
 **Adam Stacoviak:** It's been my biggest fear for a decade now, that eventually everybody will have to become some version of a media company... I mean, I was even looking at this -- as you know, Jerod, I've recently gotten back into golf. My brother visited, and we toured some golf courses, and it's a connection point for us... I'm trying to improve my game, and I'm just learning that "Wow, TaylorMade, and Ping, and Titleist", and these major brands, they are basically media companies.
 
-\[00:11:48.07\] Now, if you go on YouTube and look at this stuff, you obviously see the PGA Tour stuff, but you see the brand-specific things. Even like this thing called TrackMan - it's a hardware/software product that's used to track your swing, and ball, and speed, and stuff like that... They are a hardware/software manufacturer for the golf industry, and you go to their YouTube, they've got really good content. And the reason why they have really good content is because they're focused on creating media that pulls people in. And I kind of feel like -- it's funny you ask this question, because literally last night I was thinking to myself, there are infinite channels in this world to subscribe to. As I said, just got back into golf, and I'm just discovering this plethora of content.
+\[11:48\] Now, if you go on YouTube and look at this stuff, you obviously see the PGA Tour stuff, but you see the brand-specific things. Even like this thing called TrackMan - it's a hardware/software product that's used to track your swing, and ball, and speed, and stuff like that... They are a hardware/software manufacturer for the golf industry, and you go to their YouTube, they've got really good content. And the reason why they have really good content is because they're focused on creating media that pulls people in. And I kind of feel like -- it's funny you ask this question, because literally last night I was thinking to myself, there are infinite channels in this world to subscribe to. As I said, just got back into golf, and I'm just discovering this plethora of content.
 
 **Jerod Santo:** Yeah. It's a whole new world.
 
@@ -116,7 +116,7 @@ So those were decisions that we made that were very intentional... And the cover
 
 **Jerod Santo:** Right.
 
-**Adam Stacoviak:** \[00:15:54.15\] That's the challenge though, is like how -- not that I'm not honest with the world, but how much of the filter do I want to remove from... Not so much the perfectness or casting this perfect vision of who I am or what I do or what this business does, or somebody else's business does... Like, it's scary to remove that filter, to sort of only post the good stuff and not show the bad stuff. It's a little scary to do the bad stuff, or the challenges. Not so much like "Oh, we're stuck", or sucking, or whatever, but more like "Here's a whoa", not just "Here's a high moment."
+**Adam Stacoviak:** \[15:54\] That's the challenge though, is like how -- not that I'm not honest with the world, but how much of the filter do I want to remove from... Not so much the perfectness or casting this perfect vision of who I am or what I do or what this business does, or somebody else's business does... Like, it's scary to remove that filter, to sort of only post the good stuff and not show the bad stuff. It's a little scary to do the bad stuff, or the challenges. Not so much like "Oh, we're stuck", or sucking, or whatever, but more like "Here's a whoa", not just "Here's a high moment."
 
 **Zeno Rocha:** Yeah. There's a paradox... I forgot the name now, but there's a Wikipedia page on this, where you can transform a bad experience into something that's actually good. And that's the paradox. Like, you go for something super-bad, like an incident, but because you do the postmortem, because you're transparent about the issues that it caused, because you show "Hey, here are the next steps", then that actually creates more trust. So something that was bad, a downtime, becomes a good thing, because of the transparency, because of the accountability and ownership and all that. But when you're in the middle of the fire, it's hard to want to be vulnerable. And there's a line between "Okay, I can only go so far. If I cross this line, then..." Yeah, it's super-tricky, super-difficult.
 
@@ -134,7 +134,7 @@ So those were decisions that we made that were very intentional... And the cover
 
 **Adam Stacoviak:** But they said that. He's like "When life gives you lemons, make lemonade." He's like "No. When life gives you lemons..." And then he goes on.
 
-\[00:17:53.16\]
+\[17:53\]
 
 *"First you roll out a multimedia campaign to convince people lemons are incredibly scarce... Which only works if you stockpile lemons, control the supply. Then a media blitz. Lemons are the only way to say I love you. The must have accessory for engagements or anniversaries. Roses are out. Lemons are in. Billboards that say "She won't have sex with you unless you've got lemons. You cut the beers in on it, limited edition lemon bracelets, yellow diamonds called lemon drops... You get Apple to call their new operating system OS Lemon. Little accent over the O. You charge 40% more for organic lemons, 50% more for conflict-free lemons. You pack the Capitol with lemon lobbyists. You get a Kardashian to suck a lemon wedge in a leaked sex tape... Timothee Chalamet wears lemon shoes at Cannes. You get a hashtag campaign. Something that isn't cool, or tight, or awesome... No, it's lemon. Did you see that movie? Did you go to that concert? It was effin' lemon. Billie Eilish. OMG. Hashtag. Lemon. You get Dr. Oz to recommend four lemons a day and a lemon suppository supplement to get rid of toxins, because there is nothing scarier than toxins. Then you patent the seeds. You write a line of genetic code that makes lemons look just a little more like tits. And you get a gene patent for the tit-lemon DNA sequence. You cross-pollinate... You get those seeds circulating in the wild... And then you sue the farmers for copyright infringement when that genetic code shows up on their land. Sit back, rake in the millions, and then, when you're done, and you've sold your lempire for a few billion dollars, then and only then you make some f\*\*\*ing lemonade."*
 
@@ -144,7 +144,7 @@ So those were decisions that we made that were very intentional... And the cover
 
 **Adam Stacoviak:** Oh, boy...
 
-**Jerod Santo:** \[00:19:56.14\] ...that you're willing to talk about. You've got an incident, you've got a fail, bad decision, bad hire... Don't name names. What have you got? Something vulnerable.
+**Jerod Santo:** \[19:56\] ...that you're willing to talk about. You've got an incident, you've got a fail, bad decision, bad hire... Don't name names. What have you got? Something vulnerable.
 
 **Zeno Rocha:** Man, so many of those. I think the incidents is a good one, because I think we went through some pretty bad stuff. Like, there was one last year -- so it's been more than a year since we had those two incidents, but the timing of them were terrible. So there was one incident where it happened right before our launch week, and then this other incident that happened, after we were announcing something else... And it's so weird, because I remember when the incident was happening -- so one of them was related to data being leaked. So that's like the worst possible type of incident, because it's not just a downtime. It's like, you're actually --
 
@@ -200,7 +200,7 @@ Now, if it actually kills you, then it's not good. Right? Whatever doesn't kill 
 
 **Zeno Rocha:** Oh, yeah. That's so true.
 
-**Break**: \[00:24:07.26\]
+**Break**: \[24:07\]
 
 **Adam Stacoviak:** Who here is addicted to their phone?
 
@@ -252,7 +252,7 @@ Now, if it actually kills you, then it's not good. Right? Whatever doesn't kill 
 
 **Zeno Rocha:** Yeah, I got the flip phones, too. I can totally relate to that feeling of almost like addiction, borderline addiction. I remember last year Twitter was blocked in Brazil. There was like a whole thing between Elon Musk and the government and then they blocked all the internet providers. So then I traveled there, I arrive at the airport, and I have like a few hours in between flights... And I noticed this thing -- like, whenever I was going to do a task, I was like doing something, and then if I had to wait for like three seconds for the thing to finish, then I would go to the browser and be like "Okay, Command+T, tw, Enter." And that was just like a movement I would do. So I would always go to Twitter in between tasks. But because the website was blocked, then I would always get like this page of "No, it's offline. It's offline." To the moment where like I was doing that for like 30 minutes, I'm like "Okay, I just need to get into a VPN, because I have to go there." Like, it's so addicting. It's crazy.
 
-**Jerod Santo:** \[00:29:51.15\] Yeah... I definitely have the pull to refresh thing ingrained deep down in there, where I'll do it without thinking about it sometimes... Because I don't let my mail just come in. I have to go check it, because I don't want to just be pushed. But at the same time, I check it all the time. So it's pretty stupid. But I opened the mail app and I pulled up refresh, and I'll do that just habitually without even thinking about it. And that's when you know something's tightly ingrained.
+**Jerod Santo:** \[29:51\] Yeah... I definitely have the pull to refresh thing ingrained deep down in there, where I'll do it without thinking about it sometimes... Because I don't let my mail just come in. I have to go check it, because I don't want to just be pushed. But at the same time, I check it all the time. So it's pretty stupid. But I opened the mail app and I pulled up refresh, and I'll do that just habitually without even thinking about it. And that's when you know something's tightly ingrained.
 
 **Adam Stacoviak:** Email, man. Email is necessary, as you can probably assume.
 
@@ -338,7 +338,7 @@ Now, if it actually kills you, then it's not good. Right? Whatever doesn't kill 
 
 **Jerod Santo:** Oh, gosh...
 
-**Adam Stacoviak:** \[00:34:14.02\] And just because we create podcast and invite people on our shows doesn't mean we owe you a response.
+**Adam Stacoviak:** \[34:14\] And just because we create podcast and invite people on our shows doesn't mean we owe you a response.
 
 **Jerod Santo:** That's right.
 
@@ -392,7 +392,7 @@ I've seen all sorts of crazy things. People sending emails with typos on purpose
 
 **Jerod Santo:** That's right.
 
-**Adam Stacoviak:** \[00:38:25.06\] ...but still do it, man. Push whatever buttons you've got to; by any means necessary, push through those boundaries and find your way.
+**Adam Stacoviak:** \[38:25\] ...but still do it, man. Push whatever buttons you've got to; by any means necessary, push through those boundaries and find your way.
 
 **Jerod Santo:** Right. But we get a pushback. We get to come on a show and say "This is not cool." And that's just part of life. That's just how it works.
 
@@ -430,7 +430,7 @@ And if you don't send from a certain IP address or a range of IP addresses, you 
 
 **Jerod Santo:** Hotmail, yeah...
 
-**Zeno Rocha:** \[00:41:55.13\] What is cool about them, and not cool too, is they have to keep improving their game, otherwise their products get obsolete. And especially now with AI, you can generate so many different emails, and they're highly personalized... And it gets even more tricky. But I think the beauty is -- or the challenge for them is "Okay, how do we evolve?" And in the beginning, you're totally right, Adam, there was a lot of emphasis on the IP level. So then you would have like an IP, and if the reputation of that IP is good, then just let all those emails go through. And then email providers came up and they were like "Okay, now I have this big IP pool, and I just shove people there", and then the good actors balance the bad actors. So then these inbox providers, they're like "Oh, okay, so now we have to go up a different abstraction layer and look at the domain more than just the IP."
+**Zeno Rocha:** \[41:55\] What is cool about them, and not cool too, is they have to keep improving their game, otherwise their products get obsolete. And especially now with AI, you can generate so many different emails, and they're highly personalized... And it gets even more tricky. But I think the beauty is -- or the challenge for them is "Okay, how do we evolve?" And in the beginning, you're totally right, Adam, there was a lot of emphasis on the IP level. So then you would have like an IP, and if the reputation of that IP is good, then just let all those emails go through. And then email providers came up and they were like "Okay, now I have this big IP pool, and I just shove people there", and then the good actors balance the bad actors. So then these inbox providers, they're like "Oh, okay, so now we have to go up a different abstraction layer and look at the domain more than just the IP."
 
 And they have different techniques. They look at how fast you send emails, and that's something that dictates "Are we going to throttle the emails or not?" They look at the engagement early on for like emails that are coming to the inbox, and based on that, they dictate the inbox placement. "Are we going to keep it on the primary box, the promotional tab, the spam folder?" And those things are constantly evolving. But the thing I don't like is like -- I wish they would evolve as fast as the web, for example. Because I feel like the web was super-slow, maybe in like the 2000s, and then 2010 HTML5 comes in, and CSS 3, and ECMAScript 6, and it's like "Oh, wow there's so much movement." And now we don't care so much about how this website looks on Opera versus Firefox versus i6. It's just like the same website. Very little things like that are different in Safari than Chrome...
 
@@ -456,7 +456,7 @@ I just think that's kind of cool how both brand names show up in natural convers
 
 **Jerod Santo:** You can read it.
 
-**Adam Stacoviak:** \[00:45:55.29\] ...but it's not respecting the styles. It's respecting the overall framework of how the email looks, and stuff, but it's... It's all gone. What's up with that...? Not cool.
+**Adam Stacoviak:** \[45:55\] ...but it's not respecting the styles. It's respecting the overall framework of how the email looks, and stuff, but it's... It's all gone. What's up with that...? Not cool.
 
 **Jerod Santo:** They're using their own fonts. It's like they care more. And Microsoft has done this a while... Specifically, if you log into - whatever it is; Live365... Or if you use the Microsoft Office in the cloud thing, and read the email there, it's also ugly, because they want it to look like their UI inside their web app. And so all the links are blue, because that's what Microsoft wants. Now, if you read that same email, still hosted by Microsoft, but inside of Outlook.app... Or .exe... Sorry, I haven't been on Windows in a while. I forgot what their extension was. Outlook.exe. It'll look fine. It'll look just like it does everywhere else. But in the web app specifically, they override things. And Google, I think, just started doing that, is my guess, because Gmail just this last couple of weeks now, it's like Roboto Sans, or Google Sans... I don't know. They're using their own fonts. I'm surprised this is news to you, Zeno. Has anybody else told you this?
 
@@ -486,7 +486,7 @@ I just think that's kind of cool how both brand names show up in natural convers
 
 **Jerod Santo:** That's cool.
 
-**Zeno Rocha:** \[00:50:02.05\] It's like SVG. You still cannot use SVG on emails. So then the tool will tell you, "No, you cannot do that." So that helps. And then if you try to -- like, we try to put things like that in the product. Like, okay, let's add a linter, a compatibility checker powered by Can I Email on React Email. So we try to shove as much tooling on the email template creation process, so then when you go live, you don't see as much inconsistencies... But there's always a little thing here and there.
+**Zeno Rocha:** \[50:02\] It's like SVG. You still cannot use SVG on emails. So then the tool will tell you, "No, you cannot do that." So that helps. And then if you try to -- like, we try to put things like that in the product. Like, okay, let's add a linter, a compatibility checker powered by Can I Email on React Email. So we try to shove as much tooling on the email template creation process, so then when you go live, you don't see as much inconsistencies... But there's always a little thing here and there.
 
 **Jerod Santo:** That's cool. I'll link that one up. Of course, if you know Can I Use, replace use with email, and you'll hit the website. So I'll definitely bookmark that. I don't think it helps me with my particular problem, because I'm not using anything weird, and it's just like... What I might need to do is I'm putting my styles not inline on the elements, but in the head. And I think that perhaps if I inline them -- I mean, that's inlined. It's not a separate style sheet that you're \[unintelligible 00:51:04.17\]
 
@@ -504,7 +504,7 @@ I just think that's kind of cool how both brand names show up in natural convers
 
 **Zeno Rocha:** Man, for me, what really clicked -- so I've been ignoring AI for the past two years. Not like from a company perspective... As an individual, I use AI a ton. I love it. I'm optimistic about it. I think it's great. But on a company level, it's like "Man, we just need to find product-market fit. Nothing else matters. Let's just ship stuff that's going to help users." But then in January this year, I just started seeing some stuff that I couldn't ignore. So what do we do now is every time someone signs up for Resend, we send a welcome email. And that welcome email comes from me. It's very personal, so then when they reply, it comes to me, and then I reply as well. And then this one day I'm just like waiting... I start to get into running, and then I'm waiting for this Nike store to open... So I'm just sitting there, it's like 30 minutes until the store opens, and I'm just replying to those emails. And then one person is like "Oh, I came from Lovable." I'm like "Oh, that's cool", to reply that. Next person is like "Oh, Claude recommended you." Reply... ChatGPT recommended you. v0 recommended you, Bolt... I just started seeing those things... And it was six or seven emails in a row. So I was like "Whoa, there's just something here." I don't know what changed... Is there a new version of the LLL? I don't know. But something clicked. And I was like "Okay, I cannot ignore this anymore from a company perspective. I just have to keep pulling that thread."
 
-\[00:53:54.03\] And then I started finding like, okay, who is thinking about this problem? Who is digging into that? And it's a huge rabbit hole... And then what are the techniques to -- what you were saying, "I just want more of that." I want Changelog to be the default solution here. The default answer.
+\[53:54\] And then I started finding like, okay, who is thinking about this problem? Who is digging into that? And it's a huge rabbit hole... And then what are the techniques to -- what you were saying, "I just want more of that." I want Changelog to be the default solution here. The default answer.
 
 **Jerod Santo:** That's right.
 
@@ -528,7 +528,7 @@ So there's tryprofound.com, a tool that shows you all the traffic. This one is f
 
 **Zeno Rocha:** What I love about Profound - it gives me the information... I think they still have a long way to go in terms of "How do I take the beautiful graph and turn it into action points?" So then as a team, I can be like "Okay, let's change this content. Let's do this. Let's do that." Now you get the data. So you still have to parse the data yourself, I guess.
 
-**Adam Stacoviak:** \[00:58:04.05\] While we were discussing these things, I couldn't help myself but go to Claude and ChatGPT 4.0 and say "What are the best software developer podcasts?" And we'll start with Claude, because that's the one that made me smile. The very first one - The Changelog.
+**Adam Stacoviak:** \[58:04\] While we were discussing these things, I couldn't help myself but go to Claude and ChatGPT 4.0 and say "What are the best software developer podcasts?" And we'll start with Claude, because that's the one that made me smile. The very first one - The Changelog.
 
 **Jerod Santo:** Wooh!
 
