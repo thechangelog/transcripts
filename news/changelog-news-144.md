@@ -112,7 +112,7 @@ It's all fun and games (literally), but there are also **cash prizes up for grab
 That's the news for now, but go and subscribe to the Changelog Newsletter for the full scoop of links worth clicking on. Such as:
 
 - [Our Slack is dead. Long live Zulip!](https://changelog.com/posts/our-slack-is-dead-long-live-zulip)
-- [The Open Source Maintenance Fee](https://robmensching.com/blog/posts/2025/02/26/introducing-the-open-source-maintenance-fee/)
+- [The Open Source Maintenance Fee](https://robmensching.com/blog/posts/2025/02/26/introducing-the-open source-maintenance-fee/)
 - [The magic of software](https://moxie.org/2024/09/23/a-good-engineer.html)
 
 Get in on the newsletter at changelog.com/news
