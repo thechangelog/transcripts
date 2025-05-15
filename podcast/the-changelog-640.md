@@ -62,7 +62,7 @@ But my hope is that over time and with this launch of the agent panel we can pot
 
 **Jerod Santo:** Right? I like golden retriever also, because I do -- just in our last episode I was kind of confessing that I treat it like a little buddy... Which feels weird if it was like a full-grown adult person. But like as a domesticated helper, like a dog, your best friend, I don't feel so bad being like "Good job, little guy." So I like that description.
 
-**Adam Stacoviak:** \[00:08:10.23\] You've been saying "Good job, little guy"?
+**Adam Stacoviak:** \[08:10\] You've been saying "Good job, little guy"?
 
 **Jerod Santo:** I mean, mostly when I talk to you about it. I'm like --
 
@@ -116,7 +116,7 @@ But my hope is that over time and with this launch of the agent panel we can pot
 
 **Jerod Santo:** And there's a threshold? Like, if 80% pass, then we're good? Or...?
 
-**Nathan Sobo:** \[00:12:00.16\] Yeah, yeah. We're playing with setting thresholds. You can commit a threshold that would potentially fail the build. We're being pretty conservative with those right now, because failing builds are annoying, and I think we're still kind of traversing the learning curve on all of this, quite honestly. But what we have is this new -- yeah a new experience where you can define tools, either pull them in via MCP... We've got a set of core tools that the agent can use. And it's an environment that's more optimized for just like having the standard conversation with an agent, where it's able to reach out and do things.
+**Nathan Sobo:** \[12:00\] Yeah, yeah. We're playing with setting thresholds. You can commit a threshold that would potentially fail the build. We're being pretty conservative with those right now, because failing builds are annoying, and I think we're still kind of traversing the learning curve on all of this, quite honestly. But what we have is this new -- yeah a new experience where you can define tools, either pull them in via MCP... We've got a set of core tools that the agent can use. And it's an environment that's more optimized for just like having the standard conversation with an agent, where it's able to reach out and do things.
 
 And so getting that UI in place, getting it nice, the checkpointing for which the CRDT stuff has been dope to have, the review experience for which the multi buffers that we've invested in are really great... Like, seeing everywhere that the agent did the editing. And kind of the overall chrome around the experience - we've got that in place, and then used it to start collecting data. Having collected the data, that is driving into "Alright, how do we make sure that we can prompt this thing and define the tool prompts and define the system prompt in such a way that things are going to be effective?" Make sure our tools are really unit-tested. I mean, all of that is like traditional software engineering to a T, other than this -- other than the golden retriever.
 
@@ -134,7 +134,7 @@ And so getting that UI in place, getting it nice, the checkpointing for which th
 
 **Jerod Santo:** Tell me that worked...
 
-**Nathan Sobo:** \[00:15:46.25\] It doesn't work. It didn't even work. And then Antonio was like "No, no, no, Nathan. Make it simple." And I was like "Okay, how do we do that?" He said -- I think it was sort of... After saying open tag, you must say close tag before you open another tag. So after saying old text, you must say slash old text. After new text, you must say slash new text. It went from 60% to 95% on the eval.
+**Nathan Sobo:** \[15:46\] It doesn't work. It didn't even work. And then Antonio was like "No, no, no, Nathan. Make it simple." And I was like "Okay, how do we do that?" He said -- I think it was sort of... After saying open tag, you must say close tag before you open another tag. So after saying old text, you must say slash old text. After new text, you must say slash new text. It went from 60% to 95% on the eval.
 
 **Jerod Santo:** Nice.
 
@@ -176,7 +176,7 @@ And so getting that UI in place, getting it nice, the checkpointing for which th
 
 **Nathan Sobo:** Yeah. I mean, I think it's always been true, but maybe more true than ever, that I really don't think you can make it be a house of cards. Like, that was kind of a lot of the premise of Zed in a lot of ways... It's like "How about we don't build this one like a house of cards?" I mean, no software is perfect, and there's plenty of things that I would like to improve about Zed. But a big part of our philosophy is "Let's get the primitives correct and nice. And let's use those primitives to compose bigger components." And then when we realize that it's designed wrong - not constantly, because you have to ship... But to some extent, stop the line, fix it, and then keep moving forward, doing it right. And also just having things tested to death, and having rigor... Because I think now we've got the golden retriever. Like, if your system's already not reliable to a T, good luck.
 
-**Jerod Santo:** \[00:20:11.11\] Right.
+**Jerod Santo:** \[20:11\] Right.
 
 **Nathan Sobo:** Now you're unleashing this random process in the middle of it... I don't know. Again, you can maybe find those things without rigorous design and good testing in a system where it's less stochastic in nature. But how are you really going to explore the surface area of that?
 
@@ -210,7 +210,7 @@ I did this pull request over the holidays; it was like 30,000 lines, and it near
 
 **Nathan Sobo:** But the promise of AI, I think, for me, is having this third choice, of like "I fix it, and the horrible part of fixing it is actually fast."
 
-**Jerod Santo:** \[00:24:16.15\] Right.
+**Jerod Santo:** \[24:16\] Right.
 
 **Adam Stacoviak:** Yeah, there's something that has happened with access to all the things. I'm not going to name them all. We all know what they're called... Is that the trivial yet mundane things we would do are somehow made a little easy. Like, an email response. I did this thing, I was like "I almost procrastinated on two different emails today." And this is not coding. This is just very simple, everyday things. And I'm like "I have in my brain a version of what I want to say, but I don't have the right -- I don't have it framed well." Like "This is the facts. Here's bullet points. Here's what they said, here's what I want to say. Make it happen." And then out it comes. I'm like "That's awesome." Cut and paste, move along. Instead of procrastinating, doing my thing, coming back an hour later... You know what I mean? It's these little tiny things that are now solved so simply, that we used to just not do because they were either arduous, or just daunting, or cognitive...
 
@@ -232,7 +232,7 @@ I did this pull request over the holidays; it was like 30,000 lines, and it near
 
 **Jerod Santo:** Right.
 
-**Nathan Sobo:** \[00:27:42.28\] And they're also kind of not like even digital constraints in the sense that we could generate a ton of code now as well. But the constraints are, I think, still about controlling complexity. Controlling the complexity of the system we're building, understanding the implications of what we've created. I don't know. I mean, at some point, if AGI comes and I can like literally go to a web form and prompt it and say "Write me a fast, collaborative code editor that supports AI really well", and like out pops the binary... Then cool. I guess we don't need to understand our software. But until then --
+**Nathan Sobo:** \[27:42\] And they're also kind of not like even digital constraints in the sense that we could generate a ton of code now as well. But the constraints are, I think, still about controlling complexity. Controlling the complexity of the system we're building, understanding the implications of what we've created. I don't know. I mean, at some point, if AGI comes and I can like literally go to a web form and prompt it and say "Write me a fast, collaborative code editor that supports AI really well", and like out pops the binary... Then cool. I guess we don't need to understand our software. But until then --
 
 **Adam Stacoviak:** Sadness. Sadness, man. Sadness.
 
@@ -272,7 +272,7 @@ I did this pull request over the holidays; it was like 30,000 lines, and it near
 
 **Nathan Sobo:** Yeah, I don't feel late, because I think we're all early. Yeah, I mean, I definitely didn't set out to build an AI code editor when I started Zed, because...
 
-**Adam Stacoviak:** \[00:32:14.06\] That wasn't the point.
+**Adam Stacoviak:** \[32:14\] That wasn't the point.
 
 **Nathan Sobo:** Yeah, exactly. I set out to build the future of software development. People laugh at me less when I say that or whatever now, because we've proven out more of our ability to just get close... But it's always been this vision of a fundamentally better experience for the developer. Yeah, and then AI emerged into this world.
 
@@ -296,7 +296,7 @@ You can say you're an AI code editor, but if you're kind of adapting a code edit
 
 **Jerod Santo:** That's a lot of money.
 
-**Nathan Sobo:** \[00:35:44.02\] I mean, to me, that deal is a sign that we're onto something. I'll put it that way. That the actual technology that connects this revolutionary LLM technology to the end user, that covers the last mile, that puts the developer at the center of that experience is incredibly valuable. I've always believed that, and it's never -- and I've always had this collaborative approach, of like "We're going to integrate." And I think we still have a ways to go there, to be fair, although the way our team works I think is unlike any I've ever been on, using Zed. Being as collaborative as we are. But when you now have a new kind of collaborator that will literally respond immediately, anytime you say anything, sometimes with some more or less on acid things, but often with exactly what you want... Yeah, it becomes even more important, I think, to have kind of a higher fidelity, faster tooling around the management of change, coordination of change, collaborating basically, in software.
+**Nathan Sobo:** \[35:44\] I mean, to me, that deal is a sign that we're onto something. I'll put it that way. That the actual technology that connects this revolutionary LLM technology to the end user, that covers the last mile, that puts the developer at the center of that experience is incredibly valuable. I've always believed that, and it's never -- and I've always had this collaborative approach, of like "We're going to integrate." And I think we still have a ways to go there, to be fair, although the way our team works I think is unlike any I've ever been on, using Zed. Being as collaborative as we are. But when you now have a new kind of collaborator that will literally respond immediately, anytime you say anything, sometimes with some more or less on acid things, but often with exactly what you want... Yeah, it becomes even more important, I think, to have kind of a higher fidelity, faster tooling around the management of change, coordination of change, collaborating basically, in software.
 
 I was envisioning -- my version of a multi-agent system that I was dreaming of before I understood the power of LLMs, when we were first starting Zed, was this notion of like mob coding where you have all these live branches, and people are off on their own live branch, and you're kind of pulling their changes in dynamically... And that was a cool idea, but getting all those people in that particular configuration is kind of a special thing to imagine. But now they're just there. The people are there to collaborate with.
 
@@ -330,7 +330,7 @@ But I think there's an opportunity to augment Git, I think, with a finer-grained
 
 **Jerod Santo:** Yeah, interesting.
 
-**Break**: \[00:39:51.27\]
+**Break**: \[39:51\]
 
 **Jerod Santo:** So last year when we talked I think where the AI stuff in Zed stood was you had this little sidebar that would come out, and you could plug OpenAI API into it, and maybe like a couple other models. I don't recall exactly. I know that after our call you helped me debug mine, because I couldn't get my API key to actually register, and... You know, it was--
 
@@ -358,7 +358,7 @@ But I think there's an opportunity to augment Git, I think, with a finer-grained
 
 And so what we're really offering now is - yeah, more of that full agentic experience, where first and foremost the panels optimize for sort of readability and clarity of that conversation as sort of a conversation with a goal; the goal of understanding and/or editing code. Whereas in the other world, it was very open-ended, raw texts. The tool calling support is integrated, so the agent can actually reach out and do things like grep your codebase, or perform streaming edits. When that occurs, you're able to review the impact of what the agent did in a Zed multi-buffer. So the idea is you can kind of click down at the bottom and see -- you know, there's like a little diff of edits that have occurred so far in the thread, you can review them, that pulls them up in a multi-buffer...
 
-\[00:48:11.02\] And again, I think -- who knows, maybe great minds think alike... You know, maybe some other products I've seen some stuff like this, but a Zed multi-buffer is a different kind of experience, I think, than just throwing a bunch of editors together. We really model that in the product as a single coherent virtual buffer. It's as if that is one file that's curated together out of content from these multiple different files... And so that's a fairly deep, core concept in the system, rather than a bunch of editors. So you could do multi-cursor edits across those... I don't know, there's a lot of just like really nice UX, I think, that comes out of a multi-buffer really being abstracted in the system as like Zed's buffer experience, period.
+\[48:11\] And again, I think -- who knows, maybe great minds think alike... You know, maybe some other products I've seen some stuff like this, but a Zed multi-buffer is a different kind of experience, I think, than just throwing a bunch of editors together. We really model that in the product as a single coherent virtual buffer. It's as if that is one file that's curated together out of content from these multiple different files... And so that's a fairly deep, core concept in the system, rather than a bunch of editors. So you could do multi-cursor edits across those... I don't know, there's a lot of just like really nice UX, I think, that comes out of a multi-buffer really being abstracted in the system as like Zed's buffer experience, period.
 
 **Jerod Santo:** Yeah. I've noticed you've reused it in the Git stuff, whereas at first it was only in like search results when I would see it and use it... And at first, I was somewhat put off by it, if you recall our last call, because as a Sublime Text user, it was just a little bit different than what I was used to... And I felt like Sublime Text was a little bit lighter and faster. But now that I've realized how to use multi-buffers, the way I was using Sublime is kind of obsolete, because I can just make the changes there in the multi-buffer, versus like clicking out to the different files. And that's cool. So I've grown to like multi-buffers quite a bit. And now that I see it in the Git -- it's basically your Git diff, or whatever; staged or not staged. You can do your staging and stuff in this multi-buffer. Anyways, I might've cut you off, but I just thought of another place where you've used it, which is like "That's cool." I'm used to that now. When I saw it in the Git world, I was like "Oh, I get this."
 
@@ -374,7 +374,7 @@ And so what we're really offering now is - yeah, more of that full agentic exper
 
 But then the thought is "Okay, maybe you make a tweak to what the LLM did, and then accept it", or whatever. Right now, the first version of it, we're like just hiding it when you're done. Like "Okay, you're done." But I have this idea of "What if we keep it there?" and then there's this secondary step to dismiss. Then what's happening is this agentic interaction is almost building up this curated, editable subset of your codebase. Like, just the parts of the code that are relevant to the conversation at hand. Otherwise, why would they even be referenced in this review experience? So it's almost like this multi-buffer... I don't know, this is all just really new thinking for me, but like... It could have enduring value as like -- you know, I love this analogy of missiles versus guns. In World War II all the dogfights, I think almost all of them were probably done with guns. And now, we have like the F-35, or whatever, and if there ever is a dogfight - hopefully there won't be one - it's like a missile that destroys the thing over the horizon, or whatever.
 
-\[00:52:21.10\] But then in Vietnam there was this time where I guess there were some gun battles and some missile battles. Missiles weren't yet that reliable, or whatever. And so I think -- yeah, AI is kind of the missiles. You've got this agentic process that you kick off, go get a coffee or whatever... Then you come in, you've got your multi-buffer, you review it. If it's great, then good, keep going. If it's not, switch to guns. And that's where Zed really shines, because it's just like, you know... I think it shines across the board, but having a great editing experience, and having everything that might be relevant based on what you just did kind of presented there in one spot for you to work with.
+\[52:21\] But then in Vietnam there was this time where I guess there were some gun battles and some missile battles. Missiles weren't yet that reliable, or whatever. And so I think -- yeah, AI is kind of the missiles. You've got this agentic process that you kick off, go get a coffee or whatever... Then you come in, you've got your multi-buffer, you review it. If it's great, then good, keep going. If it's not, switch to guns. And that's where Zed really shines, because it's just like, you know... I think it shines across the board, but having a great editing experience, and having everything that might be relevant based on what you just did kind of presented there in one spot for you to work with.
 
 **Jerod Santo:** Yeah.
 
@@ -408,7 +408,7 @@ But then the thought is "Okay, maybe you make a tweak to what the LLM did, and t
 
 **Jerod Santo:** Nice.
 
-**Adam Stacoviak:** \[00:55:49.01\] And it's the coolest thing ever. I think it's just revolutionary/magic/ould never expect this to be possible, ever, ever, ever. But it is.
+**Adam Stacoviak:** \[55:49\] And it's the coolest thing ever. I think it's just revolutionary/magic/ould never expect this to be possible, ever, ever, ever. But it is.
 
 **Nathan Sobo:** \[laughs\]
 
@@ -730,7 +730,7 @@ But --
 
 **Nathan Sobo:** Yeah. So I mean, Zed AI was last fall. And that was basically like "Okay, we're doing a bunch of stuff with AI." And the two features that launched then was this very sort of hacker-chic, write-optimized, kind of low-level, strap a text editor to an LLM and interact with it directly... Which - some engineers at Anthropic freaking love that feature, because they're thinking about things in those terms. It was that, and it was inline assist. Just the idea of I can highlight some code, hit Ctrl-Enter, and transform it or generate some code in place. And then all the infra of "Hey, we're using this. We want you to be able to use it." And so giving everybody some kind of free compute, within reason, of like "Yeah, here it is. You can use these tools."
 
-Then... I think it was February, we launched Edit Prediction. Edit Prediction, we built an open-source model -- not really. We fine-tuned an existing open-source model and kept it open-source, and open-sourced the dataset, to just predict what the next edit is. Which - that's a feature that's been out in Copilot for years now, but we needed it in Zed... And some -- I mean, we put some real love into how that feature was integrated. It has this thing called Subtle Mode, which I really like.
+Then... I think it was February, we launched Edit Prediction. Edit Prediction, we built an open source model -- not really. We fine-tuned an existing open source model and kept it open source, and open sourced the dataset, to just predict what the next edit is. Which - that's a feature that's been out in Copilot for years now, but we needed it in Zed... And some -- I mean, we put some real love into how that feature was integrated. It has this thing called Subtle Mode, which I really like.
 
 \[01:27:55.12\] Because one of my problems with kind of that eager, predictive editing is when I'm in flow and it's suggesting something to me, it's sometimes annoying. It's just distracting me from my flow, depending on my mood. But often it's how I'm feeling. But often I do -- I might want it. So what we'll do in Subtle Mode - which is not the default - is you can kind of just say "I only want to see that a suggestion as available." And then when I hold Alt down and we preview the suggestion, and then I can hit Tab to complete it.
 
