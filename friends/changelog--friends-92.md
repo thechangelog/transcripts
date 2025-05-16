@@ -92,7 +92,7 @@
 
 **Gerhard Lazu:** Perfect. So how does it feel in terms of responsiveness, the website?
 
-**Jerod Santo:** \[00:08:15.06\] Average.
+**Jerod Santo:** \[08:15\] Average.
 
 **Gerhard Lazu:** Average. What about when you click on News? Do you see any delays? Anything like that?
 
@@ -156,7 +156,7 @@ We're getting there.
 
 **Gerhard Lazu:** There's more.
 
-**Jerod Santo:** \[00:12:06.28\] Tell us, tell us.
+**Jerod Santo:** \[12:06\] Tell us, tell us.
 
 **Gerhard Lazu:** So this is a question for you, both Adam and Jerod. What do you think is the percentage of all get application requests that are cache hits? How many of all the requests that go to the app, to the origin, do you think are being served from the cache? And the options are 15%, 20%, 25% or 30%. What is your guess?
 
@@ -226,7 +226,7 @@ So here we are today... It's only been three weeks. So it's only been three week
 
 **Gerhard Lazu:** Right now. Yeah, right now. Just click around and tell me how it feels. I mean, I've tested it myself, but I don't have your experience... So how does it behave on your side of the world?
 
-**Adam Stacoviak:** \[00:15:50.29\] So one thing in particular that I noticed between the two of them right away - because I clicked into News... And it seems like there's this paint delay on the right hand side. So we split that viewport News - left side is subscribe, right side is the newsletter. Very, very cool. But that right side, newsletter side, the background color seems to like delay paint. I'm not sure if that's -- it's happening here as well as the \[unintelligible 00:16:15.08\]
+**Adam Stacoviak:** \[15:50\] So one thing in particular that I noticed between the two of them right away - because I clicked into News... And it seems like there's this paint delay on the right hand side. So we split that viewport News - left side is subscribe, right side is the newsletter. Very, very cool. But that right side, newsletter side, the background color seems to like delay paint. I'm not sure if that's -- it's happening here as well as the \[unintelligible 00:16:15.08\]
 
 **Jerod Santo:** That's an iFrame, so that's a secondary request.
 
@@ -258,7 +258,7 @@ So here we are today... It's only been three weeks. So it's only been three week
 
 Our content should always be served from the CDN, regardless if it's fresh or not. And in this case, what we see -- if it's already been served once, it will stay in the cache until there's pressure on the cache. And we control when that is. We just basically size the cache accordingly. We give it more memory, and then more objects will remain in memory. And what we want to do is to always serve content from the CDN, whether it's stale or not.
 
-\[00:20:07.28\] So this was a cache hit. You can see there's a cache status header. It was served from the edge. We see what region it was served from. By the way, if you were to do a curl request, you'd see the headers, you would see like all this information. Even in your browser developer tools, open any endpoint and you get this information for every single response. We see what was the origin that the CDN had to go through to fulfill the request. The TTL - that is the important value, which is how long was that object stored in the cache. In this case, it's minus four. It's a negative number, which means that it's considered stale. The default value, the default TTL is set to 60 seconds. Anything that was requested within 60 seconds is considered fresh. But then we have this other period, this other value, which is grace, which says "For 24 hours, continue serving this object from the CDN, but try and fetch it from the background." And also we see that this has been served from the CDN 26 times already.
+\[20:07\] So this was a cache hit. You can see there's a cache status header. It was served from the edge. We see what region it was served from. By the way, if you were to do a curl request, you'd see the headers, you would see like all this information. Even in your browser developer tools, open any endpoint and you get this information for every single response. We see what was the origin that the CDN had to go through to fulfill the request. The TTL - that is the important value, which is how long was that object stored in the cache. In this case, it's minus four. It's a negative number, which means that it's considered stale. The default value, the default TTL is set to 60 seconds. Anything that was requested within 60 seconds is considered fresh. But then we have this other period, this other value, which is grace, which says "For 24 hours, continue serving this object from the CDN, but try and fetch it from the background." And also we see that this has been served from the CDN 26 times already.
 
 As I read these headers - these are important; every single request now has them. And we can see which was the region, was it an edge region... And we don't have an origin yet, but we should, by the way; the closer you are to the origin, it just says the origin. Shield - all that we can configure now. What a shield origin does, basically - the CDN instances which aren't close to the origin, they will go to the CDN instance which is closest to the origin. And that's so that we place as little load on the origin as possible. I don't think that will be a problem for us, but we can do it if you want to.
 
@@ -278,7 +278,7 @@ And the question is, after all these years, are we holding fly.io right? What do
 
 **Jerod Santo:** Yeah.
 
-**Gerhard Lazu:** \[00:24:03.13\] Of the Pipedream. So what things have you noticed, Jerod, that are off?
+**Gerhard Lazu:** \[24:03\] Of the Pipedream. So what things have you noticed, Jerod, that are off?
 
 **Jerod Santo:** So I shipped Changelog News Monday afternoon, and that particular episode has dramatically lower downloads. So low, in fact, that it has to be a bug somewhere in the system that it's not real. Like, it's not a real number. And I'm wondering if maybe a bunch of podcast apps got pointed to the new CDN, and we're not capturing those logs, which is how we get these stats. So that was the first thing. I was like "There's no way that this has actually only been downloaded 700 times", or whatever it was, in the first day. That was the first thing I noticed. And you're nodding along, so you're thinking probably that's the case.
 
@@ -362,7 +362,7 @@ And the question is, after all these years, are we holding fly.io right? What do
 
 **Gerhard Lazu:** Single-handedly.
 
-**Break**: \[00:28:28.27\]
+**Break**: \[28:28\]
 
 **Gerhard Lazu:** Okay, so let's talk through this in terms of what a potential fix would look like. We have a new application instance which behaves as production, from all purposes, right? The content is exactly as production, it connects to the same database instance, it has all the same data. What isn't happening is the code updates aren't going out automatically. That has not been wired, because my assumption was I will only deploy this one instance, I'm going to change a couple of properties so it has the new CDN configured, and I'll see how it behaves the whole stack in isolation. What happened, obviously, is the new instance is consuming the same jobs, the same background jobs as the existing production... So very helpfully, it has sent the new links, which are all temporary, especially like the application links, the ones that you've seen in Zulip and a couple of other places, which are just for the application origin and they are only meant to be there for the CDN. Everything should go through the CDN, but the CDN hasn't been configured yet through everything, because that's like where the test comes in. How does the application behave? So some links need to be application links.
 
@@ -424,7 +424,7 @@ So in this case, we need to somehow fix those links, the ones that went out and 
 
 **Jerod Santo:** LHR. Is that Virginia one?
 
-**Gerhard Lazu:** \[00:36:13.03\] Heathrow.
+**Gerhard Lazu:** \[36:13\] Heathrow.
 
 **Jerod Santo:** Oh, London Heathrow. Of course.
 
@@ -516,7 +516,7 @@ So in this case, we need to somehow fix those links, the ones that went out and 
 
 **Gerhard Lazu:** Yeah. Yeah. That's it. So... Issue five, March 22nd. That's when I just stumbled across it, so I captured it. You can go and check it out. But it was really cool. When I've seen Flyradar, I thought "Wow, this is exactly what I wanted." Anyway. Anyway. Back to the Pipedream. So which backend do you think serves the most requested URL? Another question... We have three backends, or three origins. You have the application origin, the one that we've been focusing on, there's a feeds backend, and the assets backend. So in the last seven days, which backend served the most requested URL?
 
-**Jerod Santo:** \[00:39:58.09\] Like, the one top URL, which we also don't know what it is --
+**Jerod Santo:** \[39:58\] Like, the one top URL, which we also don't know what it is --
 
 **Gerhard Lazu:** The one top URL, exactly.
 
@@ -572,7 +572,7 @@ So if we were to benchmark using the same connection, CDN2 - this will go to the
 
 **Gerhard Lazu:** That is correct. Yeah, exactly. So if I do Fly CTL machines list, you'll see that - and let me just do \[unintelligible 00:43:50.10\] You'll see that we have like a single instance in Heathrow. We could run more, and that's what we're going to do here, to see if running more instances will increase the bandwidth. So I'm going to do -- let's do flyctl scale, count three. We're just basically going to run three instances in the Heathrow region.
 
-\[00:44:13.26\] The reason why we don't do this is we'll just add cost. When we are in production we may need to do this, because some areas may be running hotter than others, so we may need to scale it accordingly. But right now, every single region has one instance only.
+\[44:13\] The reason why we don't do this is we'll just add cost. When we are in production we may need to do this, because some areas may be running hotter than others, so we may need to scale it accordingly. But right now, every single region has one instance only.
 
 So let me do machines list. So what I want to see is they are all started, and they're all running. The health there is one. Yup. These are all good. Yup. Everything is nice and healthy. So now let's go back and let's run the same benchmark. And we'll see it live... Okay. So still the same thousand requests to the feed endpoint. And 180 - so just about the same. Not much has changed. It takes a while for everything to warm up and the requests to be spread correctly. We've seen there a blip... So let's see how does it behave now. Okay, so we're 150 megabytes per second. If we run this a few more times so that everything is nice and spread --
 
@@ -626,7 +626,7 @@ So let me do machines list. So what I want to see is they are all started, and t
 
 **Jerod Santo:** Just benchmarking.
 
-**Gerhard Lazu:** \[00:47:57.15\] Of course. Yeah, I think so. I think so. Cool. Okay, so I'm wondering, if I had a hundred-gigabit internet connection, and one day - and this is a fact; one day, I will have that internet connection - and Fly did, too... Because remember, Fly -- I mean, in this case Fly is the bottleneck...
+**Gerhard Lazu:** \[47:57\] Of course. Yeah, I think so. I think so. Cool. Okay, so I'm wondering, if I had a hundred-gigabit internet connection, and one day - and this is a fact; one day, I will have that internet connection - and Fly did, too... Because remember, Fly -- I mean, in this case Fly is the bottleneck...
 
 **Jerod Santo:** Correct.
 
@@ -702,7 +702,7 @@ So let me do machines list. So what I want to see is they are all started, and t
 
 **Jerod Santo:** Cool.
 
-**Gerhard Lazu:** \[00:51:56.16\] So this is really, really fast. This is the equivalent to your unit tests, if you wish.
+**Gerhard Lazu:** \[51:56\] So this is really, really fast. This is the equivalent to your unit tests, if you wish.
 
 **Jerod Santo:** Weren't you running the tests against like production instances last time?
 
@@ -754,7 +754,7 @@ So it's there, and we have it, and it gives me a nice tool to figure out what is
 
 **Jerod Santo:** Gotcha. So you're delaying on purpose to see if it'll actually expire.
 
-**Gerhard Lazu:** \[00:56:12.10\] Exactly. I'm delaying it on purpose, and it takes about 70 seconds, because we need to wait that long to test the staleness. And by the way, that's something which I'm going to do next... So we're going to check the staleness of something. And the staleness currently is set to 60 seconds. And you can see, we can do the variable delay... So this is the real CDN. We're going to Pipedream. We're not testing the local one, we're testing the Pipedream one. And this is the existing configuration, which we consider to be production.
+**Gerhard Lazu:** \[56:12\] Exactly. I'm delaying it on purpose, and it takes about 70 seconds, because we need to wait that long to test the staleness. And by the way, that's something which I'm going to do next... So we're going to check the staleness of something. And the staleness currently is set to 60 seconds. And you can see, we can do the variable delay... So this is the real CDN. We're going to Pipedream. We're not testing the local one, we're testing the Pipedream one. And this is the existing configuration, which we consider to be production.
 
 Now, you said local, and now we can do the same test, we're going to run them against local, and we're going to change a couple of properties, because locally we want a slightly different behavior, and what we care about is that speed. We want these tests to be much, much quicker. And in this case, you can see the actual requests going through, you can see the responses, you can see the headers... We still are testing delays, but the delays are much shorter, which means that the test will complete much, much quicker. So we control these variables, and production is just as it is. This is how it behaves, and that's where we're testing, so it will be slightly slower. Shall we do it for real? Would you like me to try and run another test and see how it behaves if I do the acceptance local? Or shall we move on to something else?
 
