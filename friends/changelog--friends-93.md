@@ -46,7 +46,7 @@
 
 If you know the correct definition immediately, you get three points and you also get to take a break and sit that round out, because you already know the answer... If after I read all the definitions, you guess the correct one, you get two points, and for each person you trick into selecting your definition, you get one point.
 
-\[00:07:52.02\] Now, if all five of you fail in any given round to select the correct definition, I, your not so humble host, receive four points. And if I do that enough times, you all lose, which would be rad, I think. And your word for round one is baryon. Baryon. B-A-R-Y-O-N. Please submit to me your definitions now.
+\[07:52\] Now, if all five of you fail in any given round to select the correct definition, I, your not so humble host, receive four points. And if I do that enough times, you all lose, which would be rad, I think. And your word for round one is baryon. Baryon. B-A-R-Y-O-N. Please submit to me your definitions now.
 
 **Angelica Hill:** I'm just adding some finesse to mine. I know the definition, I just need to make sure I've explained it clearly enough.
 
@@ -124,7 +124,7 @@ If you know the correct definition immediately, you get three points and you als
 
 **Jerod Santo:** I have all definitions for baryon. I will read them now, and then you all will guess which one you think is correct... Starting with Angelica and going from there. So. Baryon - a universally recognized culinary term for a cooking technique that covers the entirety of a cake or pastry in various berries. Berry-covered, or enrobed in berries... It originates from the Greek "berry", for berry, and "on", to put on. So - baryon. That was number one.
 
-\[00:11:57.12\] Number two - the byproduct of a chemical reaction between two or more gases. Number three - a particle used as a comparison marker in microscopic weight measurements. Number four - a chemical mixture often used in sterilization for surgery. Number five, a new element under review to be added to the periodic table of elements. And number six, composite particles made up of three quarks, such as protons and neutrons. There you have it, six possible definitions for baryon. It's now up to you all to decide which one is the actual definition. Starting with Angelica. Which one do you think is real?
+\[11:57\] Number two - the byproduct of a chemical reaction between two or more gases. Number three - a particle used as a comparison marker in microscopic weight measurements. Number four - a chemical mixture often used in sterilization for surgery. Number five, a new element under review to be added to the periodic table of elements. And number six, composite particles made up of three quarks, such as protons and neutrons. There you have it, six possible definitions for baryon. It's now up to you all to decide which one is the actual definition. Starting with Angelica. Which one do you think is real?
 
 **Angelica Hill:** I mean, I feel like that chemical, molecular or culinary - these are my three options.
 
@@ -242,7 +242,7 @@ If you know the correct definition immediately, you get three points and you als
 
 **Matthew Sanabria:** Which one specifically...?
 
-**Jerod Santo:** \[00:16:15.24\] Let me summarize all six, in order, okay? I'm not going to read them verbatim. Number one was the culinary one. Number two was the byproduct of two or more gases. Number three was the one that's used in microscopic weight measurements. Number four is the chemical mixture used in surgery, except for not Angelica's surgeries... Number five, a new element under review to be in the table of elements. And then number six, composite particles made up of three quarks.
+**Jerod Santo:** \[16:15\] Let me summarize all six, in order, okay? I'm not going to read them verbatim. Number one was the culinary one. Number two was the byproduct of two or more gases. Number three was the one that's used in microscopic weight measurements. Number four is the chemical mixture used in surgery, except for not Angelica's surgeries... Number five, a new element under review to be in the table of elements. And then number six, composite particles made up of three quarks.
 
 **Adam Stacoviak:** I'm thinking the element. It's the new element.
 
@@ -324,7 +324,7 @@ Speaking of Matthew, he thought it was the quirky one that I couldn't pronounce.
 
 **Adam Stacoviak:** I'm fighting for my right to party, man.
 
-**Angelica Hill:** \[00:20:16.14\] Get your jaggies on...
+**Angelica Hill:** \[20:16\] Get your jaggies on...
 
 **Adam Stacoviak:** I'm trying to move like jaggies.
 
@@ -366,7 +366,7 @@ Speaking of Matthew, he thought it was the quirky one that I couldn't pronounce.
 
 **John Henry Müller:** Pants sounds pretty convincing there... Also, the very run-on Gen Z term... Wow. There's so much detail. How can it be wrong, right? I mean, that's... But I think I'm going to have to go with number four, the pathways. That was convincing, and not an obvious sound to the term... So I like that.
 
-**Jerod Santo:** \[00:23:48.05\] Piling on with Matthew on number four. How about you, Adam?
+**Jerod Santo:** \[23:48\] Piling on with Matthew on number four. How about you, Adam?
 
 **Adam Stacoviak:** I'll spread it out. I'm going for the last one, because whoever wrote that deserves some points.
 
@@ -478,7 +478,7 @@ Speaking of Matthew, he thought it was the quirky one that I couldn't pronounce.
 
 **Jerod Santo:** Yeah, you're writing books over there.
 
-**Angelica Hill:** \[00:28:10.05\] Just letting my creativity fly.
+**Angelica Hill:** \[28:10\] Just letting my creativity fly.
 
 **Jerod Santo:** That was very creative. I liked it. It's hard for me to read that long without starting to laugh.
 
@@ -498,7 +498,7 @@ Speaking of Matthew, he thought it was the quirky one that I couldn't pronounce.
 
 **Jerod Santo:** It is fun to say. Is it fun to define? We'll find out right after this.
 
-**Break**: \[00:28:57.21\]
+**Break**: \[28:57\]
 
 **Matthew Sanabria:** How do we know that you're giving us the right pronunciation of these words?
 
@@ -554,7 +554,7 @@ Speaking of Matthew, he thought it was the quirky one that I couldn't pronounce.
 
 **Jerod Santo:** This reminds me, while we wait for BMC, you guys may or may not know that I have an entire soundboard of BMC noises.
 
-**John Henry Müller:** \[00:32:10.02\] Really?
+**John Henry Müller:** \[32:10\] Really?
 
 **Breakmaster Cylinder:** I just like anything that makes me happy. And I do that. And then I do the next thing. You're welcome. \[laughter\]Words to live by... Do this thing. Like glitchy things, and... Things-things.
 
@@ -644,7 +644,7 @@ Speaking of Matthew, he thought it was the quirky one that I couldn't pronounce.
 
 **Matthew Sanabria:** The last one was gritty adhesive. What were the middle two?
 
-**Jerod Santo:** \[00:35:59.05\] The middle two was similar to an umlaut. An umlaut is used to indicate the pronunciation of a word. And the other middle one was a piece of a communication network that filters some data while setting aside other for future dispatch.
+**Jerod Santo:** \[35:59\] The middle two was similar to an umlaut. An umlaut is used to indicate the pronunciation of a word. And the other middle one was a piece of a communication network that filters some data while setting aside other for future dispatch.
 
 **Matthew Sanabria:** That one's spelled incorrectly. There's some mistakes in that one, so I'm going to pass on that one.
 
@@ -722,7 +722,7 @@ Speaking of Matthew, he thought it was the quirky one that I couldn't pronounce.
 
 **Adam Stacoviak:** When does the fox say?
 
-**Jerod Santo:** \[00:40:00.07\] I was thinking of that, too. That's "What does the fox say?" Very close, though.
+**Jerod Santo:** \[40:00\] I was thinking of that, too. That's "What does the fox say?" Very close, though.
 
 **Adam Stacoviak:** Oh, dang. That's what I said.
 
@@ -838,7 +838,7 @@ Speaking of Matthew, he thought it was the quirky one that I couldn't pronounce.
 
 **Jerod Santo:** No. \[laughter\]
 
-**Angelica Hill:** \[00:43:57.24\] That could be your additional add-on...
+**Angelica Hill:** \[43:57\] That could be your additional add-on...
 
 **Jerod Santo:** Yeah. Would it change your answer if it said "near me"...?
 
@@ -950,7 +950,7 @@ Speaking of Matthew, he thought it was the quirky one that I couldn't pronounce.
 
 **Adam Stacoviak:** Yeah, that's where I see the near me's.
 
-**Angelica Hill:** \[00:47:52.13\] That's like a button there. You can press near me.
+**Angelica Hill:** \[47:52\] That's like a button there. You can press near me.
 
 **Jerod Santo:** Right. \[unintelligible 00:47:53.02\]
 
@@ -1048,7 +1048,7 @@ Speaking of Matthew, he thought it was the quirky one that I couldn't pronounce.
 
 **Adam Stacoviak:** \[unintelligible 00:51:53.00\] see Minecraft... \[laughter\]
 
-**Jerod Santo:** \[00:51:56.12\] Alright, so after four rounds now, we have Matthew in a commanding lead with eight, followed by BMC with six, Angelica with five, John Henry and I are tied with four, and Adam's on the board now with one.
+**Jerod Santo:** \[51:56\] Alright, so after four rounds now, we have Matthew in a commanding lead with eight, followed by BMC with six, Angelica with five, John Henry and I are tied with four, and Adam's on the board now with one.
 
 **Adam Stacoviak:** Half a point.
 
@@ -1108,7 +1108,7 @@ Speaking of Matthew, he thought it was the quirky one that I couldn't pronounce.
 
 **Adam Stacoviak:** Yeah, please.
 
-**Jerod Santo:** \[00:56:14.17\] Number two, "A high school student hopelessly searches for love while continuously facing rejection, often physical." Four was "A bitter clown endeavors to rescue the young woman he loves from the lecherous baron who once betrayed him."
+**Jerod Santo:** \[56:14\] Number two, "A high school student hopelessly searches for love while continuously facing rejection, often physical." Four was "A bitter clown endeavors to rescue the young woman he loves from the lecherous baron who once betrayed him."
 
 **Adam Stacoviak:** That's Matt.
 
