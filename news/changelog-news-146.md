@@ -77,7 +77,7 @@ What surprises me about jj excitement/adoption is that nobody claims it's revolu
 
 It's now time for sponsored news!
 
-[Claude Code in your GitHub Actions](https://depot.dev/blog/claude-code-in-github-actions?utm_source=changelog&utm_campaign=changelog-news)
+[Claude Code in your GitHub Actions](https://depot.dev/blog/claude-code-in-GitHub-actions?utm_source=changelog&utm_campaign=changelog-news)
 
 If you’re using GitHub Actions, you’ll want to check this out.
 
