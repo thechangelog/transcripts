@@ -79,7 +79,7 @@
 
 **Scott Hanselman:** They need to stop giving us microphones. Yeah, I started my first podcast 20 plus years ago. I'm on episode 997. So I've done an episode every Thursday for the last 20 plus years. And then I've got Azure Friday, which is on episode 800... And then I've got Mark and Scott Learn To, which I've done, and then I did a couple of popular culture podcasts, and stuff like that. All of those turn into transcripts, which turns into material... I don't know if you saw my talk on day one of Microsoft Build, but we built a flow to reduce the toil of the transcripts, the show notes, all the tedium that you guys know very well about podcast production.
 
-**Adam Stacoviak:** \[00:08:10.25\] Yes.
+**Adam Stacoviak:** \[08:10\] Yes.
 
 **Scott Hanselman:** The part that's no fun. The talking part, the yapping is great. I love the yap.
 
@@ -233,7 +233,7 @@ You know what I mean? Where it's like, "Hey, we're going to go to Hawaii. Okay, 
 
 **Scott Hanselman:** Multi-city... Trip to Vegas, direct flight? Phone. Multi-city European trip? Laptop.
 
-**Jerod Santo:** \[00:12:09.28\] Yeah, good point.
+**Jerod Santo:** \[12:09\] Yeah, good point.
 
 **Scott Hanselman:** There's just a moment where the screen needs to be bigger. You've got to open a couple of tabs.
 
@@ -288,7 +288,7 @@ You know what I mean? Where it's like, "Hey, we're going to go to Hawaii. Okay, 
 
 **Jerod Santo:** Yeah, we were just talking yesterday with Amanda Silver about that with regards to SRE and some of the cool new features and availability of these agents who are basically keeping watch so you don't have to have anyone on pager duty... And then there's also that moment where it's like, you have agents talking to agents in the middle of the night, trying to do the right thing in order to not have a cascading failure... But man, you can sure create some cascading failures. You'd think if there's no humans around, and then they just come in in the morning and hope everything went right... So I think we have to ease into these things.
 
-**Scott Hanselman:** \[00:15:49.23\] The way I've been looking at it is it's the year of our Lord 2025, and there are companies that don't have good source control practices. They don't have DevOps. They don't have a build server. I was making build servers in the late '90s, and it's 30 years later and you can show up at the IT department of Little Debbie Snapcakes, or the chief architect in the Nebraska Department of Forestry... Just regular Joes and Janes, just doing their job, at the kind of fundamental meat and potatoes, bread and butter kind of companies, and they may not have -- maybe Little Debbie is very sophisticated. I don't know them. But I'm just pointing out just the regular places that aren't Microsoft, Google, Netflix or whatever. And they're just trying to have a clean build, good tests... If you throw agentic at that and they don't have good software development practices, it's just going to be messy.
+**Scott Hanselman:** \[15:49\] The way I've been looking at it is it's the year of our Lord 2025, and there are companies that don't have good source control practices. They don't have DevOps. They don't have a build server. I was making build servers in the late '90s, and it's 30 years later and you can show up at the IT department of Little Debbie Snapcakes, or the chief architect in the Nebraska Department of Forestry... Just regular Joes and Janes, just doing their job, at the kind of fundamental meat and potatoes, bread and butter kind of companies, and they may not have -- maybe Little Debbie is very sophisticated. I don't know them. But I'm just pointing out just the regular places that aren't Microsoft, Google, Netflix or whatever. And they're just trying to have a clean build, good tests... If you throw agentic at that and they don't have good software development practices, it's just going to be messy.
 
 **Jerod Santo:** Right.
 
@@ -331,7 +331,7 @@ You know what I mean? Where it's like, "Hey, we're going to go to Hawaii. Okay, 
 
 **Jerod Santo:** Yeah, it's all three. \[laughs\]
 
-**Scott Hanselman:** \[00:20:09.29\] All three of those. Potentially -- centering a div... People can die. So I would assign that to an agent. But hopefully, that would not be something that would be considered creative work. But I'm certainly not going to say to the agent "Make this prettier." That's the part I want to do. That's the fun part.
+**Scott Hanselman:** \[20:09\] All three of those. Potentially -- centering a div... People can die. So I would assign that to an agent. But hopefully, that would not be something that would be considered creative work. But I'm certainly not going to say to the agent "Make this prettier." That's the part I want to do. That's the fun part.
 
 **Jerod Santo:** Right.
 
@@ -449,7 +449,7 @@ You know what I mean? Where it's like, "Hey, we're going to go to Hawaii. Okay, 
 
 **Adam Stacoviak:** Are you responsible for like your revenue targets, your product targets, your user targets \[unintelligible 00:23:57.25\]
 
-**Scott Hanselman:** \[00:23:59.15\] Yeah, because everyone has different goals. I came to work at Microsoft like 16, 17 years ago, to do open source. I don't know if you know the story, but long story short, I had just finished working at a company called Corillian, that got bought by CheckFree, and then Fiserv, and I was the chief architect of this big banking system... And I had introduced open source to a lot of banks. And banks are very regulated environments, so open source and banks doesn't usually match. And then I ended up meeting Scott Guthrie at FOO Camp, Friends of O'Reilly. Tim O'Reilly used to hang out and have these folks visit... And I was down there, in their backyard, where they had set up some tents, and I met Scott Guthrie. And he's like "Yeah, we're looking at Ruby on Rails, and thinking about what the .NET version of that is", and it's like 2003 or 2004, and I was like "We should make .NET on Nails." And I thought that'd be cool. They didn't like that name. And we ended up making ASP.NET MVC, and we're like "We should be open source." And I was doing open source, and he seemed really cool, and I said I want to work remotely from Portland, and he's like "Sure, no problem." So I've been remote the entire time, my entire team is remote, spread all over the place... And fast-forward all these years later, with folks like Scott Hunter, and David Fowler, and all these other leaders in the .NET space... C\# and .NET are open source and run everywhere... And we went from a place where the lawyers would always say no by default, and now they say "Yes, and..." Like good improv.
+**Scott Hanselman:** \[23:59\] Yeah, because everyone has different goals. I came to work at Microsoft like 16, 17 years ago, to do open source. I don't know if you know the story, but long story short, I had just finished working at a company called Corillian, that got bought by CheckFree, and then Fiserv, and I was the chief architect of this big banking system... And I had introduced open source to a lot of banks. And banks are very regulated environments, so open source and banks doesn't usually match. And then I ended up meeting Scott Guthrie at FOO Camp, Friends of O'Reilly. Tim O'Reilly used to hang out and have these folks visit... And I was down there, in their backyard, where they had set up some tents, and I met Scott Guthrie. And he's like "Yeah, we're looking at Ruby on Rails, and thinking about what the .NET version of that is", and it's like 2003 or 2004, and I was like "We should make .NET on Nails." And I thought that'd be cool. They didn't like that name. And we ended up making ASP.NET MVC, and we're like "We should be open source." And I was doing open source, and he seemed really cool, and I said I want to work remotely from Portland, and he's like "Sure, no problem." So I've been remote the entire time, my entire team is remote, spread all over the place... And fast-forward all these years later, with folks like Scott Hunter, and David Fowler, and all these other leaders in the .NET space... C\# and .NET are open source and run everywhere... And we went from a place where the lawyers would always say no by default, and now they say "Yes, and..." Like good improv.
 
 **Jerod Santo:** I was going to say, what's the and?
 
@@ -461,7 +461,7 @@ You know what I mean? Where it's like, "Hey, we're going to go to Hawaii. Okay, 
 
 **Jerod Santo:** \[unintelligible 00:25:29.10\]
 
-**Scott Hanselman:** "Yes, and we can do this, and we could also open source that... And have you thought about this license? And..." They're partners. Rather than being haters, they are like "Yeah, let's do some cool stuff." And then we open-sourced DOS, if you remember, a couple of -- a year and a half ago. Why? Why not?
+**Scott Hanselman:** "Yes, and we can do this, and we could also open source that... And have you thought about this license? And..." They're partners. Rather than being haters, they are like "Yeah, let's do some cool stuff." And then we open sourced DOS, if you remember, a couple of -- a year and a half ago. Why? Why not?
 
 **Jerod Santo:** And WSL just yesterday.
 
@@ -497,11 +497,11 @@ So you've got a whole open source AI editor thing going there.
 
 **Scott Hanselman:** Yeah. Well, I actually think about it in terms of like a rising tide lifts all boats. Theoretically, that extension can now be used, and is open source, and people can explore it and make stuff better. So it's kind of a coopetition, a thumb war of kinds. Like "Well, okay, you're going to do that? Well, I'm going to do that." "I'm going to do that, and I'm going to make it free." "I'm going to do that, and I'm going to make it open source."
 
-\[00:28:01.28\] Theoretically, the whole point of this kind of free market capitalism is that everything gets better for everyone. Whether or not that happens or not is some macroeconomics person's job to figure out. But from my perspective, if something becomes open source, it's a good thing. I came here to open-source everything. I open-sourced 3D Movie Maker.
+\[28:01\] Theoretically, the whole point of this kind of free market capitalism is that everything gets better for everyone. Whether or not that happens or not is some macroeconomics person's job to figure out. But from my perspective, if something becomes open source, it's a good thing. I came here to open source everything. I open sourced 3D Movie Maker.
 
 **Jerod Santo:** I used to play 3D Movie Maker back in the day.
 
-**Scott Hanselman:** And they're like "Why?" They literally asked me what the business reason was for open-sourcing 3D Movie Maker. And me and Jeff Wilcox wrote "It's delightful."
+**Scott Hanselman:** And they're like "Why?" They literally asked me what the business reason was for open sourcing 3D Movie Maker. And me and Jeff Wilcox wrote "It's delightful."
 
 **Jerod Santo:** \[laughs\] I love that. "It's delightful."
 
@@ -519,9 +519,9 @@ So you've got a whole open source AI editor thing going there.
 
 **Scott Hanselman:** Why not? Because people don't do stuff on the internet just because it's awesome. Just do it because it's awesome.
 
-**Break**: \[00:28:59.22\]
+**Break**: \[28:59\]
 
-**Jerod Santo:** What's left to open-source then?
+**Jerod Santo:** What's left to open source then?
 
 **Scott Hanselman:** Windows.
 
@@ -529,7 +529,7 @@ So you've got a whole open source AI editor thing going there.
 
 **Jerod Santo:** Is that coming? Is that gonna happen?
 
-**Scott Hanselman:** No, but it would be cool. What if I open-source -- I've got to start small, though. We've got to do like Windows 3.1. And Windows 95. You've got to raise the boiling point of the water until they don't notice.
+**Scott Hanselman:** No, but it would be cool. What if I open source -- I've got to start small, though. We've got to do like Windows 3.1. And Windows 95. You've got to raise the boiling point of the water until they don't notice.
 
 **Jerod Santo:** Right.
 
@@ -555,7 +555,7 @@ Recently went back to Windows, and loved it. Except. The positive things --
 
 **Scott Hanselman:** Oh, yeah? What did you not like?
 
-**Adam Stacoviak:** \[00:32:10.06\] I think that there's some semi-user hostile things where you just inject it with certain things...
+**Adam Stacoviak:** \[32:10\] I think that there's some semi-user hostile things where you just inject it with certain things...
 
 **Scott Hanselman:** Oh, this is good.
 
@@ -697,7 +697,7 @@ Because they're going to immediately go into the command line and do everything 
 
 **Adam Stacoviak:** Yeah. Drawing on it, and making faces... Did you just say "I love you"? Oh, gosh... \[laughter\] Scott Hanselman loves Adam Stacoviak. Yes!
 
-**Scott Hanselman:** \[00:36:08.04\] And then there's click to do type stuff... So right now I just held down the Windows key and the whole screen just turned color, and I can go and summarize or create a bullet list from information that's on the screen...
+**Scott Hanselman:** \[36:08\] And then there's click to do type stuff... So right now I just held down the Windows key and the whole screen just turned color, and I can go and summarize or create a bullet list from information that's on the screen...
 
 **Adam Stacoviak:** This is dope, man.
 
@@ -750,7 +750,7 @@ And then being able to go like this - I'm just going to pull the command prompt 
 
 **Scott Hanselman:** Central processing unit. That's your general purpose running stuff.
 
-**Adam Stacoviak:** \[00:40:11.08\] Operating system, garbage collection, RAMs, all that stuff.
+**Adam Stacoviak:** \[40:11\] Operating system, garbage collection, RAMs, all that stuff.
 
 **Scott Hanselman:** It's your orchestrator.
 
@@ -832,7 +832,7 @@ Then we had things like the Intel MMX instruction set and different instruction 
 
 **Adam Stacoviak:** Okay.
 
-**Scott Hanselman:** \[00:43:47.08\] It's very specific. It's not a CPU, it's a tensor-based AI coprocessor. So if I were to go into something like this - I'm just going to grab a folder here. I can run the AI Toolkit, but I think on this machine here, I have a copy of LM Studio, Language Model Studio. This is just a partner. They're very nice folks. My buddy works there. So I'm loading up LM Studio here, which is kind of like Postman for AI. Just like the Microsoft AI Toolkit, you can get that for free, or Ollama, or Foundry Local, which we launched. I can open up Foundry Local and I can say "Hey, I want to run a particular model." I'm going to load up LLaMA. This is a 3 billion parameter model. Okay. And then I'm going to open up the Task Manager, and we're going to see this local model. I'm going to switch it actually into airplane mode, because I think that's important to show... Because sometimes people do demos and you don't believe them, because you're like "Yeah, this guy's full of crap."
+**Scott Hanselman:** \[43:47\] It's very specific. It's not a CPU, it's a tensor-based AI coprocessor. So if I were to go into something like this - I'm just going to grab a folder here. I can run the AI Toolkit, but I think on this machine here, I have a copy of LM Studio, Language Model Studio. This is just a partner. They're very nice folks. My buddy works there. So I'm loading up LM Studio here, which is kind of like Postman for AI. Just like the Microsoft AI Toolkit, you can get that for free, or Ollama, or Foundry Local, which we launched. I can open up Foundry Local and I can say "Hey, I want to run a particular model." I'm going to load up LLaMA. This is a 3 billion parameter model. Okay. And then I'm going to open up the Task Manager, and we're going to see this local model. I'm going to switch it actually into airplane mode, because I think that's important to show... Because sometimes people do demos and you don't believe them, because you're like "Yeah, this guy's full of crap."
 
 **Jerod Santo:** Yeah, "He's pulling a quick one on us."
 
@@ -874,7 +874,7 @@ Or another example would be an app called Pieces, Pieces.app. The fellow's walki
 
 **Jerod Santo:** Awesome.
 
-**Scott Hanselman:** \[00:47:53.16\] So Savo is his name. So Pieces will watch the work that you're doing, and instead of like Recall, where it's looking at the screen, it's actually looking at the clipboard in your tabs and stuff, because you're installing extensions. So if you use VS Code, you install an extension. You use Edge, you install an extension. You use Jira, you plug in an extension. And then as you're working, you go "Hang on a second... Wasn't I talking to so-and-so about that on Tuesday? What was that I was looking at? Oh, you were on Stack Overflow, exploring bubble sorts, so I can get that information for you." So it's permissively watching that stuff, and then the work happens locally...
+**Scott Hanselman:** \[47:53\] So Savo is his name. So Pieces will watch the work that you're doing, and instead of like Recall, where it's looking at the screen, it's actually looking at the clipboard in your tabs and stuff, because you're installing extensions. So if you use VS Code, you install an extension. You use Edge, you install an extension. You use Jira, you plug in an extension. And then as you're working, you go "Hang on a second... Wasn't I talking to so-and-so about that on Tuesday? What was that I was looking at? Oh, you were on Stack Overflow, exploring bubble sorts, so I can get that information for you." So it's permissively watching that stuff, and then the work happens locally...
 
 **Jerod Santo:** Nice.
 
@@ -890,7 +890,7 @@ I think it's kind of cool.
 
 **Adam Stacoviak:** That is super-cool.
 
-**Break**: \[00:48:39.16\]
+**Break**: \[48:39\]
 
 **Adam Stacoviak:** So I want to do that at the network level in my house. So my house has private AI...
 
@@ -948,7 +948,7 @@ I think it's kind of cool.
 
 **Adam Stacoviak:** It's like, when you buy a motherboard, the reason why it gets upgraded to do like 10-gigabit Ethernet versus not, or like 2.5 or 1, is because there's a chipset that can handle instructions, and you could do things like RAID, and NVMe, and how many PCIe slots can you configure...
 
-**Scott Hanselman:** \[00:52:00.28\] So each generation of system adds new op codes, effectively. Like, we talked about the early days 30 years ago with the 486, then things like MMX, the multimedia extensions for the Pentium, etc. Some of them make it on the front page of a non-tech RIP, and some of them don't. NPUs, I think, are the next thing, because everyone's going to have NPUs. And then the Onyx runtime and runtimes like it will hide that from us... Just like you don't really think about whether you have an NVIDIA or another 3D card; things like DirectX hide that from you. So you're going to have a layer on top of that work. Yeah, it's cool.
+**Scott Hanselman:** \[52:00\] So each generation of system adds new op codes, effectively. Like, we talked about the early days 30 years ago with the 486, then things like MMX, the multimedia extensions for the Pentium, etc. Some of them make it on the front page of a non-tech RIP, and some of them don't. NPUs, I think, are the next thing, because everyone's going to have NPUs. And then the Onyx runtime and runtimes like it will hide that from us... Just like you don't really think about whether you have an NVIDIA or another 3D card; things like DirectX hide that from you. So you're going to have a layer on top of that work. Yeah, it's cool.
 
 **Jerod Santo:** That's cool.
 
@@ -1028,7 +1028,7 @@ I think it's kind of cool.
 
 **Scott Hanselman:** So then I'll get a text from my family that say "Hey, dad's having a low blood sugar. Can you check on dad, is he okay?"
 
-**Jerod Santo:** \[00:56:10.00\] That's cool.
+**Jerod Santo:** \[56:10\] That's cool.
 
 **Scott Hanselman:** And that'll happen when I'm overseas as well. I could be 10 time zones away and they can watch my blood sugar.
 
