@@ -407,6 +407,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     </tr>
     <tr>
       <td align="center" valign="top" width="16.66%"><a href="https://sweeting.me"><img src="https://avatars.githubusercontent.com/u/511499?v=4?s=100" width="100px;" alt="Nick Sweeting"/><br /><sub><b>Nick Sweeting</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=pirate" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://whitep4nth3r.com/"><img src="https://avatars.githubusercontent.com/u/52798353?v=4?s=100" width="100px;" alt="Salma Alam-Naylor"/><br /><sub><b>Salma Alam-Naylor</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=whitep4nth3r" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
