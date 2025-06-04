@@ -366,7 +366,7 @@ For the actual main we don't do this, because it's actually a good thing to have
 
 **Andreas Møller:** We hired a really great person for education, a common friend, I believe, to help us with that. Salma Alam-Naylor.
 
-**Jerod Santo:** Was that Selma? That's her role?
+**Jerod Santo:** Was that Salma? That's her role?
 
 **Andreas Møller:** Yeah.
 
