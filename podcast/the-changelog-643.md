@@ -44,7 +44,7 @@ And I've seen tools like Webflow, and you can build visual tools for building we
 
 **Adam Stacoviak:** And honestly, because you'd done all that work, because you've done all the thinking behind, you're like "Don't change anything, okay?! This is a brittle thing I'm handing you. Please don't change anything, because we've gotten signoff from here, we've gotten business concern handle there, we've got colors established here..." Hopefully, it was that thought through. But for the most part, it was pretty good and thought through, "Don't change it, please" and "Please, can we make this happen?" And so I've been on that side, and it's such a... It's tough for both sides, really. I think we all want better tools.
 
-**Andreas Møller:** It really is. And the interesting thing is my co-founder - his name is Casper - he is a designer. And his motivation for joining -- like, when I showed him this the first time, he almost to the word told me the same thing. He was saying, like, the frustration... Because it's not just that it's limiting, but it's also the frustration of then seeing what you've done interpreted through someone who thinks blue is blue.
+**Andreas Møller:** It really is. And the interesting thing is my co-founder - his name is Kasper - he is a designer. And his motivation for joining -- like, when I showed him this the first time, he almost to the word told me the same thing. He was saying, like, the frustration... Because it's not just that it's limiting, but it's also the frustration of then seeing what you've done interpreted through someone who thinks blue is blue.
 
 **Adam Stacoviak:** Right.
 
@@ -364,7 +364,7 @@ For the actual main we don't do this, because it's actually a good thing to have
 
 **Jerod Santo:** How are you approaching education?
 
-**Andreas Møller:** We hired a really great person for education, a common friend, I believe, to help us with that. Salma Naylor.
+**Andreas Møller:** We hired a really great person for education, a common friend, I believe, to help us with that. Salma Alam-Naylor.
 
 **Jerod Santo:** Was that Selma? That's her role?
 
