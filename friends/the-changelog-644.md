@@ -12,7 +12,7 @@
 
 **Adam Stacoviak:** ...all the things. Where should we begin? What should the world know about WSL?
 
-**Craig Loewen:** So the big news this week is that we took the Windows Subsystem for Linux and we open-sourced it. So what exactly does that mean? Because we actually have a bunch of different aspects of WSL, it touches a lot of different places in the OS... And to put it in a sentence, what we did is we took the code, the logic that says "Give me a Linux VM, make all of my Windows files access it, give me access to the GPU" - we took all of that, and that is open-sourced. And so that joins some of the other projects that we already have open-sourced. The kernel that powers WSL is open source, as well as our graphical library, basically repository called WSLG, to power GUI apps in WSL - also open source.
+**Craig Loewen:** So the big news this week is that we took the Windows Subsystem for Linux and we open sourced it. So what exactly does that mean? Because we actually have a bunch of different aspects of WSL, it touches a lot of different places in the OS... And to put it in a sentence, what we did is we took the code, the logic that says "Give me a Linux VM, make all of my Windows files access it, give me access to the GPU" - we took all of that, and that is open sourced. And so that joins some of the other projects that we already have open sourced. The kernel that powers WSL is open source, as well as our graphical library, basically repository called WSLG, to power GUI apps in WSL - also open source.
 
 **Jerod Santo:** Okay.
 
@@ -24,7 +24,7 @@
 
 **Adam Stacoviak:** It does.
 
-**Craig Loewen:** ...so now we're able to fully open-source it.
+**Craig Loewen:** ...so now we're able to fully open source it.
 
 **Jerod Santo:** Gotcha.
 
@@ -46,7 +46,7 @@
 
 So for your question of "Hey, how would I get dev mode?", I would really recommend checking out the advanced settings page, and you can like flip through that and it should really quickly set you up.
 
-**Adam Stacoviak:** \[00:07:51.25\] How about this? How about this? Instead of that, how about y'all create a -- would you call it a TUI in PowerShell?
+**Adam Stacoviak:** \[07:51\] How about this? How about this? Instead of that, how about y'all create a -- would you call it a TUI in PowerShell?
 
 **Craig Loewen:** Oh, I see... Yeah...
 
@@ -86,7 +86,7 @@ So for your question of "Hey, how would I get dev mode?", I would really recomme
 
 **Jerod Santo:** Without whiteboarding, you know... Do your best, but --
 
-**Craig Loewen:** \[00:12:11.13\] You're right. So the architecture is - we actually have a virtual machine that powers it. And it's a virtual machine that we actually took that technology - "took" is in quotes - from Azure. And so it's a utility VM, a lightweight utility VM. And we have a kernel in it that's preloaded, so we kind of skip the necessary boot process... We basically go from cold start to ready to -- you know, a Bash terminal that's ready for input in about two seconds on average, which is like blindingly fast to pull up a full VM.
+**Craig Loewen:** \[12:11\] You're right. So the architecture is - we actually have a virtual machine that powers it. And it's a virtual machine that we actually took that technology - "took" is in quotes - from Azure. And so it's a utility VM, a lightweight utility VM. And we have a kernel in it that's preloaded, so we kind of skip the necessary boot process... We basically go from cold start to ready to -- you know, a Bash terminal that's ready for input in about two seconds on average, which is like blindingly fast to pull up a full VM.
 
 **Jerod Santo:** Sure.
 
@@ -94,7 +94,7 @@ So for your question of "Hey, how would I get dev mode?", I would really recomme
 
 So we get at one of those lightweight VMs, we load the Linux kernel in it, which is included with the WSL package, and then we start a single VM, and we have our own custom init process inside of that. So we start this Linux process, and then we take a look and say "Okay, what distro is the user loading?" So the user is saying "I'm loading Ubuntu." And we say okay, we find that VHD, where the user has their Ubuntu data, and then we load that and mount that into our WSL VM.
 
-And so all of your distros, when you're running them simultaneously in the same VM, they're running almost like containers, because they're separated by namespaces in Linux. So you're running it there, and then we do some final work to basically do some plug and play bits. Like, we mount your Windows drives for you, we do some work to mount your GPU, we have a special GPU device... Basically, we do the finishing touches, and then after that we load that VM and connect to the standard in and out, then you're done. So it touches a lot of different parts in the OS, but it's pretty cool that that all happens in two seconds.
+And so all of your distros, when you're running them simultaneously in the same VM, they're running almost like containers, because they're separated by namespaces in Linux. So you're running it there, and then we do some final work to basically do some plug and play bits. Like, we mount your Windows drives for you, we do some work to mount your GPU, we have a special GPU device... Basically, we do the finishing touches, and then after that we load that VM and connect to the STDIN and out, then you're done. So it touches a lot of different parts in the OS, but it's pretty cool that that all happens in two seconds.
 
 **Jerod Santo:** In two seconds.
 
@@ -120,7 +120,7 @@ And so all of your distros, when you're running them simultaneously in the same 
 
 **Craig Loewen:** Okay.
 
-**Adam Stacoviak:** \[00:16:17.27\] Are you a fan of Proxmox? Do you understand Proxmox, or what it is?
+**Adam Stacoviak:** \[16:17\] Are you a fan of Proxmox? Do you understand Proxmox, or what it is?
 
 **Craig Loewen:** No.
 
@@ -178,7 +178,7 @@ And so all of your distros, when you're running them simultaneously in the same 
 
 **Adam Stacoviak:** Gotcha. So is Hyper-V a non-Microsoft product? Is it somebody else's? Does it cost money? Is it open source? What is Hyper-V?
 
-**Craig Loewen:** \[00:19:52.03\] So Hyper-V is based in Windows. It's a Windows feature. So it's an optional component that you can turn on and off inside of Windows... And it's available only on ProSKUs, and other SKUs as well. So it's not available on \[unintelligible 00:20:03.00\]
+**Craig Loewen:** \[19:52\] So Hyper-V is based in Windows. It's a Windows feature. So it's an optional component that you can turn on and off inside of Windows... And it's available only on ProSKUs, and other SKUs as well. So it's not available on \[unintelligible 00:20:03.00\]
 
 **Adam Stacoviak:** I have Pro, I'm cool.
 
@@ -232,7 +232,7 @@ Surprisingly, there's actually scenarios where WSL is faster than bare metal Lin
 
 **Craig Loewen:** Two days at this point.
 
-**Jerod Santo:** \[00:24:04.00\] Officially, perhaps. The initial open source commit was five days ago.
+**Jerod Santo:** \[24:04\] Officially, perhaps. The initial open source commit was five days ago.
 
 **Craig Loewen:** Right. That's when we froze it. We froze the build.
 
@@ -278,7 +278,7 @@ Surprisingly, there's actually scenarios where WSL is faster than bare metal Lin
 
 **Adam Stacoviak:** That's kind of cool. Even though it wasn't open source, you were doing open things.
 
-**Craig Loewen:** Yeah, exactly. And that was pretty awesome for us, and really helpful. We've gotten so many good community feedback, and requests, and... What's awesome is even before we open-sourced, people were making projects for and with WSL. Some users would take a look at our code when we'd make updates and be like "Oh, they added the string" of a feature that we hadn't announced, and then write a blog about how to go access and use that. Someone even wrote a fix with a private binary of how to use WSL with 64 cores and more... So we're really excited to open-source now and finally be able to say "Hey, okay, we know there's tons of excitement. Now you do have full access to really party with WSL."
+**Craig Loewen:** Yeah, exactly. And that was pretty awesome for us, and really helpful. We've gotten so many good community feedback, and requests, and... What's awesome is even before we open sourced, people were making projects for and with WSL. Some users would take a look at our code when we'd make updates and be like "Oh, they added the string" of a feature that we hadn't announced, and then write a blog about how to go access and use that. Someone even wrote a fix with a private binary of how to use WSL with 64 cores and more... So we're really excited to open source now and finally be able to say "Hey, okay, we know there's tons of excitement. Now you do have full access to really party with WSL."
 
 **Adam Stacoviak:** Yeah.
 
@@ -300,7 +300,7 @@ I think it comes down to very clearly having a mission statement and goal for WS
 
 **Craig Loewen:** For sure. I would say it's a variety, and it's changed over time. So the 1,100 issues that are open right now are just -- a lot of them are kind of feature requests of things we'd like to see... And it's definitely a variety of things, and there's so many more closed issues, actually... I think we're at like maybe 10,000 or more.
 
-**Jerod Santo:** \[00:28:14.20\] I can tell you. Yes, 10,400. So I'm not picking on you by saying there's 1,100 open.
+**Jerod Santo:** \[28:14\] I can tell you. Yes, 10,400. So I'm not picking on you by saying there's 1,100 open.
 
 **Craig Loewen:** Right, right. Only 10% are still open. It's not bad.
 
@@ -346,7 +346,7 @@ I think it comes down to very clearly having a mission statement and goal for WS
 
 **Jerod Santo:** There's a place I'm driving towards... Which is that I think backslashes are trash.
 
-\[00:30:33.08\]
+\[30:33\]
 
 **Jerod Santo:** I despise backslashes. Okay? They disgust me. This is one of the primary reasons why I don't like Windows. It uses backslashes in its path names. Forward slashes are cool, I'm down with underscores, hyphens are okay... The pipe character is fine... I'm even okay with the tilde, and back ticks... All good. But backslashes - get those dreadful characters out of my face before I slap someone. And I'm looking at you, PHP namespaces...
 
@@ -450,7 +450,7 @@ Matt, do you have -- have you thought of any good lyrics? Any rhythms and rhymes
 
 **Adam Stacoviak:** Some would say neither... Only the one. Only the one, sorry.
 
-**Craig Loewen:** \[00:36:12.21\] And some people prefer GUI... Like, their editor, they run it fully in Linux. They run a Linux editor from WSL, and other -- I'm a VS Code fan, and I love Vim, so I have Vim bindings in VS Code, and I run everything that connects to WSL. So it's the Windows UI, with Linux backend in VS Code. That's how I set it up, which is pretty awesome.
+**Craig Loewen:** \[36:12\] And some people prefer GUI... Like, their editor, they run it fully in Linux. They run a Linux editor from WSL, and other -- I'm a VS Code fan, and I love Vim, so I have Vim bindings in VS Code, and I run everything that connects to WSL. So it's the Windows UI, with Linux backend in VS Code. That's how I set it up, which is pretty awesome.
 
 **Adam Stacoviak:** That's so cool. I mean, it really is cool.
 
@@ -488,7 +488,7 @@ Matt, do you have -- have you thought of any good lyrics? Any rhythms and rhymes
 
 **Adam Stacoviak:** I don't think so.
 
-**Craig Loewen:** Okay, let me know. File a bug. Github.com/microsoft --
+**Craig Loewen:** Okay, let me know. File a bug. github.com/microsoft --
 
 **Adam Stacoviak:** Let's assume I did and I canceled it, because I was too excited just to play with the toy... I don't like the bother me before I go play thing, so I don't know if it's a bother me before I go play thing...
 
@@ -516,7 +516,7 @@ Matt, do you have -- have you thought of any good lyrics? Any rhythms and rhymes
 
 **Craig Loewen:** Thank you for having me. It was awesome.
 
-**Break**: \[00:39:23.27\]
+**Break**: \[39:23\]
 
 **Jerod Santo:** Mads, how is your last name pronounced?
 
@@ -642,7 +642,7 @@ Matt, do you have -- have you thought of any good lyrics? Any rhythms and rhymes
 
 **Adam Stacoviak:** How did you feel about that comeback moment?
 
-**Mads Torgersen:** \[00:44:21.25\] Daunting was the main emotion. I was like "Whoa..." Talking about what does it feel to be in my shoes... Anders left some pretty big ones.
+**Mads Torgersen:** \[44:21\] Daunting was the main emotion. I was like "Whoa..." Talking about what does it feel to be in my shoes... Anders left some pretty big ones.
 
 **Jerod Santo:** Right?
 
@@ -670,7 +670,7 @@ So taking the effort up front to have that, maybe a little more laborious proces
 
 **Jerod Santo:** Zero. So take us to C\# Landia, you know, as visitors here... And maybe characterize the language, and we'll talk about kind of where it's been, where it's going.
 
-**Mads Torgersen:** \[00:47:58.06\] Yeah. I mean, C\# has been on quite the journey in terms of where we see ourselves in the world. It started out as a Windows-only closed source, mainly for apps and a little bit of server stuff back when that was - you know, how you said that. And now it's open source, cross-platform, and general purpose, used for vast numbers of things, not all of which Microsoft has a hand in, like gaming, for instance, with Unity and other platforms. It started out being, some would say suspiciously similar to Java, in some ways. It was sort of part of that same wave of object-oriented programming languages finally hitting the mainstream. It was always more -- it was always a bigger language than Java. It would sort of start at the same high abstraction level, but it would reach down further. C\# would have structs, and even unsafe code from the outset, to have interop with C, and with native code, to have ways of having better performance than you would have your only choice is objects and garbage collection, like it was in Java.
+**Mads Torgersen:** \[47:58\] Yeah. I mean, C\# has been on quite the journey in terms of where we see ourselves in the world. It started out as a Windows-only closed source, mainly for apps and a little bit of server stuff back when that was - you know, how you said that. And now it's open source, cross-platform, and general purpose, used for vast numbers of things, not all of which Microsoft has a hand in, like gaming, for instance, with Unity and other platforms. It started out being, some would say suspiciously similar to Java, in some ways. It was sort of part of that same wave of object-oriented programming languages finally hitting the mainstream. It was always more -- it was always a bigger language than Java. It would sort of start at the same high abstraction level, but it would reach down further. C\# would have structs, and even unsafe code from the outset, to have interop with C, and with native code, to have ways of having better performance than you would have your only choice is objects and garbage collection, like it was in Java.
 
 So that's kind of how we started out... And in terms of the unsafe code, of course, it's still there. You can still do it. We've cleaned up our act a lot by filling out that kind of bottom abstraction layer of C\# with safer constructs, that are more -- you don't have pointer arithmetic code so much anymore.
 
@@ -694,7 +694,7 @@ So that's kind of how we started out... And in terms of the unsafe code, of cour
 
 **Mads Torgersen:** \[laughs\] Yeah. I mean, we look kind of all over the place, we take some of the popular languages today... Actually, all the popular languages today, most of them seem to have taken a thorough look at functional programming, even though there isn't a language you can say is a super-popular functional programming language. But there's stuff like Scala, that is somewhat popular in industry use... We all kind of look at that.
 
-\[00:52:05.15\] Then we -- you know, newer languages that have burst onto the scene, for various reasons, like Swift, for instance, we'll definitely look at. They have really nifty things about patterns that we were inspired by. We look at something like Kotlin, that they have a good flair for handsome syntax... Sometimes we'll be inspired by that. Python is really big, especially with AI now, but also in general, in terms of data processing and so on... The lack of strong typing in Python means that you can have some really elegant syntax sometimes for working with big data, for instance.
+\[52:05\] Then we -- you know, newer languages that have burst onto the scene, for various reasons, like Swift, for instance, we'll definitely look at. They have really nifty things about patterns that we were inspired by. We look at something like Kotlin, that they have a good flair for handsome syntax... Sometimes we'll be inspired by that. Python is really big, especially with AI now, but also in general, in terms of data processing and so on... The lack of strong typing in Python means that you can have some really elegant syntax sometimes for working with big data, for instance.
 
 And so we're a strongly typed language, but we still look to Python for like "What are the things that people find really convenient? And can we do a thing that doesn't sacrifice the strong typing, and the kind of reliability of working in that environment, while being as nifty?", you know. So either features directly, that we were kind of inspired by Python for, like how they do indexing, and ranges, and so on... We stole a lot of that. Also just the feel of it. It used to be that every collection type in C\# would kind of have its own syntax for how you would initialize, how you create a new one with some elements. And now we have collection expressions, which are a nice syntax, that works across all the different collections, even your own.
 
@@ -714,7 +714,7 @@ So we try to -- yeah, we take a lot of that inspiration, but what we choose to t
 
 **Jerod Santo:** Very cool. What's some of the functional stuff that you brought in over the years?
 
-**Mads Torgersen:** \[00:56:01.22\] So much... I want to say the first thing was generics, really. Like, parametric polymorphism came in from functional languages to Java and C\# and other programming languages around the early 2000s, I guess. Lambda expressions... We had a whole round of stealing. In C\# 3, when I first joined C\# almost 20 years ago, we had a very functionally-inspired push for like embracing querying as part of the programming language. We had a SQL-like syntax in C\#, that boils down to using lambda expressions, and code quoting, and all kinds of things that come from that.
+**Mads Torgersen:** \[56:01\] So much... I want to say the first thing was generics, really. Like, parametric polymorphism came in from functional languages to Java and C\# and other programming languages around the early 2000s, I guess. Lambda expressions... We had a whole round of stealing. In C\# 3, when I first joined C\# almost 20 years ago, we had a very functionally-inspired push for like embracing querying as part of the programming language. We had a SQL-like syntax in C\#, that boils down to using lambda expressions, and code quoting, and all kinds of things that come from that.
 
 **Jerod Santo:** Yeah. I've seen some of that and it's really cool.
 
@@ -738,7 +738,7 @@ So we try to -- yeah, we take a lot of that inspiration, but what we choose to t
 
 **Jerod Santo:** Right. Building \[unintelligible 00:59:34.18\]
 
-**Mads Torgersen:** \[00:59:38.04\] ...in a fluent style, just like you would do with pipelining in a functional language. And now, almost two decades later, the next version of C\# will have not just extension methods, we will start adding extension properties, and other kinds of \[unintelligible 00:59:50.25\] to kind of capitalize more on that composability that extension methods give.
+**Mads Torgersen:** \[59:38\] ...in a fluent style, just like you would do with pipelining in a functional language. And now, almost two decades later, the next version of C\# will have not just extension methods, we will start adding extension properties, and other kinds of \[unintelligible 00:59:50.25\] to kind of capitalize more on that composability that extension methods give.
 
 **Jerod Santo:** Gotcha. How do you add all this stuff and then maintain backwards compatibility and performance?
 
