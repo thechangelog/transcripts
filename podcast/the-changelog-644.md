@@ -42,7 +42,7 @@ And for me, I think initially, it was a way for me to have more control and more
 
 **Amanda Silver:** They were each on their third job or something like that by the time I graduated from college. And so I thought, when I was graduating, like -- I thought I was going to be a scientist, because my dad was a scientist... But I thought, "You know, if I'm going to go get a PhD or whatever, maybe I should try industry a little bit." And so on a long shot, I just went to the tech career fair and handed out my resume to different companies that I thought would pay me decently in cash, because I wasn't interested in stock at the time... And Microsoft seemed like a relatively stable company. And Google at the time was a startup, and I was like "Not going to apply."
 
-**Jerod Santo:** \[00:08:05.20\] \[laughs\] Too risky.
+**Jerod Santo:** \[08:05\] \[laughs\] Too risky.
 
 **Amanda Silver:** Too risky.
 
@@ -68,7 +68,7 @@ TypeScript, originally, when we first started, was really trying to answer the c
 
 **Amanda Silver:** I think the argument was... So our objective at the time was to make sure that our internal developers didn't end up on a different path than the broad open source ecosystem that was benefiting from the evolution of JavaScript. We had decades of experience at that point of building our own C++ compiler, that kind of became really more the internal Microsoft C++ compiler, and was divorced from other paths of C++ compilers that were being used more broadly in the industry... And there was a challenge in terms of trying to keep them aligned. So over time, the internal Microsoft developers didn't get to benefit from what was happening in the broad industry on the C++ compiler. So with that experience, looking at this problem of "How do we address this large-scale JavaScript solution challenge?", we decided first of all we have to kind of stay in line with what the broad web industry is going to end up using...
 
-\[00:12:01.18\] But then secondly, we also thought that if that was going to be the case, if we wanted to create something where we call it "first party equals third party", meaning that our developers internal to Microsoft use the same tools that our third party developers use, our external developers use.
+\[12:01\] But then secondly, we also thought that if that was going to be the case, if we wanted to create something where we call it "first party equals third party", meaning that our developers internal to Microsoft use the same tools that our third party developers use, our external developers use.
 
 **Jerod Santo:** Okay...
 
@@ -96,7 +96,7 @@ Then there's kind of like the indifference, or treating Microsoft products as th
 
 **Amanda Silver:** Well, that was the next thing that happened after TypeScript. We started to get a little bit of traction with TypeScript. And actually, there was a fantastic partnership that we had built with the Google Angular team at the time, that actually kind of got TypeScript... You know, in some senses, no programming language starts to get traction until it has frameworks. And so it was the Angular team at Google that we had a really close relationship with in building TypeScript in that era. And this was, again, 2011-2012... There was a lot of fickleness in the web community in terms of different frontend stacks. It was Angular, then React, and then Vue, and so on and so forth. But six or seven different frontend frameworks kind of made it through in those four or five years, that were very, very popular. And what became fairly obvious to us was we needed to create something that was a little bit more durable, that would be able to survive those different epochs of frontend frameworks. And I think over time, TypeScript kind of became that thing - which was great - and started to get more of the frontend community to use something in our stack, almost to their chagrin or reluctance or whatever... But I think that started to open the door. And then --
 
-**Jerod Santo:** \[00:16:15.05\] And then VS Code kicked the door open. \[laughter\] Am I right?
+**Jerod Santo:** \[16:15\] And then VS Code kicked the door open. \[laughter\] Am I right?
 
 **Amanda Silver:** And then we introduced VS Code. And I think that, in a lot of senses, TypeScript and VS Code actually went really hand-in-hand... Because part of what TypeScript was doing was creating static types over JavaScript. And the tooling for JavaScript wasn't particularly good at the time, because it was very hard to build great tooling for a dynamic programming language. And what TypeScript did is it created a way that we could create fantastic tooling. Whether you were writing code in TypeScript or in JavaScript, it didn't matter. We could create great tooling based on the TypeScript language service in VS Code.
 
@@ -106,7 +106,7 @@ And so the hypothesis was that if we created a great developer experience for Ty
 
 **Amanda Silver:** Well, I mean, I will say, certainly while I was present and helping and involved in shaping the strategy -- I definitely cannot take credit for the overall direction, and whether it was Anders Heilsberg helping shepherd TypeScript to come to the fore, or Erich Gamma and team kind of building VS Code... You know, just incredible people that I've gotten to work with over the years.
 
-**Break**: \[00:18:36.11\]
+**Break**: \[18:36\]
 
 **Jerod Santo:** So now you have VS Code, and TypeScript, and GitHub...
 
@@ -180,7 +180,7 @@ And so the hypothesis was that if we created a great developer experience for Ty
 
 **Amanda Silver:** I would say, actually, that developers are one of the most empowered audiences across all of the audiences that we target. That they vote with their feet more than any other audience that exists, whether it's consumer, enterprise etc. Enterprise - totally different way that they drive decision-making. Developers - it's an end-user consumer audience that basically chooses things based on what's working for them.
 
-\[00:26:13.11\] And we see all the time developers picking up new coding editors, picking up new frameworks... They're technology enthusiasts. That's actually one of the things that makes the job so rewarding, is I can launch something at the beginning of the day, and by the end of the day I know if it was a hit or a dud, because I have so many early adopters that are kicking the tires. And I think that we don't have a captive audience at all with our developer tools. I think that developers have a tremendous amount of agency.
+\[26:13\] And we see all the time developers picking up new coding editors, picking up new frameworks... They're technology enthusiasts. That's actually one of the things that makes the job so rewarding, is I can launch something at the beginning of the day, and by the end of the day I know if it was a hit or a dud, because I have so many early adopters that are kicking the tires. And I think that we don't have a captive audience at all with our developer tools. I think that developers have a tremendous amount of agency.
 
 **Jerod Santo:** Yeah.
 
@@ -198,7 +198,7 @@ So for Copilot, we started with completions, and the completions at first were j
 
 But agent mode - it is shocking what you can accomplish in just a really short amount of time, just letting it go. Basically, what you do with that -- and it's also had its own acceleration. But what you do with agent mode is you go into the prompt, into the Copilot chat experience, and you switch it to agent mode, pick a model, whether you want Sonnet 3.7, or you want GPT 4.0, or whatever you want to use... And then you give it a prompt, like "Add tests for this particular project." And it will then iterate and self-evaluate as it's iterating.
 
-\[00:29:53.13\] So for example, in my demo earlier today, all I did was I gave it a source code repo for a website, and I said "Test this solution and write some tests, write some integration tests for me." And it basically started to do all of the automation to bring up the Playwright Automation Framework, bring up the website, start to traverse all of the different paths that it could go through in terms of the various different customer journeys on the website, and then it started to generate the tests themselves. And so what used to take me hours, maybe a half day, I can now get done in just a couple of minutes using agent mode. And so I think that's really changing the equation in terms of what these tools are capable of.
+\[29:53\] So for example, in my demo earlier today, all I did was I gave it a source code repo for a website, and I said "Test this solution and write some tests, write some integration tests for me." And it basically started to do all of the automation to bring up the Playwright Automation Framework, bring up the website, start to traverse all of the different paths that it could go through in terms of the various different customer journeys on the website, and then it started to generate the tests themselves. And so what used to take me hours, maybe a half day, I can now get done in just a couple of minutes using agent mode. And so I think that's really changing the equation in terms of what these tools are capable of.
 
 **Jerod Santo:** Yeah, it's really ramping up the potential gains. One thing that I fear with that is the more you change, the harder it is to find the thing that went wrong. It's like the needle in the haystack problem, where if it's an auto-complete of a single line - cool, I can just see what it says. If it's a function, I can kind of read through that real quick, or maybe go in and make changes. If it's a file - okay, now it's getting big. But as it's like multi-file changes, with all of this stuff going on, and it's been thinking for four minutes, and I'm not sure what it was thinking... It'll tell me if I want to look at it, but you know, here's this big change we're going to make...
 
@@ -232,7 +232,7 @@ But agent mode - it is shocking what you can accomplish in just a really short a
 
 **Adam Stacoviak:** Well, don't worry, because at the end you can just unleash your agent, and just say "Agent, check that."
 
-**Amanda Silver:** \[00:33:47.18\] That's right. I mean, you could certainly have parallel adversarial agents kind of working against each other. You could set up that kind of system where you basically start to build your code, you then want to say "Okay, I'm going to have one agent that's going to be focused on the readability and maintainability of this code, and another agent that's going to be focused on maybe the performance and optimization of the code." And you could have both of those things kind of going at the same time based on -- really, at the end of the day, in a sense, you kind of can create these things by virtue of just providing the prompt. You just say "Oh, Copilot, I have a new issue. I want to optimize the performance for this particular page."
+**Amanda Silver:** \[33:47\] That's right. I mean, you could certainly have parallel adversarial agents kind of working against each other. You could set up that kind of system where you basically start to build your code, you then want to say "Okay, I'm going to have one agent that's going to be focused on the readability and maintainability of this code, and another agent that's going to be focused on maybe the performance and optimization of the code." And you could have both of those things kind of going at the same time based on -- really, at the end of the day, in a sense, you kind of can create these things by virtue of just providing the prompt. You just say "Oh, Copilot, I have a new issue. I want to optimize the performance for this particular page."
 
 **Jerod Santo:** Right.
 
@@ -294,7 +294,7 @@ But agent mode - it is shocking what you can accomplish in just a really short a
 
 **Jerod Santo:** The worst.
 
-**Amanda Silver:** \[00:38:10.25\] That's the thankless job that, as a developer, you hate that --
+**Amanda Silver:** \[38:10\] That's the thankless job that, as a developer, you hate that --
 
 **Adam Stacoviak:** Didn't somebody spend 10 years doing that stuff?
 
@@ -324,7 +324,7 @@ But I think the other thing that's super-important in all of this is there are a
 
 **Jerod Santo:** Sure.
 
-**Amanda Silver:** \[00:41:47.22\] And I think that a lot of the new capabilities in AI allow us to offload, at least the less complex cases of site reliability engineering response to agents. So one of the things that we talked about today is we introduced a new site reliability engineer SRE Agent that can actually deal with - if my app suddenly starts to be unhealthy, it can actually go and do a profile, and understand if it's a memory issue, and even start to auto scale your infrastructure to be able to respond and mitigate the issue. It may not be the permanent right repair item or fix - that might come a little bit later - but it can do that first line of response. And for us inside Microsoft, we've actually been applying it internally significantly and have dealt with a ton of -- like, hundreds; I think we're probably at thousands now, of incidents that have been managed in this way... Such that developers never needed to get involved. And then they just review the repair items from the recommendations from this autonomous SRE agent.
+**Amanda Silver:** \[41:47\] And I think that a lot of the new capabilities in AI allow us to offload, at least the less complex cases of site reliability engineering response to agents. So one of the things that we talked about today is we introduced a new site reliability engineer SRE Agent that can actually deal with - if my app suddenly starts to be unhealthy, it can actually go and do a profile, and understand if it's a memory issue, and even start to auto scale your infrastructure to be able to respond and mitigate the issue. It may not be the permanent right repair item or fix - that might come a little bit later - but it can do that first line of response. And for us inside Microsoft, we've actually been applying it internally significantly and have dealt with a ton of -- like, hundreds; I think we're probably at thousands now, of incidents that have been managed in this way... Such that developers never needed to get involved. And then they just review the repair items from the recommendations from this autonomous SRE agent.
 
 So I think that's pretty cool, because that -- there's aspects of the developer job that's all about creation, and you love that moment where you when you get to write new code, you get to scaffold out new... I always loved scaffolding out new class libraries, and frameworks, and just doing the first rough-in of the application. That was always my favorite part. But this means that developers just -- they don't have to get woken up in the middle of the night, and their job doesn't have to be awful.
 
@@ -366,7 +366,7 @@ So I think that's pretty cool, because that -- there's aspects of the developer 
 
 **Amanda Silver:** Yeah. When we talk about like what are the skill sets that developers are going to need to have for the future, it's still the same complex systems reasoning. When you think about "If I have multiple policies that I am applying to how to manage infrastructure during a live site incident" - that in and of itself, that set of policy rules, that is a complex system. And you have to think through "Well, what happens when this rule conflicts with that rule? How is the system going to respond?" So I think that's where a lot of our brain time is going to start going, is thinking about how these different kinds of systems and agents that are somewhat autonomous are going to interact.
 
-**Break**: \[00:46:29.07\]
+**Break**: \[46:29\]
 
 **Adam Stacoviak:** Are you thinking about how these agents manifest as a visible layer to this agentic internet and web that was alluded to? Because I'm thinking like --
 
@@ -434,7 +434,7 @@ So I think that's pretty cool, because that -- there's aspects of the developer 
 
 **Jerod Santo:** On acid, yes. Which - maybe those are the models he's working with. But you know, a thing that you don't ultimately know what it's going to do. Now, you can train, and fine-tune, and guard, and watch agents watching agents all you want... However, we've seen at scale the internet operating, distributed systems at scale - things go wrong in ways that are sometimes very quick, very catastrophic, and compounding and cascading.
 
-\[00:52:09.02\] One thing that I think about is some of these stock market trades, when you have quick corrections or crashes is because you have software making margin calls and trading with software programs, and eventually what happens is the New York Stock Exchange actually just stops everything and is like "Let's chill out here."
+\[52:09\] One thing that I think about is some of these stock market trades, when you have quick corrections or crashes is because you have software making margin calls and trading with software programs, and eventually what happens is the New York Stock Exchange actually just stops everything and is like "Let's chill out here."
 
 **Amanda Silver:** Yeah.
 
@@ -482,7 +482,7 @@ And I think that the fact that we've integrated GitHub models -- sorry, an AI Fo
 
 **Jerod Santo:** That's awesome. No further questions... \[laughter\] I don't have any questions about that. I just think it's cool. And you're not the only ones who's doing that. A lot of people are, and I think it's great. I love just giving developers choice, versus saying "No, you're going to use this. It's the best one. Trust us."
 
-**Amanda Silver:** \[00:56:10.13\] Always. Always.
+**Amanda Silver:** \[56:10\] Always. Always.
 
 **Jerod Santo:** Don't do that to me. That being said, which one's the best one? \[laughter\]
 
@@ -550,7 +550,7 @@ And I think that the fact that we've integrated GitHub models -- sorry, an AI Fo
 
 **Adam Stacoviak:** Because you have the words, we have the words... We can share the words. That's called speaking, of course, as you know... But I feel like that's what it does. You now give them -- they all spoke English already, because they all understood some of the code, some of the design, some of these different features... But now they can all speak a certain language.
 
-**Amanda Silver:** \[00:59:53.10\] I completely agree with you. But I think that part of what's going to happen is that everyone is going to start contributing to the codebase more easily.
+**Amanda Silver:** \[59:53\] I completely agree with you. But I think that part of what's going to happen is that everyone is going to start contributing to the codebase more easily.
 
 **Adam Stacoviak:** Which is better for the product. And the user, obviously...
 
@@ -582,7 +582,7 @@ The other thing that I think is super-interesting is we also spend a huge amount
 
 **Amanda Silver:** Spicy?
 
-**Jerod Santo:** I don't know if it's spicy or not, but I'm curious... We were kind of debating VS Code's foothold, and is it a strategic advantage, and this and that... And the open-sourcing of that, and that it's been a good thing for Microsoft... What we've seen recently in the vibe coding space is VS Code forks.
+**Jerod Santo:** I don't know if it's spicy or not, but I'm curious... We were kind of debating VS Code's foothold, and is it a strategic advantage, and this and that... And the open sourcing of that, and that it's been a good thing for Microsoft... What we've seen recently in the vibe coding space is VS Code forks.
 
 **Amanda Silver:** Uh-huh.
 
@@ -598,7 +598,7 @@ The other thing that I think is super-interesting is we also spend a huge amount
 
 **Amanda Silver:** I think that there's real real innovation that's happening in the industry, and a level of competition that we haven't seen for a long time. So I have a tremendous amount of respect for you know the competition that we're seeing right now in the code editing space.
 
-I will say, like - yes, I think that there is a lot that has been built on top of the open source codebase of VS Code, and I think that is creating a foothold that allows others to kind of go and create additional, you know, features or differentiation on top of it... But that's I think one of the reasons why we've decided to actually open-source the GitHub Copilot extension for VS Code, and build it directly into the VS Code codebase. We really do think that the AI experience is now table stakes for any code editor. And in the same way that VS Code has been open from the get-go, we think that now the AI capabilities in VS Code also need to be part of the open source codebase.
+I will say, like - yes, I think that there is a lot that has been built on top of the open source codebase of VS Code, and I think that is creating a foothold that allows others to kind of go and create additional, you know, features or differentiation on top of it... But that's I think one of the reasons why we've decided to actually open source the GitHub Copilot extension for VS Code, and build it directly into the VS Code codebase. We really do think that the AI experience is now table stakes for any code editor. And in the same way that VS Code has been open from the get-go, we think that now the AI capabilities in VS Code also need to be part of the open source codebase.
 
 And we certainly believe in, you know, whether it's VS Code, or TypeScript, or anything that we do in like the Azure SDKs, or .NET - all of that's open source. Half of what my team works on is done in the open and open source. You know, we certainly see that especially when you're trying to build a community around a technology, an ecosystem around the technology, building in the open actually creates better products. You know, it allows more people to contribute, whether they're contributing pull requests, and code contributions, or if they're just logging issues and they care enough to actually follow through with really great issue descriptions. That's an important way to contribute to the codebase, and we see that across all of our open source codebases.
 
