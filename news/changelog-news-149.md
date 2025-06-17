@@ -117,7 +117,7 @@ Supabase landed an epic hire, bringing Vitess co-creator, [Sugu Sougoumarane](ht
 
 > For some time, I've been considering a Vitess adaptation for Postgres, and this feeling had been gradually intensifying. The recent explosion in the popularity of Postgres has fueled this into a full-blown obsession. As these databases grow, users are going to face a hard limit once they max out the biggest available machine.
 >
-> The project to address this problem must begin now, and I'm convinced that Vitess provides the most promising foundation. After exploring various environments, I found the best fit with Supabase. I'm grateful for how they welcomed me. Furthermore, their open-source mindset and fully remote work culture resonated with me.
+> The project to address this problem must begin now, and I'm convinced that Vitess provides the most promising foundation. After exploring various environments, I found the best fit with Supabase. I'm grateful for how they welcomed me. Furthermore, their open source mindset and fully remote work culture resonated with me.
 
 Multigres will be open source (Apache 2) and they're assembling a team to build it. If you're a Go programmer, consider [applying](https://jobs.ashbyhq.com/supabase/2e718684-4f75-4a99-8d6b-3b6bd44e4228).
 
