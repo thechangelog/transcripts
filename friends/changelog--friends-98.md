@@ -186,7 +186,7 @@
 
 **Adam Stacoviak:** \[laughs\] That's trash...
 
-**Jerod Santo:** \[00:07:52.19\] That's pine trash. \[laughter\] I'm not going to lie. I give honest reviews around here. Now, I'm sure... I'm sure if I liked gin, I might like this. But I think this is just pure, unadulterated pine trash.
+**Jerod Santo:** \[07:52\] That's pine trash. \[laughter\] I'm not going to lie. I give honest reviews around here. Now, I'm sure... I'm sure if I liked gin, I might like this. But I think this is just pure, unadulterated pine trash.
 
 **Adam Stacoviak:** Oh my gosh, I had to lean back in that one, man...
 
@@ -254,7 +254,7 @@
 
 **Adam Stacoviak:** Oh, my gosh...
 
-**Jerod Santo:** \[00:11:58.23\] There's going to be a fair amount of friends there. We'll have a lot of fun, we'll do an interview episode... Haven't picked our mystery guest quite yet. If you know somebody who lives in and around Denver, maybe Boulder, maybe Loveland, maybe, I don't know, Colorado Springs and wants to come to Denver for a live interview on stage, prior to the big Kaizen/Pipely launch, let us know. We would love to hear from you.
+**Jerod Santo:** \[11:58\] There's going to be a fair amount of friends there. We'll have a lot of fun, we'll do an interview episode... Haven't picked our mystery guest quite yet. If you know somebody who lives in and around Denver, maybe Boulder, maybe Loveland, maybe, I don't know, Colorado Springs and wants to come to Denver for a live interview on stage, prior to the big Kaizen/Pipely launch, let us know. We would love to hear from you.
 
 **Adam Stacoviak:** Denver... It's where it's at, you know?
 
@@ -326,7 +326,7 @@
 
 **Jerod Santo:** As I keep reloading the page, and it keeps showing us the angry --
 
-**Adam Stacoviak:** \[00:16:24.23\] This unseeable thing. But it gave a good walkthrough. I can show off what's on my screen, at least to myself...
+**Adam Stacoviak:** \[16:24\] This unseeable thing. But it gave a good walkthrough. I can show off what's on my screen, at least to myself...
 
 **Jerod Santo:** Well, we can share yours.
 
@@ -382,7 +382,7 @@
 
 One of the things that happens live, as we record, obviously, is that we are consuming what he's saying from the feed, from the fire hose... And you're kind of reacting and you're along for the ride, but not always able to, I guess, grasp every sentence, and think critically about every sentence... And so I think there were some things he said that, when I heard them back, I'm like "Oh, I probably should have hopped on that, because it seems like it's far-fetched." But here we are now... So what do you think about it now?
 
-**Adam Stacoviak:** \[00:20:02.07\] Well, I think barring the fact that the tolling is expensive, given the cost of GPUs, given the cost of GPUs and compute etc, I think that will eventually flatten out, or... I mean, it always does, right? That's going to be -- it's going to be expensive now to be on the edge. So I think that was the sentiment that was in comments, was the fact that these current tollings he's boasting about and what's possible is expensive to run. And not everybody can do it. And I get that.
+**Adam Stacoviak:** \[20:02\] Well, I think barring the fact that the tolling is expensive, given the cost of GPUs, given the cost of GPUs and compute etc, I think that will eventually flatten out, or... I mean, it always does, right? That's going to be -- it's going to be expensive now to be on the edge. So I think that was the sentiment that was in comments, was the fact that these current tollings he's boasting about and what's possible is expensive to run. And not everybody can do it. And I get that.
 
 But - I mean, we were... I recall, at the time it was just GPT. It wasn't ChatGPT. It was just GPT. Like, early precursors of what has become ChatGPT. Kind of like making fun of the fact that it couldn't write copy very well, and it was kind of fumbly, and it was like "Oh, that's just a joke..." And here you are, nine months to a year later, after GPT's writing copy for copywriters, the whole world's changed, right? And so I'm not on the tip like Steve is, but I feel that he is, and he's not the kind of person to be like just chicken-littling us, you know? He's going to be a truthteller. And as much as he doesn't even want to tell the truth, he's now babysitting AI agents... Great name, by the way, for the podcast. Such a great title.
 
@@ -392,7 +392,7 @@ But someone like you in particular, with this developer skill, now has the skill
 
 **Jerod Santo:** Right. Yeah, I think Steve did this for me, which is more than I can say, I guess, for anybody else so far this year, is like he actually gave me a step toward the life that he's living. And granted, he's living it on his company's dime; the money doesn't matter to him. And so yeah, he has multiple agents running overnight, because he has a budget of unlimited tokens, because that's part of his job, you know? So we can't actually live his life... I know there's people online who are doing this, and they're spending hundreds, if not thousands, four figures a day, which is just outside of most people's budgets, to have these things coding all day for them. But what he said is "Just go download one of these three", he said. Claude Code, Open AI Codex, or Sourcegraph AMP, which is the horse that Steve rides in on, of course. But to his credit, he says that's for enterprises, so try this one out.
 
-\[00:23:56.05\] And just give it the stuff you don't want to write. Like, the script that you've had in your mind, but you haven't written, because the ROI just isn't there, because it's tedious to write... But if you had it, you would love it, but you're not going to write it. And I've got like six of those just sitting in my head at any given moment. And so I was like "Okay, that's actionable. I can actually try that." And I gave it the old college try, you know? I went out and I tried OpenAI Codex... I couldn't get the thing to work. I feel like their docs suck, or I'm an idiot, or both. But it just wouldn't work. I mean, I couldn't get it installed correctly, it wouldn't find stuff, my API token wasn't -- blah, blah, blah, blah, blah. Like, "Next..." \[laughs\]
+\[23:56\] And just give it the stuff you don't want to write. Like, the script that you've had in your mind, but you haven't written, because the ROI just isn't there, because it's tedious to write... But if you had it, you would love it, but you're not going to write it. And I've got like six of those just sitting in my head at any given moment. And so I was like "Okay, that's actionable. I can actually try that." And I gave it the old college try, you know? I went out and I tried OpenAI Codex... I couldn't get the thing to work. I feel like their docs suck, or I'm an idiot, or both. But it just wouldn't work. I mean, I couldn't get it installed correctly, it wouldn't find stuff, my API token wasn't -- blah, blah, blah, blah, blah. Like, "Next..." \[laughs\]
 
 **Adam Stacoviak:** Okay...
 
@@ -408,7 +408,7 @@ And so the next one, I was like "Alright, it's true vibe-code. I'm not even goin
 
 **Jerod Santo:** Now, I also hit up quickly against token limits and stuff where I was like "Oh, it's out for the day", and I've got to either go chug some more money into this, or stop and wait till tomorrow... I go for stop and wait till tomorrow, because none of this stuff is time-sensitive.
 
-\[00:27:58.02\] And so yeah, the expense is massive, I think... But I can see now where if I had this thing let loose on three or four different tasks simultaneously, hopefully not step it on itself, that could be pretty fun. Like, the amount of fun he's talking about was where I couldn't get to, because I haven't had any fun with them yet... Whereas I do have fun making ChatGPT write poems, and stuff, or turning you into a walrus...
+\[27:58\] And so yeah, the expense is massive, I think... But I can see now where if I had this thing let loose on three or four different tasks simultaneously, hopefully not step it on itself, that could be pretty fun. Like, the amount of fun he's talking about was where I couldn't get to, because I haven't had any fun with them yet... Whereas I do have fun making ChatGPT write poems, and stuff, or turning you into a walrus...
 
 **Adam Stacoviak:** \[unintelligible 00:28:23.12\]
 
@@ -446,7 +446,7 @@ Now, I'm still single-agent, though. And I need to go multi-agent, but I ain't g
 
 **Jerod Santo:** That's right.
 
-**Break:** \[00:32:16.20\]
+**Break:** \[32:16\]
 
 **Adam Stacoviak:** Okay, so what was the total spend, roughly?
 
@@ -484,7 +484,7 @@ Now, I'm still single-agent, though. And I need to go multi-agent, but I ain't g
 
 **Jerod Santo:** Right. And so I haven't given them the more yet, but they'll still give me like the drip. You can't get the flow, but you can get the drip. And I'm like "Well, I'll just write one script a day. Fine with me." I don't need -- but in order to try to live the life that Steve is talking about...
 
-\[00:37:55.27\] And then I go out and I see what people are paying for this stuff. So if we go into the comments section and read some of the commentary, of course, price was one of them. And in our comments, Brian Buchholz - not sure how you say it, Brian... He went and found out what Gene Kim is spending monthly on YouTube. Well, that's at least what the thumbnail looks like. Gene Kim is on the thumbnail. Maybe it's not him talking. I did not read it, because I just took his takeaway... Which says "Regarding monthly spend, found this on YouTube saying he" - and I assume that he is Gene Kim - "spends $300 to $500 a day." So that's $100,000 a year. And this is Brian's math.
+\[37:55\] And then I go out and I see what people are paying for this stuff. So if we go into the comments section and read some of the commentary, of course, price was one of them. And in our comments, Brian Buchholz - not sure how you say it, Brian... He went and found out what Gene Kim is spending monthly on YouTube. Well, that's at least what the thumbnail looks like. Gene Kim is on the thumbnail. Maybe it's not him talking. I did not read it, because I just took his takeaway... Which says "Regarding monthly spend, found this on YouTube saying he" - and I assume that he is Gene Kim - "spends $300 to $500 a day." So that's $100,000 a year. And this is Brian's math.
 
 And it's like, okay, maybe worth it. If you're replacing -- I mean, basically, the other option is like hire an engineer. Now, I know that's brutal and harsh and maybe inhumane, but I will say, the experience that I had with one agent, doing agent decoding for me, was already better than experiences I've had telling humans to go do things, you know? The feedback loop is faster, and there aren't opportunities to offend it. Like, if you tell me my code doesn't look good, I might be offended. Now, maybe I'm not; I've got thick skin, but... Or you know, I'm just having a bad day, and it's something else, and you're like "Jerod, that function is not right", I might just like go off on you. Right?
 
@@ -532,7 +532,7 @@ And he fixes it. I'm like "Keep going...
 
 **Adam Stacoviak:** Right.
 
-**Jerod Santo:** \[00:42:16.26\] And maybe there wouldn't be any moaning or complaining, everything would go fine. But I don't have to even care, you know? Which is not a small thing. I mean, it actually -- it's like "Oh, this is fun." It's like having a code rabbit that's just like "I'm a rabbit. I don't have any -- just give me the instructions. I'm going to go do it. Maybe I'll fail, maybe I'll be correct...", all the things. You've got to fix them, correct them, things go wrong, they're dumb, etc. But no actual human in the loop there. Like, just me and a bunch of little AI babies building this thing. I think it really -- I do not think it's the near future for most people. I do think it's the medium term future for most people. And it's certainly -- unless something changes with these companies providing these services with regards to like copyright, or whatever; regulation that slows it down... I'm sure that capitalism squashes the costs, eventually, to marginal, and it's definitely a future now I can say "You know what? I wouldn't mind living in this future", as a guy who makes software. I feel like I can make way more software if this all continues to trend the way it is.
+**Jerod Santo:** \[42:16\] And maybe there wouldn't be any moaning or complaining, everything would go fine. But I don't have to even care, you know? Which is not a small thing. I mean, it actually -- it's like "Oh, this is fun." It's like having a code rabbit that's just like "I'm a rabbit. I don't have any -- just give me the instructions. I'm going to go do it. Maybe I'll fail, maybe I'll be correct...", all the things. You've got to fix them, correct them, things go wrong, they're dumb, etc. But no actual human in the loop there. Like, just me and a bunch of little AI babies building this thing. I think it really -- I do not think it's the near future for most people. I do think it's the medium term future for most people. And it's certainly -- unless something changes with these companies providing these services with regards to like copyright, or whatever; regulation that slows it down... I'm sure that capitalism squashes the costs, eventually, to marginal, and it's definitely a future now I can say "You know what? I wouldn't mind living in this future", as a guy who makes software. I feel like I can make way more software if this all continues to trend the way it is.
 
 So that was my result after taking Steve's advice there, with "Just go try it on some script you haven't written yet because you just don't want to, or it's too hard, or whatever." Should we read some more comments from people? Because there's just so many thoughts on this episode.
 
@@ -550,7 +550,7 @@ So that was my result after taking Steve's advice there, with "Just go try it on
 
 **Adam Stacoviak:** Yeah, the rise of judgment over technical skill. And I think that's certainly going to become more of a decider for folks. It's like "I want to understand your judgment, not your skills." Because you can kind of learn most things, for the most part, but do you have good taste? Does your taste align? Do your beliefs align with mine in the direction for this thing? It's kind of cliché to come back to the Uber thing, because that's really where a lot of this gig economy stuff began. But I think about even simple things like our recent trips out of town. Like, the last three or four trips, you and I have limed everywhere... Whereas before we would just not go and do much outside of the hotel, just within walking distance, unless it was like a nice hike or getaway. Like, we would do that too, but less frequently because of that.
 
-**Jerod Santo:** \[00:46:17.08\] That's electric scooters, for those who don't know what Limes are. They're electric scooters.
+**Jerod Santo:** \[46:17\] That's electric scooters, for those who don't know what Limes are. They're electric scooters.
 
 **Adam Stacoviak:** Yeah, Limes are Uber-accessible electric scooters. You can use the Uber app to reserve them, and book them, and pay for them...
 
@@ -584,7 +584,7 @@ So that was my result after taking Steve's advice there, with "Just go try it on
 
 **Jerod Santo:** Yeah, absolutely. And some of the stuff that Apple showed off at WWDC, with the ability to call local models on your phone, and then basically -- like, if vibe-coding gets good enough where everyone can just vibe code their own little iPhone app for their one use case that no one else is going to use... Like, that's pretty awesome. That's going to make a lot of people's lives a lot better. A lot of people who previously would have to hire some team that's going to charge them a hundred grand to get their thing done... It's never going to happen.
 
-\[00:49:53.05\] One category is "I have a business idea. I'm going to go fund it to build a thing." That becomes cheaper, of course. But the even more generally usable thing is "I have this annoyance that I don't like. I wish I could fix it. My life would be slightly better." And now it's like "Hey, Xcode, why don't you do a thing that makes an app that does this?" And it's like, 10 minutes later it's deployed on your iPhone, just for you. That's pretty cool.
+\[49:53\] One category is "I have a business idea. I'm going to go fund it to build a thing." That becomes cheaper, of course. But the even more generally usable thing is "I have this annoyance that I don't like. I wish I could fix it. My life would be slightly better." And now it's like "Hey, Xcode, why don't you do a thing that makes an app that does this?" And it's like, 10 minutes later it's deployed on your iPhone, just for you. That's pretty cool.
 
 **Adam Stacoviak:** That is beyond pretty cool, man. That's super-cool. That's super-cool.
 
@@ -628,7 +628,7 @@ Christopher Patty hops in and doubles down on how expensive it is, "Infinite mon
 
 **Jerod Santo:** Yeah. Which is fine. Like, if it becomes the way, they deserve a bunch of money, right?
 
-**Adam Stacoviak:** \[00:53:54.07\] You know, I mean, everybody has agents though, right? Every brand I can think of - I don't want to like toot too many horns, I suppose, indirectly... You've got Agentforce from Salesforce; not a sponsor, technically. Technically they are, through Heroku; that's Salesforce. And we talked about Agentforce as part of that campaign, it just didn't land. It was spoken about in regards to Heroku being a better platform for application developers, therefore Agentforce. Retool has agents out now. That's uniquely positioned to take advantage of the existing Retool internal tools you've built. So now the agents you build out will have access to these internal tools. I think that's the coolest thing ever, honestly. Great timing to be Retool.
+**Adam Stacoviak:** \[53:54\] You know, I mean, everybody has agents though, right? Every brand I can think of - I don't want to like toot too many horns, I suppose, indirectly... You've got Agentforce from Salesforce; not a sponsor, technically. Technically they are, through Heroku; that's Salesforce. And we talked about Agentforce as part of that campaign, it just didn't land. It was spoken about in regards to Heroku being a better platform for application developers, therefore Agentforce. Retool has agents out now. That's uniquely positioned to take advantage of the existing Retool internal tools you've built. So now the agents you build out will have access to these internal tools. I think that's the coolest thing ever, honestly. Great timing to be Retool.
 
 **Jerod Santo:** Yeah.
 
@@ -654,7 +654,7 @@ I guess I just want this unpredictive AI/predictive AI, so to speak, to work for
 
 **Jerod Santo:** Okay.
 
-**Adam Stacoviak:** \[00:58:05.29\] We've paid lawyers before, right, Jerod? We've paid lawyers generous sums to do things for us.
+**Adam Stacoviak:** \[58:05\] We've paid lawyers before, right, Jerod? We've paid lawyers generous sums to do things for us.
 
 **Jerod Santo:** For sure. Too much.
 
