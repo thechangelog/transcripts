@@ -42,7 +42,7 @@
 
 **Jerod Santo:** Tell the story of that company from there. Tell the story. As long or as short as you want it to be.
 
-**Chris Anderson:** So there's a lot that went on, but the thing that really sticks with me is the fact that we kind of accidentally incubated Node.js. We had people like Isaac Schlueter and Ryan Dahl hanging around the office, mostly because of Mikeal Rogers, rest in peace... And it was that crowd that was just informally writing Npm at the desk next to me... So really fun to be in the presence of greatness for so long, and to be able to incubate things like PouchDB etc, kind of taking JavaScript to the next level.
+**Chris Anderson:** So there's a lot that went on, but the thing that really sticks with me is the fact that we kind of accidentally incubated Node.js. We had people like Isaac Schlueter and Ryan Dahl hanging around the office, mostly because of Mikeal Rogers, rest in peace... And it was that crowd that was just informally writing npm at the desk next to me... So really fun to be in the presence of greatness for so long, and to be able to incubate things like PouchDB etc, kind of taking JavaScript to the next level.
 
 **Jerod Santo:** My first exposure to CouchDB was via - now we're name-dropping - a Geoffrey Grosenbach PeepCode on CouchDB. And he made it look so cool. I was just a fledgling Ruby on Rails developer, of course, dipping my toes into the JavaScript ecosystem, and kind of exploring databases at the time, and like wondering... Because Rails made it so easy to kind of switch your database adapter, but nobody's really doing that... But I was interested in the different databases, and CouchDB was so radically different than what I'd been using. And yeah, Geoffrey's voice, which is epic to this day...
 
@@ -50,7 +50,7 @@
 
 **Jerod Santo:** Yeah, a legend. It made CouchDB look like this is where the cool people are coding... And it turns out it was true; I mean, from your story, it's like - yeah, a lot of very talented people are involved in the project.
 
-**Chris Anderson:** \[00:08:10.03\] You have to remember 2008-2009, that was the very beginning of the API revolution. The idea that you could put your database behind a REST API. Almost nothing was even JSON yet. So we were all frustrated with XML, we were all writing kind of monolithic servers... And by the time that project kind of matured, even as early as 2011, at least the early adopters were already doing microservices. So really, that was a big sea change right then.
+**Chris Anderson:** \[08:10\] You have to remember 2008-2009, that was the very beginning of the API revolution. The idea that you could put your database behind a REST API. Almost nothing was even JSON yet. So we were all frustrated with XML, we were all writing kind of monolithic servers... And by the time that project kind of matured, even as early as 2011, at least the early adopters were already doing microservices. So really, that was a big sea change right then.
 
 **Jerod Santo:** Mm-hm. Was it good business, too? I mean, you started a business around it. Was the business good? Was it hard? How'd that go?
 
@@ -64,7 +64,7 @@ So Steve and me, who I learned revenue from over there, is now on the board of V
 
 **Jerod Santo:** So what's your journey from leaving there to Vibes, Vibes.DIY, which is your current thing?
 
-**Chris Anderson:** Well, I bounced around a little bit, checking out other database technologies, worked on FaunaDB, which I still maintain; it has some of the strongest integrity that you can get. Then I went to McKinsey and Company... Kind of a fun story there. Like, you wouldn't think that -- my whole family was like "Really?" But Jason Smith is another legend. He's till there, but he brought me in, and his claim to fame is - well, for Couch, he hosted Npm. So Npm used to have a one man host, and it was him. And yes. So... Great to have him show me what the real world is like. And what I learned about the real world is you don't get infrastructure, right? Us here in the Silicon Valley culture, where we can boot a virtual machine, or request an S3 bucket and get it - like, that's just an unbelievable luxury. What I learned from this constrained environment of "The client doesn't know what cloud you're going to use until it's too late" is I need to build a database technology that can run anywhere to allow permissionless innovation. So that's the gem of what became Vibes DIY.
+**Chris Anderson:** Well, I bounced around a little bit, checking out other database technologies, worked on FaunaDB, which I still maintain; it has some of the strongest integrity that you can get. Then I went to McKinsey and Company... Kind of a fun story there. Like, you wouldn't think that -- my whole family was like "Really?" But Jason Smith is another legend. He's till there, but he brought me in, and his claim to fame is - well, for Couch, he hosted npm. So npm used to have a one man host, and it was him. And yes. So... Great to have him show me what the real world is like. And what I learned about the real world is you don't get infrastructure, right? Us here in the Silicon Valley culture, where we can boot a virtual machine, or request an S3 bucket and get it - like, that's just an unbelievable luxury. What I learned from this constrained environment of "The client doesn't know what cloud you're going to use until it's too late" is I need to build a database technology that can run anywhere to allow permissionless innovation. So that's the gem of what became Vibes DIY.
 
 I built a deep tech thing, along with Mikeal Rogers' team at Protocol Labs, who did a whole bunch of research on immutable data structures with content addressing. I joined that team for a little while, and saw the potential of it, and built an embedded database that runs in the browser, with end-to-end encryption for multi-user synchronization. And that's what powers Vibes DIY. The database is called Fireproof. Basically, everything I'll talk about today is open source, but if you want to get into Fireproof, there's plenty about it. The thing that it does uniquely is give every operation cryptographic data provenance. It's almost like a mini blockchain in the browser, super-lightweight; no network dependency, just runs right there... But it means that when you do a replication, you know what you've got. There's not questions about what kind of data you're sitting on.
 
@@ -72,7 +72,7 @@ I built a deep tech thing, along with Mikeal Rogers' team at Protocol Labs, who 
 
 **Chris Anderson:** So it goes back to Rich Hickey Clojure and the immutable data structures that they were pioneering around the same time we were doing Couch. And what you see in those data structures - as soon as you have an invariant that you're working with immutable backing storage, you have to do everything different, everything new. With Fireproof and the IPLD data structures that it uses, that constraint is enforced because the only pointers you're allowed to use are hashes of content. And so everything is addressed by its own hash.
 
-\[00:12:27.27\] That means you can only talk about stuff that's already been written. And that means that every time you're doing these B-tree like updates, you're either going to churn data in a real heavy way, with lots of kind of write amplification that's unnecessary, or you're going to solve these hard, hard problems that the research team over there, people like Alan Shaw and \[unintelligible 00:12:51.17\] worked on, where you have trees that have really interesting properties... So what you need, which is a lot of work to get, is something that is a search tree, like a B-tree, but regardless of if you put all those records in, in one order, or a random order, you still get the same root hash at the end, so your snapshots have stable identifiers. And that means your replication doesn't have to be mechanically the same everywhere. It means you can replicate essentially in an optimized, efficient way, but still end up at the same endpoint.
+\[12:27\] That means you can only talk about stuff that's already been written. And that means that every time you're doing these B-tree like updates, you're either going to churn data in a real heavy way, with lots of kind of write amplification that's unnecessary, or you're going to solve these hard, hard problems that the research team over there, people like Alan Shaw and \[unintelligible 00:12:51.17\] worked on, where you have trees that have really interesting properties... So what you need, which is a lot of work to get, is something that is a search tree, like a B-tree, but regardless of if you put all those records in, in one order, or a random order, you still get the same root hash at the end, so your snapshots have stable identifiers. And that means your replication doesn't have to be mechanically the same everywhere. It means you can replicate essentially in an optimized, efficient way, but still end up at the same endpoint.
 
 **Jerod Santo:** So... Fireproof? Firestore? What's it called?
 
@@ -110,7 +110,7 @@ The big difference, the real difference that matters is my kids, who were so sic
 
 **Chris Anderson:** \[laughs\] Right...?
 
-**Jerod Santo:** \[00:16:12.03\] What kind of apps are being built with this thing, or can be?
+**Jerod Santo:** \[16:12\] What kind of apps are being built with this thing, or can be?
 
 **Chris Anderson:** Well, I was really inspired -- I was trying to see essentially what's the lowest common denominator that we can address... And the answer to that is I was using ChatGPT Canvas and Claude artifacts and thinking about how for like a normie, somebody who doesn't already know their way around the next JS stack, or deeply understand React and all the tool chain there, those are the best kind of interface and set of metaphors. If you look at those closely, they don't even say Deploy. They say Publish. And so that's the take we've done with Vibes DIY, is when I'm designing a feature, if it's going to require introducing a new concept, don't. Just make it simpler.
 
@@ -158,7 +158,7 @@ And we had this tremendous validation... We just got back from Render ATL. It's 
 
 There's a great story, and we had a lot of fun... I was walking back from lunch in Atlanta, and I said to my phone, I said "I want to take pictures and have you turn all the faces in the pictures into Georgia peaches." And it worked on the first try; sometimes you get lucky... And people thought that was hilarious. So we were showing it off, and then we were sharing a booth with Netlify. They're great friends of ours... And one of the Netlify leaders, Sean, brought his kid.. And so she saw what we were doing, and she said "I want to be a cat." \[laughs\]
 
-**Jerod Santo:** \[00:20:23.08\] Remix it. Remix that sucker.
+**Jerod Santo:** \[20:23\] Remix it. Remix that sucker.
 
 **Chris Anderson:** So basically, a four-year-old turned a peach app into the cat app, and that was a hit... And then we saw what was going on there and we made this -- we made a caricature app I've got on my laptop here. Here's me as a podcaster.
 
@@ -188,7 +188,7 @@ There's a great story, and we had a lot of fun... I was walking back from lunch 
 
 **Chris Anderson:** You know, if I wouldn't get distracted, we'd just build it right now. \[laughter\]
 
-**Break**: \[00:21:26.00\]
+**Break**: \[21:26\]
 
 **Jerod Santo:** So is the platform the web then? Or how are they -- how are these things running?
 
@@ -206,7 +206,7 @@ There's a great story, and we had a lot of fun... I was walking back from lunch 
 
 **Jerod Santo:** So once you have the URL, we make -- actually, our service layer is so simple. If you look at a lot of the existing vibe coding tools, they're built for professionals, and they're going to mimic a professional output with a full Next.js app. The only thing that the model - which is just a commodity model; we have a switcher. It's actually a great way for AI-interested devs to try out all the different models and get their personalities down. But when you ask Vibes to make something for you, it's only writing app.jsx, and that's it. So our focus is on being fun, done, and alive with AI.
 
-\[00:26:07.16\] This last bit means that the apps that you make, get the same API key that we use in your browser to write the code. And you press the Demo data button, and it fills out your to do list with whatever is plausible. Or it makes an app -- I built this because it takes 90 seconds to make an app, it takes longer to figure out how to use an app. So instead, I just mashed the demo data button, and it shows me what the app would look like if you'd spent some time in it.
+\[26:07\] This last bit means that the apps that you make, get the same API key that we use in your browser to write the code. And you press the Demo data button, and it fills out your to do list with whatever is plausible. Or it makes an app -- I built this because it takes 90 seconds to make an app, it takes longer to figure out how to use an app. So instead, I just mashed the demo data button, and it shows me what the app would look like if you'd spent some time in it.
 
 **Jerod Santo:** So let's say I mash out a 90-second thing, and it's rad, and we're having fun... Can I then expand/extend/build that sucker out, or I have to remix and start something else?
 
@@ -252,7 +252,7 @@ There's a great story, and we had a lot of fun... I was walking back from lunch 
 
 **Chris Anderson:** Yeah, we're considering seriously doing that for you. We may as well just vibe three of them in parallel and let you pick the best... Although every bit of complexity we add is going to take the simplest user and turn them away.
 
-**Jerod Santo:** \[00:29:57.14\] And cost. I mean, that's what Sora does, which is Open AI's video tool. You can pick how many different iterations that you want, and it will make two or four or six. And obviously, you have to have the tokens, and stuff... But especially with creative tools, where it's like "I would like to see four different things", it's just like "Yeah, we'll just crank out four", versus you having to say "Try again, try again, try again."
+**Jerod Santo:** \[29:57\] And cost. I mean, that's what Sora does, which is Open AI's video tool. You can pick how many different iterations that you want, and it will make two or four or six. And obviously, you have to have the tokens, and stuff... But especially with creative tools, where it's like "I would like to see four different things", it's just like "Yeah, we'll just crank out four", versus you having to say "Try again, try again, try again."
 
 **Chris Anderson:** The fun part is looking at how much better Claude 4 is than even 3.7. Or if I switch it over to Codex Mini, then I'll get like an app that works great, but isn't showboating at all. Like, GPT models make these lean apps, with no extra stuff... And Claude 4 is going to have your backgrounds, transparency with blur, and \[unintelligible 00:30:41.20\] It's fun to see the personality in there.
 
@@ -286,7 +286,7 @@ There's a great story, and we had a lot of fun... I was walking back from lunch 
 
 **Chris Anderson:** The whole thing's open source, so you can go on GitHub on the Vibes DIY org and get into the repo prompts.ts and see what we actually do. But it's fairly simple... I mean, as I was mentioning earlier, I was one of the coauthors on the O'Reilly ChatGPT shortcuts book, and what I learned from that - and the experience continues to pan out... If you talk to the LLM like a person, less technical, more just what you want, you get better answers. So this golf thing is the thing you want to do. There's this great YouTube - we can find it for the show notes - there's two types of vibe coders. And there's the one guy who's all frustrated, with his 4,000-line LLMs text and his feature specification, PRD... And the other guy who's just like "Make GTA. Make GTA six." \[laughter\]
 
-**Jerod Santo:** \[00:34:13.10\] And he's having a \[unintelligible 00:34:15.27\] you know?
+**Jerod Santo:** \[34:13\] And he's having a \[unintelligible 00:34:15.27\] you know?
 
 **Chris Anderson:** Here's my golf tracker... \[laughter\]
 
@@ -334,7 +334,7 @@ There's a great story, and we had a lot of fun... I was walking back from lunch 
 
 **Adam Stacoviak:** It's all on the web platform.
 
-**Chris Anderson:** \[00:37:58.00\] Yeah, yeah. None of the people who don't know what code is, who've never deployed anything - they can't depend on any setup. I like to say, if you don't know what an API is, then I'm certainly not going to ask you to do an API key.
+**Chris Anderson:** \[37:58\] Yeah, yeah. None of the people who don't know what code is, who've never deployed anything - they can't depend on any setup. I like to say, if you don't know what an API is, then I'm certainly not going to ask you to do an API key.
 
 **Jerod Santo:** So this thing went Render ATL viral last week, because they already had a fun time making caricatures of themselves... But when's it going to go TikTok viral, or youth viral? Like, it seems like this is set up specifically for 13 to 15 year olds to find out about it. Just like the six, seven thing. I'm not sure if you guys are aware of six, seven, but they're huge on six, seven. And all of a sudden it's like, this thing's screaming.
 
@@ -376,7 +376,7 @@ But once it's published and you go to that URL... You know, when you scan the st
 
 **Jerod Santo:** Right.
 
-**Chris Anderson:** \[00:42:13.05\] And you don't need that. All the live RAM lives in the user agent at the edge.
+**Chris Anderson:** \[42:13\] And you don't need that. All the live RAM lives in the user agent at the edge.
 
 **Jerod Santo:** Right. So Cloudflare is pretty cool... I mean, just - no further comment. I wonder if you could maybe expand on that. Like, you guys are doing cool stuff because of what Cloudflare is helping you to do, right? It seems like a very interesting platform in that way.
 
@@ -420,7 +420,7 @@ So the only thing we need to add to the recipe to make it multi-writer safe is i
 
 **Jerod Santo:** Okay.
 
-**Chris Anderson:** \[00:46:04.08\] And in a lot of ways, it's because Fireproof is basically done. I mean, it never is the case with a database, but it's not like it needs new features. It's just about hardening it, and continuing to release it. So in that world now, Vibes gets cool new features. A fun new feature we get to add - this is lightweight stuff. Like I said, I don't want people to have to know what an API is, much less an API key. So... Bake that YouTube API key in there. It's not in there yet, but this allows you to say "Hey, I want to turn my playlist into a YouTube screen", and it just works already. Same thing for Spotify, or any other of these kind of mass market media APIs. There's no reason that you as a Vibe coder should have to know about any of that to use it.
+**Chris Anderson:** \[46:04\] And in a lot of ways, it's because Fireproof is basically done. I mean, it never is the case with a database, but it's not like it needs new features. It's just about hardening it, and continuing to release it. So in that world now, Vibes gets cool new features. A fun new feature we get to add - this is lightweight stuff. Like I said, I don't want people to have to know what an API is, much less an API key. So... Bake that YouTube API key in there. It's not in there yet, but this allows you to say "Hey, I want to turn my playlist into a YouTube screen", and it just works already. Same thing for Spotify, or any other of these kind of mass market media APIs. There's no reason that you as a Vibe coder should have to know about any of that to use it.
 
 **Adam Stacoviak:** Have we talked about money yet?
 
@@ -462,7 +462,7 @@ Think about some big marketing agency that builds like "See our product in your 
 
 **Jerod Santo:** Yeah.
 
-**Chris Anderson:** \[00:49:51.13\] I mean, we've got roadmap features that expand. So everything I've talked about is really just the browser runtime. It can do a lot. It's underutilized, especially for people who really haven't pushed it to its limits yet. But roadmap features is something we learned from the CouchDB ecosystem. Essentially, Fireproof is the CouchDB model running in the browser. And one of the things that you see a lot of -- the way Npm was powered, all those packages stored in CouchDB, and then when someone uploads a new one or makes a change to some metadata or whatever, there's just an event reactor subscribed to the database feed that can then go do some heavy lift, or send an email, or update some analytics package somewhere.
+**Chris Anderson:** \[49:51\] I mean, we've got roadmap features that expand. So everything I've talked about is really just the browser runtime. It can do a lot. It's underutilized, especially for people who really haven't pushed it to its limits yet. But roadmap features is something we learned from the CouchDB ecosystem. Essentially, Fireproof is the CouchDB model running in the browser. And one of the things that you see a lot of -- the way npm was powered, all those packages stored in CouchDB, and then when someone uploads a new one or makes a change to some metadata or whatever, there's just an event reactor subscribed to the database feed that can then go do some heavy lift, or send an email, or update some analytics package somewhere.
 
 Same thing, just -- if you wanted to today, you could stand up a CloudFlare worker that subscribes to that golf database. And when somebody puts in a new tee time, you could get a push notification. Our roadmap brings that to the masses by making it so there's just a backend.js that we also let the model write.
 
@@ -482,7 +482,7 @@ When I was first starting coding, the coolest thing in the world was just to cha
 
 **Adam Stacoviak:** Yeah. I just wonder... It's one of those things where you don't want to have to deal with it, but you do... And it's early, because trust will be everything to get to the TikTok stage of sharing, and virality, or whatever... It's going to be something you can trust, or has to be. And if you can't trust it, then it's like -- it's a today problem, basically. Like, at launch.
 
-**Chris Anderson:** \[00:53:49.26\] Yeah. So if you look at the history of using Mechanical Turk to moderate profile images, and having to do two of three thumbs down, and all that - so much cheaper, so much easier to do that with a model now. Just let Claude tell you whether it's not any good, you know?
+**Chris Anderson:** \[53:49\] Yeah. So if you look at the history of using Mechanical Turk to moderate profile images, and having to do two of three thumbs down, and all that - so much cheaper, so much easier to do that with a model now. Just let Claude tell you whether it's not any good, you know?
 
 **Adam Stacoviak:** There you go.
 
@@ -500,7 +500,7 @@ We're growing the team right now. People who want to do that should probably tal
 
 **Jerod Santo:** Right.
 
-**Chris Anderson:** And the same thing you do with a video, you do with this. And we even have plans -- for instance, the same Jason Smith I mentioned earlier, he used to host Npm. I talked to him about it yesterday and he said "Hey, I've been working on some video gen stuff. I think you could --" Lik, we have this demo data button that fills the app up with data for you... You could also do a video tour button. You just click one button and it takes your face, lip syncs, puts it on TikTok, "Here's my app."
+**Chris Anderson:** And the same thing you do with a video, you do with this. And we even have plans -- for instance, the same Jason Smith I mentioned earlier, he used to host npm. I talked to him about it yesterday and he said "Hey, I've been working on some video gen stuff. I think you could --" Lik, we have this demo data button that fills the app up with data for you... You could also do a video tour button. You just click one button and it takes your face, lip syncs, puts it on TikTok, "Here's my app."
 
 **Jerod Santo:** Right. That's cool. So what kind of engineers or people are you looking for?
 
@@ -518,7 +518,7 @@ We're growing the team right now. People who want to do that should probably tal
 
 **Jerod Santo:** Is there a shared -- is that on purpose, Chris? Is there a shared design aesthetic, or something?
 
-**Chris Anderson:** \[00:57:59.07\] Well, we made the choice to differentiate ourselves from everybody else. We're not using Shadcn... And that's not because it's not great. We just want to be different. We want to be more lightweight. We want to have a little bit more variance and let Claude or whoever express themselves a little more in there. So the way we prompt the design language is -- actually, my co-founder Marcus I mentioned earlier just did a bunch of research, like art history type research around like, you know, "We don't want synth wave. That's played out" etc.
+**Chris Anderson:** \[57:59\] Well, we made the choice to differentiate ourselves from everybody else. We're not using Shadcn... And that's not because it's not great. We just want to be different. We want to be more lightweight. We want to have a little bit more variance and let Claude or whoever express themselves a little more in there. So the way we prompt the design language is -- actually, my co-founder Marcus I mentioned earlier just did a bunch of research, like art history type research around like, you know, "We don't want synth wave. That's played out" etc.
 
 We've found -- there was a design school in Italy in the eighties that came up with a style they called Memphis. And so we tell it to make Memphis... So we described Memphis a little bit, and it does a pretty good job of that. That's all user editable. So if you go into the settings page right now, you can just type in your own style prompt. You could switch it to synth wave. You can switch it to synth wave and DeepSeek. And then if you run it on DeepSeek now, you probably have to generate the app 10 times before you get a working one, but... \[laughter\]
 
@@ -546,11 +546,11 @@ We've found -- there was a design school in Italy in the eighties that came up w
 
 **Jerod Santo:** Sure. But why? I guess by then you copy-pasted it, so it's yours anyways, right? Do what you want.
 
-**Chris Anderson:** Exactly. Yeah, the JSX is all about the simplicity, and then the -- it really allows anybody to get in there, edit these apps, and bring them to any backend. When you do eject, it runs through those same APIs. Again, you can move them over. I don't know if there'd be a good reason, but there's a world in which, especially when we spin up the user pays mode for like image gen AI usage by the app, you might just pull our Npm modules directly into whatever environment and use those, because that lets you ship apps without having to worry about the cost of the LLM.
+**Chris Anderson:** Exactly. Yeah, the JSX is all about the simplicity, and then the -- it really allows anybody to get in there, edit these apps, and bring them to any backend. When you do eject, it runs through those same APIs. Again, you can move them over. I don't know if there'd be a good reason, but there's a world in which, especially when we spin up the user pays mode for like image gen AI usage by the app, you might just pull our npm modules directly into whatever environment and use those, because that lets you ship apps without having to worry about the cost of the LLM.
 
 **Jerod Santo:** Say that again. I don't think I tracked it.
 
-**Chris Anderson:** \[01:01:52.12\] So built into these Npm modules that's part of our standard library is that when you run out of your free tokens, it pops up the login window. And after you log in and you get another batch of free tokens, you run out of those, it asks for your credit card. If all you care about is going viral and the thing that's holding you back is that going viral is going to cost you $50,000 in ChatGPT fees when people start using your prompts in production - well, do it on Vibes or do it with the Vibes Npm modules and you'll get the same benefit that we'll handle it for you. And if you get enough usage, then you can be looking at creator payouts.
+**Chris Anderson:** \[01:01:52.12\] So built into these npm modules that's part of our standard library is that when you run out of your free tokens, it pops up the login window. And after you log in and you get another batch of free tokens, you run out of those, it asks for your credit card. If all you care about is going viral and the thing that's holding you back is that going viral is going to cost you $50,000 in ChatGPT fees when people start using your prompts in production - well, do it on Vibes or do it with the Vibes npm modules and you'll get the same benefit that we'll handle it for you. And if you get enough usage, then you can be looking at creator payouts.
 
 **Jerod Santo:** Yeah, that actually scales really well. I guess that's what you're referring back to the YouTube model, where basically as an app creator, I'm bringing you token use by way of people using my app, and you being Vibes DIY is making money off of every one of those people who decides to put down some cash in order to use the app some more. And so you're now talking payouts to me for bringing you guys additional customers. That's an interesting model.
 
