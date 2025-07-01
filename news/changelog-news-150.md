@@ -69,7 +69,7 @@ Click through for the skinny on each improvement. I'll clip one last thought fro
 
 Sean Goedecke does a nice job elucidating another thought I've had while talking to various devs about coding agents and seeing so many orgs shipping their own lately: these things have no moat
 
-> There’s also no moat to the actual agent code. It turns out that “put the model in a loop with a ‘read file’ and ‘write file’ tool” is good enough to do basically anything you want.(I don’t know for sure that the closed-source options operate like this, but it’s an educated guess. In other words, the agent hackers in 2023 were correct, and the only reason they couldn’t build Claude Code then was that they were too early to get to use the really good models.
+> There’s also no moat to the actual agent code. It turns out that “put the model in a loop with a ‘read file’ and ‘write file’ tool” is good enough to do basically anything you want.(I don’t know for sure that the closed source options operate like this, but it’s an educated guess. In other words, the agent hackers in 2023 were correct, and the only reason they couldn’t build Claude Code then was that they were too early to get to use the really good models.
 
 Sean says it's a tough market to sell a better AI coding agent in, because open source solutions (like OpenAI's Codex) are already very good. But that's not even the point. The reason OpenAI wants you using Codex and Anthropic wants you using Claude Code and Google wants you using Gemini CLI and Sourcegraph wants you using Amp is not to sell you a better coding agent. It's to sell you ***their tokens*** instead of you buying somebody else's tokens. The challenge with that strategy is that it has a very small moat. Not no moat, mind you, but not much of one either.
 
@@ -93,7 +93,7 @@ I guess my point is, sometimes we need motivation to do hard things. If you need
 
 That's the news for now, but go and subscribe to the Changelog Newsletter for the full scoop of links worth clicking on. Such as:
 
-- [Open source has turned into two worlds](https://utcc.utoronto.ca/~cks/space/blog/tech/OpenSourceTwoWorlds)
+- [Open source has turned into two worlds](https://utcc.utoronto.ca/~cks/space/blog/tech/Open SourceTwoWorlds)
 - [Git quick statistics](https://github.com/git-quick-stats/git-quick-stats)
 - [Claude Code Usage Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor)
 
