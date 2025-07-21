@@ -26,11 +26,11 @@ For his efforts, Dębiak won 500,000 yen (~3400 USD) and had the following to sa
 
 **Jerod Santo:**
 
-[Linux breaks 5% desktop share in U.S.](https://www.webpronews.com/linux-breaks-5-desktop-share-in-u-s-signaling-open-source-surge-against-windows-and-macos/)
+[Linux breaks 5% desktop share in U.S.](https://www.webpronews.com/linux-breaks-5-desktop-share-in-u-s-signaling-open source-surge-against-windows-and-macos/)
 
 Is the year of the Linux desktop finally upon us?! 
 
-> In a landmark shift for the computing landscape, Linux has finally crossed the 5% threshold in desktop market share within the United States, marking a pivotal moment for open-source software enthusiasts and industry observers alike... This surge reflects broader dissatisfaction with dominant players like Microsoft Windows and Apple macOS, driven by factors including privacy concerns, customization demands, and the rising cost of proprietary ecosystems.
+> In a landmark shift for the computing landscape, Linux has finally crossed the 5% threshold in desktop market share within the United States, marking a pivotal moment for open source software enthusiasts and industry observers alike... This surge reflects broader dissatisfaction with dominant players like Microsoft Windows and Apple macOS, driven by factors including privacy concerns, customization demands, and the rising cost of proprietary ecosystems.
 
 According to the report, analysts are "eyeing 7% by 2027." What a time to be alive!
 
