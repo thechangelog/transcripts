@@ -30,7 +30,7 @@
 
 **Don MacKinnon:** Okay.
 
-\[00:04:40.11\]
+\[04:40\]
 
 *"My favorite episode was from Chef 2 System Initiative. I've been following Adam Jacob on social media for a while... I've been also following Adam Jacob to work, and I got kicked out of his company. So it was interesting to hear more about his career journey that led him to kick me out of his company. And I disagree with him, but regardless, he's always entertaining, and he's always kicking me out."*
 
@@ -92,7 +92,7 @@
 
 **Adam Stacoviak:** There you go. Check it out.
 
-**Jerod Santo:** \[00:08:01.22\] Well, Don, we're here to talk about you and your new thing, Searchcraft, going after the search space... Which is an interesting part of the world, and it seems like one that's maybe changing dramatically, or at least potentially changing dramatically, with all these new large language model tools and ways of searching and finding and synthesizing... Why don't you tell us about Searchcraft and what it is and why you're doing it?
+**Jerod Santo:** \[08:01\] Well, Don, we're here to talk about you and your new thing, Searchcraft, going after the search space... Which is an interesting part of the world, and it seems like one that's maybe changing dramatically, or at least potentially changing dramatically, with all these new large language model tools and ways of searching and finding and synthesizing... Why don't you tell us about Searchcraft and what it is and why you're doing it?
 
 **Don MacKinnon:** Yeah, so to take you back as to the problem space, Searchcraft is a search engine. It's written in Rust, and the reason we made it is because my co-founder and I, we worked at an agency before this, before we started to found a product company. And we were building for a lot of startups, and other types of companies, and we were integrating search a lot. And so when you're going fast and building a startup MVP, you kind of try to reach for things off the shelf that you can integrate quickly... So there are options out there for search, but none of them we felt were that great for moving quickly. But we're kind of selfish, in that we want something that's not only easier for us, but once we hand off our code to clients, that they can kind of manage it themselves without having to be an expert at maintaining clusters of search engines, and things like that. Yeah, so that's kind of why we decided to build it... But when we started building it, this whole AI thing was not a thing yet.
 
@@ -108,7 +108,7 @@
 
 **Adam Stacoviak:** That was my list.
 
-**Jerod Santo:** \[00:12:03.12\] Yeah. Don, have you got any more than that?
+**Jerod Santo:** \[12:03\] Yeah. Don, have you got any more than that?
 
 **Don MacKinnon:** There's more, yeah. I don't know if you want me to go down the list, but those are the big ones. Algolia and Elastic kind of are the big two as far as open source. TypeSense is probably the third, I would guess.
 
@@ -156,7 +156,7 @@ So whenever we build a feature, or decide to add something to the product, we're
 
 **Jerod Santo:** Is it set up to be self-hosted then, or how does it --
 
-**Don MacKinnon:** \[00:16:13.16\] Yeah, so to be upfront, the core engine is not open source, but we do offer it for free. You can download it from Docker Hub and self-host it. You can also -- we have a SaaS cloud that is free as well. There's a free plan on there, that's not functionally crippled at all. You can do whatever you can do with the highest tier plan. You just don't get as many documents or requests.
+**Don MacKinnon:** \[16:13\] Yeah, so to be upfront, the core engine is not open source, but we do offer it for free. You can download it from Docker Hub and self-host it. You can also -- we have a SaaS cloud that is free as well. There's a free plan on there, that's not functionally crippled at all. You can do whatever you can do with the highest tier plan. You just don't get as many documents or requests.
 
 **Jerod Santo:** Sure.
 
@@ -164,7 +164,7 @@ So whenever we build a feature, or decide to add something to the product, we're
 
 **Jerod Santo:** So it's free and available to self-host, but not open source. Is that a business decision? Is that a timing decision? What's your thoughts on that?
 
-**Don MacKinnon:** It's kind of both. One, I didn't want to open-source something just to open-source it and then risk at any point in time down the road pulling that back. I'd rather just not even open that door, if that was a possibility. So that was part of it. We did take some investment to start the company, and I had concerns about that down the road, if that was ever an issue... Also, single-vendor contributions to open source are kind of -- I don't know if there is a lot of benefit to... I don't know. Search is a very niche kind of field, in that I doubt a lot of people would be able to contribute to it to begin with. Does that make sense? All of our microservices and integrations, those are all out there as open source, but the core is not.
+**Don MacKinnon:** It's kind of both. One, I didn't want to open source something just to open source it and then risk at any point in time down the road pulling that back. I'd rather just not even open that door, if that was a possibility. So that was part of it. We did take some investment to start the company, and I had concerns about that down the road, if that was ever an issue... Also, single-vendor contributions to open source are kind of -- I don't know if there is a lot of benefit to... I don't know. Search is a very niche kind of field, in that I doubt a lot of people would be able to contribute to it to begin with. Does that make sense? All of our microservices and integrations, those are all out there as open source, but the core is not.
 
 **Jerod Santo:** Well, it's certainly a decision to make. I think that there are projects that don't need to, or shouldn't, and there are others that should. And you have to ask yourself why. "Why are we doing this?" And if the primary reason would be contribution, I think in this case that probably isn't a very compelling reason, because like you said, if you have a -- I've always asked people and wondered about open source projects that are almost entirely, or sometimes entirely contributed to by a singular corporation, and how they deal with what is open source, but not really open contribution software... And it's a very tricky thing to do right, because you're not actually interested in a lot of the things. Or if you are, then why would people contribute, if you're just going to be making money? There's all that kind of weird gray area that can be avoided if you just opt out. And the nice thing is, you can change that later, whereas you can't easily go the other direction later, without rug pulling, right?
 
@@ -174,7 +174,7 @@ So whenever we build a feature, or decide to add something to the product, we're
 
 **Don MacKinnon:** There's a few. So Elastic is the biggest one. We're definitely smaller and faster than Elastic. There's also Solr, which is an open source project... They're both actually built on the same core library, Lucene, if you guys are familiar with Lucene. So they both use that core library. And then there's Open Search, which is Amazon's fork of Elastic.
 
-**Jerod Santo:** \[00:20:03.04\] And Rust was one of the reasons, but what else in terms of like, I don't know, indexing, or storage engine, or... There's gotta be other things that you considered along the way that have helped us to become fast and efficient.
+**Jerod Santo:** \[20:03\] And Rust was one of the reasons, but what else in terms of like, I don't know, indexing, or storage engine, or... There's gotta be other things that you considered along the way that have helped us to become fast and efficient.
 
 **Don MacKinnon:** Yeah, so our storage engine, it was a database that was designed for like embedded. It's an embedded database, so it's designed to run very minimal hardware. So a lot of the crates in the Rust ecosystem are designed to be like embedded system compatible, which was another kind of motivation to go that route. So they're already geared towards efficiency.
 
@@ -274,7 +274,7 @@ And if you dig into the maintainers -- he's got this whole kind of manifesto abo
 
 **Don MacKinnon:** Oh yeah, he was like a -- I remember. He was like the DMC chair for a while.
 
-**Jerod Santo:** \[00:24:05.27\] Yeah. He effectively did the "Developers, developers, developers, developers" yell, similar to Steve Ballmer.
+**Jerod Santo:** \[24:05\] Yeah. He effectively did the "Developers, developers, developers, developers" yell, similar to Steve Ballmer.
 
 **Adam Stacoviak:** Yeah. "Politics, politics, politics, politics."
 
@@ -358,7 +358,7 @@ And if you dig into the maintainers -- he's got this whole kind of manifesto abo
 
 **Jerod Santo:** We're way upstream. We're like six hops up.
 
-**Break**: \[00:26:36.17\]
+**Break**: \[26:36\]
 
 **Adam Stacoviak:** What makes search cool? Obviously, we all need it, but what makes it cool to build? What's fun about it?
 
@@ -384,7 +384,7 @@ So when I dug into that, I was like "Okay, well now I'm learning about things li
 
 **Jerod Santo:** I see. So I think in a video you sent over, we watched your indexing Wikipedia on a Raspberry Pi with Searchcraft, and you were giving examples of quick lookups with misspellings. I think Einstein might've been one... You just spelled that singular word wrong. And that would be a case where you would... Is it three characters that you're search -- like, what's the three applying to when it comes to misspellings?
 
-**Don MacKinnon:** \[00:32:10.10\] Yeah, like up to like positions away from the original term, essentially. Yeah.
+**Don MacKinnon:** \[32:10\] Yeah, like up to like positions away from the original term, essentially. Yeah.
 
 **Jerod Santo:** Gotcha.
 
@@ -416,7 +416,7 @@ I'm on the TypeSense mailing list, and they just shipped some features with LLMs
 
 **Don MacKinnon:** Most of the time it's like you can find stuff, kind of. It's not great, but it's there, and we checked the box. And a lot of companies were like that. They were like "We checked the box. We have search. It kind of works. But we don't really care, because people can just search Google, and Google will give us the traffic to our article that we just published yesterday." And that's what everyone did, literally. They're like "Google will just give us traffic, so our search on our website doesn't have to be great." But now, because Google's doing like the whole AI summary thing, they're like diverting traffic to sites less and less. And this is not just an opinion. Companies are saying it across the board, where their traffic is just plummeting because Google's not sending them there anymore. They're either keeping them on Google, or sending them to Google-owned properties kind of thing, which is kind of nefarious, I think... But their traffic's dropping off, so they're like "Okay, well, I guess we have to make our search better now." And what are people doing? They're like "Well, there's this whole ChatGPT kind of experience that's out there. Let's look at that."
 
-\[00:36:11.18\] So companies like Algolia, Elastic and us were like "Okay, we have really powerful keyword search, but people are wanting to do this natural language thing... So let's do that." So we do have, as you said, a pivot in that we have an AI offering that is coming out in our SDK very shortly... But the thing about these, I would call them first-generation kind of AI approaches is that a lot of them, while they've really focused on the natural language, semantic reasoning layer with the language models, they haven't put a lot of thought into the information discovery aspect of it. That middle layer that says "Okay, yes, the LLM can translate the user's intention, but powering that with something that can actually serve you up accurate information, accurate and relevant information, and recent information is a problem still." So you'll use these chat interfaces, and they'll give you -- you've seen it, either non-existent information, or wrong information.
+\[36:11\] So companies like Algolia, Elastic and us were like "Okay, we have really powerful keyword search, but people are wanting to do this natural language thing... So let's do that." So we do have, as you said, a pivot in that we have an AI offering that is coming out in our SDK very shortly... But the thing about these, I would call them first-generation kind of AI approaches is that a lot of them, while they've really focused on the natural language, semantic reasoning layer with the language models, they haven't put a lot of thought into the information discovery aspect of it. That middle layer that says "Okay, yes, the LLM can translate the user's intention, but powering that with something that can actually serve you up accurate information, accurate and relevant information, and recent information is a problem still." So you'll use these chat interfaces, and they'll give you -- you've seen it, either non-existent information, or wrong information.
 
 **Jerod Santo:** Right.
 
@@ -434,7 +434,7 @@ I think companies will get there. I think the advantage that search-based compan
 
 **Jerod Santo:** Give it all, man. You already gave three... What else can you do?
 
-**Don MacKinnon:** \[00:39:49.14\] Oh, no. I'm just giving it all away. No, it converts that into like what the machines expect. But also, if you're using a search engine underneath your semantic layer, you do things with relevancy tuning that improves, right? Like I mentioned before the synonyms. So knowing that shoes matches to sandals, or other things like that. And that's just handled for you on that retrieval layer.
+**Don MacKinnon:** \[39:49\] Oh, no. I'm just giving it all away. No, it converts that into like what the machines expect. But also, if you're using a search engine underneath your semantic layer, you do things with relevancy tuning that improves, right? Like I mentioned before the synonyms. So knowing that shoes matches to sandals, or other things like that. And that's just handled for you on that retrieval layer.
 
 **Jerod Santo:** So has this required you to go back and get more money, or slap AI on your pitch deck, and raise a second round? Or what are you doing there?
 
@@ -504,7 +504,7 @@ We were fortunate enough that we were able to do our first raise with like all a
 
 **Jerod Santo:** Hey, that could be your next business. Craft TLDs.
 
-**Don MacKinnon:** \[00:44:20.17\] Oh, someone's going to buy it... Yeah, no, it's kind of funny, because I have a little hobby thing I was thinking about coding in a weekend... I was like "What else should I name it?" And so I was like -- it was going to be ending in craft, because I couldn't think of anything else.
+**Don MacKinnon:** \[44:20\] Oh, someone's going to buy it... Yeah, no, it's kind of funny, because I have a little hobby thing I was thinking about coding in a weekend... I was like "What else should I name it?" And so I was like -- it was going to be ending in craft, because I couldn't think of anything else.
 
 **Jerod Santo:** Of course. You've got to get the trend going somehow. Just keep coming out with crafts.
 
@@ -546,7 +546,7 @@ We were fortunate enough that we were able to do our first raise with like all a
 
 **Jerod Santo:** This could be a really good idea for a series, or something... It's like "Startup pitch decks, five years later", or however -- like, once they've arrived and you go with a founder, and you go back to their original pitch deck, and they walk you through it, and then you can talk about all the stuff that's changed; what were they right, what were they wrong, what have they changed since then... That would be very interesting.
 
-**Adam Stacoviak:** \[00:47:50.03\] Yeah. We almost did that with Beyang Liu last time I talked to him, because he was talking about -- it was either him or Quinn. I think it was Quinn, actually, now that I think about it. Quinn Slack, his co-founder. They were sharing how their vision has been similar, but it's obviously changed, over like as progress has happened and technologies change... But their mission, their core mission with developers has been the same. He's like "If you go back to the original pitch deck--" And I think he was supposed to actually link it up to me, so I should go back to their show notes... Or go back to them and get a link. But that was the closest we've gotten, to my knowledge, of like surfacing the original pitch deck and going through it.
+**Adam Stacoviak:** \[47:50\] Yeah. We almost did that with Beyang Liu last time I talked to him, because he was talking about -- it was either him or Quinn. I think it was Quinn, actually, now that I think about it. Quinn Slack, his co-founder. They were sharing how their vision has been similar, but it's obviously changed, over like as progress has happened and technologies change... But their mission, their core mission with developers has been the same. He's like "If you go back to the original pitch deck--" And I think he was supposed to actually link it up to me, so I should go back to their show notes... Or go back to them and get a link. But that was the closest we've gotten, to my knowledge, of like surfacing the original pitch deck and going through it.
 
 **Jerod Santo:** So you've tweaked yours a dozen times so far...
 
@@ -604,7 +604,7 @@ We were fortunate enough that we were able to do our first raise with like all a
 
 **Adam Stacoviak:** That was a big thing for New York.
 
-**Jerod Santo:** \[00:52:06.06\] And just like not a good -- I mean, it wasn't a good customer service. And now the cabbies, I think -- I mean, I've taken a cab, because they've been hustling for my money. You're waiting for your Uber, and they pull up and they're like "I'll take you right now for five bucks less." Let's roll, you know?
+**Jerod Santo:** \[52:06\] And just like not a good -- I mean, it wasn't a good customer service. And now the cabbies, I think -- I mean, I've taken a cab, because they've been hustling for my money. You're waiting for your Uber, and they pull up and they're like "I'll take you right now for five bucks less." Let's roll, you know?
 
 **Don MacKinnon:** Oh, yeah.
 
@@ -652,7 +652,7 @@ We were fortunate enough that we were able to do our first raise with like all a
 
 **Jerod Santo:** Their sales are trickling out... Well, the smartphone is a better example. Like, when the iPhone first revolutionized phones - which it really did - and internet communicators, it was a rich person's device. And now, there are phones all the way down the pricing ladder to free with a plan, for everybody pretty much, for the populated, civilized world, that nobody could afford that original iPhone if you didn't have all kinds of disposable income. So I do think new technology generally comes out expensive, and works the price down. But the subsidies, I think, is where we were kind of keying in on. Don, you were going to say something...
 
-**Don MacKinnon:** \[00:56:02.21\] Now it's the reverse, though, at least from the software and services side, where it comes in cheap, and then they raise it.
+**Don MacKinnon:** \[56:02\] Now it's the reverse, though, at least from the software and services side, where it comes in cheap, and then they raise it.
 
 **Jerod Santo:** It comes in free.
 
@@ -824,7 +824,7 @@ With the previous iterations of this remixing, like with music, they figured out
 
 My fear is that the people with these skills are -- these skills are not going to be in demand, so there's no impetus for people to become an illustrator, or a writer, or a developer... And so what happens 20 years from now, when there's no one coming into the ecosystem anymore, doing these things?
 
-**Jerod Santo:** We've just talked about that with Thorsten Ball in light of open source, and our new agentic coders, where it becomes almost free to just generate some code. Why open-source, maintain and share libraries when a coding agent can just create me a new auth library very quickly? One-offs for everything. Why wouldn't you just have a bespoke everything? And what does that look like in 20 years? Because all of a sudden, I'm not incentivized to go find open source, download open source, contribute to open source, open-source my own code, when it's just disposable anyways. All code is disposable.
+**Jerod Santo:** We've just talked about that with Thorsten Ball in light of open source, and our new agentic coders, where it becomes almost free to just generate some code. Why open source, maintain and share libraries when a coding agent can just create me a new auth library very quickly? One-offs for everything. Why wouldn't you just have a bespoke everything? And what does that look like in 20 years? Because all of a sudden, I'm not incentivized to go find open source, download open source, contribute to open source, open source my own code, when it's just disposable anyways. All code is disposable.
 
 \[01:12:01.27\] And then we lose public code eventually, because -- I mean, this is just like a potential truth, and not necessarily that's going to happen. But yeah, it's similar with illustrators and creatives of all kinds, where there's no longer incentives to do that. Although I think when it comes to music and art, and even writing, people are going to continue to do it because they love it. And maybe that's the same answer with code and open source.
 
