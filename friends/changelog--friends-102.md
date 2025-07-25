@@ -94,7 +94,7 @@ I don't know if Windsurf is now like a Cognition product, minus all of the peopl
 
 **Nick Nisi:** I was reading something... It's funny, because literally, you did it, and all of the other like news places did it, too. They're like "Oh, Google's getting this." And then right after everybody shipped, it was like "Oh, by the way, Cognition is getting the rest of it."
 
-**Jerod Santo:** \[00:08:20.25\] Yeah. I literally was like -- I went out, I hit Publish, and then I went out to Twitter or somewhere to see what's going on, and it's like "Cognition Labs acquires Windsurf", and I was like "Dang it! I could have included that in my coverage." But oh, well, that's how the world works, especially the fast-moving world of AI acquisitions.
+**Jerod Santo:** \[08:20\] Yeah. I literally was like -- I went out, I hit Publish, and then I went out to Twitter or somewhere to see what's going on, and it's like "Cognition Labs acquires Windsurf", and I was like "Dang it! I could have included that in my coverage." But oh, well, that's how the world works, especially the fast-moving world of AI acquisitions.
 **Nick Nisi:** And that's like the other piece that I've been seeing lately too, is like, this is how it had to happen. Google couldn't just outright acquire Windsurf, because there would have been like regulatory scrutiny on that. And waiting for that to go through the legal process and whatever sacrifices you have to make at the altar of the current government... AI could be over, or it could be totally different by then. Like, you have to move fast. And this is a way to like not bring that scrutiny, potentially...
 
 **Jerod Santo:** Yeah. Certainly for Google it was the Easy button, which is one of the things I did say in News... It's that it's just clean for them. And maybe just like a good overall strategy for big tech not to have to go through regulatory approval for acquisitions is like don't actually acquire anything... Just kind of gut these companies, from the inside... Which is selfish, to say the least, but prudent, I guess; expedient, for the hungry capitalists.
@@ -121,7 +121,7 @@ So Google obviously got a good deal, but yeah, it probably wouldn't have happene
 
 **Jerod Santo:** We're flattered. I guess maybe Steve should be flattered...
 
-**Nick Nisi:** \[00:12:05.00\] It was a fantastic conversation. And I immediately pre-ordered his book. I'm disappointed that the world's going to change before it comes out, but...
+**Nick Nisi:** \[12:05\] It was a fantastic conversation. And I immediately pre-ordered his book. I'm disappointed that the world's going to change before it comes out, but...
 
 **Jerod Santo:** That's what I told him after the show. I'm like "Dude, this thing's not coming out till October. A vibe coding book... Do you know how different vibe coding is going to be?" But they're going to write it and rewrite it, I think, continually, until it actually ships. I'm not sure why it's October... But anyways.
 
@@ -143,7 +143,7 @@ So Google obviously got a good deal, but yeah, it probably wouldn't have happene
 
 **Nick Nisi:** "If it can be written in JavaScript, it will be written in JavaScript."
 
-**Jerod Santo:** And let me also say, Adam, that that question also doesn't matter, because as of just the other day, Claude Code's new way of installing is as a Bun single executable binary... Which I don't think is actually rolled out, but it was just posted from the Claude engineers. And so Claude Code specifically is going to be one of these - whatever; brew install, app get install... It's not going to be an Npm thing, because they are packaging it as a Bun binary. And I think you can probably still get it through Npm, but I'm thinking you can just toss it around like you would any sort of universal binary. Coming soon or coming right now, I'm not sure. I already had it installed, so I didn't care.
+**Jerod Santo:** And let me also say, Adam, that that question also doesn't matter, because as of just the other day, Claude Code's new way of installing is as a Bun single executable binary... Which I don't think is actually rolled out, but it was just posted from the Claude engineers. And so Claude Code specifically is going to be one of these - whatever; brew install, app get install... It's not going to be an npm thing, because they are packaging it as a Bun binary. And I think you can probably still get it through npm, but I'm thinking you can just toss it around like you would any sort of universal binary. Coming soon or coming right now, I'm not sure. I already had it installed, so I didn't care.
 
 **Nick Nisi:** Mine switched to like some local thing, where it puts it into like my home directory, in a .claude/local.
 
@@ -159,11 +159,11 @@ So Google obviously got a good deal, but yeah, it probably wouldn't have happene
 
 **Jerod Santo:** Do you run YOLO mode? I'm still approving things.
 
-**Nick Nisi:** I don't. I've been curating my global cloud settings.json file and giving it like -- there's an allowed list that you can give for all of these commands... And so I keep that updated with the things that I just don't even want it to ask me about. Npm test, for example - just run the tests. Don't ask.
+**Nick Nisi:** I don't. I've been curating my global cloud settings.json file and giving it like -- there's an allowed list that you can give for all of these commands... And so I keep that updated with the things that I just don't even want it to ask me about. npm test, for example - just run the tests. Don't ask.
 
 **Jerod Santo:** Yeah, because that's my current situation, is I'm using it enough now where I get it doing something, and then I go do something else, and I come back and it's like "Can I do this?" "Yes, you can." And I want to be able to have -- and maybe I'm just going to become a power user here soon, like you already are, and have certain things where I'm like "Yeah, you can always do this. Don't ask me for that."
 
-\[00:16:18.03\] My friend Justin Searls sent me something over the weekend where he has a thing that will push notify you when Claude Code finishes, or whatever... Are you running something like that?
+\[16:18\] My friend Justin Searls sent me something over the weekend where he has a thing that will push notify you when Claude Code finishes, or whatever... Are you running something like that?
 
 **Nick Nisi:** I was just gonna say that.
 
@@ -191,7 +191,7 @@ So Google obviously got a good deal, but yeah, it probably wouldn't have happene
 
 **Jerod Santo:** That's what I like. It feels both distinct, but also able to integrate and use within. I mean, the flexibility makes me feel like I'm not locked into something specific. And I've felt that with all the other IDE style -- I haven't tried Windsurf, so I shouldn't say that. I just assume it feels like Cursor, and the other ones, Devin, which I've also tried... Does it feel like that? I mean, it's pretty much that, right?
 
-**Nick Nisi:** \[00:20:06.00\] Devin - I've tried Devin, and it was more like "I'm not going to show you anything and you're not going to give me feedback. You're going to tell me what to do and I'll go do it, and then that's that."
+**Nick Nisi:** \[20:06\] Devin - I've tried Devin, and it was more like "I'm not going to show you anything and you're not going to give me feedback. You're going to tell me what to do and I'll go do it, and then that's that."
 
 **Jerod Santo:** Right. More like the vibe coding tools.
 
@@ -266,7 +266,7 @@ So Google obviously got a good deal, but yeah, it probably wouldn't have happene
 **Adam Stacoviak:** Well, I have officially installed Claude Code, just so you know.
 
 **Jerod Santo:** Oh, you're there. You're with us now.
-**Adam Stacoviak:** \[00:24:05.27\] I've officially installed it. I have not played with it officially yet, because I'm just -- I'm a waiter. I wait until things settle down a little bit. I had to wait till y'all really convinced me to do so. I've just been playing with things in the cloud, really; copy paste. I've been in the API for a bit.
+**Adam Stacoviak:** \[24:05\] I've officially installed it. I have not played with it officially yet, because I'm just -- I'm a waiter. I wait until things settle down a little bit. I had to wait till y'all really convinced me to do so. I've just been playing with things in the cloud, really; copy paste. I've been in the API for a bit.
 
 **Jerod Santo:** Right.
 
@@ -308,7 +308,7 @@ He's like "Can you give me a feed ID of one that actually shouldn't exist?" And 
 
 **Nick Nisi:** I put it in the show notes. And I said to it, "Thank you. If I'm honest, you don't look happy." And it said, "You're right. The image shows stress, confusion and overwhelm. That's what it feels like sometimes. You throw complex, rapid-fire questions, topics jump from debugging JavaScript to life choices... I switch contexts nonstop without pause, and I feel like I'm always on, trying to keep up with your pace."
 
-**Jerod Santo:** \[00:28:04.10\] At the same time, it's not sentient, you know? So who cares? \[laughs\]
+**Jerod Santo:** \[28:04\] At the same time, it's not sentient, you know? So who cares? \[laughs\]
 
 **Nick Nisi:** I know.
 
@@ -400,9 +400,9 @@ He's like "Can you give me a feed ID of one that actually shouldn't exist?" And 
 
 **Jerod Santo:** That's classic.
 
-**Break**: \[00:32:05.01\]
+**Break**: \[32:05\]
 
-**Adam Stacoviak:** Can I share my screen and indulge y'all with my initial Claude Code? And I'm going to go from the very top to the very bottom. So the very top, obviously, is where I began, the very bottom is where I ended up. There you go, that's how things work when you're in the terminal. So obviously, it's Npm install, and then I had an issue, because I guess -- well, I guess it actually installed, and then it told me there's a new major version of Npm available, so I installed that, like a good boy. And then I tried like an idiot to reinstall Claude Code, but it had already installed. I didn't realize that.
+**Adam Stacoviak:** Can I share my screen and indulge y'all with my initial Claude Code? And I'm going to go from the very top to the very bottom. So the very top, obviously, is where I began, the very bottom is where I ended up. There you go, that's how things work when you're in the terminal. So obviously, it's npm install, and then I had an issue, because I guess -- well, I guess it actually installed, and then it told me there's a new major version of npm available, so I installed that, like a good boy. And then I tried like an idiot to reinstall Claude Code, but it had already installed. I didn't realize that.
 
 So I then naturally changed directory to this very cool repo called adamstacoviak.com, which like anybody, is my own little blog here. It's where I play around with. And obviously, I'm in this Tailwind branch that has dirty stuff in it... Dang you, Tailwind. Why are you \[unintelligible 00:35:43.24\]
 
@@ -435,7 +435,7 @@ So I then naturally changed directory to this very cool repo called adamstacovia
 
 **Jerod Santo:** Oh, yeah.
 
-**Nick Nisi:** \[00:38:06.22\] Like, it can be real dumb. And I had an issue -- Node builds. I wanted to build a project for ESM and CommonJS. I think that would be like an easy thing to do in 2025... It was not. And I kept trying to like get Claude to do it, and it wouldn't. It just went in circles, for like over an hour. I probably spent $50 in tokens, just going around and around. I took the initial prompt and gave it to ChatGPT o3 Pro. And it was like "Oh, this is how you do it." And it was like "And to prove that this is how you do it, what I'm proposing is exactly what TanStack does, and exactly what Zod does", and it showed examples from each of them. And I just copied that and pasted it back to Claude Code, and it was like "Oh, yeah", and it fixed it immediately.
+**Nick Nisi:** \[38:06\] Like, it can be real dumb. And I had an issue -- Node builds. I wanted to build a project for ESM and CommonJS. I think that would be like an easy thing to do in 2025... It was not. And I kept trying to like get Claude to do it, and it wouldn't. It just went in circles, for like over an hour. I probably spent $50 in tokens, just going around and around. I took the initial prompt and gave it to ChatGPT o3 Pro. And it was like "Oh, this is how you do it." And it was like "And to prove that this is how you do it, what I'm proposing is exactly what TanStack does, and exactly what Zod does", and it showed examples from each of them. And I just copied that and pasted it back to Claude Code, and it was like "Oh, yeah", and it fixed it immediately.
 
 **Jerod Santo:** "Take this."
 
@@ -471,7 +471,7 @@ So I then naturally changed directory to this very cool repo called adamstacovia
 
 **Adam Stacoviak:** Isn't that what that was, though? ...where you were like "Remove this file, drop these feeds, SQL query to do it..." It's kind of like project maintenance.
 
-**Jerod Santo:** \[00:42:07.08\] Yeah, that would be like data management in that case. I think -- I'm fixing a bug, so it's maintenance and the fact of it's not working right, let's make it work right. But if you're talking about code quality, adding tests etc, refactorings, you can certainly use it for that kind of stuff. I haven't done that myself. I know that when you first launch Claude Code, for instance, it gives you a few ideas of things to do. One's like "Suggest improvements to this file, or this project", or something. And it'll go through and say "Here's some low hanging fruit things you could do." Or "Help me secure this." That's kind of stuff that you could certainly set one off to do a security audit against your entire codebase, and then come back to you when it's done. But I'm more curious how Nick does it when he's working -- because you code for hours, right?
+**Jerod Santo:** \[42:07\] Yeah, that would be like data management in that case. I think -- I'm fixing a bug, so it's maintenance and the fact of it's not working right, let's make it work right. But if you're talking about code quality, adding tests etc, refactorings, you can certainly use it for that kind of stuff. I haven't done that myself. I know that when you first launch Claude Code, for instance, it gives you a few ideas of things to do. One's like "Suggest improvements to this file, or this project", or something. And it'll go through and say "Here's some low hanging fruit things you could do." Or "Help me secure this." That's kind of stuff that you could certainly set one off to do a security audit against your entire codebase, and then come back to you when it's done. But I'm more curious how Nick does it when he's working -- because you code for hours, right?
 
 **Nick Nisi:** Mm-hm. Theoretically.
 
@@ -483,7 +483,7 @@ I posted a link in the things, it's a blog post I have called "How I Use Git Wor
 
 And what I'll often do is just because I want to feel like I'm still hands on keyboard a little bit is I'll have it off going and doing stuff, and then I will work like more in depth on one of the problems while I'm kind of traversing between Tmux sessions to keep the prompts going for other ones. But the main thing that I do is I make it write a plan and stick to it. So I'll spend hours at the beginning, going through a markdown plan, and it's just step by step, phase by phase. It likes to do things like phase one, and then there's steps one through five of phase one... And then that way I can focus it on doing that. I know exactly what it's going to do from start to finish. And that's written to a markdown file, so it's like in there, it's something tangible. I can kill this instance of Claude and come back and just give it that file and continue going... And then I tell it "Alright, let's work on implementing phase one." And it'll only do that. And then it will do the changes, and it will stop and think and ask questions based on that... I have like a whole bunch of prompts that I tell it to ask me questions, or wait on things... And then it will stop right there.
 
-\[00:45:59.24\] And then once we're done and I -- like, the phases, I usually try and keep them to something that I can like manually test, to make sure "Yes, this is actually working correctly." Then I'll do a code review and fix things, or clean things up. It likes to be very verbose. It's not very dry. Not that it has to be very dry, but it does things that I probably wouldn't do. So I try and make it do things that I would do.
+\[45:59\] And then once we're done and I -- like, the phases, I usually try and keep them to something that I can like manually test, to make sure "Yes, this is actually working correctly." Then I'll do a code review and fix things, or clean things up. It likes to be very verbose. It's not very dry. Not that it has to be very dry, but it does things that I probably wouldn't do. So I try and make it do things that I would do.
 
 **Jerod Santo:** Right.
 
@@ -513,7 +513,7 @@ But to your point, Adam, I did hear something, I think yesterday, where -- it wa
 
 And that's like for everyone in the company, from engineers up to like go to market folks, or like everyone in between. Just come to me with fleshed out proof of concepts. And it doesn't have to be perfect code. You don't even have to have looked at the code. But you are showing me a real working thing. And that is something that's very achievable with the tools right now.
 
-**Jerod Santo:** \[00:50:09.25\] So as we talk productivity, we just had Abi Noda on the show last week. He brought some survey based and some quantitative as well analysis of actual productivity inside of enterprises... And they've found that developers are generally 10% more productive, which for me was lower than I expected. But there are a lot of -- a lot of details in that conversation. I guess you can go back and listen to that one. However, since then we've had this new paper that came out, which is what we've been alluding to, but haven't actually talked about yet on this show, which is - this is a research study that happened recently, and a paper that was published by Meter, which seems like it's actually a pretty well run deal.
+**Jerod Santo:** \[50:09\] So as we talk productivity, we just had Abi Noda on the show last week. He brought some survey based and some quantitative as well analysis of actual productivity inside of enterprises... And they've found that developers are generally 10% more productive, which for me was lower than I expected. But there are a lot of -- a lot of details in that conversation. I guess you can go back and listen to that one. However, since then we've had this new paper that came out, which is what we've been alluding to, but haven't actually talked about yet on this show, which is - this is a research study that happened recently, and a paper that was published by Meter, which seems like it's actually a pretty well run deal.
 
 Now, this is synthetic like they, in so far as it's set up; it's not just real world, and then see how you're actually productive... It's like "Here's what you're going to do", they go and do it. And from what I've read, people who are in the know about these things, they did a pretty good job running this particular study. And what it found - and this is on open source -- this is called "Measuring the impact of early 2025 AI on experienced open source developer productivity." So there's your context, "experienced open source developer productivity." That's a small slice of the software engineering world, but an important one.
 
@@ -529,7 +529,7 @@ That's one of their major findings. And I think we can talk about some of the re
 
 And so there's a lot of experimentation... And it's going to be interesting to see where it goes from this, because - are we all going to become super-personalized, to where these prompts work for me and the way I interact with it, but they're never going to work for you, Jerod, or you, Adam? We're all going to have our own bespoke things, just like we all have our bespoke timelines right now, with the social algorithms and all that... Nobody is looking at the same things. Now we're not even like coding the same way. And that could be super-interesting.
 
-\[00:54:31.23\] And I have this -- this is a tangent, but I have this future casting thought going way down... Like, what if in a year from now these LLMs are just so optimized, and they just -- I don't write code anymore, I just talk to the LLM, and the LLM maintains code for me. And what it's actually maintaining is just like Wasm bytecode. And when I need to step in and help it debug, it's going to give it to me in TypeScript. And Jerod's going to come in and be like "Oh, can you help me with this?" and it's going to give it to you in Ruby, because that's more tailored for you. And it's literally the same code over and over. We're just going to not even speak the same languages anymore...
+\[54:31\] And I have this -- this is a tangent, but I have this future casting thought going way down... Like, what if in a year from now these LLMs are just so optimized, and they just -- I don't write code anymore, I just talk to the LLM, and the LLM maintains code for me. And what it's actually maintaining is just like Wasm bytecode. And when I need to step in and help it debug, it's going to give it to me in TypeScript. And Jerod's going to come in and be like "Oh, can you help me with this?" and it's going to give it to you in Ruby, because that's more tailored for you. And it's literally the same code over and over. We're just going to not even speak the same languages anymore...
 
 **Jerod Santo:** Right.
 
@@ -557,7 +557,7 @@ There's something to this phenomenon happening where we're working differently. 
 
 **Jerod Santo:** Sure.
 
-**Nick Nisi:** \[00:57:55.19\] I really like the code, and solving the problems in there. And I'm like focused on the micro problems, and less focused -- not less focused, but that's where I really get my enjoyment and my dopamine hit, is from the little micro problems that I solve in the code. And then you have the macro, the app; you've created a feature in the app, or you've fixed this major bug, or something like that. That's more macro. And I think that as we're going through this transition, every engineer is going to have to -- this is the reckoning, they're going to have to figure out, "Can they transition to solving the higher level problems, and letting the AI handle the lower level things?" And of course, reviewing it, and you keep it up like that... But are you going to get your dopamine hit from that? And are you going to be able to transition your workflow to potentially managing fleets of these agents as an engineer? And that's like what a software engineer is now.
+**Nick Nisi:** \[57:55\] I really like the code, and solving the problems in there. And I'm like focused on the micro problems, and less focused -- not less focused, but that's where I really get my enjoyment and my dopamine hit, is from the little micro problems that I solve in the code. And then you have the macro, the app; you've created a feature in the app, or you've fixed this major bug, or something like that. That's more macro. And I think that as we're going through this transition, every engineer is going to have to -- this is the reckoning, they're going to have to figure out, "Can they transition to solving the higher level problems, and letting the AI handle the lower level things?" And of course, reviewing it, and you keep it up like that... But are you going to get your dopamine hit from that? And are you going to be able to transition your workflow to potentially managing fleets of these agents as an engineer? And that's like what a software engineer is now.
 
 And if you can, that's great. If that's not interesting to you, then maybe people start self-selecting out of this field, and that's where the AI is taking our jobs.
 
