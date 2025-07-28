@@ -90,7 +90,7 @@ Hear from their teams representing data infrastructure, product development, sec
 
 Drew Lyton did something radical. He built his own cloud. 
 
-> My wife and I now have a computer in our house that runs open-source equivalents to Google Drive, Google Photos, Audible, Kindle, and Netflix. It syncs to all of our devices. It's secured behind our own VPN. And it's wholly, truly owned by us.
+> My wife and I now have a computer in our house that runs open source equivalents to Google Drive, Google Photos, Audible, Kindle, and Netflix. It syncs to all of our devices. It's secured behind our own VPN. And it's wholly, truly owned by us.
 
 After doing all that, he sat down to share with us how he did it, what he learned, and why he thinks self-hosting is NOT the future we should be fighting for.
 
