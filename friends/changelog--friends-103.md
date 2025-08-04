@@ -80,7 +80,7 @@ And we got three respondents. They are all here today. One of them you may know,
 
 **Spencer Lyon:** Shocking.
 
-**Adam Stacoviak:** \[00:08:10.14\] Yeah, I know. Sorry. I don't know how to describe it... I'm working on it.
+**Adam Stacoviak:** \[08:10\] Yeah, I know. Sorry. I don't know how to describe it... I'm working on it.
 
 **Jerod Santo:** So one suggestion that we've had is to post all the definitions to you all, and then read them once. And that cuts down on the people asking to repeat. Now, I think the asking to repeat is kind of funny, but it does get old. That's kind of the funny part. My fear with -- the reason I haven't done it is because there's a certain amount of tells, even in the text, whether it's misspellings, or the way that I present things, that can sometimes lead to you knowing whether or not it's real. So I'm curious, as we are here in the first round, what you all think about that.
 
@@ -132,7 +132,7 @@ And we got three respondents. They are all here today. One of them you may know,
 
 **Jerod Santo:** Okay. It goes beyond legs. Spencer takes number five, that's the muscle one. And now we go to Adam. Are you going to pile on? Are you going to spread it out? Are you going to --
 
-**Adam Stacoviak:** \[00:12:03.10\] I don't know. I guess, I don't know what to do. I don't know.
+**Adam Stacoviak:** \[12:03\] I don't know. I guess, I don't know what to do. I don't know.
 
 **Jerod Santo:** Well, do you need me to repeat any of them for you?
 
@@ -198,7 +198,7 @@ We move now to round two, where your word for round two is eigengrau. That's E-I
 
 **Jerod Santo:** Well, we're going to do our Kaizen episode with Gerhard, and we're going to be launching -- cutting over Pipely to go live, so that'll be interesting... That's basically it. It's a two-parter. So an interview and then a Kaizen.
 
-**Spencer Lyon:** \[00:16:14.00\] That sounds great.
+**Spencer Lyon:** \[16:14\] That sounds great.
 
 **Jerod Santo:** And whatever else we make up on stage. We have all the definitions for eigengrau. Number one, the dark gray color that people perceive in complete darkness, rather than seeing pure black. Number two, "When naming the beer Ziegenbock..." \[laughter\] Dude, you can't laugh while I'm -- I'm going to have to mute you. When naming the beer Ziegenbock - this name was also in the running - it describes a patent pending process for mixing beer, so they considered it for the name of the beer. Number three, the deeply primal feeling of fear, driven by a heightened increase of cortisol as if hearing the blood curdling cry of a beast while on the hunt.
 
@@ -250,7 +250,7 @@ The definition actually is the dark gray color that people perceive in complete 
 
 **Jerod Santo:** Right. According to Wikipedia, eigengrau is the German from intrinsic gray. And so maybe eigen means intrinsic. Also called eigenlicht. I can't speak German... Dark light, or brain gray. It's the uniform dark gray background color that many people report seeing in the absence of light. The term eigenlicht dates back to the 19th century, and has rarely been used in recent scientific publications. So there you go.
 
-**E. David Aja:** \[00:20:09.03\] How would they all be reporting it as gray? Like, there's no -- I'm sorry, that's a philosophy question.
+**E. David Aja:** \[20:09\] How would they all be reporting it as gray? Like, there's no -- I'm sorry, that's a philosophy question.
 
 **Jerod Santo:** Yeah, they think they're seeing black, but they're not, basically... Because it's just like "Well, it's dark, so it's black." It's actually not black.
 
@@ -322,7 +322,7 @@ The definition actually is the dark gray color that people perceive in complete 
 
 **Jerod Santo:** Sure thing. Number one, a device that converts the kinetic energy of an electron beam into radio frequency power. And number two, the process of moving swiftly through water.
 
-**Spencer Lyon:** \[00:24:14.25\] Hm... I think I'm going to go -- there were two subatomic particles, so I'm drawn to one of those ones... And the question is which one? I think I'm going to go negative charge and spin. Number five.
+**Spencer Lyon:** \[24:14\] Hm... I think I'm going to go -- there were two subatomic particles, so I'm drawn to one of those ones... And the question is which one? I think I'm going to go negative charge and spin. Number five.
 
 **Jerod Santo:** Okay. Number five, a subatomic particle with negative charge and spin. Locky in right there. Adam, to you.
 
@@ -413,7 +413,7 @@ The definition actually is the dark gray color that people perceive in complete 
 
 **E. David Aja:** That's why I didn't believe it.
 
-**Adam Stacoviak:** \[00:28:09.23\] It was cool, I liked it.
+**Adam Stacoviak:** \[28:09\] It was cool, I liked it.
 
 **Jerod Santo:** It was a good one. I liked the gluon and muon the most. Jamie liked that one as well... And that was Spencer's. So the subatomic particles was too good to be true. Neither of those was the right answer...
 
@@ -441,7 +441,7 @@ We're moving now to round four. This is a special round. We call it "Give it a g
 
 **Adam Stacoviak:** Ah, give it a goog...
 
-**Break**: \[00:30:00.13\]
+**Break**: \[30:00\]
 
 **Jerod Santo:** I went out to google.com in an incognito browser... I did not use a VPN, so yes, you can probably triangulate some stuff, because I was too lazy, even though I knew that might happen... And I googled "How does." Just those two words, "How does", and then I hit Space, to make sure it knows that does is over... And I stopped, and Google suggested some autocompletes. I have jotted down the number one autocomplete, and your job in this round is either to guess what Google autocompleted for me, or of course, come up with what you think it might autocomplete for most humans around the world. Please submit to me your autocompletes now.
 
@@ -503,7 +503,7 @@ We're moving now to round four. This is a special round. We call it "Give it a g
 
 **Adam Stacoviak:** Okay, that was not the one.
 
-**Jerod Santo:** \[00:35:59.25\] Number three, how does astronomer make money?
+**Jerod Santo:** \[35:59\] Number three, how does astronomer make money?
 
 **Adam Stacoviak:** That was awesome.
 
@@ -609,7 +609,7 @@ We're moving now to round four. This is a special round. We call it "Give it a g
 **Adam Stacoviak:** You know, I just don't have a good brain like you, David, because that was an awesome answer... And I guess I'm just bland. I could be more sparkling, I'm just a little bland, unfortunately.
 
 **Jerod Santo:** Well, the correct autocomplete, or at least for my incognito tab on this side of the Earth, is "How does Ozempic work?" And Jamie and David both picked that, so two points each. That's two for Jamie in the round, four for David in the round. Other autocompletes that didn't quite make it as high, but were still on the list... Number two was "How does a HELOC work?" A HELOC. That is confusing. A home equity line of credit. A very complicated, but sometimes useful investing vehicle. "How does Plan B work?" "How does Zelle work?" You know, that thing where you can send money between banks... I don't know. I don't know how it works. And how does hail form? That's straight out of Nebraska right there, because we get hailed on so much.
-**Adam Stacoviak:** \[00:40:15.29\] And Texas, bro. Oh my gosh, yeah.
+**Adam Stacoviak:** \[40:15\] And Texas, bro. Oh my gosh, yeah.
 
 **Spencer Lyon:** I got a particularly Orlando response in my how does... So number one, also Ozempic.
 
@@ -677,7 +677,7 @@ I think if I were you guys, I'd start teaming up against David... Just saying. J
 
 **Adam Stacoviak:** Yes, yes.
 
-**Jerod Santo:** \[00:44:09.13\] We actually were going to watch that in Denver, as like a group activity, because it'd be hilarious... But the joke is funnier than the reality, so we're not going to do it. Because it's public domain. John Henry found out it's in the public domain, because it's like 1928. And so like "Man, we could like put it on a projector and watch it outside", or something. But... Too lazy.
+**Jerod Santo:** \[44:09\] We actually were going to watch that in Denver, as like a group activity, because it'd be hilarious... But the joke is funnier than the reality, so we're not going to do it. Because it's public domain. John Henry found out it's in the public domain, because it's like 1928. And so like "Man, we could like put it on a projector and watch it outside", or something. But... Too lazy.
 
 **Spencer Lyon:** I see David's guitar's in the back. He may even need to start thinking of a victory jingle you can play for us. We're closing in.
 
@@ -728,7 +728,7 @@ This is our sixth time playing, isn't it? I think this is round six, and I think
 
 **Jerod Santo:** Yeah, I think that's all five. \[laughter\] One of which you wrote.
 
-**Jamie Tanna:** \[00:48:11.02\] But which one...? Yeah, I don't know.
+**Jamie Tanna:** \[48:11\] But which one...? Yeah, I don't know.
 
 **Adam Stacoviak:** That's his strategy.
 
@@ -862,7 +862,7 @@ They hit it off well, but when this mysterious woman shows up, everything change
 
 **Jerod Santo:** That's right. David and Spencer - or I should say Spencer piled on with David onto the bowler hat. That was Jamie's bowler hat.
 
-**E. David Aja:** \[00:52:02.28\] Damn it... I was like "The guy from England is not going to do a bowler hat \[unintelligible 00:52:04.23\]
+**E. David Aja:** \[52:02\] Damn it... I was like "The guy from England is not going to do a bowler hat \[unintelligible 00:52:04.23\]
 
 **Jerod Santo:** I thought it was kind of on the nose, but...
 
@@ -936,7 +936,7 @@ Alright, so I looked it up... I remember Carol Lee, PhD, being quite dominant at
 
 **E. David Aja:** Expansion?
 
-**Jerod Santo:** \[00:56:04.24\] Five acronym expansions, thank you... With definitions for the acronym WIMP. WIMP. Number one. WIMP. Worker Initialized Multiprocessing, a distributed computing execution strategy. Number two, Weekly Interacting Massive Particle - a hypothetical particle proposed as a candidate for dark matter. Number three. Wrought Iron Manifold Plateau - the culmination of the process for creating low-carbon iron alloys in which the maximum efficacy of the process is achieved. Number four. Windows Internet Management Platform - the Windows Internet Management Platform is a suite of tools used to manage the network's internet access at the enterprise level. And number five, Windows Image Management Package - the closed source proprietary answer to the popular open source image manipulation library GIMP. So it's like GIMP, but for Windows, if I had to put it in my own words.
+**Jerod Santo:** \[56:04\] Five acronym expansions, thank you... With definitions for the acronym WIMP. WIMP. Number one. WIMP. Worker Initialized Multiprocessing, a distributed computing execution strategy. Number two, Weekly Interacting Massive Particle - a hypothetical particle proposed as a candidate for dark matter. Number three. Wrought Iron Manifold Plateau - the culmination of the process for creating low-carbon iron alloys in which the maximum efficacy of the process is achieved. Number four. Windows Internet Management Platform - the Windows Internet Management Platform is a suite of tools used to manage the network's internet access at the enterprise level. And number five, Windows Image Management Package - the closed source proprietary answer to the popular open source image manipulation library GIMP. So it's like GIMP, but for Windows, if I had to put it in my own words.
 
 **Adam Stacoviak:** Don't you smile like that, David... No, sir. No, sir. Okay, audio listeners, you didn't see that smile, okay? I saw that smile... That smile was "That's mine."
 
