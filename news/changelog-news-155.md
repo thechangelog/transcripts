@@ -56,7 +56,7 @@ Ouch. In other words, vibe coding would have produced *better* results.
 
 It's now time for sponsored news!
 
-[Observability for your GitHub Actions](https://depot.dev/blog/introducing-github-job-details-observability-for-your-cicd-pipeline)
+[Observability for your GitHub Actions](https://depot.dev/blog/introducing-GitHub-job-details-observability-for-your-cicd-pipeline)
 
 If you've ever stared at a failing GitHub Action wondering what on earth just happened, you're not alone. CI logs are often a black box, and not the fun kind.
 
