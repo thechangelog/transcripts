@@ -92,7 +92,7 @@ Maybe that's not true. It's been a long time. Maybe I answered one way back in t
 
 **Adam Stacoviak:** I'm with you. So you've been able to have a profile there, you've been able to gamify your involvement, whether it's an answerer, or a questioner - I don't know how you would phrase those personas either. But very much so it's been this really kind of unique world. If you're a listener out there and you've been a gamified, enriched user of Stack Overflow and you love it, let us know. I'm curious what that's like, or has been like. But to me, I've never been like "Oh, I've got to go there and answer all the questions I know, so that I can rise to prominence." I've never understood that specific user experience. But I think my experience with Stack Overflow has been generally -- I would say on par.
 
-\[00:08:10.18\] Sometimes you find an answer, sometimes it's out of date, sometimes you have some responses that bubble up as "Hey, it's been a year or two. This has changed, this is the new way." So generally it's been the prompt before the prompt, so to speak.
+\[08:10\] Sometimes you find an answer, sometimes it's out of date, sometimes you have some responses that bubble up as "Hey, it's been a year or two. This has changed, this is the new way." So generally it's been the prompt before the prompt, so to speak.
 
 **Jerod Santo:** Right. Yeah, obviously I'm glad it exists. I wish it would continue to exist prominently. I do not know the details of whatever moderation drama, and... You know, there's backlash. Even from people who are longtime contributors, I've seen them leaving the platform, and so they've got their problems. Every website does; it's a difficult thing, moderation.
 
@@ -110,7 +110,7 @@ I hope Stack Overflow does not continue to decline. I think it kind of needs to 
 
 **Jerod Santo:** Right. So back to the survey, they have the data, of course, but they also do some editorial, which is nice, and related to Stack Overflow's decline, on the homepage of the survey you'll find kind of their editorial, the creators of the survey... Meaning they try to contextualize some stuff and make a few conclusions for the reader. In fact, there's probably 20 or 30 of them on the homepage, that just randomly refresh, or they switch orders as you refresh the page. So they're not trying to make one more important than the other. But one of their takeaways from the survey is Stack Overflow is a destination developers visit frequently. I thought that one was funny, because that one almost sounds like a self-serving selection from the data.
 
-\[00:12:24.10\] Of course, they publish the data as well, and everyone can come to their own conclusions. But connecting the dots and trying to have takeaways is, of course, the interesting part. And many of us don't have time for that. In fact, if you don't have time for that - to our listener - of course, we're here to even read you some of those connections.
+\[12:24\] Of course, they publish the data as well, and everyone can come to their own conclusions. But connecting the dots and trying to have takeaways is, of course, the interesting part. And many of us don't have time for that. In fact, if you don't have time for that - to our listener - of course, we're here to even read you some of those connections.
 
 So there is a question about Stack Overflow, frequency of visiting Stack Overflow... And of course, on the homepage they create these conclusions, and then you can drill down on the actual chart that that comes from. And they have a few questions like "How long have you had an account on Stack Overflow?" and then frequency of visiting Stack Overflow. And what's crazy is there's 45% of the people who answered this survey have had a Stack Overflow account for over 11 years.
 
@@ -144,7 +144,7 @@ So there is a question about Stack Overflow, frequency of visiting Stack Overflo
 
 **Adam Stacoviak:** "How does this pacifier work, okay? C'mon. How do I get into this?"
 
-**Jerod Santo:** \[00:16:15.05\] \[laughs\] Yeah. I mean, most of the questions are probably about Roblox, and stuff like that. And Minecraft.
+**Jerod Santo:** \[16:15\] \[laughs\] Yeah. I mean, most of the questions are probably about Roblox, and stuff like that. And Minecraft.
 
 **Adam Stacoviak:** That's true. That's true. Yeah. Wow... Very interesting. So definitely some interesting stats coming from that. What about the -- what I'm noticing as I go through the different age brackets is really it's the older generation that has been using it for longer, obviously. So I think 35 to 64 is probably a range of the last 15 years. Because if you were 35, 15 years ago, you were - what, 20 years old? It's pretty common to pick up Stack Overflow at 20, whenever you were in your junior days, or just getting in development. And 15 years ago - that was 2010? Yeah, 2010. So 2010 was a pretty popular year to use Stack Overflow, I think.
 
@@ -162,7 +162,7 @@ And then the other one was the respondents learning to code using YouTube for co
 
 **Jerod Santo:** Yeah, so there's two questions that speak to that, as you said. The first one is "How do you choose to find relevant developer content?" And the Stack Overflow folks say "Well, all age groups want lists and articles", because everybody loves a good listicle. "Younger developers show a significantly higher interest in more social and interactive formats. For example, 37% of 18 to 24-year-olds want chat with people, not with GPT." Well, that's all the kids are saying now. ChatGPT is just Chat now, I've learned.
 
-**Adam Stacoviak:** \[00:20:24.18\] Is that right?
+**Adam Stacoviak:** \[20:24\] Is that right?
 
 **Jerod Santo:** Yeah. "Ask Chat", that means ChatGPT.
 
@@ -182,7 +182,7 @@ So getting at the "with people" part, I want to explore self-driven for a bit, w
 
 **Jerod Santo:** Yeah, I think a mixture is for the win, for sure. I think they serve different purposes. I certainly enjoy chatting with people generally more, because I can't easily predict their responses. It seems to me like when I'm looking for advice on how to do something, or a tool to do a thing, I'm perfectly fine with asking Chat. But I don't find things there unless I'm looking for them. I think people are the best source of unsolicited recommendations. Because if you're excited about something, you're just going to find me and come and tell me, right? And we see that all the time in our Zulip, where it's like "This is cool." In fact, that's what I do... Most of my work is finding cool stuff and sharing it with people, a.k.a. Changelog News. That's unsolicited recommendations, right? Like, okay, you solicited it because you signed up for Changelog News. But if you're hanging out in Zulip and you're just part of our community, you may have not wanted to know there's this cool movie you should watch. Someone's going to come and tell you. That's irreplaceable, I think. I mean, you could be like "Hey, every N hours, please send me a recommendation." You can do stupid stuff like that to imitate it. But when people find useful tools, useful lists, useful long-form articles that really compel them, they'll share. And I think we need to chat with people for that.
 
-**Adam Stacoviak:** \[00:24:18.21\] Do you remember -- this is really going to date us, Jerod, if you remember this. And I know you do, because we're old.
+**Adam Stacoviak:** \[24:18\] Do you remember -- this is really going to date us, Jerod, if you remember this. And I know you do, because we're old.
 
 **Jerod Santo:** Okay. Yes.
 
@@ -210,7 +210,7 @@ But then you go to Mahalo, which was this idea, "Okay, take the same kind of res
 
 **Adam Stacoviak:** Loneliness. Yeah, I think it's a lonely world there. I think the more we're -- I mean, this is really getting philosophical, but I think the more... Well, this is 18, right? So these 18-year-olds were probably not just introduced to their smartphone, or to their smart tablet, or whatever you want to describe it as. It's not a computer anymore. That's not a computer to people like us. They probably had something for many years, and so they've probably already been in this self-isolating framework, or decline, where they're just socializing less... And if I were 18 to 24, I want friends. I want friends. I don't want just money. I don't just want a job that fulfills me. I want the whole kit and caboodle, so to speak. I want to self-learn, because that's just my personal nature, but I want to socialize. And I personally am the kind of person that needs a sounding board. I need my idea to be reflected off of somebody... And you know this, because we've been working together for so long, how I operate. I need somebody to hear my idea. You don't even have to say, yes, you like it, or no, it's a bad -- just please listen. Just listen. And then I do desire feedback, but you don't have to. It's not a requirement. As an individual human, I need to tell another human about my crazy ideas, just to see if there's any resonance. And if there is, then I'm going to chase that dog. If not - well, the idea dies in my brain, and I move along, and I keep doing my daily thing. So I'm a person who needs other people. So I can empathize with these 18, 24-year-olds that are in a world where they're more self-isolated than normal, than we ever have in our history.
 
-**Jerod Santo:** \[00:28:05.18\] Yeah. What's interesting is like the 25 to 54-year-olds all want chat with a bot, and then the olds don't want that either. I think they're just grumpy. They don't want anything anymore.
+**Jerod Santo:** \[28:05\] Yeah. What's interesting is like the 25 to 54-year-olds all want chat with a bot, and then the olds don't want that either. I think they're just grumpy. They don't want anything anymore.
 
 **Adam Stacoviak:** They're kind of done.
 
@@ -238,7 +238,7 @@ And so for most of our formative years and up, we've been desiring smart compute
 
 **Adam Stacoviak:** Lobster's on there twice. Matrix is on there twice. Lemmy's on there twice. Fediverse is obviously the undercurrent. It's all of those things.
 
-**Jerod Santo:** \[00:31:58.21\] Right. So these are the seedy underground where you get 0.02% of write-ins. But back to the major platforms... And so, of course, it's the Stack Overflow Survey. Stack Overflow's number one. But specifically, YouTube is up high for all developers, and especially for learning-to-code people. It's number two at 70%. So 70% of people learning to code will go to YouTube, versus 60% of professional developers will use YouTube. And that tracks with me. I think that the younger generation, of course, will more likely be learning to code. There are people who are older and still learning; they're transitioning or switching careers. But most learning to code are in that 18 to 30 age demo. And again, YouTube is a primary form of learning for these people. It's just become a thing you do, right?
+**Jerod Santo:** \[31:58\] Right. So these are the seedy underground where you get 0.02% of write-ins. But back to the major platforms... And so, of course, it's the Stack Overflow Survey. Stack Overflow's number one. But specifically, YouTube is up high for all developers, and especially for learning-to-code people. It's number two at 70%. So 70% of people learning to code will go to YouTube, versus 60% of professional developers will use YouTube. And that tracks with me. I think that the younger generation, of course, will more likely be learning to code. There are people who are older and still learning; they're transitioning or switching careers. But most learning to code are in that 18 to 30 age demo. And again, YouTube is a primary form of learning for these people. It's just become a thing you do, right?
 
 **Adam Stacoviak:** Yeah.
 
@@ -280,7 +280,7 @@ And so for most of our formative years and up, we've been desiring smart compute
 
 **Adam Stacoviak:** So chapters are a must for me. And if it's a 10-minute video, and I think "Well, this probably took about two or three minutes to explain", I'll look for the chapters, or the chapters that go past the intro, or the "Who I am, and why I do what I do." And I appreciate all that. I'm a diehard fan. I want to hear -- that's how I became a fan of Techno Tim. Timothy Stewart, he's a friend of ours now. I was a watcher like everybody else, but then I became a friend and I said, "Hey, let's talk on a podcast. Let's be friends", and we're friends now.
 
-\[00:36:11.12\] I will still watch his stuff, and I'll go past the preamble. And he's cool with that. Why? Because we're friends. I don't need the "I'm Tim, or Techno Tim, this is where I came from, this is my context..." No. Just take me right to the "TrueNAS, don't fail, how do I configure it" scenario. And thankfully, he's of the chaptering mindset where he chapters. So YouTube must have chapters if there's any length of video whatsoever for me to get my attention. Unless it's like golf content. I'll watch that.
+\[36:11\] I will still watch his stuff, and I'll go past the preamble. And he's cool with that. Why? Because we're friends. I don't need the "I'm Tim, or Techno Tim, this is where I came from, this is my context..." No. Just take me right to the "TrueNAS, don't fail, how do I configure it" scenario. And thankfully, he's of the chaptering mindset where he chapters. So YouTube must have chapters if there's any length of video whatsoever for me to get my attention. Unless it's like golf content. I'll watch that.
 
 **Jerod Santo:** \[laughs\]
 
@@ -338,7 +338,7 @@ And so for most of our formative years and up, we've been desiring smart compute
 
 **Adam Stacoviak:** It's easy for me to get overwhelmed in public-facing scenarios, because I feel so much pressure to give my full love, I would say. I'm a giver. It takes a lot out of me. I'm not an extrovert, I'm an introvert that gets depleted through social interaction, not invigorated. I will say though, I was riding a high, so there's a part of that that's not true. I do get fueled, but I also get equally depleted.
 
-**Break**: \[00:40:06.02\]
+**Break**: \[40:06\]
 
 **Jerod Santo:** Well, let's change our focus to some technology here, still avoiding the AI topic, and let's talk Python. So one of the things they had is this admired and desired question where they asked people about certain tags, meaning like Stack Overflow tags, so technologies usually, or concepts represented by a tag, that the respondents desired or admired. And the distinction - I have to go read it, again because I didn't totally... It's like admired -- okay, I'll read their words. "To better gauge hype versus reality, we created a visualization that shows the distance between the proportion of respondents who want to use a technology that's desired." So you desire to use it. "And the proportion of users that have used the same technology in the past year, and want to continue using it." That's admired. Did you track that?
 
@@ -388,7 +388,7 @@ And UV is a relatively new technology, that's a better Python package manager, b
 
 **Jerod Santo:** Wow. A lot of people probably don't know what Delphi is. He's beating out Polars. I don't even know what Polars is.
 
-**Adam Stacoviak:** \[00:46:15.00\] Even Ollama.
+**Adam Stacoviak:** \[46:15\] Even Ollama.
 
 **Jerod Santo:** He's beating them all, man. Charlie Marsh and UV winning. Winning.
 **Adam Stacoviak:** So there's obviously the context of UV, but I think just this spectrum of desire and admire - I think that's a really interesting measure, because that's hype and reality. Hype versus reality, is what that essentially stands for in my brain.
@@ -445,7 +445,7 @@ And UV is a relatively new technology, that's a better Python package manager, b
 
 **Adam Stacoviak:** Scroll down to the number of people who submitted to this one. I can't see it in my view. Okay, so 31,700 responded to this question, which is 64% of the total respondents of the whole survey. I don't know about you, but I feel like the web is kind of default. We should keep measuring it, of course, but I'm not surprised it's up there at the top, because what else do you choose? There is no other choice besides HTML, CSS, and then obviously JavaScript.
 
-\[00:50:15.01\] So I feel like those are naturally going to be at the top. So Python kind of is the true number one, aside from SQL, which is more and more understanding of databases, which totally makes sense as we move into the next era of all the things. Databases have always been there, but they've been super-prominent as companies, open source, etc. for the last decade. But Python has been steadily growing, year after year.
+\[50:15\] So I feel like those are naturally going to be at the top. So Python kind of is the true number one, aside from SQL, which is more and more understanding of databases, which totally makes sense as we move into the next era of all the things. Databases have always been there, but they've been super-prominent as companies, open source, etc. for the last decade. But Python has been steadily growing, year after year.
 
 **Jerod Santo:** Yeah. And I think that that trend actually shows up in another question about web frameworks and technologies... Because on that one we have Node.js at number one, with 48.7%, React number two, 44.7%, then jQuery number three. Hello, jQuery. Hello, darkness, my old friend... But the interesting rise here is FastAPI, which is a Python-based web framework. It has had a five-point increase over the last year. So this is a significant shift up for FastAPI, which I had previously not heard of, until maybe like six months ago. And that's because people are building more Python stuff, with APIs, and MCP, and that kind of thing.
 
@@ -479,7 +479,7 @@ And UV is a relatively new technology, that's a better Python package manager, b
 
 **Adam Stacoviak:** One-month upgrade.
 
-**Jerod Santo:** \[00:54:22.23\] Yeah, one-month trial.
+**Jerod Santo:** \[54:22\] Yeah, one-month trial.
 
 **Adam Stacoviak:** I hate those annual plans, that require \[unintelligible 00:54:26.28\]
 
@@ -530,7 +530,7 @@ I said, "Now that we have the framework, I want you to focus on the hero section
 
 **Adam Stacoviak:** Okay, so I'm unfamiliar with this... So did it let you -- are you able to say "Using Tailwind" or "Using class-based utilities"?
 
-**Jerod Santo:** \[00:58:09.16\] I told it to use Tailwind. I already had Tailwind set up in the Rails app... So all it had to do was like use it. And so yes, I said "Using Tailwind", which it did. If you go look at the HTML, it has all the Tailwind classes. But where it really falls down is it's not -- we have the CPU logo. And it's not going to go take that asset out of Figma, and put it into a webpage in any sort of way... Which is what I'm going to do. That's what you're going to do, right? You're going to say, "Okay, here's a logo. What's the best way to get it in?" No, it just reproduces it in HTML. It's like a circle and it says CPU. It's like literally a circle, like a red circle, or blue; I don't know what color.
+**Jerod Santo:** \[58:09\] I told it to use Tailwind. I already had Tailwind set up in the Rails app... So all it had to do was like use it. And so yes, I said "Using Tailwind", which it did. If you go look at the HTML, it has all the Tailwind classes. But where it really falls down is it's not -- we have the CPU logo. And it's not going to go take that asset out of Figma, and put it into a webpage in any sort of way... Which is what I'm going to do. That's what you're going to do, right? You're going to say, "Okay, here's a logo. What's the best way to get it in?" No, it just reproduces it in HTML. It's like a circle and it says CPU. It's like literally a circle, like a red circle, or blue; I don't know what color.
 
 **Adam Stacoviak:** Could you have then said "For assets like that, don't use that. Just put a standard, known size for a future SVG logo replacement."
 
