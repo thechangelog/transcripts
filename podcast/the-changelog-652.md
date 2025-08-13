@@ -12,7 +12,7 @@ And number two is, the problem is the U.S. grid grew about 1.2% in the last 20 y
 
 The challenge is, in the West our grid is extremely hard to upgrade. And it's also extremely hard to produce energy, considering we have exhausted all the natural resources for the most part, and we don't have enough hydro, we don't have enough dams; we don't have enough sort of like naturally generating energy, so we have to either build nuclear plants, or we have to look for alternatives. Nuclear plants give about a gigawatt of energy per plant. The only problem is it took about 14 years to build the last one. So we can't build them fast enough to address the immediate need. And even if we do build nuclear plants, we can't transmit them, because the transmission infrastructure in the States is extremely hard to upgrade. I mean, we had electricity -- we're one of the first countries... In fact, the first country to have electricity. So when we designed the grid, it was designed to be -- they didn't quite have the scale in mind when they designed the grid. So if you want to upgrade the lines, there are two ways to do it. Number one is - well, put an additional line, power line; and no one wants additional power line running through their backyards because, and that's real estate values, it's going to plummet. Or you've got to do interruptive. That means stop energy, upgrade the lines... These are literally copper wires. Like, you have thick copper wires. Replace them by interruption, and nobody wants their power to be interrupted. So you can't put new lines, you can't upgrade existing lines. So how do you upgrade the grid?
 
-\[00:08:38.05\] China is a communist country. It can just basically say "You have no option." America and the West in general, or Western democracies, it's very, very hard to upgrade lines, because it has to do with property rights. So the third option is to underground. And that seems to be a feasible option, but the cost is so high that you have to literally justify how you're going to dig a line under the ground and upgrade infrastructure there. So either way, it's extremely challenging to upgrade infrastructure in the U.S.
+\[08:38\] China is a communist country. It can just basically say "You have no option." America and the West in general, or Western democracies, it's very, very hard to upgrade lines, because it has to do with property rights. So the third option is to underground. And that seems to be a feasible option, but the cost is so high that you have to literally justify how you're going to dig a line under the ground and upgrade infrastructure there. So either way, it's extremely challenging to upgrade infrastructure in the U.S.
 
 So you can say "Oh, maybe we can do renewables." Well, renewables, if you think about it, solar is terrible at utility scale.
 
@@ -44,7 +44,7 @@ We just heard yesterday Sam Altman tweeted out saying that they have acquired 4.
 
 **Jerod Santo:** \[laughs\]
 
-**Greg Osuri:** \[00:12:13.29\] I mean, we're talking about Vermont being a very agricultural-heavy state, with a lot of methane and all that... Just to give you context, this is one data center we're talking, one company. So put that with the heavy competition between - what's his name... Mark Zuckerberg tweeted out - or Facebooked out - saying that they're going to build a data center bigger than Manhattan. I mean, I don't know if you saw that tweet...
+**Greg Osuri:** \[12:13\] I mean, we're talking about Vermont being a very agricultural-heavy state, with a lot of methane and all that... Just to give you context, this is one data center we're talking, one company. So put that with the heavy competition between - what's his name... Mark Zuckerberg tweeted out - or Facebooked out - saying that they're going to build a data center bigger than Manhattan. I mean, I don't know if you saw that tweet...
 
 **Jerod Santo:** I did not see that.
 
@@ -90,7 +90,7 @@ We just heard yesterday Sam Altman tweeted out saying that they have acquired 4.
 
 I haven't quite sat down and looked at all these numbers people are claiming that they want to reach, and really do an analysis, because these are brand new numbers that came out yesterday... So you have competition between Meta, Google, xAI, OpenAI, Anthropics of the world... And these are just early players. And these are just American players.
 
-\[00:16:06.24\] I mean, forget the Chinese and the rest of the world. So it's not slowing down, the demand for GPUs and demand for energy. Now, if we don't do something about it, we will start seeing rolling blackouts by next year. We will start seeing energy crises similar to the oil crisis in the 1970s, or even much larger scale right now. And so there's all kinds of concerns, and that's my testimony about it.
+\[16:06\] I mean, forget the Chinese and the rest of the world. So it's not slowing down, the demand for GPUs and demand for energy. Now, if we don't do something about it, we will start seeing rolling blackouts by next year. We will start seeing energy crises similar to the oil crisis in the 1970s, or even much larger scale right now. And so there's all kinds of concerns, and that's my testimony about it.
 
 **Adam Stacoviak:** Yeah.
 
@@ -106,7 +106,7 @@ And we have these national security hawks to convince. So U.S. needs to have a l
 
 **Adam Stacoviak:** Yeah.
 
-**Greg Osuri:** \[00:20:05.02\] ...but also, show hope. So, I mean, it's not all dark days ahead. I mean, we do have some hope. I was in ICML conference last week, which is the most prestigious AI conference... And for the first time, I've noticed people were a lot more cognizant towards the energy crisis. And I was fortunate to give a talk there... Usually, you only give a talk if your paper gets accepted, and the papers have to be peer-reviewed, academically rigorous papers... I was the only one that gave a talk without a paper...
+**Greg Osuri:** \[20:05\] ...but also, show hope. So, I mean, it's not all dark days ahead. I mean, we do have some hope. I was in ICML conference last week, which is the most prestigious AI conference... And for the first time, I've noticed people were a lot more cognizant towards the energy crisis. And I was fortunate to give a talk there... Usually, you only give a talk if your paper gets accepted, and the papers have to be peer-reviewed, academically rigorous papers... I was the only one that gave a talk without a paper...
 
 **Adam Stacoviak:** Wow.
 
@@ -120,7 +120,7 @@ Another context is that GPT-3 was a 150-billion parameter model. So it's like fa
 
 Another company called News Research, which also has another algorithm called Distro, similar - they were able to train a 15-billion parameter model. Now they're training a 45-billion parameter model, fully distributed. Another promising company called Pluralis - I'm very excited about this company... They've figured out how to do the second level of optimization, which is fault tolerance, and asynchronous training. I don't want to get too deep in the weeds as to why this is important, or how it works rather... Why it's important is using what they've figured out - which has been a very challenging problem, to do asynchronous machine learning training. Asynchronous means it lets no -- so machine learning training, or training right now is heavily homogenous. That means if you're using H100s, you have to use H100s across the board. If you use any less powerful GPUs, that one GPU will hold up the entire training run. It's called straggler nodes.
 
-\[00:23:55.18\] These guys figured out how to do asynchronous training, where you can have slower GPUs mixed with faster GPUs, distributed across the world, using something called a swarm training mechanism. They can all somehow come together and train a model with 1% or less loss in accuracy... Which is very, very good in terms of results. So it's very promising. Now, that's not in code yet.
+\[23:55\] These guys figured out how to do asynchronous training, where you can have slower GPUs mixed with faster GPUs, distributed across the world, using something called a swarm training mechanism. They can all somehow come together and train a model with 1% or less loss in accuracy... Which is very, very good in terms of results. So it's very promising. Now, that's not in code yet.
 
 And another company called Gensyn, which is also -- they've raised quite a bit... They've figured out how to do another fault-tolerance mechanism similar to what Pluralis did. And there's other companies that are doing like zero-knowledge proofs for gradient synchronization... So what that means is you don't have to verify all the gradients, so the gradients can come from -- and you can verify all the gradients without using zero-knowledge proofs and whatnot.
 
@@ -136,7 +136,7 @@ What that means is, during the day in California -- I mean, California I think r
 
 **Greg Osuri:** ...actual electrons moving, right? They have to turn on all the non-renewable sources during the night, be it nuclear, be it coal, be it LNG, be it whatever source, to power homes within a matter of seconds. If they don't do that, you will have a rolling blackout, and it will destroy the grid. Our energy grid or grid in general is so fragile, if you think about the actual operations that happen... And if you study the grid as much as I've studied, you would want to go full sovereign. I'm building a house in Texas that is completely off grid... Because it's so fragile. I mean, I can't emphasize how delicate this world works. Everything's just in a little balance; a little extra thing will destroy the grid.
 
-\[00:28:02.13\] There's also a lot of money to be made if you can actually supply energy right when the cutoff happens, from like renewables to non-renewables, in the evening. There are companies like Allied Energy, which is a \[unintelligible 00:28:13.29\] company, and there's another company called Base Power, based in Austin, started by Zach Dell, which is Michael Dell's kid... There's a lot of really cool companies that are coming out now, that can do arbitraging for energy. There's lots of stuff that we're working on with Akash as well, that I'm happy to get into, to solve this crisis.
+\[28:02\] There's also a lot of money to be made if you can actually supply energy right when the cutoff happens, from like renewables to non-renewables, in the evening. There are companies like Allied Energy, which is a \[unintelligible 00:28:13.29\] company, and there's another company called Base Power, based in Austin, started by Zach Dell, which is Michael Dell's kid... There's a lot of really cool companies that are coming out now, that can do arbitraging for energy. There's lots of stuff that we're working on with Akash as well, that I'm happy to get into, to solve this crisis.
 
 **Adam Stacoviak:** Such a big topic, man. That's why I was telling you, Jerod... When I sat down with him, I was like "Oh, my gosh", he almost made my head explode. I think we talked for like two hours, didn't we? It was a deep conversation, I feel like. I took a ton of notes... I was like "I cannot wait to talk to you on this podcast."
 
@@ -160,7 +160,7 @@ And then it was this book that followed up with that, "Hot, Flat and Crowded." A
 
 **Adam Stacoviak:** They've diverted water. Didn't they have like a lot of water diversion that like totally changed ecosystems? They messed with things to a degree where it was like playing God with landscape, and geography, to the point that it's done major, major change. That's one thing I'm aware of, at least...
 
-**Greg Osuri:** \[00:31:51.28\] Yeah. It was a human catastrophe what happened with the LA fires recently. That should have not happened at all; if they didn't divert water the way they diverted, for reasons that are just dumb... You know? And also, California -- I mean, earth is 70% water. If we think about it... Why are we not using the water? Well, it's saltwater.
+**Greg Osuri:** \[31:51\] Yeah. It was a human catastrophe what happened with the LA fires recently. That should have not happened at all; if they didn't divert water the way they diverted, for reasons that are just dumb... You know? And also, California -- I mean, earth is 70% water. If we think about it... Why are we not using the water? Well, it's saltwater.
 
 **Adam Stacoviak:** Saltwater.
 
@@ -202,7 +202,7 @@ And then it was this book that followed up with that, "Hot, Flat and Crowded." A
 
 **Greg Osuri:** And most of the population lives in the coast, in California. So you have most of the energy production happening at the coast, and instead of burning energy, why don't we just desalinate water? That's what Israel does. I mean, that's what in the Middle East, the whole -- I mean, they've been building oases in the middle of deserts, in Saudi Arabia. Excuse my French, but it just makes me so mad, looking at the things people could do with energy, in the desert, versus - California is one of the most fertile places on planet Earth, and the most beautiful places.
 
-\[00:35:59.20\] Either way, there are a lot of problems I think with enough motivation can be solved. I hope California state will take energy more seriously. And one of the worst things they did was to ban all fossil vehicles from 2030, without thinking about how they're gonna upgrade the grid. Along with the AI challenge now, the EV challenges are catching up. So states that have EV mandates in terms of production mandates are going to suffer the most with AI. And I think it's just gonna get worse and worse, the energy problem.
+\[35:59\] Either way, there are a lot of problems I think with enough motivation can be solved. I hope California state will take energy more seriously. And one of the worst things they did was to ban all fossil vehicles from 2030, without thinking about how they're gonna upgrade the grid. Along with the AI challenge now, the EV challenges are catching up. So states that have EV mandates in terms of production mandates are going to suffer the most with AI. And I think it's just gonna get worse and worse, the energy problem.
 
 **Jerod Santo:** So I read a couple of weeks ago about micro-reactors. Is this something on your radar, micro-reactors?
 
@@ -220,7 +220,7 @@ So the Interconnect queues for nuclear is about 10 years. Now, you can deregulat
 
 **Jerod Santo:** It seems like the sentiment around nuclear - now, I'm in the Midwest, so maybe I have that color of sentiment, versus elsewhere in the country... It seems like the sentiment towards nuclear is changing, because I definitely grew up in the '90s and early aughts where it was like "Nuclear, bad. Scary. Big mushroom cloud in the sky." And that's definitely not what your average Joe and Jane think today about nuclear. So you'd think maybe the -- what do they say, politics is downstream of culture... You'd think that some of that stuff would start to move the needle.
 
-**Greg Osuri:** \[00:39:32.09\] Absolutely. I mean, nuclear is a lot safer now. I mean, nuclear is my favorite source of energy. It's very clean, it's very safe... We've figured out a lot of uses, even with the nuclear waste disposal... I invested in another company that does isotope fuels... But the challenge of nuclear is -- it's great in every way. I mean, if we can solve the regulation problem and if we can solve the public perception problem, I think we have a winner there. But the fuel enrichment is very, very hard. It's very hard to get fuel. Africa has -- there are parts of the world that has fuel, but all that fuel is controlled by China.
+**Greg Osuri:** \[39:32\] Absolutely. I mean, nuclear is a lot safer now. I mean, nuclear is my favorite source of energy. It's very clean, it's very safe... We've figured out a lot of uses, even with the nuclear waste disposal... I invested in another company that does isotope fuels... But the challenge of nuclear is -- it's great in every way. I mean, if we can solve the regulation problem and if we can solve the public perception problem, I think we have a winner there. But the fuel enrichment is very, very hard. It's very hard to get fuel. Africa has -- there are parts of the world that has fuel, but all that fuel is controlled by China.
 
 So China has done a phenomenal job over the last 20 years in controlling rare earth minerals, including nuclear fuel. They control the entire supply chain. They bought companies that do this. They bought the mines. They bought the ports in Africa. They bought the whole nine yards for nuclear... Because US and the West fumbled on nuclear, the nuclear producers, the supply chain, went towards the buyer, which is China. So there's a geopolitical -- I mean, look at Trump talking about rare earth minerals, talking about making deals with or liberating Greenland, or deals with Ukraine - all that mostly is for rare earth minerals, including nuclear. Even if you have a nuclear reactor, getting fuel is next to impossible in America. We don't have enrichment facilities in America no more. We used to.
 
@@ -244,7 +244,7 @@ So there could be good news in the next four years, depending on how the market 
 
 **Jerod Santo:** How many windmills does that require?
 
-**Greg Osuri:** \[00:43:36.00\] I haven't looked into it, but it's quite a lot. I mean, 500 megawatts is a lot. So offshore wind is very promising, actually. There's a lot of wind on the ocean, if we can tap into it. It's very challenging. I don't think we're gonna see an offshore windmill come alive, at least by 2030. So there's a lot of promise. There's quite a lot of using waves as energy form as well, because the ocean waves are very, very good in terms of capturing energy... There's all kinds of cool things people are working on, so I'm hopeful that we may be able to find a solution, but I'm not hopeful that we'll do that fast enough.
+**Greg Osuri:** \[43:36\] I haven't looked into it, but it's quite a lot. I mean, 500 megawatts is a lot. So offshore wind is very promising, actually. There's a lot of wind on the ocean, if we can tap into it. It's very challenging. I don't think we're gonna see an offshore windmill come alive, at least by 2030. So there's a lot of promise. There's quite a lot of using waves as energy form as well, because the ocean waves are very, very good in terms of capturing energy... There's all kinds of cool things people are working on, so I'm hopeful that we may be able to find a solution, but I'm not hopeful that we'll do that fast enough.
 
 **Jerod Santo:** In the meantime--
 
@@ -296,7 +296,7 @@ So there could be good news in the next four years, depending on how the market 
 
 **Jerod Santo:** They should train these things in Antarctica, you know? No one's living there, and you don't have to cool, because it's already cold.
 
-**Greg Osuri:** \[00:47:58.20\] Well, you have a bandwidth problem in Antarctica. You can't get latency...
+**Greg Osuri:** \[47:58\] Well, you have a bandwidth problem in Antarctica. You can't get latency...
 
 **Jerod Santo:** Solve that, Greg. Solve the bandwidth problem. It's just one pipe, you know? \[unintelligible 00:48:04.06\] out of the atmosphere...
 
@@ -340,7 +340,7 @@ So there could be good news in the next four years, depending on how the market 
 
 LNG, natural gas will give you 10 cents a kilowatt hour. 10 times more than what you would pay for wind. Diesel will give you 32 cents a kilowatt hour. It's the most expensive option. You use diesel as a backup generator. The grid, depending on where you are in California, I believe it's 20 cents a kilowatt hour... If you just plug in from the grid, which is diverse sources. Texas is significantly cheaper. I think it's like 10 cents or below a kilowatt hour. So just from a pure economic standpoint, the cheapest thing is to go where the energy is cheap.
 
-**Break**: \[00:52:17.21\]
+**Break**: \[52:17\]
 
 **Adam Stacoviak:** I like the idea of the workload moving where the energy is prominent, at the time it's prominent, versus co-locating and like destroying, because that seems like just terribly bad. Using natural structures... And obviously these are -- the sun, thankfully in our lifetime, is not gonna go anywhere, unless there's astrophage, which is science fiction from the book Hail Mary, that's coming out as a movie soon... It's gonna be amazing, I love that book. Astrophage essentially ate the sun, and we had to combat it.
 
@@ -368,7 +368,7 @@ LNG, natural gas will give you 10 cents a kilowatt hour. 10 times more than what
 
 **Adam Stacoviak:** Something blocking it.
 
-**Greg Osuri:** \[00:58:10.29\] ...it's like being distracted. So they say it's a Dyson sphere... Anyway, so type two is the entire solar system. Type three is a civilization that can leverage or harness all the energy for its home galaxy. So we are like type 0.7. So, I mean, in my lifetime I'd like to see us to go towards a type one, at least. That would be my dream, and that's something that I want to work towards.
+**Greg Osuri:** \[58:10\] ...it's like being distracted. So they say it's a Dyson sphere... Anyway, so type two is the entire solar system. Type three is a civilization that can leverage or harness all the energy for its home galaxy. So we are like type 0.7. So, I mean, in my lifetime I'd like to see us to go towards a type one, at least. That would be my dream, and that's something that I want to work towards.
 
 **Adam Stacoviak:** I dig that. Well, I mean, the Dyson sphere thing is gonna be -- gosh, I could not imagine that in my lifetime. My kids' kids' kids will probably do that. For now, we're trying to harness the existing energy we can capture through solar... Do you feel -- I know you just said that's the most cheapest way. There's a lot of pushback to nuclear. Is there any positive ground being made towards like adopting nuclear here in the US?
 
