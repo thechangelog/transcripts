@@ -36,7 +36,7 @@ So Jeli was a product that we built based on real problems I was experiencing. I
 
 So I spoke at one of PagerDuty's conferences in - I think it was 2020. It was like their first remote conference... And so we had always kind of been friendly, and maintained a relationship for a few years. And then they reached out and asked if like we wanted to have more serious conversations. And so I started exploring it, and it just kind of made sense. We had been doing Jeli for five years, and it was either we develop our own on-call solution and expand that way, or we join the most powerful player in the industry with that. And so it seemed like a really unique opportunity.
 
-**Adam Stacoviak:** \[00:08:12.21\] When you looked at that acquisition, as a founder, you think exit, right? Because that's a good thing. You built something, you want to profit from that, you want to see your work be recognized... Paydays are great, obviously. But how do you also think about the -- one thing you said in your early part of it was how you thought about the product and what the industry could leverage from the fact that Jeli moves to PagerDuty. They've got a much bigger distribution than Jeli did, so it's obviously going to be good for the industry. How do you weigh that choice between personal gain and the industry of people you know and love, and the product they need to succeed? How do you weigh the difference when you consider that acquisition?
+**Adam Stacoviak:** \[08:12\] When you looked at that acquisition, as a founder, you think exit, right? Because that's a good thing. You built something, you want to profit from that, you want to see your work be recognized... Paydays are great, obviously. But how do you also think about the -- one thing you said in your early part of it was how you thought about the product and what the industry could leverage from the fact that Jeli moves to PagerDuty. They've got a much bigger distribution than Jeli did, so it's obviously going to be good for the industry. How do you weigh that choice between personal gain and the industry of people you know and love, and the product they need to succeed? How do you weigh the difference when you consider that acquisition?
 
 **Nora Jones:** I mean, I don't necessarily think those are separate things, you know? Like I mentioned, I built this product because it was something I wished I had had in my jobs. And so that was really like kind of my North Star, was getting it out to everyone. And so after the acquisition, seeing the usage of something that I had built get automatically included in people's toolkits when they start a job was what I had really dreamed about. And so I think it was mutually beneficial from that perspective.
 
@@ -64,7 +64,7 @@ So I spoke at one of PagerDuty's conferences in - I think it was 2020. It was li
 
 **Jerod Santo:** We focus on the name, but I think it's a proxy for this handing off of a thing that you built. And the attachment as somebody who built something, that you have for a company or for a product. And the name kind of represents like an era, or the thing, right? Jeli is the thing that you built... I ask these things because I'm always curious about the emotional attachment of a founder to the thing they built... And sometimes you have to like part with that. It's like "I'm selling the thing, it's gone now." But it sounds like this is a good case, because it's going to continue on, maybe with a different name, maybe not. But you didn't really have to let go.
 
-**Nora Jones:** \[00:11:57.22\] Yeah, it's integrated. There's more integration that's being worked on. It has a product manager managing it; I handed off my baby... But it felt like the right thing to do, you know? And we have a lot of plans for it too, so I'm excited to see how it evolves.
+**Nora Jones:** \[11:57\] Yeah, it's integrated. There's more integration that's being worked on. It has a product manager managing it; I handed off my baby... But it felt like the right thing to do, you know? And we have a lot of plans for it too, so I'm excited to see how it evolves.
 
 **Adam Stacoviak:** What was the response from PagerDuty customers? As you said, it became an enterprise first, and you're like "No, it needs to be for everybody." And then so you expanded to all the plans. So every PagerDuty customer has access to Jeli, whether you keep the same name or not... What was response to have this -- I know it was already out there as a company, but you've obviously tapped into maybe an audience that never heard of Jeli, or heard of it less, or maybe took it less seriously... But now you're acquired by PagerDuty, the biggest in the industry... I mean, we call it PagerDuty because it's pager duty, but it's also a company.
 
@@ -96,7 +96,7 @@ So I spoke at one of PagerDuty's conferences in - I think it was 2020. It was li
 
 **Jerod Santo:** How did it work once you were on the inside with regard to your personal drive and initiative? Because you've kind of been to the top of that mountain -- like, starting a startup and building and scaling and getting enterprise adoption and then making a sale like that... That's like a huge accomplishment. And now you're inside the behemoth, right? The PagerDuty. Is it like "Well, now I'm going to climb the corporate ladder?" Or how did you think about it? Because you have a new title, I noticed, since the one that you got when you first joined. So you've climbed, it seems, a certain bit. But is that what you decided for your own ambition's sake? "I now want to move up PagerDuty", or "Now I want to have Jeli rolled out to more people"? Or how do you look at that side of growth for you?
 
-**Nora Jones:** \[00:15:37.17\] Yeah, I mean, I've been reflecting on this a lot recently, and there's a lot of stages of grief involved in it, too... But I had been an engineer my entire career prior to starting Jeli, and so I actually had grief from being a CEO and not being in the code. I would want dopamine hits, so I'd go update our marketing site every now and then, just to feel like I was doing something, even though I was doing all these different things... But I also realized part of the reason I started Jeli was after incidents in an organization, a lot of the time every role is impacted in some way... But also, a lot of the time if there is a post-incident review, it's just done by engineering. And they're not going and talking to marketing, or sales, or customer support necessarily. Like, it's usually done in a vacuum. Or even executives. And I started realizing, as an executive, as the CEO of Jeli, that I had my own sharp end. I had my own area of expertise that -- you know, when I was an engineer, I always kind of felt like "Oh, executives don't get it. They don't get--" But then when I was an executive, I was like "Oh, I didn't get it back then." I was able to see a different side of the coin. And so I'm bringing all this up because now I get to be in a new role in a large organization, where I've worked at large organizations before, but always as an individual contributor engineer. And so from my perspective, I'm like "Oh, I'm learning another side of this coin."
+**Nora Jones:** \[15:37\] Yeah, I mean, I've been reflecting on this a lot recently, and there's a lot of stages of grief involved in it, too... But I had been an engineer my entire career prior to starting Jeli, and so I actually had grief from being a CEO and not being in the code. I would want dopamine hits, so I'd go update our marketing site every now and then, just to feel like I was doing something, even though I was doing all these different things... But I also realized part of the reason I started Jeli was after incidents in an organization, a lot of the time every role is impacted in some way... But also, a lot of the time if there is a post-incident review, it's just done by engineering. And they're not going and talking to marketing, or sales, or customer support necessarily. Like, it's usually done in a vacuum. Or even executives. And I started realizing, as an executive, as the CEO of Jeli, that I had my own sharp end. I had my own area of expertise that -- you know, when I was an engineer, I always kind of felt like "Oh, executives don't get it. They don't get--" But then when I was an executive, I was like "Oh, I didn't get it back then." I was able to see a different side of the coin. And so I'm bringing all this up because now I get to be in a new role in a large organization, where I've worked at large organizations before, but always as an individual contributor engineer. And so from my perspective, I'm like "Oh, I'm learning another side of this coin."
 
 So it's really interesting to me to have played all these different roles... So that's kind of where I'm at right now, is like I'm learning a lot. I'm getting to run pricing at a large public company right now, and it's fun, and it's challenging, and I'm just kind of enjoying where I'm at right now. I'm taking it a day at a time.
 
@@ -132,7 +132,7 @@ So it's really interesting to me to have played all these different roles... So 
 
 **Jerod Santo:** I still despise them for trying to steal one of my favorite words, meta... Grok and Meta have both been stolen by billionaires, and I'm not happy about that. In podcasting there's an interesting psychology to it, because intellectually you know there's going to be listeners later... And whether it's 5, or 5,000, or 50,000, you come into it and you're like "This is going to go out to people." And so there's that first five or ten minutes where you're thinking about that... And there's a really cool thing that happens, because in reality it's just three people on effectively a Zoom call. And those 5 or 5,000 or 50,000 people aren't there... And so you kind of just forget about it. And it's neat, because the conversation becomes very relaxed, and you might forget there's an audience... In fact, sometimes people afterwards say "Hey, I can't believe I said that. Can we X-nay that, or whatever?" That doesn't happen on stage. That's my meta point right there.
 
-**Adam Stacoviak:** \[00:20:08.08\] That's the meta point.
+**Adam Stacoviak:** \[20:08\] That's the meta point.
 
 **Jerod Santo:** I'm very well aware that there's some people here...
 
@@ -176,7 +176,7 @@ So it's really interesting to me to have played all these different roles... So 
 
 **Nora Jones:** Yeah, shift agent. So it's things like that. I'm not a huge fan of AI that I feel like takes away the necessary human tasks, but it's like the things that feel tedious or boring. And I don't remember where this quote came from, but it was like "I don't want AI to make my art for me. I want AI to do my laundry for me, so that I can make more art." That's kind of how I think about it as well. But I use it every day, multiple times a day, and it's been huge.
 
-**Break**: \[00:23:03.03\]
+**Break**: \[23:03\]
 
 **Adam Stacoviak:** One thing you said recently, and this is on X... You said "The complexity of novel incidents", which I thought was pretty cool, "will only increase." Can you describe that?
 
@@ -204,7 +204,7 @@ And then I think there's partially understood incidents, where it's like this ki
 
 **Adam Stacoviak:** Are you at a level where you're still involved with the incidents? How much do you talk to the user, I suppose is the question? And two, can you give some details on the specifics of the novel incidents? Like, a terrible one, or just like when you're like "Wow, that would have never been in my imagination before."
 
-**Nora Jones:** \[00:29:41.16\] Yeah, so I'm not in incidents anymore, but I'm talking to our customers and our users every single day, and it's still one of my favorite topics. I definitely do disaster tourism in our incident channel, just to see and understand... But I know better than to try to like hop in, you know...
+**Nora Jones:** \[29:41\] Yeah, so I'm not in incidents anymore, but I'm talking to our customers and our users every single day, and it's still one of my favorite topics. I definitely do disaster tourism in our incident channel, just to see and understand... But I know better than to try to like hop in, you know...
 
 But I think a lot of the new and novel is going to be around leveraging agents, leveraging generative AI in parts of production, in areas that we don't understand. I think that's really where a lot of it's going to come up. I'm very curious about the company that had their codebase deleted... Like I would love to read that incident review when it comes out.
 
@@ -226,7 +226,7 @@ But I think a lot of the new and novel is going to be around leveraging agents, 
 
 **Nora Jones:** Yeah, so when I joined PagerDuty, we had like two main product orgs. We had incident management, and then we had another product org that was doing automation, and AI, and it was like kind of focusing on other use cases... So like CS users, or FinOps, you know? So we obviously went into the incident management organization... There was no team around post incident reviews. And they did have an integration team that was in charge of a bunch of different integrations... So like ServiceNow, Datadog... That team was also in charge of the Slack integration, but it had been very underinvested in. I obviously had the team I came in with, and then I also had the chat experience team is what we called it, which was our Slack and Teams integrations.
 
-\[00:34:06.03\] The very first task we had to do was -- we were obviously selling Jelli standalone prior to the acquisition... The very first task we had to do was to get it into one of the existing PagerDuty plans, which was the enterprise plan. And working at a startup, I was using products that get things into skews really quickly, and I didn't realize the complexities of it in a large organization. When that was deemed my first task, I'm like "Cool, that'll take like 20 minutes." That did not take 20 minutes.
+\[34:06\] The very first task we had to do was -- we were obviously selling Jelli standalone prior to the acquisition... The very first task we had to do was to get it into one of the existing PagerDuty plans, which was the enterprise plan. And working at a startup, I was using products that get things into skews really quickly, and I didn't realize the complexities of it in a large organization. When that was deemed my first task, I'm like "Cool, that'll take like 20 minutes." That did not take 20 minutes.
 
 **Jerod Santo:** Sure.
 
@@ -246,7 +246,7 @@ But I think a lot of the new and novel is going to be around leveraging agents, 
 
 I'm thinking about it from the customer relationship perspective, and I'm also thinking about it in terms of like an entire incident lifecycle, from like detecting, to triaging, to mobilizing a team, to resolving, to learning. If I see customers that are only here, I try to go talk to them. Because when you're only in the detect and like the noise phase without having standard processes all the way over here, you're going to end up in this hamster wheel... And you could actually drive a lot more improvement and save a lot more time.
 
-\[00:38:15.03\] So that's really how I think about it, is just in terms of customer value, which I think is where my background really helps. Like, I really love being in this role, because I've been a user. So it's nice for that to come full circle.
+\[38:15\] So that's really how I think about it, is just in terms of customer value, which I think is where my background really helps. Like, I really love being in this role, because I've been a user. So it's nice for that to come full circle.
 
 **Adam Stacoviak:** How much code do you write?
 
@@ -288,7 +288,7 @@ I'm thinking about it from the customer relationship perspective, and I'm also t
 
 **Nora Jones:** But yeah, in terms of the product roadmap, I don't think -- there's never going to be a world where we have zero incidents. So I think those are some of the wrong problems to go after with AI, is like trying to get to like zero incidents. It's more to handle the more well understood stuff, so that engineers can focus their time on things that only they can do, rather than things that agents or AI can help with. I think the whole industry is going to get it wrong in some cases. We are very new at this, and we're all kind of like stumbling toddlers with AI right now. And so we're going to mess up, and I think we just have to reflect on "Here's a good use for it, and here's a not so good use for it", rather than trying to use it for everything. And so that's my biggest worry, is that people are going to get overly dependent on it for things that they should not get overly dependent on it for.
 
-**Adam Stacoviak:** \[00:42:31.19\] I agree with that.
+**Adam Stacoviak:** \[42:31\] I agree with that.
 
 **Jerod Santo:** Yeah. And earlier when you were talking about novel incidents, or like the really tough ones where you need that one subject matter expert to come in and connect the dots that nobody else could connect, right? Do you -- I don't want to use the word "fear" necessarily... Are you concerned that increased adoption of AI tooling reduces gradually subject matter expertise?
 
@@ -320,7 +320,7 @@ I'm thinking about it from the customer relationship perspective, and I'm also t
 
 **Nora Jones:** Yeah.
 
-**Adam Stacoviak:** \[00:46:02.01\] Can we go into -- I'm not sure how this manifests for you, but as a leader, it seems like maybe you all have some tooling that lets you glimpse into someone's capabilities. I imagine that's a great tool as a leader, because you want to spend one-on-ones with folks... Some of the team you know really well, because you brought them with you from Jeli, but some you're bringing on... And as a leader, you want to know what their strengths and weaknesses are. Do you have that kind of insight? Is that what you're talking about, where you can sort of like probe into your team to say, "Okay, Jerod's really good at this, and Adam's really good at that", and you have the AI kind of like learn it for you, and you can sort of prompt whatever it might be to learn more about your team.
+**Adam Stacoviak:** \[46:02\] Can we go into -- I'm not sure how this manifests for you, but as a leader, it seems like maybe you all have some tooling that lets you glimpse into someone's capabilities. I imagine that's a great tool as a leader, because you want to spend one-on-ones with folks... Some of the team you know really well, because you brought them with you from Jeli, but some you're bringing on... And as a leader, you want to know what their strengths and weaknesses are. Do you have that kind of insight? Is that what you're talking about, where you can sort of like probe into your team to say, "Okay, Jerod's really good at this, and Adam's really good at that", and you have the AI kind of like learn it for you, and you can sort of prompt whatever it might be to learn more about your team.
 
 **Nora Jones:** I haven't been using it for that perspective, but I do -- you know, as I build out my org, and I'm interviewing folks right now, and I've interviewed folks that are really great, and clearly experts in a certain position, but I'm also thinking about the expertise of the current team I have... And if there's these four different areas I need expertise in with pricing, for example, if I already have someone in that bucket and I'm interviewing someone that also has the same expertise, that's not going to maybe be valuable for me to hire that person, even though they're great. And so I do think that that could be helpful in terms of just like creating teams that work really well together, and in looking at where someone's strength is.
 
@@ -340,7 +340,7 @@ I have someone on the pricing team that loves to go into the data, data expert, 
 
 I spend a lot of time in like Tableau, and Periscope, and unfortunately Excel now... And when I get stuck, or break something, I actually use AI to help me fix my query. And that's been really nice for me, in just terms of speed.
 
-**Break**: \[00:49:49.06\]
+**Break**: \[49:49\]
 
 **Jerod Santo:** What are you excited about, or what are you interested in, whether industry or elsewise?
 
@@ -396,7 +396,7 @@ I spend a lot of time in like Tableau, and Periscope, and unfortunately Excel no
 
 And then other things I'm really excited about are seeing how Jeli evolves within PagerDuty. There are a lot of insights that we have in Jeli, and combined with the insights of PagerDuty I think can really drive change to the beginning of that incident cycle. And so I'm pretty stoked about that, and how that can help onboard new engineers, and how it can help ramp other folks up, like maybe ramp up a junior SRE because they can see how someone solved the problem. I'm excited about how it might level people up, and create this new culture of engineering. Yeah.
 
-**Jerod Santo:** \[00:56:23.12\] Well, Nora, you are smart, kind, and fun to talk to, so we really appreciate you joining us... This has been really awesome. Thank you. Let's hear it for Nora Jones.
+**Jerod Santo:** \[56:23\] Well, Nora, you are smart, kind, and fun to talk to, so we really appreciate you joining us... This has been really awesome. Thank you. Let's hear it for Nora Jones.
 
 **Adam Stacoviak:** Nora Jones.
 
@@ -434,7 +434,7 @@ I think the hardest thing is when I see a problem, and I'm like "That is not my 
 
 **Adam Stacoviak:** James.
 
-**James:** \[00:59:47.08\] Hi, folks. I'm James. One of the things that we know from other industries - avionics, nuclear, the list goes on - is after each incident, there's an incentive to make the system more automated, more safe... And that reduces the average number of incidents, but it increases the worst incidents. How does PagerDuty think about proactively helping organizations not just react to incidents, not just do their own thinking about incidents, but instill knowledge about how to design systems, how to design their organizations to prevent the catastrophic ones?
+**James:** \[59:47\] Hi, folks. I'm James. One of the things that we know from other industries - avionics, nuclear, the list goes on - is after each incident, there's an incentive to make the system more automated, more safe... And that reduces the average number of incidents, but it increases the worst incidents. How does PagerDuty think about proactively helping organizations not just react to incidents, not just do their own thinking about incidents, but instill knowledge about how to design systems, how to design their organizations to prevent the catastrophic ones?
 
 **Nora Jones:** Yeah, it's a good question. I don't think that the right approach after a gnarly incident is to set up automation. I think the right approach organizationally after a gnarly incident is to talk about it, a lot, and try to figure out how it happened. Not why it happened, but how. And have these productive conversations where we're all sharing our piece of how we thought things were supposed to happen, so that we can learn from each other, and so we can learn about how this actually unfolded. I think until you have that understanding, automation is going to cause issues, to your point. I've been a big believer in that for a while.
 
