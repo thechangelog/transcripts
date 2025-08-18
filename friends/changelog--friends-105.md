@@ -95,7 +95,7 @@
 
 **Gerhard Lazu:** Thank you very much. So we will start with a little bit of history, so that everyone is able to visualize a couple of very important milestones. Then we're going to ask you a few questions... So you better think of some good questions to get back at me or at us. So let's see how that goes. And then we'll do something special, because everyone took their time... This took considerable effort on all your parts to be here, and we want to recognize that effort by doing something special, on stage, live. So let's see how that goes.
 
-**Adam Stacoviak:** \[00:08:39.14\] What are we doing...?
+**Adam Stacoviak:** \[08:39\] What are we doing...?
 
 **Gerhard Lazu:** Alright, so first of all, let's start with the beginning. The beginning is July 26th, 2025. This is an important moment. We're all here today. It's the first time that this is happening. Kaizen 20 is the moment. Thank you all for being here. I'm sure that you all know this -- now, it says 20 episodes. Actually, it's 19; one was republished. But it's been 19 Kaizen episodes... And this started actually in 2021, in July. I had to look this up. I wasn't sure exactly how long it was, but that's when this started. So this journey, officially, when we started having these conversations, all recorded, all remote, happened many years ago, and it took us this long to finally do this in person.
 
@@ -127,7 +127,7 @@ So you all know this, we post these as discussions on the changelog.com GitHub r
 
 **Jerod Santo:** Can I say it?
 
-**Gerhard Lazu:** \[00:12:30.21\] Yes.
+**Gerhard Lazu:** \[12:30\] Yes.
 
 **Jerod Santo:** The bike shed.
 
@@ -186,7 +186,7 @@ Alright, back to where we were... Cool. So we did this thing, and this thing is 
 
 **Jerod Santo:** \[laughs\]
 
-**Gerhard Lazu:** \[00:16:00.04\] So this is something really important, and it's at the heart of what we do - we are figuring stuff out, and we are okay to admit it publicly. We mess things up. But there's no way you're going to learn if you don't make mistakes. It doesn't matter how much experience you have, it doesn't matter how many things you think, you never know. Let's be honest, you don't really know. You're mostly making stuff up. Some things help you, but it's all in the confidence that you will be able to figure it out, you will be able to push through... Just stick with it long enough. That's all it takes.
+**Gerhard Lazu:** \[16:00\] So this is something really important, and it's at the heart of what we do - we are figuring stuff out, and we are okay to admit it publicly. We mess things up. But there's no way you're going to learn if you don't make mistakes. It doesn't matter how much experience you have, it doesn't matter how many things you think, you never know. Let's be honest, you don't really know. You're mostly making stuff up. Some things help you, but it's all in the confidence that you will be able to figure it out, you will be able to push through... Just stick with it long enough. That's all it takes.
 
 Alright. So today we did the biggest thing ever... What was that?
 
@@ -240,7 +240,7 @@ Alright. Episode 26 - this is what Jerod was mentioning when we began - Should w
 
 Pipely.tech - we had this up for a while. We talked about it at Christmas. A new CDN is born. It hasn't been updated recently, but it will be... But this is the home for the open source project that we would like others to use at some point. I think it's getting there. It's not quite there yet, but we have made many improvements to make it easier to consume.
 
-**Break**: \[00:20:03.04\]
+**Break**: \[20:03\]
 
 **Gerhard Lazu:** This is something that has been bugging me for years. We run on Fly.io and Fly.io has points of presence all over the world. But our application only runs in a -- well, in Ashburn, Virginia, because it's closest to the database. Of course, it's going to be close to the database, because data has gravity. But we wanted to distribute the application for a long, long time, but it was never the right model. With a CDN, that's exactly what we want to do. We want to get those instances all over the world, so finally we can say that after all these years we are holding Fly.io right. And it's been working pretty well.
 
@@ -318,7 +318,7 @@ Pipely.tech - we had this up for a while. We talked about it at Christmas. A new
 
 **Gerhard Lazu:** Right. I love some trolling. Seriously, now. You're going to make me say it, right? Okay, so as more content gets cached in memory, the problem is there's a configuration which - I wish it was easier to make, but you have to manually adjust how much memory you give to Varnish out of the total memory available.
 
-\[00:28:19.18\] So there is a dance that you need to make, so that you know how much is enough so that when more memory gets allocated, the thing doesn't fall over. I wish this particular thing was easier; maybe something that we can improve. But for now, you have to fine-tune it and find if you have four gigabytes of memory total, how much should Varnish be allowed to use? And if you think it's four gigabytes, it's way too much.
+\[28:19\] So there is a dance that you need to make, so that you know how much is enough so that when more memory gets allocated, the thing doesn't fall over. I wish this particular thing was easier; maybe something that we can improve. But for now, you have to fine-tune it and find if you have four gigabytes of memory total, how much should Varnish be allowed to use? And if you think it's four gigabytes, it's way too much.
 
 So that's what we're going to do now. I'm going to switch to some live coding and show what happened. So -- actually, you know what? Let me try this. How's the font? Can everybody see the font? Can everybody see what's there? I'll make it a little bit bigger. A little bit bigger. Okay. So this is the change. And if I'm going to undo this, you'll see what it was before.
 
@@ -359,7 +359,7 @@ So I thought - let me take responsibility of this; I thought that 800 megabytes 
 
 **Gerhard Lazu:** No, no, the connection dropped. Let me just go back...
 
-**Jerod Santo:** \[00:31:57.00\] Let me read a Bill Gates quote.
+**Jerod Santo:** \[31:57\] Let me read a Bill Gates quote.
 
 **Gerhard Lazu:** Yes, sure. Another one. \[laughter\[
 
@@ -451,7 +451,7 @@ So Ashburn, Virginia, Chicago, Dallas, Texas, Santiago, Chile, San Jose, Califor
 
 **Gerhard Lazu:** This is real. This is real. Like, not edited... This is what it feels like. Now, I don't think two and a half minutes is long. I think we can improve it. But you need to think about all of these need to happen behind the scenes. The allocation of resources, the health checking... How do you know what you've put out there is correct? And you need to wait a while to make sure that the thing doesn't crash. That's why you need to wait at least 60 seconds before you can say "Yup, this is good." You need to do a few health checks. Because if the thing starts falling over, you don't want to leave that thing running in production, of course.
 
-\[00:36:18.10\] Cool. So I think we're in a good place... The one thing which I wanted to show is if I come back here -- can you see that? Is that graph looking good to you? Yup? Cool. So do you see this yellow line? This was the instance that crashed. So this one -- there we go. It's San Jose, California. For some reason, there is a lot of requests hitting this instance. And those requests, they don't look like human requests, so I think we may have some sort of bot situation going on. Some sort of, I don't know, LLM trying to learn...
+\[36:18\] Cool. So I think we're in a good place... The one thing which I wanted to show is if I come back here -- can you see that? Is that graph looking good to you? Yup? Cool. So do you see this yellow line? This was the instance that crashed. So this one -- there we go. It's San Jose, California. For some reason, there is a lot of requests hitting this instance. And those requests, they don't look like human requests, so I think we may have some sort of bot situation going on. Some sort of, I don't know, LLM trying to learn...
 
 **Jerod Santo:** OpenAI caller?
 
@@ -508,7 +508,7 @@ So Ashburn, Virginia, Chicago, Dallas, Texas, Santiago, Chile, San Jose, Califor
 
 **Adam Stacoviak:** They think you're always just badass.
 
-**Gerhard Lazu:** \[00:40:12.18\] Well, I think we are a good team. \[laughter\] And the other thing which I want to mention is that while what you see here, again, it feels very -- it just happens. It's like a small thing. The work that went into it, it was months and months of preparation, months and months of discussion... People joining us, working with us... I want to thank James. I mean, he was the first one that has joined this --
+**Gerhard Lazu:** \[40:12\] Well, I think we are a good team. \[laughter\] And the other thing which I want to mention is that while what you see here, again, it feels very -- it just happens. It's like a small thing. The work that went into it, it was months and months of preparation, months and months of discussion... People joining us, working with us... I want to thank James. I mean, he was the first one that has joined this --
 
 **Adam Stacoviak:** Thank you, James.
 
@@ -596,7 +596,7 @@ So Ashburn, Virginia, Chicago, Dallas, Texas, Santiago, Chile, San Jose, Califor
 
 **Gerhard Lazu:** 509 lines. So there we have our answer. Cool. So it's still good. Still good. Alright. So...
 
-**Jerod Santo:** \[00:44:02.08\] Did you want to thank Nabil?
+**Jerod Santo:** \[44:02\] Did you want to thank Nabil?
 
 **Gerhard Lazu:** Yes, of course. \[laughter\] Nabil. How could I forget Nabil? Of course. So one really important thing is that Varnish cannot terminate backends which have SSL in front. So if the backend is talking HTTPS, Varnish cannot use it out of the box. Varnish Enterprise and other products can, but the open source Varnish cannot. We did a bit of digging, and we realized -- that's how we learned about Poul-Henning Kamp, PHK for short, and he was always against including SSL anywhere near varnish, because it would complicate things too much. SSL is really, really complicated. So with Nabil's help, we wrote -- I don't know, he wrote 50, 60 lines of Go code that intercepts all the requests going to those backends, terminates SSL for Varnish, and presents the requests unencrypted. A really simple, elegant solution. One of the almost like sidecars that sits next to Varnish, and helps it terminate requests which need SSL. So I'm not sure if that's --
 
@@ -622,14 +622,14 @@ So Ashburn, Virginia, Chicago, Dallas, Texas, Santiago, Chile, San Jose, Califor
 
 **Gerhard Lazu:** Cool.
 
-**Break**: \[00:45:27.18\]
+**Break**: \[45:27\]
 
 **Gerhard Lazu:** We improved it. We're here. We did it. Kaizen 20. One more thing... This is too far out. This is too far out. Too far. Actually, no.
 
 **Jerod Santo:** We're good...
 **Gerhard Lazu:** Yeah, we're good. We're good. We're doing good. Anything else you want to cover before we do this? There's one more thing that we're going to do.
 
-**Adam Stacoviak:** \[00:47:57.10\] One more thing...
+**Adam Stacoviak:** \[47:57\] One more thing...
 
 **Gerhard Lazu:** Kaizen 20. Any thoughts? Any comments from the... I mean, you're here. Do you have any questions? Do you have any comments? Do you have any thoughts? Anything?
 
@@ -676,7 +676,7 @@ As an optimization, it would be worth exploring that, especially with NVMe disks
 
 **Jerod Santo:** Is that a bug?
 
-**Gerhard Lazu:** \[00:52:06.23\] I don't know whether it's a bug. It's just not working well with the system available to the host.
+**Gerhard Lazu:** \[52:06\] I don't know whether it's a bug. It's just not working well with the system available to the host.
 
 **Adam Stacoviak:** That's a bug.
 
@@ -714,7 +714,7 @@ So you need to break it down in a way that you map and observe everything when i
 
 **Jerod Santo:** Sure.
 
-**Gerhard Lazu:** \[00:55:49.27\] So what I'm thinking is we should optimize for the regions that we have, and the ones which are busy, we should give them bigger instances, maybe beefier instances... But others like Johannesburg doesn't need that much. And the problem is you can't use different scaling strategies for different nodes, and they have multiple deployments... So it complicates things a little bit. But this is a refinement.
+**Gerhard Lazu:** \[55:49\] So what I'm thinking is we should optimize for the regions that we have, and the ones which are busy, we should give them bigger instances, maybe beefier instances... But others like Johannesburg doesn't need that much. And the problem is you can't use different scaling strategies for different nodes, and they have multiple deployments... So it complicates things a little bit. But this is a refinement.
 
 **Jerod Santo:** Yeah. I think we need more listeners in Johannesburg. I mean, what's up with that?
 
