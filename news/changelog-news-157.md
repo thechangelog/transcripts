@@ -100,7 +100,7 @@ This is a killer setup for folks who share a server with multiple users or manag
 
 That's the news for now, but go and subscribe to the Changelog Newsletter for the full scoop of links worth clicking on. Such as:
 
-- [Everyone knows what an email address is, right?](https://e-mail.wtf)
+- [Everyone knows what an email address is, right?](https://email.wtf)
 - [Tech Debt? I don't believe it exists](https://dadrian.io/blog/posts/tech-debt/)
 - [A curated gallery of pricing page designs](https://pricingpages.design/)
 
