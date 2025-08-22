@@ -36,7 +36,7 @@
 
 So these are only building blocks. So we are not trying to reproduce a brain. It would be actually very difficult and impossible at this stage, actually, of science, because the brain is very, very complicated. There are a lot of little structures, so we don't try to make this. We just use living neurons. And they are human neurons, indeed, and they are derived from the human skin. So you can reprogram the cells of the skin so that they become stem cells. And from this, you can have, theoretically, any cells you want.
 
-**Jerod Santo:** \[00:08:01.21\] Okay. So no brains, but human skin cells, and the neurons that are in them.
+**Jerod Santo:** \[08:01\] Okay. So no brains, but human skin cells, and the neurons that are in them.
 
 **Ewelina Kurtys:** No. Skin cells, which later become neurons.
 
@@ -72,7 +72,7 @@ And this is information. So this is a totally different type of encoding. So no 
 
 But indeed, at the moment, when we do research on living neurons or sometimes on some simulations of neurons in silico, people usually try to follow the rules of digital computers, like try to reproduce logic gates... Which is actually not really correct, but that's the best what we can do at the moment.
 
-**Adam Stacoviak:** \[00:12:09.14\] Let me see if I understand this... I'm grokking some of the stuff from what you're sharing, and then also from your very awesome website, finalspark.com. It says they transform stem cells into mini brains, that learn and adapt, growing neurons in an orbital shaker - which I have no idea what that is. It sounds so cool...
+**Adam Stacoviak:** \[12:09\] Let me see if I understand this... I'm grokking some of the stuff from what you're sharing, and then also from your very awesome website, finalspark.com. It says they transform stem cells into mini brains, that learn and adapt, growing neurons in an orbital shaker - which I have no idea what that is. It sounds so cool...
 
 **Jerod Santo:** It sounds cool, yeah.
 
@@ -100,7 +100,7 @@ But indeed, at the moment, when we do research on living neurons or sometimes on
 
 **Ewelina Kurtys:** But it's actually similar to MRI. MRI is just a little bit different... So you don't use the radioactivity, and you can see a little bit different things. But the idea is always the same, to look inside without opening the body.
 
-**Adam Stacoviak:** \[00:15:58.06\] Right. Yeah, the MRIs are a little different... Which one's more accurate? Is the imaging or the MRI more accurate? Does it matter?
+**Adam Stacoviak:** \[15:58\] Right. Yeah, the MRIs are a little different... Which one's more accurate? Is the imaging or the MRI more accurate? Does it matter?
 
 **Ewelina Kurtys:** Always imaging. I'm not sure it's a good comparison, because I think it really depends on the protocol... Because there are different types of MRI, and also there are different types of PET, so it really depends. It depends on the parameters. And also, they measure different things. Because PET is always functional. So when you use the radioactivity, there is always some chemical substance, like even glucose. Everything is actually a chemical substance. Everything that is flowing in the body. So you always observe some process, a biological process. And in MRI, it's not always like this. Sometimes you just observe the tissue, when you have different tissues, and it's static. It's not always functional. It's not always \[unintelligible 00:16:54.09\]
 
@@ -124,7 +124,7 @@ And I think now, after -- it's maybe almost 10 years since I did these studies..
 
 **Ewelina Kurtys:** Actually, I started my first job in industry. I started in the company which was doing medical imaging. And actually, it was a very good start, because there was at least one thing which I understood at the time... Because I had absolutely no idea about how companies work, and anything about this industry world. So there was at least one topic which I understood well, which was medical imaging.
 
-\[00:19:56.24\] And this company was doing a service of analyzing images from different medical studies, and they talked a lot about AI. Because when you have imaging data, when you have a high number of imaging data, you can analyze them automatically. In some way, you can use AI for that. And actually, that's the way how I learned about artificial intelligence. Because actually, when you go for different industry events, you see people talking constantly about AI... And I was very lucky also because at that time I was in London; this is a very good place for learning new stuff and for networking. So I could get a lot of exposure and to see what people are doing with AI. And I could discover that there is much more beyond imaging. So that's why I started to be interested with anything, what you can do with AI.
+\[19:56\] And this company was doing a service of analyzing images from different medical studies, and they talked a lot about AI. Because when you have imaging data, when you have a high number of imaging data, you can analyze them automatically. In some way, you can use AI for that. And actually, that's the way how I learned about artificial intelligence. Because actually, when you go for different industry events, you see people talking constantly about AI... And I was very lucky also because at that time I was in London; this is a very good place for learning new stuff and for networking. So I could get a lot of exposure and to see what people are doing with AI. And I could discover that there is much more beyond imaging. So that's why I started to be interested with anything, what you can do with AI.
 
 **Adam Stacoviak:** Well, being able to scan a lot more - no pun intended really, but just grasp a lot more of these imagings that you're doing, to see the anomalies and see the connection points that you can't really see individually... I mean, that totally maps to me, because the more you can see across different scans is good.
 
@@ -142,7 +142,7 @@ So at the moment, as I said, many people do a lot of random experiments. Also us
 
 And also, another thing very important is that brain, or neurons, any kind of form of - also our neurons in the lab - they are not stable systems. So a computer you can consider as a stable system. It's a dead matter, so it works today in some way. Tomorrow it will work the same way. But the living tissue is not like this. It can change, so the dynamic inside can change.
 
-\[00:23:54.04\] So for example, today we do some experiments, we send electrical signals to neurons and they can react in one way, and tomorrow they can react to the same signal totally differently. So that's also a big challenge. The fact that living matter is plastic, so it changes behavior, actually also like us and our brains. We also change. During time we can be completely different people.
+\[23:54\] So for example, today we do some experiments, we send electrical signals to neurons and they can react in one way, and tomorrow they can react to the same signal totally differently. So that's also a big challenge. The fact that living matter is plastic, so it changes behavior, actually also like us and our brains. We also change. During time we can be completely different people.
 
 **Adam Stacoviak:** Can you talk about how you get them to compute?
 
@@ -172,7 +172,7 @@ And also, another thing very important is that brain, or neurons, any kind of fo
 
 **Jerod Santo:** Mm-hm. And is the process slow?
 
-**Ewelina Kurtys:** \[00:27:59.25\] Well, to be honest, I cannot tell you how much time it took... No, actually, I don't know. But I guess it's in seconds or milliseconds. But I don't know. But I can say that, in general, neurons are slow, and in general, neurons will be good for tasks which don't have to be fast. Because also, when we look at the human brain, and we look at computers, we can see that computers are very good in speed. In doing repetitive things - very, very fast. And we will never be able to compete with digital on that. However, the brain is better in complex tasks, because we can solve complex problems using very little energy. So that's where is our strength. But definitely, speed or, for example, memory is not something where neurons are better. Because also, when we look at our brain, they are very limited, actually. A computer can remember 20 books very easily, and for us, it would be difficult to remember every word in 20 books. But for the computer it's easy.
+**Ewelina Kurtys:** \[27:59\] Well, to be honest, I cannot tell you how much time it took... No, actually, I don't know. But I guess it's in seconds or milliseconds. But I don't know. But I can say that, in general, neurons are slow, and in general, neurons will be good for tasks which don't have to be fast. Because also, when we look at the human brain, and we look at computers, we can see that computers are very good in speed. In doing repetitive things - very, very fast. And we will never be able to compete with digital on that. However, the brain is better in complex tasks, because we can solve complex problems using very little energy. So that's where is our strength. But definitely, speed or, for example, memory is not something where neurons are better. Because also, when we look at our brain, they are very limited, actually. A computer can remember 20 books very easily, and for us, it would be difficult to remember every word in 20 books. But for the computer it's easy.
 
 **Jerod Santo:** What does this wetware look like? I'm programming my Python experiment, and I'm sending it over the internet, I suppose, or some sort of VPN connection to you guys...
 **Ewelina Kurtys:** Absolutely.
@@ -201,13 +201,13 @@ And also, another thing very important is that brain, or neurons, any kind of fo
 
 **Ewelina Kurtys:** No, they're neurotransmitters. So you have several in the brain, and they affect learning. And actually, the whole idea of using them is because we use them for feedback. Because, actually, the way how humans are learning is by feedback. So you have interaction with the environment, you get feedback. So things are going good or bad, and then you learn if you should do this or not. And the same way, actually, neurons are learning in vitro, on the very basic level. Because for example, when something good happens, then there is a dopamine release, and that reinforces the connection between neurons. So if they have done something good, then it kind of reinforces this behavior.
 
-\[00:32:02.02\] So the idea - at least our idea here, because it's a bit complicated... And actually, there are different opinions about how to give punishment or reward to neurons... But our idea is to give dopamine as a reward. And no dopamine as a punishment. So that's used for the feedback loop. So for example, you stimulate neurons with some electrical signals, you measure the behavior... For example, you want that they increase activity. So if they do this, you give them dopamine. If they don't do this, you do nothing. And then you send an electrical signal again, and there is such a loop, over and over, and you see if they're learning.
+\[32:02\] So the idea - at least our idea here, because it's a bit complicated... And actually, there are different opinions about how to give punishment or reward to neurons... But our idea is to give dopamine as a reward. And no dopamine as a punishment. So that's used for the feedback loop. So for example, you stimulate neurons with some electrical signals, you measure the behavior... For example, you want that they increase activity. So if they do this, you give them dopamine. If they don't do this, you do nothing. And then you send an electrical signal again, and there is such a loop, over and over, and you see if they're learning.
 
 **Adam Stacoviak:** And these neurons learn.
 
 **Ewelina Kurtys:** Well, that's the problem - sometimes they learn, sometimes they don't. This is still a challenge, you know. This is still a challenge, learning. So learning for neurons is changing the connections, changing the behavior of neurons, so behavior will be electrical activity... And this is still a challenge. It doesn't always work.
 
-**Break**: \[00:33:04.00\]
+**Break**: \[33:04\]
 
 **Adam Stacoviak:** Remind me... Dopamine is positive, so that's used for rewards... What is serotonin used for? What do the two levers do?
 
@@ -219,7 +219,7 @@ And also, another thing very important is that brain, or neurons, any kind of fo
 
 **Adam Stacoviak:** Okay... Let's go into the details. Let's get tricky.
 
-**Ewelina Kurtys:** \[00:36:11.12\] Yes. Because actually, dopamine is -- it also depends when it is given, and also there are different receptors. So receptors are on the surface of the cells. So if they have dopamine receptors, that means they can recognize dopamine, actually, because they need always a receptor to recognize a neurotransmitter... So it's a little bit tricky, because there are different types of receptors, and different timing... Sometimes it's milliseconds, or microseconds... So the timing also is important for cells. But we assume that dopamine is a reward.
+**Ewelina Kurtys:** \[36:11\] Yes. Because actually, dopamine is -- it also depends when it is given, and also there are different receptors. So receptors are on the surface of the cells. So if they have dopamine receptors, that means they can recognize dopamine, actually, because they need always a receptor to recognize a neurotransmitter... So it's a little bit tricky, because there are different types of receptors, and different timing... Sometimes it's milliseconds, or microseconds... So the timing also is important for cells. But we assume that dopamine is a reward.
 
 **Adam Stacoviak:** So it's not stable yet.
 
@@ -280,7 +280,7 @@ And also, another thing very important is that brain, or neurons, any kind of fo
 
 **Ewelina Kurtys:** Yes, absolutely. And we are actually constantly building, because we have done huge progress since we started. We built a whole laboratory, a very stable system for working on neurons. And also, now it's available remotely, so we are also busy with many users from all over the world... So we invited nine universities from different countries to work with us. They have access to our lab for free, to study also neurons. And we also have first industry clients who pay us to get access to our lab. So we are also busy with this.
 
-**Jerod Santo:** \[00:40:13.22\] Really?
+**Jerod Santo:** \[40:13\] Really?
 
 **Ewelina Kurtys:** Yeah. We didn't plan for this, but people started to write to us that they would like to try, that they would like to get access to the lab... And yes, now we have two types of subscription, and we have users who are coming to us and testing neurons.
 
@@ -312,7 +312,7 @@ And also, another thing very important is that brain, or neurons, any kind of fo
 
 **Ewelina Kurtys:** I would say we have three types of users. Individuals/fascinated engineers, or small startups. Some of them want to do something related to biocomputing... That's why they want to use our platform. And big companies, which have R&D teams; very large companies which have R&D teams which want to do some project on cutting edge technology. The same actually how people do with quantum. They know that it doesn't work yet, but they want to know what is going on, they want to know how it works, because they believe it will work in the future.
 
-**Jerod Santo:** \[00:44:16.01\] Okay, so that's cool... What kind of stuff are they trying to do? You don't have to give specific examples or anything like that, but...
+**Jerod Santo:** \[44:16\] Okay, so that's cool... What kind of stuff are they trying to do? You don't have to give specific examples or anything like that, but...
 
 **Ewelina Kurtys:** No, actually this is confidential. What our clients are doing is confidential.
 
@@ -341,7 +341,7 @@ And of course then you can have -- you know, people try to have different ways o
 
 **Ewelina Kurtys:** No. Actually, you have eight electrodes. So every electrode is in a little bit different place of the organoid. And then you can target specific electrodes. You can, for example, use only a few of them, or you can use, for example, four of them for sending signals, and four of them for receiving signal... Or some other combination. So that gives you some room for playing.
 
-\[00:47:57.25\] And what is also interesting is not every electrode is always active, because sometimes you might have less signal, or no signal at some of the electrodes. So it's really complicated. It's very difficult to work with a living tissue. Sometimes they are just not active also.
+\[47:57\] And what is also interesting is not every electrode is always active, because sometimes you might have less signal, or no signal at some of the electrodes. So it's really complicated. It's very difficult to work with a living tissue. Sometimes they are just not active also.
 
 **Adam Stacoviak:** So they have -- how do you know when they're about to die? You mentioned inefficiency, you mentioned one day doesn't work the same as the next... We know earlier in your research they would die in hours, now they die in hundreds of days, I think... Help me understand terminology, is that right, and how do you know the inefficiencies aren't because they're about to die? Again, I don't know if that's the right terminology to use or not.
 
@@ -373,7 +373,7 @@ And this is why also we believe in these bioservers, in the central servers idea
 
 **Ewelina Kurtys:** Yes.
 
-**Adam Stacoviak:** \[00:52:17.13\] It seems like it's going to be exotic use cases. And I imagine, as somebody who's been at the doctorate level, the PhD level of this, from neuroscience to this laboratory stage, that you probably see at least some very exotic use cases. It has to have a unique environment, you plan to centralize it to offset that... But I'm sure there's unique scenarios where like this may be finely tuned or very specific to a certain type of task, versus general computing. It's not going to be in my iPhone. Maybe at that point it will be an iPhone, a literal iPhone... Anyways. Are there any unique, exotic scenarios or use cases that you already see, even though you're in the science stage, where this may apply?
+**Adam Stacoviak:** \[52:17\] It seems like it's going to be exotic use cases. And I imagine, as somebody who's been at the doctorate level, the PhD level of this, from neuroscience to this laboratory stage, that you probably see at least some very exotic use cases. It has to have a unique environment, you plan to centralize it to offset that... But I'm sure there's unique scenarios where like this may be finely tuned or very specific to a certain type of task, versus general computing. It's not going to be in my iPhone. Maybe at that point it will be an iPhone, a literal iPhone... Anyways. Are there any unique, exotic scenarios or use cases that you already see, even though you're in the science stage, where this may apply?
 
 **Ewelina Kurtys:** Actually, we aim for general computing. But of course, not everything. By looking at the human brain and also thinking about what is done now in digital, we think that every -- maybe not every, but many tasks which are done by artificial neural networks will be much better to be done on biological neural networks. For example generative AI we believe could be better on the real neurons.
 
