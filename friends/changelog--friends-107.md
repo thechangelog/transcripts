@@ -92,7 +92,7 @@
 
 So let's dive into it a little bit... Let's look at the first one, which - it's got that visual aid, it's called Git Heat Map... And this immediately reminded me of like DaisyDisk, or these tools where they search your hard disk and they show you where the big files are, and they kind of put a map out of wherever the big files are, where most of your storage is across the span of your disk, only this is doing it on your Git repo.
 
-**Mat Ryer:** \[00:08:11.26\] Is it still file size that it's representing?
+**Mat Ryer:** \[08:11\] Is it still file size that it's representing?
 
 **Jerod Santo:** It's based on diff activity. So it's showing you kind of like -- what do you call it? Lines of code that churn a lot, or like the hot files...
 
@@ -116,7 +116,7 @@ So let's dive into it a little bit... Let's look at the first one, which - it's 
 
 **Jerod Santo:** Yeah. I can also see it when you're coming to a new project that's existed for a long time, and you're just trying to familiarize yourself with the project, who's working on what, and which files are they working on the most. So I did look up the way that this thing works, and so it's a two-step process. So it basically scans through the entire Git history using git log, and then takes that history and compiles a few database tables, which tracks files, commits, the author, and then the relationships between those things.
 
-\[00:12:10.27\] And then the second step is taking that database, querying it to create the tree map, and the query is based on both the size of the file, and then the total number of changes to the file. So there's two dimensions. And so the color, I think, is based on how hot it is, meaning how often it changes, and you can limit that to certain authors, like I said... And then the size of it in the actual tree map is how big the file is, or the folder structure is.
+\[12:10\] And then the second step is taking that database, querying it to create the tree map, and the query is based on both the size of the file, and then the total number of changes to the file. So there's two dimensions. And so the color, I think, is based on how hot it is, meaning how often it changes, and you can limit that to certain authors, like I said... And then the size of it in the actual tree map is how big the file is, or the folder structure is.
 
 I think I would only use it in that context, if I'm new to a team, and I have a repo that maybe has years in history, and I want to quickly familiarize myself with it... Running the tests is a good first start, and then maybe just throwing this thing in there... Depending on how long it takes to operate, you can get a tree map real quick.
 
@@ -154,7 +154,7 @@ I know I've also done like CLOC, count the lines of code... And that will spit o
 
 **Adam Stacoviak:** A little speck of brain science for you... It is totally okay to talk to yourself, even out loud.
 
-**Mat Ryer:** \[00:16:04.07\] Oh. Thanks.
+**Mat Ryer:** \[16:04\] Oh. Thanks.
 
 **Jerod Santo:** In public?
 
@@ -202,7 +202,7 @@ I know I've also done like CLOC, count the lines of code... And that will spit o
 
 **Adam Stacoviak:** That's a great point though, the play aspect... Because a lot of things happen when you do play. I mean, obviously, your mind is different. It's in a different mode. Sometimes, as you said before -- I may be outing your potential unpopular opinion, and I won't say it... But when you make a plan, it could be too rigid. I'm dropping some hints there...
 
-**Jerod Santo:** \[00:20:05.25\] He's totally gonna say it... \[laughs\] He's gonna ruin it.
+**Jerod Santo:** \[20:05\] He's totally gonna say it... \[laughs\] He's gonna ruin it.
 
 **Adam Stacoviak:** I'm not gonna ruin it.
 
@@ -290,7 +290,7 @@ I know I've also done like CLOC, count the lines of code... And that will spit o
 
 **Adam Stacoviak:** Arse inking...
 
-**Jerod Santo:** \[00:24:05.00\] So this tool by Jacob Stopak from the Initial Commit team, which is a team that does Git things... And he writes that there's a dry run flag in Git, which is -n also, so maybe that's a standard, or at least an idiom... It enables you to get some idea of how the command will affect the state of the repository, but he says "These commands can be useful, but not all Git commands have them." So Git has all these sub-commands, and they don't all have dry runs. And he says, "And the purely text-based output can be quite sparse, as is typical of Git's command line interface. Moreover, many people out there are visual learners, and could benefit greatly from a visual approach to simulating the impact of a Git command before running it." So imagine this tool, Git Sim, as if it's a dry run, that has complete coverage of the subcommands and visualizes it for you. This one, I could argue - put it into Git. This is just a better user experience for dry runs, potentially.
+**Jerod Santo:** \[24:05\] So this tool by Jacob Stopak from the Initial Commit team, which is a team that does Git things... And he writes that there's a dry run flag in Git, which is -n also, so maybe that's a standard, or at least an idiom... It enables you to get some idea of how the command will affect the state of the repository, but he says "These commands can be useful, but not all Git commands have them." So Git has all these sub-commands, and they don't all have dry runs. And he says, "And the purely text-based output can be quite sparse, as is typical of Git's command line interface. Moreover, many people out there are visual learners, and could benefit greatly from a visual approach to simulating the impact of a Git command before running it." So imagine this tool, Git Sim, as if it's a dry run, that has complete coverage of the subcommands and visualizes it for you. This one, I could argue - put it into Git. This is just a better user experience for dry runs, potentially.
 
 **Mat Ryer:** Yeah, this would be very useful, and probably would satisfy some of my fears here, with Git commands just being too complicated, and I don't really have the confidence that I really know what it's gonna do... Because it's very abstract, and can be quite surprising, the effects, if you're not really \[unintelligible 00:25:23.03\] with Git... So this would give a level of confidence, for sure. It'd be like "Okay, so you've typed this in.. Now, here's a picture. Is this what you meant?" And you're like "No, absolutely not. You've just saved me a lot of embarrassment. Thank you." Or the other way around.
 
@@ -360,7 +360,7 @@ said --
 
 **Mat Ryer:** Send it to Jason, he doesn't exist. I got his name wrong.
 
-**Jerod Santo:** \[00:27:57.17\] \[laughs\] There you go. But this is really cool. I mean, how do you track your bugs, Mat? I just don't write any. That's kind of the way I do it. But how do you do it?
+**Jerod Santo:** \[27:57\] \[laughs\] There you go. But this is really cool. I mean, how do you track your bugs, Mat? I just don't write any. That's kind of the way I do it. But how do you do it?
 
 **Mat Ryer:** In GitHub, as issues. But actually having it in Git - and I assume there's a text file, or something, or some data file where they store this... And what's quite nice about this, I guess, is with a commit, you can also fix the bug, and then that all gets pushed at the same time. And because it's in Git, it's always correct. So if you go back and check out an old branch, you'll see the bugs that exist for the previous commit; you'll see the bugs that existed at that time. So I think that's really clever.
 
@@ -408,7 +408,7 @@ said --
 
 **Jerod Santo:** How are those measured? Is it like errors per lines? Or is errors per week? Or how does that play out?
 
-**Mat Ryer:** \[00:31:59.02\] Yeah, it'd be like failed HTTP requests, depending on what it is. It's like a certain number of those could fail before you consider you've got a problem.
+**Mat Ryer:** \[31:59\] Yeah, it'd be like failed HTTP requests, depending on what it is. It's like a certain number of those could fail before you consider you've got a problem.
 
 **Jerod Santo:** I see.
 
@@ -502,7 +502,7 @@ said --
 
 **Jerod Santo:** Yeah. So thanks for that, Jason.
 
-**Mat Ryer:** \[00:35:59.27\] Huh... I wonder what "dan-tan" would think of that. \[laughter\]
+**Mat Ryer:** \[35:59\] Huh... I wonder what "dan-tan" would think of that. \[laughter\]
 
 **Adam Stacoviak:** Dan-tan \[unintelligible 00:36:05.00\]
 
@@ -604,7 +604,7 @@ said --
 
 **Mat Ryer:** No, I'm just doing my German accent, extrawurst.
 
-**Jerod Santo:** \[00:40:00.24\] That's right.
+**Jerod Santo:** \[40:00\] That's right.
 
 **Mat Ryer:** There's a stereotype that German people don't have a good sense of humor, and it's one of those that I don't know where it comes from, because every single person I've met from Germany has like an extrawurst kind of sense of humor. Like, it's uber-good.
 
@@ -632,7 +632,7 @@ said --
 
 **Mat Ryer:** No, no.
 
-**Break:** \[00:42:12.24\]
+**Break:** \[42:12\]
 
 **Jerod Santo:** So the sub-topic then... So language support, or languages these tools are written in, and therefore distributed in - we have two in Python. That was the Heat Map and the Git Sim. This Git Bug is written in Go. GitUI, written in Rust. The next one we're going to talk about, if we get to it, Git Branchless, also written in Rust... And that got me thinking --
 
@@ -684,7 +684,7 @@ said --
 
 **Jerod Santo:** And delete it without worrying about it just like spreading files all throughout your disk.
 
-**Mat Ryer:** \[00:48:00.07\] I remember on Windows I used to sometimes -- like, I'd install something, and then I'd be like "Oh, I want to uninstall that", and there's no way obvious way to do it, and you google it, or you DuckDuckGo it, and it's like --
+**Mat Ryer:** \[48:00\] I remember on Windows I used to sometimes -- like, I'd install something, and then I'd be like "Oh, I want to uninstall that", and there's no way obvious way to do it, and you google it, or you DuckDuckGo it, and it's like --
 
 **Jerod Santo:** You went there...
 
@@ -746,7 +746,7 @@ said --
 
 **Mat Ryer:** No, no, I remember when Go was becoming that, and I would always say at the time "Write it in whatever you want. Whatever is the right tool for the job." So that attitude - I don't really deviate from that. I don't think Rust will just defeat Go, because it's really hard to learn, and that's the trade-off you make. It's much harder to learn, much harder to write Rust, but the trade-off is you get much more secure, much safer execution... And I guess if it compiles, you've got a high chance it's going to be correct. So there's benefits there. But Go - I don't know if it's just... Like, we'll see how that trends happen. Definitely there'll be trendy sort of things going around, but I don't know. I think they'll coexist, basically, forever, these two.
 
-**Jerod Santo:** \[00:52:15.14\] Fair enough. I was hoping for a less reasonable and nuanced position, but you know, I can only expect so much...
+**Jerod Santo:** \[52:15\] Fair enough. I was hoping for a less reasonable and nuanced position, but you know, I can only expect so much...
 
 **Adam Stacoviak:** So reasonable...
 
@@ -774,7 +774,7 @@ said --
 
 **Jerod Santo:** It has to go in.
 
-**Mat Ryer:** \[00:53:11.17\]
+**Mat Ryer:** \[53:11\]
 
 Hey baby, what're your typing in...
 
@@ -830,7 +830,7 @@ Rust Away. Mat Ryer.
 
 **Jerod Santo:** Sorry about that... Let's move on. Git Branchless. This is our last one of the list here... A high-velocity monorepo scale workflow for Git. This is like a grabbag of utilities. It's a weird name, Git Branchless, because it doesn't have anything to do with branching, really... But it adds a bunch of cool stuff, like Git undo...
 
-**Mat Ryer:** \[00:56:00.07\] It's a good name then, isn't it, Jerod?
+**Mat Ryer:** \[56:00\] It's a good name then, isn't it, Jerod?
 
 **Jerod Santo:** Like, there's no branching?
 
