@@ -26,7 +26,7 @@ The top [HN comments](https://news.ycombinator.com/item?id=45099922) on this pos
 
 **Jerod Santo:**
 
-[Open source is one person](https://opensourcesecurity.io/2025/08-oss-one-person)
+[Open source is one person](https://open sourcesecurity.io/2025/08-oss-one-person)
 
 Josh Bressers was offended by The Register's recent story titled [Putin on the code: DoD reportedly relies on utility by Russian dev](https://www.theregister.com/2025/08/27/popular_nodejs_utility_used_by/):
 
@@ -74,7 +74,7 @@ Head to [zed.dev/blog](https://zed.dev/blog/bring-your-own-agent-to-zed) or foll
 
 Bear, a "privacy-first, no-nonsense, super-fast blogging platform", was MIT licensed until yesterday. Herman Martinus, Bear's creator, explains why he decided to change it:
 
-> Unfortunately over the years there have been cases of people forking the project in the attempt to set up a competing service. And it hurts. It hurts to see something you've worked so hard on for so long get copied and distributed with only a few hours of modification. It hurts to have poured so much love into a piece of software to see it turned against you and threaten your livelihood. It hurts to believe in open-source and then be bitten by it.
+> Unfortunately over the years there have been cases of people forking the project in the attempt to set up a competing service. And it hurts. It hurts to see something you've worked so hard on for so long get copied and distributed with only a few hours of modification. It hurts to have poured so much love into a piece of software to see it turned against you and threaten your livelihood. It hurts to believe in open source and then be bitten by it.
 
 He decided to adopt the [Elastic License](https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md), which is almost identical to the MIT but with the stipulation that the software cannot be provided as a hosted or managed service. Herman cites sixth other projects that have made a similar change in the past few years, and concludes:
 
