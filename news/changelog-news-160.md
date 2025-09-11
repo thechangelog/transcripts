@@ -113,7 +113,7 @@ We'll have to wait and see how this plays out. Tempo has been announced, but it'
 That's the news for now, but go and subscribe to the Changelog Newsletter for the full scoop of links worth clicking on. Such as:
 
 - [Cloudflare AI Insights](https://radar.cloudflare.com/ai-insights)
-- [Spec Kit (by GitHub)](https://github.com/github/spec-kit)
+- [Spec Kit (by GitHub)](https://github.com/GitHub/spec-kit)
 - [Package managers are evil](https://www.gingerbill.org/article/2025/09/08/package-managers-are-evil/)
 
 Get in on the newsletter at changelog.news
