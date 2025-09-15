@@ -20,7 +20,7 @@
 
 And it was kind of funny, because when we were trying to get to the conference, we had a -- I think we had a rental car, or Alan had a rental car. And we were kids. When I say "We were kids", we were just young, and we were stupid. We did whatever we wanted. It was just a whole different world then. And Obie was in the car, and of course, I'm like fanboying, because Obie's cool. And we were podcasting in the car, and it's just like -- it was nothing like it is now, but it was so raw and so different. It was like "What is a podcast?" It was so weird. We were walking around with like short microphones, wired to this thing, and just like... It was epic.
 
-\[00:08:09.22\] But that's when I met Obie. We walked the beach in Miami beach, at night, and just talked, we got drunk, we did things we probably shouldn't do, like when you're young... And I really wanted to work at Hashrocket, because I was like "You guys are the coolest, you're doing this cool stuff... And if I come there for a month, or do like an engagement", they'd call them engagements, "I can get 25 grand for an engagement", which would seem like a million dollars to me... And I'd get to work with some of the most highest caliber talent out there. I'm like "Even if I'm not as good as they are, I will learn something through this engagement." I never got hired. It was so close... Obie did want me on the project, but it just didn't work out... And I think I got another gig and just moved on, or whatever. But that's how I knew Obie. I think Obie was kind of famous, to some degree, in the early Ruby days...
+\[08:09\] But that's when I met Obie. We walked the beach in Miami beach, at night, and just talked, we got drunk, we did things we probably shouldn't do, like when you're young... And I really wanted to work at Hashrocket, because I was like "You guys are the coolest, you're doing this cool stuff... And if I come there for a month, or do like an engagement", they'd call them engagements, "I can get 25 grand for an engagement", which would seem like a million dollars to me... And I'd get to work with some of the most highest caliber talent out there. I'm like "Even if I'm not as good as they are, I will learn something through this engagement." I never got hired. It was so close... Obie did want me on the project, but it just didn't work out... And I think I got another gig and just moved on, or whatever. But that's how I knew Obie. I think Obie was kind of famous, to some degree, in the early Ruby days...
 
 **Jim Remsik:** For sure.
 
@@ -62,7 +62,7 @@ And it was kind of funny, because when we were trying to get to the conference, 
 
 **Jim Remsik:** I'm not still there. We lived there for four years or so, and then the call of coming back home was a little bit too loud. So now we're back in Wisconsin. When I came back, I took what I had learned down there and I took part ownership of a consultancy in Madison, and have been basically -- I worked with them for two and a half years, and then started my own consultancy soon thereafter.
 
-**Adam Stacoviak:** \[00:11:48.18\] Ruby's been through some really interesting eras, I think. You know this, Jerod. You're a Rubyist at your core. I mean, I'm not speaking to the choir. I mean, I am speaking to the choir here, but... I feel like there was this -- the video you alluded to was DHH explaining how you could build a blog with his "Whoops" in 15 minutes, which was just groundbreaking... But I feel like that broke the mold for what was expected to get an application built. Now, deploying Ruby in those earliest days was super-challenging, and that's what open source is about, right?
+**Adam Stacoviak:** \[11:48\] Ruby's been through some really interesting eras, I think. You know this, Jerod. You're a Rubyist at your core. I mean, I'm not speaking to the choir. I mean, I am speaking to the choir here, but... I feel like there was this -- the video you alluded to was DHH explaining how you could build a blog with his "Whoops" in 15 minutes, which was just groundbreaking... But I feel like that broke the mold for what was expected to get an application built. Now, deploying Ruby in those earliest days was super-challenging, and that's what open source is about, right?
 
 **Jerod Santo:** For sure.
 
@@ -88,7 +88,7 @@ We moved -- I think like a number of people, we moved out of a city center, and 
 
 The feedback that I constantly get from meetup organizers is that it's hard to get people to show up every month. And so if they get a good speaker, or if there's some coincidence with something that's happening in town, they'll get spikes... But then attendance is up and down. It's easier in a place like New York or Chicago or wherever, but for the smaller towns, it's a little bit more difficult. And it's so easy to not put on your shoes, it's so easy to not leave the house. I can go on YouTube and find a thousand talks to watch, or what have you.
 
-**Jerod Santo:** \[00:16:08.25\] Right.
+**Jerod Santo:** \[16:08\] Right.
 
 **Jim Remsik:** And I think the big thing - and Adam, you alluded to this earlier - for me is that in-person connecting with people. It is the ability to sit down... One of my favorite stories from a conference was talking to an attendee from Madison Ruby, and they were so excited to sit down with Tenderlove... And they talked about America's next top model for like an hour. And it's like, you would never think, looking at Aaron's public persona, that that's the thing that you're going to wind up in a conversation about.
 
@@ -114,7 +114,7 @@ What does a small group look like, and what does a big group look like? What's t
 
 And in general, it seems like, while speakers can sometimes be hard to find, there is usually somebody that wants to promote something that they're doing... And so lots of meetups will engage remote speakers at times, because that way they don't have to pay somebody to travel if they're from out of the area. But the good ones are mixing it up, and having a local person speak, and then have a remote speaker as well.
 
-**Jerod Santo:** \[00:20:12.03\] And so now you're deciding to do this regional - is it conferences? They're actually conferences? Or these are meetups? What are these things that you're going to do this fall?
+**Jerod Santo:** \[20:12\] And so now you're deciding to do this regional - is it conferences? They're actually conferences? Or these are meetups? What are these things that you're going to do this fall?
 
 **Jim Remsik:** They're single day, single track conferences. We're aiming for about 60 people. And that's the sort of -- that's the size where you can actually meet everybody in the room. And we're also able to -- we're not going to be in beige boxes, we're not going to be in hotel ballrooms... We're going to be in Chicago, we've got a loft, like a warehouse space, with soaring ceilings... In Atlanta it's a small black box theater, and in new Orleans we're in a -- I should really look up how old this place is, but it's called the Marigny Opera House. It used to be the Holy Trinity Church, and it is just every bit a new Orleans church, which is... It's a white brick building, but it looks really gritty and dirty on the outside... You get inside and it's just fantastic, and I'm super-excited about that venue in particular. In Portland we've got an industrial chic warehouse space. And we're bringing projector PA stage backdrops... Pretty much the entire conference is going to go into the back of the vehicle and drive from city to city. So I've got 7,500 miles of driving ahead of me in the next two months, and with the goal of -- we could go into any space. If you've got power, seats and bathrooms, we'll be able to put on an event. That was the thought.
 
@@ -174,7 +174,7 @@ And in general, it seems like, while speakers can sometimes be hard to find, the
 
 **Adam Stacoviak:** Okay, so he's coming down then for that. Cool.
 
-**Jim Remsik:** \[00:24:00.14\] And the point of doing these conferences is to put them in people's backyards, so that there's not the expensive -- we've been working with Ruby Central to do the designs, both digital and in physical space for RailsConf and RubyConf, and the feedback that we constantly get is "This is great, but I've got to take an entire week off work. I've got to spend a week in a hotel in a major metro, and all those things are expensive." And what is also true is that you can't really get that experience without doing it that way, where you bring all the people to -- like, you bring a bunch of the community together, you get 800 people together in the same space. That's hard to do in any other alignment.
+**Jim Remsik:** \[24:00\] And the point of doing these conferences is to put them in people's backyards, so that there's not the expensive -- we've been working with Ruby Central to do the designs, both digital and in physical space for RailsConf and RubyConf, and the feedback that we constantly get is "This is great, but I've got to take an entire week off work. I've got to spend a week in a hotel in a major metro, and all those things are expensive." And what is also true is that you can't really get that experience without doing it that way, where you bring all the people to -- like, you bring a bunch of the community together, you get 800 people together in the same space. That's hard to do in any other alignment.
 
 But there was a gap that we saw, which was "What if you didn't have to take a plane, what if you didn't have to drive eight hours, or whatever? What if there was no hotel involved? And what if the ticket, instead of being 300 per day, was a hundred dollars?" And that was what we were trying to solve for. So we spoke with the folks at Cisco, and they saw what we were trying to do, and so we teamed up with them. They're our foundational sponsor. They're sponsoring the entire series of events we're doing this year. And honestly, I couldn't have done that without them.
 
@@ -184,7 +184,7 @@ But there was a gap that we saw, which was "What if you didn't have to take a pl
 
 We've done Madison Ruby for about 10 instances, including last year, and at the last one I was just like "This is really risky. Our expenses are significant, and what would make them easier to pull off would be if we can lower the risk profile." And so through the sponsorship that we got from Cisco, we were able to cover all of our venues, and cover some of our expenses... And then working with our local sponsors, if we are able to reach our sponsorship goals, we have everything covered, and then any of the ticket sales is on top of that.
 
-\[00:28:17.07\] We haven't hit all of our sponsorship goals yet, but I'm positive that we'll get pretty close. And if people don't have to plan a trip, they can buy a ticket the night before, and still make the show. And so we're going to cities where there are significant Ruby user groups, there is a significant population... And we've tried to lower the risk at every stage, so that we're not left holding the bag.
+\[28:17\] We haven't hit all of our sponsorship goals yet, but I'm positive that we'll get pretty close. And if people don't have to plan a trip, they can buy a ticket the night before, and still make the show. And so we're going to cities where there are significant Ruby user groups, there is a significant population... And we've tried to lower the risk at every stage, so that we're not left holding the bag.
 
 When we ran our first Madison Ruby, I personally lost $9,000. I'm going to adjust that to say "My wife and I, who's sitting in the other room right now, lost $9,000."
 
@@ -232,7 +232,7 @@ When we ran our first Madison Ruby, I personally lost $9,000. I'm going to adjus
 
 **Adam Stacoviak:** Yeah.
 
-**Jim Remsik:** \[00:32:11.24\] This is quite literally me putting -- somebody suggested I was playing Johnny Appleseed, going around planting a bunch of trees... And if we go to Atlanta, and we're working with the local organizers in Atlanta, and if they say "Hey, this turned out really well." "Would you mind if we do this next year?", they're like "No, here's a playbook. You can do this next year."
+**Jim Remsik:** \[32:11\] This is quite literally me putting -- somebody suggested I was playing Johnny Appleseed, going around planting a bunch of trees... And if we go to Atlanta, and we're working with the local organizers in Atlanta, and if they say "Hey, this turned out really well." "Would you mind if we do this next year?", they're like "No, here's a playbook. You can do this next year."
 
 So if somebody takes that playbook and runs with their own conference in Atlanta next year, we'll go somewhere else. We've already spoken with folks in Boston, Denver and Kansas City, that are asking "Would you bring an XO Ruby conference here?" And the answer is let's get the first three out of the way first, and then let's talk. But there's nothing stopping us from doing that, and we have a pretty good understanding of how to put these on.
 
@@ -262,7 +262,7 @@ So if somebody takes that playbook and runs with their own conference in Atlanta
 
 **Adam Stacoviak:** Yeah, "We'll be back." Thumbs up.
 
-**Break**: \[00:34:55.23\]
+**Break**: \[34:55\]
 
 **Jerod Santo:** What are some of the challenges that have come up with organizing six in a row, I guess, or... You have to organize them in parallel, but they operate in a row. I assume call for papers is probably harder, and lots of stuff's probably harder when you have six things going on.
 
@@ -302,7 +302,7 @@ We're also working with Confreaks, trying to get them to record all these events
 
 **Adam Stacoviak:** Yes...
 
-**Jim Remsik:** \[00:41:56.05\] \[unintelligible 00:41:56.03\] He's at Heroku. He's got bigger fish to fry. He worked with Cindy Backman, who has been running Confreaks for the last six, seven years, and always brings a really... Like, she sees so much. She goes to so many conferences and so many Ruby events and whatnot... She's got an interesting perspective on the history of the Ruby community. And actually has found herself on stage at RubyConf, and... Yeah, and then not only does she record the talks, but she goes through and edits all the talks as well.
+**Jim Remsik:** \[41:56\] \[unintelligible 00:41:56.03\] He's at Heroku. He's got bigger fish to fry. He worked with Cindy Backman, who has been running Confreaks for the last six, seven years, and always brings a really... Like, she sees so much. She goes to so many conferences and so many Ruby events and whatnot... She's got an interesting perspective on the history of the Ruby community. And actually has found herself on stage at RubyConf, and... Yeah, and then not only does she record the talks, but she goes through and edits all the talks as well.
 
 **Adam Stacoviak:** It's a lot of work. So much work.
 
@@ -420,13 +420,13 @@ We're also working with Confreaks, trying to get them to record all these events
 
 **Jim Remsik:** This is the thing -- and to your point about putting the opportunity to show interest in sponsoring... When you give people an explicit direction as to how they could help, they can see that.
 
-\[00:46:04.27\] So if you want to speak, reach out. Let's talk. If you want to attend -- there is not yet, but by the time this airs, there will be a volunteer link as well. We're going to overstaff with volunteers. And so if you wanted to come to the event and you want to give up an hour or two at the beginning or end of the conference to volunteer, we'll let you in for free. We've always done that with Madison Ruby, and there are people that came into the community that way, that had that opportunity, that now work at Square, and Coinbase.
+\[46:04\] So if you want to speak, reach out. Let's talk. If you want to attend -- there is not yet, but by the time this airs, there will be a volunteer link as well. We're going to overstaff with volunteers. And so if you wanted to come to the event and you want to give up an hour or two at the beginning or end of the conference to volunteer, we'll let you in for free. We've always done that with Madison Ruby, and there are people that came into the community that way, that had that opportunity, that now work at Square, and Coinbase.
 
 **Adam Stacoviak:** That's cool. Yeah.
 
 **Jim Remsik:** And so what people most often need is an in. They need somebody to take a chance.
 
-**Break**: \[00:46:51.02\]
+**Break**: \[46:51\]
 
 **Adam Stacoviak:** You made me think about something, since you've been running these events so long and you have that thing that you do, so to speak, the way you run it... Is there anything in particular that you do, that you feel like makes an event - whether it's Madison Plus Ruby, or if it's XO Ruby, or whatever you're doing, what are some things that you try to always do as like a DNA thing for your events?
 
@@ -442,7 +442,7 @@ We're also working with Confreaks, trying to get them to record all these events
 
 **Adam Stacoviak:** Yes... And he wouldn't let you go. He grabbed you -- not physically. I mean, sometimes physically. But he's like a tractor beam. "Get over here... Get into this conversation. Don't you be isolated over there." He would force you out of your shell. He really would. I know he did it to me.
 
-**Jim Remsik:** \[00:50:04.07\] In the best way. I was going to say, then you realize that "Oh, that's why I'm here." Like, he did that to me.
+**Jim Remsik:** \[50:04\] In the best way. I was going to say, then you realize that "Oh, that's why I'm here." Like, he did that to me.
 
 **Adam Stacoviak:** Yeah.
 
@@ -470,7 +470,7 @@ One of those things with getting everybody together is we are not catering the c
 
 **Adam Stacoviak:** Yeah, one thing that Alan and Stephen did - I keep seeing their names; I miss those guys so much. Obviously, I miss Stephen, but... When they did LessConf, one thing they did... And this is probably why Alan is mayor, because he went out... And if you recall this, Jim, you can share your side of the story, but... They went out to particular local venues and said "Hey, we're going to have people here for this reason", and they made a list of where you can go. I don't recall if it was free or what it was... I think it might have been free, as part of the conference. But it was like, they had already set it up. You go out into that small town, into that little city, an independent \[unintelligible 00:53:53.18\] and you go where you want to, closest to the venue. You can walk there, you can go with the friend groups that you've made, you can make new friends, you can invite yourself somewhere, be invited somewhere... But they had already identified various places you can go, and it was just really easy.
 
-\[00:54:09.23\] And those folks were ready for it, they weren't bombarded... But you had selection, you got to see the city, and you got to come back to the venue and continue your conference experience like nothing happened. It seemed smooth to me. Maybe as an event planner not very smooth, but as an attendee, I thought it was super-cool, very smooth... And I got the choice of where I wanted to go, and I thought that was the best experience ever.
+\[54:09\] And those folks were ready for it, they weren't bombarded... But you had selection, you got to see the city, and you got to come back to the venue and continue your conference experience like nothing happened. It seemed smooth to me. Maybe as an event planner not very smooth, but as an attendee, I thought it was super-cool, very smooth... And I got the choice of where I wanted to go, and I thought that was the best experience ever.
 
 **Jim Remsik:** Yeah. In downtown Madison there is a local business community called Downtown Madison Inc, and they have gift certificates. And so we did gift certificates one year. Just give them a gift certificate and you're covered. But there were so many people that went someplace where it wasn't accepted, or... That value wound up getting lost. Or they would give it back -- they would just give us the gift certificate back. That's good for me, but you didn't get the thing that you paid for as part of your deal.
 
@@ -530,7 +530,7 @@ One of those things with getting everybody together is we are not catering the c
 
 **Jim Remsik:** I mean, thankfully -- well, you all are... This is afternoon for you two. \[unintelligible 00:57:51.22\] Yeah, I just bought, probably three months ago, a Weber Smokey Mountain. And so I've been smoking up a storm in the backyard.
 
-**Adam Stacoviak:** \[00:58:01.20\] Well, we can we can talk about that in the after show, for sure. I will talk about barbecuing with you all day long... Because it is one of my passions. So xoruby.com... This is like pretty much tomorrow you kick off. Are your bags packed?
+**Adam Stacoviak:** \[58:01\] Well, we can we can talk about that in the after show, for sure. I will talk about barbecuing with you all day long... Because it is one of my passions. So xoruby.com... This is like pretty much tomorrow you kick off. Are your bags packed?
 
 **Jerod Santo:** Yeah, it's soon.
 
