@@ -60,7 +60,7 @@
 
 **Jerod Santo:** I have some experience, but just back when... So we used to use Ansible with deploying Changelog probably six, seven years ago... And so I learned it then. And I did a little bit of Ansible when I was doing network administration decades ago. And it always made sense to me. It seemed like, for my uses back then it was slightly too much for what I needed, which was really just a couple of scripts... But once you get over the learning curve, as Carl, I'm sure, can confess, it's all very simple and straightforward. And that makes it worth the lift.
 
-**Adam Stacoviak:** \[00:07:57.11\] It requires a client server, right? You still have to have a main Ansible hub where you run your playbooks, right? Isn't that how it works?
+**Adam Stacoviak:** \[07:57\] It requires a client server, right? You still have to have a main Ansible hub where you run your playbooks, right? Isn't that how it works?
 
 **Carl George:** It can work that way, but there's a lot of flexibility. The way that I'll usually do it is I just have the playbooks in a Git repo, I'll clone the Git repo, and then I'll apply it to localhost. You can also do it where -- like, if you're configuring servers, your local machine is kind of the hub, the control. I think the official terminology is the control node. But you can have it where your local laptop is the control node setting up a server, you can have the control node set up itself... You can do any number of things. There's a lot of flexibility. And that's probably the hardest part of it, is that there's enough flexibility that there could be multiple ways to do a thing. That can get you confused, especially if you hear about one way to do it, and you try and do it, and then you find another way and then you're like "Okay, well, what's the most correct way I want to do this?" Or at least that's where I'll get hung up on it. Other people just go with the first thing they find that works and they say, "Okay, good enough. I don't really care."
 
@@ -100,7 +100,7 @@
 
 **Jerod Santo:** \[laughs\] That's a fact. That's not just the open source world, though. In a proprietary world they hire employees to work on stuff that nobody else wants to. But in open source, you have to either convince somebody that it's worth their time, or you have to roll up your sleeves and do it yourself.
 
-**Adam Stacoviak:** \[00:11:53.12\] I wonder if syncthing has a token, like Tailscale does. I was trying to think about one other tool I use that requires -- well, it sometimes requires browser intervention. And Tailscale is one of them, where it makes you click a link... But if you know or you have an auth key or a token kind of key, then you can sort of just use that when you instantiate it. It's like "Okay, this is really me." I don't have to ever go to the browser and prove who I am.
+**Adam Stacoviak:** \[11:53\] I wonder if syncthing has a token, like Tailscale does. I was trying to think about one other tool I use that requires -- well, it sometimes requires browser intervention. And Tailscale is one of them, where it makes you click a link... But if you know or you have an auth key or a token kind of key, then you can sort of just use that when you instantiate it. It's like "Okay, this is really me." I don't have to ever go to the browser and prove who I am.
 
 **Carl George:** Like an activation key type thing?
 
@@ -140,7 +140,7 @@
 
 **Adam Stacoviak:** Omakub. This is the thing that DHH made as well. It's like a Kubernetes -- I wouldn't say that. It's probably like a deployment thing. I haven't played with it enough to know exactly what it is, but it says "Turning fresh Ubuntu installation into a fully configured, beautiful and modern web development system." So he kind of took the same thing I guess he had done with Ubuntu and turned it into...
 
-**Jerod Santo:** \[00:16:01.23\] And that one didn't connect. But maybe Carl's right then on the Hyprland. Now I'm knowing where it comes from originally. The etymology is now complete. Omakase. That's his thing, right?
+**Jerod Santo:** \[16:01\] And that one didn't connect. But maybe Carl's right then on the Hyprland. Now I'm knowing where it comes from originally. The etymology is now complete. Omakase. That's his thing, right?
 
 **Adam Stacoviak:** That's right. The Omakase spirit. The idea that the entire setup experience can benefit from being tailored up front by someone with strong opinions. That's basically DHH in a nutshell, right?
 
@@ -196,7 +196,7 @@ So I think that's where desktop environments fit in, versus people that do want 
 
 **Carl George:** You've got to have something that draws all the windows on your screen, handles all of that stuff. For a long time, that was Xorg server, or X11 is what a lot of people call it. I think technically X11 is the protocol, and the project is X.org, and then the thing people are calling X11 is Xorg server. I think it's the actual correct term. These are often used interchangeably, though. People just throw those around and say "I have to use X11."
 
-\[00:19:58.28\] Well, the Xorg developers, the people that worked on that project, they realized that their 20-30 years of technical debt around that server, that thing to draw everything on the screen was piling up, and it wasn't really working great for them, so one of the developers said "Okay, well, if we started this over from scratch, how do we change it?" And did a lot of different things, a lot of it around security. Xorg has a long history of security vulnerabilities and things because of the design and lots of technical debt, security problems arising... And then the developers decided "Okay, well if we started over, how can we design this where we wouldn't run into this category of issues?" And what they came up with was Wayland, that is this new way to do it.
+\[19:58\] Well, the Xorg developers, the people that worked on that project, they realized that their 20-30 years of technical debt around that server, that thing to draw everything on the screen was piling up, and it wasn't really working great for them, so one of the developers said "Okay, well, if we started this over from scratch, how do we change it?" And did a lot of different things, a lot of it around security. Xorg has a long history of security vulnerabilities and things because of the design and lots of technical debt, security problems arising... And then the developers decided "Okay, well if we started over, how can we design this where we wouldn't run into this category of issues?" And what they came up with was Wayland, that is this new way to do it.
 
 The difference is where in the old Xorg server days all these desktops would use the same Xorg server and then they would talk to that through those APIs, Wayland is just the protocol; kind of like X11 is for Xorg server. And so with Wayland, the idea is that all of these clients are going to talk to the Wayland protocol and be the equivalent of the Xorg server. So in GNOME's setup they have a thing called Mudder as one of the components of GNOME, and that serves as the Wayland compositor, I think is the term.
 
@@ -220,7 +220,7 @@ So that has been a big shift. For many, many years, people have said "Xorg serve
 
 And that's some of the pushback I think, is that people see "Oh, well this there's work involved in this, this is going to change... But I like this desktop that works on Xorg server. Why do I have to do anything?" And... Yeah, that's just open source in a nutshell.
 
-**Jerod Santo:** \[00:24:01.08\] Because the times are changing, yeah. Interesting.
+**Jerod Santo:** \[24:01\] Because the times are changing, yeah. Interesting.
 
 **Carl George:** Underlying stuff changes. Nothing stays the same forever.
 
@@ -262,7 +262,7 @@ And that's some of the pushback I think, is that people see "Oh, well this there
 
 Farther back, it was decided that KDE Plasma was popular enough and important enough to be what we call a release blocking deliverable, meaning that if something's broken in the KDE Plasma spin, Fedora could delay the release to get that working before pushing out a new version. A release blocking spin wasn't really that different than an edition. So basically, they said "We need to promote this from a spin to an edition, and give KDE a little bit more love, and feature it better on the front page."
 
-\[00:28:06.28\] Now, for desktops, Fedora has two editions. There's the Workstation, which is GNOME, and then - Plasma desktop I think is the name they went with. A lot of people -- engineers and naming things; there's lots of talk of "Well, we should have Plasma Workstation and GNOME Workstation, and have it more right in the name." And then other people said, "No, Workstation is GNOME." Lots of different opinions and fighting about that, but... Eventually, what they landed on was "We still have Fedora Workstation, that is GNOME... And if you want to call it a default, sure." But also the Plasma desktop is also featured as a leading variant on the front page, one of the choices you can download, and that has KDE Plasma in it.
+\[28:06\] Now, for desktops, Fedora has two editions. There's the Workstation, which is GNOME, and then - Plasma desktop I think is the name they went with. A lot of people -- engineers and naming things; there's lots of talk of "Well, we should have Plasma Workstation and GNOME Workstation, and have it more right in the name." And then other people said, "No, Workstation is GNOME." Lots of different opinions and fighting about that, but... Eventually, what they landed on was "We still have Fedora Workstation, that is GNOME... And if you want to call it a default, sure." But also the Plasma desktop is also featured as a leading variant on the front page, one of the choices you can download, and that has KDE Plasma in it.
 
 **Jerod Santo:** Gotcha. Alright, so my last question, and then I'm going to make sure Adam's with us and has further thoughts... Because I'm still getting clarifying questions. So as a Fedora maintainer then, with regards to GNOME, do you have to care at all about Wayland X11, those kinds of things? Or you just make sure GNOME is packaged and installed and configured by default, and they're black box to you?
 
@@ -280,7 +280,7 @@ That is one of the things in GNOME that nobody's really figured out how to do ye
 
 **Adam Stacoviak:** I'm tracking, I'm just overwhelmed, I would say. It's not that hard to follow, necessarily... I think for me in particular, I would love to use -- I love Linux server. Linux servers of all types. And I would love to try and use Linux as a desktop, but because I'm a creative and we do video and audio, there's always something that stops me. I can build machines, I love that stuff... But man, all these distros, all these configs, all this -- it's just so hard to map your mind around. It's no wonder why we haven't experienced the year of the Linux desktop. Because the sand is always shifting underneath you, I feel. As someone who knows the lay of the land well, or at least to some degree - you're a couple of classes ahead, as Jerod said...
 
-**Jerod Santo:** \[00:32:10.05\] That's probably underselling Carl. I don't want to undersell you, Carl.
+**Jerod Santo:** \[32:10\] That's probably underselling Carl. I don't want to undersell you, Carl.
 
 **Adam Stacoviak:** Sure. Sure. I'm just reusing your words.
 
@@ -310,7 +310,7 @@ I have some friends that -- I won't shout-out all the other podcasts out there, 
 
 **Adam Stacoviak:** Yeah, shout them out.
 
-**Carl George:** \[00:35:53.17\] My buddies over at Jupiter Broadcasting. They do a lot of stuff -- they are big fans of NixOS, which is a... If you think that Hyperland is really configurable, NixOS is that kind of for your whole OS. Just like, everything is extremely configurable. I don't know a whole lot about it, I haven't tried it myself, but they are big fans of NixOS. My friend Michael over with Destination Linux, he uses Fedora for all his podcast production stuff. But then there's other people on his show that use other stuff... So I would say get out and talk to these people. I'm sure you've probably met some of these folks before.
+**Carl George:** \[35:53\] My buddies over at Jupiter Broadcasting. They do a lot of stuff -- they are big fans of NixOS, which is a... If you think that Hyperland is really configurable, NixOS is that kind of for your whole OS. Just like, everything is extremely configurable. I don't know a whole lot about it, I haven't tried it myself, but they are big fans of NixOS. My friend Michael over with Destination Linux, he uses Fedora for all his podcast production stuff. But then there's other people on his show that use other stuff... So I would say get out and talk to these people. I'm sure you've probably met some of these folks before.
 
 **Adam Stacoviak:** Never...
 
@@ -328,7 +328,7 @@ At the end of the day, I don't really benefit or care about switching people to 
 
 **Carl George:** And I'm like "Okay, well, if you're just in a browser and don't have any specific application needs other than like a photo viewer... Yeah, here's XYZ Linux distribution. Try this out for a while." And then they would always do it, and then they would call me up like a month later or whatever and say "Hey, I bought this camera at Walmart and it comes with an application, and it doesn't install." And I'm like "What's the camera." And I'll look it up. "Yup, that's a Windows only app." And inevitably, something would happen like that.
 
-\[00:40:02.28\] Nowadays, I think that would be a less common thing, just because of the move to web apps over like native applications. So the problem has gotten better, but still, it's a problem where I wouldn't necessarily recommend Linux to friends and family unless they actually want to get involved and learn it." Like, you're asking questions and want to know. If I have a family member that wants to know and learn, then sure, I'll help them get started in whatever... But I'm not going to try and convince anyone that's perfectly happy using windows or Mac or anything else that they need to change to anything.
+\[40:02\] Nowadays, I think that would be a less common thing, just because of the move to web apps over like native applications. So the problem has gotten better, but still, it's a problem where I wouldn't necessarily recommend Linux to friends and family unless they actually want to get involved and learn it." Like, you're asking questions and want to know. If I have a family member that wants to know and learn, then sure, I'll help them get started in whatever... But I'm not going to try and convince anyone that's perfectly happy using windows or Mac or anything else that they need to change to anything.
 
 **Jerod Santo:** Especially because you become the de facto tech support, don't you?
 
@@ -349,7 +349,7 @@ Getting more manufacturers interested to make native applications... I mean, we'
 
 **Carl George:** There's still some games that don't, but people can game all day long with Steam on Linux. And as long as they stick to those games that are compatible, that's not a blocker for them anymore. It's a slow and steady drumbeat of getting manufacturers on board, getting more hardware manufacturers on board that will ship Linux pre-installed. We're getting better at that. Frameworks real popular these days, they don't ship Linux pre-installed, but they have devices where they'll advertise it as "Bring your own OS", which is kind of code for "Go install whichever distro you want on here." We've got Lenovo offering pre-installed Ubuntu and Fedora laptops now... So I think the more of those we get, the better this application problem will get long-term. But it's certainly been a long time coming, getting to the point where we're at now, and we're still not in a great place with it, so it's probably going to be a lot longer trek up this hill, getting it more popular.
 
-**Adam Stacoviak:** \[00:44:09.07\] Yeah. In my case, I'm using IQ as more of a diagnostic thing. I'm not trying to view the window and check out the power draw. I'm trying to capture that in Prometheus, and just monitor across the server. So in this case, it's a power supply on a server, the GPU is on the server... The CPU is obviously the CPU of the server. And I want to look at those things, I want to understand how the CPU is performing, which cores are active, things like that; how cool it is... Those are things you can get from the actual CPU. But in terms of its cooling, there's things you can tell about like "What is the constant temperature of the water in the AIO?" And whether or not that pump is about to go away... There's things you can do just to ensure durability of your server, and that IQ system or the diagnostics in there is sort of stuck. And I'm thinking about not making it stuck, but I've got to make some software, and I don't want to do that. I'd rather them just do it, make it easy. But that's how it works...
+**Adam Stacoviak:** \[44:09\] Yeah. In my case, I'm using IQ as more of a diagnostic thing. I'm not trying to view the window and check out the power draw. I'm trying to capture that in Prometheus, and just monitor across the server. So in this case, it's a power supply on a server, the GPU is on the server... The CPU is obviously the CPU of the server. And I want to look at those things, I want to understand how the CPU is performing, which cores are active, things like that; how cool it is... Those are things you can get from the actual CPU. But in terms of its cooling, there's things you can tell about like "What is the constant temperature of the water in the AIO?" And whether or not that pump is about to go away... There's things you can do just to ensure durability of your server, and that IQ system or the diagnostics in there is sort of stuck. And I'm thinking about not making it stuck, but I've got to make some software, and I don't want to do that. I'd rather them just do it, make it easy. But that's how it works...
 **Carl George:** If you don't care about the graphical part, I imagine there's probably something on Linux that could reach into that data. Usually, those type of things are not -- it's not like special secret data where you have to have the one special proprietary app to access it. It's usually just normal, industry-standard stuff exposed via the hardware. I mean, servers do this anyways that don't have any graphical environments at all, so... There's usually a standard that you can plug into and find some kind of app. It might just be a matter of finding the right term to google for.
 
 **Adam Stacoviak:** Maybe there is a standard.
@@ -358,7 +358,7 @@ Getting more manufacturers interested to make native applications... I mean, we'
 
 **Adam Stacoviak:** There was an IQ kind of Linux -- I'm not even sure what to call it. Probably a package, if you want to call it that... But it was unmaintained. So it was written in C and unmaintained, and probably for good reason. I'm not knocking C, but whatever.
 
-**Break**: \[00:46:21.26\]
+**Break**: \[46:21\]
 
 **Adam Stacoviak:** Let's talk about Texas Linux Fest before I put my foot in my mouth on C... So we've got at the UT Campus -- is it this month, in like a couple of weeks, basically? 16 days...
 **Carl George:** Yes. Very soon.
@@ -381,7 +381,7 @@ And I've looped in a few volunteers to help make things happen that way... Some 
 
 **Jerod Santo:** Well, we're happy to help. Is this getting put on at the university?
 
-**Carl George:** \[00:52:05.08\] It's not at the -- yeah, you mentioned the UT campus. It's not the main campus, it is an ancillary venue called the J. J. Pickle Research Campus.
+**Carl George:** \[52:05\] It's not at the -- yeah, you mentioned the UT campus. It's not the main campus, it is an ancillary venue called the J. J. Pickle Research Campus.
 
 **Jerod Santo:** Okay.
 
@@ -414,7 +414,7 @@ And I've looped in a few volunteers to help make things happen that way... Some 
 
 **Carl George:** It's a Linux conference, but it's not only Linux. We don't really have tracks for every room. We do kind of keep some of the same topics on themes, so they're not conflicting at the same time... So in the main room we'll have pretty much Linux talks the whole way, a lot of distribution stuff, and then one talk about Linux kernel upgrades. We have another room that I think the whole afternoon is all Kubernetes stuff, another one where the whole afternoon is AI stuff. That's real hot topic right now. I think we have one room where in the morning it's two observability talks back to back, so like monitoring type things...
 
-So those are some of the leading ones. We have some stuff that's more developer-oriented. We have a workshop on the Friday of the event. It's a Friday, Saturday thing. One workshop about Web Assembly, another workshop about WSL, using the Windows Subsystem for Linux, which is a Linux sort of thing layer on Windows... So yeah, lots of topics, all around the -- at least tangentially related to Linux and/or open source in some way.
+So those are some of the leading ones. We have some stuff that's more developer-oriented. We have a workshop on the Friday of the event. It's a Friday, Saturday thing. One workshop about WebAssembly, another workshop about WSL, using the Windows Subsystem for Linux, which is a Linux sort of thing layer on Windows... So yeah, lots of topics, all around the -- at least tangentially related to Linux and/or open source in some way.
 
 One interesting talk we had on the schedule this year was about Darwin, which is, as I understand it, kind of the underlying operating system for Mac. So I'm pretty interested in -- I don't know if I'll be able to actually watch any of the talks live, but we're hoping to get the talks recorded this year and be able to go back and watch that... Because I'm curious -- the title is the design and implementation of the Darwin operating system. And that's interesting to me. One, that someone would propose that at a Linux open source conference. And two, I want to know what he has to talk about it. I'm sure there'll be a lot of comparisons to Linux itself.
 
@@ -422,7 +422,7 @@ One interesting talk we had on the schedule this year was about Darwin, which is
 
 **Carl George:** Anyone interested in Linux and open source. I mentioned that there's a lot of AI talks this year, so I know that's a hot topic people that want to learn more about that... We've got people working specifically in observability. Some of the topics are things that you work with in your day to day job; it's certainly applicable. Maybe you can get your employer to pay for the ticket. The tickets are pretty reasonable. The entry level tickets -- we actually just ended the early bird pricing, unfortunately. That's been open for a while. It was $50 tickets. But now the entry level ticket is $75, and you can upgrade to a hundred dollar ticket to get the swag pack that includes a T-shirt.
 
-\[00:55:54.07\] But yeah, if it's related to your job at all, if any of the topics on the schedule sound good, I would definitely pitch it to your employer. And if your employer is interested in sponsoring the conference, since this is run by a nonprofit, we don't actually have big budgets for any of this stuff, so we are completely reliant on our sponsors helping make the conference happen.
+\[55:54\] But yeah, if it's related to your job at all, if any of the topics on the schedule sound good, I would definitely pitch it to your employer. And if your employer is interested in sponsoring the conference, since this is run by a nonprofit, we don't actually have big budgets for any of this stuff, so we are completely reliant on our sponsors helping make the conference happen.
 
 This year, my ex employer, Rackspace, down in San Antonio, is our platinum sponsor, and they haven't -- they sponsored in years past and they haven't in a while, so it was nice to see them come back around and want to be involved in community events. We've also got a Red Hat, my current employer, and Percona and Elastic as our gold sponsors. And a few more silver ones... And we're looking for more sponsors. If anyone's interested in helping make the event happen this year and in future years, that'll definitely come in handy. But having lots of sponsors also helps us control that ticket price and not have to charge too much, so that attendees can come and it's affordable for everyone.
 
