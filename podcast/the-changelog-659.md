@@ -92,7 +92,7 @@
 
 **Cliff Biffle:** So I was working in firmware at Google, doing high-altitude balloon tracking and communication stuff, and we were using C. And I've been using C since I was a kid, because my dad just flew up in it. But it's really hard to produce correct software that doesn't contain bugs, particularly on a team with different experience levels, working in C. And I was bringing people in at intern level, up through experienced developers, and trying to get everybody working together and productive as a team... And the problems with a lot of work in process, you can manage it. Car companies do this all the time, but it takes them a tremendous amount of overhead, and I just wanted some way out of that. So there were a couple of different alternative languages I was watching at the time, and Rust was the one that matured at about the right time, and got enough things right to be worth spending time on.
 
-**Adam Stacoviak:** \[00:08:16.28\] This is 2019 you said?
+**Adam Stacoviak:** \[08:16\] This is 2019 you said?
 
 **Cliff Biffle:** This would have been 2015, originally.
 
@@ -182,7 +182,7 @@
 
 **Adam Stacoviak:** Strings, numbers, bigger, smaller... Yeah.
 
-**Cliff Biffle:** \[00:11:51.04\] ...Rust replicates that control pretty well. Languages like Go are less focused on that, and don't come out of the box with as much help in that area.
+**Cliff Biffle:** \[11:51\] ...Rust replicates that control pretty well. Languages like Go are less focused on that, and don't come out of the box with as much help in that area.
 
 **Adam Stacoviak:** Do you mess with Go at all?
 
@@ -274,7 +274,7 @@ I know the people that wrote it... So I got in line and tried really hard to mak
 
 **Cliff Biffle:** So one makes sense. Why two? And the honest reason why two is we can buy one chip with the features we need to do the service processor. We can buy one chip with the crypto security features we need to do the root of trust. We can't get them both in one chip right now. And we can't afford to make our own chips.
 
-**Adam Stacoviak:** \[00:16:10.29\] Okay. So when you can--
+**Adam Stacoviak:** \[16:10\] Okay. So when you can--
 
 **Cliff Biffle:** We might merge those. Or we might not. There's advantages to having a \[unintelligible 00:16:14.11\]
 
@@ -378,7 +378,7 @@ I know the people that wrote it... So I got in line and tried really hard to mak
 
 **Jerod Santo:** \[laughs\]
 
-**Cliff Biffle:** \[00:20:13.25\] You can't tell that on the computer.
+**Cliff Biffle:** \[20:13\] You can't tell that on the computer.
 
 **Jerod Santo:** That's true.
 
@@ -508,7 +508,7 @@ I know the people that wrote it... So I got in line and tried really hard to mak
 
 **Jerod Santo:** Yeah.
 
-**Cliff Biffle:** \[00:24:02.01\] ...and Steve's like "So what we're doing is we give people stock according to this formula, and we pay everybody the same amount of dollars." I'm like "Well, that'd save me a lot of stress. Sold."
+**Cliff Biffle:** \[24:02\] ...and Steve's like "So what we're doing is we give people stock according to this formula, and we pay everybody the same amount of dollars." I'm like "Well, that'd save me a lot of stress. Sold."
 
 **Jerod Santo:** Yeah. Probably the opposite of your time at Google.
 
@@ -590,7 +590,7 @@ I know the people that wrote it... So I got in line and tried really hard to mak
 
 **Adam Stacoviak:** We appreciate it.
 
-**Break**: \[00:27:28.10\]
+**Break**: \[27:28\]
 
 **Adam Stacoviak:** What is the update on the update?
 
@@ -616,7 +616,7 @@ So the priority there was about having a robust support procedure for recovering
 
 **Jerod Santo:** Gotcha.
 
-**Adam Stacoviak:** \[00:31:47.09\] What exactly is an update? Is it big? Is it small?
+**Adam Stacoviak:** \[31:47\] What exactly is an update? Is it big? Is it small?
 
 **Dave Pacheco:** That's a really good question, because --
 
@@ -678,7 +678,7 @@ So the priority there was about having a robust support procedure for recovering
 
 **Dave Pacheco:** Yeah, so Hubris is a sort of... It's an operating system. We use it in a couple of different components in the service processor and the root of trust, on all of these systems: on the sleds, the switches, and the PowerShell controllers. So it's one of the things that we update. It is also true that in order to update everything, we talk to the service -- or in order to update much of the system, we end up talking to the service processor, which is talking to that Hubris thing. So we end up using the current version of Hubris through the service processor to be able to update the service processor itself, the root of trust, the root of trust bootloader, and the host OS as well. All the control plane stuff is on top of that and doesn't go through Hubris.
 
-**Adam Stacoviak:** \[00:36:12.09\] Is this a novel problem that you all invented, given your architecture?
+**Adam Stacoviak:** \[36:12\] Is this a novel problem that you all invented, given your architecture?
 
 **Dave Pacheco:** That's a good question. Yeah, a lot of the details are specific to our architecture and pretty novel. It's the sort of thing that I expect cloud providers today have their own bespoke software for. And in fact, large deployments of on-prem stuff will have their own bespoke software to do a lot of this stuff. But a lot of it is also stuff that people kind of just don't update. Like, how often do you update your BIOS? How often does a company running on-prem software update their BIOS? Probably not all the time. But our model involves delivering a lot of value through stuff like that, and we do need to be able to update that stuff.
 
@@ -756,7 +756,7 @@ I remember back at one of my past jobs, we did have to go update the BIOS on 64 
 
 **Jerod Santo:** Buy another rack.
 
-**Dave Pacheco:** \[00:40:11.25\] Right. \[laughter\] Well, that's the thing. At scale, people actually don't care about this problem. Because keeping a couple of sleds capacity free when you've got 100 racks is like a very small fraction of your cost. And it actually makes sense for a lot of reasons. It also allows you to sustain failures, and put that stuff over there. But when you've only got one rack, that might be more of a problem. So then there's the question of how do you create an experience for the operator that communicates clearly what the trade-offs are, but also gets this input from them, which is like "What do you want to happen?" Do you want me, the rack, to prevent you from using all your capacity, so that you can update it? Or do you want to have the possibility that you go do an update and we just say "Sorry, we're paused right now until you can tell us just like "Reboot all these VMs", or whatever you want to say."
+**Dave Pacheco:** \[40:11\] Right. \[laughter\] Well, that's the thing. At scale, people actually don't care about this problem. Because keeping a couple of sleds capacity free when you've got 100 racks is like a very small fraction of your cost. And it actually makes sense for a lot of reasons. It also allows you to sustain failures, and put that stuff over there. But when you've only got one rack, that might be more of a problem. So then there's the question of how do you create an experience for the operator that communicates clearly what the trade-offs are, but also gets this input from them, which is like "What do you want to happen?" Do you want me, the rack, to prevent you from using all your capacity, so that you can update it? Or do you want to have the possibility that you go do an update and we just say "Sorry, we're paused right now until you can tell us just like "Reboot all these VMs", or whatever you want to say."
 
 **Jerod Santo:** Right. That reminds me, or that makes me think of failed updates in the self-service world, when this version's out; not the... What do you call it? Undisrupted?
 
@@ -798,7 +798,7 @@ I remember back at one of my past jobs, we did have to go update the BIOS on 64 
 
 **Dave Pacheco:** But it's a hard problem really, because part of what is involved in an upgrade is making backwards-incompatible changes to data formats, like database schemas, and things like that. And once you've done that, the old software can't read the new thing. So rollback is really not possible. What a lot of software does is it'll have a point of no return. Some call it a finalizer, or a deferred update, or something like that, where you basically get the whole thing kind of working before you've committed in that way, and then you ask the operator "Does everything seem to be okay?" and then they hit the button and it's like "Okay, fine. Go."
 
-\[00:43:57.01\] But even then, there's still risk there, because whatever it is you're activating by taking that last step hasn't been tested before that. And there's kind of no way to get around that. And that's kind of a future problem for us right now, but it's something we're going to have to deal with.
+\[43:57\] But even then, there's still risk there, because whatever it is you're activating by taking that last step hasn't been tested before that. And there's kind of no way to get around that. And that's kind of a future problem for us right now, but it's something we're going to have to deal with.
 
 **Adam Stacoviak:** So it is your nightmare... Has it ever been, your nightmare? Meaning it's happened.
 
@@ -892,7 +892,7 @@ I remember back at one of my past jobs, we did have to go update the BIOS on 64 
 
 **Jerod Santo:** That's cool. Any newer novel testing strategies that you've had to come up with as far as this? I don't know, fuzzing, or deterministic testing, or anything that's...
 
-**Dave Pacheco:** \[00:48:00.04\] That's probably the biggest one. The other thing I would point to is that sort of distinction between the plan and execute stuff. We haven't actually gotten to this kind of thing, but one of the things we want to do with that is like property-based testing on the planner, where you're basically like sending all kinds of different inputs at it and putting constraints on what kinds of outputs can happen, and make sure it never does anything crazy.
+**Dave Pacheco:** \[48:00\] That's probably the biggest one. The other thing I would point to is that sort of distinction between the plan and execute stuff. We haven't actually gotten to this kind of thing, but one of the things we want to do with that is like property-based testing on the planner, where you're basically like sending all kinds of different inputs at it and putting constraints on what kinds of outputs can happen, and make sure it never does anything crazy.
 
 **Jerod Santo:** Make sure it does that, yeah.
 
@@ -990,7 +990,7 @@ That's been really a challenge the whole time, is like "What's the next step?" T
 
 There's nothing particularly sensitive in it. But it's kind of laying out where we are. Lay of the land, this is where we are, these are the problems, here's where we're trying to go... And it was very specific in some ways. It was like this idea of plan-execute pattern, and the automation has to be safe, and all this stuff. But it was also very like "We have a lot of stuff to do, and I don't know what all the pieces are yet."
 
-\[00:52:24.09\] So that was the first step, is getting everyone aligned on the vision. And that RFD itself was a team effort. I drafted this first version, but people are looking at that... And I think broadly, there were no surprises there. Everyone was like "Yeah, this all makes sense." And then that process just keeps happening. You get more and more specific designs, and say "Okay, let's get some feedback on this." And I do enjoy that part of it, and I enjoy the collaboration... And it goes pretty well. Like, it's not the sort of environment where you're worried about what so-and-so is going to think about this, and is someone going to be unproductive about it, or something.
+\[52:24\] So that was the first step, is getting everyone aligned on the vision. And that RFD itself was a team effort. I drafted this first version, but people are looking at that... And I think broadly, there were no surprises there. Everyone was like "Yeah, this all makes sense." And then that process just keeps happening. You get more and more specific designs, and say "Okay, let's get some feedback on this." And I do enjoy that part of it, and I enjoy the collaboration... And it goes pretty well. Like, it's not the sort of environment where you're worried about what so-and-so is going to think about this, and is someone going to be unproductive about it, or something.
 
 **Adam Stacoviak:** Sure. We know that Rust is a foundational language here, obviously. We talked about this being somewhat of a novel problem... How is Rust uniquely positioned to help solve this problem? Like, what about Rust makes this problem easier than another language that you may choose to do this with?
 
@@ -1016,7 +1016,7 @@ And it sounds so low-level, but that's what a lot -- like, it's extending that s
 
 **Adam Stacoviak:** Sure. If the fans spin, you know that's why.
 
-**Dave Pacheco:** \[00:56:07.09\] But I mean, I'll say this... There's a lot of changes I've been able to make where I'll go work on the code for like four hours, and when it compiles, I know it's already correct. I know I haven't broken anything. And it's not as simple -- I know there's the cartoonish version, "if it compiles, it works." And I'm not talking about that. I'm talking about something that's either a refactor... This happens a lot with refactors. Or I'm building a new thing in terms of these things that already exist, and I'm plugging into the middle of it... And it's like, there's no way for this to be wrong at this point, because it fits neatly into the narrow interfaces on both sides of it. It's correct. And that is huge. It's so huge.
+**Dave Pacheco:** \[56:07\] But I mean, I'll say this... There's a lot of changes I've been able to make where I'll go work on the code for like four hours, and when it compiles, I know it's already correct. I know I haven't broken anything. And it's not as simple -- I know there's the cartoonish version, "if it compiles, it works." And I'm not talking about that. I'm talking about something that's either a refactor... This happens a lot with refactors. Or I'm building a new thing in terms of these things that already exist, and I'm plugging into the middle of it... And it's like, there's no way for this to be wrong at this point, because it fits neatly into the narrow interfaces on both sides of it. It's correct. And that is huge. It's so huge.
 
 **Adam Stacoviak:** No nightmares.
 
@@ -1058,7 +1058,7 @@ So there's a mix of the structured time that we have... You know, Brian and Stev
 
 **Jerod Santo:** Thanks. It's been awesome.
 
-**Break**: \[00:59:28.03\]
+**Break**: \[59:28\]
 
 **Adam Stacoviak:** One of the things that stands out about Oxide is its design. I think you can have a good company, a successful company, but every company that's successful is set apart by its design. Can you talk about how you came to be here at Oxide, and the design story behind the brand?
 
