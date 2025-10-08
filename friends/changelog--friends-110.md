@@ -102,7 +102,7 @@
 
 **Jerod Santo:** \[laughs\] That's bad.
 
-**Bryan Cantrill:** \[00:08:03.08\] Yeah, it's bad. And that -- we took hiring down to the studs after that. And again, this is the benefit of having done this at kind of a previous stop, of realizing that interviewing people... You mentioned this, when you were talking to folks and getting different personalities. Some are shy, some are... And so often when we do an oral exam as the way we determine whether someone joins a team, you are selecting for one aspect of a person. You're selecting for their charisma, you're selecting for their comfort with someone that they've never met before... And there are so many terrific technologists that are nervous when they're talking to someone for the first time. And that you will interview, and you may be like "I don't know --" But you read their written work, "This person's extraordinary."
+**Bryan Cantrill:** \[08:03\] Yeah, it's bad. And that -- we took hiring down to the studs after that. And again, this is the benefit of having done this at kind of a previous stop, of realizing that interviewing people... You mentioned this, when you were talking to folks and getting different personalities. Some are shy, some are... And so often when we do an oral exam as the way we determine whether someone joins a team, you are selecting for one aspect of a person. You're selecting for their charisma, you're selecting for their comfort with someone that they've never met before... And there are so many terrific technologists that are nervous when they're talking to someone for the first time. And that you will interview, and you may be like "I don't know --" But you read their written work, "This person's extraordinary."
 
 So we believe strongly that the best way to evaluate people is them speaking from the heart in writing. And it's just very revealing in terms of what's important to people. Because ultimately, what we want is we want a company that we've got a shared mission, but bonded by shared values. And there are so many challenges in running a company that kind of go away. If everyone is really high-performing, and kind, and communicative, and collaborative, there's a bunch of problems -- not to say that there aren't problems to go tackle. But the problems that you do need to go tackle are much easier to go tackle.
 
@@ -140,7 +140,7 @@ One of the things that I've been -- I mean, there's a degree to which, frankly, 
 
 **Bryan Cantrill:** Right.
 
-**Steve Tuck:** \[00:12:00.16\] Well, self-awareness starts with the materials, because you're having to write both examples of your prior work and what you've done, and what you're proud of, and then some open-ended questionnaire questions, which basically are asking "When were you happiest in your career and why? When were you unhappiest in your career and why?" And the answers to that take people to places they didn't expect. When they were like "Oh, I'm just going to throw my hat in the ring for a particular job." And they'll tell us, they get into it and they're like "Jesus Christ..." I had to put my pencil down and I'm just like sitting here...
+**Steve Tuck:** \[12:00\] Well, self-awareness starts with the materials, because you're having to write both examples of your prior work and what you've done, and what you're proud of, and then some open-ended questionnaire questions, which basically are asking "When were you happiest in your career and why? When were you unhappiest in your career and why?" And the answers to that take people to places they didn't expect. When they were like "Oh, I'm just going to throw my hat in the ring for a particular job." And they'll tell us, they get into it and they're like "Jesus Christ..." I had to put my pencil down and I'm just like sitting here...
 
 **Adam Stacoviak:** Therapy.
 
@@ -176,7 +176,7 @@ One of the things that I've been -- I mean, there's a degree to which, frankly, 
 
 So I think that you want to be careful about kind of -- this is not kind of ordering. This is finding people that we think are the most likely to succeed at Oxide. And honestly, one of the things that's been really challenging is we've got a lot of people that apply for the company, that desperately want to work for the company. And it's really hard to turn someone like that away. They pour their heart and soul.
 
-**Steve Tuck:** \[00:16:20.14\] It could be good.
+**Steve Tuck:** \[16:20\] It could be good.
 
 **Bryan Cantrill:** It could be good. It could work out. It could work out. And the problem is we don't have an infinite amount of resources, and we do have to make decisions. Those decisions are really hard.
 
@@ -246,7 +246,7 @@ So I think that you want to be careful about kind of -- this is not kind of orde
 
 **Bryan Cantrill:** It is hard to generate that one. And I would say one modification we made to the materials is we asked -- the last question we asked is "Why do you want to work for Oxide?" And it's an unfortunate kind of indictment of the age we live in, where people are like "I want to work for Oxide because it's a principled company. Honesty, and integrity, and decency." And that's great. We view that as a constraint on like operation. We think that any company should have that. I think that that is great that that resonates with you. That is nowhere near enough. That is nowhere near enough. I need to know, we need to know that the mission speaks to you, that the role speaks to you. And one of the things we've done is we've put more and more in our job descriptions, and given people more opportunities to explore the degree that they're a fit. We're very transparent. We want you listening to podcast episodes, in the RFDs, in the repos. And the more you can do that... Because you need to try it on, to see "This is actually earnestly going to be a fit for me." So one of these we've added is not just "Why do you want to work for Oxide?", but "Why this role at Oxide?" And that's been really, really important.
 
-**Jerod Santo:** \[00:20:00.18\] So I described some of the characters that we met here, Adam described some of their lifestyles, all around the world... One thing that I think it seems to be missing is youngsters.
+**Jerod Santo:** \[20:00\] So I described some of the characters that we met here, Adam described some of their lifestyles, all around the world... One thing that I think it seems to be missing is youngsters.
 
 **Bryan Cantrill:** Yeah.
 
@@ -322,7 +322,7 @@ So I think that you want to be careful about kind of -- this is not kind of orde
 
 **Steve Tuck:** Definitely.
 
-**Bryan Cantrill:** \[00:24:08.17\] But they didn't come straight out of school. They had two years experience, three years experience, four years experience. And you look at those folks, that are exceptional - the experience they had was exceptional. They were in a real \[unintelligible 00:24:19.11\] where they learned a lot in a very short period of time... They're wise beyond their years.
+**Bryan Cantrill:** \[24:08\] But they didn't come straight out of school. They had two years experience, three years experience, four years experience. And you look at those folks, that are exceptional - the experience they had was exceptional. They were in a real \[unintelligible 00:24:19.11\] where they learned a lot in a very short period of time... They're wise beyond their years.
 
 **Jerod Santo:** One of the things that a lot of people have said when we asked why you work for Oxide, why you like Oxide, and this reflects in your management style, which you say is trust, your management style is trust... Is they say "Well, they treat us like grown-ups. They treat me like a grown-up." And I think that's an awesome way of describing it. That being said, everyone here is a grown-up.
 
@@ -364,7 +364,7 @@ You asked a good question, how far it can scale. No company has ever been at our
 
 **Adam Stacoviak:** I would love the process...
 
-**Steve Tuck:** \[00:27:54.18\] ... like, the curious attributes of their character, and how they do research on a company before they show up to the first meeting... Which is a sign of respect, and it allows you to get into a deeper conversation more quickly, rather than "How can I hook them on some quick little "Why this company does this"? So they really enjoyed the process. And now they bring that into the sales culture for the next round of sales hiring.
+**Steve Tuck:** \[27:54\] ... like, the curious attributes of their character, and how they do research on a company before they show up to the first meeting... Which is a sign of respect, and it allows you to get into a deeper conversation more quickly, rather than "How can I hook them on some quick little "Why this company does this"? So they really enjoyed the process. And now they bring that into the sales culture for the next round of sales hiring.
 
 **Jerod Santo:** You guys ask them different questions than you ask engineers?
 
@@ -398,7 +398,7 @@ I was at Sun during some very, very dark years, and we had a non-competitive mic
 
 **Steve Tuck:** So how do you understand how they think about being not just the representative, but the steward of the company with those relationships? And the materials are a great place for that to take shape. Then we've gotten great feedback from candidates on the materials. They're like "Hey, you know what else would be great to talk about in here?" And just, again, we feel very fortunate that the founding sales team here are big believers in the process, and want to carry that forward.
 
-**Bryan Cantrill:** \[00:31:42.23\] I've gotta say, when we were first trying to hire for sales, my own conviction was kind of wavering. I'm "Steve, is the materials process the right process for sales?" Steve's like "Emphatically, yes. We just haven't found the right people yet", and we just needed...
+**Bryan Cantrill:** \[31:42\] I've gotta say, when we were first trying to hire for sales, my own conviction was kind of wavering. I'm "Steve, is the materials process the right process for sales?" Steve's like "Emphatically, yes. We just haven't found the right people yet", and we just needed...
 
 **Adam Stacoviak:** To be patient \[unintelligible 00:31:57.16\]
 
@@ -418,7 +418,7 @@ I was at Sun during some very, very dark years, and we had a non-competitive mic
 
 **Steve Tuck:** Then how rigorous are you going to be on the thing that you're submitting to that CIO? And you're going to be like "Oh, well, I brushed through it because I was on a plane." It's like, "No. What?" So it gives you --
 
-**Bryan Cantrill:** \[00:35:43.00\] And I will say, the other thing about this company is that -- and this is where you get to that trust. This company sticks it. We know that if someone is out there representing Oxide, in any capacity - sales, finance, operations, engineering - we know that they themselves are going to hold themselves to a high standard of execution.
+**Bryan Cantrill:** \[35:43\] And I will say, the other thing about this company is that -- and this is where you get to that trust. This company sticks it. We know that if someone is out there representing Oxide, in any capacity - sales, finance, operations, engineering - we know that they themselves are going to hold themselves to a high standard of execution.
 
 **Steve Tuck:** But I would say the reason that it's reasonable to ask "How could this scale?", it is easy to see how these things don't scale... Meaning - like, there was real investor pressure early, especially around sales hiring, where it's like "I want you hiring faster. Why aren't you hiring faster? It's probably this materials process." You know? And so you can totally imagine scenarios in which you're like "Okay, there's just like too much external pressures", and you've got to relax these constraints. And that's not to say that you don't need to adjust and modify things as the company gets bigger... But the foundation is so, so, so important. And sticking it out just a little longer, you get these omens, and you're like "Okay, alright \[unintelligible 00:36:47.26\] Stay the course, and then down the road it's like "Oh man, what a great model."
 
@@ -480,7 +480,7 @@ I was at Sun during some very, very dark years, and we had a non-competitive mic
 
 **Jerod Santo:** That's what I was thinking about, yeah. The farm team.
 
-**Bryan Cantrill:** \[00:40:04.02\] Look, I don't know. But I think the things that start that eventually you're asking questions around are -- I mean, we already hit this first "Is it rigid in all regards? Or is it the foundation of transparency, and an equal weighting of value of job, which is kind of like the first two important pieces?" And then sales was the first time that we broke it being completely rigid and uniform across everything. But landed on transparency, and kind of equal weighting.
+**Bryan Cantrill:** \[40:04\] Look, I don't know. But I think the things that start that eventually you're asking questions around are -- I mean, we already hit this first "Is it rigid in all regards? Or is it the foundation of transparency, and an equal weighting of value of job, which is kind of like the first two important pieces?" And then sales was the first time that we broke it being completely rigid and uniform across everything. But landed on transparency, and kind of equal weighting.
 
 So yeah, the things that will open the question is "How will we address folks that are earlier in their career as we get further along?" And international -- I mean, I don't know, I would like to believe that we're going to be able to hold true to the foundation of this thing, regardless of international, and some of the other things that will \[unintelligible 00:40:59.17\]
 
@@ -510,7 +510,7 @@ So anything we would do -- we want to be very careful about in anything we would
 
 **Jerod Santo:** \[laughs\]
 
-**Bryan Cantrill:** \[00:43:37.20\] To paraphrase Thomas Kuhn. There's no salvation, I think, for those companies. You know, Jared Diamond's collapse is very instructive in this regard. Companies -- when the culture is wrong, fixing a culture is such a gargantuan amount of work that you would have to -- and so thankless in so many regards. And there are so few people that are capable of true cultural change. You'd have to ask yourself, why would someone do that? Why would someone sign up for that job? And this is like -- look no further than Intel. Intel has had an acute --
+**Bryan Cantrill:** \[43:37\] To paraphrase Thomas Kuhn. There's no salvation, I think, for those companies. You know, Jared Diamond's collapse is very instructive in this regard. Companies -- when the culture is wrong, fixing a culture is such a gargantuan amount of work that you would have to -- and so thankless in so many regards. And there are so few people that are capable of true cultural change. You'd have to ask yourself, why would someone do that? Why would someone sign up for that job? And this is like -- look no further than Intel. Intel has had an acute --
 
 **Adam Stacoviak:** Go deep.
 
@@ -550,7 +550,7 @@ So anything we would do -- we want to be very careful about in anything we would
 
 **Steve Tuck:** Terrible.
 
-**Bryan Cantrill:** \[00:47:46.08\] Terrible materials. I mean, it would be interesting to talk to these folks, but we would send the recruiter the materials, and the recruiter is a smart person. So on the one hand, yes, had the conviction of their own beliefs, but is an intelligent individual. And they would read the materials and be like "Ooh. Those are bad." Well, and I think it also -- like, maybe challenging some of your priors. Actually, maybe, I thought that guy was really good. And you guys talked to the guy, and you guys also thought he was really good. And now all of us can agree that, based on the materials, it's terrible. Maybe I'm not deejaying this correctly.
+**Bryan Cantrill:** \[47:46\] Terrible materials. I mean, it would be interesting to talk to these folks, but we would send the recruiter the materials, and the recruiter is a smart person. So on the one hand, yes, had the conviction of their own beliefs, but is an intelligent individual. And they would read the materials and be like "Ooh. Those are bad." Well, and I think it also -- like, maybe challenging some of your priors. Actually, maybe, I thought that guy was really good. And you guys talked to the guy, and you guys also thought he was really good. And now all of us can agree that, based on the materials, it's terrible. Maybe I'm not deejaying this correctly.
 
 **Adam Stacoviak:** Is that like talking versus walking, though? Because papers, the materials -- I keep saying papers accidentally; the materials are kind of like walking.
 
@@ -578,7 +578,7 @@ So anything we would do -- we want to be very careful about in anything we would
 
 **Steve Tuck:** Yeah. It's like, the white space has-- and then you scatter-shot your way out there, and then you get that call, because it's random. And \[unintelligible 00:51:25.22\] that is the wrong way to get a job. And look - yes, we're X-ers, okay? We've seen shitty job markets. We've seen job markets way shittier than this one. Way shittier than this one. And what do you need to do to find a job in a shitty job market? It's hard. I mean, I've got total sympathy, especially with people that are suddenly laid off, and are scrambling... But you need to figure out what you need to do next. "Well, I need to just get a job, okay?" Okay, take half a step back, because you've got to find what is going to be -- if you truly need to pay the bills, you should get literally any job that you can use while you're actually formulating your proper job search. I used to listen to Bruce Williams as a kid...
 
-**Adam Stacoviak:** \[00:52:18.21\] Was it Bruce?
+**Adam Stacoviak:** \[52:18\] Was it Bruce?
 
 **Bryan Cantrill:** Bruce Williams was on TalkNet.
 
@@ -606,7 +606,7 @@ So anything we would do -- we want to be very careful about in anything we would
 
 Last year we were excited to get the product, first year, fully in commercial market, into customers' hands, and be able to prove out that we could ship reliably, build reliably, ship software updates every eight weeks...
 
-**Bryan Cantrill:** \[00:56:01.14\] And last year, a year ago, we had to raise. We were very upfront about that with the team. I mean, we're not trying to get anyone to throw up in their mouth, but "Hey, folks, we run out of cash in May, June, or July, depending on which model you look at. So... Just FYI. And so we have to hit the milestones that we need to go raise." And that's not where we are this year.
+**Bryan Cantrill:** \[56:01\] And last year, a year ago, we had to raise. We were very upfront about that with the team. I mean, we're not trying to get anyone to throw up in their mouth, but "Hey, folks, we run out of cash in May, June, or July, depending on which model you look at. So... Just FYI. And so we have to hit the milestones that we need to go raise." And that's not where we are this year.
 
 **Jerod Santo:** Right.
 
