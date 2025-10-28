@@ -72,7 +72,7 @@ Also because I find his use of [Gall's Law](https://www.laws-of-software.com/law
 
 It's now time for sponsored news!
 
-[GitHub Actions, but faster](https://namespace.so/docs/solutions/github-actions/caching)
+[GitHub Actions, but faster](https://namespace.so/docs/solutions/GitHub-actions/caching)
 
 =
 Your CI shouldn't be the bottleneck between commits and customers. But the truth is, it can be. GitHub Actions can feel slow out of the box. Long builds, redundant installs, wasted minutes...it all adds up.
