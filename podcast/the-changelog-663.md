@@ -38,7 +38,7 @@
 
 **Ellie Huxtable:** Yeah, sure. So the CLI records every shell command you run, is kind of the whole point. It makes it really easy to recall them. But what is trickier with that is sort of recording whole workflows. So if you're looking for an individual command, it's great. It's really easy. But if I was looking for "How do I set up a new staging environment? How do I onboard a new developer? How do I do something that's a long sequence of steps, and maybe needs annotations and various other things?", the CLI helped, but didn't solve the problem. We had a whole bunch of discussion over years, to be honest. I've had this idea for a really long time, of like "How can we solve this essentially documentation problem?" And Atuin Desktop is the answer there, at least in my opinion.
 
-\[00:07:50.08\] So what it is is it's essentially a runbook editor. What I mean by that is we started off by just building something that was good for recording notes and documentation. You can just write English words down, and share them with people... But where it gets really powerful is the executable blocks we added. So we have things like terminal blocks, which are - if you imagine Notion with its database blocks, instead of a database, we have an embedded terminal that you can actually execute a command. And this sort of takes it from a confluence page that goes stale, to something that you can actually run and read in the same place.
+\[07:50\] So what it is is it's essentially a runbook editor. What I mean by that is we started off by just building something that was good for recording notes and documentation. You can just write English words down, and share them with people... But where it gets really powerful is the executable blocks we added. So we have things like terminal blocks, which are - if you imagine Notion with its database blocks, instead of a database, we have an embedded terminal that you can actually execute a command. And this sort of takes it from a confluence page that goes stale, to something that you can actually run and read in the same place.
 
 A lot of people have asked how this is relevant to the CLI, and I can kind of see that it might not be immediately obvious. However, where it does become quite powerful with the CLI is all of the data you've been recording in your case over years in the CLI, is accessible in the Desktop app, too. So you can screw around on your machine, figure something out locally in your terminal, and then when you go to document it later on, you can write down what you did and you can pull in your shell history into the executable blocks.
 
@@ -74,7 +74,7 @@ So to start off with, you're just editing -- you have a choice between a local f
 
 So right now we can't -- again, we released this as beta. There's still a lot of like "Right now it doesn't, but it will" going on. But a lot of the execution is written in Rust, and the idea there is we can bring it to be a runtime which is embedded in a desktop app, that runs in a CLI, all over the place, for executing runbooks.
 
-\[00:12:03.00\] My kind of long-term vision there, I guess, is that current automation is kind of an all or nothing approach. You start off with "Someone might maybe have documented something", and that's that alone is a stretch. Or you kind of have to write a million lines of YAML and have it 100% automated. And we find that there's very little in the middle; there's no happy medium. And a lot of the time, things just end up documented or not even written down because the automation is just such a high barrier of entry.
+\[12:03\] My kind of long-term vision there, I guess, is that current automation is kind of an all or nothing approach. You start off with "Someone might maybe have documented something", and that's that alone is a stretch. Or you kind of have to write a million lines of YAML and have it 100% automated. And we find that there's very little in the middle; there's no happy medium. And a lot of the time, things just end up documented or not even written down because the automation is just such a high barrier of entry.
 
 The idea of the desktop app is to kind of make it easier to meet people where they might be comfortable, and that might just be writing down what you need to do, but it might be automating the whole thing with our blocks, and then running it with our runtime. So it's designed to be flexible enough to handle most sort of abilities.
 
@@ -90,7 +90,7 @@ So you might have a home lab somewhere that has a bunch of setup required, and t
 
 **Ellie Huxtable:** We don't currently, but it's something I'm really actively thinking about. We find a lot of people right now just have like a dependency step that does its best to set up the dependencies that you might need... But obviously, like you say, someone else might have a completely different local system than you.
 
-\[00:16:07.23\] The only approach I can think of so far is having a container integration. So we have the concept of contextual blocks, which you would use for specifying that something needs to run over SSH... I'm currently thinking of doing something similar for containers, where I can say "This should run in my local development container", and it will sort of transparently make that work. I'm not a huge fan of it as an answer. I find containers for local dev to be clunky, especially on Mac, when you're running on a VM.
+\[16:07\] The only approach I can think of so far is having a container integration. So we have the concept of contextual blocks, which you would use for specifying that something needs to run over SSH... I'm currently thinking of doing something similar for containers, where I can say "This should run in my local development container", and it will sort of transparently make that work. I'm not a huge fan of it as an answer. I find containers for local dev to be clunky, especially on Mac, when you're running on a VM.
 
 **Jerod Santo:** Amen.
 
@@ -120,7 +120,7 @@ So you might have a home lab somewhere that has a bunch of setup required, and t
 
 **Ellie Huxtable:** With the desktop app, it's a different set of challenges, I think. It's very -- the CLI is quite simple. The command line environment is -- it is very varied, but it's still a terminal. You still have command control sequences and various other things... With the graphical app, it's a bit different. People running it on macOS, it's reasonably a consistent experience. But people on Linux, who I really want to support as best we can, the graphical environments differ hugely. So making sure things run consistently for different people has been kind of hard... We kind of -- we joke; there's two of us working on it... We joke that we're sort of building a terminal and a text editor at the same time, and neither of those things are known as particularly easy things to build... \[laughs\]
 
-**Jerod Santo:** \[00:20:25.20\] Well, they're kind of dramatically different, too. I mean, the desktop, besides like you said, kind of the spiritual ties and the fact that you can pull in some of that shell history into the desktop... I mean, they're kind of like wildly different products, aren't they?
+**Jerod Santo:** \[20:25\] Well, they're kind of dramatically different, too. I mean, the desktop, besides like you said, kind of the spiritual ties and the fact that you can pull in some of that shell history into the desktop... I mean, they're kind of like wildly different products, aren't they?
 
 **Ellie Huxtable:** I think so. I think they solve very similar problems. They're all about knowing what to do next and not forgetting what you've already done. And I think when you're looking at a shell prompt that does not have any shell history and then does not have any good documentation, it's very much like what you can remember, what you can figure out and what you can google; or I guess these days ask an LLM. But we're trying to solve the problem of making the shell really easy to use, making repeatable workflows quick and easy... And when you look at it that way around, they are kind of the same thing. It's just trying to solve like an ecosystem of problems, rather than just one.
 
@@ -132,7 +132,7 @@ We have another example, we have Prometheus blocks. So imagine you have a runboo
 
 An early prototype was actually a web app... So if you think like a Jupyter notebook style experience, where you run a server and then you open it locally... And I didn't really like how that felt. I think we couldn't integrate with the system quite as well, even with the web app angle... And the desktop feels a lot nicer. We're not necessarily shutting off any of these things as future sort of expansions, but the desktop's, I think, where it starts. I like to think of it more as you're putting a terminal into some docs, and not putting some docs into a terminal.
 
-**Break**: \[00:23:08.10\]
+**Break**: \[23:08\]
 
 **Jerod Santo:** How has it been working with Tauri as a platform? We've done a couple of shows on it. We have a few production apps out there... There are. They are out there. It's not trying to belittle it. But hasn't been a huge upswell. I mean, Electron still is the 800-pound gorilla in the room.
 
@@ -154,9 +154,9 @@ An early prototype was actually a web app... So if you think like a Jupyter note
 
 **Ellie Huxtable:** Yeah, so the CLI was -- I mean, I could definitely charge people for hosting. I've had a number of people say "Oh, let me pay you single-digit dollars a month for shell history hosting." And that was nice. However, the way I looked at it was I don't want to work on shell history by myself forever. So it needs to have the potential to do more, and it also has to have the potential for it to be more than just me. And we have something like 26,000, 27,000 maybe people syncing their shell history... And I worked out that realistically, a hundred percent of them are not going to sign up to pay. It's going to be quite a low amount. And we can't charge very much for it, so it's quite a niche, realistically.
 
-\[00:27:56.11\] It also really doesn't cost very much in terms of infrastructure to run. I self-host the Postgres on a Hetzner machine. It's cheap, it's really performant, and other than my time, it's not a big sync. Desktop, I think has a lot more potential in terms of like business project. There's a very direct organization use case, potentially even stronger than the single player use case, really... And there's a lot more scope to do really interesting and flexible things with it.
+\[27:56\] It also really doesn't cost very much in terms of infrastructure to run. I self-host the Postgres on a Hetzner machine. It's cheap, it's really performant, and other than my time, it's not a big sync. Desktop, I think has a lot more potential in terms of like business project. There's a very direct organization use case, potentially even stronger than the single player use case, really... And there's a lot more scope to do really interesting and flexible things with it.
 
-It is open source, it's Apache 2... What is not yet open source is the hub for syncing. So we have two types of workspace. You can have an offline workspace, that gives you local files on your disk. You can put them in Git... Whatever you want, basically. But the hub is the synchronizing real time backend, and it's not open source right now. Basically, we haven't figured out what to do with it yet, and I would very much rather have something closed source, and then six months from now decide to open source it, than open-source something, realize I've backed myself into a corner, and then have to do a horrible license change and it's a nightmare.
+It is open source, it's Apache 2... What is not yet open source is the hub for syncing. So we have two types of workspace. You can have an offline workspace, that gives you local files on your disk. You can put them in Git... Whatever you want, basically. But the hub is the synchronizing real time backend, and it's not open source right now. Basically, we haven't figured out what to do with it yet, and I would very much rather have something closed source, and then six months from now decide to open source it, than open source something, realize I've backed myself into a corner, and then have to do a horrible license change and it's a nightmare.
 
 **Jerod Santo:** Right. What we say around these parts is "Rug pull, not cool."
 
@@ -188,7 +188,7 @@ It is open source, it's Apache 2... What is not yet open source is the hub for s
 
 **Jerod Santo:** Yeah. Yeah, that makes a lot of sense... Versus like a GitHub enterprise thing, where you're going to go install it on their premises and operate it for them. Yeah, that makes sense. Going back to the CLI and potential monetization - people are desiring to give you money, and that's because they love the work that you do... And I've seen that online, the response to it is almost universally positive. It's very good software, people love it, they seem to love you, and they just want to give you money. Did you try even just turning that lever on? Like, even though it might not be your end goal, or something that you want to work on --
 
-**Ellie Huxtable:** \[00:32:23.24\] So we had GitHub Sponsors for a long time, and --
+**Ellie Huxtable:** \[32:23\] So we had GitHub Sponsors for a long time, and --
 
 **Jerod Santo:** Well, what about the hosted sync? Like "Let me give you two bucks a month to do this."
 
@@ -224,7 +224,7 @@ It is open source, it's Apache 2... What is not yet open source is the hub for s
 
 GitHub issues usually imply there's an issue, but it also implies that people care enough to actually tell you that something's not working for their use case, or something's going wrong, and provide like a bunch of steps... We've had people provide some actually really thoughtful GitHub issues as well, which has been nice to see and nice to work on. I think for me it's also good validation... So again, I've been working on this for around a year, in one form or another, and we did release in a closed beta back in April, and that had a nice reception... But it's the validation of "You can go download it right now. It's on the website, go try it and let us know what you think", and that going successfully as well, which is really nice validation that the problem that I see as a problem and that I have built a solution to is a problem that other people see, too.
 
-**Jerod Santo:** \[00:35:54.26\] Yeah. Well, I did download it, and I'm staring at it currently... It looks very nice. I like that there's some examples, because I'm a guy with zero runbooks, and... I can put my deploy script into here and write about it, but just trying to kick the tires. You have the Atuin desktop release... This is actually how you guys release a new version of it?
+**Jerod Santo:** \[35:54\] Yeah. Well, I did download it, and I'm staring at it currently... It looks very nice. I like that there's some examples, because I'm a guy with zero runbooks, and... I can put my deploy script into here and write about it, but just trying to kick the tires. You have the Atuin desktop release... This is actually how you guys release a new version of it?
 
 **Ellie Huxtable:** Yup. We run that all the time.
 
@@ -268,7 +268,7 @@ As an example, you might have a Postgres block, and the input for that - you mig
 
 **Jerod Santo:** Gotcha. Super-cool. So these examples are very useful, especially if I'm going to start writing my own, because they show you kind of how somebody is really using it... Is there going to be, or is there currently some sort of like compendium of example? Like, beyond your guys' official examples. I assume some sort of hub that's like shared coding thing...
 
-**Ellie Huxtable:** \[00:40:00.10\] So if you were to go to hub.atuin.sh/ellie, you can see my profile...
+**Ellie Huxtable:** \[40:00\] So if you were to go to hub.atuin.sh/ellie, you can see my profile...
 
 **Jerod Santo:** Okay, so this is a thing.
 
@@ -310,7 +310,7 @@ One of the other things we want to share on the hub is actual blocks. Currently,
 
 **Ellie Huxtable:** Yeah, so coming really soon is a new runtime. The current runtime is very much like "Let's get something that works and see if people like this", and the new runtime is going to be let's make sure things are really, really robust, and flexible, and will allow you to run runbooks from the CLI... Which is in my mind very important, because then it allows you to run them in the CI systems as well. So maybe you have a readme that's getting set up and you could actually test your readme, and that would be really cool.
 
-\[00:44:18.14\] Maybe you have a bunch of disaster response runbooks, and it's really important that they actually work, and you don't find out that they don't work at 3 a.m. when you need them... And if you get things set up right, maybe you could test that on a schedule in some automated system somewhere. I think it's also important just to be able to execute these things without a desktop app if you really don't want to do it, so that's what's coming soon.
+\[44:18\] Maybe you have a bunch of disaster response runbooks, and it's really important that they actually work, and you don't find out that they don't work at 3 a.m. when you need them... And if you get things set up right, maybe you could test that on a schedule in some automated system somewhere. I think it's also important just to be able to execute these things without a desktop app if you really don't want to do it, so that's what's coming soon.
 
 **Jerod Santo:** Mm-hm. So when you say a new runtime, can you unpack that phrase for me, and tell me more about what that means?
 
@@ -330,7 +330,7 @@ But jumping back to your original question - open contribution, fixes... Like, a
 
 **Jerod Santo:** Right. It's a lot easier if it's just an issue. If there's code behind it, you're like "Oh, you spent all this time..."
 
-**Ellie Huxtable:** \[00:48:20.01\] Yeah, you spent all this time on it, and then that's not something we're going to merge, and I'm really sorry.
+**Ellie Huxtable:** \[48:20\] Yeah, you spent all this time on it, and then that's not something we're going to merge, and I'm really sorry.
 
 **Jerod Santo:** Do you communicate a roadmap, or like a place where you're headed? Because sometimes it's hard to know... Like, I have a feature request. Obviously, I could just ask... But if I knew "Here's here's our direction", I could at least say if I'm tangential to it or not.
 
@@ -355,7 +355,7 @@ But jumping back to your original question - open contribution, fixes... Like, a
 
 **Ellie Huxtable:** Usually GitHub issues, people will make a feature request and then it can be discussed. But yeah, I need to get better at managing those, because it's a bit of a mess.
 
-**Jerod Santo:** \[00:51:01.04\] Fair. Such is life, it gets messy, and sometimes it stays messy... Especially when you have a shiny new object that you're paying all your attention to, right? I mean, this thing is a big lift; I can tell that you put a lot of work into this. And you can't spend all your time on the CLI when you're building a desktop app, right?
+**Jerod Santo:** \[51:01\] Fair. Such is life, it gets messy, and sometimes it stays messy... Especially when you have a shiny new object that you're paying all your attention to, right? I mean, this thing is a big lift; I can tell that you put a lot of work into this. And you can't spend all your time on the CLI when you're building a desktop app, right?
 
 **Ellie Huxtable:** Yeah, I think it's definitely -- I don't want to neglect the CLI. We had one of our users thank us for not neglecting it, which was nice, because I'm glad people feel that way. But the CLI is definitely much more mature... We've noticed -- you know, when I first released it, a lot of the early issues were very "This does not work at all on my system because of X, Y, Z." And now it's very "This does not work with a very, very specific setup and very specific set of use cases", which is sort of for us more of a signal of maturity, and less of a "S\*\*t, I just broke everything", and more of a "We need to figure out how to integrate with something I'd never considered."
 
@@ -385,6 +385,6 @@ But jumping back to your original question - open contribution, fixes... Like, a
 
 **Jerod Santo:** Absolutely. Well, the website atuin.sh - there you'll find both the desktop app and the CLI. Maybe you'll use them both, maybe you'll use one of them... Maybe you won't use either one, but you can check them out. They're open source. If you want a good Rust codebase to check out, and maybe contribute to our listener, I would submit that to you because she makes good software, folks, and she pays close attention to the details that matter. So check that stuff out.
 
-Ellie, thank you so much. I wish you all the best with this new endeavor... And definitely keep us in the loop, especially if the self-hosted thing comes out. As more things are released and open-sourced, don't be a stranger.
+Ellie, thank you so much. I wish you all the best with this new endeavor... And definitely keep us in the loop, especially if the self-hosted thing comes out. As more things are released and open sourced, don't be a stranger.
 
 **Ellie Huxtable:** Thank you very much. It's been great talking to you.
