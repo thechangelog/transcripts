@@ -170,11 +170,11 @@ It is open source, it's Apache 2... What is not yet open source is the hub for s
 
 **Ellie Huxtable:** Exactly.
 
-**Jerod Santo:** And so it's almost de facto team, right? Like, it's going to be collaborative... Obviously, there's the outliers who will be using it because they just like your software or whatever, or it's a prettier way to manage their own docs and scripts... But for the most part, I do think it's going to be something that organizations will adopt. Whereas the CLI is just like hackers and nerds... Sure, they work in an organization, but it's gonna be harder for them to get their org to sponsor or \[unintelligible 00:30:20.25\]
+**Jerod Santo:** And so it's almost de facto team, right? Like, it's going to be collaborative... Obviously, there's the outliers who will be using it because they just like your software or whatever, or it's a prettier way to manage their own docs and scripts... But for the most part, I do think it's going to be something that organizations will adopt. Whereas the CLI is just like hackers and nerds... Sure, they work in an organization, but it's gonna be harder for them to get their org to sponsor or buy the thing.
 
 **Ellie Huxtable:** Exactly. And the only real way I could see the CLI applying to an org is like "Share your shell history with your team", which I don't think anyone's ever going to want to do, because it's weird.
 
-**Jerod Santo:** Yeah, it is kind of weird. It's like, at first you're like "That'd be great." And then you realize all the things \[unintelligible 00:30:33.21\]
+**Jerod Santo:** Yeah, it is kind of weird. It's like, at first you're like "That'd be great." And then you realize all the things you type in and you're like "No."
 
 **Ellie Huxtable:** I don't know, it's like my team seeing my browser history. There's not anything weird there, I just don't want to.
 
@@ -260,7 +260,7 @@ GitHub issues usually imply there's an issue, but it also implies that people ca
 
 **Ellie Huxtable:** Oh, those are terminals. So if you run one of them, it'll open a terminal locally and run the thing.
 
-**Jerod Santo:** Gotcha. I'm afraid to do that. Oh, look at this... Oh, because I can actually stop and I can say no, which I'm glad I can, because I'm going to stop it right there... Okay, so terminals are interactive, and then scripts are just going to run, and whatever the response of the script \[unintelligible 00:38:56.00\]
+**Jerod Santo:** Gotcha. I'm afraid to do that. Oh, look at this... Oh, because I can actually stop and I can say no, which I'm glad I can, because I'm going to stop it right there... Okay, so terminals are interactive, and then scripts are just going to run, and whatever the response of the script the exit code or whatever.
 
 **Ellie Huxtable:** Yeah. The cool thing with scripts is we can capture the output. So if we want to capture the output of a terminal, there's a ton of control codes and various other things going on... But with a script, we can capture the output, and that we save in our local template system. So we support Ginger pretty much, and you can use the output of blocks to feed in as the input of other blocks.
 
@@ -290,7 +290,7 @@ One of the other things we want to share on the hub is actual blocks. Currently,
 
 **Jerod Santo:** Yeah, go ahead. How do you do it? Like, if I wanted to start publishing, what would I do?
 
-**Ellie Huxtable:** In the desktop app, when you start it up, it'll offer to make an account. If you said no, just click your profile on the bottom left and you can register there, and that will get you set up with an account. \[unintelligible 00:41:30.04\] for the desktop app... You should be good to go.
+**Ellie Huxtable:** In the desktop app, when you start it up, it'll offer to make an account. If you said no, just click your profile on the bottom left and you can register there, and that will get you set up with an account. Connect you to the desktop app... You should be good to go.
 
 **Jerod Santo:** Gotcha. Yeah, so I did appreciate that... One of the things I don't appreciate about desktop apps, that should just be usable local without any sort of account, is when they still don't tell me I can use them locally without an account... And yours does say "Hey, sign up." And then it's like "But if you don't want to, click right here and just use it." And so that shows me that you're a person that I, because I do appreciate that. Just let me use a thing. And then if I want to sign up for a reason, like having a profile, make it valuable, then I'll go ahead and sign up when I want to.
 
