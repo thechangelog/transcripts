@@ -232,7 +232,7 @@ And then I would love to see extended slice syntax available to be used as an ar
 
 **Jerod Santo:** Yeah.
 
-**Travis Oliphant:** And then other people like that. Paul Dubois got involved. Then Jim Hugunin as a grad student - he was a master's degree student at MIT. He saw the matrix SIG, he saw someone built a matrix.py in Python, and he said "Huh... I'll try my hand at building an array object in Python." And he did. And it was good. It was like a really nice array object, with multi-dimensional arrays and some compute infrastructure. And he pushed that out there in '94, and that was the foundation of -- so that's what I would say, where was the Jim Hugunin? And then later, I came in and I felt like -- you know, I definitely added a lot, but I wouldn't even have been there if I hadn't been for Jim Hugunin and some of these early people that have come \[unintelligible 00:38:51.28\]
+**Travis Oliphant:** And then other people like that. Paul Dubois got involved. Then Jim Hugunin as a grad student - he was a master's degree student at MIT. He saw the matrix SIG, he saw someone built a matrix.py in Python, and he said "Huh... I'll try my hand at building an array object in Python." And he did. And it was good. It was like a really nice array object, with multi-dimensional arrays and some compute infrastructure. And he pushed that out there in '94, and that was the foundation of -- so that's what I would say, where was the Jim Hugunin? And then later, I came in and I felt like -- you know, I definitely added a lot, but I wouldn't even have been there if I hadn't been for Jim Hugunin and some of these early people that have come on-board...
 
 **Jerod Santo:** Snowballs.
 
@@ -442,7 +442,7 @@ What I've loved about the ecosystem I participated in is when people come to the
 
 Now, I wrote the first version, and then quickly found other people to make it better... But I actually took a Python class from my friend David Beasley in Chicago, to try to understand, at least have something besides just what I picked up from the internet. And that helped me see the vision for "Oh, Python can actually be orchestrating compiler tools, and there's no reason you can't just write syntax that's Pythonic, looks Pythonic, and then have it compile the machine code. There's zero reason that can't happen." So there's no reason you have to use C++ or Rust to write machine code. You can totally write a subset of Python and have very fast code. And Numba proved that, and proved it pretty well, actually. And then since then, there's been like 20 other versions of that.
 
-If you go to lpython.org, lpython stands for LLVM Python. It's an example of a compiler for Python, lpython.org. And a table there shows a list of other similar projects. Some of them are a little bit more like \[unintelligible 01:06:29.27\], where they're translators from Python to C++... Others are like -- Pythran is another one, Codon's another one that's out there. There's literally a dozen.
+If you go to lpython.org, lpython stands for LLVM Python. It's an example of a compiler for Python, lpython.org. And a table there shows a list of other similar projects. Some of them are a little bit more like Nuitka, where they're translators from Python to C++... Others are like -- Pythran is another one, Codon's another one that's out there. There's literally a dozen.
 
 **Jerod Santo:** Yeah, I'm looking at the table... It's probably two dozen.
 
@@ -476,7 +476,7 @@ One of my concerns is these are challenging problems, and so the communities in 
 
 **Travis Oliphant:** \[01:12:01.09\] In fact, we can have another conversation... I think I've got a way to actually create a market for that. But it's not as simple as -- because I have a VC fund, too. I've started a VC fund for this purpose of helping entrepreneurs create. And we've got 14 companies invested. I've got an idea of how to actually create a marketplace where you can actually have GitHub stars be a market driving question. And investors are actually looking at "Okay, this project is going to be used.
 
-Great. I'll invest there", and then have that investment dollar go to support the development of the project, while also having a return at some point, from somewhere. Because that's the thing you've got to figure out, you've got to build an instrument that drives the return of the investor from the risk they took to invest in that project early. And a company is one way... Yeah, just have a company, and ownership in the company, and the company sponsors it. That is. But can we do it in a way that actually allows many companies to collaborate, and still have the benefit from the time that somebody spent investing on that project \[unintelligible 01:12:59.07\] to them, as the companies that rely on it develop? I think I've got an answer to that, actually... It's my BHAG, my Big, Hairy, Audacious Goal is to bring that to market in the next 5 to 10 years.
+Great. I'll invest there", and then have that investment dollar go to support the development of the project, while also having a return at some point, from somewhere. Because that's the thing you've got to figure out, you've got to build an instrument that drives the return of the investor from the risk they took to invest in that project early. And a company is one way... Yeah, just have a company, and ownership in the company, and the company sponsors it. That is. But can we do it in a way that actually allows many companies to collaborate, and still have the benefit from the time that somebody spent investing on that project inured to them, as the companies that rely on it develop? I think I've got an answer to that, actually... It's my BHAG, my Big, Hairy, Audacious Goal is to bring that to market in the next 5 to 10 years.
 
 **Jerod Santo:** Really?
 
@@ -678,7 +678,7 @@ That's where you're arguing. You're saying "Okay, here's your option pool for em
 
 **Adam Stacoviak:** I mean, I'm just going to scrutinize it more, really.
 
-**Jerod Santo:** \[laughs\] \[unintelligible 01:32:10.19\]
+**Jerod Santo:** \[laughs\] That's what I got.
 
 **Adam Stacoviak:** I want to see it happen, but I want to scrutinize it more, because I'm like...
 
@@ -832,7 +832,7 @@ So there's more to do there. It's why I say it's going to take effort, and consi
 
 **Adam Stacoviak:** Have you spoken with Max at all?
 
-**Travis Oliphant:** I spoke to him. Yes. And that's what's excited me recently, is I've seen a couple of these where like "Oh, okay, we're onto something here. You guys have a similar concept." And I would be happy to join forces with some of these folks, too. Because there is zero desire to be the only founder. Like, I've been a founder, I know what that is, and I'm fine doing it, but I'm not -- I'm doing this to support a concept. And if there's other people that want to take the -- I'm happy to be a spokesman. I'm happy to just be somebody that promotes it, and that negotiates people, and \[unintelligible 01:46:11.09\] And I'd love other people to own it.
+**Travis Oliphant:** I spoke to him. Yes. And that's what's excited me recently, is I've seen a couple of these where like "Oh, okay, we're onto something here. You guys have a similar concept." And I would be happy to join forces with some of these folks, too. Because there is zero desire to be the only founder. Like, I've been a founder, I know what that is, and I'm fine doing it, but I'm not -- I'm doing this to support a concept. And if there's other people that want to take the -- I'm happy to be a spokesman. I'm happy to just be somebody that promotes it, and that negotiates people, and encorages the why. And I'd love other people to own it.
 
 **Adam Stacoviak:** I'm going back through our chapter markers, and when we were talking to Max -- we talked to Max end of last year at All Things Open. We go to All Things Open every year. Big shout-out to All Things Open.
 
