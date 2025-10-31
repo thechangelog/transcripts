@@ -120,7 +120,7 @@
 
 **Cliff Biffle:** Yeah, you can aspire to buy one.
 
-**Jerod Santo:** \[unintelligible 00:08:52.12\] home lab version. We can set that aside for now.
+**Jerod Santo:** We'll pitch a home lab version. We can set that aside for now.
 
 **Cliff Biffle:** Yeah, now we're talking... But it's like a fancy McLaren sports car, or like a Ferrari. I'm probably never going to buy one.
 
@@ -630,7 +630,7 @@ So the priority there was about having a robust support procedure for recovering
 
 **Adam Stacoviak:** It's a big deal then.
 
-**Dave Pacheco:** Yeah. And that list I just gave doesn't even include a lot of stuff that for us gets bundled. CPU has microcode, NICs have their own firmware. For the update system, that's simplified, because it all gets part of the host OS, but there's a lot of software in the system, and it's updating all of those things. But the whole idea of what we're doing is that operators don't have to think about any of that stuff. So our release process puts together a giant zip file; it's like two or three gigs of data. You download that from us, you can look at it if you want, you can validate it, whatever... But then you upload it to the API, and you hit Go, and then the system goes \[unintelligible 00:33:17.02\] for probably a couple hours up front, and then you come back, and then the whole thing's updated. So the idea is that the operator is only thinking about this policy. They're not thinking about all those other things that are involved.
+**Dave Pacheco:** Yeah. And that list I just gave doesn't even include a lot of stuff that for us gets bundled. CPU has microcode, NICs have their own firmware. For the update system, that's simplified, because it all gets part of the host OS, but there's a lot of software in the system, and it's updating all of those things. But the whole idea of what we're doing is that operators don't have to think about any of that stuff. So our release process puts together a giant zip file; it's like two or three gigs of data. You download that from us, you can look at it if you want, you can validate it, whatever... But then you upload it to the API, and you hit Go, and then the system goes and churns for probably a couple hours up front, and then you come back, and then the whole thing's updated. So the idea is that the operator is only thinking about this policy. They're not thinking about all those other things that are involved.
 
 **Adam Stacoviak:** That's nice it's a zip file. I mean, several gigs, though...
 
@@ -1038,7 +1038,7 @@ So there's a mix of the structured time that we have... You know, Brian and Stev
 
 **Dave Pacheco:** Yeah, right? So that's huge...
 
-**Adam Stacoviak:** \[unintelligible 00:58:51.15\] talks, not really... Hallway track only. Keynotes only, and then hallway track.
+**Adam Stacoviak:** Conference talks, not really... Hallway track only. Keynotes only, and then hallway track.
 
 **Jerod Santo:** That's our move.
 
@@ -1191,7 +1191,7 @@ I'm always figuring out how wide I can go with the branding, and keeping it stil
 
 **Adam Stacoviak:** Precisely. What gets you excited about what you do here? What makes you be like "Hell yeah!" Or however you say "Hell yeah."
 
-**Ben Leonard:** I don't know what the British equivalent of "Hell yeah" is. I don't think we're that -- yeah, we're not that \[unintelligible 01:10:09.10\]
+**Ben Leonard:** I don't know what the British equivalent of "Hell yeah" is. I don't think we're that -- yeah, we're not that emotive.
 
 **Jerod Santo:** \[laughs\]
 
