@@ -166,7 +166,7 @@ And in general, it seems like, while speakers can sometimes be hard to find, the
 
 **Adam Stacoviak:** Well, I assume he was in Austin, but yeah - how do you know him?
 
-**Jim Remsik:** I know him from a conference. I went to \[unintelligible 00:23:25.09\] Ruby two years ago in Nashville, and met Landon. He was working at Test Double at the time. And then - I forget if it was... It must've been last year. I traveled, and we did a traveling meetup in New York city, and he lives in upstate New York. And so he came down and spoke at our event in New York city. Yeah, he and I have been bouncing off with one another ever since.
+**Jim Remsik:** I know him from a conference. I went to Blue Ridge Ruby two years ago in Asheville, and met Landon. He was working at Test Double at the time. And then - I forget if it was... It must've been last year. I traveled, and we did a traveling meetup in New York city, and he lives in upstate New York. And so he came down and spoke at our event in New York city. Yeah, he and I have been bouncing off with one another ever since.
 
 **Adam Stacoviak:** Is he an Austinite, or...?
 
@@ -180,7 +180,7 @@ But there was a gap that we saw, which was "What if you didn't have to take a pl
 
 **Adam Stacoviak:** Yeah, for sure. When I first heard about this, if I'm being honest with you, I was like "Gosh, man... Events are so hard. Smaller events have to be even harder. How do the economics work, and how do you get motivated by it?" You don't have to share the numbers behind the scenes necessarily, but what is it that makes you want to do this? Like, what makes this hard -- it seems like a hard journey to me. What makes this hard journey worth it to you?
 
-**Jim Remsik:** Events have always been a -- I have always had events, going back all the way to 2008. I submitted a talk to Scotland on Rails, and I pitched a talk on geospatial searching in Rails, which was using \[unintelligible 00:26:17.18\] at the time... And got accepted. I'd never done a talk before... And it bombed. It bombed so hard. Of a 30-minute talk, the first 15 minutes was mostly me on stage, sweating, because we were trying to figure out how to get my computer to work with a WiFi signal... A classic thing that would only happen in an event. You live and learn, and I've never gotten caught by that again. But what also happened was I was waiting in the registration line, and I'm watching Ellen Francis, Grant Paul just completely swamped by this rush of people who were trying to get through the registration process. And so I jumped behind the table, and I'm like "I can handle T-shirts. Tell me your size, I'll get you the shirt size that you need after you get registered, and whatnot." And so that was -- I've shared the story a number of times, and also with them, but I was like "Man, if these guys can do it, I could do this as well."
+**Jim Remsik:** Events have always been a -- I have always had events, going back all the way to 2008. I submitted a talk to Scotland on Rails, and I pitched a talk on geospatial searching in Rails, which was using Thinking Sphinx at the time... And got accepted. I'd never done a talk before... And it bombed. It bombed so hard. Of a 30-minute talk, the first 15 minutes was mostly me on stage, sweating, because we were trying to figure out how to get my computer to work with a WiFi signal... A classic thing that would only happen in an event. You live and learn, and I've never gotten caught by that again. But what also happened was I was waiting in the registration line, and I'm watching Ellen Francis, Grant Paul just completely swamped by this rush of people who were trying to get through the registration process. And so I jumped behind the table, and I'm like "I can handle T-shirts. Tell me your size, I'll get you the shirt size that you need after you get registered, and whatnot." And so that was -- I've shared the story a number of times, and also with them, but I was like "Man, if these guys can do it, I could do this as well."
 
 We've done Madison Ruby for about 10 instances, including last year, and at the last one I was just like "This is really risky. Our expenses are significant, and what would make them easier to pull off would be if we can lower the risk profile." And so through the sponsorship that we got from Cisco, we were able to cover all of our venues, and cover some of our expenses... And then working with our local sponsors, if we are able to reach our sponsorship goals, we have everything covered, and then any of the ticket sales is on top of that.
 
@@ -188,7 +188,7 @@ We've done Madison Ruby for about 10 instances, including last year, and at the 
 
 When we ran our first Madison Ruby, I personally lost $9,000. I'm going to adjust that to say "My wife and I, who's sitting in the other room right now, lost $9,000."
 
-**Jerod Santo:** \[unintelligible 00:29:01.27\]
+**Jerod Santo:** Does she appreciate that?
 
 **Jim Remsik:** Yeah. We eventually figured that out and got it back... That was also the only time I ever wound up on the front page of Hacker News... Because we cut the ticket price from 495 down to 250, and said "We're refunding everybody who bought at that 495 price. We're refunding you down to 250", and got a bunch of press out of it. And we still lost money, but I think it would have been even worse having not done that.
 
@@ -298,27 +298,27 @@ We're also working with Confreaks, trying to get them to record all these events
 
 **Adam Stacoviak:** It has been a long time. So long, I was going to ask you to remind me of the person's name. And as soon as you say it's going to be -- who runs that...?
 
-**Jim Remsik:** You are probably thinking of Kobe.
+**Jim Remsik:** You are probably thinking of Coby.
 
 **Adam Stacoviak:** Yes...
 
-**Jim Remsik:** \[41:56\] \[unintelligible 00:41:56.03\] He's at Heroku. He's got bigger fish to fry. He worked with Cindy Backman, who has been running Confreaks for the last six, seven years, and always brings a really... Like, she sees so much. She goes to so many conferences and so many Ruby events and whatnot... She's got an interesting perspective on the history of the Ruby community. And actually has found herself on stage at RubyConf, and... Yeah, and then not only does she record the talks, but she goes through and edits all the talks as well.
+**Jim Remsik:** \[41:56\] Coby Randquist. He's at Heroku. He's got bigger fish to fry. He worked with Cindy Backman, who has been running Confreaks for the last six, seven years, and always brings a really... Like, she sees so much. She goes to so many conferences and so many Ruby events and whatnot... She's got an interesting perspective on the history of the Ruby community. And actually has found herself on stage at RubyConf, and... Yeah, and then not only does she record the talks, but she goes through and edits all the talks as well.
 
 **Adam Stacoviak:** It's a lot of work. So much work.
 
 **Jim Remsik:** Yeah.
 
-**Adam Stacoviak:** Wow... Actually, the last time I think we saw -- is it Kobe? Is that right?
+**Adam Stacoviak:** Wow... Actually, the last time I think we saw -- is it Coby? Is that right?
 
 **Jim Remsik:** Mm-hm.
 
-**Adam Stacoviak:** Last time we saw Kobe was at Keep Ruby Weird, first edition here in Austin, Jerod. Remember that? 2014.
+**Adam Stacoviak:** Last time we saw Coby was at Keep Ruby Weird, first edition here in Austin, Jerod. Remember that? 2014.
 
 **Jerod Santo:** I remember the event, I don't remember that being the last time --
 
-**Adam Stacoviak:** Kobe was in the rafters with us, recording.
+**Adam Stacoviak:** Coby was in the rafters with us, recording.
 
-**Jerod Santo:** I remember that part, but didn't we see Kobe at like OSCON as well later?
+**Jerod Santo:** I remember that part, but didn't we see Coby at like OSCON as well later?
 
 **Adam Stacoviak:** Maybe...
 
@@ -412,7 +412,7 @@ We're also working with Confreaks, trying to get them to record all these events
 
 **Jim Remsik:** The thing about after parties is that they cost money. \[laughter\]
 
-**Jerod Santo:** Okay. Nine to five. I see what kind of \[unintelligible 00:45:16.04\]
+**Jerod Santo:** Okay. Nine to five. I see what kind of Conf it is.
 
 **Jim Remsik:** Yeah. Add a hundred-dollar ticket... Like, what has happened in the past is -- once you get people together, plans form, and people wind up in places together. But we're not planning an after party, but we do suspect that people are going to gather afterwards.
 
@@ -468,7 +468,7 @@ One of those things with getting everybody together is we are not catering the c
 
 **Jim Remsik:** Add on top of that food sensitivities, and concerns of that nature, whether your preference is vegetarian, vegan, whatever... It's hard for me to serve all those people in that way.
 
-**Adam Stacoviak:** Yeah, one thing that Alan and Stephen did - I keep seeing their names; I miss those guys so much. Obviously, I miss Stephen, but... When they did LessConf, one thing they did... And this is probably why Alan is mayor, because he went out... And if you recall this, Jim, you can share your side of the story, but... They went out to particular local venues and said "Hey, we're going to have people here for this reason", and they made a list of where you can go. I don't recall if it was free or what it was... I think it might have been free, as part of the conference. But it was like, they had already set it up. You go out into that small town, into that little city, an independent \[unintelligible 00:53:53.18\] and you go where you want to, closest to the venue. You can walk there, you can go with the friend groups that you've made, you can make new friends, you can invite yourself somewhere, be invited somewhere... But they had already identified various places you can go, and it was just really easy.
+**Adam Stacoviak:** Yeah, one thing that Alan and Stephen did - I keep seeing their names; I miss those guys so much. Obviously, I miss Stephen, but... When they did LessConf, one thing they did... And this is probably why Alan is mayor, because he went out... And if you recall this, Jim, you can share your side of the story, but... They went out to particular local venues and said "Hey, we're going to have people here for this reason", and they made a list of where you can go. I don't recall if it was free or what it was... I think it might have been free, as part of the conference. But it was like, they had already set it up. You go out into that small town, into that little city, independent all of a sudden, and you go where you want to, closest to the venue. You can walk there, you can go with the friend groups that you've made, you can make new friends, you can invite yourself somewhere, be invited somewhere... But they had already identified various places you can go, and it was just really easy.
 
 \[54:09\] And those folks were ready for it, they weren't bombarded... But you had selection, you got to see the city, and you got to come back to the venue and continue your conference experience like nothing happened. It seemed smooth to me. Maybe as an event planner not very smooth, but as an attendee, I thought it was super-cool, very smooth... And I got the choice of where I wanted to go, and I thought that was the best experience ever.
 
@@ -528,7 +528,7 @@ One of those things with getting everybody together is we are not catering the c
 
 **Adam Stacoviak:** Well, I discovered these Wagyu hot dogs... And these Wagyu hot dogs - I'd never had Wagyu hot dogs like this ever in my life. We had some friends over for the 4th of July this year, and they brought them. It's like a tradition for them. Like, "Sure. Sweet. I'll cook them." And so they brought their Wagyu hot dogs, and we got the long buns and all that stuff, and I got a Weber kettle, and I got them over a real fire, so they got all the flavor in it... And I promise you - I'll make it for both of you one day - some of the best hot dogs I've ever had in my whole life. In fact, those -- when I think about hot dogs that I want to have in my life, if I could eat a hot dog like that every day of my life... Or not -- every time I eat a hot dog, if it was like that, that's my example of a hot dog. It was so good. So good. Are you hungry yet, Jim?
 
-**Jim Remsik:** I mean, thankfully -- well, you all are... This is afternoon for you two. \[unintelligible 00:57:51.22\] Yeah, I just bought, probably three months ago, a Weber Smokey Mountain. And so I've been smoking up a storm in the backyard.
+**Jim Remsik:** I mean, thankfully -- well, you all are... This is afternoon for you two. Which would be about close to lunch. Yeah, I just bought, probably three months ago, a Weber Smokey Mountain. And so I've been smoking up a storm in the backyard.
 
 **Adam Stacoviak:** \[58:01\] Well, we can we can talk about that in the after show, for sure. I will talk about barbecuing with you all day long... Because it is one of my passions. So xoruby.com... This is like pretty much tomorrow you kick off. Are your bags packed?
 
@@ -540,7 +540,7 @@ One of those things with getting everybody together is we are not catering the c
 
 **Jerod Santo:** That's one way to look at it.
 
-**Jim Remsik:** You could always sell more tickets, you could always have more sponsors... And it's not like we're not still working on it, but... I've got backdrops, and a projector... I did a test run at my \[unintelligible 00:58:47.21\] community on Sunday night, just to bring everything out, put it all together, make sure that I've got all the connections that I need...
+**Jim Remsik:** You could always sell more tickets, you could always have more sponsors... And it's not like we're not still working on it, but... I've got backdrops, and a projector... I did a test run at my mom's 55+ community on Sunday night, just to bring everything out, put it all together, make sure that I've got all the connections that I need...
 
 **Jerod Santo:** What was your talk about?
 
@@ -636,7 +636,7 @@ One of those things with getting everybody together is we are not catering the c
 
 **Jerod Santo:** Yeah. Well, I did with Discord what you do with Zulip. Anytime somebody says "Join my Discord", I'm like "Nope." I'm just not going to do this Discord. I just decided to nope out of all Discords. I'm not going to do it.
 
-**Adam Stacoviak:** I mean, I have an account, and I'm \[unintelligible 01:04:57.21\] but it's such -- I don't even understand how to use it. I feel like I'm old, or something. I'm like "How does this work?"
+**Adam Stacoviak:** I mean, I have an account, and I'm a part of like two, but it's such -- I don't even understand how to use it. I feel like I'm old, or something. I'm like "How does this work?"
 
 **Jerod Santo:** Discord just feels like it's more about them than me.
 
@@ -694,7 +694,7 @@ One of those things with getting everybody together is we are not catering the c
 
 **Jerod Santo:** That's what people with big follower accounts do, is they just -- every new thing, they're on it, because they want to get that follower count up. And then they just cross-post the same crap across all of it.
 
-**Jim Remsik:** I feel seen... \[laughter\] I've been cross-posting stuff for X \[unintelligible 01:07:31.25\] lately, and... Yeah, you're not lying.
+**Jim Remsik:** I feel seen... \[laughter\] I've been cross-posting stuff for XO lately, and... Yeah, you're not lying.
 
 **Jerod Santo:** No. I mean, what else are you going to do? You want to go where the people are, and now the people are in seven different places... And so you're just like "Well, I guess we'll post to seven different places... But we're not going to be happy about it." So no allegiances anymore.
 
@@ -712,7 +712,7 @@ I just talked to somebody right before this call, and they said "I've been on th
 
 **Jim Remsik:** You're never going to find opportunity. It doesn't just show up at your door and say "Hey, do you want a job?" That doesn't happen. There was a time where that happened, in the 2010s... But that is no longer the case. And so you've got to go out, you've got to meet a lot of people, because not all of them are going to... You're not going to connect with all of them. But if you meet enough people, you're going to find enough of your people that something works out. Whatever that is for you. Maybe it's a job, maybe it's an opportunity to learn woodworking from somebody that does woodworking. But that ability to connect with other humans is so important.
 
-**Adam Stacoviak:** Can we unpack that? The "Run out of clients under this roof" comment. Can we unpack that a bit more? Can you go \[unintelligible 01:11:18.22\]
+**Adam Stacoviak:** Can we unpack that? The "Run out of clients under this roof" comment. Can we unpack that a bit more? Can you go there with us.
 
 **Jim Remsik:** Yeah. I mean, I've been doing consulting since 2011. I've been either an owner, or part owner, going back to 2007. My wife is one of my clients, and she's in the other room. I've reached the limit of what I can sell her on... And so now I've got to go out in the real world and get other clients for us to consult. She runs a software as a service, it's successful, and she only has a certain amount of needs.
 
@@ -800,7 +800,7 @@ So I've got to go out and find people that are looking for the skills that me an
 
 My favorite moments - and this is totally going TMI, Jim, and I'm sorry, but my favorite moment was really the thing itself, but bringing us together in the same place. Even Fogo de Chão, and like getting to sit down and eat together... To me, that was cool. Two times a year would be perfect. One - not perfect. Three - maybe too much.
 
-**Jerod Santo:** \[laughs\] You talked me into \[unintelligible 01:21:30.02\]
+**Jerod Santo:** \[laughs\] You talked me into doing it...
 
 **Adam Stacoviak:** Maybe. Maybe too much.
 
@@ -810,7 +810,7 @@ My favorite moments - and this is totally going TMI, Jim, and I'm sorry, but my 
 
 **Jerod Santo:** I guess it depends on the type of travel.
 
-**Jim Remsik:** \[unintelligible 01:21:40.05\] company.
+**Jim Remsik:** Or the company.
 
 **Jerod Santo:** \[01:21:47.24\] Yes. I like traveling, so I'm not against the travel part. I don't mind road trips. For me it's a lot more complication than is necessary. So it's like "Is it worth it?" So I think once a year it's really worth it. I think twice maybe it is. But six in eight weeks - Jim, you're crazy, man... \[laughs\]
 
