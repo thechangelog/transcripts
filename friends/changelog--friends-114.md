@@ -72,7 +72,7 @@ What's most interesting is the size. So if you have 64 gigabytes to migrate, how
 
 **Jerod Santo:** You'll like this one, because it's kind of up your wheelhouse. Although his home lab is better than yours... I mean, that's the sad part. I mean, happy for him, but sad for you.
 
-**Gerhard Lazu:** \[00:08:09.21\] So I think this is going to be almost like a challenge. Like, how can we improve the home labs, too? Linux, Ubuntu, Arch, a couple of things are going to come up... Networks, because they're really interesting... GPUs - how do you run all this stuff in a way that does not break the bank? Because that's the other consideration. I'm not a data center... I wish I was, but I'm not. I'm very sensitive to noise, so I can't have like fans blaring, and 1U, 2U servers, the really shrill ones... So I'm just the Noctua person, that goes for whisper-quiet everything; even fanless, if it's possible... I tried fanless for a hundred gigabits, and it runs really hot. That's the one thing which I was not expecting, just how hot these things run. 400 gigabit is even more crazy, and 800... Wow. So that's really like the next frontier. That's what I'm looking at: 400, 800 and beyond... And all this to service some workloads that have very sensitive latencies in terms of throughput latency... I mean, how do you run a remote GPU? I mean, that's crazy. And what I mean by that - the GPU is in a rack, you're on your laptop, and you're running against the GPU. So you have an NVIDIA GPU on your laptop. How does that even work?
+**Gerhard Lazu:** \[08:09\] So I think this is going to be almost like a challenge. Like, how can we improve the home labs, too? Linux, Ubuntu, Arch, a couple of things are going to come up... Networks, because they're really interesting... GPUs - how do you run all this stuff in a way that does not break the bank? Because that's the other consideration. I'm not a data center... I wish I was, but I'm not. I'm very sensitive to noise, so I can't have like fans blaring, and 1U, 2U servers, the really shrill ones... So I'm just the Noctua person, that goes for whisper-quiet everything; even fanless, if it's possible... I tried fanless for a hundred gigabits, and it runs really hot. That's the one thing which I was not expecting, just how hot these things run. 400 gigabit is even more crazy, and 800... Wow. So that's really like the next frontier. That's what I'm looking at: 400, 800 and beyond... And all this to service some workloads that have very sensitive latencies in terms of throughput latency... I mean, how do you run a remote GPU? I mean, that's crazy. And what I mean by that - the GPU is in a rack, you're on your laptop, and you're running against the GPU. So you have an NVIDIA GPU on your laptop. How does that even work?
 
 **Jerod Santo:** So the software on your laptop believes there's a GPU available to it, but it's over the network.
 
@@ -128,7 +128,7 @@ What's most interesting is the size. So if you have 64 gigabytes to migrate, how
 
 **Gerhard Lazu:** It was just so amazing. After 18 months of building Pipely in the open, with Friends, we shipped it on stage in Denver, and it was so awesome. Seriously, such a great feeling. The audience was clapping, Jerod and Adam were smiling... I was so proud of what we have achieved. Really, really proud. But do you remember what happened a few hours right after we did the stage bit?
 
-**Jerod Santo:** \[00:11:57.08\] Uhm, hiking?
+**Jerod Santo:** \[11:57\] Uhm, hiking?
 
 **Gerhard Lazu:** Yes... And before that there was something else...
 
@@ -236,7 +236,7 @@ What's most interesting is the size. So if you have 64 gigabytes to migrate, how
 
 **Jerod Santo:** Okay...
 
-**Gerhard Lazu:** \[00:15:55.21\] So our CDN was running on these tiny instances, and it just didn't get very far. So we're looking at an impossibly tiny bike that someone is actually riding. That's what we're seeing right now.
+**Gerhard Lazu:** \[15:55\] So our CDN was running on these tiny instances, and it just didn't get very far. So we're looking at an impossibly tiny bike that someone is actually riding. That's what we're seeing right now.
 
 **Adam Stacoviak:** I can't even believe they can ride that bike, by the way. We're watching a video. I don't know, is this on -- okay, it doesn't matter. There's a video with a bike, and a dude on a very, very small bike, and... It's impossible to ride that thing.
 
@@ -270,7 +270,7 @@ So in this case, because all of the previous infrastructure was in place, updati
 
 **Gerhard Lazu:** Exactly, exactly. So we went back to about 33%.
 
-**Jerod Santo:** \[00:19:59.26\] Okay. So they couldn't handle 100% with the underprovisioning that you had done with our Fly VMs.
+**Jerod Santo:** \[19:59\] Okay. So they couldn't handle 100% with the underprovisioning that you had done with our Fly VMs.
 
 **Gerhard Lazu:** That's correct, yes. They were too small, they didn't have enough memory, not enough CPU, and there were too few of them. There were certain hotspots that needed more than one instance, and that's what we did.
 
@@ -310,7 +310,7 @@ So in this case, because all of the previous infrastructure was in place, updati
 
 **Gerhard Lazu:** Well, I did receive some emails that instances were running out of memory and crashing, but it was happening after a while, so that was maybe the equivalent of that.
 
-**Jerod Santo:** \[00:24:03.09\] Right.
+**Jerod Santo:** \[24:03\] Right.
 
 **Gerhard Lazu:** But in this case, because we were so engrossed in the conversations, we never heard the rattles.
 
@@ -384,7 +384,7 @@ So in this case, because all of the previous infrastructure was in place, updati
 
 **Adam Stacoviak:** A hundred percent.
 
-**Gerhard Lazu:** \[00:28:04.05\] And I'll give you a couple of moments to think about that... \[laughter\]
+**Gerhard Lazu:** \[28:04\] And I'll give you a couple of moments to think about that... \[laughter\]
 
 **Adam Stacoviak:** I was like "A hundred percent."
 
@@ -432,7 +432,7 @@ The more interesting question would be who would like to join? ...to see where d
 
 **Gerhard Lazu:** I think if you ask Adam, he'll say "ChangelogCon." The first Changelog conference ever. Go, go, go.
 
-**Adam Stacoviak:** \[00:32:00.23\] Maybe... I kind of liked it just as it was though, honestly. I wouldn't mind having some trusted -- not like demos, but some show and tell. I think there's a lot of pontification from the stage... I'd love to have some show and tell type stuff, if that was a thing. And maybe that's demos. I'm thinking Oxide with their racks, and stuff like that. That's kind of show and tell. But I don't know.
+**Adam Stacoviak:** \[32:00\] Maybe... I kind of liked it just as it was though, honestly. I wouldn't mind having some trusted -- not like demos, but some show and tell. I think there's a lot of pontification from the stage... I'd love to have some show and tell type stuff, if that was a thing. And maybe that's demos. I'm thinking Oxide with their racks, and stuff like that. That's kind of show and tell. But I don't know.
 
 **Gerhard Lazu:** That would be really cool.
 
@@ -456,7 +456,7 @@ The more interesting question would be who would like to join? ...to see where d
 
 **Gerhard Lazu:** Yeah, I think that's a good time.
 
-**Break**: \[00:34:33.00\]
+**Break**: \[34:33\]
 
 **Gerhard Lazu:** We're looking at all the different steps that we had to take between being on stage at Denver... Do you know which \[unintelligible 00:36:04.24\] were there? Just looking at this list... It's a list on the Pipely repo -- by the way, we're looking at the readme... All the various release candidates of 1.0, before going to 1.0. I thought it would happen on stage, it didn't. Or soon after. It didn't. But it did happen now. So we are beyond, and we are running on 1.0. If you look at 1.0 RC4, limit Varnish memory to 66%. And that's the one commit which I pushed that was on stage. There was the next one, RC5, handle varnish JSON response, failing on startup, and bump the instance size to performance. That was the scale-up that needed to happen.
 
@@ -506,7 +506,7 @@ Now, the one thing which was failing, and this was discovered after, I think, we
 
 **Jerod Santo:** Plus the hacker spirit. Plus our cache hit ratio was out of our own hands... We wanted it in our own hands.
 
-**Gerhard Lazu:** \[00:40:03.29\] Yeah, yeah. It was like the previous screenshot. So this is the moment I turned off all traffic from like forever, in this case, from Fastly. It was only a few days, but you can see that in those few days we had 155,000 cache hits. Sorry, cache misses. 155,000 cache misses. And we had 370,000 cache hits. So the ratio does not look right. That green line, the cache hits, there were days when there were more; or like periods, not days. There were periods, up to maybe half an hour, an hour, when there were more misses than hits. And you do not expect a CDN to behave that way. And by the way, this is across both changelog.com and cdnchangelog.com. So it includes both the static assets, everything. Just a small window, but it just shows the problem.
+**Gerhard Lazu:** \[40:03\] Yeah, yeah. It was like the previous screenshot. So this is the moment I turned off all traffic from like forever, in this case, from Fastly. It was only a few days, but you can see that in those few days we had 155,000 cache hits. Sorry, cache misses. 155,000 cache misses. And we had 370,000 cache hits. So the ratio does not look right. That green line, the cache hits, there were days when there were more; or like periods, not days. There were periods, up to maybe half an hour, an hour, when there were more misses than hits. And you do not expect a CDN to behave that way. And by the way, this is across both changelog.com and cdnchangelog.com. So it includes both the static assets, everything. Just a small window, but it just shows the problem.
 
 Now, as a percentage, that translates to 70.5%. So 70.5% cache hits, and that is really not great. Okay, I know you've been expecting this... So let's see. What do you think is our current cache hit versus miss ratio? This is across all requests. So now that we switched across, we had 10 days to measure this... On the new system, what do you think is the cache hit versus miss ratio?
 
@@ -566,7 +566,7 @@ Now, as a percentage, that translates to 70.5%. So 70.5% cache hits, and that is
 
 **Jerod Santo:** These are XML files that represent the current state of our podcast syndication, our episodes that we're shipping and have shipped. And so they're hit often by robots who are scraping feeds in order to update their podcast indexes, and let people know which episodes are available. And they should be at 99.5%, because they only change when we publish a new episode, which is at this point in our lives three times a week. On a Monday, on a Wednesday, and on a Friday. And every other request, every other day and time is the same exact content.
 
-**Gerhard Lazu:** \[00:43:53.20\] That's it. So I would say that this is possibly the most important thing to serve. Because if we don't serve feeds correctly, how do you know what content Changelog has? How do you know when content updates? And this is like worldwide. So I think this is pretty good. And improving on 99.5%, I don't think we should do it.
+**Gerhard Lazu:** \[43:53\] That's it. So I would say that this is possibly the most important thing to serve. Because if we don't serve feeds correctly, how do you know what content Changelog has? How do you know when content updates? And this is like worldwide. So I think this is pretty good. And improving on 99.5%, I don't think we should do it.
 
 **Jerod Santo:** No.
 
@@ -606,7 +606,7 @@ News... I know this is something that's very important to Jerod. It was 52.6% ca
 
 **Adam Stacoviak:** So I'd say news could be similar to feed, pushing that to the boundary, because it doesn't change much. I'd love to explore that when you do the mp3 exploration of large objects getting pushed out... I'd love to just sit on your shoulder, I suppose, or as a fly on the wall kind of thing, just to explore that with you... Because I'm super-curious about what makes that cache get purged out of the memory, myself.
 
-**Gerhard Lazu:** \[00:47:54.28\] Yeah. Well, pairing up is something that I'm getting better and better every day. Recorded and published pairing sessions. Jerod has the experience, not Adam...
+**Gerhard Lazu:** \[47:54\] Yeah. Well, pairing up is something that I'm getting better and better every day. Recorded and published pairing sessions. Jerod has the experience, not Adam...
 
 **Jerod Santo:** That's right.
 
@@ -704,7 +704,7 @@ News... I know this is something that's very important to Jerod. It was 52.6% ca
 
 **Gerhard Lazu:** You're welcome, humans. Now, what does that look like? I think 863 times is really difficult to imagine, so I'm going to play something for you to see what it means. So what we have here is one second at the top; that's how long it takes. No, hang on. I'm not playing it. I should be playing it. There you go. Now I'm playing it. Okay. While 833 seconds at the bottom is still loading. And it will continue loading for so long that we're not going to wait 15 minutes for this thing to load, okay? We're not going to wait that. So that's the difference between how fast the homepage loads now, versus how it used to load before. This is for the majority of the users.
 
-\[00:52:21.11\] So the cache hit ratio, the connection there was that everything was slow, and there's nothing we could do about it. And I think slow is relative, because when you're talking about milliseconds, I think there's about 50 or maybe 100 milliseconds when things were nearly instant... But in our case, the homepage was taking 150 milliseconds to get served. And the tail latency is really crazy. Like, the tail latency was over a second for the homepage to serve. That was a long time. By the way, this thing is still going, and it's not even like 10% there.
+\[52:21\] So the cache hit ratio, the connection there was that everything was slow, and there's nothing we could do about it. And I think slow is relative, because when you're talking about milliseconds, I think there's about 50 or maybe 100 milliseconds when things were nearly instant... But in our case, the homepage was taking 150 milliseconds to get served. And the tail latency is really crazy. Like, the tail latency was over a second for the homepage to serve. That was a long time. By the way, this thing is still going, and it's not even like 10% there.
 
 **Adam Stacoviak:** What's the rationale behind this video? Explain to me how this is supposed to explain things...
 
@@ -762,7 +762,7 @@ News... I know this is something that's very important to Jerod. It was 52.6% ca
 
 **Jerod Santo:** Not to change the subject on you, but --
 
-**Gerhard Lazu:** \[00:56:10.13\] Yeah, Vinyl is coming up in January.
+**Gerhard Lazu:** \[56:10\] Yeah, Vinyl is coming up in January.
 
 **Jerod Santo:** There's a curveball.
 
