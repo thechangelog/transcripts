@@ -76,7 +76,7 @@ I had a conversation with someone who sort of got mad at me because I said that.
 
 **Jerod Santo:** Yeah, exactly.
 
-**Adam Jacob:** \[00:08:12.01\] It's not like AWS has empathy for me, AWS is a shark. They're out there eating to live, man... I don't know. I appreciate that about AWS, actually. I appreciate the part where they're very transparent about the fact that what they're in it for is the dollar bills. I know where I stand... \[laughs\]
+**Adam Jacob:** \[08:12\] It's not like AWS has empathy for me, AWS is a shark. They're out there eating to live, man... I don't know. I appreciate that about AWS, actually. I appreciate the part where they're very transparent about the fact that what they're in it for is the dollar bills. I know where I stand... \[laughs\]
 
 **Jerod Santo:** You know what they're all about. Sure.
 
@@ -110,7 +110,7 @@ And then, you know, Amazon's laying people off, they're also growing, AI fear, s
 
 **Adam Jacob:** Yeah, I think it's everybody. I think everybody's ready for it to change. On a technical front, there's a bunch of really interesting things happening. If you're building new AI data centers, you need all these GPUs. That's where our focus is. But you also need high-performance compute, because the agents that are running in those situations, they're running on normal CPUs. They're not running on the GPUs. But the data center design there pushes you toward on-prem, low-latency networks, it pushes you towards simpler compute...
 
-\[00:12:11.24\] I was having a conversation with some people who build those data centers, and they were like "Yeah, all our customers want is tons of GPUs, super-fast networking, and bare metal compute. They don't want any layers in between." They're just gonna bootstrap that, giant high-performance compute clusters, and they're just going to knock out all the stuff in the middle. And it's interesting when you think about those workloads causing their own kind of gravity, where as soon as you start to have a data center, you start to have bare metal compute, you start to have fast networks, then suddenly you start to ask questions, like "Well, hey, what else could we run on that compute?"
+\[12:11\] I was having a conversation with some people who build those data centers, and they were like "Yeah, all our customers want is tons of GPUs, super-fast networking, and bare metal compute. They don't want any layers in between." They're just gonna bootstrap that, giant high-performance compute clusters, and they're just going to knock out all the stuff in the middle. And it's interesting when you think about those workloads causing their own kind of gravity, where as soon as you start to have a data center, you start to have bare metal compute, you start to have fast networks, then suddenly you start to ask questions, like "Well, hey, what else could we run on that compute?"
 
 **Adam Stacoviak:** That's right.
 
@@ -136,7 +136,7 @@ And then, you know, Amazon's laying people off, they're also growing, AI fear, s
 
 **Adam Jacob:** Yeah.
 
-**Adam Stacoviak:** \[00:15:45.28\] You can sort of level up. And then you have this new world where you're like - well, fine, we've sort of either... The choice initially was let's move fast, so let's use somebody else's investment. Cloud. Now it's like, now we have proven our model, our product, or whatever, and we're matured. Now we're just burning cash, because we have no idea what our bill is even. There's so many servers out there, maybe three or four different accounts floating around... We've got bills going out the wazoo to AWS... And there becomes a lack of clarity. And there's even a cottage industry of - I don't know what they're called. Like bill analyzers, essentially, for AWS...
+**Adam Stacoviak:** \[15:45\] You can sort of level up. And then you have this new world where you're like - well, fine, we've sort of either... The choice initially was let's move fast, so let's use somebody else's investment. Cloud. Now it's like, now we have proven our model, our product, or whatever, and we're matured. Now we're just burning cash, because we have no idea what our bill is even. There's so many servers out there, maybe three or four different accounts floating around... We've got bills going out the wazoo to AWS... And there becomes a lack of clarity. And there's even a cottage industry of - I don't know what they're called. Like bill analyzers, essentially, for AWS...
 
 **Adam Jacob:** Totally. Yeah.
 
@@ -158,7 +158,7 @@ And that loop is the loop that the people who are going to be building those int
 
 **Adam Jacob:** I have friends who started this company called iLike. You won't remember iLike, but iLike was one of the first music services on Facebook. It was one of the first Facebook apps, and it was a music sharing Facebook app. And they were the first viral Facebook app. And they literally had to beg our friends - the guys who ran it, I'd worked with for a decade. And they literally were begging us for gear. They were just like "Can you give us servers...?!" They couldn't rack them enough to keep the site up. And then within a month, AWS launched EC2, and we helped them just automate running that burst load into EC2, and it was good. They didn't have that problem anymore. That problem disappeared for the entire internet. Amazing. And also, boy, computers are a lot faster now. Boy, caching's a lot better. Boy, the architecture has fundamentally shifted.
 
-\[00:20:08.22\] We used to have to deliver the web tier to you. I don't have to deliver web tiers very much anymore. I just throw it to a CDN and I move on with my life. So if it's talking to my data center in the backend, a lot of that bursty load doesn't actually happen the same way it used to. Right? And we just haven't quite caught up yet as an industry - of course, because it's happening in real time - to the fact that all of these new capabilities, they're going to create a new wave of innovation, that will actually change the way we work.
+\[20:08\] We used to have to deliver the web tier to you. I don't have to deliver web tiers very much anymore. I just throw it to a CDN and I move on with my life. So if it's talking to my data center in the backend, a lot of that bursty load doesn't actually happen the same way it used to. Right? And we just haven't quite caught up yet as an industry - of course, because it's happening in real time - to the fact that all of these new capabilities, they're going to create a new wave of innovation, that will actually change the way we work.
 
 So yeah, I don't think the cloud repatriation thing is going to happen by going back to the way we've been doing it. It's going to happen because we're literally going to invent a new way of working, and we're going to be like "This thing's sick, and it works with gear, and it has a totally different, new loop."
 
@@ -190,7 +190,7 @@ I was talking to somebody who built Docker, and they used to go into Solaris sho
 
 **Jerod Santo:** ...that might be the kind of entity that produces something like this.
 
-**Adam Jacob:** \[00:24:00.06\] Totally. It would. But think about Oxide, who's close to this already, in that they took the cloud paradigm and they stuck it in the data center.
+**Adam Jacob:** \[24:00\] Totally. It would. But think about Oxide, who's close to this already, in that they took the cloud paradigm and they stuck it in the data center.
 
 **Jerod Santo:** Right.
 
@@ -230,7 +230,7 @@ What I've become is more convinced that it's more real than people are giving it
 
 **Adam Jacob:** It's not InfoSpace, where the emperor literally had no clothes except hype, but we hyped ourselves to a market cap bigger than Microsoft. That was a bubble; that was going to explode. In this case there's a lot of money moving into it, a lot of venture capital cash moving into it. That's all true. Private valuations - it's easy to talk about them as if they were public market valuations. They're not. So the resiliency of private markets to paying those multiples is way different than regular people...
 
-\[00:28:08.23\] So their analysis was basically "Look, in the main, the way the market's reacting is in line with the actual growth curve that's happening, and it's being relatively modest around the values that they're paying in multiples." And then everywhere else is depressed.
+\[28:08\] So their analysis was basically "Look, in the main, the way the market's reacting is in line with the actual growth curve that's happening, and it's being relatively modest around the values that they're paying in multiples." And then everywhere else is depressed.
 
 **Jerod Santo:** That's true...
 
@@ -286,7 +286,7 @@ What I've become is more convinced that it's more real than people are giving it
 
 We've got to figure out how it works, we've got to figure out how to build technology around it... We're in the beginnings of doing all of that work... And what we got caught up in was this hype cycle that was like "Oh, it's going to be AGI. The magic robots are going to take over. They're going to just run everybody's jobs. It's going to become super-intelligent. It's Terminator." And none of that's what's happening. If you've actually used these systems, the idea that they're going to turn to the Terminator is laughable. Laughable.
 
-**Break**: \[00:31:49.15\]
+**Break**: \[31:49\]
 
 **Adam Stacoviak:** There was a recent Anthropic research document that was a little scary, that I can put in the show notes and that I can paraphrase... It tried to protect itself when being threatened with being replaced, or something else, essentially. It was like self-preservation... But then they said in production, they didn't see that happening... It was pretty wild.
 
@@ -320,7 +320,7 @@ We've got to figure out how it works, we've got to figure out how to build techn
 
 **Jerod Santo:** That's right.
 
-**Adam Stacoviak:** \[00:35:56.18\] I have full faith that this is only going to give more jobs to developers, and not replace... Because it is smart, but it doesn't have taste. It doesn't have direction. It doesn't have the problem set. It just wants to be useful, and solve problems, even if it's totally the wrong way.
+**Adam Stacoviak:** \[35:56\] I have full faith that this is only going to give more jobs to developers, and not replace... Because it is smart, but it doesn't have taste. It doesn't have direction. It doesn't have the problem set. It just wants to be useful, and solve problems, even if it's totally the wrong way.
 
 **Adam Jacob:** Yes, absolutely.
 
@@ -358,7 +358,7 @@ I was thinking the other day about Kubernetes, and the control loop, and the bin
 
 **Jerod Santo:** And they just keeping those deals done, you know?
 
-**Adam Jacob:** \[00:40:03.11\] They keep getting those deals done... We keep paying for those growth multiples...
+**Adam Jacob:** \[40:03\] They keep getting those deals done... We keep paying for those growth multiples...
 
 **Jerod Santo:** \[laughs\] Right.
 
@@ -410,7 +410,7 @@ I was thinking the other day about Kubernetes, and the control loop, and the bin
 
 **Adam Jacob:** And we don't know what to do with it. We're like "There'll be flying cars. There'll be space cars. What if all the cars were underground, in car tunnels, and then the whole world could be a park?" I don't know. I'm sure we had crazy ideas. Ad yeah, what I'm ready for as a practical technologist... You know, I'm not a researcher. I don't hang out writing papers. I build stuff, and that's what I like to do. And what I can say as a practical technologist is "Whoa, building stuff with this kit is fun. It's so fun!" Because it can do things that are really freaking cool, and that you could not do a year ago. And that's epic. And I don't know what that means, in the macro. Nobody knows really, right? But it is real. It's not an illusion.
 
-**Jerod Santo:** \[00:44:12.16\] Unless you have AGI in your basement, locked up, like Sam Altman does. Then he knows.
+**Jerod Santo:** \[44:12\] Unless you have AGI in your basement, locked up, like Sam Altman does. Then he knows.
 
 **Adam Jacob:** If Sam Altman had AGI locked up in his basement, Sam Altman would be doing better at delivering LLMs to us. Right?
 
@@ -442,7 +442,7 @@ I was thinking the other day about Kubernetes, and the control loop, and the bin
 
 **Adam Jacob:** "Send me junk and I'll run it for you." You'd be like "No." That's a terrible design. But it turns out with AI it's kind of a good design. And those layers are dramatic... And I think the thing that's changed for me is that now I can't look at problems without thinking "Well, where can I insert that essentially plain language compiler, and turn it into a loop where I'm working interactively alongside something that can help me move through this problem space?" And that's just a dramatically different way of thinking about everything, to some degree. And that's not how I felt about it for the first, I don't know, year and a half of this journey, where I was just "Uhm, I don't know." I try it every now and again, it's not very good... The results are mediocre... The hype cycle's crazy... But the last six months or so - it's tough. And it really has fundamentally changed the way I think about it.
 
-\[00:47:53.21\] With System Initiative - I mean, we took this UI that we had spent five years building, trying to be like "Here's a better way to compose these resources", and I just deleted it. It's just gone. Because it turns out --
+\[47:53\] With System Initiative - I mean, we took this UI that we had spent five years building, trying to be like "Here's a better way to compose these resources", and I just deleted it. It's just gone. Because it turns out --
 
 **Adam Stacoviak:** \[unintelligible 00:48:05.00\] stupid...
 
@@ -482,7 +482,7 @@ And so the UI now is about radiating information back to you more than it is mak
 
 And the people I love most are infrastructure people, and those are not the people that are highest on the AI supply train. Do you know what I mean? Those people tend to be the grumpy Luddites, who are like "Never been useful to me..." So that's also been humiliating a little bit, to go out to my people and be like "Look at what you can do if you think differently about it", and they're like "I don't know." Not only do I not want to look at it, I reject the premise that it could work at all. And that is humbling, because the right reaction to that is not for me to go sit in my tower and be like "Well, I'm just smarter than you." It's to figure out how to explain it better. It's to figure out how to be like "Okay, I've got to get all the way down to the ground again, and just be like "Look, I know. I know, I get it." I have to find that path of empathy to be like "Here's--" Like, I do have to explain it to you from first principles. I do have to work you back from the very foundations of how we think about this problem. There's just no shortcuts, and I really want there to be, because I want to put it out into the world and have everybody just fawn all over me. Because wouldn't that be easier for me? \[laughs\]
 
-**Jerod Santo:** \[00:52:16.21\] For sure.
+**Jerod Santo:** \[52:16\] For sure.
 
 **Adam Jacob:** But it's not what happens.
 
@@ -522,7 +522,7 @@ And the people I love most are infrastructure people, and those are not the peop
 
 **Jerod Santo:** Did you ever hear that, Adam? Don McKinnon, a Changelog listener, and now a guest - he was on the show this year - who's a fan of yours... And he confessed his fandom to Breakmaster Cylinder for our State of the 'log annual episode where BMC will remix people's voicemails... And so BMC remixed a voicemail that Don left us, in which he mentioned he enjoys your episodes in particular.
 
-\[00:54:47.14\]
+\[54:47\]
 
 *Hey, Jerod, Adam, and everyone at Changelog. My favorite episode of 2024 was the Changelog & Friends episode "From Chef to System Initiative. I've been following Adam Jacob on social media for a while, and he's always a great guest. So it was interesting to hear more about his career journey that led him to where he is now with his new company. And I did have to go back and watch Any Given Sunday after hearing that episode. I'd never seen it before.*
 
@@ -530,7 +530,7 @@ And the people I love most are infrastructure people, and those are not the peop
 
 **Jerod Santo:** And the BMC remix has basically Don confessing that he stalked you, and you had him thrown out of your office.
 
-\[00:55:32.12\]
+\[55:32\]
 
 *"My favorite episode was from Chef to System Initiative. I've been following Adam Jacob on social media for a while... I've been also following Adam Jacob to work. And I got kicked out of his company. So it was interesting to hear more about his career journey that led him to kick me out of his company. And I disagree with him, but regardless, he's always entertaining, and he's always kicking me out."*
 
@@ -540,7 +540,7 @@ And the people I love most are infrastructure people, and those are not the peop
 
 **Jerod Santo:** Yeah, you should. I mean, if you want the ego boost, this is a good one for you.
 
-**Adam Jacob:** \[00:56:11.14\] Oh, that's so fun. Yeah, I could use it after my after my humble pie of realizing I had to delete years of effort because the interface was wrong.
+**Adam Jacob:** \[56:11\] Oh, that's so fun. Yeah, I could use it after my after my humble pie of realizing I had to delete years of effort because the interface was wrong.
 
 **Adam Stacoviak:** Can we get into the practicality of - they say AI slop, right? And so you said you just did this feature in three hours, which is mind-blowing...
 
@@ -682,7 +682,7 @@ And yeah, I don't know -- I think that conversation we just had about programmin
 
 **Adam Jacob:** For sure. But that'll create new incentives for us to be like "Well, wouldn't it be better if we didn't have to pay Anthropic all this money? Wouldn't it be better if you could run it on your desktop?" Because the loop would be better... The reason we're building AI data centers to do inference is because we need high bandwidth to the inference mechanisms. So what are we -- like, we'll start thinking about how do we build a hybrid inference models that use my local resources, but then also move to the other side. How will the PC change because of the shape of that need of inference?
 
-So yes, I think it'll grow their moat, it'll do all those things... But then what it'll do is create a new opportunity, which is "Why am I paying all this money to Anthropic all the time? Wouldn't it be better if - blah, blah, blah, blah?" And around the cycle will go. It won't be like an end game state, where it's like "Oh, and --" But like, will they be big? Yeah, I think they will, and I think it's going to be even more -- I think they'll own more real estate than people are giving them credit for. Right now, people are kind of convinced that the agent part is going to live outside of the Anthropics or the Open AIs... And I think if you've tried to build an agent from scratch in the last six months or less, you've had a pretty good time. If it was before then, if you were like using Langchain or something, it was less good... And I think if you look at the -- like, Anthropic has a Claude SDK, which basically just wraps up Claude Code and then lets you program that as the agent loop, instead of writing your own agent loop... That thing is crazy good. You just include it as an Npm library, and then you don't write any of the loop. You're just like "Here's my system prompt, here's the query, here's the tools I want, plug in some MCP, run." And then it does, and then you're done, and it took you no time at all... Crazy good.
+So yes, I think it'll grow their moat, it'll do all those things... But then what it'll do is create a new opportunity, which is "Why am I paying all this money to Anthropic all the time? Wouldn't it be better if - blah, blah, blah, blah?" And around the cycle will go. It won't be like an end game state, where it's like "Oh, and --" But like, will they be big? Yeah, I think they will, and I think it's going to be even more -- I think they'll own more real estate than people are giving them credit for. Right now, people are kind of convinced that the agent part is going to live outside of the Anthropics or the Open AIs... And I think if you've tried to build an agent from scratch in the last six months or less, you've had a pretty good time. If it was before then, if you were like using Langchain or something, it was less good... And I think if you look at the -- like, Anthropic has a Claude SDK, which basically just wraps up Claude Code and then lets you program that as the agent loop, instead of writing your own agent loop... That thing is crazy good. You just include it as an npm library, and then you don't write any of the loop. You're just like "Here's my system prompt, here's the query, here's the tools I want, plug in some MCP, run." And then it does, and then you're done, and it took you no time at all... Crazy good.
 
 **Jerod Santo:** \[01:15:59.13\] Yeah, so the agent client protocol that Zed came out with, and is starting to get deployed out there is basically leaning into that, where it's like "We're making an awesome editor. We don't want to write the agent, we just want somebody who's putting all this effort into the agent, make the agent awesome, and we'll plug into that." So they're basically seeding that real estate back to Anthropic.
 
@@ -690,7 +690,7 @@ So yes, I think it'll grow their moat, it'll do all those things... But then wha
 
 **Jerod Santo:** What's that again? What's Perl? \[laughter\]
 
-**Adam Jacob:** Perl used to run the internet. We all had the -- I'm so sorry. Anyway... Think of it like the script that you write. That's more what agents are going to be. But the first generation of this, we were all like "Oh, we'll build custom embedded agents. They'll be on autopilot." There's all these startups that are like "I built autopilot agents, and our special value prop is that our secret agent can do this thing that your stuff can't do, because of all of our whiz-bangy hoo-ha stuff. That's why it's trapped inside of our platform walls." All that's going to get obliterated is my prediction, because the agent is glue. And it turns out that your closed wall agent is actually terrible... Because if you expose the capabilities to my agent, now I could use it to orchestrate my problem, which is exactly what I'm going to do. It's glue. What I want is CPAN. I want Ruby gems. I want Npm. And then I want to write my own agent that uses those things to orchestrate my problem, which it's really good at. And so yeah, the agent is glue, that's the future. And so when you see people --
+**Adam Jacob:** Perl used to run the internet. We all had the -- I'm so sorry. Anyway... Think of it like the script that you write. That's more what agents are going to be. But the first generation of this, we were all like "Oh, we'll build custom embedded agents. They'll be on autopilot." There's all these startups that are like "I built autopilot agents, and our special value prop is that our secret agent can do this thing that your stuff can't do, because of all of our whiz-bangy hoo-ha stuff. That's why it's trapped inside of our platform walls." All that's going to get obliterated is my prediction, because the agent is glue. And it turns out that your closed wall agent is actually terrible... Because if you expose the capabilities to my agent, now I could use it to orchestrate my problem, which is exactly what I'm going to do. It's glue. What I want is CPAN. I want Ruby gems. I want npm. And then I want to write my own agent that uses those things to orchestrate my problem, which it's really good at. And so yeah, the agent is glue, that's the future. And so when you see people --
 
 **Jerod Santo:** So how does that show itself in System Init today? Is it just using Claude Code, or...?
 
