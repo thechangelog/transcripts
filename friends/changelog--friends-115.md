@@ -92,7 +92,7 @@
 
 **Jerod Santo:** \[laughs\] The death of projects. The death of open source projects, the death of closed source projects... This show is called "I see dead projects", and it is an episode request from a good friend, Thomas Eckert, who requested it last year for last Halloween, and we didn't do anything about it.
 
-**Adam Stacoviak:** \[00:06:06.14\] Dreams come true...
+**Adam Stacoviak:** \[06:06\] Dreams come true...
 
 **Jerod Santo:** Now, Thomas, you get what you asked for, a year later. And his idea was "Hey, what if you just go out and find some of these stories of open source and other projects that have gone by the wayside, whether they were abandoned, whether they were beat out by competitors, whether money destroyed them, or maybe they were just finished... Whatever it was, find some stuff and tell those stories." Now, we're not going to tell you all about Quicksilver.
 
@@ -150,7 +150,7 @@
 
 **Adam Stacoviak:** I'm seeing a trend here when I'm looking at these. Maybe I'm just in a certain era looking at these, but... Killed almost 13 years ago. Killed about 13 years ago. Killed 13 years ago. Like, what happened 13 years ago, Google?
 
-**Jerod Santo:** \[00:09:59.08\] Right.
+**Jerod Santo:** \[09:59\] Right.
 
 **Adam Stacoviak:** Was there something going on? A lot of them died 13 years ago. Or just the ones I'm looking at. Yeah, Reader was a tough one, because - I agree. I mean, that one seemed misplaced; like, a thriving project... It's like "Can you just figure out how to make some money from it, and not kill it?" But just like you can't go to Target today and buy a Blu-Ray... What's up with that? Who's killing the Blu-Rays, man?
 
@@ -212,7 +212,7 @@
 
 **Jerod Santo:** Yes, Less.js.
 
-**Adam Stacoviak:** \[00:14:04.14\] I'm just reminded about this in my brain just now... Don't know about Less, it never really caught on personally for me, for some reason... But the original Sass was created by the person, which I can't remember his name in the moment, but he's a close friend, and I'm so sorry... Created Haml, which was popular to Rubyists back in the day.
+**Adam Stacoviak:** \[14:04\] I'm just reminded about this in my brain just now... Don't know about Less, it never really caught on personally for me, for some reason... But the original Sass was created by the person, which I can't remember his name in the moment, but he's a close friend, and I'm so sorry... Created Haml, which was popular to Rubyists back in the day.
 
 **Jerod Santo:** That's right.
 
@@ -252,7 +252,7 @@
 
 **Jerod Santo:** KilledByGoogle.com. Oh, Dart, you are safe. "Continue using Dart."
 
-**Adam Stacoviak:** \[00:18:12.12\] You are safe. That is not cake. And that's pretty much it. You've got LibSass, which was the promise of the future... Get that thing extracted out of that slow Ruby world, if I'm speaking correctly... If I'm not, just assume it's truth, okay? I believe there was a NodeSass, because the Node ecosystem needed a special way, and they leveraged LibSass to make NodeSass...
+**Adam Stacoviak:** \[18:12\] You are safe. That is not cake. And that's pretty much it. You've got LibSass, which was the promise of the future... Get that thing extracted out of that slow Ruby world, if I'm speaking correctly... If I'm not, just assume it's truth, okay? I believe there was a NodeSass, because the Node ecosystem needed a special way, and they leveraged LibSass to make NodeSass...
 
 You had SCSS, which was more like the traditional SAS -- or sorry, CSS syntax, which had parentheses, and curly braces, and all the fun stuff... Yeah. And now what do we have? We've got Tailwind, right? Is that what we have? I resist the frontend. If I have to go to the frontend these days, man, I'm just upset. I'm just upset. Put it in the terminal. Put it in the terminal. That's where I live now, okay?
 
@@ -282,7 +282,7 @@ I will say, though, that the original syntax that mimicked the beauty of what Ha
 
 **Adam Stacoviak:** Way too deep, yeah.
 
-**Jerod Santo:** \[00:22:11.04\] Too specific.
+**Jerod Santo:** \[22:11\] Too specific.
 
 **Adam Stacoviak:** Yeah. Too many selectors.
 
@@ -292,13 +292,13 @@ I will say, though, that the original syntax that mimicked the beauty of what Ha
 
 **Jerod Santo:** That's right. \[laughs\] Or you may have another thing coming. So the indentation as advantage of white space significance is the scannability... I get it. I just think it's not such an advantage. That being said, I'm not a white space hater. I've enjoyed -- I liked Haml quite a bit, I like how clean it looked, and I appreciate Python at times, as well... Although even with white space-significant, I've seen some pretty gnarly Python code. So you can make a mess no matter where you are in the world... Just start being messy.
 
-**Break**: \[00:23:27.03\]
+**Break**: \[23:27\]
 
 **Adam Stacoviak:** You know, there's nothing like a good project that was brand new, though, that can use the original, the OG Sass syntax... Because you didn't have to compete with old CSS to move around and support. You could just start this new world with this indented world, and... Until you had to copy CSS from Stack Overflow or something like that, you were pretty happy. And then you had to like paste it, and then do a bunch of deletion, and we didn't have AI back then to like automate this stuff... Gosh, that's wild to even say that. "We didn't have AI back then."
 
 **Jerod Santo:** Yeah, the bad old days.
 
-**Adam Stacoviak:** \[00:25:53.02\] Yeah. Why would I write that code? It would do it for you, okay? It will do it for you. Listen, today, I took a little break... I just want to think about a feature. I just want to think about a feature. Here I am in AMP, and I'm like "Hey, AMP, can we talk? Can we talk? I've got an idea for the future, and I just want to think about it with you." Man, I dropped that idea in there... I'm not kidding you, dude, I got an email, went and read it, responded back, was happy... "Okay, let me get back to my AMP, let me see what they did..." The feature was done. I said "Let's think about it", okay? "Let's talk about this. Let's not do the work..." Made a bunch of changes, all correct, and stuff... Shifted to production, and everything... Gosh! In a blink of an eye, I meant to think about it, and the feature was done. What a world. What a world. That's not even a joke, man. That's not hyperbole. That's true. That was not fabricated for podcast material. That was straight up truth.
+**Adam Stacoviak:** \[25:53\] Yeah. Why would I write that code? It would do it for you, okay? It will do it for you. Listen, today, I took a little break... I just want to think about a feature. I just want to think about a feature. Here I am in AMP, and I'm like "Hey, AMP, can we talk? Can we talk? I've got an idea for the future, and I just want to think about it with you." Man, I dropped that idea in there... I'm not kidding you, dude, I got an email, went and read it, responded back, was happy... "Okay, let me get back to my AMP, let me see what they did..." The feature was done. I said "Let's think about it", okay? "Let's talk about this. Let's not do the work..." Made a bunch of changes, all correct, and stuff... Shifted to production, and everything... Gosh! In a blink of an eye, I meant to think about it, and the feature was done. What a world. What a world. That's not even a joke, man. That's not hyperbole. That's true. That was not fabricated for podcast material. That was straight up truth.
 
 **Jerod Santo:** I just got a little bit concerned when you started talking to AMP, in kind of like a Marvin Gaye-style voice, you know?
 
@@ -340,7 +340,7 @@ I will say, though, that the original syntax that mimicked the beauty of what Ha
 
 **Adam Stacoviak:** That's right.
 
-**Jerod Santo:** \[00:29:51.29\] And so it ports it to JavaScript in the blink of an eye. And I'm like "That was cool." And then I build out some features, and I get going... I realize I want this actually to run on a remote server, which is a shared server, so I don't have access to Npm. I have Node there, it's an older version; I can run it, but I can't run Npm. And of course, this thing vibe coded up a couple of packages... I think mostly around requests, and stuff like that. Maybe like HTML parsing and query stuff... So I'm like "Well, that sucks." And so I'm like "You know what? Port yourself to Go." And then bam! Go. And I said "Compile yourself to --
+**Jerod Santo:** \[29:51\] And so it ports it to JavaScript in the blink of an eye. And I'm like "That was cool." And then I build out some features, and I get going... I realize I want this actually to run on a remote server, which is a shared server, so I don't have access to npm. I have Node there, it's an older version; I can run it, but I can't run npm. And of course, this thing vibe coded up a couple of packages... I think mostly around requests, and stuff like that. Maybe like HTML parsing and query stuff... So I'm like "Well, that sucks." And so I'm like "You know what? Port yourself to Go." And then bam! Go. And I said "Compile yourself to --
 
 **Adam Stacoviak:** Always bet on Go.
 
@@ -377,11 +377,11 @@ I will say, though, that the original syntax that mimicked the beauty of what Ha
 
 **Jerod Santo:** Etherpad was one of the very first things that was collaborative editing, like Google Docs... And it was open source and self-hostable, and so people would stand it up and they would use it for their own little real-time collaborative editors inside their web apps... And it was very cool. I'm not sure what's going on with Etherpad. That could probably be another story there. Matt DeBergalis... I'm not sure how to say your last name, Matt... And Nick Martin. That was the team... Dropped - huge fanfare. April 2012, largest Hacker News debut of all time, according to this... Probably since then there's been larger ones, but at least at the time it was huge. It got lots of fanfare, lots of people trying it... It exploded in popularity... Kind of a typical hockey stick growth kind of thing. Raised more money. Raised more money. This is an MIT-licensed project that just keeps raising more money.
 
-\[00:34:19.13\] In July 2012 they secure $11.2 million in seed funding from A16Z. They hire people, they buy infrastructure... By 2013 they release a package manager, by Tom Coleman. That was actually integrated into the core. There's this Discover Meteor, which was either a newsletter or some sort of website, co-authored by friend of the show, Sascha Greif, and Tom Coleman. Of course, you know, Sascha was big into Meteor for a long time.
+\[34:19\] In July 2012 they secure $11.2 million in seed funding from A16Z. They hire people, they buy infrastructure... By 2013 they release a package manager, by Tom Coleman. That was actually integrated into the core. There's this Discover Meteor, which was either a newsletter or some sort of website, co-authored by friend of the show, Sascha Greif, and Tom Coleman. Of course, you know, Sascha was big into Meteor for a long time.
 
 **Adam Stacoviak:** Really big, yeah.
 
-**Jerod Santo:** And you know, things continued up and to the right. 2014 they raised $20 million, Series B round... And they've totaled over $31 million raised. FathomDB comes out, so they have a database, a cloud database... Galaxy, they launched Galaxy, which is like a hosting platform for Meteor apps... So that was kind of the play, was "It's all open source and free, but if you want it to be hosted by us on our Galaxy, that's how you pay money." And performance monitoring. So they started to productize around 2013, continued to grow... I mean, the package registry had thousands of community packages, it started to integrate Npm in 2015... They got worldwide production apps out there. So, I mean, not unsuccessful, by any means. I'd call this success, for many definitions of that word.
+**Jerod Santo:** And you know, things continued up and to the right. 2014 they raised $20 million, Series B round... And they've totaled over $31 million raised. FathomDB comes out, so they have a database, a cloud database... Galaxy, they launched Galaxy, which is like a hosting platform for Meteor apps... So that was kind of the play, was "It's all open source and free, but if you want it to be hosted by us on our Galaxy, that's how you pay money." And performance monitoring. So they started to productize around 2013, continued to grow... I mean, the package registry had thousands of community packages, it started to integrate npm in 2015... They got worldwide production apps out there. So, I mean, not unsuccessful, by any means. I'd call this success, for many definitions of that word.
 
 Things continued to go okay. In 2016 they were exceeding their revenue goals, according to them... But community debates arose. There was purists who loved the all-in-one simplicity, others demanded deeper modern tooling integration... So the community started to disagree on the tech itself, and the direction that it should go. They started moving towards GraphQL, and that laid the groundwork for Apollo. Remember Apollo GraphQL? That's still out there, which was a spinoff. And then what happened basically was just like new JavaScript frameworks came out, that were more interesting to more people. And because they were so fueled by VC money, they needed to grow faster than they could grow.
 
@@ -389,7 +389,7 @@ Eventually, Discover Meteor grew outdated, people started moving on... The State
 
 And then, in 2019, all of a sudden, they changed... MDG, which is the company behind it all, pivoted from Meteor to Apollo GraphQL. They saw more money in that, I think... This deprioritized Meteor's core development, frustrating people... And then in October 2019 Tiny Capital, who are owners of Dribbble and other things, acquired Meteor.js and Galaxy (that's their hosting service) assets for an undisclosed sum. So it got sold off, and renamed Meteor Software. It got put into maintenance mode... I mean, more emphasizing maintenance than growth. And Tiny, which is the company that bought it, pledged they'd support it for long-term, like five years. Still out there...
 
-**Adam Stacoviak:** \[00:38:18.04\] Still going.
+**Adam Stacoviak:** \[38:18\] Still going.
 
 **Jerod Santo:** Yup.
 
@@ -427,7 +427,7 @@ And then, in 2019, all of a sudden, they changed... MDG, which is the company be
 
 **Adam Stacoviak:** I wonder if that's because of entrenchment, though.
 
-**Jerod Santo:** \[00:42:19.26\] Oh, for sure.
+**Jerod Santo:** \[42:19\] Oh, for sure.
 
 **Adam Stacoviak:** It's just too hard, there's too much sunk cost in the world of React and Next to move away from it easily. There's too much investment into the infrastructure, the usage of it... I was thinking about this recently with Git. You make any piece of software, almost everything thinks you're using GitHub to host it. It's going to be there, and you're going to have actions. And so CI begins with actions files, essentially. That's where your CI begins if you're starting fresh. And then everything's assumed to be around Git and GitHub. And I love Git, I think Git's great, but I just saw our friends over at Fallthrough talking about the newest thing, and I'm not even sure what it's called, but there's a new thing in town to check out.
 
@@ -508,7 +508,7 @@ And then, in 2019, all of a sudden, they changed... MDG, which is the company be
 
 **Jerod Santo:** That's right. And Quicksilver was launching your stuff, man.
 
-**Adam Stacoviak:** \[00:46:12.01\] You wanted to launch things, and you would go and you would go to your app directory, or you would go to your dock bar and you would click the button for your app. You'd see it bounce, you'd wait for it, and that was cool. No, that was not cool.
+**Adam Stacoviak:** \[46:12\] You wanted to launch things, and you would go and you would go to your app directory, or you would go to your dock bar and you would click the button for your app. You'd see it bounce, you'd wait for it, and that was cool. No, that was not cool.
 
 **Jerod Santo:** Yeah, it'd bounce forever.
 
@@ -541,7 +541,7 @@ And then, in 2019, all of a sudden, they changed... MDG, which is the company be
 
 Now, that being said, I only ever used it basically for math and for app launching, which you know to this day is what I use all my app launchers for... Which is why I'm a Spotlight user. It does both those things just fine. But I wanted the power. I wanted the Quicksilver power. And so your story is basically competition... Why didn't it get better? Why didn't they win?
 
-**Adam Stacoviak:** \[00:50:07.11\] I think it just died on the vine. I think it just -- it got there, hung out in beta, it seemed to not move, and so when something seems to not move and it says beta, you kind of think "Well, maybe it's not moving. Maybe there's no true maintenance behind this thing", and so your appreciation and belief in something kind of wanes. Launch Bar comes around, seems to be newer, seems to be fresher, more Mac-native feeling... Same thing, I think, with Alfred... Alfred is still amazing software. No offense to Alfred whatsoever. I'm not going to use it anymore, because -- well, I moved on. But I suppose if Raycast died, I'd probably fall back on my free lifetime license. Anyways, we'll see.
+**Adam Stacoviak:** \[50:07\] I think it just died on the vine. I think it just -- it got there, hung out in beta, it seemed to not move, and so when something seems to not move and it says beta, you kind of think "Well, maybe it's not moving. Maybe there's no true maintenance behind this thing", and so your appreciation and belief in something kind of wanes. Launch Bar comes around, seems to be newer, seems to be fresher, more Mac-native feeling... Same thing, I think, with Alfred... Alfred is still amazing software. No offense to Alfred whatsoever. I'm not going to use it anymore, because -- well, I moved on. But I suppose if Raycast died, I'd probably fall back on my free lifetime license. Anyways, we'll see.
 
 **Jerod Santo:** \[laughs\] So then you could use it again.
 
@@ -573,7 +573,7 @@ Now, that being said, I only ever used it basically for math and for app launchi
 
 **Jerod Santo:** Not that you all failed, but you know what I mean.
 
-**Adam Stacoviak:** Yes. I did find Quicksilver though on GitHub. It is, naturally, GitHub.com/quicksilver/quicksilver.
+**Adam Stacoviak:** Yes. I did find Quicksilver though on GitHub. It is, naturally, github.com/quicksilver/quicksilver.
 
 **Jerod Santo:** Recent commits, recent activity? Anything going on over there?
 
@@ -582,7 +582,7 @@ Now, that being said, I only ever used it basically for math and for app launchi
 **Jerod Santo:** If you're listening to this and you do use Quicksilver to this day, let us know in the comments. We want to hear from you.
 **Adam Stacoviak:** Yes. Did you move at all? Did you come back? Apache 2.
 
-**Jerod Santo:** \[00:54:12.14\] Are you still running macOS Lion...? Sorry, OS 10 Lion.
+**Jerod Santo:** \[54:12\] Are you still running macOS Lion...? Sorry, OS 10 Lion.
 
 **Adam Stacoviak:** OS 10, yeah. 76 issues, two pull requests open... Not that bad. It seems to be tended. There's not like a thousand issues, for example.
 
@@ -598,7 +598,7 @@ Now, that being said, I only ever used it basically for math and for app launchi
 
 **Adam Stacoviak:** Maybe.
 
-**Break**: \[00:55:05.26\]
+**Break**: \[55:05\]
 
 **Jerod Santo:** Speaking of, how about RethinkDB?
 
@@ -620,7 +620,7 @@ Now, that being said, I only ever used it basically for math and for app launchi
 
 **Adam Stacoviak:** So dead.
 
-**Jerod Santo:** \[00:58:04.12\] They did inspire some community forks, such as ElephantDB... RethinkDB - you can go back and find that one in our archives. Of course, we've had Slava Akhmechet on the show, I think probably at the beginning of RethinkDB, and I think at the end of RethinkDB. Wasn't that right?
+**Jerod Santo:** \[58:04\] They did inspire some community forks, such as ElephantDB... RethinkDB - you can go back and find that one in our archives. Of course, we've had Slava Akhmechet on the show, I think probably at the beginning of RethinkDB, and I think at the end of RethinkDB. Wasn't that right?
 
 **Adam Stacoviak:** I'm thinking two times during its heyday, and one potentially on its wayday. Bye-see-ya.
 
@@ -696,7 +696,7 @@ This is also in a day when a lot of things were happening on ABOS. A lot of data
 
 **Adam Stacoviak:** It used to be .com.
 
-**Jerod Santo:** Well, you're probably talking about the company, and I'm talking about the open source. And the company might be gone, but the project's still open source, because they all are, right? The last commit to the FaunaDB repo was six months ago. Oh, and the only commit was all six months ago. So I think they open-sourced it and moved on.
+**Jerod Santo:** Well, you're probably talking about the company, and I'm talking about the open source. And the company might be gone, but the project's still open source, because they all are, right? The last commit to the FaunaDB repo was six months ago. Oh, and the only commit was all six months ago. So I think they open sourced it and moved on.
 
 **Adam Stacoviak:** Yeah. They were like "Listen. Crunch the history, put it out there... Cash the -- no, don't cash the check. That'll bounce... Get out of here. Just get out of here...! It's over. We didn't do it."
 
