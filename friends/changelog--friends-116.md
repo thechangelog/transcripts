@@ -102,7 +102,7 @@
 
 Now, after I name the word, everybody submits to me their definitions of what they think the word means. Or if they don't know what it means, they make one up in order to fool their enemies into selecting it. After the definitions are submitted, I will read them all, hopefully without laughing, and then you all go around and try to guess which one is the correct definition.
 
-\[00:08:15.14\] Now, if you get the right definition initially, right away, you get three points and you set the round out. If you have the wrong definition, but other people pick yours, you get one point for each person who picks your definition. And then at the end of the round, if you happened upon the correct definition during the selection process, you get two points. So three, two, and one. If nobody selects the correct definition in a round, I, your humble host, get four points.
+\[08:15\] Now, if you get the right definition initially, right away, you get three points and you set the round out. If you have the wrong definition, but other people pick yours, you get one point for each person who picks your definition. And then at the end of the round, if you happened upon the correct definition during the selection process, you get two points. So three, two, and one. If nobody selects the correct definition in a round, I, your humble host, get four points.
 
 And the first one to 12 wins, or the person with the most points after all 10 rounds - I doubt we're going to have to do all 10 to get to 12, because David scored 12 in like 37 seconds last time. So... Any questions before we get into round one?
 
@@ -134,7 +134,7 @@ And the first one to 12 wins, or the person with the most points after all 10 ro
 
 **Jerod Santo:** No, thank you, because normally people are like "What's number three again?"
 
-**Thomas Eckert:** \[00:12:08.09\] \[laughs\] Okay. What really sticks out to me is the "Caused inadvertently." So number two is what I'm going to go with.
+**Thomas Eckert:** \[12:08\] \[laughs\] Okay. What really sticks out to me is the "Caused inadvertently." So number two is what I'm going to go with.
 
 **Jerod Santo:** Alright, Thomas goes with number two. How about Matthew?
 
@@ -240,7 +240,7 @@ And the first one to 12 wins, or the person with the most points after all 10 ro
 
 **Thomas Eckert:** Yeah, you need to put that in chat.
 
-**Jerod Santo:** \[00:16:06.27\] I'll say it one more time... It's heteroscedasticity. There we go. Heteroscedasticity. That's tough.
+**Jerod Santo:** \[16:06\] I'll say it one more time... It's heteroscedasticity. There we go. Heteroscedasticity. That's tough.
 
 **Thomas Eckert:** Matthew, is the Oxide T-shirt embroidered?
 
@@ -334,7 +334,7 @@ And the first one to 12 wins, or the person with the most points after all 10 ro
 
 **Jerod Santo:** \[laughs\] You might be correct. Alright, I have five definitions for heteroscedasticity, or however you say it...
 
-**Thomas Eckert:** \[00:19:57.22\] You're getting better at it, though... The practice is paying off.
+**Thomas Eckert:** \[19:57\] You're getting better at it, though... The practice is paying off.
 
 **Jerod Santo:** I feel like it.
 
@@ -422,7 +422,7 @@ That's number one. Number two, when molecules have multiple stable configuration
 
 **Jerod Santo:** This is feeling like a repeat. Okay, David's out. Adam.
 
-**Adam Stacoviak:** \[00:24:13.14\] I'm going to pile on... I don't know what I'm piling onto, but whatever they chose, I'm choosing. That's it. \[laughter\]
+**Adam Stacoviak:** \[24:13\] I'm going to pile on... I don't know what I'm piling onto, but whatever they chose, I'm choosing. That's it. \[laughter\]
 
 **Thomas Eckert:** Blind faith...
 
@@ -490,7 +490,7 @@ That's number one. Number two, when molecules have multiple stable configuration
 
 **Jerod Santo:** Like cockroaches. "Heteroskedaddle...!" Okay, so three points for David. Matthew gets two plus one. He gets three. Thomas gets two, Adam gets two... Taylor - locked out of this round. After two rounds, we have David in first with six, Matthew with five, Thomas with four, Taylor with three, Adam on the board, with two... And I'm still sitting at zero. However, I'm very excited for round three, because the word for round three is... Achakatura.
 
-**Break**: \[00:27:45.23\]
+**Break**: \[27:45\]
 
 **Jerod Santo:** Acciaccatura.
 
@@ -566,7 +566,7 @@ That's number one. Number two, when molecules have multiple stable configuration
 
 **Taylor Troesh:** It's really easy when you cheat and you just look up the definition, you know? It makes things go a lot faster.
 
-**Jerod Santo:** \[00:32:02.08\] That's what my grandma always said.
+**Jerod Santo:** \[32:02\] That's what my grandma always said.
 
 **Taylor Troesh:** Are there any words with the mythical triple C?
 
@@ -670,7 +670,7 @@ That's number one. Number two, when molecules have multiple stable configuration
 
 **Jerod Santo:** I appreciated how ChatGPT-5 tried to answer the three C's in a row... Because it would come up with words with two Cs, and then it would throw a third C in there and be like "Nope, that doesn't work..." \[laughs\] Like stucco. It's like, "Stucco has two Cs. Let me add a third C", and it's like "Nope, that's not the word stucco." \[laughs\] Oh, I was enjoying that back here. Okay...
 
-**E. David Aja:** \[00:35:53.29\] The world's smartest five-year-old \[unintelligible 00:35:52.16\]
+**E. David Aja:** \[35:53\] The world's smartest five-year-old \[unintelligible 00:35:52.16\]
 
 **Jerod Santo:** Yeah. That's why it's GPT-5, it's for five years old. Okay... Six definitions of acciaccatura. Number one, a brief grace note played before a principal note, then immediately released. Number two, the order of operations for actions that must first precede other actions before being executed. Number three, a partial eclipse of a planet formed by multiple moons. Number four, a fungal infection affecting the forearms. Number five, a genus of fungi native to South American rainforests. And number six, when a material has a single plane of shear resistance... \[laughter\] I tried... I tried really hard. Okay... \[laughter\] Matthew, you are up first this round.
 
@@ -772,7 +772,7 @@ That's number one. Number two, when molecules have multiple stable configuration
 
 **Taylor Troesh:** No, my grandma led me astray. I'm not falling prey to the shear resistance once again.
 
-**Jerod Santo:** \[00:40:16.21\] He's resisting shear resistance.
+**Jerod Santo:** \[40:16\] He's resisting shear resistance.
 
 **Taylor Troesh:** Yeah, she actually -- my grandma told me that that acciaccatura is an eclipse... But I'm not trusting her, so I'm gonna go for the grace note and pile on.
 
@@ -866,7 +866,7 @@ That's number one. Number two, when molecules have multiple stable configuration
 
 **Matthew Sanabria:** That's the only author you know... \[laughs\]
 
-**Jerod Santo:** \[00:44:04.06\] Yeah. Shakespeare, and... I don't know. Yup, that's it. I can't think of another one. Here we go...
+**Jerod Santo:** \[44:04\] Yeah. Shakespeare, and... I don't know. Yup, that's it. I can't think of another one. Here we go...
 
 **Matthew Sanabria:** Alright, alright.
 
@@ -944,7 +944,7 @@ Okay. Everyone's in. Alright, so six potential autocompletes for the search "Ste
 
 **Jerod Santo:** "Steve Jobs daughter", "Steve Jobs wife", "Steve Jobs death." That's six. This round, the person who gets to go first is David.
 
-**E. David Aja:** \[00:48:23.24\] These are largely depressingly plausible...
+**E. David Aja:** \[48:23\] These are largely depressingly plausible...
 
 **Jerod Santo:** Yeah, exactly.
 
@@ -1068,7 +1068,7 @@ Alright... We've got daughter, or wife... You know, I'm going to go with daughte
 
 **Taylor Troesh:** Nice.
 
-**Jerod Santo:** \[00:52:14.11\] Good job, Adam. You get one point for David and Matthew. You don't score any points for guessing your own, but you did convince people.
+**Jerod Santo:** \[52:14\] Good job, Adam. You get one point for David and Matthew. You don't score any points for guessing your own, but you did convince people.
 
 **Adam Stacoviak:** Oh yeah, I forgot I guessed my own. \[laughs\] Whoops...
 
@@ -1086,7 +1086,7 @@ Alright... We've got daughter, or wife... You know, I'm going to go with daughte
 
 Alright, so after round four, we still have Matthew and David tied, with eight. That makes sense. Did you guys score that round? No, you did not. Just making sure my calculator is working... Matthew and David have eight. Taylor has seven. Thomas has six. Adam has six... This is a very tight game of \#define. We move now to round five.
 
-**Break**: \[00:53:44.15\]
+**Break**: \[53:44\]
 
 **Jerod Santo:** We're moving on to round five, where we play a round of "Weird flicks, but okay..." In this round, I have gone out to the interwebs and I have found an obscure old movie...
 
