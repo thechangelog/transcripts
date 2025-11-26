@@ -120,7 +120,7 @@ Pretty cool stuff, but downloader beware: as of now, there's a bug in Android's 
 
 That's the news for now, but go and subscribe to the Changelog Newsletter for the full scoop of links worth clicking on. Such as:
 
-- [The fate of “small” open source](https://nolanlawson.com/2025/11/16/the-fate-of-small-open-source/)
+- [The fate of “small” open source](https://nolanlawson.com/2025/11/16/the-fate-of-small-open source/)
 - [Fully automatic censorship removal for language models](https://github.com/p-e-w/heretic)
 - [I think nobody wants AI in Firefox, Mozilla](https://manualdousuario.net/en/mozilla-firefox-window-ai/)
 
