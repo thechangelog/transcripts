@@ -26,7 +26,7 @@ So tell me about this website... I know how it works, I've described it on the s
 
 **Jerod Santo:** How do you do that?
 
-**Spencer Chang:** \[00:07:57.17\] I basically, just pull random content from the archive for a specific time period, and it's just filtered by media type. So I'm pulling images, I'm pulling audio, and I'm putting video files... And there's no -- yeah, almost no curation whatsoever, because I wanted it to be a very... I wanted it to be an authentic look of the spectrum of things that are on there.
+**Spencer Chang:** \[07:57\] I basically, just pull random content from the archive for a specific time period, and it's just filtered by media type. So I'm pulling images, I'm pulling audio, and I'm putting video files... And there's no -- yeah, almost no curation whatsoever, because I wanted it to be a very... I wanted it to be an authentic look of the spectrum of things that are on there.
 
 **Jerod Santo:** Gotcha.
 
@@ -58,7 +58,7 @@ So tell me about this website... I know how it works, I've described it on the s
 
 **Jerod Santo:** So Stumble Upon used to be -- it was a Firefox extension. I'm sure it's still out there, in some form or the other; probably bought by three different private equity companies at this point. It was just for fun and discovery. And it was a Firefox extension, and probably other browsers too, that you would throw in your tab bar when you're bored, and you would just click a button and it would send you to a quasi random place on the internet.
 
-\[00:12:03.14\] And they had curation, I think, and they were trying to send you interesting stuff, which is kind of why you appreciated it... Because you're going to stumble upon some pretty cool stuff. It wasn't terrible. You're almost guaranteed to enjoy what you're going to land on. And your website reminded me of that, because it was almost like you hit Stumble Upon and you just like clicked on the button like 75 times, and you're just loading them all into the DOM. That's what it felt like.
+\[12:03\] And they had curation, I think, and they were trying to send you interesting stuff, which is kind of why you appreciated it... Because you're going to stumble upon some pretty cool stuff. It wasn't terrible. You're almost guaranteed to enjoy what you're going to land on. And your website reminded me of that, because it was almost like you hit Stumble Upon and you just like clicked on the button like 75 times, and you're just loading them all into the DOM. That's what it felt like.
 
 **Spencer Chang:** Yeah.
 
@@ -92,7 +92,7 @@ So tell me about this website... I know how it works, I've described it on the s
 
 **Jerod Santo:** And you certainly did.
 
-**Break**: \[00:13:20.18\]
+**Break**: \[13:20\]
 
 **Jerod Santo:** Is this a common thing for you? Or do you pick up grants, or - what do you call them? ...people give you money to create... Or is this an uncommon thing?
 
@@ -108,7 +108,7 @@ So tell me about this website... I know how it works, I've described it on the s
 
 **Jerod Santo:** Sure.
 
-**Spencer Chang:** \[00:16:13.04\] I think it's actually just like -- it felt like the most natural progression of it. So I worked at Coda for three and a half years, which - for those who aren't familiar, is in the document database editing space. And I got into that because I was very inspired by a lot of the research and HCI stuff behind it, like Dynamicland, and Bret Victor, and creating software a lot more accessible to people. Now it's interesting, because a lot of that is coming true, at least the democracy of creating software... But yeah, I felt like what we were missing was -- I thought there needed to be an equal cultural change, as well as technology change, to get people interested and invested in taking agency over technology. If you look four or five years back, there wasn't a broad societal sort of interest, or even awareness of the political power of software. I think it's changing now, with all of the effects of AI and stuff... But yeah, I felt like I wanted to bring those two together. So sort of where I am, I thought that allowed me to both push for a technological change, but also a cultural change.
+**Spencer Chang:** \[16:13\] I think it's actually just like -- it felt like the most natural progression of it. So I worked at Coda for three and a half years, which - for those who aren't familiar, is in the document database editing space. And I got into that because I was very inspired by a lot of the research and HCI stuff behind it, like Dynamicland, and Bret Victor, and creating software a lot more accessible to people. Now it's interesting, because a lot of that is coming true, at least the democracy of creating software... But yeah, I felt like what we were missing was -- I thought there needed to be an equal cultural change, as well as technology change, to get people interested and invested in taking agency over technology. If you look four or five years back, there wasn't a broad societal sort of interest, or even awareness of the political power of software. I think it's changing now, with all of the effects of AI and stuff... But yeah, I felt like I wanted to bring those two together. So sort of where I am, I thought that allowed me to both push for a technological change, but also a cultural change.
 
 **Jerod Santo:** And you're pretty good at it, because it's allowing you to live, which - the stereotype of the starving artist is not just a stereotype. There's a lot of artists that don't make any money off of their art, but it's nice that you're able to create... You kind of live at this intersection of art and technology, and there's lots of money on one half of that intersection, on the technology side. So it's kind of a nice place to live, right?
 
@@ -122,7 +122,7 @@ So tell me about this website... I know how it works, I've described it on the s
 
 **Spencer Chang:** Yeah... I have felt slivers of that tension. Only in the space where I've had to be the most business about it, which is - I have a shop for these Internet Sculptures I make, where I put digital experiences into ceramic and other material objects... Just because that involves a lot of manual labor. I'm making every one of them by hand, so there's a lot of repeated processes. And that definitely sometimes could be like --
 
-**Jerod Santo:** \[00:20:17.22\] So everytime you get an order, you're like "Dang it." \[laughter\]
+**Jerod Santo:** \[20:17\] So everytime you get an order, you're like "Dang it." \[laughter\]
 
 **Spencer Chang:** Yeah. Sometimes it's just like "Okay, I'm spending several hours making all these by hand. Dang."
 
@@ -144,7 +144,7 @@ I sort of just stumbled upon it. I was taking a ceramics class with my partner, 
 
 **Spencer Chang:** ...and I could see how the experience of my website connected to that was so much more meaningful than just them experiencing it in isolation. And so yeah, that's how I just ended up like "Okay, there's something interesting here", and how I started experimenting more.
 
-**Jerod Santo:** \[00:23:08.13\] Yeah, I love that concept. I have heard it one time previously, and I can't quite put my finger on it, but it was at a conference and there was a person who was like... I think they said "Do you want my website?", or something like that, and they handed us a thing. And I'm like "What is this?" And it's an experience. So like "Put your phone up to it." It's a conversation starter, it's different... The technology is pretty straightforward, you know. It's like the same thing as a QR code, basically. You're just encoding some sort of address that gets opened, or whatever. But that doesn't make it not cool. I mean, it kind of makes it even cooler. It's so simple, and yet the melding of the two worlds in a unique way is what is memorable. And unfortunately for this person, it's not memorable enough that I can give them a shout-out, but...
+**Jerod Santo:** \[23:08\] Yeah, I love that concept. I have heard it one time previously, and I can't quite put my finger on it, but it was at a conference and there was a person who was like... I think they said "Do you want my website?", or something like that, and they handed us a thing. And I'm like "What is this?" And it's an experience. So like "Put your phone up to it." It's a conversation starter, it's different... The technology is pretty straightforward, you know. It's like the same thing as a QR code, basically. You're just encoding some sort of address that gets opened, or whatever. But that doesn't make it not cool. I mean, it kind of makes it even cooler. It's so simple, and yet the melding of the two worlds in a unique way is what is memorable. And unfortunately for this person, it's not memorable enough that I can give them a shout-out, but...
 
 But I've also seen this recent trend at conferences of like coinage being handed out as gifts, or as rewards, or even just a way to stay in touch... And I don't think I've seen any of those. I know Amazon does one, I have one from -- we were at Oxide's office a couple weeks ago and they had little Oxide coins, that are just cool things that you're going to go and... I think I put it over on the shelf over there. It'd be sweet if it had some sort of thing in there that -- and maybe it does, and I should go try. But no one said that. So what other stuff? I think the fortune cookie one's a cool example, because it's not just a URL; it's a fortune, right? So what other stuff are you putting into these objects?
 
@@ -220,7 +220,7 @@ But I've also seen this recent trend at conferences of like coinage being handed
 
 **Jerod Santo:** Gotcha.
 
-**Spencer Chang:** \[00:28:04.20\] Most of the experiences I do rely on just websites, and doing interesting stuff there... But I do wish -- iPhone in general is very protective about NFC access, which definitely limits what you can do...
+**Spencer Chang:** \[28:04\] Most of the experiences I do rely on just websites, and doing interesting stuff there... But I do wish -- iPhone in general is very protective about NFC access, which definitely limits what you can do...
 
 **Jerod Santo:** \[unintelligible 00:28:20.15\] just walk by somebody and get close enough that they have an NFC chip, and they can -- whatever they want to do. So I understand why they keep it close to the vest... But it certainly limits the art, doesn't it?
 
@@ -294,7 +294,7 @@ But I've also seen this recent trend at conferences of like coinage being handed
 
 **Spencer Chang:** Yeah. I do these experiments, some of them feel cohesive enough, repeatable enough to be products, they go in the Internet Sculptures shop. It also serves as a vehicle to do collaborations with companies or organizations if they want custom ones... And yeah, the manifestation of all those things is in this latest project, Computing Shrines, which is a sculptural version of these same concepts, where you take larger sculptures and create a more immersive digital experience that's only accessible at the sculpture. So it creates this very direct physical to digital bond. And all of them are basically collective experiences. So they have some interaction with visitors who have been there before.
 
-\[00:32:09.25\] So one of them is like a -- it's like a phone booth made out of acrylic. You place your phone -- it's like a phone booth for your phone. So you place your phone inside the phone booth, and the website or the web experience is a voice sharing thing, where you hear just the last person's voice, and then once you listen to it, you can record a message for the next person...
+\[32:09\] So one of them is like a -- it's like a phone booth made out of acrylic. You place your phone -- it's like a phone booth for your phone. So you place your phone inside the phone booth, and the website or the web experience is a voice sharing thing, where you hear just the last person's voice, and then once you listen to it, you can record a message for the next person...
 
 **Jerod Santo:** Oh...
 
@@ -334,7 +334,7 @@ So I like this idea of ripples in water... They have this ripple effect, but eve
 
 **Spencer Chang:** Yeah. So there's one that's -- so the phone booth is shrine to voice, and there's another one that's shrine to earth, and it's inspired by the rock stacking practice specifically. So I transformed this large boulder, and embedded it with some chips, and the experience is effectively like a rock stacking experience. You load up the website, all of these rocks come falling down, and they're all rocks that have been uploaded by someone who went there... And so you're able to offer a rock to the shrine. So it accesses your photos, it prompts you to search for a rock, it'll verify it's a rock...
 
-**Jerod Santo:** \[00:35:55.27\] \[laughs\] I can tell you've put some work into that one... That was very important to you.
+**Jerod Santo:** \[35:55\] \[laughs\] I can tell you've put some work into that one... That was very important to you.
 
 **Spencer Chang:** \[laughs\] \[unintelligible 00:35:59.02\] I wanted it to be like -- if I could tweak the model, I wanted it to be like if someone uploaded Dwayne Johnson, the Rock, I wanted it to accept that.
 
@@ -370,7 +370,7 @@ So I like this idea of ripples in water... They have this ripple effect, but eve
 
 **Spencer Chang:** Yeah. Which is interesting. It's like, that's the kind of thing I want to do, because I've worked on open source on a lot of my projects as well too, and I think a lot of my philosophy is around technology as a sort of public good... And so this is an interesting parallel to that in a very physical universe... So yeah, I'm going to figure out how the funding works. But at least for now it hasn't gone large scale enough that it's prohibitively expensive. I guess I'll cross that path when it comes to it.
 
-**Break**: \[00:38:47.07\]
+**Break**: \[38:47\]
 
 **Jerod Santo:** One of the things you say on your website is that you try to create perpetual energy. Now, I grew up in a world where there was no such thing, so I assume this is aspirational... But I'm curious your thoughts behind that statement.
 
@@ -408,7 +408,7 @@ I think the thing that I strive for most in the things I make is that people can
 
 **Spencer Chang:** And so yeah, I just felt like this paradox of so many millions of people are using modern social media platforms at any given moment, but the actual experience of using the site is very solitary. You have a personal feed, no one else is seeing the same thing that you are in that given moment. There's sort of like a gap between that. And I think having this primitive of like what you do has effect for everyone else - that forms an interesting foundation for new, I don't know, digital social interactions. So that was sort of the premise of the project, and trying to make more interesting digital social spaces using it.
 
-**Jerod Santo:** \[00:48:27.08\] There's certainly been a lot of interesting gaming, and maybe even just toy experiences online the last 5 or 10 years that have been driven by a similar component, where it's like we're all experiencing the same thing at the same time. I can't remember who it is, whether it's Neil.fun, or there's another website where they create a lot of cool, interactive games...
+**Jerod Santo:** \[48:27\] There's certainly been a lot of interesting gaming, and maybe even just toy experiences online the last 5 or 10 years that have been driven by a similar component, where it's like we're all experiencing the same thing at the same time. I can't remember who it is, whether it's Neil.fun, or there's another website where they create a lot of cool, interactive games...
 
 **Spencer Chang:** Yeah... Nolan?
 
@@ -456,7 +456,7 @@ I think the thing that I strive for most in the things I make is that people can
 
 **Spencer Chang:** Yeah, it's just cool to see what ideas are possible with it. For example, someone made a horse racing game, where there's four horses, and then you just pick a horse, and then you just click on the horse really fast, and it starts moving...
 
-**Jerod Santo:** \[00:52:17.26\] That's like straight out of the carnival game. You just point the water at it, you know? \[laughs\]
+**Jerod Santo:** \[52:17\] That's like straight out of the carnival game. You just point the water at it, you know? \[laughs\]
 
 **Spencer Chang:** Yeah, exactly. Someone made this tug of war game, where you click one side or the other, and everyone's clicks are powering it, and \[unintelligible 00:52:32.10\] going between the two poles...
 
