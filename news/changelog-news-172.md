@@ -49,7 +49,7 @@ Is this a long-term sustainable approach to avoiding AI slop? Absolutely not. Wi
 
 **Jerod Santo:**
 
-[Zig moves off GitHub](https://ziglang.org/news/migrating-from-github-to-codeberg/)
+[Zig moves off GitHub](https://ziglang.org/news/migrating-from-GitHub-to-codeberg/)
 
 Zig creator, Andrew Kelley, explains why he's taking his programming language and going <strike>home</strike> to [Codeberg](https://codeberg.org/ziglang/zig):
 
