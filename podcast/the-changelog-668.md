@@ -36,7 +36,7 @@
 
 **Bill Beutler:** I'll tell you one that's even more obscure. Probably many people have learned about npov over time. I'll give you another one that is used by editors really in the know, and that is called NOTHERE. All caps, N-O-T-H-E-R-E. And this is when you're dealing with a problem editor. Wikipedia tries to give benefit of the doubt to new editors coming in; if they mess something up, you want to assume good faith. And there's actually a policy that says "Assume good faith." But at a certain point, that could be abused, and you have to no longer do that. And so NOTHERE is shorthand for "Not here to build an encyclopedia." So if two veteran editors are discussing a third editor, and one says the other is not here, that is a signal that someone's getting ready to break out the band hammer, or put someone on suspension.
 
-**Jerod Santo:** \[00:08:03.00\] What are the official rules? I know there's something like no first-party sources, or like there's specific things where if I'm just going to become an editor, I assume I go read a document that tells me "Here's how it's going to work." Can you just lay the base foundation for how pages come to be, or edits come to be? Principally, not technically.
+**Jerod Santo:** \[08:03\] What are the official rules? I know there's something like no first-party sources, or like there's specific things where if I'm just going to become an editor, I assume I go read a document that tells me "Here's how it's going to work." Can you just lay the base foundation for how pages come to be, or edits come to be? Principally, not technically.
 
 **Bill Beutler:** Yeah. Let me start with the superstructure of the rules, and we can get into some of the more specifics. So there's not one document you'd be reading; it's many, many documents. And when I got into Wikipedia, 20-some years ago, I was a much younger man then. I was single, and I had free time, and I would spend my hungover Sunday mornings just reading endless policy pages on Wikipedia.
 
@@ -70,7 +70,7 @@ By the way, if there is not a clear country of origin... Yogurt is one topic tha
 
 **Jerod Santo:** Crazy. And you actually created a company around this, because anytime you have a website as massive, that becomes kind of the standard of record. When things are on Wikipedia it doesn't mean they're true, but it means they're at least vetted to a certain extent, and people accept it as true.
 
-\[00:12:03.24\] And so PR is a huge aspect of that, because you are in control of your page, or a topic's page. If you're a public figure, you want to be painted in a good light. Maybe you want a scandal hidden etc. If you're a business, you may want to just maintain your reputation... I'm not saying you're doing scandalous PR stuff. I'm not sure what you're doing, but I assume you're helping businesses engage correctly with Wikipedia. How'd you get into that?
+\[12:03\] And so PR is a huge aspect of that, because you are in control of your page, or a topic's page. If you're a public figure, you want to be painted in a good light. Maybe you want a scandal hidden etc. If you're a business, you may want to just maintain your reputation... I'm not saying you're doing scandalous PR stuff. I'm not sure what you're doing, but I assume you're helping businesses engage correctly with Wikipedia. How'd you get into that?
 
 **Bill Beutler:** Yeah, I mean, the last part is definitely correct. We help our clients influence how Wikipedia writes about them, but also while following the rules of engagement for PR. So my career goes back to the early 2000s. I was a political journalist early in my career, working in Washington D.C. And around this time, the political blogosphere, which - I don't know if that even really still exists. It's all kind of like coalesced into -- Substack has kind of made a little bit of a comeback...
 
@@ -80,7 +80,7 @@ By the way, if there is not a clear country of origin... Yogurt is one topic tha
 
 I probably wouldn't have done it exactly the same way today, but this was like showing some foresight, showing some kind of respect for the fact that other people had views about how things were done on Wikipedia... It put me in a good headspace to kind of diplomatically work through issues. And in particular, the company I worked for at the time, it had clients like -- you know, one they had back then was Domino's Pizza. And there's this teeny tiny - scandal's even the wrong word, but a negative news story from way back then, where someone at a Domino's somewhere, an employee, was doing disgusting things with the pizza, like blowing snot into it, or whatever. And it made the news. So someone had added it to Wikipedia, it was it was true, it had a source in theory... That's all you need for Wikipedia. But I was able to make the case that these were just some random, low-level employees. This was not something that had buy-in from the corporate structure. In fact, the company responded quickly. And I got editors to agree that, "You know what? This is trivial." It was not something that needed to be in the Domino's page.
 
-\[00:15:56.14\] And so that was probably one of the big a-ha moments, was if I make a good enough case, I can persuade editors that the Wikipedia article should say something different, in part, as you said, because it has the power... And even more so now than then, it has the power to affect the reputations of the subject it covers.
+\[15:56\] And so that was probably one of the big a-ha moments, was if I make a good enough case, I can persuade editors that the Wikipedia article should say something different, in part, as you said, because it has the power... And even more so now than then, it has the power to affect the reputations of the subject it covers.
 
 **Jerod Santo:** Is there a maximum length, or there's a point where it's like -- because you could just put everything about Domino's you could possibly gather, and at a certain point it becomes too much information.
 
@@ -116,7 +116,7 @@ But to your question about like -- because it's similar to the open source commu
 
 So the numbers I'm going to give you are going to be very approximate, and they're just kind of offered for demonstrative purposes, not to be quoted as accurate... And these numbers are very findable. But let's say that there's 3000 editors who are editing every single day, often hours a day. And they are really like the core group that keeps Wikipedia going. And a lot of them are not always writing the articles that you read. They are kind of arguing over policy, banning problem editors, and kind of working out kind of the structure of the behind the scenes; all the behind the scenes stuff, janitorial stuff at best. I don't know about at best... But you know, Wikipedia has an arbitration committee that is sometimes considered to be Wikipedia's Supreme Court... They're in that 3000.
 
-\[00:20:18.25\] And you've got maybe 30,000 editors who are editing in a given month. I'm in that group. I don't edit as often as I used to in the early years... And there's also definitely a lifespan. There's... I'm forgetting the term I'm looking for here, but like a course of events, where...
+\[20:18\] And you've got maybe 30,000 editors who are editing in a given month. I'm in that group. I don't edit as often as I used to in the early years... And there's also definitely a lifespan. There's... I'm forgetting the term I'm looking for here, but like a course of events, where...
 
 **Jerod Santo:** Yeah, like a lifecycle.
 
@@ -136,7 +136,7 @@ So the numbers I'm going to give you are going to be very approximate, and they'
 
 If you're having us do it, then we're going to decide what we're going to be willing to ask for or not. If the company is the one who's out there with the disclosure, it's all on them. If they want to push a little harder on something that's in the gray area, we might be willing to do that... But the fact is - yes, there is an aspect of reputation where we're likely to get faster replies, myself or my colleagues, because editors will be more likely to recognize us. On the other hand though, there's thousands of editors out there, and they don't all know us. So there are projects where we work on the Talk page, communicating for a company, and we'll be talking to editors we've never run across before. So there's no -- Wikipedia is all shades of gray. There's never any one right way to do everything.
 
-**Jerod Santo:** \[00:23:55.02\] So a lot of sites or a lot of tech companies, because of their location and their employee base and stuff, they tend to lean to the left side of the political spectrum here in the United States. And there's lots of claims that Wikipedia also is captive to that. And I'm curious your perspective from a "in the trenches" kind of guy who's getting changes done... Do you see overwhelming political leanings, generally speaking, in Wikipedia? Do you think that that's bonk? What are your thoughts on that?
+**Jerod Santo:** \[23:55\] So a lot of sites or a lot of tech companies, because of their location and their employee base and stuff, they tend to lean to the left side of the political spectrum here in the United States. And there's lots of claims that Wikipedia also is captive to that. And I'm curious your perspective from a "in the trenches" kind of guy who's getting changes done... Do you see overwhelming political leanings, generally speaking, in Wikipedia? Do you think that that's bonk? What are your thoughts on that?
 
 **Bill Beutler:** So the point about companies and their lean - I mean, they certainly did, I would say, in the Obama administration, Obama era... But especially now, in Trump too, I think that they kind of blow which way the winds are going.
 
@@ -160,7 +160,7 @@ So one of the big complaints would be "Well, we can't use Breitbart, or The New 
 
 **Bill Beutler:** Yeah. I mean, you can definitely discuss it in terms that are not explicitly left/right political. There's kind of a truism that if there is no visible hierarchy in an organization or a community, then it becomes an invisible hierarchy. And so that is 100 percent true at Wikipedia. And to my knowledge, nobody has ever, say, mapped out exactly what that looks like...
 
-\[00:27:54.27\] If you were to look at Wikipedia's own maintained list of the most active editors in Wikipedia, within that top 50 or so, you're going to find some of those editors who are, just by virtue of being there all the time, the ones who they know the most policy, they have the most connections... And in certain topic areas - there are topic areas that do get captured by the contributors. Most of those are not necessarily the most active pages. A lot of times that's in a little out of the way places where most editors don't care to spend any time there... And so - you know what? When I talked about the rules of Wikipedia, I mentioned the policies and the guidelines. I didn't mention that there are five pillars of Wikipedia, which are like Wikipedia's encyclopedia, Wikipedia has no firm rules, etc. etc, things like that. There's a sixth pillar that people sometimes refer to, and that is "The person who cares the most ends up getting their way." \[laughs\]
+\[27:54\] If you were to look at Wikipedia's own maintained list of the most active editors in Wikipedia, within that top 50 or so, you're going to find some of those editors who are, just by virtue of being there all the time, the ones who they know the most policy, they have the most connections... And in certain topic areas - there are topic areas that do get captured by the contributors. Most of those are not necessarily the most active pages. A lot of times that's in a little out of the way places where most editors don't care to spend any time there... And so - you know what? When I talked about the rules of Wikipedia, I mentioned the policies and the guidelines. I didn't mention that there are five pillars of Wikipedia, which are like Wikipedia's encyclopedia, Wikipedia has no firm rules, etc. etc, things like that. There's a sixth pillar that people sometimes refer to, and that is "The person who cares the most ends up getting their way." \[laughs\]
 
 **Jerod Santo:** Wow...
 
@@ -172,7 +172,7 @@ So one of the big complaints would be "Well, we can't use Breitbart, or The New 
 
 And one of the things about Wikipedia that I find really to be fascinating, probably one of the reasons why I got drawn to the project in the first place, was life does not have a black and white answers for many, many things. One plus one equals two, yes... But the right form of government is something that can change over time, even. As democracy works in the United States, it has had a harder time in other countries... It's not because democracy itself is bad or wrong in some other place, it can be about what the culture around it is. And so there's just no way that you can set it and forget it with Wikipedia, or with all the topics it covers. There's no substitute for the daily task of rolling up your sleeves, getting in there, and making sure that things stay correct. And that's why Wikipedia's job will never be done. It's an ideological informational battle that rages on around us, and never will go away. If it goes away, then there's a problem. If Wikipedia calms down, that is when I get worried. As long as people are arguing about it, you know it's healthy.
 
-**Break:** \[00:31:23.04\]
+**Break:** \[31:23\]
 
 **Jerod Santo:** So one of the things I've been telling people who don't understand how all these new AI chatbots are doing what they do - just as a mental model, I know it's not actually true. I just say "Just imagine that they're kind of reading Wikipedia to you." Like, they basically read the page so you don't have to, and then they summarize it. I mean, obviously that's a simplification and not always true, but certainly, these things have all read Wikipedia and continue to, right?
 
@@ -206,7 +206,7 @@ I would say that because of the rise of AI search and the widespread awareness t
 
 **Jerod Santo:** Please do.
 
-**Bill Beutler:** \[00:36:00.19\] Yeah. That it's more important than it was two years ago. Or people have realized that, and so it's more front of mind. So not to get too much into my business specifics, but this has been a really interesting year. It was kind of a rocky first half of the year, and I think that had something to do with the election, and brands kind of sitting on budgets, waiting to see... But then by the middle of the year, the AI -- like, this is really the year, in multiple ways, where AI became part of business workflows. People had to figure out how to make use of it, even outside of technical circles. And so the second half of the year has been crazy for us. We really have not seen this kind of interest in a long time... Because all of a sudden there's now -- it's not just Google as a driver. But that was historically the driver of clients to us, because Google relies on Wikipedia, it shows up at the top of some of these search results... Now there's a whole second driver, and that's ChatGPT.
+**Bill Beutler:** \[36:00\] Yeah. That it's more important than it was two years ago. Or people have realized that, and so it's more front of mind. So not to get too much into my business specifics, but this has been a really interesting year. It was kind of a rocky first half of the year, and I think that had something to do with the election, and brands kind of sitting on budgets, waiting to see... But then by the middle of the year, the AI -- like, this is really the year, in multiple ways, where AI became part of business workflows. People had to figure out how to make use of it, even outside of technical circles. And so the second half of the year has been crazy for us. We really have not seen this kind of interest in a long time... Because all of a sudden there's now -- it's not just Google as a driver. But that was historically the driver of clients to us, because Google relies on Wikipedia, it shows up at the top of some of these search results... Now there's a whole second driver, and that's ChatGPT.
 
 **Adam Stacoviak:** It's interesting to think about that though, because you've got these non-interfaces interfaces to Wikipedia... Like you said, the website not being there, Jerod. I think we still need -- I think what you're saying is we need this source of truth. I think so long as we have that centralized and societally elected source of truth, then Wikipedia still has a pretty good underpinning in terms of its foothold to being just that. I can't imagine that the LLMs extracting that, and being trained on that supplants that, because you still need -- those are distributed. You've got various frontier models. They're not all controlled by one... And so they're disparate sources of truth, if you want to call them that. And they're really just copies of the truth, not the actual source.
 
@@ -242,7 +242,7 @@ I would say that because of the rise of AI search and the widespread awareness t
 
 **Bill Beutler:** I mean, this is why they no-follow it. Exactly.
 
-**Jerod Santo:** \[00:39:53.25\] Yeah. I understand why they no-follow it. It would be so many more edits if they didn't. But yeah, I just kind of gave up. I think I did two or three, and I was like "This is not worth the squeeze."
+**Jerod Santo:** \[39:53\] Yeah. I understand why they no-follow it. It would be so many more edits if they didn't. But yeah, I just kind of gave up. I think I did two or three, and I was like "This is not worth the squeeze."
 
 **Bill Beutler:** Yeah. And this is why we work with SEO firms a lot less than we work with PR firms.
 
@@ -272,7 +272,7 @@ I would say that because of the rise of AI search and the widespread awareness t
 
 So this is still true today... If they were to start charging for it, they could -- and then you know what? I should be careful. There is a one part of the Wikimedia Foundation that is charging for some parts of it. So the Wikimedia Enterprise is a for profits company inside the Wikimedia Foundation. And I guess I should say they were a one-time client of ours a few years ago. Not now. But I still have friends there. And they do offer up a professional version of the Wikimedia API, which is much more reliable, it has guaranteed uptimes, and an SLA... Which the regular Wikipedia API, which my firm does use for monitoring software that we built and maintain - it's an unwieldy API.
 
-\[00:44:00.16\] As Wikipedia's knowledge is useful, but untamed, so too is their free API... And so they're never, however, going to charge, say, the AI companies for the main unvarnished product. But what they did do a few months ago was they did -- like, the Wikimedia Foundation was annoyed with the big AI companies for putting strain on their servers by crawling the pages, using up a lot of their server time. And so what they did is they put out a couple of different cleaned up versions of it that they were like "Hi, Open AI. Hi, Anthropic. Please, please, please crawl this one. Don't crawl our main site. We'll give this one away for free. You can crawl it." But they can't, due to their licensing, force them to use it. They're not charging for it. Does anybody use it? I don't know the answer to that, and I'm not even sure the foundation knows the answer.
+\[44:00\] As Wikipedia's knowledge is useful, but untamed, so too is their free API... And so they're never, however, going to charge, say, the AI companies for the main unvarnished product. But what they did do a few months ago was they did -- like, the Wikimedia Foundation was annoyed with the big AI companies for putting strain on their servers by crawling the pages, using up a lot of their server time. And so what they did is they put out a couple of different cleaned up versions of it that they were like "Hi, Open AI. Hi, Anthropic. Please, please, please crawl this one. Don't crawl our main site. We'll give this one away for free. You can crawl it." But they can't, due to their licensing, force them to use it. They're not charging for it. Does anybody use it? I don't know the answer to that, and I'm not even sure the foundation knows the answer.
 
 So there's a lot of interesting questions like this that we won't know the answer to, I suppose, for a long time. And to your question earlier about "Will people contribute if they don't see the page show up in search results?", so there's not the same glory in their work being in the limelight of the top of Google search results. I will say that for the current generation of editors, for the people who built Wikipedia, that does not matter. They do it because they love it.
 
@@ -306,7 +306,7 @@ The real question - and this has been a conversation I've heard at a few Wikiped
 
 **Jerod Santo:** \[laughs\] Nice.
 
-**Adam Stacoviak:** \[00:48:10.02\] Wow, good. Amazing.
+**Adam Stacoviak:** \[48:10\] Wow, good. Amazing.
 
 **Bill Beutler:** Yeah. It's super-fun.
 
@@ -340,7 +340,7 @@ The real question - and this has been a conversation I've heard at a few Wikiped
 
 **Bill Beutler:** Alright, so I'll cite some more policy at you... Let's see. So there's going to be the primary sources, there's going to be the biography of living persons... And then there's going to be another one that's actually an essay, but it's very influential. I'll start with the essay. And this one really throws people for a loop oftentimes, that Wikipedia's goal is verifiability, not truth. And this owes something to the fact that truth is a really difficult subject. Again, one plus one equals two - true. Matters of perspective - much harder to say what the truth is. So that's one thing - Wikipedia is not a place to write down things that you know are true.
 
-**Jerod Santo:** \[00:52:24.28\] Verifiability is the most important thing.
+**Jerod Santo:** \[52:24\] Verifiability is the most important thing.
 
 **Bill Beutler:** Verifiability.
 
@@ -368,7 +368,7 @@ And I will say, there is actually a very unpopular and a very little followed po
 
 **Jerod Santo:** I like that one.
 
-**Bill Beutler:** \[00:55:55.27\] It seems great. It seems like a good, helpful thing. But then you get back into applying editorial judgment calls, and I think here we are, Wikipedia being a quarter century old, everybody knows how important it is... There's a lot of like caution around sticking your neck out. And so there are so many arguments about all kinds of issues, large and small in Wikipedia, that sometimes editors can be just cautious, and you know, if I don't have to get involved in this thing, I don't really care about it, I'm going to excuse myself from the conversation, or just never show up. I've been kind of working on this guy's Talk page for a couple of years, and not constantly, but trying different angles every now and then, and still hasn't got there.
+**Bill Beutler:** \[55:55\] It seems great. It seems like a good, helpful thing. But then you get back into applying editorial judgment calls, and I think here we are, Wikipedia being a quarter century old, everybody knows how important it is... There's a lot of like caution around sticking your neck out. And so there are so many arguments about all kinds of issues, large and small in Wikipedia, that sometimes editors can be just cautious, and you know, if I don't have to get involved in this thing, I don't really care about it, I'm going to excuse myself from the conversation, or just never show up. I've been kind of working on this guy's Talk page for a couple of years, and not constantly, but trying different angles every now and then, and still hasn't got there.
 
 **Jerod Santo:** Is that to remove or to add?
 
@@ -378,7 +378,7 @@ And I will say, there is actually a very unpopular and a very little followed po
 
 **Bill Beutler:** If we can, use the court record, which is publicly available, to say that he's divorced, that would be fine. Also, the reason why he is notable has nothing to do with his family life. So you could remove that, and I think it would not affect the public's understanding of this person's accomplishments. Gotta get a Wikipedia editor who cares enough about it to see it my way. It hasn't happened yet.
 
-**Break**: \[00:57:17.29\]
+**Break**: \[57:17\]
 
 **Adam Stacoviak:** That's interesting, how your edits, given your depth and length there, still get pushed back by the non-cabal, that you said it's not there...
 
