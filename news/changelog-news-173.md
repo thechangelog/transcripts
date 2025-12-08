@@ -26,7 +26,7 @@ If you've been following the *how-do-we-actually-use-ai-in-production* conversat
 
 One possible way of dealing with these "confident idiots" we've introduced into our software stacks the last few years is to "stop treating agents like magic boxes and start treating them like software." Hence, the [Steer SDK](https://github.com/imtt-dev/steer) was created. 
 
-> Steer is an open-source Python library that intercepts agent failures (hallucinations, bad JSON, PII leaks) and allows you to inject fixes via a local dashboard without changing your code.
+> Steer is an open source Python library that intercepts agent failures (hallucinations, bad JSON, PII leaks) and allows you to inject fixes via a local dashboard without changing your code.
 
 Another way of dealing with these "confident idiots" in our software stacks... remove them. If that's possible...
 
