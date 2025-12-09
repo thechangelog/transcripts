@@ -102,7 +102,7 @@
 
 **Jerod Santo:** Yeah.
 
-**Lars Wikman:** \[00:07:58.25\] And I saw that that was part of it. And I'd heard people talk about karate this way before. Karate has never been top of the list of what I wanted to learn... But I figured I'd give it a shot because I think it would benefit me and my wife, but also because I saw the potential for -- so I have a kid, three and five; two kids, three and five. Those numbers are probably safe still.
+**Lars Wikman:** \[07:58\] And I saw that that was part of it. And I'd heard people talk about karate this way before. Karate has never been top of the list of what I wanted to learn... But I figured I'd give it a shot because I think it would benefit me and my wife, but also because I saw the potential for -- so I have a kid, three and five; two kids, three and five. Those numbers are probably safe still.
 
 **Jerod Santo:** For now.
 
@@ -162,7 +162,7 @@
 
 **Jerod Santo:** Totally.
 
-**Adam Stacoviak:** \[00:12:03.24\] They did a great job with that. They closed the loop on so many desires I had for that storyline... They revisited it, they gave backstory, where we don't normally have backstory to the villain... So there was even a lot of theories that were proven correct, or proven false by the traversing of the history, and even fleshing it out and whatnot... So I think that's kind of cool.
+**Adam Stacoviak:** \[12:03\] They did a great job with that. They closed the loop on so many desires I had for that storyline... They revisited it, they gave backstory, where we don't normally have backstory to the villain... So there was even a lot of theories that were proven correct, or proven false by the traversing of the history, and even fleshing it out and whatnot... So I think that's kind of cool.
 
 **Lars Wikman:** Yeah. Johnny got his comeuppance...
 
@@ -228,7 +228,7 @@
 
 **Adam Stacoviak:** Like Jaromír Jágr?
 
-**Lars Wikman:** \[00:16:18.27\] No. He's Czech, I believe.
+**Lars Wikman:** \[16:18\] No. He's Czech, I believe.
 
 **Adam Stacoviak:** Oh, he's Czech. Gosh.
 
@@ -252,7 +252,7 @@
 
 **Lars Wikman:** Yeah, I don't follow any sports these days, but I did follow hockey a little bit in my youth. It was more or less mandatory. And fairly interesting at times.
 
-**Break:** \[00:17:30.28\]
+**Break:** \[17:30\]
 
 **Jerod Santo:** What do you follow? Are you keeping up with Omarchy? Are you keeping up with Arch? Are you keeping up with Nerves? Have you seen the latest Tidewave?
 
@@ -302,7 +302,7 @@
 
 **Jerod Santo:** It's like a rabbit hole?
 
-**Adam Stacoviak:** \[00:23:53.25\] Well, it might derail my brain. It might give me ideas that take me down the Arch lane, versus like -- well, similar to what you said, Jerod; like, while I want to use Arch - and I think you should. I think if you're in the world of Linux, you should try out the distros, and see what works for you. I think that's part of the Linux journey, is building systems, learning which distros support the system you want to build, and finding the system that best supports what you're trying to actually accomplish. And I did not know the requirement of Arch, of the hour-ish of weekly maintenance required... The requirement to read the news prior to even applying the updates, and then the bug that can bite you if you don't, which is what bit me... I also have too much memory in the system. I'm using four DIMMs versus two, and...
+**Adam Stacoviak:** \[23:53\] Well, it might derail my brain. It might give me ideas that take me down the Arch lane, versus like -- well, similar to what you said, Jerod; like, while I want to use Arch - and I think you should. I think if you're in the world of Linux, you should try out the distros, and see what works for you. I think that's part of the Linux journey, is building systems, learning which distros support the system you want to build, and finding the system that best supports what you're trying to actually accomplish. And I did not know the requirement of Arch, of the hour-ish of weekly maintenance required... The requirement to read the news prior to even applying the updates, and then the bug that can bite you if you don't, which is what bit me... I also have too much memory in the system. I'm using four DIMMs versus two, and...
 
 **Lars Wikman:** How dare you...?
 
@@ -378,7 +378,7 @@
 
 **Adam Stacoviak:** Uh, yes... I don't know. It's got the cool stuff, man. It's whatever comes with Fedora 43.
 
-**Lars Wikman:** \[00:27:56.09\] Last I tried the Gnome window manager, I did not enjoy it... But it's been a minute. I run an absolutely bastardized -- it's like, I installed Pop!\_OS originally... So that came with a Gnome variant at the time. And then I was like "But I hear good things about Regolith." And you can just install Regolith, and it will kind of slap on top of your Linux system and modify it in various ways.
+**Lars Wikman:** \[27:56\] Last I tried the Gnome window manager, I did not enjoy it... But it's been a minute. I run an absolutely bastardized -- it's like, I installed Pop!\_OS originally... So that came with a Gnome variant at the time. And then I was like "But I hear good things about Regolith." And you can just install Regolith, and it will kind of slap on top of your Linux system and modify it in various ways.
 
 Regolith was cool, but it wasn't exactly right for me. I tuned it a bunch, and then I was like "Yeah, there's some stuff about Gnome that I'm annoyed with. Let's try KDE." Like, my system is real weird now, because there's a lot of Gnome, and there's a little bit of Regolith, but I'm mainly using KDE. And at some point, I should just switch to - if it's still a thing - Neon, which is like the KDE project, I believe, maintains an Ubuntu variant that is running KDE.
 
@@ -442,7 +442,7 @@ Regolith was cool, but it wasn't exactly right for me. I tuned it a bunch, and t
 
 **Lars Wikman:** ...and then it's like "After these, stop." So it doesn't keep playing your entire library because you never knew what ended up in there.
 
-**Jerod Santo:** \[00:32:07.07\] Gotcha.
+**Jerod Santo:** \[32:07\] Gotcha.
 
 **Lars Wikman:** Or it would just go from A, and keep playing.
 
@@ -492,7 +492,7 @@ Regolith was cool, but it wasn't exactly right for me. I tuned it a bunch, and t
 
 **Jerod Santo:** Yeah.
 
-**Lars Wikman:** \[00:36:19.06\] At like a visceral level. Yeah, I've used DaVinci... Some of the keyboard shortcuts drive me nuts. And some of the workflows absolutely seem bad \*bleep\* to me. But overall, it's very capable. It's very competent. It's just not always wired the same way I am; which is, I suppose, fine. I've used Reaper for podcasts. Reaper is fine. It's more suited to music production, but it works fine for podcasts. Podcasts demand fewer things than music, so...
+**Lars Wikman:** \[36:19\] At like a visceral level. Yeah, I've used DaVinci... Some of the keyboard shortcuts drive me nuts. And some of the workflows absolutely seem bad \*bleep\* to me. But overall, it's very capable. It's very competent. It's just not always wired the same way I am; which is, I suppose, fine. I've used Reaper for podcasts. Reaper is fine. It's more suited to music production, but it works fine for podcasts. Podcasts demand fewer things than music, so...
 
 **Adam Stacoviak:** What would you use for podcasts then, if you're not thinking of Reaper?
 
@@ -544,7 +544,7 @@ Regolith was cool, but it wasn't exactly right for me. I tuned it a bunch, and t
 
 **Jerod Santo:** Sure.
 
-**Lars Wikman:** \[00:39:56.29\] And much like a video --
+**Lars Wikman:** \[39:56\] And much like a video --
 
 **Jerod Santo:** It's a superset of a podcast.
 
@@ -602,7 +602,7 @@ Regolith was cool, but it wasn't exactly right for me. I tuned it a bunch, and t
 
 On the desktop front, I feel like you kind of have to hop around, especially before you really get to your final resting place, maybe, in the Linux world and the distro world... Because I'm still learning a lot about -- I would say pretty much learning all brand new stuff when it comes to desktop Linux, which I've never done before.
 
-\[00:44:07.28\] And so I started with Omarchy just because, there you go... Then it was Arch itself, which - you can see the remnants behind me... And then Fedora 43, which is really awesome... So I'm happy with that exploration so far. That's been the extent of it. A little Ubuntu desktop, but I didn't think it was -- it didn't feel super-polished comparative to, say, Fedora. But it was nice. I like Fedora 43, I like Wayland, I like what they're doing with Gnome, I like the UI design of it, it feels smooth and buttery... So I'm happy there. But I guess I am a hopper in that regard.
+\[44:07\] And so I started with Omarchy just because, there you go... Then it was Arch itself, which - you can see the remnants behind me... And then Fedora 43, which is really awesome... So I'm happy with that exploration so far. That's been the extent of it. A little Ubuntu desktop, but I didn't think it was -- it didn't feel super-polished comparative to, say, Fedora. But it was nice. I like Fedora 43, I like Wayland, I like what they're doing with Gnome, I like the UI design of it, it feels smooth and buttery... So I'm happy there. But I guess I am a hopper in that regard.
 
 **Lars Wikman:** So I think you're in a perfectly normal "I am trying the Linux desktop" phase.
 
@@ -662,7 +662,7 @@ On the desktop front, I feel like you kind of have to hop around, especially bef
 
 **Lars Wikman:** No, no. My OS looks terrible.
 
-**Jerod Santo:** \[00:48:19.16\] \[laughs\] Okay, I take it back.
+**Jerod Santo:** \[48:19\] \[laughs\] Okay, I take it back.
 
 **Lars Wikman:** But it does work.
 
@@ -704,7 +704,7 @@ On the desktop front, I feel like you kind of have to hop around, especially bef
 
 **Adam Stacoviak:** Yeah, like "What is this happening here?" Yeah, it was very challenging.
 
-**Jerod Santo:** \[00:52:06.15\] But it was cool once you figured it out. I mean, it made sense eventually... I guess all software kind of does, if you just rewire your brain to use it.
+**Jerod Santo:** \[52:06\] But it was cool once you figured it out. I mean, it made sense eventually... I guess all software kind of does, if you just rewire your brain to use it.
 
 **Lars Wikman:** Yeah, I don't feel like macOS is going in the right direction... Both in terms of encouraging this phenomenal grassroots in the app movement that they have, but also just where they're taking things. They don't care about that. They don't care about the power users. There are parts of Apple that care about the power users. But what I use my Mac for - the Mac I have that I use is an M2 MacBook Air. It's covered in stickers, it goes with me when I travel or when I go to work at other places... It's a phenomenal dumb terminal type of browser machine. It has ridiculous battery life, and everything. It has a Unix underneath it, so I can do terminal things... I'm perfectly happy with that. Eventually, the macOS might eject me. It has in the past, where I essentially abandoned it... But it's just -- it's very good laptops.
 
@@ -718,7 +718,7 @@ I was very hopeful about Framework, but I'm not thrilled about -- well, that get
 
 **Lars Wikman:** No, no, no. It's ideological and political, from my perspective.
 
-**Break**: \[00:53:52.23\]
+**Break**: \[53:52\]
 
 **Jerod Santo:** Here's a thought I've had recently, and I think Adam's made me think this thought. I don't think I'm a power user anymore. I just feel like I'm a regular user...
 
