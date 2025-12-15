@@ -166,7 +166,7 @@
 
 **Nick Nisi:** I don't know exactly... I got the one terabyte model.
 
-**Jerod Santo:** \[00:07:54.26\] You didn't wait in line, did you? You weren't waiting in line outside the...
+**Jerod Santo:** \[07:54\] You didn't wait in line, did you? You weren't waiting in line outside the...
 
 **Nick Nisi:** Oh, no.
 
@@ -264,7 +264,7 @@
 
 **Nick Nisi:** I mean, it's exciting, right? But what do they need to do to Bun that they couldn't do as like this more open thing, or like independent thing?
 
-**Jerod Santo:** \[00:12:04.27\] What does Anthropic need Bun to do, or to do to Bun, as you said?
+**Jerod Santo:** \[12:04\] What does Anthropic need Bun to do, or to do to Bun, as you said?
 
 **Nick Nisi:** If I was a diehard bunner, is this good news for me or is this bad news? Because Anthropic's preference on whatever direction they need to take Bun into is now where it's going. And so does that mean I left out because maybe it's not the direction that I'm also hoping my product will go with Bun? Or do I now have like special treatment, because now Anthropic or Claude will inherently know everything about Bun, and know how to perfectly write code for Bun applications? ...as just a side effect.
 
@@ -282,7 +282,7 @@
 
 **Adam Stacoviak:** In that case you'd want that SQLite built in, because you don't want to have to have reliance on anything else in the system so you can ship a binary. But if you have to rely on SQLite being installed, then that's not cool.
 
-**Nick Nisi:** \[00:16:15.27\] Yeah.
+**Nick Nisi:** \[16:15\] Yeah.
 
 **Jerod Santo:** Sure. Yeah, I don't think their all-in-one binaries are anywhere near as efficient as like Go's, for instance. They're going to be quite large, and I think Deno's is the same way, where it's like, it's a large binary, even if it's a small program. Now, if it's a large program, who cares? But if you want to roll out a three megabyte compiled thing, you're not going to get that without some fancy footwork from Bun. And I don't think from Deno either. But the convenience is certainly there, which is really most of it at this point. I mean, we're all very rich when it comes to hard drive space and bandwidth.
 
@@ -308,7 +308,7 @@
 
 **Jerod Santo:** Codeberg. Codeberg, which is a GitHub-alike, run by a nonprofit in the European Union. And I'm not sure all the intricacies there, except that they are seemingly -- and I don't want to make this sound bad, but maybe it will... They're seemingly only interesting insofar as they're a GitHub-alike that's a nonprofit, and run from the European Union. I don't see anything with their technology that looks like it's new or attractive. Like, they're not going to disrupt because of that, because of technology. They're going to disrupt because GitHub is a broken windows situation over there at Microsoft, and getting more and more bloated, and shoving Copilot in our face everywhere we turn, and people are getting sick of it... And so here's a different place to land.
 
-\[00:20:11.24\] And so Zig has moved off GitHub to Codeberg, and there's a few other that are doing that as well. Some of it is ideological, social concerns, and then the others is just like JavaScript bloat and GitHub Actions not working as it's supposed to, and just complaints about the platform. As a platform, basically, Microsoft has been ignoring the core product, which we've all felt in various ways.
+\[20:11\] And so Zig has moved off GitHub to Codeberg, and there's a few other that are doing that as well. Some of it is ideological, social concerns, and then the others is just like JavaScript bloat and GitHub Actions not working as it's supposed to, and just complaints about the platform. As a platform, basically, Microsoft has been ignoring the core product, which we've all felt in various ways.
 
 **Nick Nisi:** This looks exactly like GitHub, in a lot of ways...
 
@@ -390,7 +390,7 @@
 
 **Adam Stacoviak:** What's iTunes? I'm just kidding.
 
-**Jerod Santo:** \[00:24:01.12\] Exactly. Doesn't exist anymore. Apple Podcasts now. But it was called iTunes back then. Also Apple Music...
+**Jerod Santo:** \[24:01\] Exactly. Doesn't exist anymore. Apple Podcasts now. But it was called iTunes back then. Also Apple Music...
 
 **Nick Nisi:** Yeah.
 
@@ -464,7 +464,7 @@
 
 **Jerod Santo:** Yeah, I should log out...
 
-**Break**: \[00:27:23.06\]
+**Break**: \[27:23\]
 
 **Adam Stacoviak:** I'm surprised by Codeberg, honestly. I've heard of this, I didn't give it much attention... And so you're saying that Git recently moved?
 
@@ -498,9 +498,9 @@
 
 **Nick Nisi:** How can you be the epicenter of JavaScript. Like with GitHub, but also with TypeScript...?
 
-**Adam Stacoviak:** Npm, yes.
+**Adam Stacoviak:** npm, yes.
 
-**Nick Nisi:** With Npm, and - that was the one I was going to call out. How are they not completely embarrassed by how much they've let Npm languish? It's terrible.
+**Nick Nisi:** With npm, and - that was the one I was going to call out. How are they not completely embarrassed by how much they've let npm languish? It's terrible.
 
 **Adam Stacoviak:** Is Isaac still there, or did he leave already? I'm not sure if Isaac's still there or not.
 
@@ -514,7 +514,7 @@
 
 **Adam Stacoviak:** So he was going to come on the podcast. Yes, I said podcast... Just because I went that far back in history with Isaac's. He was going to come on the podcast just before the acquisition, and he wanted to talk... But couldn't, because why do that when you've got the save-me money coming in, right? And then maybe even the fun job for a bit. I wonder if he's ready. Isaac, are you ready? Let's do it.
 
-**Jerod Santo:** \[00:32:17.19\] So when you say Isaac, you're referring to the creator of Npm.
+**Jerod Santo:** \[32:17\] So when you say Isaac, you're referring to the creator of npm.
 
 **Adam Stacoviak:** Yes.
 
@@ -528,13 +528,13 @@
 
 Yeah, how do you do that? How do you be GitHub and be in that position...? I wonder if it's just the fact that you've got so many engineers. Does that become a problem? Probably not, right? You can move fast with more engineers. I think it comes down to leadership, right? You've got to have leadership.
 
-**Nick Nisi:** You'd think they'd have some kind of release to show that Npm was still alive, but... Their lunch is being eaten all around them, which is crazy. I think Socket's doing a great job of having almost a better UI for Npm than Npm... Plus all of the security stuff. Really excited about that. And then I'm really excited about the JSR project from the Deno folks. That's an exciting place to go.
+**Nick Nisi:** You'd think they'd have some kind of release to show that npm was still alive, but... Their lunch is being eaten all around them, which is crazy. I think Socket's doing a great job of having almost a better UI for npm than npm... Plus all of the security stuff. Really excited about that. And then I'm really excited about the JSR project from the Deno folks. That's an exciting place to go.
 
 **Jerod Santo:** Which is a new registry, right?
 
 **Nick Nisi:** Yes. JS registry, I assume.
 
-**Adam Stacoviak:** So you have JSR, then you have Bun, which is Npm-compatible... Who is the winner here? Who is the one on top that everybody's feeding off of? Who's the leech and who's the leechers?
+**Adam Stacoviak:** So you have JSR, then you have Bun, which is npm-compatible... Who is the winner here? Who is the one on top that everybody's feeding off of? Who's the leech and who's the leechers?
 
 **Nick Nisi:** Node's the winner.
 
@@ -580,7 +580,7 @@ Yeah, how do you do that? How do you be GitHub and be in that position...? I won
 
 **Nick Nisi:** But it's -- I don't know, they have different tiers of whatever. I don't luckily have to think about that. But I will say that Opus 4.5 is not only better than all the other models I've used, it's so much cheaper. So much. It's crazy. I think Opus before that was like -- it was $25 per million input tokens, and $75 per million output tokens... Now it's $15 and $25, I think, respectively.
 
-**Jerod Santo:** \[00:36:06.28\] Yeah, I guess I haven't paid as close attention as you have on that front, Nick. You're definitely the bleeding edge on this. You're edging.
+**Jerod Santo:** \[36:06\] Yeah, I guess I haven't paid as close attention as you have on that front, Nick. You're definitely the bleeding edge on this. You're edging.
 
 **Nick Nisi:** I mean, that's -- whatever. But I also think -- I don't know, my controversial take is like... OpenAI is over here, making cool things, don't get me wrong... Their voice mode, having conversations with it - that's the biggest competitor to podcast time in the car for me, is just like talking to ChatGPT, with a voice conversation...
 
@@ -658,7 +658,7 @@ Yeah, how do you do that? How do you be GitHub and be in that position...? I won
 
 **Nick Nisi:** I have a six-year-old, and I made a video of me crashing a motorcycle. And I was going to send it to my mom, as like a "Could I trick her into thinking I got a motorcycle", or something? ...which is really dumb, because it has like professional camera angles of me falling off of this motorcycle, which is -- anybody would know that, right? But I showed it to my six-year-old, and he started crying, because he didn't like to see me get hurt. And I'm like "Oh, he can't tell that this isn't real." So I don't know... That's done.
 
-**Jerod Santo:** \[00:39:53.01\] His slop detector is not advanced yet.
+**Jerod Santo:** \[39:53\] His slop detector is not advanced yet.
 
 **Nick Nisi:** Yes.
 
@@ -722,7 +722,7 @@ Meanwhile, Anthropic is just eating the enterprise, because Claude Code is just 
 
 **Jerod Santo:** ...led by Quinn and Beyang. And Sourcegraph is its own company now, led by somebody who - I don't know their name, but they are now the CEO. And so it's two separate entities, two boards, but the same investors... So there's some -- there's obviously crossover, but they've just decided to... Probably for investment reasons and stuff like that, I don't know.
 
-**Nick Nisi:** \[00:43:53.09\] You know, I was at an AI conference last week in New York, and the AMP booth was two away from our booth... And it was just AMP. But I think it did say "by Sourcegraph." But it had this cool AMP logo. I just held up the book, because I met Steve Yegge and Gene Kim and got the vibe coding book...
+**Nick Nisi:** \[43:53\] You know, I was at an AI conference last week in New York, and the AMP booth was two away from our booth... And it was just AMP. But I think it did say "by Sourcegraph." But it had this cool AMP logo. I just held up the book, because I met Steve Yegge and Gene Kim and got the vibe coding book...
 
 **Jerod Santo:** Oh, you got the vibe coding book.
 
@@ -774,7 +774,7 @@ But I've been going to a lot of AI events in San Francisco and other places, and
 
 **Jerod Santo:** Well, MCP is hungry.
 
-**Nick Nisi:** \[00:47:52.22\] It is. But that's also an Anthropic thing, that is open... I think that skills are where it's at, right now at least... I think that MCP is on its way out, and skills or something like it is on its way in... Because it's just a better way. Or some kind of tool discovery.
+**Nick Nisi:** \[47:52\] It is. But that's also an Anthropic thing, that is open... I think that skills are where it's at, right now at least... I think that MCP is on its way out, and skills or something like it is on its way in... Because it's just a better way. Or some kind of tool discovery.
 
 **Jerod Santo:** Do you have any skills?
 
@@ -826,7 +826,7 @@ But I've been going to a lot of AI events in San Francisco and other places, and
 
 **Jerod Santo:** Right. You need to get 12 of these set up, and then ask them what you should have for lunch, and just go scorched earth on your entire life. Just like, how much energy can I use on simple, mundane tasks? Ah, five is not enough. Can I get 12?
 
-**Adam Stacoviak:** \[00:52:12.18\] "Lunch cost, $1,000."
+**Adam Stacoviak:** \[52:12\] "Lunch cost, $1,000."
 
 **Jerod Santo:** Yeah. \[laughs\] A million dollar question - what should I have for lunch?
 
@@ -892,7 +892,7 @@ But I've been going to a lot of AI events in San Francisco and other places, and
 
 **Adam Stacoviak:** That's cool.
 
-**Break**: \[00:56:09.03\]
+**Break**: \[56:09\]
 
 **Jerod Santo:** So AI coding is a huge part of your life. What about AI browsing? ...if we might just turn our sights now on the new browser wars.
 
