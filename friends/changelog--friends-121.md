@@ -102,7 +102,7 @@
 
 **Alex Kretzschmar:** Yes. A derivative is more accurate. Yeah, it was a fun project, because you know, 10-15 years ago, whenever it was now - I'm getting old - there was just no standardization in the containerization space. People weren't writing -- if they existed, they weren't writing coherent documentation at all, and there was no kind of standardized base image pattern, or anything. And there is some weirdness in how the Linux server images ended up architecting around S6 to have like this init system inside the container... Because obviously, if PID 1 dies, then the container dies with it... And some of the services need multiple things running inside the same container. So it's a bit of a weird thing trying to containerize some of these apps that were written before containers were really the native deployment format for server software in general now.
 
-**Adam Stacoviak:** \[00:08:23.16\] Yeah. How do you feel about the Podman/Docker war? Do you feel like it's a war that's won? Are you a Podman person? What's your feels?
+**Adam Stacoviak:** \[08:23\] Yeah. How do you feel about the Podman/Docker war? Do you feel like it's a war that's won? Are you a Podman person? What's your feels?
 
 **Alex Kretzschmar:** I'm not. You know, I'm ex Red Hat, so I really should be pro Podman, shouldn't I?
 
@@ -140,7 +140,7 @@
 
 **Adam Stacoviak:** Okay. Yeah, so you have a .service file for it instead.
 
-**Alex Kretzschmar:** \[00:12:03.10\] Effectively, yeah. I know I give Podman a hard time, but it does do some stuff really well.
+**Alex Kretzschmar:** \[12:03\] Effectively, yeah. I know I give Podman a hard time, but it does do some stuff really well.
 
 **Adam Stacoviak:** Well, I didn't ask you to talk about Podman at length, but I'm really curious about this... So I think the one thing you mentioned and just glossed over, which may be super-important, which is rootless versus root... That seems to be the divider there, which is the big reason why people think they want to use Podman. It's more secure because it's rootless, versus root. That seems to cause problems based on what you've just said.
 
@@ -206,7 +206,7 @@
 
 **Alex Kretzschmar:** Yeah. Well, you go first and I'll look it up.
 
-**Adam Stacoviak:** \[00:16:03.15\] Okay. Uh, geez... What I know about Bootc - it's out of Red Hat, it's part of their world, essentially, and they're setting this up... It's essentially a system that can change itself underneath, and it's... What's the right word? You can't change the system. It's immutable. So what you have is what you have, and you can update underneath your data... But that's the part I don't get. And I know that Steam Deck, and some other gaming things are doing on top of it is really cool... I just don't know what's cool about it yet, aside from being able to build your own Linux distro for yourself, potentially. That's kind of where I've been dabbling at. And when I say 'dabbling', just a moment, and I got scared and I ran away. That was all of it.
+**Adam Stacoviak:** \[16:03\] Okay. Uh, geez... What I know about Bootc - it's out of Red Hat, it's part of their world, essentially, and they're setting this up... It's essentially a system that can change itself underneath, and it's... What's the right word? You can't change the system. It's immutable. So what you have is what you have, and you can update underneath your data... But that's the part I don't get. And I know that Steam Deck, and some other gaming things are doing on top of it is really cool... I just don't know what's cool about it yet, aside from being able to build your own Linux distro for yourself, potentially. That's kind of where I've been dabbling at. And when I say 'dabbling', just a moment, and I got scared and I ran away. That was all of it.
 
 **Alex Kretzschmar:** Did you go to Red Hat Summit this year, per chance?
 
@@ -252,7 +252,7 @@
 
 **Adam Stacoviak:** Well, that's exactly what it was. It was like "Hey, let's make some barbecue. Oh, people come and eat it... Oh, cool. Let's keep doing this." And there you go. There's nothing wrong with Salt Lake. They're good. It's not my favorite, though. But it's still amazing. So you can't go wrong. I would take you to The Switch, which is near here... I think it's under-known, and... It's just so awesome, man. They've got a really good platter, they've got an amazing chopped brisket baked potato... I mean, just like a little baked potato, with chopped brisket in it. I mean, come on... Is your mouth watering?
 
-**Alex Kretzschmar:** \[00:20:15.17\] I'm hungry now. We're not far off lunchtime for me.
+**Alex Kretzschmar:** \[20:15\] I'm hungry now. We're not far off lunchtime for me.
 
 **Adam Stacoviak:** The Switch, I would take you there.
 
@@ -312,7 +312,7 @@
 
 **Adam Stacoviak:** I kind of like that. I like as a consumer not having to subscribe to everything.
 
-**Alex Kretzschmar:** \[00:23:37.23\] Well, because I generally think that good content -- there's a bunch of tropes on YouTube, and the people that rely on the Like/Comment/Subscribe/Smash that Like button, all those kinds of tropes that exist on YouTube. Like, if the content is good enough, you don't need to say any of that stuff. People watch people, they're not watching the Tailscale channel. They're just watching me and what I'm doing. You look at Linus and how he's had to grow his channel, sort of beyond the cult of just Linus... And obviously, he's way down the road from where I am, but... It's really interesting, he'll just make random cameos in videos that are hosted ostensibly by someone else on his team, and then he'll just helicopter in for five minutes and say a couple of pieces to camera, and then go away again. And you know that he hasn't done anything in like post-production, or scripting, or really been involved in the video at all, but they're really struggling to enter that post PC era, that post Linus era. Hopefully, Tailscale won't suffer from that problem, because I don't really chase the fame aspect of it, or I don't want to be famous, or anything like that. But I do want people to be as excited about stuff that I am as I am... And that's really my driving goal, is to just -- like this week, for example... I've set up a self-hosted image instance; you know, the Google Photos replacement.
+**Alex Kretzschmar:** \[23:37\] Well, because I generally think that good content -- there's a bunch of tropes on YouTube, and the people that rely on the Like/Comment/Subscribe/Smash that Like button, all those kinds of tropes that exist on YouTube. Like, if the content is good enough, you don't need to say any of that stuff. People watch people, they're not watching the Tailscale channel. They're just watching me and what I'm doing. You look at Linus and how he's had to grow his channel, sort of beyond the cult of just Linus... And obviously, he's way down the road from where I am, but... It's really interesting, he'll just make random cameos in videos that are hosted ostensibly by someone else on his team, and then he'll just helicopter in for five minutes and say a couple of pieces to camera, and then go away again. And you know that he hasn't done anything in like post-production, or scripting, or really been involved in the video at all, but they're really struggling to enter that post PC era, that post Linus era. Hopefully, Tailscale won't suffer from that problem, because I don't really chase the fame aspect of it, or I don't want to be famous, or anything like that. But I do want people to be as excited about stuff that I am as I am... And that's really my driving goal, is to just -- like this week, for example... I've set up a self-hosted image instance; you know, the Google Photos replacement.
 
 **Adam Stacoviak:** Yes, tell me about this.
 
@@ -336,13 +336,13 @@
 
 **Adam Stacoviak:** Right. I think my usage of Tailscale is pretty simple. I think I just connect my services and I don't do much, really... I'm not a deep Tailscale user, and I kind of feel bad. So I'm actually thinking about having Claude help me go deeper, because I'm just like -- I don't know how else I can use it personally... Aside from the obvious connected tissue of my home lab; that's really just it. And it's really just mainly -- I'm gonna show my colors here a little bit, but I think for me I will SSH into Cineplex, which is what I call my Plex machine... So I just type "SSH Cineplex", because that's what it's named in Tailscale. It's the name of the machine, the hosting. That's really - sadly, potentially; maybe you'll be sad by this - my use of Tailscale, is just easier hostname SSH around my home lab.
 
-**Alex Kretzschmar:** \[00:28:04.13\] It's great. It's fine.
+**Alex Kretzschmar:** \[28:04\] It's great. It's fine.
 
 **Adam Stacoviak:** And the occasional external view of something of a service running. I don't have a lot of -- I could do better with that. I've got other problems I'm dealing with in my home lab, which is just writing a few more pieces of fun software for me...
 
 **Alex Kretzschmar:** You know, home-labbing.
 
-**Break**: \[00:28:22.09\]
+**Break**: \[28:22\]
 
 **Alex Kretzschmar:** So how'd you do your backups, Adam?
 
@@ -350,7 +350,7 @@
 
 **Alex Kretzschmar:** Well, there goes one of my pitches for you... It would be an offsite backup.
 
-**Adam Stacoviak:** \[00:31:55.08\] Well, that could be a pitch, though. I need an offsite backup. So what would you do? How would you do it?
+**Adam Stacoviak:** \[31:55\] Well, that could be a pitch, though. I need an offsite backup. So what would you do? How would you do it?
 
 **Alex Kretzschmar:** Well, I have a friend in Canada... So I'll tell you how I do it. And so I have a ZFS array in the basement, which has just got, I think, five 20-terabyte hard drives in it...
 
@@ -402,15 +402,15 @@
 
 **Alex Kretzschmar:** Drama. Yeah.
 
-**Adam Stacoviak:** \[00:35:55.26\] Oh, gosh... That's what we need, is more drama.
+**Adam Stacoviak:** \[35:55\] Oh, gosh... That's what we need, is more drama.
 
 **Alex Kretzschmar:** Well, Bcache got accepted into the Linux Kernel, which you would think would be an amazing thing, right? We've now got another file system native in the Linux Kernel... Because this is one of the downsides of ZFS, is the licensing drama. Are you familiar with all that?
 
-**Adam Stacoviak:** Loosely... I mean, I know about the origination in Sun, and the accidental open-sourcing... I've talked to Matt Aarons before... We have a good friend at Oxide, and Bryan Cantril..l. So I kind of have some of the backstory of the Sun days, and... I guess not "Sundays", like the day of the week, but S-U-N space days... Capital S, u, n.
+**Adam Stacoviak:** Loosely... I mean, I know about the origination in Sun, and the accidental open sourcing... I've talked to Matt Aarons before... We have a good friend at Oxide, and Bryan Cantril..l. So I kind of have some of the backstory of the Sun days, and... I guess not "Sundays", like the day of the week, but S-U-N space days... Capital S, u, N.
 
 **Alex Kretzschmar:** Sun Microsystems.
 
-**Adam Stacoviak:** Yeah, Sun Microsystems. And it's got an interesting history. And I think even the accidental open-sourcing of it was really wild, and then now you have OpenZFS... I don't know -- and Allan Jude came on the podcast and talked about, and really got me wanting to become a BSD nerd... And I tried for a little bit; I just did enough to be familiar... But I just was like "Okay, Linux is really for me." I just don't need what BSD has. And it felt like an uphill battle for me, personally... But I get it. I get it. But the licensing thing is really where it's at. The issue, at least.
+**Adam Stacoviak:** Yeah, Sun Microsystems. And it's got an interesting history. And I think even the accidental open sourcing of it was really wild, and then now you have OpenZFS... I don't know -- and Allan Jude came on the podcast and talked about, and really got me wanting to become a BSD nerd... And I tried for a little bit; I just did enough to be familiar... But I just was like "Okay, Linux is really for me." I just don't need what BSD has. And it felt like an uphill battle for me, personally... But I get it. I get it. But the licensing thing is really where it's at. The issue, at least.
 
 **Alex Kretzschmar:** The trouble with BSD is I learned Linux first, so all my muscle memory is Linux.
 
@@ -448,7 +448,7 @@
 
 **Adam Stacoviak:** Yeah. It's not the end of the world... I mean, there is some value there that you don't have to manage it, but now you've got your friend; you've got your friend in Canada...
 
-**Alex Kretzschmar:** \[00:39:49.18\] Well, I'm also not training Gemini's future models with my images, and the images of my daughter. There's a huge digital sovereignty aspect to my motivations for getting off the big tech train when it comes to really deeply personal data like photos and documents. I mean, I'm sure many of us use Gmail even, and I've been a Gmail user since, I guess, 2004, 2005 era, when it was cool and a beta product. And I look back at the original emails, I'm like "Oh, my God..." Every email I've had in the last 22 years, they know what it is. It's a lot of data. It's a big dataset.
+**Alex Kretzschmar:** \[39:49\] Well, I'm also not training Gemini's future models with my images, and the images of my daughter. There's a huge digital sovereignty aspect to my motivations for getting off the big tech train when it comes to really deeply personal data like photos and documents. I mean, I'm sure many of us use Gmail even, and I've been a Gmail user since, I guess, 2004, 2005 era, when it was cool and a beta product. And I look back at the original emails, I'm like "Oh, my God..." Every email I've had in the last 22 years, they know what it is. It's a lot of data. It's a big dataset.
 
 **Adam Stacoviak:** You get paid to run a home lab, though. Would you say that? Is it fair to say you get paid to run a home lab, for the most part, or play with a home lab?
 
@@ -480,7 +480,7 @@
 
 **Adam Stacoviak:** And that podcast has since ended. And then you go to Tailscale... Being able to go and create content... Like, "Hey, I used to do this stuff for free." Marginally for free. Sure, you probably had some sponsors to maybe cover some rent, or some things like that, some pieces, but not the full paycheck necessarily to get to do it as a job.
 
-**Alex Kretzschmar:** \[00:44:10.02\] Well, you've got two routes to go as a content creator, don't you? You've got one which is to do it the really hard way, and do it yourself, and bootstrap your own small business, and interface with all these different companies, and manage sponsorships, and negotiate every cent that they give you. Then you've also got to be a creator, and an editor, and just... You've got to be 5 to 10 different roles in one. I chose to go an equally difficult, but totally different path, of trying to do that, but within a corporate organization, a startup organization.
+**Alex Kretzschmar:** \[44:10\] Well, you've got two routes to go as a content creator, don't you? You've got one which is to do it the really hard way, and do it yourself, and bootstrap your own small business, and interface with all these different companies, and manage sponsorships, and negotiate every cent that they give you. Then you've also got to be a creator, and an editor, and just... You've got to be 5 to 10 different roles in one. I chose to go an equally difficult, but totally different path, of trying to do that, but within a corporate organization, a startup organization.
 
 I've been really lucky in so much as that the Tailscale channel doesn't have to pay for itself in the traditional way that, say, any other content creator has to pay for itself, because it's a brand awareness play, ostensibly. That's the purpose of the YouTube channel, is just to say "Hey, look at Tailscale. Look at the cool stuff you can do with Tailscale." And that's it. We're not reviewing products, we're not taking placement sponsorships, we're not doing any of that other stuff... Which I kind of find a little bit dirty, to be honest. I don't ever really enjoy doing that stuff. It's a necessary evil. I understand, everybody's got to eat. But the attention that you're selling as a content creator, you're monetizing that attention for - well, money, I suppose... \[laughs\]
 
@@ -508,7 +508,7 @@ So yeah, it's nice to have insurance, it's nice to have a paycheck and all that 
 
 Yeah, it's a very unique way of doing DevRel. Because if you think about what developer relations typically do, they'll be hacking away on SDKs, and API code on the backend... And people don't really see it, unless you're a developer and you want to integrate with back in the day Twitter, or something. And then they might go to a conference and talk to a room full of a couple of hundred people, and that talk is never seen again.
 
-\[00:47:58.21\] Whereas what we're doing is effectively that same cycle, that same loop, but we're not focused on the developer aspect as much, we're focused on the end user, the top of funnel user, a mythical person, and getting them excited about using Tailscale for free, and hopefully they have such a good time that they then go "Why aren't we doing this at work? Why are we doing open VPN? Why are we..." And hopefully, then that motion turns into a sale two, three, four years down the road, whatever it turns out to be. It's a fascinating space, and... I don't know, I kind of feel a bit weird talking about it publicly, but here you go.
+\[47:58\] Whereas what we're doing is effectively that same cycle, that same loop, but we're not focused on the developer aspect as much, we're focused on the end user, the top of funnel user, a mythical person, and getting them excited about using Tailscale for free, and hopefully they have such a good time that they then go "Why aren't we doing this at work? Why are we doing open VPN? Why are we..." And hopefully, then that motion turns into a sale two, three, four years down the road, whatever it turns out to be. It's a fascinating space, and... I don't know, I kind of feel a bit weird talking about it publicly, but here you go.
 
 **Adam Stacoviak:** I'm enjoying it. I'm sorry you feel weird about it.
 
@@ -530,7 +530,7 @@ Yeah, it's a very unique way of doing DevRel. Because if you think about what de
 
 **Alex Kretzschmar:** Yeah... Yeah.
 
-**Adam Stacoviak:** \[00:51:51.13\] It's hard not to like them, right?
+**Adam Stacoviak:** \[51:51\] It's hard not to like them, right?
 
 **Alex Kretzschmar:** It really is. Well, apart from the price. There's definitely a UniFi tax.
 
@@ -588,7 +588,7 @@ Yeah, it's a very unique way of doing DevRel. Because if you think about what de
 
 **Adam Stacoviak:** I listen to a lot of my music externally, hence the port... And Plexamp is a dedicated -- you've got it on iPhone, I believe, I think you have it as a Mac app via the iPad app, I guess... I don't know the other platforms; I guess, maybe on Linux, potentially... Android, I'm sure... And Plex has done a great job of having like client apps kind of everywhere. And so you're right, I -- I guess if they had an open core. An open core that if I could self host - which I guess we already do self host - then maybe not... I guess you're right, how do you charge for that? I suppose maybe particular features; like you said, codecs, or...
 
-\[00:56:20.29\] So an example of maybe how they can make money - hey, don't do this by the way - is I watch a lot of 4k content in my home. And so maybe -- I'm a unique, kind of maybe a super-user, so to speak. I'm the kind of person you may -- I'm an enterprise customer, so to speak, to Plex; maybe to get HDR from my 4k, and have that codec, which requires a certain amount of developer tooling and engineering to make that work... Well, maybe you pay for things like that. Certain -- or lossless. I guess that would be kind of sad, to force you to compress your own music... But if you had lossless on your wave files, and that wasn't gated, but maybe you gated to get money... But you're right, it is kind of a rug pool to the lifetime customers. Maybe there's a lot more customers they can get that aren't lifetime, and they can just kind of give us the pass because we've been invested for so long. I don't know.
+\[56:20\] So an example of maybe how they can make money - hey, don't do this by the way - is I watch a lot of 4k content in my home. And so maybe -- I'm a unique, kind of maybe a super-user, so to speak. I'm the kind of person you may -- I'm an enterprise customer, so to speak, to Plex; maybe to get HDR from my 4k, and have that codec, which requires a certain amount of developer tooling and engineering to make that work... Well, maybe you pay for things like that. Certain -- or lossless. I guess that would be kind of sad, to force you to compress your own music... But if you had lossless on your wave files, and that wasn't gated, but maybe you gated to get money... But you're right, it is kind of a rug pool to the lifetime customers. Maybe there's a lot more customers they can get that aren't lifetime, and they can just kind of give us the pass because we've been invested for so long. I don't know.
 
 **Alex Kretzschmar:** I do think piracy is going to have a moment, as inflation continues to bite, and people just can't afford... You know, as the media space continues to homogenize... You saw the Warner Brothers acquisition by Netflix recently. Those massive corporate mergers are never good for consumers. It's always going to result in long-term higher prices, less choice, less content.
 
