@@ -46,7 +46,7 @@ Now, I know what you're thinking... In what order do these voicemails come? Do w
 
 **Jerod Santo:** The files came in, and they're just "Put your first name first", and so I guess Andrew Patton, with first name Andrew, gets to go first. So let's listen to Andrew's voicemail.
 
-\[00:07:47.02\]
+\[07:47\]
 
 *Hello, Changelog family. First time leaving a voicemail, which is very exciting... Though I've been listening for many years. I checked, and Changelog takes home the gold for my most listened to podcast in 2025, at 105 hours... Which would have been 111 and a half hours at 1X, because I only use smart speed, so as not to ruin those banging beats...*
 
@@ -84,7 +84,7 @@ He took a lot of my favorites though, I'm not going to lie. A lot of his favorit
 
 **Jerod Santo:** Here we go.
 
-\[00:11:44.23\]
+\[11:44\]
 
 *Hello, Changelog family. I've been a pianist for many years, which is very exciting... I was hoping for a few more banging piano beats from Breakmaster Cylinder... They are always very dramatic, and certainly interesting. Looking forward to a weird and wonderful 2026.*
 
@@ -102,7 +102,7 @@ He took a lot of my favorites though, I'm not going to lie. A lot of his favorit
 
 **Jerod Santo:** Here we go!
 
-\[00:12:44.17\]
+\[12:44\]
 
 *Hello, Adam and Jerod. It's Brett Cannon, calling for that annual tradition to see whether I can read dates appropriately while I tell you about my favorite episodes that I got to listen to this year. So I'm going to start off with The Power of the Button, which you actually recorded in 2024, but didn't publish until 2025, so I'm safe... I found that episode kind of fun just to have that twist on it of talking about the physicality of the world, and just how that kind of ties into technology, and just kind of the different approach of just seeing how things tie in on both sides of both the physical and the software for all of us.*
 
@@ -130,7 +130,7 @@ I'm not gonna lie, BMC's remix of this one - also one of my favorites. But first
 
 **Adam Stacoviak:** Yeah, it kind of is, honestly... You know, I just want to love Windows, and I just wish they would get it together. there's so much good stuff in there, and just too much AI getting slapped around. Anyways... WSL is really cool though, for Windows. I think if for some reason you've got to be in that world, where you have no choice because that's where your platform is, your applications are, your company's at, then -- you know, it is what it is, and that's what you've got to do. I think WSL is the next best thing, and super-cool for that to be embedded in Windows. That to me is a technological feat that I love... So if I had to be in Windows, I could only be there happily because of WSL.
 
-**Jerod Santo:** \[00:16:09.04\] Right. Which didn't exist back when I switched away...
+**Jerod Santo:** \[16:09\] Right. Which didn't exist back when I switched away...
 
 **Adam Stacoviak:** No.
 
@@ -204,7 +204,7 @@ I'm not gonna lie, BMC's remix of this one - also one of my favorites. But first
 
 **Jerod Santo:** Oh, there's power -- if you think there's power in the button, just wait for this one.
 
-\[00:19:18.05\]
+\[19:18\]
 
 *Hello, Adam and Jerod. It's Brett Cannon calling, for that annual tradition to tell you about my favorite episodes. So I'm going to start off with the Power of the Button, talking about the physicality of the button, and just how that kind of ties into technology. The next episode I liked a lot was the 1,000 butt infections... I just thought that was a really cool chat to show that sometimes - you know what? You don't have to take the journal solution. Sometimes it's okay to actually scratch your butt if it really gets you what you're after... So I'm safe.*
 
@@ -222,7 +222,7 @@ I'm not gonna lie, BMC's remix of this one - also one of my favorites. But first
 
 **Adam Stacoviak:** It was good. That was good. Oh my gosh, the cat... Oh, gosh. The cat...
 
-**Jerod Santo:** \[00:20:19.17\] I'm still 12 years old at heart... You know, a good butt joke just still hits me.
+**Jerod Santo:** \[20:19\] I'm still 12 years old at heart... You know, a good butt joke just still hits me.
 
 **Adam Stacoviak:** Yeah. I'm just past a chest cold, and that made me want to cough some stuff up, let's just say...
 
@@ -232,7 +232,7 @@ I'm not gonna lie, BMC's remix of this one - also one of my favorites. But first
 
 **Jerod Santo:** Alright. Next up, another long-time listener and first-time guest this year... It's Don McKinnon.
 
-\[00:20:46.27\]
+\[20:46\]
 
 *Greetings, friends. My favorite episode of 2025 was an early one... Terso is Rewriting SQLite in Rust. One reason is I'm a sucker for people building in Rust - big surprise - but more importantly, I enjoyed it because I got to learn about the concept of deterministic simulation testing, which I found to be pretty fascinating. I always love the episodes where I get to learn about a concept that I haven't run up against before.*
 
@@ -256,7 +256,7 @@ I'm not gonna lie, BMC's remix of this one - also one of my favorites. But first
 
 **Jerod Santo:** Alright, here's Don McKinnon's remix.
 
-\[00:23:40.28\]
+\[23:40\]
 
 *Greetings, friends. I always love the episodes where I get to learn about a concept that I haven't run up against before. My favorite episode - I enjoyed it because I got to learn I'm in a simulation... Which I found to be pretty fascinating. And my friends and the people have always been in this simulation. Big surprise, but... Anyhow, thank you guys for the podcast.*
 
@@ -290,7 +290,7 @@ I'm not gonna lie, BMC's remix of this one - also one of my favorites. But first
 
 He'll say it, so... He'll get it right. Here we go.
 
-\[00:25:11.08\]
+\[25:11\]
 
 *Hey, Adam and Jerod. This is Fernando Bevilacqua, speaking all the way from Brazil. I've been a longtime listener of the pod, since 2015. My favorite episodes of this year were Flowing with Agents, episode \#658, and Reaching Industrial Economies of Scale, episode \#632, both with Beyang Liu. They were very insightful, about the usage of agents in everyday activities we have with software development... And I think they give us a glimpse into the future of how software development and how technology in the field will evolve.*
 
@@ -316,7 +316,7 @@ He'll say it, so... He'll get it right. Here we go.
 
 And of course, Solving the AI Energy Crisis - that was, I think, one of our more controversial episodes of the year. It probably created one of the longest threads in our Zulip channel, because people began to debate and discuss the merits of AI and energy, and politics... And it gets a little bit drawn down some political lines, because of people's approaches to these things, but... I liked the Greg Osuri episode because he cracked me up a couple times... Like when he put on the glasses - that was funny. He's doing some really cool, weird stuff with his house he's building... Just a very interesting human, with interesting takes...
 
-\[00:28:20.11\] And these centralized AI training and inference - I don't know. Now they're trying to talk about space-based stuff, too. Not they \[meaning\] Greg, but they \[meaning\] the AI hyperscalers are both Google and xAI. And I believe Bezos has to be talking about it, because he's in the space as well.
+\[28:20\] And these centralized AI training and inference - I don't know. Now they're trying to talk about space-based stuff, too. Not they \[meaning\] Greg, but they \[meaning\] the AI hyperscalers are both Google and xAI. And I believe Bezos has to be talking about it, because he's in the space as well.
 
 **Adam Stacoviak:** Yeah.
 
@@ -366,7 +366,7 @@ And of course, Solving the AI Energy Crisis - that was, I think, one of our more
 
 **Jerod Santo:** That's right. Varnish in space. Now we're talking. Alright, Fernando remixed.
 
-\[00:30:46.16\]
+\[30:46\]
 
 *Hey, Adam and Jerod. This is Fernando Bevilacqua speaking. It took me years, but 2026 will be the year that I will become a secret agent in the field. I really want to see the world, and I really admire Batman... I want to see everyday criminals in politics face justice, and solve real crises in a world of intrigue. That's it, guys... Keep on rocking, and thanks for all the plots.*
 
@@ -394,11 +394,11 @@ And of course, Solving the AI Energy Crisis - that was, I think, one of our more
 
 **Jerod Santo:** That was epic.
 
-**Break:** \[00:31:58.22\] to \[00:34:56.10\]
+**Break:** \[31:58\] to \[34:56\]
 
 **Jerod Santo:** Up next we have the -- my previous tease was somebody will outnumber Andrew Patton... And that's Jamie Tanna. Jamie - safe to say Jamie likes the pod. Let's hear from Jamie.
 
-\[00:35:11.01\]
+\[35:11\]
 
 *Hey, Adam and Jerod. Happy State of the 'log again. It's Jamie Tanna. I think this may be one of the most on-time voicemails I've sent you all... But yeah, thanks again for another great year. I ran the numbers, and this year I've listened to a whopping 74 episodes, which is about five days of listening time... And I've managed to whittle down an amazing year to a shortlist of around 15 episodes... But I'll try and keep it even shorter than that.*
 
@@ -418,7 +418,7 @@ And of course, Solving the AI Energy Crisis - that was, I think, one of our more
 
 **Adam Stacoviak:** That's very touching. I mean, just to think about that... He's not only a listener to that level - five days of listening - but he took the time to go through, to retrospect...
 
-**Jerod Santo:** \[00:37:59.14\] He did.
+**Jerod Santo:** \[37:59\] He did.
 
 **Adam Stacoviak:** ...what mattered, and made a comprehensive, well-articulated list, and then shared it via voice to us... And then it's gonna get remixed. I mean, that's --
 
@@ -498,7 +498,7 @@ And of course, Solving the AI Energy Crisis - that was, I think, one of our more
 
 **Adam Stacoviak:** Let's do it.
 
-\[00:41:45.22\]
+\[41:45\]
 
 *Hey, Adam and Jerod. Happy State of the 'log again. It's Jamie Tanna. It's been really nice just having a few episodes of just the two of you just chatting about stuff. Not necessarily even about the tech, just about life. Movies... And friends... And game shows... And hype... And deep dive...*
 
@@ -506,7 +506,7 @@ And of course, Solving the AI Energy Crisis - that was, I think, one of our more
 
 **Jerod Santo:** Up next, another longtime listener and community member - it's Jarvis Yang.
 
-\[00:42:44.18\]
+\[42:44\]
 
 *Hello, Changelog & Friends. This is Jarvis, checking in once more. Great to see the Changelog.news website has finally landed in the right hands. 2025 has been quite the year, and I was happy to help keep an eye on that vanity domain, and inform Jerod of its availability. And I really appreciate you, Jerod, keeping me updated on all the major news.*
 
@@ -562,7 +562,7 @@ And of course, Solving the AI Energy Crisis - that was, I think, one of our more
 
 **Adam Stacoviak:** Yeah, for sure.
 
-**Jerod Santo:** \[00:45:56.03\] Definitely thank an organizer... Because no one's getting rich off these things, so they're doing it for the love, lots of times. They have ulterior motives, but they're usually straightforward... And it's still worth thanking them, as long as they're doing it on the up and up.
+**Jerod Santo:** \[45:56\] Definitely thank an organizer... Because no one's getting rich off these things, so they're doing it for the love, lots of times. They have ulterior motives, but they're usually straightforward... And it's still worth thanking them, as long as they're doing it on the up and up.
 
 **Adam Stacoviak:** Just as maybe a slight mention to that - I was in the GopherCon channel in the Gopher Slack... And I guess there was some concern around timing, you know? Because people wanted a certain time of year, and it's kind of hard to do that...
 
@@ -604,7 +604,7 @@ I mean, that's why unconferences do make some sense, because there's less to do.
 
 Lots of -- that was a grab bag, an anthology of conversations.
 
-**Adam Stacoviak:** \[00:50:03.03\] Ah... One of the best.
+**Adam Stacoviak:** \[50:03\] Ah... One of the best.
 
 **Jerod Santo:** Yeah, man. That was awesome.
 
@@ -612,7 +612,7 @@ Lots of -- that was a grab bag, an anthology of conversations.
 
 **Jerod Santo:** Let's remix it.
 
-\[00:50:09.22\]
+\[50:09\]
 
 *Hello, friends. Jarvis has finally landed. Check, check, checking in once more... Friends, things get hectic. Always make sure to carve out time for Minnebar 20, the nation's largest technology conference. It's free. Best of all, there is a minibar. And I really appreciate you, Jerod, informing me of the minibar's availability. I'm happy to help keep an eye on it. See you all next year. Jarvis out.*
 
@@ -634,7 +634,7 @@ Lots of -- that was a grab bag, an anthology of conversations.
 
 **Adam Stacoviak:** Over a decade.
 
-\[00:51:18.10\]
+\[51:18\]
 
 *Hey, Jerod, Adam. Justin Dorfman here. A longtime listener, 10+ years, and I'm really looking forward to 2026, and the guests that you will be having on, and maybe even see you in North Carolina. Maybe. Anyway, have a great one, and thanks for always entertaining, at least me. Yeah, take care.*
 
@@ -646,7 +646,7 @@ Lots of -- that was a grab bag, an anthology of conversations.
 
 **Jerod Santo:** Mm-hm. Always love to hear from you, Justin... Don't be a stranger. Hopefully, we'll see you in North Carolina. Here's your remix...
 
-\[00:52:19.24\]
+\[52:19\]
 
 *Hey, Jerod, Adam. Justin Dorfman here. Long time listener, 10+ years, and I'm really looking forward to 2026 and the guests that you will be having on, and maybe even see you in North Carolina. Maybe? Anyway, have a great one, and thanks for always entertaining me. Yeah.*
 
@@ -664,7 +664,7 @@ Lots of -- that was a grab bag, an anthology of conversations.
 
 **Jerod Santo:** That was. That was very much like Funkmaster Flex, and stuff like that. Alright. Our final caller - Nabil Suleiman.
 
-\[00:53:12.06\]
+\[53:12\]
 
 *Hello, Adam and Jerod. What a year it's been... This has definitely been the year of AI, and I do appreciate and count on your content to keep up to date with all of that. However, my favorite episodes personally are the ones around home lab, Kaizen, and Oxide. Those have all been great. But definitely, without a doubt, peak Changelog for me was the meetup in Denver. It was great meeting you all and making several new friends along the way... And - I mean, who would have imagined that we'd all go adventuring in the wilderness together with the mysterious Breakmaster Cylinder and battle a whole bunch of rattlesnakes? It was definitely a trip to remember.*
 
@@ -688,7 +688,7 @@ Lots of -- that was a grab bag, an anthology of conversations.
 
 **Adam Stacoviak:** \[unintelligible 00:54:12.05\] that story a little bit, you know? A little seasoning won't hurt anybody.
 
-**Jerod Santo:** \[00:54:16.01\] Remember that den of rattlesnakes we had stumbled upon...?
+**Jerod Santo:** \[54:16\] Remember that den of rattlesnakes we had stumbled upon...?
 
 **Adam Stacoviak:** Gosh, so many.
 
@@ -732,11 +732,11 @@ And when we hear the criticism, we take it very seriously. And then I look back 
 
 **Adam Stacoviak:** Yeah, I think even the show I did recently with Alex Kretzschmar was that -- we were talking about the Linux rabbit hole, essentially. Because I didn't even plan that, really. We just started talking about the fun stuff, and that was kind of fun. And I think we were about 50 minutes in, and he mentioned something that he had done vibe coding, and we talked about it on the podcast as well. And I didn't even plan to mention it, really... So it wasn't like a topic on my mind, but obviously, he laid down the spades, and so we played spades.
 
-**Jerod Santo:** \[00:58:06.17\] Well, I just wanted to mention that we do think about it, and we hope to bring somewhat level-headed, and yet also keeping to the edge of what things are going on, and not ignoring it just because it's AI, because I feel like that's also foolhardy. And of course, News talks about it all the time because it's so much in the news... So if you want to keep up with it without having to actually follow the news yourself, of course; I feel like we've tried to be a good resource for that... But opinions vary, and mileage varies as well. Even my own mileage, with the same tool I was using yesterday varies today. It's like "Oh, I was so excited yesterday, and then I hit a road block today and now I'm mad again." It's like doing two all over again. Because we're emotional beings.
+**Jerod Santo:** \[58:06\] Well, I just wanted to mention that we do think about it, and we hope to bring somewhat level-headed, and yet also keeping to the edge of what things are going on, and not ignoring it just because it's AI, because I feel like that's also foolhardy. And of course, News talks about it all the time because it's so much in the news... So if you want to keep up with it without having to actually follow the news yourself, of course; I feel like we've tried to be a good resource for that... But opinions vary, and mileage varies as well. Even my own mileage, with the same tool I was using yesterday varies today. It's like "Oh, I was so excited yesterday, and then I hit a road block today and now I'm mad again." It's like doing two all over again. Because we're emotional beings.
 
 Well, let's get to Nabil's and our final Breakmaster Cylinder remix.
 
-\[00:59:01.21\]
+\[59:01\]
 
 *Peak Changelog for me was venturing in the wilderness, together with the mysterious Breakmaster Cylinder, and battling a whole bunch of rattlesnakes.*
 
