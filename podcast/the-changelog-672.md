@@ -34,7 +34,7 @@
 
 **Sid Sijbrandij:** Yeah, for sure. So end of 22, one year after the IPO, I discovered I had bone cancer, a six-centimeter tumor grown from my spine... And we had to do surgery really quickly. I was in a lot of pain. And we removed the vertebrae and most of the cancer, and did a spinal fusion with a titanium frame, we did radiation, we did chemo... And I did my first Single Patient IND. Since 2017 I've invested in one other Y Combinator company, and over time that guy became my best friend. His wife became my wife's best friend. And every time he was fundraising, the investors wouldn't put any money in. And every time, I said "This doesn't make any sense to me, that they're reluctant to put money in. I'll finance the company." So over time, I became his biggest investor. And what he's doing is combining drugs with binders through click chemistry, allowing you to target different parts of the body. And when I became so very sick, he made a -- we asked for an exception to treat me with his drug. And we got that exception.
 
-\[00:08:24.01\] And we did all the treatments. And then two years later, in '24, the cancer started growing again. And the doctor said "You're done with standard of care. There's no more treatment we have for you. Maybe there's a trial somewhere..." And I started looking around... I have a weird HLA type, which disqualified me from a few trials... And I have bone cancer, osteosarcoma, which is kind of a rare disease... So there wasn't anything for me. And it was my "Oh, s\*\*t" moment. Like "Oh, s\*\*t. If I don't move, I'm going to be dead soon." I had to step down as a CEO, because I needed to focus my full attention on this.
+\[08:24\] And we did all the treatments. And then two years later, in '24, the cancer started growing again. And the doctor said "You're done with standard of care. There's no more treatment we have for you. Maybe there's a trial somewhere..." And I started looking around... I have a weird HLA type, which disqualified me from a few trials... And I have bone cancer, osteosarcoma, which is kind of a rare disease... So there wasn't anything for me. And it was my "Oh, s\*\*t" moment. Like "Oh, s\*\*t. If I don't move, I'm going to be dead soon." I had to step down as a CEO, because I needed to focus my full attention on this.
 
 I started talking to anyone, traveling anywhere, I went to the medical conferences. I went as far as China to get scans... And I started doing maximal diagnostics, making my own treatments, doing treatments in parallel, and trying to scale that for other people.
 
@@ -58,7 +58,7 @@ And so that's been the journey I've been on in over this last year. It's been a 
 
 What you don't want to do is combine two things that both hit the kidneys, because your kidneys are going to be over capacity, and that's not good. So every time we combine treatments, I have for example a pathologist in my tumor board to look at like "Hey, can we combine these things?" And we also look at my own markup, including genetics, but also histochemistry, where you kind of -- we do color slides, and we do multiplexing, so we can color multiple things...
 
-\[00:12:09.20\] For example, I told you I went to China three months ago, and I did that to get the first B7H3 scan available to me. And because of what we learned there, we were able to kind of change the development of one of the drugs I'm developing to remedy what we saw. We saw in China that I have higher B7H3 expression in the liver than any one of the 20 patients they saw before. And we decided to combine that medicine with something that's rarely expressed in the liver, so it's not going to destroy my liver going forward.
+\[12:09\] For example, I told you I went to China three months ago, and I did that to get the first B7H3 scan available to me. And because of what we learned there, we were able to kind of change the development of one of the drugs I'm developing to remedy what we saw. We saw in China that I have higher B7H3 expression in the liver than any one of the 20 patients they saw before. And we decided to combine that medicine with something that's rarely expressed in the liver, so it's not going to destroy my liver going forward.
 
 So what I'm trying to do is kind of be first principles about it, instead of kind of relying on evidence for the ability to combine, because that evidence - it doesn't exist, because no one has the incentive to do that.
 
@@ -88,7 +88,7 @@ I've also started in the meantime six companies to scale treatments for other pe
 
 **Sid Sijbrandij:** Yeah, for sure. I might have been one of the first people to do single cell sequencing as an individual patient, outside of the context of a trial. It's kind of a strange name, because you're not sequencing a single cell, you're sequencing thousands of cells, but you're kind of -- you're able to see the genetic markup of each cell, and you're able to see what the tumor is looking like, which cells are in there, how do they behave, and what's their genetic markup. It's an incredible, powerful technology.
 
-\[00:16:10.01\] We compared that to an atlas of kind of what bone marrow should look like... We zoomed in, we were able to kind of zoom in on the cancer cells. And one thing we noticed is that they had a lot of fibroblast. Fibroblast is kind of scar tissue. And we were aware of a treatment in Germany, an experimental treatment that has an FAP binder that binds to fibroblasts, and then the other side you put a radioactive element. Lutetium or Actinium.
+\[16:10\] We compared that to an atlas of kind of what bone marrow should look like... We zoomed in, we were able to kind of zoom in on the cancer cells. And one thing we noticed is that they had a lot of fibroblast. Fibroblast is kind of scar tissue. And we were aware of a treatment in Germany, an experimental treatment that has an FAP binder that binds to fibroblasts, and then the other side you put a radioactive element. Lutetium or Actinium.
 
 And I did two treatments there, with incredibly good results. First of all, no side effects. I couldn't detect any. And we saw 60% necrosis, and 20% shrinkage, which - considering it was only two treatments, that was a great result. And my cancer is in my back near my spinal cord. Because of the shrinkage, it detached from the spinal cord, allowing a really talented surgeon to go in and go after it, and remove most of it surgically, which wasn't possible before.
 
@@ -130,7 +130,7 @@ So a lot of drugs, you just give them to the entire body, like a standard chemo 
 
 **Jerod Santo:** Wow.
 
-**Adam Stacoviak:** \[00:19:49.01\] Can you talk about the type of cancer, the sarcoma? There's like 70 different types. And I ask this question because I have a dear friend of me and my wife's who passed away probably 14 years ago, and she had sarcoma in her lungs. She was actually studying in Houston, which is a very popular place for cancer research, at least here in the States... It's one of the capitals of cancer research. And she was studying to become a doctor in this field. And actually, not through her lab time or anything like that, but she came to actually get the cancer. I don't know how to describe getting cancer, if it just develops or if it grows, or what actually gives the cancer to you... But she developed the same sarcoma cancer that she was studying. And it was just really, really...
+**Adam Stacoviak:** \[19:49\] Can you talk about the type of cancer, the sarcoma? There's like 70 different types. And I ask this question because I have a dear friend of me and my wife's who passed away probably 14 years ago, and she had sarcoma in her lungs. She was actually studying in Houston, which is a very popular place for cancer research, at least here in the States... It's one of the capitals of cancer research. And she was studying to become a doctor in this field. And actually, not through her lab time or anything like that, but she came to actually get the cancer. I don't know how to describe getting cancer, if it just develops or if it grows, or what actually gives the cancer to you... But she developed the same sarcoma cancer that she was studying. And it was just really, really...
 
 **Sid Sijbrandij:** Bizarre.
 
@@ -146,7 +146,7 @@ And I opened up the report, and I read my death sentence. It had spread to 50 si
 
 And so I walked out of the room, collected my thoughts for 10 minutes, called my wife, called in my CFO, CLO... I'm like "This is the situation. What do we do? Are we gonna tell, or not?" I decided to tell. And we all took a long walk together, my doctor started coming in, "So sorry for you. So sorry for you. So sorry for you." And then the last doctor basically to chime in was like "Yeah, 60% chance this isn't cancer."
 
-**Jerod Santo:** \[00:24:17.20\] Say what...?
+**Jerod Santo:** \[24:17\] Say what...?
 
 **Sid Sijbrandij:** I give a call, like \[unintelligible 00:24:19.17\] what do you see?"
 
@@ -184,7 +184,7 @@ And so I walked out of the room, collected my thoughts for 10 minutes, called my
 
 **Sid Sijbrandij:** Yeah, we assume that it's not gone. The only reason it'd be gone -- we know that the surgery didn't cure it, that they left so-called positive margins. So they left cancer. The only thing that was remarkable - the cancer we removed, we were able to flash free some of it, which is amazing... For people with cancer, it's way better to flash free stuff, because it allows you to do many, many more diagnoses on it later than if you do the standard, which is FFPE... Which preserves it, but it precludes you from doing a ton of tests.
 
-\[00:27:54.11\] So if you want to have an active role in your treatment, you've got to convince the hospital to flash free some of it, so that you preserve optionality to run these diagnostics later. And what we saw was that the T-cell infiltration went up a lot. It went up from 20% to 90%. So the place was buzzing with T-cells, which is a good thing... And we think that is a combination of the two checkpoint inhibitors that I'm taking, that kind of unleash your immune system... And one experimental treatment that is an oncolytic virus, so like a modified common cold virus that drops the TGF-beta. The TGF-beta is something the cancer uses to hide from the immune system, and it kind of tears away that invisibility cloak. So that's good news.
+\[27:54\] So if you want to have an active role in your treatment, you've got to convince the hospital to flash free some of it, so that you preserve optionality to run these diagnostics later. And what we saw was that the T-cell infiltration went up a lot. It went up from 20% to 90%. So the place was buzzing with T-cells, which is a good thing... And we think that is a combination of the two checkpoint inhibitors that I'm taking, that kind of unleash your immune system... And one experimental treatment that is an oncolytic virus, so like a modified common cold virus that drops the TGF-beta. The TGF-beta is something the cancer uses to hide from the immune system, and it kind of tears away that invisibility cloak. So that's good news.
 
 We don't super-think that that's curative, but I'm gearing up in two weeks to take an mRNA vaccine, and that's like a 50/50 of curative... But there's a reason we have like 10 drugs in the pipeline. It's where we're trying to cover all our bases, and we'd rather have a drug too many than one too few.
 
@@ -194,7 +194,7 @@ We don't super-think that that's curative, but I'm gearing up in two weeks to ta
 
 **Sid Sijbrandij:** Yeah. So the mRNA is potentially curative, so in that case you're kind of -- you're done with this. But it's certainly like buying time. You've gotta have enough treatments to make it to the new development. Both science advancing, and some of these drugs that I'm developing - they just take years, many years to develop. So you want to make sure you make it to the next spot, and hopefully in as good of a state as you can, with hopefully no metastatic cancer, hopefully no fried kidneys.
 
-**Break**: \[00:30:01.13\]
+**Break**: \[30:01\]
 
 **Adam Stacoviak:** What does day to day like for you? ...maybe in the last six months, how is your life in terms of how you live? What are the things you focus on? Are you traveling a ton to obviously do research, or get treated? What's the day to day in your life right now?
 
@@ -224,7 +224,7 @@ We don't super-think that that's curative, but I'm gearing up in two weeks to ta
 
 **Sid Sijbrandij:** We're thinking if a feature is more appealing for managers or executives, that's where they need to pay. So for our teams functionality, for example, to see AI adoption throughout an organization - that's paid functionality, 15 bucks per user per month. And then we also have an enterprise version with features that appeal to executives, like centralized, bring your own keys, so they can send it to Bedrock, in their VPC.
 
-**Jerod Santo:** \[00:36:07.26\] That makes total sense. So are you working on models as well, or are you just model-agnostic...? What's your look on that aspect of the world?
+**Jerod Santo:** \[36:07\] That makes total sense. So are you working on models as well, or are you just model-agnostic...? What's your look on that aspect of the world?
 
 **Sid Sijbrandij:** Yeah, we're not working on models ourselves. We're working very, very hard on supporting older models. So hundreds of models work, over 500. We're the most prominent launch partner for new models. So a lot of new models, a lot of stealth models are first launched on Kilo... And a lot of our users use free models, like Grok, Minimax, GLM, with Kilo.
 
@@ -240,7 +240,7 @@ What's your take on the current landscape of just the competitive nature, from n
 
 **Jerod Santo:** For sure. One of the challenges I remember for GitLab, which I think you all overcame, was because you wanted to be all-in-one and you were providing the entire software development life cycle tooling, almost every aspect of that you had startups and businesses that their entire focus was that one thing... Whether it was bug tracking, or observability, or deploying, or whatever it is. I feel like you're going to have the same situation here with Kilo, where there are people attacking separate slices of what you're trying to do... And I wonder how you're going to do all the things well.
 
-**Sid Sijbrandij:** \[00:40:18.04\] Yeah, the same way we did it with GitLab - go incredibly fast. If you look at where we've come from -- we only started in March, and now we have code reviews, deployment... All these things in one package. So we're moving extremely fast, also thanks to agentic coding, plus contributions. And I think we can even improve a little bit on working with the wider community. And yeah, when GitLab grew up, it was like "Oh, but Travis CI has already dominated the CI space." It's now like "Hey, CodeRabbit is already dominating code reviews." Just -- yeah, let us cook. We'll go faster than anybody else.
+**Sid Sijbrandij:** \[40:18\] Yeah, the same way we did it with GitLab - go incredibly fast. If you look at where we've come from -- we only started in March, and now we have code reviews, deployment... All these things in one package. So we're moving extremely fast, also thanks to agentic coding, plus contributions. And I think we can even improve a little bit on working with the wider community. And yeah, when GitLab grew up, it was like "Oh, but Travis CI has already dominated the CI space." It's now like "Hey, CodeRabbit is already dominating code reviews." Just -- yeah, let us cook. We'll go faster than anybody else.
 
 **Jerod Santo:** \[laughs\] You've got the same people working on it, or how do you know you can cook so fast? I mean, it worked the last time, but... Was it the same team? Because talented people make good products.
 
@@ -254,7 +254,7 @@ The way I would look at it is it used to be that you needed like a team of seven
 
 There's still a lot to do. For example, Kilo has a functionality that's orchestrate. With orchestrate you say "This is what I want to achieve. Split it up into separate jobs." So each of those jobs have small context windows. Because small context windows means it's cheaper to run, it's faster to run, but most importantly, it's not going to lose half of its context because it's kind of getting to the maximum context window that's effective.
 
-\[00:44:05.04\] But in the coming weeks we'll ship something where those different agents are now able to work in parallel. And you can do a runoff, especially if you're using these free models. You might as well have two models work, and then see which one has a better result. So I think we're going from you have one working directory today, to in the future you have multiple tasks running in parallel, and each of those tasks is running multiple types of agents, because it's hard to predict upfront which agent will be the best in any given thing.
+\[44:05\] But in the coming weeks we'll ship something where those different agents are now able to work in parallel. And you can do a runoff, especially if you're using these free models. You might as well have two models work, and then see which one has a better result. So I think we're going from you have one working directory today, to in the future you have multiple tasks running in parallel, and each of those tasks is running multiple types of agents, because it's hard to predict upfront which agent will be the best in any given thing.
 
 **Jerod Santo:** Right. That sounds cool. It also sounds expensive. I suppose commodity pricing just keeps going down... Is that the approach here, just innovation and investment brings down the price of agentic coding?
 
@@ -314,7 +314,7 @@ There's still a lot to do. For example, Kilo has a functionality that's orchestr
 
 **Jerod Santo:** Right. It'll be worth it, because one human plus all that is more effective than however many humans would cost you that $10,000.
 
-**Adam Stacoviak:** \[00:48:07.13\] "Doing what?" I guess is the question. Is it just coding? Is it just planning --
+**Adam Stacoviak:** \[48:07\] "Doing what?" I guess is the question. Is it just coding? Is it just planning --
 
 **Jerod Santo:** Starting Sid's next business, man. I mean, this guy's got business coming out of his ears.
 
@@ -356,7 +356,7 @@ There's still a lot to do. For example, Kilo has a functionality that's orchestr
 
 **Adam Stacoviak:** Can you be specific in any way? ...like what blew your mind, I suppose.
 
-**Sid Sijbrandij:** \[00:51:57.23\] What you're looking for with RNA is not so much -- you have the genetics, but what's actually happening at the cell level, what's being expressed, and what are potential pathways that are overexpressed and you can target. Because I know from the genetic, there's something that sounds like a party drug, but isn't. MDM2 is overexpressed... But I want to see how the thing it acts on, the p53 division, how that's going in my cell. And there's better examples here, but I'd have to ask ChatGPT for them. I don't want to be distracted while talking with you...
+**Sid Sijbrandij:** \[51:57\] What you're looking for with RNA is not so much -- you have the genetics, but what's actually happening at the cell level, what's being expressed, and what are potential pathways that are overexpressed and you can target. Because I know from the genetic, there's something that sounds like a party drug, but isn't. MDM2 is overexpressed... But I want to see how the thing it acts on, the p53 division, how that's going in my cell. And there's better examples here, but I'd have to ask ChatGPT for them. I don't want to be distracted while talking with you...
 
 **Adam Stacoviak:** For sure.
 
@@ -372,7 +372,7 @@ There's still a lot to do. For example, Kilo has a functionality that's orchestr
 
 **Jerod Santo:** Yeah, it truly is amazing where it stands today, and also where it's headed, which none of us can really know, but we can see that trajectory moving us forward.
 
-**Break**: \[00:56:15.13\]
+**Break**: \[56:15\]
 
 **Jerod Santo:** You mentioned $10,000 a month, something like this, with a human and then some agents doing their thing in the future. I just saw a post today about Cursor... Someone was paying $1,400 a month for Cursor, and someone was saying that's ridiculous, and then the other person saying it's worth it, etc, etc. We can have these kind of battles... But it made me think back to Kilo, because I did see on your homepage you're kind of trying to attract Cursor customers. I think there's even a billboard somewhere in the Valley, calling all Cursors over to Kilo. Can you explain the angle, the relationship? I'm sure we have plenty of Cursor users listening to the pod who are very familiar with that particular tool? ...and maybe use that as a way to explain what Kilo looks like and how it works and all that.
 
