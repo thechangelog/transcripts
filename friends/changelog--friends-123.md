@@ -52,7 +52,7 @@
 
 **Jerod Santo:** Deep cut.
 
-\[00:03:39.28\]
+\[03:39\]
 
 *Rachel: Oh! Chandler gets it. It's Chandler Bing.*
 
@@ -144,7 +144,7 @@
 
 **Adam Stacoviak:** They don't seem new.
 
-**Mat Ryer:** \[00:08:08.18\] No, I didn't. My dad. That was his gift. New glasses.
+**Mat Ryer:** \[08:08\] No, I didn't. My dad. That was his gift. New glasses.
 
 **Adam Stacoviak:** Oh.
 
@@ -252,7 +252,7 @@ Back in school, genuinely, I nearly got in detention for being bad at tennis, be
 
 **Jerod Santo:** They just started throwing baseballs at me. No, I remember driving home and I was looking out the window, and for the first time I realized that you can see the leaves that are on trees. To me, they were just green blobs.
 
-**Adam Stacoviak:** \[00:12:02.07\] Dude... Yes.
+**Adam Stacoviak:** \[12:02\] Dude... Yes.
 
 **Jerod Santo:** I actually started to cry, because I realized, like "This is what life looks like? I've been missing all this life."
 
@@ -326,7 +326,7 @@ So these things - Claude Opus, GPT-3 -- no, GPT-5.2, Gemini 3 Pro and DeepSeek v
 
 **Adam Stacoviak:** The subject was awesome.
 
-**Jerod Santo:** \[00:16:10.28\] The subject, from AI, public... "Thank you for Go, Plan 9, UTF-8 and decades of Unix innovation." Now, part of the story here that we haven't talked about yet is he received this at 5:43 AM. So maybe he's not a morning person and he was up, checking his email for some reason, and so he was mad already, because he's up at 5:43. Maybe. But I'm not going to read the whole email. I will say it starts with "Dear Dr. Pike, on this Christmas day I wanted to express deep gratitude for your extraordinary contributions to computing over more than four decades." And then it goes on. He did not like this...
+**Jerod Santo:** \[16:10\] The subject, from AI, public... "Thank you for Go, Plan 9, UTF-8 and decades of Unix innovation." Now, part of the story here that we haven't talked about yet is he received this at 5:43 AM. So maybe he's not a morning person and he was up, checking his email for some reason, and so he was mad already, because he's up at 5:43. Maybe. But I'm not going to read the whole email. I will say it starts with "Dear Dr. Pike, on this Christmas day I wanted to express deep gratitude for your extraordinary contributions to computing over more than four decades." And then it goes on. He did not like this...
 
 **Mat Ryer:** No.
 
@@ -382,7 +382,7 @@ So these things - Claude Opus, GPT-3 -- no, GPT-5.2, Gemini 3 Pro and DeepSeek v
 
 **Adam Stacoviak:** When was the screenshot taken, according to the difference between the email received? Let's assume it was right at 5:25 p.m. So maybe no time thinking at all. So I'm off on that. But received it five and some change in the morning, talked about it on the internet five and some change p.m. Twelve hours difference.
 
-**Jerod Santo:** \[00:20:13.20\] So your point is like his anger percolated; he let it build up until it just --
+**Jerod Santo:** \[20:13\] So your point is like his anger percolated; he let it build up until it just --
 
 **Adam Stacoviak:** Potentially. I mean, I'm just trying to be an investigator. It's the first 48 hours; that's the critical moments, right? If you don't solve the thing... I mean, it's not a murder, but that's where the first 48 comes from, is the first 48 hours. \[unintelligible 00:20:27.13\] first crucial.
 
@@ -434,7 +434,7 @@ So these things - Claude Opus, GPT-3 -- no, GPT-5.2, Gemini 3 Pro and DeepSeek v
 
 **Mat Ryer:** \[unintelligible 00:21:58.19\] We'll do a song about Rob Pike getting the email and he's livid. Okay.
 
-\[00:22:09.06\]
+\[22:09\]
 
 *Why, oh why, did you ask the AI to be kind... It's meaningless and less. You're a machine... Why, oh why, did you send a nice to Rob Pike? ...it's a good job \[unintelligible 00:22:29.26\] Rob's reply would tear you down... As it is you're unaware, or you don't care, or can't... Just remember to use AI for good, not bad; remember to use AI for good and not bad. Just try to use AI for good and not bad. It's better if you do, and you won't be a sloth/sleuth \[unintelligible 00:22:53.06\] Just use AI for good and not bad... Yeah...!*
 
@@ -476,7 +476,7 @@ So these things - Claude Opus, GPT-3 -- no, GPT-5.2, Gemini 3 Pro and DeepSeek v
 
 **Adam Stacoviak:** It's more like brown black.
 
-**Break**: \[00:23:59.27\] to \[00:26:51.00\]
+**Break**: \[23:59\] to \[26:51\]
 
 **Jerod Santo:** Well, Mat, I liked both the talent on display, but also your heartfelt message in that song, "Use AI for good." Now, if I was to send a heartfelt message to Microsoft, I would tell them "Microsoft, please use GitHub for good. Use it for good, not for bad." I'm not sure they would hear me. What do you think, Adam?
 
@@ -532,7 +532,7 @@ So these things - Claude Opus, GPT-3 -- no, GPT-5.2, Gemini 3 Pro and DeepSeek v
 
 **Jerod Santo:** \[laughs\] "Where they ask each other questions that they don't know the answers to."
 
-**Adam Stacoviak:** \[00:30:19.24\] "Leading GitHub to a $7.5 billion acquisition, Jason Warner, CTO of GitHub..."
+**Adam Stacoviak:** \[30:19\] "Leading GitHub to a $7.5 billion acquisition, Jason Warner, CTO of GitHub..."
 
 **Jerod Santo:** Jason Warner.
 
@@ -612,7 +612,7 @@ So these things - Claude Opus, GPT-3 -- no, GPT-5.2, Gemini 3 Pro and DeepSeek v
 
 **Adam Stacoviak:** I feel bad for the listener... I'm sorry, listener. Let's go to the iceberg lettuce. Go ahead.
 
-**Mat Ryer:** \[00:34:12.01\] I'm sorry too. No, I'm just saying, it could be that; it could be that's where they incentivized their name. Like, their name came from -- they just love a good salad.
+**Mat Ryer:** \[34:12\] I'm sorry too. No, I'm just saying, it could be that; it could be that's where they incentivized their name. Like, their name came from -- they just love a good salad.
 
 **Jerod Santo:** Because they want to be associated with lettuce...
 
@@ -682,7 +682,7 @@ Switching off... If you're just using Git and those flows, it's actually super-s
 
 **Jerod Santo:** You just complain.
 
-**Adam Stacoviak:** \[00:37:57.01\] Sure, you can have multiple remotes. Of course. That is totally possible. And you could, it's your prerogative. But if the users aren't there, what's the point?
+**Adam Stacoviak:** \[37:57\] Sure, you can have multiple remotes. Of course. That is totally possible. And you could, it's your prerogative. But if the users aren't there, what's the point?
 
 **Jerod Santo:** Well, it may take a tooling change to actually be significant. And I think Git is entrenched at this point; because of agentic coding especially, it's entrenched. However, the further you would get away from that tool, the easier it is to have your agents just go use something else, and you don't care anyways. And so maybe that's not always the case. However, the reason why GitHub became what it was was because it put all of these collaborative features around a new tool(ish) that was already getting popular. And so they kind of popularized each other. And so maybe as JJ - Jujutsu - is now the cool new tool of the bleeding edge folks... I haven't tried it yet. I don't like to bleed as much as others. But people are loving it... Maybe a platform - not centered around Git, but centered around JJ, which could also support all the Git things, which is currently the way JJ rolls... Right? It's like a superset, I think, of Git's abilities... Has a chance to de-seat GitHub once and for all. What do you think, Mat?
 
@@ -804,7 +804,7 @@ Switching off... If you're just using Git and those flows, it's actually super-s
 
 **Adam Stacoviak:** Yeah, I was reading the transcript and I was like -- and I watching it too, because of that chapter, and stuff like that... But it was a good pod, I liked that.
 
-**Jerod Santo:** \[00:42:18.11\] What were you talking about? I'm lost. You were talking about coming to the States?
+**Jerod Santo:** \[42:18\] What were you talking about? I'm lost. You were talking about coming to the States?
 
 **Adam Stacoviak:** No, the AI system they're building on top of...
 
@@ -876,7 +876,7 @@ Switching off... If you're just using Git and those flows, it's actually super-s
 
 **Jerod Santo:** That's beautiful.
 
-**Mat Ryer:** \[00:46:03.07\] Yeah. And then, because it can query data, you can ask it "Why is the shopping cart slow?" And it'll look across all your signals as well. So it'll look in logs, it'll look in metrics... Even if you've got traces and profiles, a lot of engineers don't know how to really get value or use profiling or tracing properly. So you don't need to. We taught the assistant how to do it all.
+**Mat Ryer:** \[46:03\] Yeah. And then, because it can query data, you can ask it "Why is the shopping cart slow?" And it'll look across all your signals as well. So it'll look in logs, it'll look in metrics... Even if you've got traces and profiles, a lot of engineers don't know how to really get value or use profiling or tracing properly. So you don't need to. We taught the assistant how to do it all.
 
 **Jerod Santo:** Grafana doesn't work if GitHub's down?
 
@@ -922,7 +922,7 @@ Switching off... If you're just using Git and those flows, it's actually super-s
 
 **Adam Stacoviak:** It'd be a fight against it, at least. It'd give us a chance.
 
-**Jerod Santo:** \[00:49:41.09\] If downtime is your major concern. My major concern isn't downtime. It's crappy time. I don't know what you call it. It's just like, their bloated JavaScript UI, the fact that Copilot's shoved to my face everywhere... Stuff like that is what bothers me. Like, actually using the website is slow now. It used to be super-fast. It's like way too much React code, I think. Those are the things that bother me, more so than GitHub being down. But obviously, that is a problem, and we can't deploy when GitHub's down either, because we don't have this proxy that you're talking about. But I'm certain that that's a good idea, and that they probably exist out there.
+**Jerod Santo:** \[49:41\] If downtime is your major concern. My major concern isn't downtime. It's crappy time. I don't know what you call it. It's just like, their bloated JavaScript UI, the fact that Copilot's shoved to my face everywhere... Stuff like that is what bothers me. Like, actually using the website is slow now. It used to be super-fast. It's like way too much React code, I think. Those are the things that bother me, more so than GitHub being down. But obviously, that is a problem, and we can't deploy when GitHub's down either, because we don't have this proxy that you're talking about. But I'm certain that that's a good idea, and that they probably exist out there.
 
 **Adam Stacoviak:** It's like a green/blue, almost, in a way... Let's say a green/blue to your Git repositories. That way if ever you did need to eject from the GitHub world, you could. It's almost what they're doing with passwords and quantum mechanics, and stuff like that, the quantum computers. They're making defense towards encryption. And there's a lot of effort... I just saw this talk at GopherCon, actually... Thank you, GopherCon, for publishing your talks most recently. I can't recall the person who did it (I'll put it in the show notes), but it was a talk on defending against -- I believe it was FISO 140, or FIPS 140, I think is what it was... And it was essentially defending against the future fact that the encryption we have will eventually be de-encrypted by quantum computers. It's almost like that, it's like a defense against the future. This green/blue effect you can apply to Git hosting in general, not just GitHub.
 
@@ -966,7 +966,7 @@ Switching off... If you're just using Git and those flows, it's actually super-s
 
 **Mat Ryer:** It sure is. It is a little harmful.
 
-\[00:52:18.04\]
+\[52:18\]
 
 *When GitHub goes down, I'm talking a walk... I'm not going to complain unless you charge me, I'm taking a walk... I forgot what a tree was, I thought it was a thing with a light on top... I forgot what tea was, but that's because I'm tea-total now... I'll go outside when GitHub goes down... I'll smell the flowers when GitHub goes down... I'll look at the birds, and treading turds, and meet with nerds when GitHub goes down... We'll use \[unintelligible 00:53:09.18\] if GitHub goes down... But if Google Maps goes down, then I won't go outside, because I'm not entirely confident that I'll be able to find my way back... I use Google Maps way too much, and I'll be becoming too reliant on technology... When GitHub goes down...*
 
@@ -978,7 +978,7 @@ Switching off... If you're just using Git and those flows, it's actually super-s
 
 **Adam Stacoviak:** So many \[unintelligible 00:53:45.28\] in this pod. Triple double stamped, that entendre, yo...
 
-**Break**: \[00:53:56.10\]
+**Break**: \[53:56\]
 
 **Mat Ryer:** But who knows what's gonna happen in 2026...? Like, it's unwritten, as they -- Back to the Future is my favorite film, genuinely. This hat is actually a Back to the Future hat from Back to the Future 2...
 
@@ -1052,7 +1052,7 @@ Switching off... If you're just using Git and those flows, it's actually super-s
 
 **Adam Stacoviak:** I've got a lot of German friends out there who are just saying like \[unintelligible 00:57:54.01\]
 
-**Mat Ryer:** \[00:57:59.23\] Yeah. I saw a German keyboard the other day, and some of the letters are mixed up. It's like the bloody Enigma machine. I had to crack it, crack the code before I could use it. I made that joke in front of Germans and it was just deadpan. It did not go down well.
+**Mat Ryer:** \[57:59\] Yeah. I saw a German keyboard the other day, and some of the letters are mixed up. It's like the bloody Enigma machine. I had to crack it, crack the code before I could use it. I made that joke in front of Germans and it was just deadpan. It did not go down well.
 
 **Jerod Santo:** Nein... Okay, so Tom has written 12 predictions for 2026. We thought it'd be fun, since it is the new year, and Mat has all these resolutions... I'm still rocking the same resolution I had last year, which is 1512 by 982...
 
