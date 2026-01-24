@@ -90,7 +90,7 @@ So anyways, long story short, I just talked to a guy who built this whole soluti
 
 So anyways, we're seeing lots of that now. And I'm hopeful. And it's super exhilarating to see these ideas coming out because when you have people who are generally software developers, I don't mean to buck people up, but a lot of times there's, you know, deep focus on some super technical solution, looks perfect, runs perfect, structured in a certain way. But now I'm seeing these solutions by people who think way outside of the box and they're just trying to solve a problem. And I get to see how they solve that problem. And it's really cool to see because like, I might not have approached the problem the same way that they did. And so I get to see like a new perspective on coding.
 
-So I don't know. That's the other pieces of availability. So I think this year is the year for self-hosting software, for open-source software or for solutions in general to be able to run on your homelab because a lot of people are just going to be okay with the hardware that they had for a couple of years. And people like me who love to self-host stuff are always looking for like the next container app to run on your server. I'll fill you on that front there.
+So I don't know. That's the other pieces of availability. So I think this year is the year for self-hosting software, for open source software or for solutions in general to be able to run on your homelab because a lot of people are just going to be okay with the hardware that they had for a couple of years. And people like me who love to self-host stuff are always looking for like the next container app to run on your server. I'll fill you on that front there.
 
 **Adam Stacoviak:** I mean, I've been scratching little itches. That's how I'd say it. Question on Paperless is, can it handle books? I suppose this does the OCR and or the vision version of that. Books are cool too because one thing I'm doing is I'm trying to figure out how to get knowledge out of certain books I only own in paper that I can't even get in digital. Like, there's a lot of books that are just not like that. And I think, and great, I have this book, it's on my bookshelf over there. I've had it for years. I paid the author. I've paid the publisher. It's my copy. But I'm not going to go pick it up because that's the old way. Not that I don't read books. I still read, okay. I still read.
 
@@ -652,7 +652,7 @@ So that's where I'm at. I haven't gotten to the point where now I can put a lot 
 
 **Tim Stewart:** Okay.
 
-**Adam Stacoviak:** \[96:06\] Might be proxmoxhelperscripts.com. I'm not sure. But if you check it out, it's so awesome. I mean, it's worth looking at. Proxmox Helper Scripts, almost like a GitHub.io website. It is...
+**Adam Stacoviak:** \[96:06\] Might be proxmoxhelperscripts.com. I'm not sure. But if you check it out, it's so awesome. I mean, it's worth looking at. Proxmox Helper Scripts, almost like a github.io website. It is...
 
 **Tim Stewart:** Search that on the web.
 
