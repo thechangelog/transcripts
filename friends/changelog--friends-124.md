@@ -90,7 +90,7 @@
 
 **Jerod Santo:** That's not fun.
 
-**Adam Stacoviak:** \[00:07:47.23\] ...and so I decided to just let it roll. You know what I'm trying to say? I got upset with the amount of RAM usage on my machine... And while I liked the application, I was like "You know what? I'm just kind of tired of having four gigs--" I think it was -- no, it was like 1.2 gigs of RAM being used by Clean my Mac... Fancy little utility application, helps you tune, and pay attention, and stuff like that... And I decided to remake it, and that was it. So I remade it. It's called Mac Tuner. I know there used to be a MacTuner.com, which was, I think, a Mac Magazine, I believe... But Mac Tuner fit. I might change it, who knows... But for now it's called Mac Tuner. It does all the things, all the things. Analyze, clean up, uninstall... And not just that fake uninstall; the real one, where you get the dirty dirties out. You know what I'm saying, the dirties? All the dirties are out, okay?
+**Adam Stacoviak:** \[07:47\] ...and so I decided to just let it roll. You know what I'm trying to say? I got upset with the amount of RAM usage on my machine... And while I liked the application, I was like "You know what? I'm just kind of tired of having four gigs--" I think it was -- no, it was like 1.2 gigs of RAM being used by Clean my Mac... Fancy little utility application, helps you tune, and pay attention, and stuff like that... And I decided to remake it, and that was it. So I remade it. It's called Mac Tuner. I know there used to be a MacTuner.com, which was, I think, a Mac Magazine, I believe... But Mac Tuner fit. I might change it, who knows... But for now it's called Mac Tuner. It does all the things, all the things. Analyze, clean up, uninstall... And not just that fake uninstall; the real one, where you get the dirty dirties out. You know what I'm saying, the dirties? All the dirties are out, okay?
 
 **Gerhard Lazu:** My mind is on the dirty burger that you mentioned earlier... \[laughter\]
 
@@ -114,7 +114,7 @@
 
 **Jerod Santo:** You're starting to sweat?
 
-**Gerhard Lazu:** I think he just changed his mind about open-sourcing it.
+**Gerhard Lazu:** I think he just changed his mind about open sourcing it.
 
 **Jerod Santo:** Here's your domain name idea, Adam. \[unintelligible 00:09:45.15\]
 
@@ -134,7 +134,7 @@
 
 **Jerod Santo:** But it's going to be one day...
 
-**Adam Stacoviak:** One day. There's a bigger launch awaiting, is all I'll say. There's a bigger launch awaiting till I'm going to open-source some things.
+**Adam Stacoviak:** One day. There's a bigger launch awaiting, is all I'll say. There's a bigger launch awaiting till I'm going to open source some things.
 
 **Gerhard Lazu:** I've been using AppCleaner for many, many years... Now, there's no TUI, there's no CLI. It's just a regular app. It's a really old one.
 
@@ -164,7 +164,7 @@
 
 **Adam Stacoviak:** Okay.
 
-**Gerhard Lazu:** \[00:11:45.18\] Last time, when we finished Kaizen \#21, this was one of the last thoughts that we shared, which is what's next. So BAM... Remember BAM? That happened live. OOM crashes, out of memory crashes, and a bunch of other things. The good news is that only one thing happened. OOM crashes...
+**Gerhard Lazu:** \[11:45\] Last time, when we finished Kaizen \#21, this was one of the last thoughts that we shared, which is what's next. So BAM... Remember BAM? That happened live. OOM crashes, out of memory crashes, and a bunch of other things. The good news is that only one thing happened. OOM crashes...
 
 **Jerod Santo:** You've only got one thing to talk about... \[laughs\]
 
@@ -208,7 +208,7 @@ So how can you build a resilient system - and really, this is about resiliency -
 
 **Jerod Santo:** Yeah.
 
-**Gerhard Lazu:** \[00:16:12.15\] And Erlang is well renowned for that.
+**Gerhard Lazu:** \[16:12\] And Erlang is well renowned for that.
 
 **Jerod Santo:** Kind of the opposite philosophy that Go took, as I write some Go code and I write some Elixir code... Where with Go it's handle every error condition right after you potentially raise one, and make sure that there's no error. And if you're not dealing with it, then you're not writing robust software. And the other philosophy is "Let it crash and deal with it elsewhere." I think they're both legitimate, depending on what you're building.
 
@@ -234,7 +234,7 @@ So how can you build a resilient system - and really, this is about resiliency -
 
 When I say "too much memory", obviously it's a bit more complicated than that, because something was asking for memory, the kernel didn't have any more memory to allocate, so it just had to look at what needs to be killed, so that I can allocate more memory... Because something is using too much memory. And it just so happens it would be this process, and this thread. So how many crashes do you think that the Pipe Dream had since Kaizen 2021, since October? So we're talking about three months, maybe a bit more than that...
 
-**Jerod Santo:** \[00:20:16.01\] So Gerhard has presented us a multiple choice quiz. A is 20, B is 40, C is 80, D is 160. Now, I know that I personally receive an email every time this happens, and so I have a little bit of a feeler into this. I delete them, so I can't go do a quick search. Adam, do you get emails when these Fly things crash?
+**Jerod Santo:** \[20:16\] So Gerhard has presented us a multiple choice quiz. A is 20, B is 40, C is 80, D is 160. Now, I know that I personally receive an email every time this happens, and so I have a little bit of a feeler into this. I delete them, so I can't go do a quick search. Adam, do you get emails when these Fly things crash?
 
 **Adam Stacoviak:** I don't.
 
@@ -300,7 +300,7 @@ When I say "too much memory", obviously it's a bit more complicated than that, b
 
 **Gerhard Lazu:** Yeah. Or pause. We can also say pause. Now is a good time to pause. And then - what could be the problem? So you're right - all those large files. We had all the MP3 files; many, many MP3 files. They're large. All trying to be cached in memory. And that was a problem. So what is many? Well, we have thousands at this point, of MP3 files, across all the podcasts, since the beginning of time. Large - large means anywhere from 30-40 megabytes, to 100+ megabytes. So that's -- I mean, just think, if you had to load a thousand files, that take 100 megabytes... That's a lot of memory that you need to have available.
 
-\[00:24:30.17\] And the problem is that once you store these large files, as we discovered, you get memory fragmentation, in that - imagine that you have all the memory available, you keep storing all these files, and at some point there's no more memory left. So what do you do? Well, you need to see what can you evict from memory, so that you can store the new file. So imagine that you evict a few of those objects, but maybe they aren't big enough, and you haven't evicted them fast enough. So then you have this big file that can't fit anywhere, because the sizes, the holes that you have in memory aren't big enough for this file to fit. And there's no defragmentation, or nothing like that that runs in the background... Which means that even though technically you kind of would have space in the memory, for the specific files you may not. And then it can't be stored in memory. Now, the thing in Varnish is actually called - I kid you not - n\_lru\_nuked.
+\[24:30\] And the problem is that once you store these large files, as we discovered, you get memory fragmentation, in that - imagine that you have all the memory available, you keep storing all these files, and at some point there's no more memory left. So what do you do? Well, you need to see what can you evict from memory, so that you can store the new file. So imagine that you evict a few of those objects, but maybe they aren't big enough, and you haven't evicted them fast enough. So then you have this big file that can't fit anywhere, because the sizes, the holes that you have in memory aren't big enough for this file to fit. And there's no defragmentation, or nothing like that that runs in the background... Which means that even though technically you kind of would have space in the memory, for the specific files you may not. And then it can't be stored in memory. Now, the thing in Varnish is actually called - I kid you not - N\_lru\_nuked.
 
 **Jerod Santo:** Nice.
 
@@ -312,7 +312,7 @@ So how badly did it nuke? Because we can measure this, we can look at this. And 
 
 **Gerhard Lazu:** Per second, exactly. And these happen so quickly; you have a huge rush of traffic coming in... And then nothing.
 
-**Break**: \[00:27:40.00\]
+**Break**: \[27:40\]
 
 **Gerhard Lazu:** So why is more traffic coming into the instance than going out? So this is the traffic that the instance is receiving. So we're receiving 2.29 gigabits, but we're only sending 145 megabits. Now is a good time to pause and think about why this is happening.
 
@@ -366,7 +366,7 @@ So how badly did it nuke? Because we can measure this, we can look at this. And 
 
 So the title of the pull request is "Storing MP3 files in the file cache." But that's the tip, right? The most obvious thing is, "Well, you either have lots and lots of memory to give varnish", which honestly would be impractical, in the sense that would be way too expensive to store all these files in memory. The next best thing is to have something like a file cache. And by the way, we're talking about open source Varnish. That's really important. Anyone can use this, anyone can configure this... You can configure a file cache, which will basically pre-allocate a file on disk, and that's where these large files will be stored. Pull request 44, the one that we're looking at, is in the Pipely repository. That's what this adds.
 
-\[00:34:19.08\] But there's significantly more stuff... And if I'm going to -- so there's quite a few files. I highlighted a few, so I'm going to look at this one... So it's not just that. You also need to tune, for example, thread pools, you need to tune the minimum, the maximum... You need to tune the workspace backend, like "How many memory structures get allocated?" You need to configure the nuke limit... And there's a couple more things that we had to go through, just to make things stable.
+\[34:19\] But there's significantly more stuff... And if I'm going to -- so there's quite a few files. I highlighted a few, so I'm going to look at this one... So it's not just that. You also need to tune, for example, thread pools, you need to tune the minimum, the maximum... You need to tune the workspace backend, like "How many memory structures get allocated?" You need to configure the nuke limit... And there's a couple more things that we had to go through, just to make things stable.
 
 Now, I'm just going to very quickly mention these things. You can go and have a look at the pull request to see what else went into it.. So this was the one file. The other one was the regions. That's another thing. Not all regions would suffer from this. So you don't want to allocate too much memory or too much CPU to regions where maybe they don't get a lot of traffic. And you would think that this thing is easy, but oh man, I have a surprise for you... You can't mix and match sizes easily in Fly. So you can't say "Create application groups, and this group will be the small group, and that group will be the big group, and this is just one application..."
 
@@ -380,7 +380,7 @@ And we have the TOML, we have the primary region... There's a couple of things h
 
 I'm going through the pull request to see if there's anything else. Oh man, this was a pain... So recreating -- like, writing tests for this. Everything is tested, in the sense that which requests would go, or basically which files would get cached in the file store, and which files would be cached in the memory store. So how do you write the tests? Some Varnish logging is included, you have to have anchors... There's quite a few things. So that's assetsbackend.vtc. And part of this - it was a huge refactoring.So if you look at the lines of code, I wouldn't say it's that many. 1,500 were added, and 1,470 were deleted. So not much changed. I mean, the net is 30 new lines were added. But there was a huge, massive refactoring part of this.
 
-\[00:38:21.16\] So there's -- again, this was, I think, two-three days of figuring it out, trying things, refactoring things... And if you think that an LLM can help you - well, you try this. \[laughs\] And it takes longer to go through those iterations than - if you know what you're looking for, it tends to be easier.
+\[38:21\] So there's -- again, this was, I think, two-three days of figuring it out, trying things, refactoring things... And if you think that an LLM can help you - well, you try this. \[laughs\] And it takes longer to go through those iterations than - if you know what you're looking for, it tends to be easier.
 
 Anyway, it's very dense, very specific, very difficult to make sure that it's doing the right thing. But it's all there. We have the mock backends, we're reusing things... We split the VCLs -- by the way, we finished the splits, so it's easier to reuse them. So there's quite a few things there.
 
@@ -428,7 +428,7 @@ So this is what we're going to do. "We", because AI.. We're going to copy all of
 
 **Jerod Santo:** Oh, I don't like any of them. I would probably start with Claude, and then I would go to Grok, and then I would go to ChatGPT, third.
 
-**Gerhard Lazu:** \[00:42:11.24\] Okay. So Claude, which one? Which version? Which model?
+**Gerhard Lazu:** \[42:11\] Okay. So Claude, which one? Which version? Which model?
 
 **Jerod Santo:** Opus, man. Give us the Opus.
 
@@ -488,7 +488,7 @@ So this is what we're going to do. "We", because AI.. We're going to copy all of
 
 **Jerod Santo:** You're welcome. I'm following...
 
-**Gerhard Lazu:** \[00:45:45.09\] So what's working well? Rock-solid stability. So by the way, the instance has been running for 5.4 days. We had all these improvements shipped, and we are able to observe how our busiest instance works... And that's what this is, basically. That was... The window moved. Cool. So after 5.4 days, zero child panics crashes, zero thread failures. This is important. It means no threads died, no threads had to be restarted; everything is healthy on this instance. It didn't crash. So this instance didn't crash.
+**Gerhard Lazu:** \[45:45\] So what's working well? Rock-solid stability. So by the way, the instance has been running for 5.4 days. We had all these improvements shipped, and we are able to observe how our busiest instance works... And that's what this is, basically. That was... The window moved. Cool. So after 5.4 days, zero child panics crashes, zero thread failures. This is important. It means no threads died, no threads had to be restarted; everything is healthy on this instance. It didn't crash. So this instance didn't crash.
 
 Zero lock contention across all subsystems. Your CPU cache lines are happy. Excellent hit ratio, 93%. We like that. We really like that. We have backend connection pooling, with a two to one reuse ratio, and memory pressure is minimal. 132 lru's in the last five days. Lru nukes. So very few objects had to be removed from memory. Thread pool property - 300 threads, zero queuing, zero drops. That's perfect.
 
@@ -562,7 +562,7 @@ Areas to investigate. Disk storage allocator failures... We have disk C fails...
 
 **Gerhard Lazu:** Concurrently, yes. I don't know, I'd say not very many. To our homepage?
 
-**Gerhard Lazu:** \[00:50:15.13\] The homepage.
+**Gerhard Lazu:** \[50:15\] The homepage.
 
 **Jerod Santo:** That'd be like 12. 12 requests a second.
 
@@ -612,7 +612,7 @@ Without your application servers breaking a sweat, storage is getting full... So
 
 **Jerod Santo:** I'm not sure Gemini knows what Steve Dore means either.
 
-**Gerhard Lazu:** \[00:53:51.06\] The problem is SMF disk C fail is at 19,000 plus, against only requests at a 73% failure rate for disk allocations. In the G space we have only 145 megabytes, while we have 48 gigabytes used. "You're effectively out of contiguous blocks or hitting the ceiling of the pre-allocated file." That sounds right. Varnish is forced to fall back to SMA RAM or simply not cache large objects. While SMA has 2.1 gigabytes free, the disk is thrashing. The hardware, "If this is spinning glass, your IO8 is likely spinning." It's not; it's NVME. So yeah, there's quite a few things there. Interesting is low, relative -- suggesting the lock contention on the shared memory log is negligible. Nice. We have low lock contention. The bottleneck is strictly at the storage layer. We just need basically a bigger disk.
+**Gerhard Lazu:** \[53:51\] The problem is SMF disk C fail is at 19,000 plus, against only requests at a 73% failure rate for disk allocations. In the G space we have only 145 megabytes, while we have 48 gigabytes used. "You're effectively out of contiguous blocks or hitting the ceiling of the pre-allocated file." That sounds right. Varnish is forced to fall back to SMA RAM or simply not cache large objects. While SMA has 2.1 gigabytes free, the disk is thrashing. The hardware, "If this is spinning glass, your IO8 is likely spinning." It's not; it's NVME. So yeah, there's quite a few things there. Interesting is low, relative -- suggesting the lock contention on the shared memory log is negligible. Nice. We have low lock contention. The bottleneck is strictly at the storage layer. We just need basically a bigger disk.
 
 The Elixir developer - let it crash proponent. I like it. Your app backend is rock solid. Well done, Jerod. Varnish hasn't seen a single backend fail or an unhealthy event in five days. The let it crash philosophy is working. If the app is crashing, it's recovering. So far, Varnish doesn't even notice. I don't think it is... I think the application is good. The good news is we're seeing an effective 75% hit rate. Now, this is different, right? We had 93% there, so I would like to understand the discrepancy. That's another reason why you should use more than one, by the way. And then obviously, double-check the data, because sometimes they give you things which aren't true... The crash concern - the disk cache is crashing. Again, this is not for the application developer. I think this is for the sysadmin in me, I think. The straight talk... Your main synth is high. So we have health checks. There's delta responses... So we have a lot of synthetic requests. Sorry, synthetic responses. This is, again, a Varnish thing.
 
@@ -634,7 +634,7 @@ The business person - efficiency we're currently serving of our traffic from Var
 
 **Gerhard Lazu:** That is fun. So I think Gemini is getting a bit funnier. The nightly feeds in the app are still humming along. Nice. So that's what we have... And that was only half the problem.
 
-**Break**: \[00:56:53.09\]
+**Break**: \[56:53\]
 
 **Gerhard Lazu:** That was only half the problem. So we're at the midpoint... \[laughs\]
 
